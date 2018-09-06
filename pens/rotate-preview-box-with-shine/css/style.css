@@ -20,14 +20,38 @@
   font-weight: 300;
 }
 
-.ag-reviews_single {
+.ag-reviews_box {
   width: 300px;
   margin: 0 auto;
 }
 
-.ag-reviews_backlight {
-  width: 350px;
+
+.ag-reviews_thumb {
   height: 200px;
+  /*width: 350px;*/
+
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+  -webkit-transform-origin: center;
+  -ms-transform-origin: center;
+  transform-origin: center;
+
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+
+  -webkit-transform: rotatex(0) rotatey(0);
+  -ms-transform: rotatex(0) rotatey(0);
+  transform: rotatex(0) rotatey(0);
+
+  position: relative;
+}
+.ag-reviews_backlight {
+  height: 200px;
+  /*width: 350px;*/
   background-color: rgba(255, 255, 255, .1);
 
   z-index: 1;
@@ -44,8 +68,8 @@
 }
 .ag-reviews_player,
 .ag-reviews_shine {
-  width: 350px;
   height: 200px;
+  /*width: 350px;*/
 
   position: absolute;
   top: 0;
@@ -94,6 +118,9 @@
   opacity: 1;
 }
 
+.ag-reviews_info {
+  padding: 15px 0;
+}
 .ag-reviews_name {
   line-height: 36px;
   padding: 0 0 30px;
@@ -116,7 +143,7 @@
 }
 
 
-
+/*
 .reviews__poster {
   position: relative;
   display: flex;
@@ -164,21 +191,7 @@
   background: radial-gradient(ellipse at center, rgba(255, 255, 255, .15) 0, rgba(255, 255, 255, 0) 70%)
 }
 .reviews .thumb {
-  position: relative;
-  width: 350px;
-  height: 200px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-  -webkit-transition: all .2s linear;
-  transition: all .2s linear;
-  -webkit-transform: rotatex(0) rotatey(0);
-  -ms-transform: rotatex(0) rotatey(0);
-  transform: rotatex(0) rotatey(0)
+
 }
 .reviews .thumb.idle:after, .reviews .thumb.idle:before {
   -webkit-transform: translatez(25px) translatey(0);
@@ -304,3 +317,4 @@
 .review-single__social .banner__social-link {
   margin: 0
 }
+*/
