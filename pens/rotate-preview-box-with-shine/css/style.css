@@ -22,9 +22,47 @@
 
 .ag-reviews_box {
   width: 300px;
-  margin: 0 auto;
+  margin: 150px auto;
 }
 
+.reviews_poster-inner {
+  height: 100%;
+
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjE1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9yYWRpYWxHcmFkaWVudD4KICA8cmVjdCB4PSItNTAiIHk9Ii01MCIgd2lkdGg9IjEwMSIgaGVpZ2h0PSIxMDEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+  background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,.15) 0, rgba(255,255,255,0) 70%);
+  background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,.15) 0,rgba(255,255,255,0) 70%);
+  background: radial-gradient(ellipse at center,  rgba(255,255,255,.15) 0,rgba(255,255,255,0) 70%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26ffffff', endColorstr='#00ffffff',GradientType=1 );
+
+  /*
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  */
+
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  -webkit-perspective: 300px;
+  perspective: 300px;
+
+  position: relative;
+}
 
 .ag-reviews_thumb {
   height: 200px;
@@ -48,6 +86,14 @@
   transform: rotatex(0) rotatey(0);
 
   position: relative;
+}
+.js-idle:after,
+.js-idle:before {
+  opacity: 1;
+
+  -webkit-transform: translatez(25px) translatey(0);
+  -ms-transform: translatez(25px) translatey(0);
+  transform: translatez(25px) translatey(0);
 }
 .ag-reviews_backlight {
   height: 200px;
@@ -165,35 +211,13 @@
   box-sizing: border-box
 }
 .reviews__poster .inner {
-  position: relative;
-  height: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-perspective: 300px;
-  perspective: 300px;
-  background: -webkit-radial-gradient(center ellipse, rgba(255, 255, 255, .15) 0, rgba(255, 255, 255, 0) 70%);
-  background: radial-gradient(ellipse at center, rgba(255, 255, 255, .15) 0, rgba(255, 255, 255, 0) 70%)
+
 }
 .reviews .thumb {
 
 }
-.reviews .thumb.idle:after, .reviews .thumb.idle:before {
+.reviews .thumb.idle:after,
+.reviews .thumb.idle:before {
   -webkit-transform: translatez(25px) translatey(0);
   -ms-transform: translatez(25px) translatey(0);
   transform: translatez(25px) translatey(0);

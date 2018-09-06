@@ -34,10 +34,14 @@ body {
   cursor: pointer;
 
   font-size: 40px;
+  color: #000;
 
   position: absolute;
   top: -5px;
   right: 5px;
+}
+.ag-popup_close:hover {
+  color: #777;
 }
 .ag-popup_box {
   width: 730px;
