@@ -2,18 +2,13 @@
   $(function () {
     
   var agAnimateList = $('.js-nominal-pay_list'),
-    agAnimateItem = $('.js-nominal-pay_list > li'),
-  agDuration = 500,
-  agEasing = 'linear',
-  agDelay = 2000,
-
-    agAnimateItemCount = agAnimateItem.length,
-    agBlock = $('.js-nominal-pay-block'),
-   agHeightBlock = agBlock.height();
-
-   console.log(agAnimateItemCount);
-   console.log(agBlock);
-   console.log(agHeightBlock);
+        agAnimateItem = $('.js-nominal-pay_list > li'),
+        agDuration = 500,
+        agEasing = 'linear',
+        agDelay = 2000,
+        agAnimateItemCount = agAnimateItem.length,
+        agBlock = $('.js-nominal-pay-block'),
+        agHeightBlock = agBlock.height();
 
     function startAnimate() {
       for (var i = 0; i < agAnimateItem.length ; i++) {
