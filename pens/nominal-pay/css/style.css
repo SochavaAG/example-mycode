@@ -1,0 +1,132 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-nominal-pay-block {
+  background: url(../images/nominal-pay.jpg) no-repeat scroll 50% 0 #00D6DE;
+  background-size: cover;
+
+  overflow-y: hidden;
+}
+.ag-nominal-pay_link {
+  position: relative;
+}
+.ag-nominal-pay_logo {
+  height: 100%;
+  min-width: 100px;
+  padding: 0 15px;
+  background-color: #E32145;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  -webkit-border-radius: 10% / 150%;
+  -moz-border-radius: 10% / 150%;
+  -ms-border-radius: 10% / 150%;
+  -o-border-radius: 10% / 150%;
+  border-radius: 10% / 150%;
+}
+.ag-nominal-pay_text-logo {
+  margin-top: -12px;
+
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFF;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+.ag-nominal-pay_list {
+  display: block;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 150px;
+  bottom: 0;
+}
+.ag-nominal-pay_item {
+  height: 100%;
+}
+.ag-nominal-pay_text-item {
+  padding: 15px 0 0;
+
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFF;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ag-nominal-pay_btn {
+  display: block;
+  float: right;
+  height: 30px;
+  line-height: 30px;
+  width: 230px;
+  margin: 10px 0;
+  padding: 0 15px;
+  border: 2px solid #FFF;
+  background-color: transparent;
+
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFF;
+
+  -webkit-border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -ms-border-radius: 15px 15px 15px 15px;
+  -o-border-radius: 15px 15px 15px 15px;
+  border-radius: 15px 15px 15px 15px;
+
+  -webkit-transition: background-color 0.2s ease;
+  -moz-transition: background-color 0.2s ease;
+  -o-transition: background-color 0.2s ease;
+  -ms-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
+}
+.ag-nominal-pay_btn:hover {
+  background-color: #E32145;
+  border: 2px solid #E32145;
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
