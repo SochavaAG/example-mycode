@@ -93,8 +93,8 @@
 
   -webkit-transition: background-color 0.2s ease;
   -moz-transition: background-color 0.2s ease;
-  -o-transition: background-color 0.2s ease;
   -ms-transition: background-color 0.2s ease;
+  -o-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
 }
 .ag-nominal-pay_btn:hover {
