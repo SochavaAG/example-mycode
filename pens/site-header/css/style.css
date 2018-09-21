@@ -5,7 +5,8 @@
 
 
 .ag-header {
-  background: url(../images/site-header.png) repeat scroll 50% 50% #F9FAFB;
+  /*background: url(../images/site-header.png) repeat scroll 50% 50% #F9FAFB;*/
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/site-header/images/site-header.png) repeat scroll 50% 50% #F9FAFB;
 
   text-align: center;
 
@@ -113,7 +114,8 @@
   display: inline-block;
   width: 16px;
   height: 17px;
-  background: url(../images/sprite-icons.png) no-repeat scroll 100% 0;
+  /*background: url(../images/sprite-icons.png) no-repeat scroll 100% 0;*/
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/site-header/images/sprite-icons.png) no-repeat scroll 100% 0;
 
   vertical-align: middle;
 }
@@ -132,6 +134,8 @@
   right: 0;
 }
 .ag-nav-search_row {
+  line-height: 1;
+
   white-space: nowrap;
 }
 .ag-nav-search_field {
