@@ -1,3 +1,7 @@
+/*
+  filter: progid:DXImageTransform.Microsoft.Matrix(M11=-1, M22=-1, SizingMethod='auto expand');
+  */
+
 .ag-format-container {
   width: 1142px;
   margin: 0 auto;
@@ -8,18 +12,12 @@
 
   overflow: hidden;
 
-  /*
-  transform: matrix(1.5, 0, 0, 1.5, 0, -498.5);
-  filter: progid:DXImageTransform.Microsoft.Matrix(M11=-1, M22=-1,
-  SizingMethod='auto expand');
-  */
-
   position: relative;
 }
 
 .ag-header_bg {
   height: 650px;
-  background: url(../images/animation-zooming-background.jpg) no-repeat scroll 50% 50% #003B56;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-zooming-background/images/animation-zooming-background.jpg) no-repeat scroll 50% 50% #003B56;
 
   z-index: -1;
   position: absolute;
@@ -50,6 +48,67 @@
   -ms-animation-delay: 2s;
   -o-animation-delay: 2s;
   animation-delay: 2s;
+}
+
+.ag-primary_title {
+  display: table-cell;
+  height: 650px;
+
+  vertical-align: middle;
+
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+  color: #FFF;
+}
+
+@-webkit-keyframes ag-animated-background {
+  0% {
+    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  50% {
+    -webkit-transform: matrix(1.25, 0, 0, 1.25, 0, 0);
+  }
+  100% {
+    -webkit-transform: matrix(1.5, 0, 0, 1.5, 0, 0);
+  }
+}
+
+@-moz-keyframes ag-animated-background {
+  0% {
+    -moz-transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  50% {
+    -moz-transform: matrix(1.25, 0, 0, 1.25, 0, 0);
+  }
+  100% {
+    -moz-transform: matrix(1.5, 0, 0, 1.5, 0, 0);
+  }
+}
+
+@-ms-keyframes ag-animated-background {
+  0% {
+    -ms-transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  50% {
+    -ms-transform: matrix(1.25, 0, 0, 1.25, 0, 0);
+  }
+  100% {
+    -ms-transform: matrix(1.5, 0, 0, 1.5, 0, 0);
+  }
+}
+
+@-o-keyframes ag-animated-background {
+  0% {
+    -o-transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  50% {
+    -o-transform: matrix(1.25, 0, 0, 1.25, 0, 0);
+  }
+  100% {
+    -o-transform: matrix(1.5, 0, 0, 1.5, 0, 0);
+  }
 }
 
 @keyframes ag-animated-background {
