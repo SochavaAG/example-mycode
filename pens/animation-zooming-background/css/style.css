@@ -1,0 +1,95 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-header {
+  height: 650px;
+
+  overflow: hidden;
+
+  /*
+  transform: matrix(1.5, 0, 0, 1.5, 0, -498.5);
+  filter: progid:DXImageTransform.Microsoft.Matrix(M11=-1, M22=-1,
+  SizingMethod='auto expand');
+  */
+
+  position: relative;
+}
+
+.ag-header_bg {
+  height: 650px;
+  background: url(../images/animation-zooming-background.jpg) no-repeat scroll 50% 50% #003B56;
+
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+
+  -webkit-animation: ag-animated-background 7s both linear;
+  -moz-animation: ag-animated-background 7s both linear;
+  -ms-animation: ag-animated-background 7s both linear;
+  -o-animation: ag-animated-background 7s both linear;
+  animation: ag-animated-background 7s both linear;
+
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+@keyframes ag-animated-background {
+  0% {
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  50% {
+    transform: matrix(1.25, 0, 0, 1.25, 0, 0);
+  }
+  100% {
+    transform: matrix(1.5, 0, 0, 1.5, 0, 0);
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
