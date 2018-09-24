@@ -1,55 +1,77 @@
 (function () {
   $(function () {
 
-   var  agModalOverlay = $('.js-ouibounce-modal_overlay'),
-     agModalBlock = $('.js-ouibounce-modal-block'),
-     agModalCloseBtn = $('.js-ouibounce-modal_btn-close');
+    var agModalFunc;
 
-    agModalCloseBtn.on('click', function(e) {
-      agModalOverlay.fadeToggle();
-      agModalBlock.fadeToggle();
-    });
+    agModalFunc = function() {
+      // if the current date is longer than now
+      if (new Date > new Date(2030, 1, 12, 0, 0)) {
+        return;
+      }
 
-    $(document).on('mouseout', function(e) {
-      agModalOverlay.fadeIn();
-      agModalBlock.fadeIn();
+      var TIME_INTERVAL = 1000 * 60 * 60, // One hour
+            agModalOverlay = $('.js-ouibounce-modal_overlay'),
+            agModalBlock = $('.js-ouibounce-modal-block-wrap'),
+            agModalCloseBtn = $('.js-ouibounce-modal_btn-close'),
+            agShowModalFunc,
+            agCloseModalFunc;
+
+      agShowModalFunc = function() {
+        agModalOverlay.fadeIn();
+        return agModalBlock.fadeIn();
+      };
+      agCloseModalFunc = function() {
+        agModalOverlay.fadeOut();
+        return agModalBlock.fadeOut();
+      };
+
+      $(document).on('mouseout', function(e) {
+        var agCurrentTime,
+              agFrom,
+              agLastShowTime,
+              agShowTimes;
+
+        agFrom = e.relatedTarget || e.toElement;
+        agShowTimes = parseInt(localStorage.getItem("agModalCountUsages")) || 0;
+        agLastShowTime = parseInt(localStorage.getItem("agModalLastShowTime")) || 0;
+        agCurrentTime = new Date().getTime();
+
+        if ((!agFrom || agFrom.nodeName === "HTML") && agShowTimes < 3 && agCurrentTime - agLastShowTime >= TIME_INTERVAL) {
+          agShowModalFunc();
+          localStorage.setItem("agModalCountUsages", agShowTimes + 1);
+          return localStorage.setItem("agModalLastShowTime", agCurrentTime);
+        }
+      });
+
+      // if you press the close button
+      agModalCloseBtn.on('click', function() {
+        agCloseModalFunc();
+      });
+
+
+      // if you click outside the modal block
+      $(document).mouseup(function (e) {
+        if (!agModalBlock.is(e.target) && agModalBlock.has(e.target).length === 0) {
+          agModalOverlay.fadeOut();
+          agModalBlock.fadeOut();
+        }
+      });
+
+      // if press key "Esc"
+      return $(document).bind('keyup', function(e) {
+        if (e.keyCode !== 27) {
+          return true;
+        }
+        if (e.keyCode === 27 && agModalBlock.is(':visible')) {
+          agCloseModalFunc();
+        }
+      });
+
+    };
+
+    $(document).ready(function() {
+      return agModalFunc();
     });
 
   });
 })();
-
-
-// https://www.alexa.com/topsites/countries/JP
-
-.on("hidden.bs.modal", function () {
-  e.cookie("ExitIntentPopupClosed", true, {path: "/", expires: 7})
-}),
-
-
-function h(ev) {
-  if (!$.cookie('ExitIntentPopupClosed')) {
-    ev.clientY;
-    var agScreenWidth = (window).width();
-    ev.clientY < 32 && ev.clientY < 30 && agScreenWidth > 700 && ($('#ExitIntent').is(':visible') || $('#ExitIntent').modal('show'))
-  }
-}
-
-
-
-
-
-// https://github.com/carlsednaoui/ouibounce
-var _ouibounce = ouibounce(document.getElementById('ouibounce-modal'), {
-  sensitivity: 20, // Чувствительность. Defaults to 20.
-  aggressive: false, // Агрессивный режим - модальное окно будет показываться постоянно
-  timer: 3000, // задержка перед срабатыванием скрипта
-  delay: 100, // задержка перед появлением модального окна
-  cookieExpire: 182 // Количество дней, прежде чем модальное появится для пользователя снова
-});
-
-$('.ouibounce-underlay, .ouibounce-modal-close').on('click', function () {
-  $('#ouibounce-modal').hide();
-});
-$('.ouibounce-modal').on('click', function (e) {
-  e.stopPropagation();
-});
