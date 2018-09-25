@@ -19,7 +19,7 @@ html, body{
 .ag-dark-blur {
   width: 100%;
   height: 100%;
-  background-image: url(https://static.canva.com/static/images/bg_tiles.2.jpg);
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/dark-blur/images/dark-blur.jpg);
   background-color: #3f4652;
   background-size: cover;
 
