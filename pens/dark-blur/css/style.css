@@ -4,12 +4,11 @@
 }
 
 
-html, body{
-  margin: 0;
+html, body {
   height: 100%;
 }
 
-.blurlayer {
+.js-ag-blurlayer {
   z-index: -1;
   position: absolute;
   left: 0;

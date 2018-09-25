@@ -54,7 +54,7 @@
           c=a.width();
           b=a.height();
           d=document.createElement("canvas");
-          d.className="blurlayer";
+          d.className="js-ag-blurlayer";
           d.width=c;
           d.height=b;
           a.append(d);
@@ -70,7 +70,7 @@
             if(!a.css("background-image")) throw Error("element must have a background image");
             $(g).one("load",n);
             // imagem clara
-            $(g).attr("src","https://static.canva.com/static/images/bg_tiles_color.2.jpg");
+            $(g).attr("src","https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/dark-blur/images/default-bg.jpg");
           }
         }
 
