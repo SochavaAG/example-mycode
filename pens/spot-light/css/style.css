@@ -6,19 +6,19 @@
 html, body {
   width: 100%;
   height: 100%;
-  margin: 0;
+
   overflow: hidden;
 }
 .ag-spot-light_bg {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to left, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/spot-light/images/spot-light.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  background-image: linear-gradient(to left, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://rharrington1992.files.wordpress.com/2012/10/a3-two11.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 
   filter: saturate(2);
 }
@@ -31,12 +31,20 @@ html, body {
 
   position: absolute;
 
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 
   mix-blend-mode: soft-light;
 
-  pointer-events: none;
+  pointer-events: none; /* Не реагирует на мышь */
 
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   border-radius: 50%;
 
   -webkit-transition: 200ms;
@@ -80,7 +88,6 @@ html, body {
   -o-transition: 300ms;
   transition: 300ms;
 }
-
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
