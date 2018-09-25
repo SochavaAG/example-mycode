@@ -1,0 +1,112 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+.ag-spot-light_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: linear-gradient(to left, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(https://rharrington1992.files.wordpress.com/2012/10/a3-two11.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  filter: saturate(2);
+}
+.ag-balls {
+  width: 150px;
+  height: 150px;
+  background: rgba(255,255,255,0.2);
+
+  filter: blur(10px);
+
+  position: absolute;
+
+  transform: translate(-50%, -50%);
+
+  mix-blend-mode: soft-light;
+
+  pointer-events: none;
+
+  border-radius: 50%;
+
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms;
+}
+.ag-ball-1 {
+  -webkit-transition: 100ms;
+  -moz-transition: 100ms;
+  -ms-transition: 100ms;
+  -o-transition: 100ms;
+  transition: 100ms;
+}
+.ag-ball-2 {
+  -webkit-transition: 150ms;
+  -moz-transition: 150ms;
+  -ms-transition: 150ms;
+  -o-transition: 150ms;
+  transition: 150ms;
+}
+.ag-ball-3 {
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms;
+}
+.ag-ball-4 {
+  -webkit-transition: 250ms;
+  -moz-transition: 250ms;
+  -ms-transition: 250ms;
+  -o-transition: 250ms;
+  transition: 250ms;
+}
+.ag-ball-5 {
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
