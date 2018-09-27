@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Menu and Lamp Light</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<header class="ag-header">
+  <div class="ag-format-container clearfix">
+    <a class="ag-logo_link" href="/">
+      <img alt="SochavaAG – Just Comfortable Coding" class="ag-logo_img" src="images/logo.svg">
+      <div class="ag-logo_tagline">The world trusted <strong class="ag-logo_tagline__strong">Wikyware</strong></div>
+      <img alt="SochavaAG – Just Comfortable Coding" class="ag-logo_img-mobile" src="images/logo-mobile.svg">
+    </a>
+
+    <div class="ag-menu_btn-wrap">
+      <div class="ag-menu_btn"></div>
+    </div>
+
+    <div class="ag-navbar-block">
+      <a href="/registration" class="ag-start_btn-reg">Registration</a>
+
+      <div class="ag-start-block">
+        <a href="/login" class="ag-start-login_link">Log in</a>
+        <div class="ag-start-login_panel">
+          <form id="ag-start-login_form" class="ag-start-login_form" action="/login" accept-charset="UTF-8" method="post">
+            <div class="ag-start-login_title-form">Log in</div>
+            <div class="ag-start-login_field">
+              <label class="ag-start-login_label" for="ag-start-login_input-email">Email:</label>
+              <input id="ag-start-login_input-email" class="ag-start-login_input" autofocus="autofocus" name="user[email]" type="email">
+            </div>
+
+            <div class="ag-start-login_field">
+              <label class="ag-start-login_label" for="ag-start-login_input-password">Password:</label>
+              <input id="ag-start-login_input-password" class="ag-start-login_input" name="user[password]" type="password">
+            </div>
+            <div class="ag-start-login_btn-wrap">
+              <input class="ag-start-login_btn" name="login_submit" value="Log in" type="submit">
+              <a href="/password_recovery" class="ag-start-login_link-recover">Forgot your password?</a>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="ag-language_box">
+        <div class="js-language_current ag-language_current">
+          <i class="ag-language_icons ag-language_icon-en"></i>
+          English
+        </div>
+        <div class="js-language_panel ag-language_panel">
+          <div class="ag-language_panel-arrow"></div>
+          <ul class="ag-language-region_list">
+            <li class="ag-language-region_item">
+              <div class="ag-language_title-list">Europe</div>
+              <ul class="ag-language_list">
+                <li class="js-language_item ag-language_item js-ag-language_item-active">
+                  <a href="javascript: void(0);" class="ag-language_link">
+                    <i class="ag-language_icons ag-language_icon-en"></i>
+                    English
+                  </a>
+                </li>
+                <li class="js-language_item ag-language_item">
+                  <a href="javascript: void(0);" class="ag-language_link">
+                    <i class="ag-language_icons ag-language_icon-ru"></i>
+                    Русский
+                  </a>
+                </li>
+                <li class="js-language_item ag-language_item">
+                  <a href="javascript: void(0);" class="ag-language_link">
+                    <i class="ag-language_icons ag-language_icon-es"></i>
+                    Español
+                  </a>
+                </li>
+                <li class="js-language_item ag-language_item">
+                  <a href="javascript: void(0);" class="ag-language_link">
+                    <i class="ag-language_icons ag-language_icon-fr"></i>
+                    Français
+                  </a>
+                </li>
+                <li class="js-language_item ag-language_item">
+                  <a href="javascript: void(0);" class="ag-language_link">
+                    <i class="ag-language_icons ag-language_icon-pt"></i>
+                    Português
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="ag-language-region_item">
+              <div class="ag-language_title-list">Asia</div>
+              <ul class="ag-language_list">
+                <li class="js-language_item ag-language_item">
+                  <a href="javascript: void(0);" class="ag-language_link">
+                    <i class="ag-language_icons ag-language_icon-id"></i>
+                    Bahasa Indonesia
+                  </a>
+                </li>
+                <li class="js-language_item ag-language_item">
+                  <a href="javascript: void(0);" class="ag-language_link">
+                    <i class="ag-language_icons ag-language_icon-my"></i>
+                    Bahasa Malaysia
+                  </a>
+                </li>
+                <li class="js-language_item ag-language_item">
+                  <a href="javascript: void(0);" class="ag-language_link">
+                    <i class="ag-language_icons ag-language_icon-cn"></i>
+                    简体中文
+                  </a>
+                </li>
+                <li class="js-language_item ag-language_item">
+                  <a href="javascript: void(0);" class="ag-language_link">
+                    <i class="ag-language_icons ag-language_icon-pk"></i>
+                    اردو
+                  </a>
+                </li>
+                <li class="js-language_item ag-language_item">
+                  <a href="javascript: void(0);" class="ag-language_link">
+                    <i class="ag-language_icons ag-language_icon-vi"></i>
+                    Tiếng Việt
+                  </a>
+                </li>
+                <li class="js-language_item ag-language_item">
+                  <a href="javascript: void(0);" class="ag-language_link">
+                    <i class="ag-language_icons ag-language_icon-ko"></i>
+                    한국어
+                  </a>
+                </li>
+                <li class="js-language_item ag-language_item">
+                  <a href="javascript: void(0);" class="ag-language_link">
+                    <i class="ag-language_icons ag-language_icon-th"></i>
+                    ไทย
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="ag-menu-block">
+  <div class="ag-format-container">
+    <nav class="ag-menu_nav">
+      <ul class="ag-menu_list">
+        <li class="ag-menu_item">
+          <a href="#events" class="ag-menu_link-item">Новости</a>
+        </li>
+        <li class="ag-menu_item">
+          <a href="#analytics" class="ag-menu_link-item">Статьи</a>
+        </li>
+        <li class="ag-menu_item">
+          <a href="#interviews" class="ag-menu_link-item">Интервью</a>
+        </li>
+        <li class="ag-menu_item">
+          <a href="#blogs" class="ag-menu_link-item">Блоги</a>
+        </li>
+        <li class="ag-menu_item">
+          <a href="#ratings" class="ag-menu_link-item">Рейтинги</a>
+        </li>
+        <li class="js-menu-parent_item ag-menu_item ag-menu-parent_item">
+          <a href="#" class="ag-menu_link-item ag-menu_title-list__subcat">Каталоги</a>
+          <ul class="js-menu-subcat_list ag-menu-subcat_list">
+              <li class="ag-menu-subcat_item">
+                <a href="#companies" class="ag-menu-subcat_link-item">Каталог компаний</a>
+              </li>
+            <li class="ag-menu-subcat_item">
+                <a href="#tools" class="ag-menu-subcat_link-item">Каталог сервисов</a>
+            </li>
+          </ul>
+        </li>
+        <li class="ag-menu_item">
+          <a href="#calendar" class="ag-menu_link-item ag-menu_link-item__lamp">Календарь</a>
+        </li>
+        <li class="ag-menu_item">
+          <a href="#tenders" class="ag-menu_link-item">Тендеры</a>
+        </li>
+        <li class="ag-menu_item">
+          <a href="#turnir-p-c-l" class="ag-menu_link-item">Турниры P-C-L</a>
+        </li>
+      </ul>
+
+      <div class="js-search_btn ag-search_btn"></div>
+      <div class="js-search-block ag-search-block">
+        <form id="ag-search_form" class="ag-search_form" action="#" name="search-form" method="GET" target="_self">
+          <input name="search_id" value="1" type="hidden">
+          <input name="l10n" value="ru" type="hidden">
+          <input name="reqenc" value="" type="hidden">
+          <input name="do_search" value="Y" type="hidden">
+          <div class="ag-search_field">
+            <div id="ag-search_btn-submit" class="ag-search_btn-submit"></div>
+            <input name="text" class="js-search_input ag-search_input" type="text" title="">
+            <div class="js-search_btn-close ag-search_btn-close"></div>
+          </div>
+        </form>
+      </div>
+    </nav>
+    </div>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
