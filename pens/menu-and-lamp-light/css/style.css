@@ -197,7 +197,7 @@ body {
   color: #525c69;
 }
 .ag-start-login_field {
-  min-height: 80px;
+  min-height: 85px;
   position: relative;
 }
 .ag-start-login_label {
@@ -217,6 +217,9 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+.ag-start-login_input:focus {
+  outline: 0;
 }
 .ag-start-login_btn {
   display: inline-block;
@@ -358,43 +361,55 @@ body {
   width: 16px;
   margin-right: 5px;
   background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/menu-and-lamp-light/images/flags.png);
-  background-color: #EFEFEF;
   background-repeat: no-repeat;
+  background-color: #EFEFEF;
 }
-.ag-language_icon-cn {
+.ag-language_icon-cn,
+.ag-language_icon-cn:before {
   background-position: -192px -22px;
 }
-.ag-language_icon-en {
+.ag-language_icon-en,
+.ag-language_icon-en:before {
   background-position: -112px -44px;
 }
-.ag-language_icon-es {
+.ag-language_icon-es,
+.ag-language_icon-es:before {
   background-position: -240px -33px;
 }
-.ag-language_icon-fr {
+.ag-language_icon-fr,
+.ag-language_icon-fr:before {
   background-position: -80px -44px;
 }
-.ag-language_icon-id {
+.ag-language_icon-id,
+.ag-language_icon-id:before {
   background-position: -208px -55px;
 }
-.ag-language_icon-ko {
+.ag-language_icon-ko,
+.ag-language_icon-ko:before {
   background-position: -240px -66px;
 }
-.ag-language_icon-my {
+.ag-language_icon-my,
+.ag-language_icon-my:before {
   background-position: 0 -99px;
 }
-.ag-language_icon-pk {
+.ag-language_icon-pk,
+.ag-language_icon-pk:before {
   background-position: -48px -110px;
 }
-.ag-language_icon-pt {
+.ag-language_icon-pt,
+.ag-language_icon-pt:before {
   background-position: -144px -110px;
 }
-.ag-language_icon-ru {
+.ag-language_icon-ru,
+.ag-language_icon-ru:before {
   background-position: -256px -110px;
 }
-.ag-language_icon-th {
+.ag-language_icon-th,
+.ag-language_icon-th:before {
   background-position: -112px -132px;
 }
-.ag-language_icon-vi {
+.ag-language_icon-vi,
+.ag-language_icon-vi:before {
   background-position: -224px -143px;
 }
 
@@ -468,6 +483,15 @@ body {
 .ag-menu_nav {
   padding: 0 50px 0 0;
 }
+
+.ag-mob-language_selectbox {
+  display: none;
+}
+
+.ag-mob-login_box {
+  display: none;
+}
+
 .ag-menu_list {
   display: table;
   width: 100%;
@@ -634,7 +658,7 @@ body {
 .ag-search_field {
   position: relative;
 }
-input[type="text"].ag-search_input {
+.ag-search_input {
   display: block;
   height: 50px;
   line-height: 50px;
@@ -717,20 +741,238 @@ input[type="text"].ag-search_input {
     width: 96%;
   }
 
-  .ag-menu_nav {
-    position: static;
+  .ag-header {
+    padding: 25px 0;
   }
-  .ag-menu_list {
+  .ag-logo_img {
+    display: none;
+  }
+  .ag-logo_tagline {
+    display: none;
+  }
+  .ag-navbar-block {
+    display: none;
+  }
+
+  .ag-logo_img-mobile {
     display: block;
+  }
+
+  .ag-menu_btn-wrap {
+    display: inline-block;
+    float: right;
+    height: 17px;
+    width: 10px;
+    margin: 3px 15px 0;
+    padding: 2px 7px;
+
+    cursor: pointer;
+
+    vertical-align: middle;
+    position: relative;
+
+    -webkit-tap-highlight-color: transparent;
+  }
+  .ag-menu_btn {
+    height: 3px;
+    width: 24px;
+    background-color: #007ff2;
+
+    position: absolute;
+    top: 9px;
+    left: 0;
+
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+  .ag-menu_btn:before,
+  .ag-menu_btn:after {
+    content: "";
+    height: 3px;
+    width: 24px;
+    background-color: #007ff2;
+
+    position: absolute;
+
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+  }
+
+  .ag-menu_btn:before {
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  .ag-menu_btn:after {
+    -webkit-transform: translateY(8px);
+    -moz-transform: translateY(8px);
+    -ms-transform: translateY(8px);
+    -o-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  .ag-menu_btn-wrap:hover .ag-menu_btn:before {
+    -webkit-transform: translateY(-9px);
+    -moz-transform: translateY(-9px);
+    -ms-transform: translateY(-9px);
+    -o-transform: translateY(-9px);
+    transform: translateY(-9px);
+  }
+  .ag-menu_btn-wrap:hover .ag-menu_btn:after {
+    -webkit-transform: translateY(9px);
+    -moz-transform: translateY(9px);
+    -ms-transform: translateY(9px);
+    -o-transform: translateY(9px);
+    transform: translateY(9px);
+  }
+  .js-ag-menu_btn-show {
+    background: none;
+  }
+  .js-ag-menu_btn-show:before,
+  .ag-menu_btn-wrap:hover .js-ag-menu_btn-show:before {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+  }
+  .js-ag-menu_btn-show:after,
+  .ag-menu_btn-wrap:hover .js-ag-menu_btn-show:after {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .ag-menu-block {
     width: 80%;
-    max-width: 270px;
+    max-width: 300px;
     padding: 50px 0 0;
     background-color: #000;
 
     z-index: 9990;
     position: absolute;
-    top: 0;
+    top: 76px;
     right: 0;
+    bottom: 0;
+  }
+
+  .ag-menu_nav {
+    padding: 0;
+
+    position: static;
+  }
+
+  .ag-mob-language_selectbox {
+    display: block;
+
+    position: relative;
+  }
+  .ag-mob-language_selectbox:before {
+    content: "";
+    height: 11px;
+    width: 16px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/menu-and-lamp-light/images/flags.png);
+    background-repeat: no-repeat;
+    background-color: #EDEDED;
+    margin-top: -6px;
+
+    z-index: 9999;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+  }
+  .ag-mob-language_selectbox:before {
+
+  }
+  .ag-mob-language_form {
+    background-color: #FFF;
+
+    position: relative;
+  }
+  .ag-mob-language_form:before,
+  .ag-mob-language_form:after {
+    content: "";
+    border-style: solid;
+    border-width: 5px;
+
+    position: absolute;
+    top: 50%;
+    right: 10px;
+  }
+  .ag-mob-language_form:before {
+    margin: -2px 0 0;
+    border-color: #525c69 transparent transparent;
+
+    z-index: 1;
+  }
+  .ag-mob-language_form:hover:before {
+    border-color: #323a45 transparent transparent;
+  }
+  .ag-mob-language_form:after {
+    margin: -4px 0 0;
+    border-color: #FFF transparent transparent;
+
+    z-index: 2;
+  }
+  .ag-mob-language_select {
+    height: 40px;
+    width: 100%;
+    padding: 5px 5px 5px 30px;
+    border: 0;
+    background: none;
+
+    text-indent: .01px;
+    text-overflow: "";
+    color: #525c69;
+
+    z-index: 1;
+    position: relative;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .ag-mob-language_select:focus {
+    outline: 0;
+  }
+
+  .ag-mob-login_box {
+    display: block;
+    border-bottom: 1px solid #454545;
+  }
+  .ag-mob-login_link {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+
+    vertical-align: middle;
+    white-space: nowrap;
+
+    -webkit-transition: padding .25s ease-out;
+    -moz-transition: padding .25s ease-out;
+    -ms-transition: padding .25s ease-out;
+    -o-transition: padding .25s ease-out;
+    transition: padding .25s ease-out;
+  }
+
+  .ag-menu_list {
+    display: block;
   }
   .ag-menu_item {
     display: block;
@@ -752,6 +994,10 @@ input[type="text"].ag-search_input {
   .ag-menu_link-item__lamp:before {
     left: auto;
     right: 10px;
+  }
+  .js-ag-menu-subcat_list {
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
   }
 
   .ag-menu-subcat_list {
