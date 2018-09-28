@@ -29,10 +29,7 @@ input, select, button, textarea {
   margin: 0;
   font-size: 100%;
 }
-input[type="text"],
-input[type="tel"],
-input[type="email"],
-input[type="password"],
+input,
 textarea {
   padding: 0;
 }

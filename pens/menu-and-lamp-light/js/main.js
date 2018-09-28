@@ -8,12 +8,52 @@
       agSearchBlock = $('.js-search-block'),
       agSearchBtn = $('.js-search_btn'),
       agCloseBtn = $('.js-search_btn-close'),
-      agSubmitBtn = $('#ag-search_btn-submit');
+      agSubmitBtn = $('#ag-search_btn-submit'),
+
+      agLoginPanel = $('.ag-start-login_panel'),
+      agLoginBtn = $('.js-start-login_link');
+
+    function agPanelToggle(btn, panel) {
+      btn.next(panel).fadeToggle();
+    }
+
+    function agPanelClose(btn, panel) {
+      $(document).bind('keyup', function (e) {
+        if (e.keyCode != 27) {
+          return true;
+        }
+        /* -------------- 'Esc' key (27) -------------- */
+        if (e.keyCode == 27 && panel.is(':visible')) {
+          panel.fadeOut();
+        }
+      });
+
+      $(document).mouseup(function (e) {
+        if (!panel.is(e.target) && !btn.is(e.target) && panel.has(e.target).length === 0) {
+          panel.fadeOut();
+        }
+      });
+    }
 
 
-    agLanguageCurrent.on('click', function () {
-      $(this).next(agLanguagePanel).fadeToggle();
+    /* login */
+    agLoginBtn.on('click', function (e) {
+      e.preventDefault();
+
+      agPanelToggle(agLoginBtn, agLoginPanel);
     });
+
+    agPanelClose(agLoginBtn, agLoginPanel);
+    /* /login */
+
+    /* language */
+    agLanguageCurrent.on('click', function () {
+      agLanguageCurrent.toggleClass('js-ag-language_current-show');
+
+      agPanelToggle(agLanguageCurrent, agLanguagePanel);
+    });
+
+    agPanelClose(agLanguageCurrent, agLanguagePanel);
 
     agLanguageLocal.on('click', function () {
       var agLanguageCurrentName = $(this).children('a').html();
@@ -23,7 +63,7 @@
       agLanguageCurrent.html(agLanguageCurrentName);
       $('.ag-language_panel-arrow').css({right: Math.floor(agLanguageCurrent.width() / 2) - 5}); // calculates the width agLanguageCurrent and aligns the arrow of the panel in the middle agLanguageCurrent
     });
-
+    /* /language */
 
     agSearchBtn.on('click', function () {
       agSearchBtn.next(agSearchBlock).addClass('js-ag-search-block');

@@ -1,17 +1,20 @@
 (function ($) {
   $(function () {
 
-    var agWrapper = $('#ag-nav-search-block');
+    var agSearchBtn = $('#ag-nav-search_link'),
+        agSerchForm = $('#ag-nav-search-block');
 
-    $('#ag-nav-search_link').on('click', function (event) {
-      event.stopPropagation();
+    agSearchBtn.on('click', function (e) {
+      e.preventDefault();
 
-      agWrapper.fadeToggle('fast');
+      if (agSerchForm.css('display') != 'block') {
+        agSerchForm.fadeIn('fast');
+      }
     });
 
     $(document).mouseup(function (e) {
-      if (!agWrapper.is(e.target) && agWrapper.has(e.target).length === 0) {
-        agWrapper.fadeOut('fast');
+      if (!agSerchForm.is(e.target) && agSerchForm.has(e.target).length === 0) {
+        agSerchForm.fadeOut('fast');
       }
     });
 
@@ -20,8 +23,8 @@
         return true;
       }
       /* -------------- 'Esc' key (27) -------------- */
-      if (e.keyCode == 27 && agWrapper.is(':visible')) {
-        agWrapper.fadeOut();
+      if (e.keyCode == 27 && agSerchForm.is(':visible')) {
+        agSerchForm.fadeOut();
       }
     });
 
