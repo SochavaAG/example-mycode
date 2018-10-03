@@ -97,16 +97,13 @@
     var agFlagScreenToggle,
 
       agBody = $('body'),
-      agMenuBtn = $('.js-menu_btn-wrap'),
       agHeader = $('.js-header-wrap'),
+      agMenuBtn = $('.js-menu_btn-wrap'),
       agMenuBlock = $('.js-menu-block'),
       agMenuNav = $('.js-menu_nav'),
 
       agParentCat = $('.js-menu-subcat_title-list'),
       agSubcatList = $('.js-menu-subcat_list');
-    /*
-      agMenuBlockHeight = agMenuNav.height();
-*/
 
     function agMenuClose() {
       agMenuBtn.children().removeClass('js-ag-menu_btn-show');
@@ -114,8 +111,9 @@
       agMenuNav.removeClass('js-ag-menu_nav'); // remove animation for categories items
 
       agBody.removeClass('js-ag-body-noscroll');
+      agHeader.removeAttr('data-pos');
       setTimeout(function () {
-        agHeader.css({'bottom': 'auto'});
+        agHeader.removeClass('js-ag-header-wrap__overlay');
       }, 305);
     }
 
@@ -131,46 +129,44 @@
       if (width <= 767) { // screen <= 767
         if (agFlagScreenToggle === true || agFlagScreenToggle == undefined) {
 
-          //agMenuBlock.css({'min-height': agMenuBlockHeight});
-
-          //agLoginBtn.off('click');
-          //agLanguageCurrent.off('click');
-          //agLanguagePanel.removeAttr('style');
-          //agLoginPanel.removeAttr('style');
-
+           //agLanguagePanel.removeAttr('style'); // uncomment, if you need to hide the panel after resizing
+          //agLoginPanel.removeAttr('style'); // uncomment, if you need to hide the panel after resizing
 
           /* toggle menu */
-          agMenuBtn.on('click', function () {
-            $(this).children().toggleClass('js-ag-menu_btn-show');
+            agMenuBtn.on('click', function () {
 
-            if($(this).children().hasClass('js-ag-menu_btn-show')) {
-              var agScrollSelector = '';
+              if(agMenuBtn.children().hasClass('js-ag-menu_btn-show')) {
+                var agPagePos = agHeader.attr('data-pos');
 
-              if (!agScrollSelector && $('html').scrollTop()) {
-                agScrollSelector = 'html';
+                agMenuClose();
+                agSubcatListHide();
+
+                $('body, html').animate({scrollTop: agPagePos}, 0);
+              } else {
+                
+                if(!agHeader.hasClass('js-ag-header-wrap__overlay')) { // if the menu closing animation hasn't ended
+                  var agScrollSelector = '';
+
+                  if (!agScrollSelector && $('html').scrollTop()) {
+                    agScrollSelector = 'html';
+                  }
+                  if (!agScrollSelector && $('body').scrollTop()) {
+                    agScrollSelector = 'body';
+                  }
+
+                  agScrollPos = $(agScrollSelector).scrollTop() ? $(agScrollSelector).scrollTop() : 0;  // page position before opening the menu
+
+                  agMenuBtn.children().addClass('js-ag-menu_btn-show');
+
+                  agMenuBlock.animate({scrollTop: 0}, 100).addClass('js-ag-menu-block');  // scroll menu to top (to the starting position)
+                  agMenuNav.addClass('js-ag-menu_nav');  // add animation for categories items
+
+                  agBody.addClass('js-ag-body-noscroll');
+                  agHeader.addClass('js-ag-header-wrap__overlay').attr('data-pos', agScrollPos);
+                }
               }
-              if (!agScrollSelector && $('body').scrollTop()) {
-                agScrollSelector = 'body';
-              }
-              //agScrollPos = $(agScrollSelector).scrollTop() ? $(agScrollSelector).scrollTop() : 0;
-
-          //    navMenu.animate({scrollTop: 0}, 100).addClass('js-ag-m-nav-open js-ag-m-nav-open-an-cat');
-          //    blockCat.removeClass('js-ag-m-mm_parent-cat-active');
-          //    subCat.hide();
-
-              agMenuBlock.addClass('js-ag-menu-block');
-              agMenuNav.addClass('js-ag-menu_nav');  // add animation for categories items
-
-              agBody.addClass('js-ag-body-noscroll');
-              agHeader.css({'bottom': 0});
-            } else {
-              agMenuClose();
-
-              agSubcatListHide();
-            }
-          });
+            });
           /* /toggle menu */
-
 
           /* show header when scrolling */
           var agScrollPrev = 100;
@@ -180,9 +176,9 @@
 
             if (agScrolled > 100) {
               if (agScrolled > agScrollPrev) {
-                agHeader.addClass('js-ag-header-wrap');
+                agHeader.addClass('js-ag-header-wrap__scroll');
               } else {
-                agHeader.removeClass('js-ag-header-wrap');
+                agHeader.removeClass('js-ag-header-wrap__scroll');
               }
               agScrollPrev = agScrolled;
             }

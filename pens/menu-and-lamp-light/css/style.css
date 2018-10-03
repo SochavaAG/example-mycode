@@ -763,6 +763,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    bottom: auto;
 
     -webkit-transition: all 200ms ease-in-out;
     -moz-transition: all 200ms ease-in-out;
@@ -774,13 +775,16 @@ body {
     -moz-transform-style: flat;
     transform-style: flat;
   }
-  .js-ag-header-wrap {
+  .js-ag-header-wrap__scroll {
     position: fixed;
     top: -79px;
-    bottom: auto;
+  }
+  .js-ag-header-wrap__overlay {
+    bottom: 0;
   }
   .ag-header {
     padding: 25px 0;
+    border-bottom: 3px solid #0f66a8;
   }
   .ag-logo_img {
     display: none;
@@ -843,8 +847,8 @@ body {
 
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
   }
 
