@@ -143,7 +143,7 @@
 
                 $('body, html').animate({scrollTop: agPagePos}, 0);
               } else {
-                
+
                 if(!agHeader.hasClass('js-ag-header-wrap__overlay')) { // if the menu closing animation hasn't ended
                   var agScrollSelector = '';
 

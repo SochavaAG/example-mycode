@@ -1,0 +1,88 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-ticker_box-wrap {
+  height: 48px;
+  margin: 20px 0;
+
+  background: #383830;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMzgzODMwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMjAlIiBzdG9wLWNvbG9yPSIjNDg0ODQwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMzklIiBzdG9wLWNvbG9yPSIjNGQ0ZDQ1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzRlNGU0NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+  background: -moz-linear-gradient(45deg,  #383830 0%, #484840 20%, #4d4d45 39%, #4e4e46 100%);
+  background: -webkit-linear-gradient(45deg,  #383830 0%,#484840 20%,#4d4d45 39%,#4e4e46 100%);
+  background: linear-gradient(45deg,  #383830 0%,#484840 20%,#4d4d45 39%,#4e4e46 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383830', endColorstr='#4e4e46',GradientType=1 );
+
+  overflow: hidden;
+
+  position: relative;
+}
+.ag-ticker_box {
+
+}
+.ag-ticker_item {
+  display: inline-block;
+  margin: 0 -4px 0 0;
+  padding: 12px 19px;
+
+  vertical-align: top;
+  color: #FFF;
+
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.ag-ticker_item:hover {
+  background-color: #6a32a7;
+}
+.ag-ticker_link,
+.ag-ticker_link:hover {
+  text-decoration: none;
+
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #FFF;
+}
+.ag-ticker_category-item {
+  display: inline-block;
+  margin: 0 5px 0 0;
+  padding: 5px 10px 4px 10px;
+  border: 1px solid #FFF;
+}
+.ag-ticker_news-item {
+  display: inline-block;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
