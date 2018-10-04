@@ -21,9 +21,9 @@
 
 
       $(window).on('load', function () {
-        var marquee_block = $('.js-marquee');
+        var agMarqueeBlock = $('.js-marquee');
 
-        marquee_block.marquee(agMarqueeOptions);
+        agMarqueeBlock.marquee(agMarqueeOptions);
       });
 
 
