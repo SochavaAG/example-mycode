@@ -14,257 +14,43 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47534835">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/menu-and-lamp-light/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="504">
-                  <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="248" selection-end-column="35" />
-                  <folding>
-                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/menu-and-lamp-light/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-72">
-                  <caret line="1062" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1298" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#11#141018#0" expanded="false" />
-                    <element signature="e#312#56874#1" expanded="true" />
-                    <element signature="e#56894#140683#1" expanded="true" />
-                    <element signature="e#141031#292068#0" expanded="false" />
-                    <element signature="e#141356#202206#1" expanded="true" />
-                    <element signature="e#202226#291703#1" expanded="true" />
-                    <element signature="e#292081#443492#0" expanded="false" />
-                    <element signature="e#292390#353240#1" expanded="true" />
-                    <element signature="e#353260#443145#1" expanded="true" />
-                    <element signature="e#443505#585033#0" expanded="false" />
-                    <element signature="e#443818#500576#1" expanded="true" />
-                    <element signature="e#500596#584681#1" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/menu-and-lamp-light/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5880">
-                  <caret line="245" column="0" lean-forward="false" selection-start-line="245" selection-start-column="0" selection-end-line="247" selection-end-column="11" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="cent-explore-EN.html" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2017.02.02_landing_cent/cent-explore/cent-explore-EN.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="10944">
-                  <caret line="456" column="2" lean-forward="false" selection-start-line="456" selection-start-column="2" selection-end-line="456" selection-end-column="30" />
-                  <folding>
-                    <element signature="n#div#0;n#!!top" expanded="false" />
-                    <element signature="n#script#0;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="format.html" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/format.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="24">
-                  <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="87" selection-end-column="8" />
-                  <folding>
-                    <element signature="n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#header#0;n#!!top" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/example/02.10.2015_example/main.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="217680">
-                  <caret line="9070" column="55" lean-forward="false" selection-start-line="9070" selection-start-column="47" selection-end-line="9070" selection-end-column="55" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header-responsive.js" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/vazhno_project/2016.06.01_header-footer-1/js/header-responsive.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2040">
-                  <caret line="85" column="57" lean-forward="false" selection-start-line="85" selection-start-column="57" selection-end-line="85" selection-end-column="57" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="pop-up-site_ALL.js" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/vazhno_project/2018.07.12_pop-up-site_ALL/pop-up-site_ALL.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header-footer-responsive.css" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/vazhno_project/2016.06.01_header-footer-1/css/header-footer-responsive.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="16704">
-                  <caret line="696" column="0" lean-forward="false" selection-start-line="696" selection-start-column="0" selection-end-line="700" selection-end-column="3" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="registration-marketing-EN-prod-description.html" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2016.06.14_landing_registration-marketing/registration-marketing-EN-prod-description.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="23928">
-                  <caret line="997" column="9" lean-forward="false" selection-start-line="997" selection-start-column="9" selection-end-line="997" selection-end-column="9" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="registration-marketing-EN-горизонтально разъежаются.html" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2016.06.14_landing_registration-marketing/registration-marketing-EN-горизонтально разъежаются.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="20616">
-                  <caret line="859" column="71" lean-forward="false" selection-start-line="859" selection-start-column="71" selection-end-line="859" selection-end-column="71" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/404-error-smoke-from-toaster/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/404-error-smoke-from-toaster/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="211">
-                  <caret line="65" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/404-error-smoke-from-toaster/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="9" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="103" selection-end-column="11" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/menu-and-lamp-light/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="28464">
-                  <caret line="1226" column="0" lean-forward="false" selection-start-line="1226" selection-start-column="0" selection-end-line="1226" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#11#141018#0" expanded="false" />
-                    <element signature="e#312#56874#1" expanded="true" />
-                    <element signature="e#56894#140683#1" expanded="true" />
-                    <element signature="e#141031#292068#0" expanded="false" />
-                    <element signature="e#141356#202206#1" expanded="true" />
-                    <element signature="e#202226#291703#1" expanded="true" />
-                    <element signature="e#292081#443492#0" expanded="false" />
-                    <element signature="e#292390#353240#1" expanded="true" />
-                    <element signature="e#353260#443145#1" expanded="true" />
-                    <element signature="e#443505#585033#0" expanded="false" />
-                    <element signature="e#443818#500576#1" expanded="true" />
-                    <element signature="e#500596#584681#1" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/format-t.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190872">
-                  <caret line="7953" column="22" lean-forward="false" selection-start-line="7953" selection-start-column="22" selection-end-line="7953" selection-end-column="22" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="format-2.js" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/format-2.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="192">
-                  <caret line="8" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="89" selection-end-column="3" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="format.js" pinned="false" current-in-tab="true">
-            <entry file="file://$USER_HOME$/format.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="624">
-                  <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buttons/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="88" lean-forward="false" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="117" column="2" lean-forward="false" selection-start-line="117" selection-start-column="2" selection-end-line="117" selection-end-column="33" />
+              <folding>
+                <element signature="e#1911#2742#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example/02.10.2015_example/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="1341" column="5" lean-forward="true" selection-start-line="1327" selection-start-column="3" selection-end-line="1341" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>body</find>
-      <find>js-ag-body-noscroll</find>
-      <find>scrollPos</find>
-      <find>menuClose</find>
-      <find>scrollSelector</find>
-      <find>scrolled</find>
-      <find>.ag-menu-subcat_list</find>
-      <find>js-ag-menu_nav</find>
-      <find>js-ag-menu-subcat_list</find>
-      <find>ag-menu_title-list__subcat</find>
-      <find>scrollPrev</find>
-      <find>addClass</find>
-      <find>js-language_panel</find>
-      <find>.ag-menu-subcat_link-item</find>
-      <find>js-ag-m-header-scroll</find>
-      <find>parentCat</find>
-      <find>agParentItem</find>
-      <find>heightHeaderTop</find>
-      <find>js-ag-menu-parent_item</find>
-      <find>menu_title-list__subcat</find>
-      <find>js-menu_nav</find>
-      <find>div.page404</find>
-      <find>div.page404 canvas</find>
       <find>toaster-lever</find>
       <find>settings</find>
       <find>https://static-olxeu.akamaized.net/static/olxua/packed/img/2ffc76f8a47fb590cb0e795c07289c18eb.png</find>
@@ -272,24 +58,31 @@
       <find>an-bounceIn-up</find>
       <find>toaster</find>
       <find>../images/</find>
+      <find>south-african-bonus</find>
+      <find>tiger-lucky-draw</find>
+      <find>18</find>
+      <find>rotar</find>
+      <find>rotarIz</find>
+      <find>ag-animated-gradient</find>
+      <find>ag-step_text-item</find>
+      <find>ag-primary_tagline</find>
+      <find>lng-</find>
+      <find>href=&quot;/</find>
+      <find>.ag-step_list</find>
+      <find>exclusive-lucky-draw</find>
+      <find>url(../../../uploads/fonts/BlackDiamond/BlackDiamond.</find>
+      <find>.ag-primary_tagline</find>
+      <find>.ag-exclusive-lucky-draw_text</find>
+      <find>ag-primary_title__br</find>
+      <find>.ag-locale-site-ms</find>
+      <find>In order to become a participant of the promotion, client has to open a new Standard account at JustForex</find>
+      <find>”</find>
+      <find>&lt;strong class=&quot;ag-participate_text-item__strong&quot;&gt;</find>
+      <find>.iblue-btn</find>
+      <find>&lt;a href=&quot;#&quot; class=&quot;ag-base_btn&quot;&gt;</find>
+      <find>AnimationName</find>
     </findStrings>
     <replaceStrings>
-      <replace>FFF</replace>
-      <replace>ag-format-container</replace>
-      <replace>ag-</replace>
-      <replace>Exo-Bold</replace>
-      <replace>Exo-BoldItalic</replace>
-      <replace>Exo-Italic</replace>
-      <replace>Exo-Regular</replace>
-      <replace>ag-account_title-list</replace>
-      <replace>&lt;i class=&quot;ag-language_icons ag-language_icon-</replace>
-      <replace>https://github.com/SochavaAG/example-mycode/raw/master/pens/menu-and-lamp-light/fonts/</replace>
-      <replace>agLanguageCurrent</replace>
-      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/menu-and-lamp-light/images/</replace>
-      <replace>agSerchForm</replace>
-      <replace>ag-menu_btn</replace>
-      <replace>agPanelShow</replace>
-      <replace>.ag-mob-language_form</replace>
       <replace>:before {</replace>
       <replace>.ag-menu_btn</replace>
       <replace>'</replace>
@@ -304,6 +97,22 @@
       <replace>an-bounce-in-up</replace>
       <replace>ag-toaster</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/404-error-smoke-from-toaster/images/</replace>
+      <replace>exclusive-lucky-draw</replace>
+      <replace>225</replace>
+      <replace>an-rotarIz</replace>
+      <replace>an-rotar</replace>
+      <replace>rotarIz</replace>
+      <replace>ag-rotar-gradient</replace>
+      <replace>ag-</replace>
+      <replace>007ff2</replace>
+      <replace>exclusive-lucky-draw-promotion</replace>
+      <replace>href=&quot;/ms/</replace>
+      <replace>url(../../../uploads/fonts/strawberry-blossom/strawberry-blossom.</replace>
+      <replace>href=&quot;/id/</replace>
+      <replace>&quot;</replace>
+      <replace>&lt;strong class=&quot;ag-step_text-item__strong&quot;&gt;</replace>
+      <replace>&lt;a href=&quot;#link-1&quot; class=&quot;ag-base_btn ag-base_btn-v1&quot;&gt;</replace>
+      <replace>2px 2px 2px 2px;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -345,6 +154,13 @@
         <option value="$PROJECT_DIR$/404-error-smoke from toaster/css/style.css" />
         <option value="$PROJECT_DIR$/404-error-smoke-from-toaster/index.html" />
         <option value="$PROJECT_DIR$/404-error-smoke-from-toaster/css/style.css" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw/exclusive-lucky-draw-EN.html" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw/exclusive-lucky-draw-MS.html" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.05.09_landing_ramadan-no-deposit-bonus/ramadan-no-deposit-bonus-EN.html" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw-promotion/exclusive-lucky-draw-promotion-ID.html" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw-promotion/exclusive-lucky-draw-promotion-EN.html" />
+        <option value="$PROJECT_DIR$/buttons/index.html" />
+        <option value="$PROJECT_DIR$/buttons/css/style.css" />
       </list>
     </option>
   </component>
@@ -379,7 +195,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.03.30_landing_forex-sprint/forex-sprint-EN.html" />
+    <property name="last_opened_file_path" value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.09.20_landing_south-african-bonus/south-african-bonus-EN.html" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RunManager">
@@ -488,11 +304,12 @@
       <workItem from="1538459936646" duration="14174000" />
       <workItem from="1538487756723" duration="4753000" />
       <workItem from="1538497396087" duration="947000" />
+      <workItem from="1538721382193" duration="22234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82543000" />
+    <option name="totallyTimeSpent" value="104777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -529,87 +346,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/site-header/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site-header/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2016.09.27_landing_reg-reasons/reg-reasons-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10656">
-          <caret line="444" column="29" lean-forward="false" selection-start-line="444" selection-start-column="29" selection-end-line="444" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2016.01.03_landing_neteller-margin-bonus/neteller-margin-bonus-EN-new.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.09.07_landing_crypto-currencies-trading/crypto-currencies-trading-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2016.05.30_header-footer/js/header-responsive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3816">
-          <caret line="159" column="13" lean-forward="true" selection-start-line="159" selection-start-column="13" selection-end-line="159" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.09.20_landing_south-african-bonus/south-african-bonus-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="246" column="18" lean-forward="false" selection-start-line="246" selection-start-column="18" selection-end-line="246" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example/примеры сайтов/www.icgeurope.com/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site-header/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="215" column="13" lean-forward="false" selection-start-line="215" selection-start-column="13" selection-end-line="215" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site-header/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="87" selection-end-column="8" />
-          <folding>
-            <element signature="n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#header#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#header#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/logo.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -769,14 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/example/02.10.2015_example/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217680">
-          <caret line="9070" column="55" lean-forward="false" selection-start-line="9070" selection-start-column="47" selection-end-line="9070" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/menu-and-lamp-light/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -784,27 +512,6 @@
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu-and-lamp-light/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="1062" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1298" selection-end-column="1" />
-          <folding>
-            <element signature="e#11#141018#0" expanded="false" />
-            <element signature="e#312#56874#1" expanded="true" />
-            <element signature="e#56894#140683#1" expanded="true" />
-            <element signature="e#141031#292068#0" expanded="false" />
-            <element signature="e#141356#202206#1" expanded="true" />
-            <element signature="e#202226#291703#1" expanded="true" />
-            <element signature="e#292081#443492#0" expanded="false" />
-            <element signature="e#292390#353240#1" expanded="true" />
-            <element signature="e#353260#443145#1" expanded="true" />
-            <element signature="e#443505#585033#0" expanded="false" />
-            <element signature="e#443818#500576#1" expanded="true" />
-            <element signature="e#500596#584681#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -851,16 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/menu-and-lamp-light/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5880">
-          <caret line="245" column="0" lean-forward="false" selection-start-line="245" selection-start-column="0" selection-end-line="247" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190872">
-          <caret line="7953" column="22" lean-forward="false" selection-start-line="7953" selection-start-column="22" selection-end-line="7953" selection-end-column="22" />
+        <state relative-caret-position="5832">
+          <caret line="243" column="0" lean-forward="false" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -883,18 +582,31 @@
     <entry file="file://$PROJECT_DIR$/404-error-smoke from toaster/index.html" />
     <entry file="file://$PROJECT_DIR$/404-error-smoke from toaster/js/main.js" />
     <entry file="file://$PROJECT_DIR$/404-error-smoke from toaster/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/404-error-smoke-from-toaster/js/main.js">
+    <entry file="file://$PROJECT_DIR$/menu-and-lamp-light/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="103" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="24528">
+          <caret line="1062" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1298" selection-end-column="0" />
+          <folding>
+            <element signature="e#11#141018#0" expanded="false" />
+            <element signature="e#312#56874#1" expanded="false" />
+            <element signature="e#56894#140683#1" expanded="false" />
+            <element signature="e#141031#292068#0" expanded="false" />
+            <element signature="e#141356#202206#1" expanded="false" />
+            <element signature="e#202226#291703#1" expanded="false" />
+            <element signature="e#292081#443492#0" expanded="false" />
+            <element signature="e#292390#353240#1" expanded="false" />
+            <element signature="e#353260#443145#1" expanded="false" />
+            <element signature="e#443505#585033#0" expanded="false" />
+            <element signature="e#443818#500576#1" expanded="false" />
+            <element signature="e#500596#584681#1" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/404-error-smoke-from-toaster/css/style.css">
+    <entry file="file://$USER_HOME$/format-t.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="65" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
+        <state relative-caret-position="24">
+          <caret line="7953" column="22" lean-forward="false" selection-start-line="7953" selection-start-column="22" selection-end-line="7953" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -904,6 +616,142 @@
         <state relative-caret-position="216">
           <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404-error-smoke-from-toaster/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404-error-smoke-from-toaster/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="103" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.04.12_landing_welcome-bonus-songkran/welcome-bonus-songkran-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="301" column="4" lean-forward="false" selection-start-line="301" selection-start-column="4" selection-end-line="301" selection-end-column="4" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.09.20_landing_thai-deposit-bonus/thai-deposit-bonus-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.05.09_landing_ramadan-no-deposit-bonus/ramadan-no-deposit-bonus-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2626#3289#2" expanded="false" />
+            <element signature="e#4153#4816#2" expanded="false" />
+            <element signature="e#8733#9396#2" expanded="false" />
+            <element signature="n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.09.20_landing_south-african-bonus/south-african-bonus-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw-promotion/exclusive-lucky-draw-promotion-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="700" column="8" lean-forward="true" selection-start-line="700" selection-start-column="8" selection-end-line="700" selection-end-column="8" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw-promotion/exclusive-lucky-draw-promotion-ID.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1893">
+          <caret line="900" column="9" lean-forward="true" selection-start-line="900" selection-start-column="9" selection-end-line="900" selection-end-column="9" />
+          <folding>
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw/exclusive-lucky-draw-MS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="693" column="0" lean-forward="false" selection-start-line="693" selection-start-column="0" selection-end-line="857" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw/exclusive-lucky-draw-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="692" column="0" lean-forward="true" selection-start-line="692" selection-start-column="0" selection-end-line="692" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotate-preview-box-with-shine/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-672">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="88" lean-forward="false" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example/02.10.2015_example/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="1341" column="5" lean-forward="true" selection-start-line="1327" selection-start-column="3" selection-end-line="1341" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="117" column="2" lean-forward="false" selection-start-line="117" selection-start-column="2" selection-end-line="117" selection-end-column="33" />
+          <folding>
+            <element signature="e#1911#2742#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
