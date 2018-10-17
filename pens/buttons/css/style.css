@@ -1,10 +1,10 @@
 @font-face {
   font-family: FontAwesome;
-  src: url(../../../_common/fonts/fontawesome-webfont/fontawesome-webfont.eot);
-  src: url(../../../_common/fonts/fontawesome-webfont/fontawesome-webfont.eot?#iefix) format('embedded-opentype'),
-  url(../../../_common/fonts/fontawesome-webfont/fontawesome-webfont.woff) format('woff'),
-  url(../../../_common/fonts/fontawesome-webfont/fontawesome-webfont.ttf) format('truetype'),
-  url(../../../_common/fonts/fontawesome-webfont/fontawesome-webfont.svg#fontawesomeregular) format('svg');
+  src: url(../fonts/fontawesome-4.7.0/fontawesome-webfont.eot);
+  src: url(../fonts/fontawesome-4.7.0/fontawesome-webfont.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/fontawesome-4.7.0/fontawesome-webfont.woff) format('woff'),
+  url(../fonts/fontawesome-4.7.0/fontawesome-webfont.ttf) format('truetype'),
+  url(../fonts/fontawesome-4.7.0/fontawesome-webfont.svg#fontawesomeregular) format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,6 +15,9 @@
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.fa-cart-plus:before {
+  content:"\f217";
 }
 
 .ag-format-container {
@@ -272,9 +275,6 @@
   position: absolute;
   top: 10px;
   left: -25px;
-}
-.fa-cart-plus:before {
-  content: "\f217";
 }
 .ag-base_btn-v4:hover .ag-base_icon-cart {
   display: inline-block;
@@ -674,8 +674,6 @@
   background: linear-gradient(to bottom,  #202023 0%,#383840 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#202023', endColorstr='#383840',GradientType=0 );
 
-  cursor: default;
-
   overflow: hidden;
 
   -moz-user-select: none; /* не дает выделить текст в firefox'e */
@@ -726,6 +724,124 @@
   left: 100%;
 }
 /* /button 9 */
+
+/* button 10 */
+.ag-base_btn-v10 {
+  position: relative;
+}
+
+.js-ag-base_btn-border-v10 {
+  background-color: #09152b;
+
+  position: absolute;
+}
+
+.js-ag-base_btn-border__top-v10,
+.js-ag-base_btn-border__bottom-v10 {
+  height: 3px;
+  width: 0;
+}
+.js-ag-base_btn-border__top-v10 {
+  left: 0;
+  top: 0;
+}
+.js-ag-base_btn-border__bottom-v10 {
+  right: 0;
+  bottom: 0;
+}
+.js-ag-base_btn-border__left-v10,
+.js-ag-base_btn-border__right-v10 {
+  height: 0;
+  width: 3px;
+
+}
+.js-ag-base_btn-border__left-v10 {
+  left: 0;
+  bottom: 0;
+}
+.js-ag-base_btn-border__right-v10 {
+  top: 0;
+  right: 0;
+}
+
+.ag-base_text-btn-v10 {
+  text-transform: uppercase;
+  color: #09152b;
+}
+/* /button 10 */
+
+/* button 11 */
+.ag-base_btn-v11 {
+  padding: 0;
+  border: 3px solid #D1D1D1;
+
+  position: relative;
+}
+.ag-base_btn-v11:before,
+.ag-base_btn-v11:after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background-color: #09152b;
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+
+  position: absolute;
+}
+.ag-base_btn-v11:before {
+  top: 0;
+  left: 0;
+}
+.ag-base_btn-v11:after {
+  right: 0;
+  bottom: 0;
+}
+.ag-base_btn-v11:hover:before,
+.ag-base_btn-v11:hover:after {
+  width: 100%;
+}
+
+.ag-base_text-btn-v11 {
+  display: block;
+  padding: 15px 20px;
+
+  text-transform: uppercase;
+  color: #09152b;
+
+  position: relative;
+}
+.ag-base_text-btn-v11:before,
+.ag-base_text-btn-v11:after {
+  content: "";
+  height: 0;
+  width: 3px;
+  background-color: #09152b;
+
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+
+  position: absolute;
+}
+.ag-base_text-btn-v11:before {
+  left: -3px;
+  bottom: 0;
+}
+.ag-base_text-btn-v11:after {
+  top: 0;
+  right: -3px;
+}
+.ag-base_btn-v11:hover .ag-base_text-btn-v11:before,
+.ag-base_btn-v11:hover .ag-base_text-btn-v11:after {
+  height: 100%;
+}
+/* /button 11 */
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
