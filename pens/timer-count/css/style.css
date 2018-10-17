@@ -13,7 +13,7 @@ body {
 .ag-countdown-page {
   min-height: 100%;
   padding: 100px 0;
-  background: url(../images/happy-weeks.jpg) no-repeat scroll 50% 0 #060606;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timer-count/images/happy-weeks.jpg) no-repeat scroll 50% 0 #060606;
 }
 .ag-countdown-block {
   display: table;
@@ -49,7 +49,7 @@ body {
   display: inline-block;
   width: 60px;
   height: 80px;
-  background: url(../images/digits.jpg)
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timer-count/images/digits.jpg)
 }
 .ag-countdown_digit-0 {
   background-position: 0 0;
