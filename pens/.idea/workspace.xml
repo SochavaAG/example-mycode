@@ -137,11 +137,11 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/item-animation-circle/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="600">
+              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding>
-                <element signature="e#166#67044#1" expanded="true" />
-                <element signature="e#67064#157093#1" expanded="true" />
+                <element signature="e#324#67202#1" expanded="true" />
+                <element signature="e#67222#157251#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,7 +183,6 @@
       <find>'Logo'</find>
     </findStrings>
     <replaceStrings>
-      <replace>url(../../../uploads/fonts/strawberry-blossom/strawberry-blossom.</replace>
       <replace>href=&quot;/id/</replace>
       <replace>&quot;</replace>
       <replace>&lt;strong class=&quot;ag-step_text-item__strong&quot;&gt;</replace>
@@ -213,6 +212,7 @@
       <replace>1659</replace>
       <replace>images/</replace>
       <replace>OpenSans</replace>
+      <replace>https://github.com/SochavaAG/example-mycode/raw/master/pens/item-animation-circle/fonts/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -418,12 +418,12 @@
       <workItem from="1538497396087" duration="947000" />
       <workItem from="1538721382193" duration="22234000" />
       <workItem from="1539064795547" duration="27982000" />
-      <workItem from="1539842368070" duration="19681000" />
+      <workItem from="1539842368070" duration="19959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152440000" />
+    <option name="totallyTimeSpent" value="152718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -824,11 +824,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/item-animation-circle/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="600">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding>
-            <element signature="e#166#67044#1" expanded="true" />
-            <element signature="e#67064#157093#1" expanded="true" />
+            <element signature="e#324#67202#1" expanded="true" />
+            <element signature="e#67222#157251#1" expanded="true" />
           </folding>
         </state>
       </provider>
