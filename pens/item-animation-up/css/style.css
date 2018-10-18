@@ -93,16 +93,16 @@
   background-size: auto 60px;
 }
 .ag-interest_icon-1 {
-  background-image: url(../images/money-icon.svg);
+  background-image: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/item-animation-up/images/money-icon.svg);
 }
 .ag-interest_icon-2 {
-  background-image: url(../images/location-icon.svg);
+  background-image: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/item-animation-up/images/location-icon.svg);
 }
 .ag-interest_icon-3 {
-  background-image: url(../images/delivery-icon.svg);
+  background-image: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/item-animation-up/images/delivery-icon.svg);
 }
 .ag-interest_icon-4 {
-  background-image: url(../images/phone-icon.svg);
+  background-image: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/item-animation-up/images/phone-icon.svg);
 }
 .ag-interest_title-item {
   font-weight: bold;
