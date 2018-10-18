@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/css/pop-up_analytics-simple-snippet-EN.html" line="247" mnemonic="0" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ca115962-8386-4c33-bdee-8d62a07a2c5c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,28 +21,28 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/example/02.10.2015_example/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="11781" column="35" lean-forward="true" selection-start-line="11781" selection-start-column="35" selection-end-line="11781" selection-end-column="35" />
+            <state relative-caret-position="279">
+              <caret line="2054" column="41" lean-forward="false" selection-start-line="2054" selection-start-column="12" selection-end-line="2054" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/circle-item-animation/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/item-animation-up/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="61" selection-end-column="8" />
+            <state relative-caret-position="82">
+              <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/circle-item-animation/css/style.css">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/item-animation-up/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="241" selection-end-column="1" />
+            <state relative-caret-position="144">
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -48,8 +51,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/menu-and-lamp-light/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="121" column="50" lean-forward="false" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="50" />
+            <state relative-caret-position="279">
+              <caret line="121" column="2" lean-forward="false" selection-start-line="121" selection-start-column="2" selection-end-line="125" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -59,14 +62,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>In order to become a participant of the promotion, client has to open a new Standard account at JustForex</find>
-      <find>”</find>
-      <find>&lt;strong class=&quot;ag-participate_text-item__strong&quot;&gt;</find>
-      <find>.iblue-btn</find>
-      <find>&lt;a href=&quot;#&quot; class=&quot;ag-base_btn&quot;&gt;</find>
-      <find>AnimationName</find>
-      <find>content_header</find>
-      <find>style</find>
       <find>element</find>
       <find>display</find>
       <find>&gt;ادائیگیوں کی سہولیات کریڈیکسا کامرس ایل پی، رجسٹریشن نمبر SL015670، برطانیہ کی جانب سے فراہم کی جاتی ہیں۔&lt;</find>
@@ -87,13 +82,18 @@
       <find>-120px;</find>
       <find>block-with-circle one-third</find>
       <find>inset</find>
-      <find>OQKTA</find>
       <find>rotation</find>
+      <find>mc_embed_signup</find>
+      <find>ag-modal_success-response__analytics</find>
+      <find>1655</find>
+      <find>valid</find>
+      <find>OQKTA</find>
+      <find>list</find>
+      <find>lavaLampWithImage</find>
+      <find>transition</find>
+      <find>background-color .2s ease 0s;</find>
     </findStrings>
     <replaceStrings>
-      <replace>rotarIz</replace>
-      <replace>ag-rotar-gradient</replace>
-      <replace>ag-</replace>
       <replace>007ff2</replace>
       <replace>exclusive-lucky-draw-promotion</replace>
       <replace>href=&quot;/ms/</replace>
@@ -121,6 +121,9 @@
       <replace>-pt</replace>
       <replace>-160px;</replace>
       <replace>an-rotation</replace>
+      <replace>mc_embed_signup_scroll</replace>
+      <replace>1659</replace>
+      <replace>all .3s ease 0s;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -130,10 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2016.01.03_landing_neteller-margin-bonus/neteller-margin-bonus-EN-new.html" />
-        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.09.20_landing_south-african-bonus/south-african-bonus-EN.html" />
-        <option value="$PROJECT_DIR$/site-header/index.html" />
-        <option value="$PROJECT_DIR$/site-header/css/style.css" />
         <option value="$USER_HOME$/format.html" />
         <option value="$USER_HOME$/Desktop/logo.svg" />
         <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2017.10.03_landing_first-step-to-profitable-trading/first-step-to-profitable-trading-PH.html" />
@@ -175,6 +174,16 @@
         <option value="$PROJECT_DIR$/circle-item-animation/index.html" />
         <option value="$PROJECT_DIR$/menu-and-lamp-light/css/style.css" />
         <option value="$PROJECT_DIR$/circle-item-animation/css/style.css" />
+        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics.js" />
+        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/css/pop-up_analytics-simple-snippet-EN.html" />
+        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-1.js" />
+        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-2.js" />
+        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-3.js" />
+        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-4.js" />
+        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-5.js" />
+        <option value="$PROJECT_DIR$/item-animation-circle/index.html" />
+        <option value="$PROJECT_DIR$/item-animation-up/index.html" />
+        <option value="$PROJECT_DIR$/item-animation-up/css/style.css" />
       </list>
     </option>
   </component>
@@ -209,7 +218,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/format-t.css" />
+    <property name="last_opened_file_path" value="$USER_HOME$/example-name-class.html" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RunManager">
@@ -320,12 +329,12 @@
       <workItem from="1538497396087" duration="947000" />
       <workItem from="1538721382193" duration="22234000" />
       <workItem from="1539064795547" duration="27982000" />
-      <workItem from="1539842368070" duration="3700000" />
+      <workItem from="1539842368070" duration="10665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136459000" />
+    <option name="totallyTimeSpent" value="143424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -362,97 +371,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.02.23_landing_trade-with-justforex/trade-with-justforex-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="741" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.02.23_landing_trade-with-justforex/trade-with-justforex-VI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="738" column="4" lean-forward="true" selection-start-line="738" selection-start-column="4" selection-end-line="740" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2017.10.03_landing_first-step-to-profitable-trading/first-step-to-profitable-trading-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="792" column="4" lean-forward="false" selection-start-line="792" selection-start-column="4" selection-end-line="792" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2017.10.03_landing_first-step-to-profitable-trading/first-step-to-profitable-trading-MS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="1051" column="6" lean-forward="false" selection-start-line="1051" selection-start-column="6" selection-end-line="1051" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2017.02.02_landing_cent/cent-explore/cent-explore-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10944">
-          <caret line="456" column="2" lean-forward="false" selection-start-line="456" selection-start-column="2" selection-end-line="456" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site-header/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/justforex/fx.dev/frontend/app/assets/javascripts/content_pages/languages/langs_dropdown_mobile.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leave-site-modal-popup/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2016.08.05_page_awards/awards-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="367" column="17" lean-forward="true" selection-start-line="367" selection-start-column="17" selection-end-line="367" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2016.06.01_header-footer-1/css/header-footer-responsive.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16704">
-          <caret line="696" column="0" lean-forward="false" selection-start-line="696" selection-start-column="0" selection-end-line="700" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2018.09.13_FX-11708_pop-up_start-trading/css/pop-up_start-trading-simple-snippet-CN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="399" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2018.09.13_FX-11708_pop-up_start-trading/css/pop-up_start-trading-simple-snippet-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="399" column="3" lean-forward="false" selection-start-line="399" selection-start-column="3" selection-end-line="399" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example/примеры сайтов/www.icgeurope.com/plugins/lightbox/lightbox.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project/2018.09.13_FX-11708_pop-up_start-trading/pop-up_start-trading-dev.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -677,22 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/example/02.10.2015_example/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="11781" column="35" lean-forward="true" selection-start-line="11781" selection-start-column="35" selection-end-line="11781" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu-and-lamp-light/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="121" column="50" lean-forward="false" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/circle-item-animation/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -701,10 +603,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/css/pop-up_analytics-simple-snippet-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="567" column="16" lean-forward="true" selection-start-line="567" selection-start-column="16" selection-end-line="567" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="47" column="102" lean-forward="false" selection-start-line="47" selection-start-column="102" selection-end-line="47" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="26" column="116" lean-forward="false" selection-start-line="26" selection-start-column="116" selection-end-line="26" selection-end-column="116" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="28" column="68" lean-forward="true" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/2018.02.27_simple-snippet_analytics-form-subscribe/analytics-form-subscribe-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="213" column="82" lean-forward="true" selection-start-line="213" selection-start-column="82" selection-end-line="213" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="152" lean-forward="false" selection-start-line="29" selection-start-column="152" selection-end-line="29" selection-end-column="152" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="1301" column="48" lean-forward="true" selection-start-line="1301" selection-start-column="48" selection-end-line="1301" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/circle-item-animation/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="61" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item-animation-circle/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-name-class.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example/02.10.2015_example/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="2054" column="41" lean-forward="false" selection-start-line="2054" selection-start-column="12" selection-end-line="2054" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-and-lamp-light/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="121" column="2" lean-forward="false" selection-start-line="121" selection-start-column="2" selection-end-line="125" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item-animation-up/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item-animation-up/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>
