@@ -3,7 +3,7 @@
 
     function agGamblingSlotMachine() {
       if (0 < $('#js-gambling-slot').length) {
-        var k = $('.js-gambling-slot_item').length;
+        var agSlotItem = $('.js-gambling-slot_item').length;
         setInterval(function () {
           $('.js-gambling-slot_item').addClass('js-ag-animate');
           $('.js-logo_light').css('display', 'none');
@@ -11,14 +11,14 @@
             $(this).css('top', '-39px');
           });
           setTimeout(function () {
-            var m = 0,
+            var agSlotItemNum = 0,
               r = setInterval(function () {
-                $('#js-gambling-slot-' + m + ' .js-gambling-slot_letter').animate({top: '0px', display: 'block'}, 150);
-                $('#js-gambling-slot-' + m).removeClass('js-ag-animate');
-                m == k && (setTimeout(function () {
+                $('#js-gambling-slot-' + agSlotItemNum + ' .js-gambling-slot_letter').animate({top: '0px', display: 'block'}, 150);
+                $('#js-gambling-slot-' + agSlotItemNum).removeClass('js-ag-animate');
+                agSlotItemNum == agSlotItem && (setTimeout(function () {
                   $('.js-logo_light').css('display', 'block');
                 }, 175), clearInterval(r));
-                m++
+                agSlotItemNum++
               }, 100)
           }, 1700)
         }, 5000)
