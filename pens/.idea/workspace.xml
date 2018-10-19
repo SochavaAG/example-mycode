@@ -94,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gambling-slot-machine/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="413">
+              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -107,18 +107,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gambling-slot-machine/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+            <state relative-caret-position="168">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gambling-slot-machine/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="117" column="1" lean-forward="true" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
+            <state relative-caret-position="377">
+              <caret line="110" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -138,7 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>background-color .2s ease 0s;</find>
       <find>./img/</find>
       <find>transition</find>
       <find>images/logo.png</find>
@@ -165,8 +164,9 @@
       <find>animate</find>
       <find>span</find>
       <find>&lt;span class=&quot;ag-gambling-slot_letter&quot;&gt;</find>
-      <find>#baraban_</find>
       <find>an-gambling-slot</find>
+      <find>#baraban_</find>
+      <find>../images/</find>
       <find>&lt;/li&gt;</find>
     </findStrings>
     <replaceStrings>
@@ -196,10 +196,10 @@
       <replace>.js-logo_light</replace>
       <replace>&lt;span&gt;</replace>
       <replace>ag-gambling-slot_item&quot;&gt;&lt;span class=&quot;js-gambling-slot_letter&quot;&gt;</replace>
-      <replace>#js-gambling-slot-</replace>
       <replace>) no-repeat scroll 50% 0</replace>
-      <replace>&lt;/span&gt;&lt;/li&gt;</replace>
+      <replace>#js-gambling-slot-</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/gambling-slot-machine/images/</replace>
+      <replace>&lt;/span&gt;&lt;/li&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -257,9 +257,9 @@
         <option value="$PROJECT_DIR$/casino-roulette/css/style.css" />
         <option value="$PROJECT_DIR$/casino-roulette/index.html" />
         <option value="$USER_HOME$/format-2.js" />
-        <option value="$PROJECT_DIR$/gambling-slot-machine/js/main.js" />
         <option value="$PROJECT_DIR$/gambling-slot-machine/index.html" />
         <option value="$PROJECT_DIR$/gambling-slot-machine/css/style.css" />
+        <option value="$PROJECT_DIR$/gambling-slot-machine/js/main.js" />
       </list>
     </option>
   </component>
@@ -406,12 +406,12 @@
       <workItem from="1538721382193" duration="22234000" />
       <workItem from="1539064795547" duration="27982000" />
       <workItem from="1539842368070" duration="23658000" />
-      <workItem from="1539929159506" duration="5726000" />
+      <workItem from="1539929159506" duration="6656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162143000" />
+    <option name="totallyTimeSpent" value="163073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -741,26 +741,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gambling-slot-machine/js/main.js">
+    <entry file="file://$PROJECT_DIR$/gambling-slot-machine/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="377">
+          <caret line="110" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gambling-slot-machine/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+        <state relative-caret-position="168">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gambling-slot-machine/css/style.css">
+    <entry file="file://$PROJECT_DIR$/gambling-slot-machine/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="117" column="1" lean-forward="true" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
+        <state relative-caret-position="413">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding />
         </state>
       </provider>
