@@ -35,7 +35,7 @@
       }, 200);
     }
 
-      agDownloadBtn.click(function (e) {
+      agDownloadBtn.click(function () {
         if(!agDownloadBtnStatus.hasClass('js-complete')) {
           agProgressInterval();
         }
@@ -43,21 +43,28 @@
     /* /button 9 */
 
     /* button 10 */
+    var agBtn10 = $('.js-base_btn-v10');
+
     function agAnimateBtnBorderShow() {
       var agSpeed = 300,
         agBtnBorder = $('.js-base_btn-v10').children('.js-ag-base_btn-border-v10');
 
-      agBtnBorder.filter('.js-ag-base_btn-border__top-v10').removeAttr('style').animate({'width': 100 + '%'}, agSpeed, function () {
-        agBtnBorder.filter('.js-ag-base_btn-border__right-v10').removeAttr('style').animate({'height': 100 + '%'}, agSpeed, function () {
-          agBtnBorder.filter('.js-ag-base_btn-border__bottom-v10').removeAttr('style').animate({'width': 100 + '%'}, agSpeed, function () {
-            agBtnBorder.filter('.js-ag-base_btn-border__left-v10').removeAttr('style').animate({'height': 100 + '%'}, agSpeed);
+      agBtnBorder.filter('.js-ag-base_btn-border__top-v10').animate({'width': 100 + '%'}, agSpeed, function () {
+        agBtnBorder.filter('.js-ag-base_btn-border__right-v10').animate({'height': 100 + '%'}, agSpeed, function () {
+          agBtnBorder.filter('.js-ag-base_btn-border__bottom-v10').animate({'width': 100 + '%'}, agSpeed, function () {
+            agBtnBorder.filter('.js-ag-base_btn-border__left-v10').animate({'height': 100 + '%'}, agSpeed);
           });
         });
       });
+
+      agBtn10.addClass('js-complete');
     }
 
-    agAnimateBtnBorderShow();
-
+    agBtn10.click(function () {
+      if(!agBtn10.hasClass('js-complete')) {
+        agAnimateBtnBorderShow();
+      }
+    });
 
   });
 })(jQuery);
