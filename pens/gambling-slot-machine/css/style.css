@@ -38,13 +38,13 @@
   height: 100%;
   line-height: 39px;
   width: 27px;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/gambling-slot-machine/images/background.jpg) no-repeat scroll 50% 50%;
+  background: url(../images/sprite.png) no-repeat scroll 2px -115px;
 
   overflow: hidden;
 
   text-align: center;
   font-family: Acrom-ExtraBold, sans-serif;
-  font-size: 22px;
+  font-size: 16px;
   color: #304058;
 
   text-shadow: 0 -1px 0 #000, 0 1px 0 #FFF;
@@ -52,10 +52,10 @@
   position: relative;
 }
 .ag-gambling-slot_item__first {
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/gambling-slot-machine/images/background-prelast.jpg) no-repeat scroll 50% 50%;
+  background: url(../images/sprite.png) no-repeat scroll 2px -40px;
 }
 .ag-gambling-slot_item:last-child {
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/gambling-slot-machine/images/background-last.jpg) no-repeat scroll 50% 50%;
+  background: url(../images/sprite.png) no-repeat scroll 2px -78px;
 }
 .ag-gambling-slot_item:before {
   content: "";
@@ -64,7 +64,7 @@
   width: 20px;
   margin-top: -15px;
   margin-left: -10px;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/gambling-slot-machine/images/backmove.png) repeat-y 50% 0;
+  background: url(../images/sprite.png) repeat-y -30px 0;
 
   position: absolute;
   top: 50%;
@@ -84,7 +84,7 @@
   display: block;
   width: 100%;
   height: 100%;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/gambling-slot-machine/images/frame.png) no-repeat scroll 0 0;
+  background: url(../images/sprite.png) no-repeat scroll 0 0;
 
   position: absolute;
   left: 0;
@@ -95,7 +95,7 @@
   height: 13px;
   width: 228px;
   margin: 0 auto;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/gambling-slot-machine/images/logo-bottom.png) no-repeat scroll 0 0;
+  background: url(../images/logo-bottom.png) no-repeat scroll 0 0;
 
   position: relative;
 }
@@ -103,7 +103,7 @@
   display: none;
   height: 26px;
   width: 51px;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/gambling-slot-machine/images/logolights.png) no-repeat scroll 50% 0;
+  background: url(../images/sprite.png) no-repeat scroll -49px 2px;
 
   position: absolute;
   bottom: 6px;
@@ -112,63 +112,63 @@
   left: -6px;
 }
 .ag-logo_light__yellow {
-  background-position: 50% 100%;
+  background-position: -49px -50px;
 
   left: 12px;
 }
 .ag-logo_light__grey {
-  background-position: 50% 50%;
+  background-position: -49px -24px;
 
   right: -7px;
 }
 
 @-webkit-keyframes an-gambling-slot {
   0% {
-    background-position: 50% 0;
+    background-position: -30px 0;
   }
 
   100% {
-    background-position: 50% 2000px;
+    background-position: -30px 2000px;
   }
 
 }
 @-moz-keyframes an-gambling-slot {
   0% {
-    background-position: 50% 0;
+    background-position: -30px 0;
   }
 
   100% {
-    background-position: 50% 2000px;
+    background-position: -30px 2000px;
   }
 }
 
 @-ms-keyframes an-gambling-slot {
   0% {
-    background-position: 50% 0;
+    background-position: -30px 0;
   }
 
   100% {
-    background-position: 50% 2000px;
+    background-position: -30px 2000px;
   }
 }
 
 @-o-keyframes an-gambling-slot {
   0% {
-    background-position: 50% 0;
+    background-position: -30px 0;
   }
 
   100% {
-    background-position: 50% 2000px;
+    background-position: -30px 2000px;
   }
 }
 
 @keyframes an-gambling-slot {
   0% {
-    background-position: 50% 0;
+    background-position: -30px 0;
   }
 
   100% {
-    background-position: 50% 2000px;
+    background-position: -30px 2000px;
   }
 }
 
