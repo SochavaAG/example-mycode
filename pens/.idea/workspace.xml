@@ -102,12 +102,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/item-crossing-line-hover/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="100" column="107" lean-forward="false" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="107" />
-              <folding />
+            <state relative-caret-position="137">
+              <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="33" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,8 +117,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/item-crossing-line-hover/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="36" column="96" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="96" />
+            <state relative-caret-position="477">
+              <caret line="36" column="79" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -147,13 +149,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gambling-slot-machine/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>../images/</find>
-      <find>language</find>
-      <find>showAnalyticsBanner</find>
       <find>&quot;</find>
       <find>/assets/a31b3f87/img/favicon/</find>
       <find>/assets/a31b3f87/</find>
@@ -179,14 +188,13 @@
       <find>Lato</find>
       <find>.ag-blog_date</find>
       <find>&lt;li class=&quot;article-content col-sm-4&quot;&gt;</find>
-      <find>item-animation-circle</find>
       <find>images/</find>
+      <find>item-animation-circle</find>
+      <find>https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/</find>
+      <find>https://github.com/SochavaAG/</find>
+      <find>../fonts/</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-primary</replace>
-      <replace>../</replace>
-      <replace>-20px</replace>
-      <replace>-30px</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/gambling-slot-machine/images/</replace>
       <replace>&quot;</replace>
       <replace>images/</replace>
@@ -211,8 +219,12 @@
       <replace>Lato-Bold</replace>
       <replace>&lt;li class=&quot;ag-blog_item&quot;&gt;</replace>
       <replace>https://github.com/SochavaAG/example-mycode/raw/master/pens/item-animation-circle/fonts/</replace>
-      <replace>item-crossing-line-hover</replace>
       <replace>https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/</replace>
+      <replace>item-crossing-line-hover</replace>
+      <replace>https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/item-crossing-line-hover/fonts/Itim-Regular/Itim-Regular</replace>
+      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-crossing-line-hover/images/</replace>
+      <replace>https://rawcdn.githack.com/SochavaAG/</replace>
+      <replace>https://rawcdn.githack.com/SochavaAG/example-mycode/raw/master/pens/gambling-slot-machine/fonts/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -263,7 +275,6 @@
         <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.19_landing_double-bonus-africa/double-bonus-africa-EN.html" />
         <option value="$USER_HOME$/vazhno_project/2018.10.19_FX-11708_pop-up_start-trading/pop-up_start-trading-new-if.js" />
         <option value="$PROJECT_DIR$/gambling-slot-machine/js/main.js" />
-        <option value="$PROJECT_DIR$/gambling-slot-machine/css/style.css" />
         <option value="$PROJECT_DIR$/leave-site-modal-popup/js/main.js" />
         <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-6.js" />
         <option value="$USER_HOME$/vazhno_project/2018.02.27_simple-snippet_analytics-form-subscribe/doc/Mailchimp-Errors.txt" />
@@ -271,8 +282,9 @@
         <option value="$USER_HOME$/example/примеры сайтов/zipl.pro/css/style.css" />
         <option value="$USER_HOME$/example/примеры сайтов/cs-everything-nail.myshopify.com/css/cs-everything.styles.scss.css" />
         <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-7.js" />
-        <option value="$PROJECT_DIR$/item-crossing-line-hover/css/style.css" />
         <option value="$PROJECT_DIR$/item-crossing-line-hover/index.html" />
+        <option value="$PROJECT_DIR$/item-crossing-line-hover/css/style.css" />
+        <option value="$PROJECT_DIR$/gambling-slot-machine/css/style.css" />
       </list>
     </option>
   </component>
@@ -421,12 +433,12 @@
       <workItem from="1539842368070" duration="23658000" />
       <workItem from="1539929159506" duration="22152000" />
       <workItem from="1540189752326" duration="9212000" />
-      <workItem from="1540201141645" duration="10238000" />
+      <workItem from="1540201141645" duration="10774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198019000" />
+    <option name="totallyTimeSpent" value="198555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -615,13 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gambling-slot-machine/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="200" column="0" lean-forward="true" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project/2018.10.19_FX-11708_pop-up_start-trading/pop-up_start-trading-new-2018.10.19.js" />
     <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-6.js" />
     <entry file="file://$PROJECT_DIR$/leave-site-modal-popup/js/main.js">
@@ -732,14 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/item-crossing-line-hover/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="36" column="96" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/example/примеры сайтов/cs-everything-nail.myshopify.com/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-672">
@@ -755,8 +752,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/item-crossing-line-hover/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="100" column="107" lean-forward="false" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="107" />
+        <state relative-caret-position="137">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item-crossing-line-hover/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="36" column="79" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gambling-slot-machine/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>
