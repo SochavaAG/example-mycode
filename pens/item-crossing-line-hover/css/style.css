@@ -1,45 +1,45 @@
 @font-face {
   font-family: Itim-Regular;
-  src: url(../fonts/Itim-Regular/Itim-Regular.eot);
-  src: url(../fonts/Itim-Regular/Itim-Regular.eot?#iefix) format('embedded-opentype'),
-  url(../fonts/Itim-Regular/Itim-Regular.woff2) format('woff2'),
-  url(../fonts/Itim-Regular/Itim-Regular.woff) format('woff'),
-  url(../fonts/Itim-Regular/Itim-Regular.ttf) format('truetype'),
-  url(../fonts/Itim-Regular/Itim-Regular.svg#Itim-Regular) format('svg');
+  src: url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Itim-Regular/Itim-Regular.eot);
+  src: url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Itim-Regular/Itim-Regular.eot?#iefix) format('embedded-opentype'),
+  url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Itim-Regular/Itim-Regular.woff2) format('woff2'),
+  url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Itim-Regular/Itim-Regular.woff) format('woff'),
+  url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Itim-Regular/Itim-Regular.ttf) format('truetype'),
+  url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Itim-Regular/Itim-Regular.svg#Itim-Regular) format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: Lato;
-  src: url(../fonts/Lato-Bold/Lato-Bold.eot);
-  src: url(../fonts/Lato-Bold/Lato-Bold.eot?#iefix) format('embedded-opentype'),
-  url(../fonts/Lato-Bold/Lato-Bold.woff2) format('woff2'),
-  url(../fonts/Lato-Bold/Lato-Bold.woff) format('woff'),
-  url(../fonts/Lato-Bold/Lato-Bold.ttf) format('truetype'),
-  url(../fonts/Lato-Bold/Lato-Bold.svg#Lato-Bold) format('svg');
+  src: url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Lato-Bold/Lato-Bold.eot);
+  src: url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Lato-Bold/Lato-Bold.eot?#iefix) format('embedded-opentype'),
+  url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Lato-Bold/Lato-Bold.woff2) format('woff2'),
+  url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Lato-Bold/Lato-Bold.woff) format('woff'),
+  url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Lato-Bold/Lato-Bold.ttf) format('truetype'),
+  url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Lato-Bold/Lato-Bold.svg#Lato-Bold) format('svg');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: Lato;
-  src: url(../fonts/Lato-Regular/Lato-Regular.eot);
-  src: url(../fonts/Lato-Regular/Lato-Regular.eot?#iefix) format('embedded-opentype'),
-  url(../fonts/Lato-Regular/Lato-Regular.woff2) format('woff2'),
-  url(../fonts/Lato-Regular/Lato-Regular.woff) format('woff'),
-  url(../fonts/Lato-Regular/Lato-Regular.ttf) format('truetype'),
-  url(../fonts/Lato-Regular/Lato-Regular.svg#Lato-Regular) format('svg');
+  src: url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Lato-Regular/Lato-Regular.eot);
+  src: url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Lato-Regular/Lato-Regular.eot?#iefix) format('embedded-opentype'),
+  url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Lato-Regular/Lato-Regular.woff2) format('woff2'),
+  url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Lato-Regular/Lato-Regular.woff) format('woff'),
+  url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Lato-Regular/Lato-Regular.ttf) format('truetype'),
+  url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Lato-Regular/Lato-Regular.svg#Lato-Regular) format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: Lato;
-  src: url(../fonts/Lato-Light/Lato-Light.eot);
-  src: url(../fonts/Lato-Light/Lato-Light.eot?#iefix) format('embedded-opentype'),
-  url(../fonts/Lato-Light/Lato-Light.woff2) format('woff2'),
-  url(../fonts/Lato-Light/Lato-Light.woff) format('woff'),
-  url(../fonts/Lato-Light/Lato-Light.ttf) format('truetype'),
-  url(../fonts/Lato-Light/Lato-Light.svg#Lato-Light) format('svg');
+  src: url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Lato-Light/Lato-Light.eot);
+  src: url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Lato-Light/Lato-Light.eot?#iefix) format('embedded-opentype'),
+  url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Lato-Light/Lato-Light.woff2) format('woff2'),
+  url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Lato-Light/Lato-Light.woff) format('woff'),
+  url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Lato-Light/Lato-Light.ttf) format('truetype'),
+  url(https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/fonts/Lato-Light/Lato-Light.svg#Lato-Light) format('svg');
   font-weight: 300;
   font-style: normal;
 }

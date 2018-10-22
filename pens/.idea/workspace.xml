@@ -105,11 +105,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/item-crossing-line-hover/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="131" selection-end-column="6" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="237">
+              <caret line="100" column="107" lean-forward="false" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="107" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,8 +115,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/item-crossing-line-hover/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="26" column="70" lean-forward="false" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
+            <state relative-caret-position="117">
+              <caret line="36" column="96" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -127,7 +125,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/example/примеры сайтов/cs-everything-nail.myshopify.com/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="-672">
               <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
               <folding>
                 <marker date="1537888446285" expanded="true" signature="5566:5834" ph="{&quot;accessToken&quot;: &quot;2d69856a711f0aa78a8ef5f747e88210&quot;...}" />
@@ -139,12 +137,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/item-animation-circle/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="94" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>-30px</find>
-      <find>-20px</find>
       <find>../images/</find>
       <find>language</find>
       <find>showAnalyticsBanner</find>
@@ -171,13 +177,12 @@
       <find>.year</find>
       <find>article-title</find>
       <find>Lato</find>
-      <find>&lt;li class=&quot;article-content col-sm-4&quot;&gt;</find>
       <find>.ag-blog_date</find>
+      <find>&lt;li class=&quot;article-content col-sm-4&quot;&gt;</find>
+      <find>item-animation-circle</find>
+      <find>images/</find>
     </findStrings>
     <replaceStrings>
-      <replace>an-rainbow 3s linear 2s infinite;</replace>
-      <replace>double-bonus-africa</replace>
-      <replace>sprite-icons.png</replace>
       <replace>ag-primary</replace>
       <replace>../</replace>
       <replace>-20px</replace>
@@ -203,8 +208,11 @@
       <replace>Lato-Light</replace>
       <replace>#FFF</replace>
       <replace>#</replace>
-      <replace>&lt;li class=&quot;ag-blog_item&quot;&gt;</replace>
       <replace>Lato-Bold</replace>
+      <replace>&lt;li class=&quot;ag-blog_item&quot;&gt;</replace>
+      <replace>https://github.com/SochavaAG/example-mycode/raw/master/pens/item-animation-circle/fonts/</replace>
+      <replace>item-crossing-line-hover</replace>
+      <replace>https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -262,9 +270,9 @@
         <option value="$USER_HOME$/example/примеры сайтов/zipl.pro/index.html" />
         <option value="$USER_HOME$/example/примеры сайтов/zipl.pro/css/style.css" />
         <option value="$USER_HOME$/example/примеры сайтов/cs-everything-nail.myshopify.com/css/cs-everything.styles.scss.css" />
-        <option value="$PROJECT_DIR$/item-crossing-line-hover/index.html" />
         <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-7.js" />
         <option value="$PROJECT_DIR$/item-crossing-line-hover/css/style.css" />
+        <option value="$PROJECT_DIR$/item-crossing-line-hover/index.html" />
       </list>
     </option>
   </component>
@@ -413,12 +421,12 @@
       <workItem from="1539842368070" duration="23658000" />
       <workItem from="1539929159506" duration="22152000" />
       <workItem from="1540189752326" duration="9212000" />
-      <workItem from="1540201141645" duration="10031000" />
+      <workItem from="1540201141645" duration="10238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197812000" />
+    <option name="totallyTimeSpent" value="198019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -509,13 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-animation-circle/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="51" column="41" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -703,19 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/example/примеры сайтов/cs-everything-nail.myshopify.com/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-          <folding>
-            <marker date="1537888446285" expanded="true" signature="5566:5834" ph="{&quot;accessToken&quot;: &quot;2d69856a711f0aa78a8ef5f747e88210&quot;...}" />
-            <marker date="1537888446285" expanded="true" signature="269018:269201" ph="..." />
-            <marker date="1537888446285" expanded="true" signature="275803:275816" ph="..." />
-            <marker date="1537888446285" expanded="true" signature="277026:277064" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/example/примеры сайтов/cs-everything-nail.myshopify.com/css/cs-everything.styles.scss.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="605">
@@ -736,21 +724,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/item-animation-circle/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="94" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/item-crossing-line-hover/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="70" lean-forward="false" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
+        <state relative-caret-position="117">
+          <caret line="36" column="96" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="96" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example/примеры сайтов/cs-everything-nail.myshopify.com/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-672">
+          <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+          <folding>
+            <marker date="1537888446285" expanded="true" signature="5566:5834" ph="{&quot;accessToken&quot;: &quot;2d69856a711f0aa78a8ef5f747e88210&quot;...}" />
+            <marker date="1537888446285" expanded="true" signature="269018:269201" ph="..." />
+            <marker date="1537888446285" expanded="true" signature="275803:275816" ph="..." />
+            <marker date="1537888446285" expanded="true" signature="277026:277064" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/item-crossing-line-hover/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="131" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="237">
+          <caret line="100" column="107" lean-forward="false" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="107" />
+          <folding />
         </state>
       </provider>
     </entry>
