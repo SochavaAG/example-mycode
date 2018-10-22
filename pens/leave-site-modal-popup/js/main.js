@@ -4,7 +4,7 @@
 
     $('.js-popup_close').click(function () {
       $('.js-popup-block').fadeOut(300);
-    })
+    });
 
     var flag = true;
     $(window).mouseout(function (e) {
@@ -12,6 +12,7 @@
         $('.js-popup-block').fadeIn(300);
         flag = false;
       }
-    })
+    });
+
   });
 })();
