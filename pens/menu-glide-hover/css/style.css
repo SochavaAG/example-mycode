@@ -24,15 +24,12 @@ a:hover {
   -o-border-radius: 4px 4px 4px 4px;
   border-radius: 4px 4px 4px 4px;
 }
-.ag-menu_box {
 
-}
 .ag-menu-cat_list-wrap {
   overflow: hidden;
 }
 .ag-menu-cat_list {
   float: left;
-  height: 56px;
   width: 100%;
   margin: 0 0 20px;
   padding: 0 20px 0 15px;
@@ -87,9 +84,8 @@ a:hover {
   bottom: -15px;
 }
 .ag-menu-cat_link {
-  float: left;
-  line-height: 56px;
-  padding: 0 10px;
+  display: block;
+  padding: 18px 15px;
 
   text-decoration: none;
   font-size: 14px;
@@ -98,10 +94,15 @@ a:hover {
   text-shadow: 0 -1px 1px #000000;
   filter: dropshadow(color=#000000, offx=0, offy=-1);
 }
+.js-ag-menu-nav_item .ag-menu-cat_link {
+  color: #cb4537;
+
+  text-shadow: 0 0 0 #000000;
+  filter: dropshadow(color=#000000, offx=0, offy=0);
+}
 
 .ag-menu-lang_list {
   float: right;
-  height: 56px;
   margin: 0 0 20px;
   padding: 0 15px 0 20px;
 
@@ -157,8 +158,6 @@ a:hover {
 .ag-menu-cat_item,
 .ag-menu-lang_item {
   display: inline-block;
-  height: 56px;
-  margin-right: 2px;
 }
 .ag-menu-cat_link__inactive:hover {
   color: #cb4537;
@@ -166,8 +165,7 @@ a:hover {
 
 .ag-menu-lang_link {
   float: left;
-  line-height: 56px;
-  padding: 0 2px;
+  padding: 18px 2px;
 
   text-decoration: none;
   font-size: 12px;
@@ -176,12 +174,8 @@ a:hover {
   text-shadow: 0 -1px 1px #000000;
   filter: dropshadow(color=#000000, offx=0, offy=-1);
 }
-
-.js-ag-menu-nav_item a {
-  color: #cb4537;
-
-  text-shadow: 0 0 0 #000000;
-  filter: dropshadow(color=#000000, offx=0, offy=0);
+.ag-menu-lang_link__active {
+  color: #000;
 }
 
 @media only screen and (max-width: 767px) {
