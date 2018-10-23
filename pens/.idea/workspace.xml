@@ -18,16 +18,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leave-site-modal-popup/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leave-site-modal-popup/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -41,23 +31,13 @@
       <file leaf-file-name="pop-up_analytics-7.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-7.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+            <state relative-caret-position="411">
+              <caret line="51" column="11" lean-forward="false" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
               <folding>
-                <marker date="1540218199862" expanded="true" signature="6283:6295" ph="..." />
-                <marker date="1540218199862" expanded="true" signature="6414:6426" ph="..." />
-                <marker date="1540218199862" expanded="true" signature="6702:6736" ph="..." />
+                <marker date="1540219512964" expanded="true" signature="6383:6395" ph="..." />
+                <marker date="1540219512964" expanded="true" signature="6514:6526" ph="..." />
+                <marker date="1540219512964" expanded="true" signature="6802:6836" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pop-up_analytics-simple-snippet-EN.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/css/pop-up_analytics-simple-snippet-EN.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13128">
-              <caret line="547" column="97" lean-forward="false" selection-start-line="547" selection-start-column="82" selection-end-line="547" selection-end-column="97" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -72,41 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mailchimp-Errors.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project/2018.02.27_simple-snippet_analytics-form-subscribe/doc/Mailchimp-Errors.txt">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/item-animation-border-circle/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7200">
-              <caret line="300" column="8" lean-forward="false" selection-start-line="300" selection-start-column="8" selection-end-line="322" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/example/примеры сайтов/loreal-paris.ua/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cs-everything.styles.scss.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/example/примеры сайтов/cs-everything-nail.myshopify.com/css/cs-everything.styles.scss.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="136" column="19" lean-forward="true" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/item-crossing-line-hover/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="118">
+              <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="37" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -115,46 +65,24 @@
         </entry>
       </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/item-crossing-line-hover/css/style.css">
+        <entry file="file://$PROJECT_DIR$/item-animation-border-circle/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="36" column="79" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="79" />
+            <state relative-caret-position="291">
+              <caret line="199" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/example/примеры сайтов/cs-everything-nail.myshopify.com/index.html">
+      <file leaf-file-name="exclusive-lucky-draw-promotion-EN.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw-promotion/exclusive-lucky-draw-promotion-EN.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-672">
-              <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+            <state relative-caret-position="480">
+              <caret line="698" column="5" lean-forward="true" selection-start-line="696" selection-start-column="2" selection-end-line="698" selection-end-column="5" />
               <folding>
-                <marker date="1537888446285" expanded="true" signature="5566:5834" ph="{&quot;accessToken&quot;: &quot;2d69856a711f0aa78a8ef5f747e88210&quot;...}" />
-                <marker date="1537888446285" expanded="true" signature="269018:269201" ph="..." />
-                <marker date="1537888446285" expanded="true" signature="275803:275816" ph="..." />
-                <marker date="1537888446285" expanded="true" signature="277026:277064" ph="..." />
+                <element signature="n#div#4;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#script#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/item-animation-circle/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="94" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="94" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gambling-slot-machine/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -163,9 +91,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;</find>
-      <find>/assets/a31b3f87/img/favicon/</find>
-      <find>/assets/a31b3f87/</find>
       <find>/assets/a31b3f87/img/</find>
       <find>/assets/a31b3f87/js/libs/</find>
       <find>GothamProMedium</find>
@@ -193,10 +118,11 @@
       <find>https://github.com/SochavaAG/example-mycode/raw/master/pens/item-crossing-line-hover/</find>
       <find>https://github.com/SochavaAG/</find>
       <find>../fonts/</find>
+      <find>ag-step</find>
+      <find>href=&quot;</find>
+      <find>ag-rotar-gradient</find>
     </findStrings>
     <replaceStrings>
-      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/gambling-slot-machine/images/</replace>
-      <replace>&quot;</replace>
       <replace>images/</replace>
       <replace>js/</replace>
       <replace>'</replace>
@@ -225,6 +151,8 @@
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-crossing-line-hover/images/</replace>
       <replace>https://rawcdn.githack.com/SochavaAG/</replace>
       <replace>https://rawcdn.githack.com/SochavaAG/example-mycode/raw/master/pens/gambling-slot-machine/fonts/</replace>
+      <replace>фт-rotar-gradient</replace>
+      <replace>an-rotar-gradient</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -234,8 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/404-error-smoke from toaster/index.html" />
-        <option value="$PROJECT_DIR$/404-error-smoke from toaster/js/main.js" />
         <option value="$PROJECT_DIR$/404-error-smoke from toaster/css/style.css" />
         <option value="$PROJECT_DIR$/404-error-smoke-from-toaster/index.html" />
         <option value="$PROJECT_DIR$/404-error-smoke-from-toaster/css/style.css" />
@@ -281,10 +207,12 @@
         <option value="$USER_HOME$/example/примеры сайтов/zipl.pro/index.html" />
         <option value="$USER_HOME$/example/примеры сайтов/zipl.pro/css/style.css" />
         <option value="$USER_HOME$/example/примеры сайтов/cs-everything-nail.myshopify.com/css/cs-everything.styles.scss.css" />
-        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-7.js" />
         <option value="$PROJECT_DIR$/item-crossing-line-hover/index.html" />
         <option value="$PROJECT_DIR$/item-crossing-line-hover/css/style.css" />
         <option value="$PROJECT_DIR$/gambling-slot-machine/css/style.css" />
+        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-7.js" />
+        <option value="$PROJECT_DIR$/item-animation-border-circle/index.html" />
+        <option value="$PROJECT_DIR$/item-animation-border-circle/css/style.css" />
       </list>
     </option>
   </component>
@@ -319,7 +247,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/example/примеры сайтов/loreal-paris.ua/css/style.css" />
+    <property name="last_opened_file_path" value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw-promotion/exclusive-lucky-draw-promotion-EN.html" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RunManager">
@@ -433,12 +361,13 @@
       <workItem from="1539842368070" duration="23658000" />
       <workItem from="1539929159506" duration="22152000" />
       <workItem from="1540189752326" duration="9212000" />
-      <workItem from="1540201141645" duration="10774000" />
+      <workItem from="1540201141645" duration="12031000" />
+      <workItem from="1540274521263" duration="1054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198555000" />
+    <option name="totallyTimeSpent" value="200866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -475,9 +404,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/circle-item-animation/css/style.css" />
-    <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics.js" />
-    <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-1.js" />
     <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-2.js" />
     <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-3.js" />
     <entry file="file://$USER_HOME$/vazhno_project/2018.02.27_simple-snippet_analytics-form-subscribe/analytics-form-subscribe-EN.html">
@@ -647,7 +573,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leave-site-modal-popup/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="408">
           <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
         </state>
@@ -669,38 +595,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/example/примеры сайтов/zipl.pro/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12384">
-          <caret line="516" column="0" lean-forward="false" selection-start-line="516" selection-start-column="0" selection-end-line="516" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example/примеры сайтов/zipl.pro/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1051">
-          <caret line="167" column="18839" lean-forward="false" selection-start-line="167" selection-start-column="18829" selection-end-line="167" selection-end-column="18839" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example/примеры сайтов/zipl.pro/js/jquery.pjax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-595">
-          <caret line="193" column="31" lean-forward="true" selection-start-line="193" selection-start-column="31" selection-end-line="193" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example/примеры сайтов/zipl.pro/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="103" column="17" lean-forward="true" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/example/примеры сайтов/zipl.pro/index.html" />
+    <entry file="file://$USER_HOME$/example/примеры сайтов/zipl.pro/css/style.css" />
+    <entry file="file://$USER_HOME$/example/примеры сайтов/zipl.pro/js/jquery.pjax.js" />
+    <entry file="file://$USER_HOME$/example/примеры сайтов/zipl.pro/js/main.js" />
     <entry file="file://$USER_HOME$/example/примеры сайтов/loreal-paris.ua/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -711,35 +609,23 @@
     </entry>
     <entry file="file://$USER_HOME$/example/примеры сайтов/cs-everything-nail.myshopify.com/css/cs-everything.styles.scss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="136" column="19" lean-forward="true" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+        <state relative-caret-position="3264">
+          <caret line="136" column="19" lean-forward="false" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-7.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="39" column="10" lean-forward="true" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
-          <folding>
-            <marker date="1540218199862" expanded="true" signature="6283:6295" ph="..." />
-            <marker date="1540218199862" expanded="true" signature="6414:6426" ph="..." />
-            <marker date="1540218199862" expanded="true" signature="6702:6736" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/item-animation-circle/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="6" column="94" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="94" />
+          <caret line="6" column="94" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="94" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/example/примеры сайтов/cs-everything-nail.myshopify.com/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
+        <state relative-caret-position="480">
           <caret line="20" column="55" lean-forward="false" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
           <folding>
             <marker date="1537888446285" expanded="true" signature="5566:5834" ph="{&quot;accessToken&quot;: &quot;2d69856a711f0aa78a8ef5f747e88210&quot;...}" />
@@ -752,7 +638,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/item-crossing-line-hover/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
+        <state relative-caret-position="288">
           <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -762,7 +648,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/item-crossing-line-hover/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
+        <state relative-caret-position="864">
           <caret line="36" column="79" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="79" />
           <folding />
         </state>
@@ -773,6 +659,47 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="51" column="11" lean-forward="false" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+          <folding>
+            <marker date="1540219512964" expanded="true" signature="6383:6395" ph="..." />
+            <marker date="1540219512964" expanded="true" signature="6514:6526" ph="..." />
+            <marker date="1540219512964" expanded="true" signature="6802:6836" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw-promotion/exclusive-lucky-draw-promotion-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="698" column="5" lean-forward="true" selection-start-line="696" selection-start-column="2" selection-end-line="698" selection-end-column="5" />
+          <folding>
+            <element signature="n#div#4;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item-animation-border-circle/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="199" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item-animation-border-circle/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
