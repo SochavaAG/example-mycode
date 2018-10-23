@@ -79,7 +79,7 @@ body {
   height: 126px;
   width: 126px;
   margin: 0 0 10px;
-  background-image: url(//justforex.com/uploads/landing/south-african-bonus/sprite-icons.png);
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-border-circle-background/images/sprite-icons.png);
   background-repeat: no-repeat;
   background-size: auto 126px;
 
@@ -225,7 +225,7 @@ body {
 }
 .ag-step_icons:after {
   content: "";
-  background-image: url(//justforex.com/uploads/landing/south-african-bonus/sprite-icons.png);
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-border-circle-background/images/sprite-icons.png);
   background-repeat: no-repeat;
 
   z-index: 4;
@@ -261,7 +261,7 @@ body {
   content: "";
   height: 20px;
   width: 124px;
-  background: url(//justforex.com/uploads/landing/south-african-bonus/sprite-icons.png) no-repeat scroll -650px 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-border-circle-background/images/sprite-icons.png) no-repeat scroll -650px 0;
 
   position: absolute;
   right: -152px;
@@ -322,7 +322,7 @@ body {
     content: "";
     height: 20px;
     width: 124px;
-    background: url(//justforex.com/uploads/landing/south-african-bonus/sprite-icons.png) no-repeat scroll -650px 0;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-border-circle-background/images/sprite-icons.png) no-repeat scroll -650px 0;
 
     position: absolute;
     right: -80px;

@@ -31,12 +31,12 @@
       <file leaf-file-name="pop-up_analytics-7.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-7.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+            <state relative-caret-position="507">
+              <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
               <folding>
-                <marker date="1540276212981" expanded="true" signature="6612:6624" ph="..." />
-                <marker date="1540276212981" expanded="true" signature="6743:6755" ph="..." />
-                <marker date="1540276212981" expanded="true" signature="7031:7065" ph="..." />
+                <marker date="1540282927503" expanded="true" signature="6676:6688" ph="..." />
+                <marker date="1540282927503" expanded="true" signature="6807:6819" ph="..." />
+                <marker date="1540282927503" expanded="true" signature="7095:7129" ph="..." />
               </folding>
             </state>
           </provider>
@@ -52,33 +52,76 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="south-african-bonus-EN.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.09.20_landing_south-african-bonus/south-african-bonus-EN.html">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example/02.10.2015_example/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="782" column="5" lean-forward="true" selection-start-line="772" selection-start-column="2" selection-end-line="782" selection-end-column="5" />
-              <folding>
-                <element signature="n#script#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/item-animation-border-circle-background/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="64" column="100" lean-forward="false" selection-start-line="64" selection-start-column="100" selection-end-line="64" selection-end-column="100" />
+            <state relative-caret-position="519">
+              <caret line="2119" column="13" lean-forward="true" selection-start-line="2119" selection-start-column="13" selection-end-line="2119" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/menu-glide-hover/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/menu-glide-hover/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+              <folding>
+                <element signature="e#860#2215#2" expanded="true" />
+                <element signature="e#3275#4622#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/menu-glide-hover/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/item-animation-border-circle-background/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="81" column="25" lean-forward="false" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+            <state relative-caret-position="1910">
+              <caret line="384" column="0" lean-forward="true" selection-start-line="384" selection-start-column="0" selection-end-line="384" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/item-animation-border-circle-rotate/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/item-animation-border-circle-rotate/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="308" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="398" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,9 +131,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>GothamProBlack</find>
-      <find>GothamProRegular</find>
-      <find>GothamProBold</find>
       <find>../img/cursors/</find>
       <find>url(</find>
       <find>../img/</find>
@@ -117,11 +157,12 @@
       <find>../images/sprite-icons.png</find>
       <find>href=&quot;</find>
       <find>//justforex.com/uploads/landing/exclusive-lucky-draw/sprite-icons.png</find>
+      <find>//justforex.com/uploads/landing/south-african-bonus/sprite-icons.png</find>
       <find>.ag-step</find>
+      <find>lavalamp-object</find>
+      <find>header-menu</find>
     </findStrings>
     <replaceStrings>
-      <replace>'</replace>
-      <replace>GothamPro</replace>
       <replace>GothamPro-Black</replace>
       <replace>GothamPro-Bold</replace>
       <replace>GothamPro-Medium</replace>
@@ -150,6 +191,8 @@
       <replace>an-rotar-gradient</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-border-circle/images/sprite-icons.png</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-border-circle-rotate/images/sprite-icons.png</replace>
+      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-border-circle-background/images/sprite-icons.png</replace>
+      <replace>ag-header-menu</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -159,9 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw/exclusive-lucky-draw-MS.html" />
-        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.05.09_landing_ramadan-no-deposit-bonus/ramadan-no-deposit-bonus-EN.html" />
-        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw-promotion/exclusive-lucky-draw-promotion-ID.html" />
         <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw-promotion/exclusive-lucky-draw-promotion-EN.html" />
         <option value="$USER_HOME$/example/02.10.2015_example/main.html" />
         <option value="$USER_HOME$/vazhno_project/2018.10.09_footer_img/css/style.css" />
@@ -205,11 +245,14 @@
         <option value="$PROJECT_DIR$/gambling-slot-machine/css/style.css" />
         <option value="$PROJECT_DIR$/item-animation-border-circle/css/style.css" />
         <option value="$PROJECT_DIR$/item-animation-border-circle/index.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-7.js" />
         <option value="$PROJECT_DIR$/item-animation-border-circle-rotate/index.html" />
-        <option value="$PROJECT_DIR$/item-animation-border-circle-rotate/css/style.css" />
         <option value="$PROJECT_DIR$/item-animation-border-circle-background/index.html" />
         <option value="$PROJECT_DIR$/item-animation-border-circle-background/css/style.css" />
+        <option value="$PROJECT_DIR$/menu-glide-hover/index.html" />
+        <option value="$PROJECT_DIR$/menu-glide-hover/js/main.js" />
+        <option value="$PROJECT_DIR$/menu-glide-hover/css/style.css" />
+        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-7.js" />
+        <option value="$PROJECT_DIR$/item-animation-border-circle-rotate/css/style.css" />
       </list>
     </option>
   </component>
@@ -359,12 +402,12 @@
       <workItem from="1539929159506" duration="22152000" />
       <workItem from="1540189752326" duration="9212000" />
       <workItem from="1540201141645" duration="12031000" />
-      <workItem from="1540274521263" duration="3424000" />
+      <workItem from="1540274521263" duration="7598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203236000" />
+    <option name="totallyTimeSpent" value="207410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -401,21 +444,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/circle-item-animation/index.html" />
-    <entry file="file://$PROJECT_DIR$/item-animation-circle/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example-name-class.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="52" column="27" lean-forward="true" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/menu-and-lamp-light/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2808">
@@ -493,13 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="98" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example/02.10.2015_example/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -680,62 +701,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/item-animation-border-circle-rotate/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#1345#1351#0" expanded="false" />
-            <element signature="e#1417#1423#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-animation-border-circle-rotate/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="383" column="20" lean-forward="true" selection-start-line="383" selection-start-column="20" selection-end-line="383" selection-end-column="20" />
-          <folding>
-            <element signature="e#2968#3967#2" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-7.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding>
-            <marker date="1540276212981" expanded="true" signature="6612:6624" ph="..." />
-            <marker date="1540276212981" expanded="true" signature="6743:6755" ph="..." />
-            <marker date="1540276212981" expanded="true" signature="7031:7065" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/item-animation-border-circle-background/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="64" column="100" lean-forward="false" selection-start-line="64" selection-start-column="100" selection-end-line="64" selection-end-column="100" />
-          <folding />
+        <state relative-caret-position="216">
+          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="48" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.09.20_landing_south-african-bonus/south-african-bonus-EN.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="639">
-          <caret line="782" column="5" lean-forward="true" selection-start-line="772" selection-start-column="2" selection-end-line="782" selection-end-column="5" />
+          <caret line="782" column="5" lean-forward="false" selection-start-line="772" selection-start-column="2" selection-end-line="782" selection-end-column="5" />
           <folding>
             <element signature="n#script#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/example/02.10.2015_example/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="2119" column="13" lean-forward="true" selection-start-line="2119" selection-start-column="13" selection-end-line="2119" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-glide-hover/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-glide-hover/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="57" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-glide-hover/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding>
+            <element signature="e#860#2215#2" expanded="true" />
+            <element signature="e#3275#4622#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <folding>
+            <marker date="1540282927503" expanded="true" signature="6676:6688" ph="..." />
+            <marker date="1540282927503" expanded="true" signature="6807:6819" ph="..." />
+            <marker date="1540282927503" expanded="true" signature="7095:7129" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/item-animation-border-circle-background/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="81" column="25" lean-forward="false" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+        <state relative-caret-position="1910">
+          <caret line="384" column="0" lean-forward="true" selection-start-line="384" selection-start-column="0" selection-end-line="384" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item-animation-border-circle-rotate/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item-animation-border-circle-rotate/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="308" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="398" selection-end-column="0" />
           <folding />
         </state>
       </provider>

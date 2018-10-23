@@ -306,6 +306,8 @@
   color: #0192ff;
 }
 .ag-step_text-item__old {
+  display: inline-block;
+
   position: relative;
 }
 .ag-step_text-item__old:before {
