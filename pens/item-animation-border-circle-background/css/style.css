@@ -1,0 +1,384 @@
+body {
+  background-color: #181818;
+}
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-step-block {
+  padding: 60px 0;
+}
+.ag-step_title-list {
+  margin: 0 0 40px;
+  padding: 0 0 40px;
+
+  text-align: center;
+  font-weight: 900;
+  font-size: 40px;
+  color: #FFF;
+
+  position: relative;
+}
+.ag-step_tagline-list {
+  display: block;
+
+  text-transform: uppercase;
+  font-size: 45px;
+}
+.ag-step_title-list:before {
+  content: "";
+  height: 4px;
+  width: 40px;
+  margin: 0 auto;
+  background-color: #FFF;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.ag-step_title-list:after {
+  content: "";
+  height: 1px;
+  width: 216px;
+  margin: 0 auto;
+
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjMwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 100%);
+  background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 30%,rgba(255,255,255,1) 70%,rgba(255,255,255,0) 100%);
+  background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 30%,rgba(255,255,255,1) 70%,rgba(255,255,255,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 );
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 3px;
+}
+.ag-step_list {
+  margin: 0 0 25px;
+  padding: 0 0 25px;
+  border-bottom: 1px solid #565656;
+
+  white-space: nowrap;
+}
+.ag-step_item {
+  display: inline-block;
+  width: 23%;
+  margin: 0 2% 0 0;
+
+  vertical-align: top;
+  text-align: center;
+}
+.ag-step_item:last-child {
+  margin: 0;
+}
+.ag-step_icons-wrap {
+  display: inline-block;
+  height: 126px;
+  width: 126px;
+  margin: 0 0 10px;
+  background-image: url(//justforex.com/uploads/landing/south-african-bonus/sprite-icons.png);
+  background-repeat: no-repeat;
+  background-size: auto 126px;
+
+  -webkit-border-radius: 50% 50% 50% 50%;
+  -moz-border-radius: 50% 50% 50% 50%;
+  -ms-border-radius: 50% 50% 50% 50%;
+  -o-border-radius: 50% 50% 50% 50%;
+  border-radius: 50% 50% 50% 50%;
+
+  z-index: 1;
+  position: relative;
+}
+.ag-step_icons-wrap:after {
+  content: "";
+  display: inline-block;
+
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwN2ZmMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjIwJSIgc3RvcC1jb2xvcj0iIzAwNjNiYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQwJSIgc3RvcC1jb2xvcj0iIzAwNDY4NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjYwJSIgc3RvcC1jb2xvcj0iIzAwN2ZmMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjgwJSIgc3RvcC1jb2xvcj0iIzAwNjNiYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDQ2ODQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(90deg,  #007ff2 0%, #0063bc 20%, #004684 40%, #007ff2 60%, #0063bc 80%, #004684 100%);
+  background: -webkit-linear-gradient(90deg,  #007ff2 0%,#0063bc 20%,#004684 40%,#007ff2 60%,#0063bc 80%,#004684 100%);
+  background: linear-gradient(90deg,  #007ff2 0%,#0063bc 20%,#004684 40%,#007ff2 60%,#0063bc 80%,#004684 100%);
+
+  background-size: 300% 300%;
+
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  -webkit-border-radius: 50% 50% 50% 50%;
+  -moz-border-radius: 50% 50% 50% 50%;
+  -ms-border-radius: 50% 50% 50% 50%;
+  -o-border-radius: 50% 50% 50% 50%;
+  border-radius: 50% 50% 50% 50%;
+
+  -webkit-animation: an-animated-gradient 6s ease alternate infinite;
+  -moz-animation: an-animated-gradient 6s ease alternate infinite;
+  -ms-animation: an-animated-gradient 6s ease alternate infinite;
+  -o-animation: an-animated-gradient 6s ease alternate infinite;
+  animation: an-animated-gradient 6s ease alternate infinite;
+}
+
+.ag-step_icons-wrap-2:after {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  -ms-animation-delay: 1.5s;
+  -o-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+.ag-step_icons-wrap-3:after {
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  -ms-animation-delay: 3s;
+  -o-animation-delay: 3s;
+  animation-delay: 3s;
+}
+.ag-step_icons-wrap-4:after {
+  -webkit-animation-delay: 4.5s;
+  -moz-animation-delay: 4.5s;
+  -ms-animation-delay: 4.5s;
+  -o-animation-delay: 4.5s;
+  animation-delay: 4.5s;
+}
+
+@-webkit-keyframes an-animated-gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@-moz-keyframes an-animated-gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@-ms-keyframes an-animated-gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@-o-keyframes an-animated-gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@keyframes an-animated-gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.ag-step_icons {
+  display: inline-block;
+  height: 108px;
+  width: 108px;
+  margin: -54px 0 0 -54px;
+  background-color: #181818;
+
+  z-index: 3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  -webkit-border-radius: 50% 50% 50% 50%;
+  -moz-border-radius: 50% 50% 50% 50%;
+  -ms-border-radius: 50% 50% 50% 50%;
+  -o-border-radius: 50% 50% 50% 50%;
+  border-radius: 50% 50% 50% 50%;
+}
+.ag-step_icons:after {
+  content: "";
+  background-image: url(//justforex.com/uploads/landing/south-african-bonus/sprite-icons.png);
+  background-repeat: no-repeat;
+
+  z-index: 4;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.ag-step_icon-1:after {
+  height: 73px;
+  width: 68px;
+  margin: -37px 0 0 -34px;
+  background-position: -136px 0;
+}
+.ag-step_icon-2:after {
+  height: 54px;
+  width: 48px;
+  margin: -27px 0 0 -24px;
+  background-position: -214px 0;
+}
+.ag-step_icon-3:after {
+  height: 56px;
+  width: 50px;
+  margin: -28px 0 0 -25px;
+  background-position: -272px 0;
+}
+.ag-step_icon-4:after {
+  height: 52px;
+  width: 44px;
+  margin: -26px 0 0 -28px;
+  background-position: -331px 0;
+}
+.ag-step_icons:before {
+  content: "";
+  height: 20px;
+  width: 124px;
+  background: url(//justforex.com/uploads/landing/south-african-bonus/sprite-icons.png) no-repeat scroll -650px 0;
+
+  position: absolute;
+  right: -152px;
+  top: 20px;
+}
+.ag-step_icon-2:before {
+  background-position: -650px -30px;
+  top: 70px;
+}
+.ag-step_item:last-child .ag-step_icons:before {
+  display: none;
+  background: none;
+}
+.ag-step_text-item {
+  white-space: normal;
+  font-weight: 300;
+  font-size: 22px;
+  color: #FFF;
+}
+.ag-step_star {
+  font-weight: bold;
+  color: #F00;
+}
+.ag-step_descr {
+  line-height: 1.45;
+
+  font-weight: 300;
+  font-size: 20px;
+  color: #FFF;
+}
+.ag-step_star-descr {
+  color: #F00;
+}
+.ag-step_link {
+  color: #00a2ff;
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+  .ag-step_item,
+  .ag-step_item:last-child {
+    display: block;
+    width: 275px;
+    margin: 0 auto 60px;
+  }
+  .ag-step_icons:before {
+    display: none;
+    background: none;
+  }
+
+  .ag-step_text-item {
+    position: relative;
+  }
+  .ag-step_text-item:before {
+    content: "";
+    height: 20px;
+    width: 124px;
+    background: url(//justforex.com/uploads/landing/south-african-bonus/sprite-icons.png) no-repeat scroll -650px 0;
+
+    position: absolute;
+    right: -80px;
+    bottom: 0;
+
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .ag-step_item:last-child .ag-step_text-item:before {
+    display: none;
+    background: none;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+  .ag-step_text-item {
+    width: 200px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+  .ag-step_icons:before {
+    display: none;
+    background: none;
+  }
+  .ag-step_text-item {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+  .ag-step_icons:before {
+    height: 18px;
+    width: 98px;
+    background-size: auto 98px;
+    background-position: -506px 0;
+
+    right: -117px;
+  }
+  .ag-step_icon-2:before {
+    background-position: -506px -21px;
+  }
+}

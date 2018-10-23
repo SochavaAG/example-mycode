@@ -52,39 +52,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/item-animation-border-circle-rotate/index.html">
+      <file leaf-file-name="south-african-bonus-EN.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.09.20_landing_south-african-bonus/south-african-bonus-EN.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+            <state relative-caret-position="639">
+              <caret line="782" column="5" lean-forward="true" selection-start-line="772" selection-start-column="2" selection-end-line="782" selection-end-column="5" />
               <folding>
-                <element signature="e#1345#1351#0" expanded="true" />
-                <element signature="e#1417#1423#0" expanded="true" />
+                <element signature="n#script#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/item-animation-border-circle-background/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="610">
+              <caret line="64" column="100" lean-forward="false" selection-start-line="64" selection-start-column="100" selection-end-line="64" selection-end-column="100" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/item-animation-border-circle-rotate/css/style.css">
+        <entry file="file://$PROJECT_DIR$/item-animation-border-circle-background/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="307" column="25" lean-forward="false" selection-start-line="307" selection-start-column="25" selection-end-line="307" selection-end-column="25" />
-              <folding>
-                <element signature="e#2968#3967#2" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exclusive-lucky-draw-EN.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw/exclusive-lucky-draw-EN.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="411" column="0" lean-forward="true" selection-start-line="411" selection-start-column="0" selection-end-line="411" selection-end-column="0" />
-              <folding>
-                <element signature="n#script#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="483">
+              <caret line="81" column="25" lean-forward="false" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,8 +116,8 @@
       <find>ag-rotar-gradient</find>
       <find>../images/sprite-icons.png</find>
       <find>href=&quot;</find>
-      <find>.ag-step</find>
       <find>//justforex.com/uploads/landing/exclusive-lucky-draw/sprite-icons.png</find>
+      <find>.ag-step</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -164,8 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/404-error-smoke-from-toaster/css/style.css" />
-        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw/exclusive-lucky-draw-EN.html" />
         <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw/exclusive-lucky-draw-MS.html" />
         <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.05.09_landing_ramadan-no-deposit-bonus/ramadan-no-deposit-bonus-EN.html" />
         <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw-promotion/exclusive-lucky-draw-promotion-ID.html" />
@@ -215,6 +208,8 @@
         <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-7.js" />
         <option value="$PROJECT_DIR$/item-animation-border-circle-rotate/index.html" />
         <option value="$PROJECT_DIR$/item-animation-border-circle-rotate/css/style.css" />
+        <option value="$PROJECT_DIR$/item-animation-border-circle-background/index.html" />
+        <option value="$PROJECT_DIR$/item-animation-border-circle-background/css/style.css" />
       </list>
     </option>
   </component>
@@ -249,7 +244,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw/exclusive-lucky-draw-EN.html" />
+    <property name="last_opened_file_path" value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.09.20_landing_south-african-bonus/south-african-bonus-EN.html" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RunManager">
@@ -364,12 +359,12 @@
       <workItem from="1539929159506" duration="22152000" />
       <workItem from="1540189752326" duration="9212000" />
       <workItem from="1540201141645" duration="12031000" />
-      <workItem from="1540274521263" duration="2825000" />
+      <workItem from="1540274521263" duration="3424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202637000" />
+    <option name="totallyTimeSpent" value="203236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -406,15 +401,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-4.js" />
-    <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-5.js" />
-    <entry file="file://$USER_HOME$/format.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="1301" column="48" lean-forward="true" selection-start-line="1301" selection-start-column="48" selection-end-line="1301" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/circle-item-animation/index.html" />
     <entry file="file://$PROJECT_DIR$/item-animation-circle/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -671,19 +657,7 @@
         <state relative-caret-position="627">
           <caret line="103" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
           <folding>
-            <element signature="e#2960#3959#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-7.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding>
-            <marker date="1540276212981" expanded="true" signature="6612:6624" ph="..." />
-            <marker date="1540276212981" expanded="true" signature="6743:6755" ph="..." />
-            <marker date="1540276212981" expanded="true" signature="7031:7065" ph="..." />
+            <element signature="e#2960#3959#2" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -708,22 +682,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/item-animation-border-circle-rotate/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        <state relative-caret-position="325">
+          <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
           <folding>
-            <element signature="e#1345#1351#0" expanded="true" />
-            <element signature="e#1417#1423#0" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#1345#1351#0" expanded="false" />
+            <element signature="e#1417#1423#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/item-animation-border-circle-rotate/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="307" column="25" lean-forward="false" selection-start-line="307" selection-start-column="25" selection-end-line="307" selection-end-column="25" />
+        <state relative-caret-position="347">
+          <caret line="383" column="20" lean-forward="true" selection-start-line="383" selection-start-column="20" selection-end-line="383" selection-end-column="20" />
           <folding>
-            <element signature="e#2968#3967#2" expanded="true" />
+            <element signature="e#2968#3967#2" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <folding>
+            <marker date="1540276212981" expanded="true" signature="6612:6624" ph="..." />
+            <marker date="1540276212981" expanded="true" signature="6743:6755" ph="..." />
+            <marker date="1540276212981" expanded="true" signature="7031:7065" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item-animation-border-circle-background/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="64" column="100" lean-forward="false" selection-start-line="64" selection-start-column="100" selection-end-line="64" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.09.20_landing_south-african-bonus/south-african-bonus-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="782" column="5" lean-forward="true" selection-start-line="772" selection-start-column="2" selection-end-line="782" selection-end-column="5" />
+          <folding>
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item-animation-border-circle-background/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="81" column="25" lean-forward="false" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

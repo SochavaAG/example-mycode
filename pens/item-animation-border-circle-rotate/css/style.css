@@ -308,7 +308,7 @@
 .ag-step_text-item__old {
   position: relative;
 }
-.ag-step_text-item__old::before {
+.ag-step_text-item__old:before {
   content: "";
   height: 3px;
   background-color: #E60004;
