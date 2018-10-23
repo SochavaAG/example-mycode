@@ -6,6 +6,6 @@ agHeaderMenu.lavalamp({
   speed: 700
 });
 
-agHeaderMenu.children('li').on('click', function () {
-  agHeaderMenu.children('li').removeClass('js-aci-current'), $(this).addClass('js-aci-current');
+agHeaderMenu.children('.js-menu-cat_item').on('click', function () {
+  agHeaderMenu.children('.js-menu-cat_item').removeClass('js-ag-menu-nav_item'), $(this).addClass('js-ag-menu-nav_item');
 });

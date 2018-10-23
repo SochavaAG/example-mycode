@@ -20,42 +20,44 @@
 
 <body>
 <header class="ag-header">
-  <div class="ag-format-container">
-    <div id="header-bottom">
-      <span class="left_bg_menu"></span>
-      <ul id="ag-header-menu" class="lavaLampWithImage">
-        <li class="first js-aci-current">
-          <a href="#" class="inactive">Главная</a>
-        </li>
-        <li>
-          <a href="#" class="inactive">О компании</a>
-        </li>
-        <li>
-          <a href="#" class="inactive">Цены</a>
-        </li>
-        <li>
-          <a href="#" class="inactive">Обратная связь</a>
-        </li>
-        <li>
-          <a href="#" class="inactive">Новости</a>
-        </li>
-        <li>
-          <a href="#" class="inactive">Контакты</a>
-        </li>
-        <li class="last">
-          <a href="#" class="inactive">Приемные пункты</a>
-        </li>
-      </ul>
-      <span class="center_bg_menu"></span>
-      <ul id="lang-menu">
-        <li>
-          <a href="#" class="ru active">RU</a>
-        </li>
-        <li>
-          <a href="#" class="en">EN</a>
-        </li>
-      </ul>
-      <span class="right_bg_menu"></span>
+  <div class="ag-menu-block">
+    <div class="ag-format-container">
+      <div class="ag-menu_box">
+        <ul id="lang-menu" class="ag-menu-lang_list">
+          <li class="ag-menu-lang_item">
+            <a href="#" class="ag-menu-lang_link ag-menu-lang_link__active">RU</a>
+          </li>
+          <li class="ag-menu-lang_item">
+            <a href="#" class="ag-menu-lang_link">EN</a>
+          </li>
+        </ul>
+
+        <div class="ag-menu-cat_list-wrap">
+          <ul id="ag-header-menu" class="ag-menu-cat_list">
+            <li class="js-menu-cat_item ag-menu-cat_item">
+              <a href="#" class="ag-menu-cat_link ag-menu-cat_link__inactive">Home</a>
+            </li>
+            <li class="js-menu-cat_item ag-menu-cat_item">
+              <a href="#" class="ag-menu-cat_link ag-menu-cat_link__inactive">About</a>
+            </li>
+            <li class="js-menu-cat_item ag-menu-cat_item">
+              <a href="#" class="ag-menu-cat_link ag-menu-cat_link__inactive">Price</a>
+            </li>
+            <li class="js-menu-cat_item ag-menu-cat_item">
+              <a href="#" class="ag-menu-cat_link ag-menu-cat_link__inactive">Feedback</a>
+            </li>
+            <li class="js-menu-cat_item ag-menu-cat_item">
+              <a href="#" class="ag-menu-cat_link ag-menu-cat_link__inactive">News</a>
+            </li>
+            <li class="js-menu-cat_item ag-menu-cat_item">
+              <a href="#" class="ag-menu-cat_link ag-menu-cat_link__inactive">Contacts</a>
+            </li>
+            <li class="js-menu-cat_item ag-menu-cat_item">
+              <a href="#" class="ag-menu-cat_link ag-menu-cat_link__inactive">Reception points</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 </header>
@@ -69,7 +71,7 @@
 <script type="text/javascript" src="libs/jquery/jquery-2.0.0.min.js"></script>
 <script type="text/javascript" src="libs/jquery/jquery.easing.1.3.js"></script>
 
-<script type="text/javascript" src="plugins/lavalamp/jquery.lavalamp.min.js"></script>
+<script type="text/javascript" src="plugins/lavalamp/jquery.lavalamp.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
