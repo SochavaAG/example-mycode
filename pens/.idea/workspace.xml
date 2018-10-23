@@ -55,9 +55,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/item-animation-border-circle-rotate/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-              <folding />
+            <state relative-caret-position="374">
+              <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+              <folding>
+                <element signature="e#1345#1351#0" expanded="true" />
+                <element signature="e#1417#1423#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,8 +68,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/item-animation-border-circle-rotate/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="203">
+              <caret line="307" column="25" lean-forward="false" selection-start-line="307" selection-start-column="25" selection-end-line="307" selection-end-column="25" />
               <folding>
                 <element signature="e#2968#3967#2" expanded="true" />
               </folding>
@@ -118,8 +121,8 @@
       <find>ag-rotar-gradient</find>
       <find>../images/sprite-icons.png</find>
       <find>href=&quot;</find>
-      <find>//justforex.com/uploads/landing/exclusive-lucky-draw/sprite-icons.png</find>
       <find>.ag-step</find>
+      <find>//justforex.com/uploads/landing/exclusive-lucky-draw/sprite-icons.png</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -150,8 +153,8 @@
       <replace>https://rawcdn.githack.com/SochavaAG/example-mycode/raw/master/pens/gambling-slot-machine/fonts/</replace>
       <replace>фт-rotar-gradient</replace>
       <replace>an-rotar-gradient</replace>
-      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-border-circle-rotate/images/sprite-icons.png</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-border-circle/images/sprite-icons.png</replace>
+      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-border-circle-rotate/images/sprite-icons.png</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -361,12 +364,12 @@
       <workItem from="1539929159506" duration="22152000" />
       <workItem from="1540189752326" duration="9212000" />
       <workItem from="1540201141645" duration="12031000" />
-      <workItem from="1540274521263" duration="2656000" />
+      <workItem from="1540274521263" duration="2825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202468000" />
+    <option name="totallyTimeSpent" value="202637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -705,16 +708,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/item-animation-border-circle-rotate/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-          <folding />
+        <state relative-caret-position="374">
+          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding>
+            <element signature="e#1345#1351#0" expanded="true" />
+            <element signature="e#1417#1423#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/item-animation-border-circle-rotate/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="203">
+          <caret line="307" column="25" lean-forward="false" selection-start-line="307" selection-start-column="25" selection-end-line="307" selection-end-column="25" />
           <folding>
             <element signature="e#2968#3967#2" expanded="true" />
           </folding>
