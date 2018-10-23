@@ -86,7 +86,7 @@
 .ag-step_icons-wrap:after {
   content: "";
   display: inline-block;
-  background-image: url(../images/sprite-icons.png);
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-border-circle/images/sprite-icons.png);
   background-repeat: no-repeat;
 
   background: rgb(0,127,242);
@@ -240,7 +240,7 @@
 }
 .ag-step_icons:after {
   content: "";
-  background-image: url(../images/sprite-icons.png);
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-border-circle/images/sprite-icons.png);
   background-repeat: no-repeat;
 
   z-index: 4;
@@ -276,7 +276,7 @@
   content: "";
   height: 18px;
   width: 90px;
-  background: url(../images/sprite-icons.png) no-repeat scroll 100% 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-border-circle/images/sprite-icons.png) no-repeat scroll 100% 0;
 
   position: absolute;
   right: -136px;
@@ -330,7 +330,7 @@
     content: "";
     height: 18px;
     width: 90px;
-    background: url(../images/sprite-icons.png) no-repeat scroll 100% 0;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-border-circle/images/sprite-icons.png) no-repeat scroll 100% 0;
 
     position: absolute;
     right: -65px;

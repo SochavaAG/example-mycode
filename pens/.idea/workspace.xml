@@ -55,11 +55,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/item-animation-border-circle/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="37" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="33" column="87" lean-forward="false" selection-start-line="33" selection-start-column="87" selection-end-line="33" selection-end-column="87" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,9 +65,11 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/item-animation-border-circle/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="199" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="627">
+              <caret line="103" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+              <folding>
+                <element signature="e#2960#3959#2" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,7 +91,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/assets/a31b3f87/img/</find>
       <find>/assets/a31b3f87/js/libs/</find>
       <find>GothamProMedium</find>
       <find>GothamProBlack</find>
@@ -119,11 +118,11 @@
       <find>https://github.com/SochavaAG/</find>
       <find>../fonts/</find>
       <find>ag-step</find>
-      <find>href=&quot;</find>
       <find>ag-rotar-gradient</find>
+      <find>href=&quot;</find>
+      <find>../images/sprite-icons.png</find>
     </findStrings>
     <replaceStrings>
-      <replace>images/</replace>
       <replace>js/</replace>
       <replace>'</replace>
       <replace>GothamPro</replace>
@@ -153,6 +152,7 @@
       <replace>https://rawcdn.githack.com/SochavaAG/example-mycode/raw/master/pens/gambling-slot-machine/fonts/</replace>
       <replace>фт-rotar-gradient</replace>
       <replace>an-rotar-gradient</replace>
+      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-border-circle/images/sprite-icons.png</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -211,8 +211,8 @@
         <option value="$PROJECT_DIR$/item-crossing-line-hover/css/style.css" />
         <option value="$PROJECT_DIR$/gambling-slot-machine/css/style.css" />
         <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-7.js" />
-        <option value="$PROJECT_DIR$/item-animation-border-circle/index.html" />
         <option value="$PROJECT_DIR$/item-animation-border-circle/css/style.css" />
+        <option value="$PROJECT_DIR$/item-animation-border-circle/index.html" />
       </list>
     </option>
   </component>
@@ -362,12 +362,12 @@
       <workItem from="1539929159506" duration="22152000" />
       <workItem from="1540189752326" duration="9212000" />
       <workItem from="1540201141645" duration="12031000" />
-      <workItem from="1540274521263" duration="1054000" />
+      <workItem from="1540274521263" duration="1381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200866000" />
+    <option name="totallyTimeSpent" value="201193000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -687,19 +687,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/item-animation-border-circle/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="199" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="627">
+          <caret line="103" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+          <folding>
+            <element signature="e#2960#3959#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/item-animation-border-circle/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="33" column="87" lean-forward="false" selection-start-line="33" selection-start-column="87" selection-end-line="33" selection-end-column="87" />
+          <folding />
         </state>
       </provider>
     </entry>
