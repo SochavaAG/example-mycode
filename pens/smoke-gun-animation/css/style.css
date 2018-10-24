@@ -11,7 +11,7 @@ body {
   margin: 100px auto 0;
   height: 660px;
   width: 300px;
-  background: url(../images/gun.png) no-repeat scroll 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/smoke-gun-animation/images/gun.png) no-repeat scroll 0 0;
 }
 .ag-resons_canvas {
   margin: -150px 0 0;
