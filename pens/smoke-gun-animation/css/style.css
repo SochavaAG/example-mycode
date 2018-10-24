@@ -1,0 +1,52 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #1C1C1C;
+}
+
+.ag-resons_bg {
+  margin: 100px auto 0;
+  height: 660px;
+  width: 300px;
+  background: url(../images/gun.png) no-repeat scroll 0 0;
+}
+.ag-resons_canvas {
+  margin: -150px 0 0;
+}
+.ag-resons_canvas-img {
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
