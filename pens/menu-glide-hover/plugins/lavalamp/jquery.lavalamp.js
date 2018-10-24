@@ -157,10 +157,8 @@
 			var margins  = list.data('margins');
 			
 			var obj = list.children('.lavalamp-object');
-			
+
 			var w  = destination.outerWidth(margins);
-
-
 			var h  = destination.outerHeight(margins);
 			var t  = destination.position().top;
 			var l  = destination.position().left;
