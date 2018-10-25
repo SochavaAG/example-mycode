@@ -173,21 +173,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/buttons/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="99" column="4" lean-forward="false" selection-start-line="99" selection-start-column="4" selection-end-line="101" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="504">
+              <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="106" selection-end-column="8" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="966" column="1" lean-forward="true" selection-start-line="966" selection-start-column="1" selection-end-line="966" selection-end-column="1" />
+            <state relative-caret-position="615">
+              <caret line="1092" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="1092" selection-end-column="0" />
               <folding>
                 <element signature="e#38584#39247#2" expanded="true" />
                 <element signature="e#40065#40728#2" expanded="true" />
@@ -196,16 +198,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example/примеры сайтов/kuliksystem.ua/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example/примеры сайтов/bmwu.e-art.com.ru/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="1706" column="75" lean-forward="false" selection-start-line="1706" selection-start-column="38" selection-end-line="1706" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>\}\(jQuery\)\)\;\n  var \$mcj \= jQuery\.noConflict\(true\)\;</find>
-      <find>.ag-modal_box__analytics</find>
-      <find>+</find>
-      <find>8ead1671f1ebcdb19495b85d7&amp;id=ad34521767</find>
-      <find>ag-modal_title__analytics</find>
-      <find>requestAnimationFrame</find>
       <find>lng-resons</find>
       <find>lng-resons_canvas</find>
       <find>lng-</find>
@@ -230,13 +246,14 @@
       <find>_share</find>
       <find>timer-canvas-</find>
       <find>register-button</find>
+      <find>::</find>
+      <find>.nav-list li a</find>
+      <find>white</find>
+      <find>ag-base_btn-v15 span</find>
+      <find>0 100%;</find>
+      <find>&lt;audio</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-menu-nav_</replace>
-      <replace>js-menu-nav_item</replace>
-      <replace>ag-header-menu</replace>
-      <replace>ag-menu-lang_box</replace>
-      <replace>js-menu-cat_item</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-border-circle-background/images/sprite-icons.png</replace>
       <replace>&lt;li class=&quot;js-menu-cat_item ag-menu-cat_item&quot;&gt;</replace>
       <replace>0 0 0 0;</replace>
@@ -262,6 +279,11 @@
       <replace>ProximaNova-Light</replace>
       <replace>../images/</replace>
       <replace>ag-base_btn-v14</replace>
+      <replace>:</replace>
+      <replace>#FFF</replace>
+      <replace>ag-base_text-btn-v15</replace>
+      <replace>0 0;</replace>
+      <replace>.ag-base_btn-v15</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -272,7 +294,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gambling-slot-machine/index.html" />
         <option value="$PROJECT_DIR$/buttons/js/main.js" />
         <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.19_landing_double-bonus-africa/double-bonus-africa-EN.html" />
         <option value="$USER_HOME$/vazhno_project/2018.10.19_FX-11708_pop-up_start-trading/pop-up_start-trading-new-if.js" />
@@ -321,6 +342,7 @@
         <option value="$USER_HOME$/example/примеры сайтов/boosta.biz/css/style.css" />
         <option value="$USER_HOME$/format.html" />
         <option value="$USER_HOME$/format-2.js" />
+        <option value="$USER_HOME$/example/примеры сайтов/kuliksystem.ua/index.html" />
         <option value="$PROJECT_DIR$/buttons/index.html" />
         <option value="$PROJECT_DIR$/buttons/css/style.css" />
       </list>
@@ -474,12 +496,12 @@
       <workItem from="1540201141645" duration="12031000" />
       <workItem from="1540274521263" duration="23583000" />
       <workItem from="1540360917599" duration="26456000" />
-      <workItem from="1540447306092" duration="3084000" />
+      <workItem from="1540447306092" duration="8496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252935000" />
+    <option name="totallyTimeSpent" value="258347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -516,20 +538,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw-promotion/exclusive-lucky-draw-promotion-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="698" column="5" lean-forward="true" selection-start-line="696" selection-start-column="2" selection-end-line="698" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-animation-border-circle/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="103" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/item-animation-border-circle/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
@@ -916,7 +924,7 @@
         <state relative-caret-position="-3524">
           <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -931,21 +939,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/index.html">
+    <entry file="file://$USER_HOME$/example/примеры сайтов/bmwu.e-art.com.ru/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="99" column="4" lean-forward="false" selection-start-line="99" selection-start-column="4" selection-end-line="101" selection-end-column="10" />
+        <state relative-caret-position="269">
+          <caret line="1706" column="75" lean-forward="false" selection-start-line="1706" selection-start-column="38" selection-end-line="1706" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="966" column="1" lean-forward="true" selection-start-line="966" selection-start-column="1" selection-end-line="966" selection-end-column="1" />
+        <state relative-caret-position="615">
+          <caret line="1092" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="1092" selection-end-column="0" />
           <folding>
             <element signature="e#38584#39247#2" expanded="true" />
             <element signature="e#40065#40728#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example/примеры сайтов/kuliksystem.ua/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="106" selection-end-column="8" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
