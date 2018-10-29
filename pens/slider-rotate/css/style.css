@@ -1,0 +1,783 @@
+html,
+body {
+  height: 100%;
+}
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.slick-slide {
+  top: 0 !important;
+  left: 0 !important;
+
+  position: absolute !important;
+}
+
+.ag-slider-rotate {
+  height: 100%;
+
+  overflow-x: hidden;
+}
+.ag-values-block {
+  padding: 60px 0;
+}
+.ag-values_title {
+  padding: 0 0 30px;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 34px;
+  color: #2d2926
+}
+.ag-values_list {
+  width: 600px;
+
+  position: relative;
+}
+.ag-values_item {
+  padding: 100px 0 0;
+}
+.ag-values_title-item {
+  display: table;
+  margin: 0 0 30px;
+  padding: 0 0 10px;
+
+  font-weight: bold;
+  font-size: 30px;
+  color: #2d2926;
+
+  position: relative;
+}
+.ag-values_title-item:after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: #ea1c2c;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.ag-values_text-item {
+  line-height: 1.4;
+
+  font-size: 20px;
+  color: #2d2926;
+}
+
+
+.ag-values-controller-block {
+  min-height: 495px;
+
+  position: relative;
+}
+
+.ag-values-controller_item {
+  display: block;
+  width: 146px;
+  border-radius: 50%;
+  opacity: 1;
+  transition: opacity .3s, -webkit-transform 1s;
+  transition: opacity .3s, transform 1s;
+  transition: opacity .3s, transform 1s, -webkit-transform 1s;
+}
+
+.ag-values-controller_item:hover {
+  opacity: .7;
+}
+
+.ag-values-controller_item.js-ag-active {
+  opacity: .7;
+  cursor: default;
+}
+
+.ag-values-controller_item__main {
+  width: 160px;
+  height: 160px;
+  margin: 0;
+
+  cursor: default;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.ag-values-controller_item__main:hover {
+  opacity: 1;
+}
+
+.ag-values-controller_img-box {
+  display: block;
+  text-align: center;
+}
+
+.ag-values-controller_img {
+  max-width: 100%;
+}
+
+
+
+@media only screen and (max-width: 979px) {
+  .ag-values_list {
+    width: auto;
+  }
+  .ag-values_item {
+    padding: 20% 0 0;
+  }
+
+  .ag-values-controller-block {
+    min-height: 50px;
+
+    z-index: 1001;
+  }
+  .ag-values-controller_list {
+    text-align: center;
+  }
+  .ag-values-controller_item {
+    display: inline-block;
+    width: 15%;
+  }
+  .ag-values-controller_item__main {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+  .ag-values_item {
+    padding: 50% 0 0;
+  }
+
+  .ag-values-controller_item {
+    width: 20%;
+    margin: 0 3% 3%;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+  .ag-values_list {
+    float: left;
+    width: 450px;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .js-ag-values-controller_list-0 {
+    position: absolute;
+    top: 73px;
+    right: 49px;
+    width: 348px;
+    height: 348px;
+    padding: 0;
+    border-radius: 50%;
+    list-style: none;
+    box-sizing: content-box;
+  }
+  .js-ag-values-controller_list-0 > :not(.ag-values-controller_item__main) {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 146px;
+    height: 146px;
+    margin: -73px;
+  }
+  .js-ag-values-controller_list-0 > :first-of-type {
+    -webkit-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(.8);
+    transform: rotate(-90deg) translate(174px) rotate(90deg) scale(.8);
+  }
+  .js-ag-values-controller_list-0 > :first-of-type.js-ag-active {
+    -webkit-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(1);
+    transform: rotate(-90deg) translate(174px) rotate(90deg) scale(1);
+  }
+  .js-ag-values-controller_list-0 > :nth-of-type(2) {
+    -webkit-transform: rotate(-30deg) translate(174px) rotate(30deg) scale(.8);
+    transform: rotate(-30deg) translate(174px) rotate(30deg) scale(.8);
+  }
+  .js-ag-values-controller_list-0 > :nth-of-type(2).js-ag-active {
+    -webkit-transform: rotate(-30deg) translate(174px) rotate(30deg) scale(1);
+    transform: rotate(-30deg) translate(174px) rotate(30deg) scale(1);
+  }
+  .js-ag-values-controller_list-0 > :nth-of-type(3) {
+    -webkit-transform: rotate(30deg) translate(174px) rotate(-30deg) scale(.8);
+    transform: rotate(30deg) translate(174px) rotate(-30deg) scale(.8);
+  }
+  .js-ag-values-controller_list-0 > :nth-of-type(3).js-ag-active {
+    -webkit-transform: rotate(30deg) translate(174px) rotate(-30deg) scale(1);
+    transform: rotate(30deg) translate(174px) rotate(-30deg) scale(1);
+  }
+  .js-ag-values-controller_list-0 > :nth-of-type(4) {
+    -webkit-transform: rotate(90deg) translate(174px) rotate(-90deg) scale(.8);
+    transform: rotate(90deg) translate(174px) rotate(-90deg) scale(.8);
+  }
+  .js-ag-values-controller_list-0 > :nth-of-type(4).js-ag-active {
+    -webkit-transform: rotate(90deg) translate(174px) rotate(-90deg) scale(1);
+    transform: rotate(90deg) translate(174px) rotate(-90deg) scale(1);
+  }
+  .js-ag-values-controller_list-0 > :nth-of-type(5) {
+    -webkit-transform: rotate(150deg) translate(174px) rotate(-150deg) scale(.8);
+    transform: rotate(150deg) translate(174px) rotate(-150deg) scale(.8);
+  }
+  .js-ag-values-controller_list-0 > :nth-of-type(5).js-ag-active {
+    -webkit-transform: rotate(150deg) translate(174px) rotate(-150deg) scale(1);
+    transform: rotate(150deg) translate(174px) rotate(-150deg) scale(1);
+  }
+  .js-ag-values-controller_list-0 > :nth-of-type(6) {
+    -webkit-transform: rotate(210deg) translate(174px) rotate(-210deg) scale(.8);
+    transform: rotate(210deg) translate(174px) rotate(-210deg) scale(.8);
+  }
+  .js-ag-values-controller_list-0 > :nth-of-type(6).js-ag-active {
+    -webkit-transform: rotate(210deg) translate(174px) rotate(-210deg) scale(1);
+    transform: rotate(210deg) translate(174px) rotate(-210deg) scale(1);
+  }
+
+  .js-ag-values-controller_list-1 {
+    position: absolute;
+    top: 73px;
+    right: 49px;
+    width: 348px;
+    height: 348px;
+    padding: 0;
+    border-radius: 50%;
+    list-style: none;
+    box-sizing: content-box;
+  }
+  .js-ag-values-controller_list-1 > :not(.ag-values-controller_item__main) {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 146px;
+    height: 146px;
+    margin: -73px;
+  }
+  .js-ag-values-controller_list-1 > :first-of-type {
+    -webkit-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+    transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+  }
+  .js-ag-values-controller_list-1 > :first-of-type.js-ag-active {
+    -webkit-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+    transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+  }
+  .js-ag-values-controller_list-1 > :nth-of-type(2) {
+    -webkit-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(.8);
+    transform: rotate(-90deg) translate(174px) rotate(90deg) scale(.8);
+  }
+  .js-ag-values-controller_list-1 > :nth-of-type(2).js-ag-active {
+    -webkit-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(1);
+    transform: rotate(-90deg) translate(174px) rotate(90deg) scale(1);
+  }
+  .js-ag-values-controller_list-1 > :nth-of-type(3) {
+    -webkit-transform: rotate(-30deg) translate(174px) rotate(30deg) scale(.8);
+    transform: rotate(-30deg) translate(174px) rotate(30deg) scale(.8);
+  }
+  .js-ag-values-controller_list-1 > :nth-of-type(3).js-ag-active {
+    -webkit-transform: rotate(-30deg) translate(174px) rotate(30deg) scale(1);
+    transform: rotate(-30deg) translate(174px) rotate(30deg) scale(1);
+  }
+  .js-ag-values-controller_list-1 > :nth-of-type(4) {
+    -webkit-transform: rotate(30deg) translate(174px) rotate(-30deg) scale(.8);
+    transform: rotate(30deg) translate(174px) rotate(-30deg) scale(.8);
+  }
+  .js-ag-values-controller_list-1 > :nth-of-type(4).js-ag-active {
+    -webkit-transform: rotate(30deg) translate(174px) rotate(-30deg) scale(1);
+    transform: rotate(30deg) translate(174px) rotate(-30deg) scale(1);
+  }
+  .js-ag-values-controller_list-1 > :nth-of-type(5) {
+    -webkit-transform: rotate(90deg) translate(174px) rotate(-90deg) scale(.8);
+    transform: rotate(90deg) translate(174px) rotate(-90deg) scale(.8);
+  }
+  .js-ag-values-controller_list-1 > :nth-of-type(5).js-ag-active {
+    -webkit-transform: rotate(90deg) translate(174px) rotate(-90deg) scale(1);
+    transform: rotate(90deg) translate(174px) rotate(-90deg) scale(1);
+  }
+  .js-ag-values-controller_list-1 > :nth-of-type(6) {
+    -webkit-transform: rotate(150deg) translate(174px) rotate(-150deg) scale(.8);
+    transform: rotate(150deg) translate(174px) rotate(-150deg) scale(.8);
+  }
+  .js-ag-values-controller_list-1 > :nth-of-type(6).js-ag-active {
+    -webkit-transform: rotate(150deg) translate(174px) rotate(-150deg) scale(1);
+    transform: rotate(150deg) translate(174px) rotate(-150deg) scale(1);
+  }
+
+  .js-ag-values-controller_list-2 {
+    position: absolute;
+    top: 73px;
+    right: 49px;
+    width: 348px;
+    height: 348px;
+    padding: 0;
+    border-radius: 50%;
+    list-style: none;
+    box-sizing: content-box;
+  }
+  .js-ag-values-controller_list-2 > :not(.ag-values-controller_item__main) {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 146px;
+    height: 146px;
+    margin: -73px;
+  }
+  .js-ag-values-controller_list-2 > :first-of-type {
+    -webkit-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+    transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+  }
+  .js-ag-values-controller_list-2 > :first-of-type.js-ag-active {
+    -webkit-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+    transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+  }
+  .js-ag-values-controller_list-2 > :nth-of-type(2) {
+    -webkit-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+    transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+  }
+  .js-ag-values-controller_list-2 > :nth-of-type(2).js-ag-active {
+    -webkit-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+    transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+  }
+  .js-ag-values-controller_list-2 > :nth-of-type(3) {
+    -webkit-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(.8);
+    transform: rotate(-90deg) translate(174px) rotate(90deg) scale(.8);
+  }
+  .js-ag-values-controller_list-2 > :nth-of-type(3).js-ag-active {
+    -webkit-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(1);
+    transform: rotate(-90deg) translate(174px) rotate(90deg) scale(1);
+  }
+  .js-ag-values-controller_list-2 > :nth-of-type(4) {
+    -webkit-transform: rotate(-30deg) translate(174px) rotate(30deg) scale(.8);
+    transform: rotate(-30deg) translate(174px) rotate(30deg) scale(.8);
+  }
+  .js-ag-values-controller_list-2 > :nth-of-type(4).js-ag-active {
+    -webkit-transform: rotate(-30deg) translate(174px) rotate(30deg) scale(1);
+    transform: rotate(-30deg) translate(174px) rotate(30deg) scale(1);
+  }
+  .js-ag-values-controller_list-2 > :nth-of-type(5) {
+    -webkit-transform: rotate(30deg) translate(174px) rotate(-30deg) scale(.8);
+    transform: rotate(30deg) translate(174px) rotate(-30deg) scale(.8);
+  }
+  .js-ag-values-controller_list-2 > :nth-of-type(5).js-ag-active {
+    -webkit-transform: rotate(30deg) translate(174px) rotate(-30deg) scale(1);
+    transform: rotate(30deg) translate(174px) rotate(-30deg) scale(1);
+  }
+  .js-ag-values-controller_list-2 > :nth-of-type(6) {
+    -webkit-transform: rotate(90deg) translate(174px) rotate(-90deg) scale(.8);
+    transform: rotate(90deg) translate(174px) rotate(-90deg) scale(.8);
+  }
+  .js-ag-values-controller_list-2 > :nth-of-type(6).js-ag-active {
+    -webkit-transform: rotate(90deg) translate(174px) rotate(-90deg) scale(1);
+    transform: rotate(90deg) translate(174px) rotate(-90deg) scale(1);
+  }
+
+  .js-ag-values-controller_list-3 {
+    position: absolute;
+    top: 73px;
+    right: 49px;
+    width: 348px;
+    height: 348px;
+    padding: 0;
+    border-radius: 50%;
+    list-style: none;
+    box-sizing: content-box;
+  }
+  .js-ag-values-controller_list-3 > :not(.ag-values-controller_item__main) {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 146px;
+    height: 146px;
+    margin: -73px;
+  }
+  .js-ag-values-controller_list-3 > :first-of-type {
+    -webkit-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(.8);
+    transform: rotate(-270deg) translate(174px) rotate(270deg) scale(.8);
+  }
+  .js-ag-values-controller_list-3 > :first-of-type.js-ag-active {
+    -webkit-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(1);
+    transform: rotate(-270deg) translate(174px) rotate(270deg) scale(1);
+  }
+  .js-ag-values-controller_list-3 > :nth-of-type(2) {
+    -webkit-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+    transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+  }
+  .js-ag-values-controller_list-3 > :nth-of-type(2).js-ag-active {
+    -webkit-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+    transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+  }
+  .js-ag-values-controller_list-3 > :nth-of-type(3) {
+    -webkit-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+    transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+  }
+  .js-ag-values-controller_list-3 > :nth-of-type(3).js-ag-active {
+    -webkit-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+    transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+  }
+  .js-ag-values-controller_list-3 > :nth-of-type(4) {
+    -webkit-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(.8);
+    transform: rotate(-90deg) translate(174px) rotate(90deg) scale(.8);
+  }
+  .js-ag-values-controller_list-3 > :nth-of-type(4).js-ag-active {
+    -webkit-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(1);
+    transform: rotate(-90deg) translate(174px) rotate(90deg) scale(1);
+  }
+  .js-ag-values-controller_list-3 > :nth-of-type(5) {
+    -webkit-transform: rotate(-30deg) translate(174px) rotate(30deg) scale(.8);
+    transform: rotate(-30deg) translate(174px) rotate(30deg) scale(.8);
+  }
+  .js-ag-values-controller_list-3 > :nth-of-type(5).js-ag-active {
+    -webkit-transform: rotate(-30deg) translate(174px) rotate(30deg) scale(1);
+    transform: rotate(-30deg) translate(174px) rotate(30deg) scale(1);
+  }
+  .js-ag-values-controller_list-3 > :nth-of-type(6) {
+    -webkit-transform: rotate(30deg) translate(174px) rotate(-30deg) scale(.8);
+    transform: rotate(30deg) translate(174px) rotate(-30deg) scale(.8);
+  }
+  .js-ag-values-controller_list-3 > :nth-of-type(6).js-ag-active {
+    -webkit-transform: rotate(30deg) translate(174px) rotate(-30deg) scale(1);
+    transform: rotate(30deg) translate(174px) rotate(-30deg) scale(1);
+  }
+
+  .js-ag-values-controller_list-4 {
+    position: absolute;
+    top: 73px;
+    right: 49px;
+    width: 348px;
+    height: 348px;
+    padding: 0;
+    border-radius: 50%;
+    list-style: none;
+    box-sizing: content-box;
+  }
+  .js-ag-values-controller_list-4 > :not(.ag-values-controller_item__main) {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 146px;
+    height: 146px;
+    margin: -73px;
+  }
+  .js-ag-values-controller_list-4 > :first-of-type {
+    -webkit-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(.8);
+    -moz-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(.8);
+    -ms-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(.8);
+    -o-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(.8);
+    transform: rotate(-330deg) translate(174px) rotate(330deg) scale(.8);
+  }
+  .js-ag-values-controller_list-4 > :first-of-type.js-ag-active {
+    -webkit-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(1);
+    -moz-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(1);
+    -ms-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(1);
+    -o-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(1);
+    transform: rotate(-330deg) translate(174px) rotate(330deg) scale(1);
+  }
+  .js-ag-values-controller_list-4 > :nth-of-type(2) {
+    -webkit-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(.8);
+    -moz-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(.8);
+    -ms-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(.8);
+    -o-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(.8);
+    transform: rotate(-270deg) translate(174px) rotate(270deg) scale(.8);
+  }
+  .js-ag-values-controller_list-4 > :nth-of-type(2).js-ag-active {
+    -webkit-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(1);
+    -moz-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(1);
+    -ms-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(1);
+    -o-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(1);
+    transform: rotate(-270deg) translate(174px) rotate(270deg) scale(1);
+  }
+  .js-ag-values-controller_list-4 > :nth-of-type(3) {
+    -webkit-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+    -moz-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+    -ms-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+    -o-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+    transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+  }
+  .js-ag-values-controller_list-4 > :nth-of-type(3).js-ag-active {
+    -webkit-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+    -moz-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+    -ms-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+    -o-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+    transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+  }
+  .js-ag-values-controller_list-4 > :nth-of-type(4) {
+    -webkit-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+    -moz-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+    -ms-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+    -o-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+    transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+  }
+  .js-ag-values-controller_list-4 > :nth-of-type(4).js-ag-active {
+    -webkit-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+    -moz-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+    -ms-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+    -o-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+    transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+  }
+  .js-ag-values-controller_list-4 > :nth-of-type(5) {
+    -webkit-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(.8);
+    -moz-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(.8);
+    -ms-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(.8);
+    -o-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(.8);
+    transform: rotate(-90deg) translate(174px) rotate(90deg) scale(.8);
+  }
+  .js-ag-values-controller_list-4 > :nth-of-type(5).js-ag-active {
+    -webkit-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(1);
+    -moz-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(1);
+    -ms-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(1);
+    -o-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(1);
+    transform: rotate(-90deg) translate(174px) rotate(90deg) scale(1);
+  }
+  .js-ag-values-controller_list-4 > :nth-of-type(6) {
+    -webkit-transform: rotate(-30deg) translate(174px) rotate(30deg) scale(.8);
+    -moz-transform: rotate(-30deg) translate(174px) rotate(30deg) scale(.8);
+    -ms-transform: rotate(-30deg) translate(174px) rotate(30deg) scale(.8);
+    -o-transform: rotate(-30deg) translate(174px) rotate(30deg) scale(.8);
+    transform: rotate(-30deg) translate(174px) rotate(30deg) scale(.8);
+  }
+  .js-ag-values-controller_list-4 > :nth-of-type(6).js-ag-active {
+    -webkit-transform: rotate(-30deg) translate(174px) rotate(30deg) scale(1);
+    -moz-transform: rotate(-30deg) translate(174px) rotate(30deg) scale(1);
+    -ms-transform: rotate(-30deg) translate(174px) rotate(30deg) scale(1);
+    -o-transform: rotate(-30deg) translate(174px) rotate(30deg) scale(1);
+    transform: rotate(-30deg) translate(174px) rotate(30deg) scale(1);
+  }
+
+  .js-ag-values-controller_list-5 {
+    position: absolute;
+    top: 73px;
+    right: 49px;
+    width: 348px;
+    height: 348px;
+    padding: 0;
+    border-radius: 50%;
+    list-style: none;
+    box-sizing: content-box;
+  }
+  .js-ag-values-controller_list-5 > :not(.ag-values-controller_item__main) {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 146px;
+    height: 146px;
+    margin: -73px;
+  }
+  .js-ag-values-controller_list-5 > :first-of-type {
+    -webkit-transform: rotate(-390deg) translate(174px) rotate(390deg) scale(.8);
+    -moz-transform: rotate(-390deg) translate(174px) rotate(390deg) scale(.8);
+    -ms-transform: rotate(-390deg) translate(174px) rotate(390deg) scale(.8);
+    -o-transform: rotate(-390deg) translate(174px) rotate(390deg) scale(.8);
+    transform: rotate(-390deg) translate(174px) rotate(390deg) scale(.8);
+  }
+  .js-ag-values-controller_list-5 > :first-of-type.js-ag-active {
+    -webkit-transform: rotate(-390deg) translate(174px) rotate(390deg) scale(1);
+    -moz-transform: rotate(-390deg) translate(174px) rotate(390deg) scale(1);
+    -ms-transform: rotate(-390deg) translate(174px) rotate(390deg) scale(1);
+    -o-transform: rotate(-390deg) translate(174px) rotate(390deg) scale(1);
+    transform: rotate(-390deg) translate(174px) rotate(390deg) scale(1);
+  }
+  .js-ag-values-controller_list-5 > :nth-of-type(2) {
+    -webkit-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(.8);
+    -moz-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(.8);
+    -ms-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(.8);
+    -o-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(.8);
+    transform: rotate(-330deg) translate(174px) rotate(330deg) scale(.8);
+  }
+  .js-ag-values-controller_list-5 > :nth-of-type(2).js-ag-active {
+    -webkit-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(1);
+    -moz-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(1);
+    -ms-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(1);
+    -o-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(1);
+    transform: rotate(-330deg) translate(174px) rotate(330deg) scale(1);
+  }
+  .js-ag-values-controller_list-5 > :nth-of-type(3) {
+    -webkit-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(.8);
+    -moz-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(.8);
+    -ms-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(.8);
+    -o-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(.8);
+    transform: rotate(-270deg) translate(174px) rotate(270deg) scale(.8);
+  }
+  .js-ag-values-controller_list-5 > :nth-of-type(3).js-ag-active {
+    -webkit-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(1);
+    -moz-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(1);
+    -ms-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(1);
+    -o-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(1);
+    transform: rotate(-270deg) translate(174px) rotate(270deg) scale(1);
+  }
+  .js-ag-values-controller_list-5 > :nth-of-type(4) {
+    -webkit-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+    -moz-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+    -ms-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+    -o-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+    transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+  }
+  .js-ag-values-controller_list-5 > :nth-of-type(4).js-ag-active {
+    -webkit-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+    -moz-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+    -ms-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+    -o-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+    transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+  }
+  .js-ag-values-controller_list-5 > :nth-of-type(5) {
+    -webkit-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+    -moz-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+    -ms-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+    -o-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+    transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+  }
+  .js-ag-values-controller_list-5 > :nth-of-type(5).js-ag-active {
+    -webkit-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+    -moz-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+    -ms-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+    -o-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+    transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+  }
+  .js-ag-values-controller_list-5 > :nth-of-type(6) {
+    -webkit-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(.8);
+    -moz-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(.8);
+    -ms-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(.8);
+    -o-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(.8);
+    transform: rotate(-90deg) translate(174px) rotate(90deg) scale(.8);
+  }
+  .js-ag-values-controller_list-5 > :nth-of-type(6).js-ag-active {
+    -webkit-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(1);
+    -moz-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(1);
+    -ms-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(1);
+    -o-transform: rotate(-90deg) translate(174px) rotate(90deg) scale(1);
+    transform: rotate(-90deg) translate(174px) rotate(90deg) scale(1);
+  }
+
+  .js-ag-values-controller_list-6 {
+    position: absolute;
+    top: 73px;
+    right: 49px;
+    width: 348px;
+    height: 348px;
+    padding: 0;
+    border-radius: 50%;
+    list-style: none;
+    box-sizing: content-box;
+  }
+  .js-ag-values-controller_list-6 > :not(.ag-values-controller_item__main) {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 146px;
+    height: 146px;
+    margin: -73px;
+  }
+  .js-ag-values-controller_list-6 > :first-of-type {
+    -webkit-transform: rotate(-450deg) translate(174px) rotate(450deg) scale(.8);
+    -moz-transform: rotate(-450deg) translate(174px) rotate(450deg) scale(.8);
+    -ms-transform: rotate(-450deg) translate(174px) rotate(450deg) scale(.8);
+    -o-transform: rotate(-450deg) translate(174px) rotate(450deg) scale(.8);
+    transform: rotate(-450deg) translate(174px) rotate(450deg) scale(.8);
+  }
+  .js-ag-values-controller_list-6 > :first-of-type.js-ag-active {
+    -webkit-transform: rotate(-450deg) translate(174px) rotate(450deg) scale(1);
+    -moz-transform: rotate(-450deg) translate(174px) rotate(450deg) scale(1);
+    -ms-transform: rotate(-450deg) translate(174px) rotate(450deg) scale(1);
+    -o-transform: rotate(-450deg) translate(174px) rotate(450deg) scale(1);
+    transform: rotate(-450deg) translate(174px) rotate(450deg) scale(1);
+  }
+  .js-ag-values-controller_list-6 > :nth-of-type(2) {
+    -webkit-transform: rotate(-390deg) translate(174px) rotate(390deg) scale(.8);
+    -moz-transform: rotate(-390deg) translate(174px) rotate(390deg) scale(.8);
+    -ms-transform: rotate(-390deg) translate(174px) rotate(390deg) scale(.8);
+    -o-transform: rotate(-390deg) translate(174px) rotate(390deg) scale(.8);
+    transform: rotate(-390deg) translate(174px) rotate(390deg) scale(.8);
+  }
+  .js-ag-values-controller_list-6 > :nth-of-type(2).js-ag-active {
+    -webkit-transform: rotate(-390deg) translate(174px) rotate(390deg) scale(1);
+    -moz-transform: rotate(-390deg) translate(174px) rotate(390deg) scale(1);
+    -ms-transform: rotate(-390deg) translate(174px) rotate(390deg) scale(1);
+    -o-transform: rotate(-390deg) translate(174px) rotate(390deg) scale(1);
+    transform: rotate(-390deg) translate(174px) rotate(390deg) scale(1);
+  }
+  .js-ag-values-controller_list-6 > :nth-of-type(3) {
+    -webkit-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(.8);
+    -moz-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(.8);
+    -ms-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(.8);
+    -o-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(.8);
+    transform: rotate(-330deg) translate(174px) rotate(330deg) scale(.8);
+  }
+  .js-ag-values-controller_list-6 > :nth-of-type(3).js-ag-active {
+    -webkit-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(1);
+    -moz-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(1);
+    -ms-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(1);
+    -o-transform: rotate(-330deg) translate(174px) rotate(330deg) scale(1);
+    transform: rotate(-330deg) translate(174px) rotate(330deg) scale(1);
+  }
+  .js-ag-values-controller_list-6 > :nth-of-type(4) {
+    -webkit-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(.8);
+    -moz-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(.8);
+    -ms-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(.8);
+    -o-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(.8);
+    transform: rotate(-270deg) translate(174px) rotate(270deg) scale(.8);
+  }
+  .js-ag-values-controller_list-6 > :nth-of-type(4).js-ag-active {
+    -webkit-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(1);
+    -moz-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(1);
+    -ms-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(1);
+    -o-transform: rotate(-270deg) translate(174px) rotate(270deg) scale(1);
+    transform: rotate(-270deg) translate(174px) rotate(270deg) scale(1);
+  }
+  .js-ag-values-controller_list-6 > :nth-of-type(5) {
+    -webkit-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+    -moz-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+    -ms-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+    -o-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+    transform: rotate(-210deg) translate(174px) rotate(210deg) scale(.8);
+  }
+  .js-ag-values-controller_list-6 > :nth-of-type(5).js-ag-active {
+    -webkit-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+    -moz-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+    -ms-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+    -o-transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+    transform: rotate(-210deg) translate(174px) rotate(210deg) scale(1);
+  }
+  .js-ag-values-controller_list-6 > :nth-of-type(6) {
+    -webkit-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+    -moz-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+    -ms-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+    -o-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+    transform: rotate(-150deg) translate(174px) rotate(150deg) scale(.8);
+  }
+  .js-ag-values-controller_list-6 > :nth-of-type(6).js-ag-active {
+    -webkit-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+    -moz-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+    -ms-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+    -o-transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+    transform: rotate(-150deg) translate(174px) rotate(150deg) scale(1);
+  }
+}

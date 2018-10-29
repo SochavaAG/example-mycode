@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$USER_HOME$/format-2.js" line="2475" mnemonic="0" />
+    <bookmark url="file://$PROJECT_DIR$/slider-rotate/css/style.css" line="126" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca115962-8386-4c33-bdee-8d62a07a2c5c" name="Default" comment="" />
@@ -21,7 +21,7 @@
       <file leaf-file-name="double-bonus-africa-EN.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.19_landing_double-bonus-africa/double-bonus-africa-EN.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="15264">
               <caret line="636" column="0" lean-forward="false" selection-start-line="636" selection-start-column="0" selection-end-line="636" selection-end-column="0" />
               <folding>
                 <element signature="n#div#3;n#div#0;n#!!top" expanded="false" />
@@ -51,21 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hot-deposit-bonus-EN.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2016.05.11_landing_hot-deposit-bonus/hot-deposit-bonus-EN.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/example/примеры сайтов/boosta.biz/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24408">
-              <caret line="1017" column="53" lean-forward="false" selection-start-line="1017" selection-start-column="53" selection-end-line="1017" selection-end-column="53" />
+            <state relative-caret-position="8640">
+              <caret line="360" column="44" lean-forward="false" selection-start-line="360" selection-start-column="44" selection-end-line="360" selection-end-column="44" />
               <folding>
                 <element signature="e#40649#40655#0" expanded="true" />
               </folding>
@@ -76,34 +66,9 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/example/примеры сайтов/boosta.biz/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="912">
+              <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/example/примеры сайтов/boosta.biz/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2472">
-              <caret line="3232" column="1" lean-forward="false" selection-start-line="3232" selection-start-column="1" selection-end-line="3232" selection-end-column="1" />
-              <folding>
-                <element signature="e#2098#46392#1" expanded="true" />
-                <element signature="e#46414#114879#1" expanded="true" />
-                <element signature="e#115324#160974#1" expanded="true" />
-                <element signature="e#160996#230817#1" expanded="true" />
-                <element signature="e#231270#276968#1" expanded="true" />
-                <element signature="e#276990#346751#1" expanded="true" />
-                <element signature="e#347205#392811#1" expanded="true" />
-                <element signature="e#392833#462146#1" expanded="true" />
-                <element signature="e#462599#507557#1" expanded="true" />
-                <element signature="e#507579#576648#1" expanded="true" />
-                <element signature="e#577120#622050#1" expanded="true" />
-                <element signature="e#622072#690797#1" expanded="true" />
-                <element signature="e#691257#735115#1" expanded="true" />
-                <element signature="e#735137#802242#1" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -111,7 +76,7 @@
       <file leaf-file-name="format.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+            <state relative-caret-position="11232">
               <caret line="468" column="119" lean-forward="false" selection-start-line="468" selection-start-column="107" selection-end-line="468" selection-end-column="119" />
               <folding>
                 <element signature="e#10639#10645#0" expanded="true" />
@@ -164,16 +129,14 @@
       <file leaf-file-name="format-2.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
+            <state relative-caret-position="35592">
               <caret line="1483" column="22" lean-forward="false" selection-start-line="1483" selection-start-column="13" selection-end-line="1483" selection-end-column="22" />
-              <folding>
-                <marker date="1540448548560" expanded="true" signature="79732:79745" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
@@ -188,8 +151,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="1092" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="1092" selection-end-column="0" />
+            <state relative-caret-position="26208">
+              <caret line="1092" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="1092" selection-end-column="0" />
               <folding>
                 <element signature="e#38584#39247#2" expanded="true" />
                 <element signature="e#40065#40728#2" expanded="true" />
@@ -201,18 +164,90 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/example/примеры сайтов/kuliksystem.ua/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+            <state relative-caret-position="30000">
+              <caret line="1250" column="40" lean-forward="false" selection-start-line="1250" selection-start-column="34" selection-end-line="1250" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/example/примеры сайтов/bmwu.e-art.com.ru/index.html">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example/примеры сайтов/boosta.biz/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="1706" column="75" lean-forward="false" selection-start-line="1706" selection-start-column="38" selection-end-line="1706" selection-end-column="75" />
+            <state relative-caret-position="49176">
+              <caret line="2623" column="17" lean-forward="false" selection-start-line="2623" selection-start-column="17" selection-end-line="2623" selection-end-column="17" />
+              <folding>
+                <element signature="e#2098#46392#1" expanded="true" />
+                <element signature="e#46414#114879#1" expanded="true" />
+                <element signature="e#115324#160974#1" expanded="true" />
+                <element signature="e#160996#230817#1" expanded="true" />
+                <element signature="e#231270#276968#1" expanded="true" />
+                <element signature="e#276990#346751#1" expanded="true" />
+                <element signature="e#347205#392811#1" expanded="true" />
+                <element signature="e#392833#462146#1" expanded="true" />
+                <element signature="e#462599#507557#1" expanded="true" />
+                <element signature="e#507579#576648#1" expanded="true" />
+                <element signature="e#577120#622050#1" expanded="true" />
+                <element signature="e#622072#690797#1" expanded="true" />
+                <element signature="e#691257#735115#1" expanded="true" />
+                <element signature="e#735137#802242#1" expanded="true" />
+                <element signature="e#822769#846539#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slider-rotate/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+              <folding>
+                <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/slider-rotate/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+              <folding>
+                <element signature="e#2792#32495#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slider-rotate/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="66" column="79" lean-forward="true" selection-start-line="66" selection-start-column="79" selection-end-line="66" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slick.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slider-rotate/plugins/slick/slick.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="16" column="18877" lean-forward="false" selection-start-line="16" selection-start-column="18868" selection-end-line="16" selection-end-column="18877" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/menu-and-lamp-light/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="196" column="57" lean-forward="true" selection-start-line="196" selection-start-column="31" selection-end-line="196" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -222,56 +257,38 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lng-resons</find>
-      <find>lng-resons_canvas</find>
-      <find>lng-</find>
-      <find>.lng-</find>
-      <find>colorController</find>
-      <find>.ag-bonus_note</find>
-      <find>ag-bonus</find>
-      <find>-moz-</find>
-      <find>../images/</find>
-      <find>.o.svg</find>
-      <find>http://boosta.biz/wp-content/themes/html5blank-stable/img/stack/inner-right/</find>
-      <find>libs.min.js</find>
-      <find>url(</find>
-      <find>Raleway-Bold</find>
-      <find>../img/section/</find>
-      <find>../img/stack/</find>
-      <find>../img/</find>
-      <find>../img/contacts-slider/</find>
-      <find>Впервые в УКРБУД! Акция «Рассрочка на 50 месяцев»</find>
-      <find>MegaTimer</find>
-      <find>data-t_hours</find>
-      <find>_share</find>
-      <find>timer-canvas-</find>
-      <find>register-button</find>
-      <find>::</find>
-      <find>.nav-list li a</find>
-      <find>white</find>
-      <find>ag-base_btn-v15 span</find>
+      <find>.value-controller__item_main</find>
+      <find>js_value-controller</find>
       <find>0 100%;</find>
-      <find>&lt;audio</find>
+      <find>values-slider__slider</find>
+      <find>slick</find>
+      <find>.value-controller__item</find>
+      <find>.slick</find>
+      <find>.ag-values_list</find>
+      <find>js</find>
+      <find>data-active</find>
+      <find>values-slider__controller</find>
+      <find>value-controller</find>
+      <find>value-controller__item</find>
+      <find>ag-values-controller_item_main</find>
+      <find>value-controller__content</find>
+      <find>ag-values-controller_item js-value-controller</find>
+      <find>js-value-controller</find>
+      <find>js-values-controller_item-active</find>
+      <find>active</find>
+      <find>.active</find>
+      <find>value-controller__image</find>
+      <find>slickGoTo</find>
+      <find>$('.js-values-controller_item')</find>
+      <find>ag-mob-language_selectbox</find>
+      <find>ag-values-controller_list[data-active=&quot;0&quot;]</find>
+      <find>&quot;]</find>
+      <find>refreshController</find>
+      <find>ag-values_list</find>
+      <find>.ag-values-controller_item</find>
+      <find>.r.svg</find>
     </findStrings>
     <replaceStrings>
-      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-border-circle-background/images/sprite-icons.png</replace>
-      <replace>&lt;li class=&quot;js-menu-cat_item ag-menu-cat_item&quot;&gt;</replace>
-      <replace>0 0 0 0;</replace>
-      <replace>\}\)\;\n  \}\)\(jQuery\)\;\n  var \$mcj \= jQuery\.noConflict\(true\)\;</replace>
-      <replace>.ag-</replace>
-      <replace>ag-</replace>
-      <replace>-ms-</replace>
-      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-wave/images/</replace>
-      <replace>.r.svg</replace>
-      <replace>outer-</replace>
-      <replace>.svg</replace>
-      <replace>images/outer-</replace>
-      <replace>images/inner-left-</replace>
-      <replace>images/inner-right-</replace>
-      <replace>images/</replace>
-      <replace>font-family: ProximaNova;</replace>
-      <replace>ProximaNova-Black</replace>
-      <replace>ProximaNova-Semibold</replace>
       <replace>ProximaNova-Extrabld</replace>
       <replace>ProximaNovaT-Thin</replace>
       <replace>ProximaNova-Bold</replace>
@@ -282,8 +299,26 @@
       <replace>:</replace>
       <replace>#FFF</replace>
       <replace>ag-base_text-btn-v15</replace>
-      <replace>0 0;</replace>
       <replace>.ag-base_btn-v15</replace>
+      <replace>js-values-slider</replace>
+      <replace>js-value-controller</replace>
+      <replace>0 0;</replace>
+      <replace>ag-values-controller_item</replace>
+      <replace>ag-values-controller_item_main</replace>
+      <replace>ag-values-controller_item__main</replace>
+      <replace>js-values-controller_item ag-values-controller_item</replace>
+      <replace>js-values-controller_item</replace>
+      <replace>ag-values-controller_list</replace>
+      <replace>js-values-controller_item-active</replace>
+      <replace>.js-ag-active</replace>
+      <replace>.svg&quot; class=&quot;ag-values-controller_img&quot; alt=&quot;&quot;&gt;</replace>
+      <replace>&lt;img src=&quot;images/controller-</replace>
+      <replace>js-ag-active</replace>
+      <replace>agValuesSlider</replace>
+      <replace>ag-values-controller_img-box</replace>
+      <replace>js-ag-values-controller_list-</replace>
+      <replace>agValuesControllerItem</replace>
+      <replace>.svg</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -294,14 +329,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/buttons/js/main.js" />
-        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.19_landing_double-bonus-africa/double-bonus-africa-EN.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.10.19_FX-11708_pop-up_start-trading/pop-up_start-trading-new-if.js" />
-        <option value="$PROJECT_DIR$/gambling-slot-machine/js/main.js" />
-        <option value="$PROJECT_DIR$/leave-site-modal-popup/js/main.js" />
-        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/pop-up_analytics-6.js" />
-        <option value="$USER_HOME$/vazhno_project/2018.02.27_simple-snippet_analytics-form-subscribe/doc/Mailchimp-Errors.txt" />
-        <option value="$USER_HOME$/example/примеры сайтов/zipl.pro/index.html" />
         <option value="$USER_HOME$/example/примеры сайтов/zipl.pro/css/style.css" />
         <option value="$USER_HOME$/example/примеры сайтов/cs-everything-nail.myshopify.com/css/cs-everything.styles.scss.css" />
         <option value="$PROJECT_DIR$/item-crossing-line-hover/index.html" />
@@ -338,13 +365,21 @@
         <option value="$PROJECT_DIR$/item-animation-wave/index.html" />
         <option value="$PROJECT_DIR$/item-animation-wave/css/style.css" />
         <option value="$USER_HOME$/example/примеры сайтов/boosta.biz/index.html" />
-        <option value="$USER_HOME$/example/примеры сайтов/boosta.biz/js/app.js" />
         <option value="$USER_HOME$/example/примеры сайтов/boosta.biz/css/style.css" />
         <option value="$USER_HOME$/format.html" />
         <option value="$USER_HOME$/format-2.js" />
         <option value="$USER_HOME$/example/примеры сайтов/kuliksystem.ua/index.html" />
         <option value="$PROJECT_DIR$/buttons/index.html" />
         <option value="$PROJECT_DIR$/buttons/css/style.css" />
+        <option value="$USER_HOME$/example/примеры сайтов/bmwu.e-art.com.ru/index.html" />
+        <option value="$USER_HOME$/example/примеры сайтов/boosta.biz/js/libs.min.js" />
+        <option value="$PROJECT_DIR$/slider-rotate/plugins/slick/slick.min.js" />
+        <option value="$USER_HOME$/Desktop/slick-master/index.html" />
+        <option value="$PROJECT_DIR$/slider-rotate/index-1.html" />
+        <option value="$USER_HOME$/example/примеры сайтов/boosta.biz/js/app.js" />
+        <option value="$PROJECT_DIR$/slider-rotate/js/main.js" />
+        <option value="$PROJECT_DIR$/slider-rotate/index.html" />
+        <option value="$PROJECT_DIR$/slider-rotate/css/style.css" />
       </list>
     </option>
   </component>
@@ -496,12 +531,13 @@
       <workItem from="1540201141645" duration="12031000" />
       <workItem from="1540274521263" duration="23583000" />
       <workItem from="1540360917599" duration="26456000" />
-      <workItem from="1540447306092" duration="8496000" />
+      <workItem from="1540447306092" duration="20953000" />
+      <workItem from="1540802478437" duration="7541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258347000" />
+    <option name="totallyTimeSpent" value="278345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -538,70 +574,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/item-animation-border-circle/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="41" column="39" lean-forward="false" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.05_landing_exclusive-lucky-draw/exclusive-lucky-draw-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="411" column="0" lean-forward="true" selection-start-line="411" selection-start-column="0" selection-end-line="411" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-animation-border-circle-background/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.09.20_landing_south-african-bonus/south-african-bonus-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="782" column="5" lean-forward="false" selection-start-line="772" selection-start-column="2" selection-end-line="782" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-animation-border-circle-rotate/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="308" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="398" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-animation-border-circle-rotate/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-animation-border-circle-background/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1910">
-          <caret line="384" column="0" lean-forward="true" selection-start-line="384" selection-start-column="0" selection-end-line="384" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/26ed61c3ec9fb527fa29a7c75ca5e2ae-4829d1e3d6c2bc24d19c297559451c915f5c8fcf/v3.js" />
-    <entry file="file://$PROJECT_DIR$/../sripts js/v3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25752">
-          <caret line="1073" column="16" lean-forward="false" selection-start-line="1073" selection-start-column="16" selection-end-line="1073" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu-glide-hover/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/justforex/fx.dev/frontend/app/assets/javascripts/content_pages/controls/root_page.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-480">
@@ -788,13 +760,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.19_landing_double-bonus-africa/double-bonus-africa-EN.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="15264">
           <caret line="636" column="0" lean-forward="false" selection-start-line="636" selection-start-column="0" selection-end-line="636" selection-end-column="0" />
           <folding>
             <element signature="n#div#3;n#div#0;n#!!top" expanded="false" />
@@ -819,58 +790,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/example/примеры сайтов/boosta.biz/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24408">
-          <caret line="1017" column="53" lean-forward="false" selection-start-line="1017" selection-start-column="53" selection-end-line="1017" selection-end-column="53" />
-          <folding>
-            <element signature="e#40649#40655#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example/примеры сайтов/boosta.biz/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/example/примеры сайтов/loreal-paris.ua/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example/примеры сайтов/boosta.biz/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2472">
-          <caret line="3232" column="1" lean-forward="false" selection-start-line="3232" selection-start-column="1" selection-end-line="3232" selection-end-column="1" />
-          <folding>
-            <element signature="e#2098#46392#1" expanded="true" />
-            <element signature="e#46414#114879#1" expanded="true" />
-            <element signature="e#115324#160974#1" expanded="true" />
-            <element signature="e#160996#230817#1" expanded="true" />
-            <element signature="e#231270#276968#1" expanded="true" />
-            <element signature="e#276990#346751#1" expanded="true" />
-            <element signature="e#347205#392811#1" expanded="true" />
-            <element signature="e#392833#462146#1" expanded="true" />
-            <element signature="e#462599#507557#1" expanded="true" />
-            <element signature="e#507579#576648#1" expanded="true" />
-            <element signature="e#577120#622050#1" expanded="true" />
-            <element signature="e#622072#690797#1" expanded="true" />
-            <element signature="e#691257#735115#1" expanded="true" />
-            <element signature="e#735137#802242#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/format.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
+        <state relative-caret-position="11232">
           <caret line="468" column="119" lean-forward="false" selection-start-line="468" selection-start-column="107" selection-end-line="468" selection-end-column="119" />
           <folding>
             <element signature="e#10639#10645#0" expanded="true" />
@@ -919,38 +848,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/FlipClock-master/src/flipclock/js/libs/timer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3524">
-          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/FlipClock-master/src/flipclock/js/libs/timer.js" />
     <entry file="file://$USER_HOME$/format-2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
+        <state relative-caret-position="35592">
           <caret line="1483" column="22" lean-forward="false" selection-start-line="1483" selection-start-column="13" selection-end-line="1483" selection-end-column="22" />
-          <folding>
-            <marker date="1540448548560" expanded="true" signature="79732:79745" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/example/примеры сайтов/bmwu.e-art.com.ru/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="1706" column="75" lean-forward="false" selection-start-line="1706" selection-start-column="38" selection-end-line="1706" selection-end-column="75" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_plagins_wp_2018.08.13/2018.07.26_wp-plugin_ag-slick-slider/slick/slick.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="17" column="11465" lean-forward="true" selection-start-line="17" selection-start-column="11465" selection-end-line="17" selection-end-column="11465" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/slick-master/slick/slick.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example/примеры сайтов/boosta.biz/js/libs.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72024">
+          <caret line="3001" column="3" lean-forward="false" selection-start-line="3001" selection-start-column="3" selection-end-line="3001" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slider-rotate/index-1.html" />
+    <entry file="file://$PROJECT_DIR$/buttons/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="106" selection-end-column="8" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example/примеры сайтов/kuliksystem.ua/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30000">
+          <caret line="1250" column="40" lean-forward="false" selection-start-line="1250" selection-start-column="34" selection-end-line="1250" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example/примеры сайтов/boosta.biz/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8640">
+          <caret line="360" column="44" lean-forward="false" selection-start-line="360" selection-start-column="44" selection-end-line="360" selection-end-column="44" />
+          <folding>
+            <element signature="e#40649#40655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/slick-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="90" column="52" lean-forward="true" selection-start-line="90" selection-start-column="52" selection-end-line="90" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example/примеры сайтов/boosta.biz/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="1092" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="1092" selection-end-column="0" />
+        <state relative-caret-position="26208">
+          <caret line="1092" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="1092" selection-end-column="0" />
           <folding>
             <element signature="e#38584#39247#2" expanded="true" />
             <element signature="e#40065#40728#2" expanded="true" />
@@ -958,20 +944,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/example/примеры сайтов/kuliksystem.ua/index.html">
+    <entry file="file://$USER_HOME$/example/примеры сайтов/boosta.biz/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        <state relative-caret-position="49176">
+          <caret line="2623" column="17" lean-forward="false" selection-start-line="2623" selection-start-column="17" selection-end-line="2623" selection-end-column="17" />
+          <folding>
+            <element signature="e#2098#46392#1" expanded="true" />
+            <element signature="e#46414#114879#1" expanded="true" />
+            <element signature="e#115324#160974#1" expanded="true" />
+            <element signature="e#160996#230817#1" expanded="true" />
+            <element signature="e#231270#276968#1" expanded="true" />
+            <element signature="e#276990#346751#1" expanded="true" />
+            <element signature="e#347205#392811#1" expanded="true" />
+            <element signature="e#392833#462146#1" expanded="true" />
+            <element signature="e#462599#507557#1" expanded="true" />
+            <element signature="e#507579#576648#1" expanded="true" />
+            <element signature="e#577120#622050#1" expanded="true" />
+            <element signature="e#622072#690797#1" expanded="true" />
+            <element signature="e#691257#735115#1" expanded="true" />
+            <element signature="e#735137#802242#1" expanded="true" />
+            <element signature="e#822769#846539#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slider-rotate/plugins/slick/slick.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="16" column="18877" lean-forward="false" selection-start-line="16" selection-start-column="18868" selection-end-line="16" selection-end-column="18877" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-and-lamp-light/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="196" column="57" lean-forward="true" selection-start-line="196" selection-start-column="31" selection-end-line="196" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/index.html">
+    <entry file="file://$PROJECT_DIR$/slider-rotate/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="106" selection-end-column="8" />
+        <state relative-caret-position="432">
+          <caret line="66" column="79" lean-forward="true" selection-start-line="66" selection-start-column="79" selection-end-line="66" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slider-rotate/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slider-rotate/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding>
+            <element signature="e#2792#32495#0" expanded="false" />
           </folding>
         </state>
       </provider>
