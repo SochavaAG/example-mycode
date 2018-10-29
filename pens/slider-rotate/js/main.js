@@ -13,7 +13,7 @@
       dots: false,
       arrows: false,
       autoplay: true,
-      autoplaySpeed: 200000,
+      autoplaySpeed: 2000,
       infinite: false,
       speed: 100,
       fade: true,
@@ -46,7 +46,6 @@
       refreshController(nextSlide);
     });
 
-
 /*
     function refreshController(nextSlide) {
       agValuesSlider.slick('slickGoTo', nextSlide);
@@ -54,8 +53,6 @@
       agValuesControllerItem.eq(nextSlide).addClass('js-ag-active').parent().attr("data-active", nextSlide);
     }
 */
-
-
 
     var agValuesControllerList = $('.js-values-controller_list'),
       agGetClass = agValuesControllerList.attr('class');
@@ -71,7 +68,3 @@
 
   });
 })(jQuery);
-
-/*
-
-*/

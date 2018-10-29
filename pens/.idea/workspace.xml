@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/slider-rotate/css/style.css" line="126" mnemonic="0" />
+    <bookmark url="file://$PROJECT_DIR$/slider-rotate/css/style.css" line="125" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca115962-8386-4c33-bdee-8d62a07a2c5c" name="Default" comment="" />
@@ -200,32 +200,33 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slider-rotate/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="216">
+              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="22" />
               <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slider-rotate/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+            <state relative-caret-position="562">
+              <caret line="187" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="781" selection-end-column="1" />
               <folding>
-                <element signature="e#2792#32495#0" expanded="false" />
+                <element signature="e#2791#32494#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/slider-rotate/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="66" column="79" lean-forward="true" selection-start-line="66" selection-start-column="79" selection-end-line="66" selection-end-column="79" />
+            <state relative-caret-position="130">
+              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -234,8 +235,8 @@
       <file leaf-file-name="slick.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slider-rotate/plugins/slick/slick.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="16" column="18877" lean-forward="false" selection-start-line="16" selection-start-column="18868" selection-end-line="16" selection-end-column="18877" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -257,7 +258,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.value-controller__item_main</find>
       <find>js_value-controller</find>
       <find>0 100%;</find>
       <find>values-slider__slider</find>
@@ -278,18 +278,18 @@
       <find>active</find>
       <find>.active</find>
       <find>value-controller__image</find>
-      <find>slickGoTo</find>
       <find>$('.js-values-controller_item')</find>
       <find>ag-mob-language_selectbox</find>
       <find>ag-values-controller_list[data-active=&quot;0&quot;]</find>
       <find>&quot;]</find>
-      <find>refreshController</find>
       <find>ag-values_list</find>
-      <find>.ag-values-controller_item</find>
       <find>.r.svg</find>
+      <find>.ag-values-controller_item</find>
+      <find>refreshController</find>
+      <find>slickGoTo</find>
+      <find>images/</find>
     </findStrings>
     <replaceStrings>
-      <replace>ProximaNova-Extrabld</replace>
       <replace>ProximaNovaT-Thin</replace>
       <replace>ProximaNova-Bold</replace>
       <replace>ProximaNova-Regular</replace>
@@ -317,8 +317,9 @@
       <replace>agValuesSlider</replace>
       <replace>ag-values-controller_img-box</replace>
       <replace>js-ag-values-controller_list-</replace>
-      <replace>agValuesControllerItem</replace>
       <replace>.svg</replace>
+      <replace>agValuesControllerItem</replace>
+      <replace>https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/slider-rotate/images/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -377,9 +378,9 @@
         <option value="$USER_HOME$/Desktop/slick-master/index.html" />
         <option value="$PROJECT_DIR$/slider-rotate/index-1.html" />
         <option value="$USER_HOME$/example/примеры сайтов/boosta.biz/js/app.js" />
-        <option value="$PROJECT_DIR$/slider-rotate/js/main.js" />
         <option value="$PROJECT_DIR$/slider-rotate/index.html" />
         <option value="$PROJECT_DIR$/slider-rotate/css/style.css" />
+        <option value="$PROJECT_DIR$/slider-rotate/js/main.js" />
       </list>
     </option>
   </component>
@@ -532,12 +533,12 @@
       <workItem from="1540274521263" duration="23583000" />
       <workItem from="1540360917599" duration="26456000" />
       <workItem from="1540447306092" duration="20953000" />
-      <workItem from="1540802478437" duration="7541000" />
+      <workItem from="1540802478437" duration="9085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278345000" />
+    <option name="totallyTimeSpent" value="279889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -968,16 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slider-rotate/plugins/slick/slick.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="16" column="18877" lean-forward="false" selection-start-line="16" selection-start-column="18868" selection-end-line="16" selection-end-column="18877" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/menu-and-lamp-light/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
@@ -986,31 +977,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slider-rotate/js/main.js">
+    <entry file="file://$PROJECT_DIR$/slider-rotate/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="66" column="79" lean-forward="true" selection-start-line="66" selection-start-column="79" selection-end-line="66" selection-end-column="79" />
-          <folding />
+        <state relative-caret-position="562">
+          <caret line="187" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="781" selection-end-column="1" />
+          <folding>
+            <element signature="e#2791#32494#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slider-rotate/plugins/slick/slick.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/slider-rotate/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        <state relative-caret-position="216">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="22" />
           <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slider-rotate/css/style.css">
+    <entry file="file://$PROJECT_DIR$/slider-rotate/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="e#2792#32495#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="130">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
