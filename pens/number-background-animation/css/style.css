@@ -16,18 +16,18 @@
   position: relative;
 }
 .ag-number_num {
-  background: url(../images/number.png) no-repeat scroll 0 0;
+  background: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/number-background-animation/images/number.png) no-repeat scroll 0 0;
   background-size: 100% 100%;
 
   z-index: 11;
   position: absolute;
   top: 0;
-  left: 0;
-  right: 0;
+  left: -1px;
+  right: -1px;
   bottom: 0;
 }
 .ag-number_bg {
-  background: url(../images/icons-bg.png) repeat-x scroll 0 0 #FFF;
+  background: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/number-background-animation/images/icons-bg.png) repeat-x scroll 0 0 #FFF;
   background-size: auto 100%;
 
   z-index: 10;
@@ -105,7 +105,7 @@
 (min-resolution: 1.5dppx) {
 
   .ag-number_bg {
-    background: url(../images/icons-bg@2x.png) repeat-x scroll #FFF;
+    background: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/number-background-animation/images/icons-bg@2x.png) repeat-x scroll #FFF;
     background-size: auto 100%;
   }
 }
