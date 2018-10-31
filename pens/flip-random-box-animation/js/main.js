@@ -1,5 +1,6 @@
 (function ($) {
   $(function () {
+//      вызов плагина
     var $iconsCategories = $('#ag-categories');
 
     // Initiate the flip effect on icon categories
@@ -13,17 +14,21 @@
       startOnInit: false
     });
 
-    // Only show the animation when the hero icons element is in view
-    flipHero.data('plugin_flip').startFlip();
+    flipCategories.data('plugin_flip').startFlip();
+
+    // Only show the animation when the icon categories element is in view
+
+// нужно добавлять класс при скролле чтоб срабатывало когда блок в полезрения
 /*
-     if (flipHero !== false) {
-     $hero.bind('inview', function (event, isInView) {
-     if (isInView) {
-     } else {
-     flipHero.data('plugin_flip').stopFlip();
-     }
-     });
-     }
+      if (flipCategories !== false) {
+        $iconsCategories.bind('inview', function(event, isInView) {
+          if (isInView) {
+            flipCategories.data('plugin_flip').startFlip();
+          } else {
+            flipCategories.data('plugin_flip').stopFlip();
+          }
+        });
+      }
 */
 
   });
