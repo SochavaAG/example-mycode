@@ -1,0 +1,299 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-colors-palette-block {
+  padding: 100px 0;
+}
+.ag-colors-palette_box {
+  height: 390px;
+  width: 430px;
+  margin: 0 auto;
+
+  position: relative;
+}
+.ag-colors-palette_title-list {
+  height: 140px;
+  width: 140px;
+  padding: 10px;
+  border: #cfd3d4 1px dashed;
+
+  text-align: center;
+  font-size: 14px;
+  color: #555457;
+
+  position: absolute;
+  top: 114px;
+  left: 130px;
+
+  -webkit-border-radius: 100px 100px 100px 100px;
+  -moz-border-radius: 100px 100px 100px 100px;
+  -ms-border-radius: 100px 100px 100px 100px;
+  -o-border-radius: 100px 100px 100px 100px;
+  border-radius: 100px 100px 100px 100px;
+}
+.ag-colors-palette_title-list-inner {
+  display: table-cell;
+  height: 140px;
+
+  vertical-align: middle;
+}
+.ag-colors-palette_title-list__attention {
+  color: #ef463d;
+}
+.ag-colors-palette_img-1 {
+  position: absolute;
+  top: 0;
+  left: 75px;
+}
+.ag-colors-palette_img-2 {
+  position: absolute;
+  top: 0;
+  left: 235px;
+}
+.ag-colors-palette_img-3 {
+  position: absolute;
+  top: 140px;
+  left: 320px;
+}
+.ag-colors-palette_img-4 {
+  position: absolute;
+  top: 280px;
+  left: 75px;
+}
+.ag-colors-palette_img-5 {
+  position: absolute;
+  top: 280px;
+  left: 235px;
+}
+.ag-colors-palette_img-6 {
+  position: absolute;
+  top: 140px;
+  left: 0;
+}
+.ag-colors-palette_img-7 {
+  position: absolute;
+  top: 125px;
+  left: 140px;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.zoomInBounce {
+  -webkit-animation-name: zoomInBounce, fadeIn;
+  -moz-animation-name: zoomInBounce, fadeIn;
+  -o-animation-name: zoomInBounce, fadeIn;
+  animation-name: zoomInBounce, fadeIn;
+
+  -webkit-animation-timing-function: cubic-bezier(0.47, 2.82, 0.51, 0.52), linear;
+  -moz-animation-timing-function: cubic-bezier(0.47, 2.82, 0.51, 0.52), linear;
+  -o-animation-timing-function: cubic-bezier(0.47, 2.82, 0.51, 0.52), linear;
+  animation-timing-function: cubic-bezier(0.47, 2.82, 0.51, 0.52), linear;
+
+  -webkit-animation-duration: 0.8s, 0.3s;
+  -moz-animation-duration: 0.8s, 0.3s;
+  -o-animation-duration: 0.8s, 0.3s;
+  animation-duration: 0.8s, 0.3s;
+}
+.zoomOutBounce {
+  -webkit-animation-name: zoomOutBounce;
+  -moz-animation-name: zoomOutBounce;
+  -o-animation-name: zoomOutBounce;
+  animation-name: zoomOutBounce;
+}
+
+@-webkit-keyframes zoomInBounce {
+  0% {
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@-moz-keyframes zoomInBounce {
+  0% {
+    -moz-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  100% {
+    -moz-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@-o-keyframes zoomInBounce {
+  0% {
+    -o-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  100% {
+    -o-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes zoomInBounce {
+  0% {
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    -moz-transform: scale3d(0.3, 0.3, 0.3);
+    -o-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    -moz-transform: scale3d(1, 1, 1);
+    -o-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@-webkit-keyframes zoomOutBounce {
+  0% {
+    opacity: 1;
+
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+  20% {
+    opacity: 1;
+
+    -webkit-transform: scale3d(1.2, 1.2, 1.2);
+    transform: scale3d(1.2, 1.2, 1.2);
+
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  70% {
+    opacity: 0;
+
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes zoomOutBounce {
+  0% {
+    opacity: 1;
+
+    -moz-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+  20% {
+    opacity: 1;
+
+    -moz-transform: scale3d(1.2, 1.2, 1.2);
+    transform: scale3d(1.2, 1.2, 1.2);
+
+    -moz-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  70% {
+    opacity: 0;
+
+    -moz-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes zoomOutBounce {
+  0% {
+    opacity: 1;
+
+    -o-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+  20% {
+    opacity: 1;
+
+    -o-transform: scale3d(1.2, 1.2, 1.2);
+    transform: scale3d(1.2, 1.2, 1.2);
+
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  70% {
+    opacity: 0;
+
+    -o-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes zoomOutBounce {
+  0% {
+    opacity: 1;
+
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+  20% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.2, 1.2, 1.2);
+    -moz-transform: scale3d(1.2, 1.2, 1.2);
+    -o-transform: scale3d(1.2, 1.2, 1.2);
+    transform: scale3d(1.2, 1.2, 1.2);
+
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  70% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    -moz-transform: scale3d(0.3, 0.3, 0.3);
+    -o-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
