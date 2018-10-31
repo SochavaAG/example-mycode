@@ -1,5 +1,3 @@
-/*  сам плагин лежит в папке js/plugins/flip.js */
-/* статья по созданию плагина https://habrahabr.ru/sandbox/39442/ */
 ;(function ( $, window, document, undefined ) {
 
   var pluginName = "flip",
@@ -21,7 +19,7 @@
     self._name = pluginName;
 
     self.element = element;
-    self.$ikonsets = $(self.element).find('.ikonset');
+    self.$ikonsets = $(self.element).find('.js-ikonset');
     self.noOfIkonSets = self.$ikonsets.length;
 
     if (self.settings.order === 'linear') {
@@ -188,70 +186,3 @@
   };
 
 })( jQuery, window, document );
-/*  /сам плагин */
-
-(function ($) {
-  $(function () {
-
-//      вызов плагина
-
-    var $iconsCategories = $('#icons-categories');
-
-    // Initiate the flip effect on icon categories
-    var flipCategories = $iconsCategories.flip({
-      delay: 2100, // Amount of time before the next icon flips
-      pause: 0,  // Amount of time before an animation cycle starts again
-      offset: 800, // Amount of time between animate out and animate in
-      elementToFlip: 'div', // Which element in <div id="#icons-categories"> should be flipped?
-
-      order: [7,2,5,8,3,6,4,1],
-      // order: 'linear',
-      startOnInit: false
-    });
-    flipCategories.data('plugin_flip').startFlip();
-
-    // Only show the animation when the icon categories element is in view
-
-//      нужно добавлять класс при скролле чтоб срабатывало когда блок в полезрения
-
-//      if (flipCategories !== false) {
-//        $iconsCategories.bind('inview', function(event, isInView) {
-//          if (isInView) {
-//            flipCategories.data('plugin_flip').startFlip();
-//          } else {
-//            flipCategories.data('plugin_flip').stopFlip();
-//          }
-//        });
-//      }
-  });
-})(jQuery);
-
-
-(function ($) {
-$(document).ready(function () {
-
-  var $hero = $('#hero');
-
-  // Initiate the flip effect on hero icons
-  var flipHero = $hero.flip({
-    delay: 500, // Amount of time before the next icon flips
-    pause: 0,  // Amount of time before an animation cycle starts again
-    offset: 700, // Amount of time between animate out and animate in
-    elementToFlip: 'img', // Which element in <div id="hero"> should be flipped?
-    order: [1, 2, 3, 5, 4, 6],
-    startOnInit: false
-  });
-
-  // Only show the animation when the hero icons element is in view
-  flipHero.data('plugin_flip').startFlip();
-
-//      if (flipHero !== false) {
-//        $hero.bind('inview', function (event, isInView) {
-//          if (isInView) {
-//          } else {
-//            flipHero.data('plugin_flip').stopFlip();
-//          }
-//        });
-//      }
-});
-})(jQuery);
