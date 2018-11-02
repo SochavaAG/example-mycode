@@ -28,13 +28,12 @@
       agEyes.css('top', (10 * (event.clientY / $window.height()) + 115));
     });
 
-
     var agScrollTop;
 
     $window.on('scroll', (function agOnScroll() {
       agScrollTop = $window.scrollTop() + $window.height();
 
-      if (agScrollTop > ($('.js-man-page').height() - 50)) {
+      if (agScrollTop > ($('.js-man-page').height() - 150)) {
         agMan.addClass('js-ag-man_show');
       } else {
         agMan.removeClass('js-ag-man_show');
@@ -42,7 +41,6 @@
 
       return agOnScroll;
     })());
-
 
   });
 })(jQuery);
