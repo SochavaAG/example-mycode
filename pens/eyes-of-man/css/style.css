@@ -1,0 +1,122 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-man_text {
+  text-align: center;
+  font-size: 130px;
+}
+
+.ag-man {
+  height: 421px;
+  width: 386px;
+  margin-left: -140px;
+  background-image: url(../images/person.png);
+  background-repeat: no-repeat;
+
+  cursor: pointer;
+
+  z-index: 500;
+  position: fixed;
+  right: 20%;
+  bottom: -450px;
+
+  -webkit-transition-property: bottom;
+  -moz-transition-property: bottom;
+  -o-transition-property: bottom;
+  transition-property: bottom;
+
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.js-ag-man_show {
+  bottom: -175px;
+}
+.js-ag-man_show:hover {
+  bottom: -150px;
+}
+.js-ag-man_show.js-ag-man_open {
+  cursor: default;
+
+  bottom: 0;
+
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.ag-man_link {
+  display: block;
+  height: 73px;
+  width: 143px;
+  background-image: url(../images/contact-us-hover.png);
+  background-repeat: no-repeat;
+
+  opacity: 0;
+
+  cursor: pointer;
+
+  position: absolute;
+  top: 143px;
+  right: 27px;
+
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+
+  -webkit-transition-duration: 0.49s;
+  -moz-transition-duration: 0.49s;
+  -o-transition-duration: 0.49s;
+  transition-duration: 0.49s;
+}
+.ag-man_link:hover {
+  opacity: 1;
+}
+.ag-man .ag-man_eyes {
+  height: 9px;
+  width: 115px;
+  background: url(../images/eyes.png) repeat-x 24px 0;
+
+  position: absolute;
+  top: 122px;
+  left: 81px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
