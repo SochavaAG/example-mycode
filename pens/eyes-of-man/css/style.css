@@ -3,6 +3,9 @@
   margin: 0 auto;
 }
 
+.ag-man-page {
+  min-height: 2000px;
+}
 .ag-man_text {
   text-align: center;
   font-size: 130px;
@@ -97,6 +100,9 @@
     width: 96%;
   }
 
+  .ag-man_text {
+    font-size: 60px;
+  }
 }
 
 @media only screen and (max-width: 639px) {
@@ -104,7 +110,9 @@
 }
 
 @media only screen and (max-width: 479px) {
-
+  .ag-man_text {
+    font-size: 60px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -112,6 +120,9 @@
     width: 750px;
   }
 
+  .ag-man_text {
+    font-size: 106px;
+  }
 }
 
 @media (min-width: 980px) and (max-width: 1161px) {
