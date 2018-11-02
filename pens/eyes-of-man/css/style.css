@@ -12,7 +12,7 @@
   height: 421px;
   width: 386px;
   margin-left: -140px;
-  background-image: url(../images/person.png);
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/eyes-of-man/images/person.png);
   background-repeat: no-repeat;
 
   cursor: pointer;
@@ -57,7 +57,7 @@
   display: block;
   height: 73px;
   width: 143px;
-  background-image: url(../images/contact-us-hover.png);
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/eyes-of-man/images/contact-us-hover.png);
   background-repeat: no-repeat;
 
   opacity: 0;
@@ -84,7 +84,7 @@
 .ag-man .ag-man_eyes {
   height: 9px;
   width: 115px;
-  background: url(../images/eyes.png) repeat-x 24px 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/eyes-of-man/images/eyes.png) repeat-x 24px 0;
 
   position: absolute;
   top: 122px;
