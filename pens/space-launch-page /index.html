@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Space Launch Page </title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="plugins/lightslider/lightslider.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="plugins/waves/waves.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="a-format-container">
+    <!-- START LOADER -->
+    <div class="loader">
+      <div class='loader-ring'>
+        <p class="loader-text">Preparing to Launch</p>
+        <div class='loader-ring-light'></div>
+        <div class='loader-ring-track'></div>
+      </div>
+    </div>
+    <!-- END LOADER -->
+
+    <!-- START CONTAINER -->
+    <div class="container">
+      <!-- START COUNTDOWN -->
+      <div class="countdown">
+        <div class="text">
+          <span class="label">T-</span>
+          <span class="time" id="cdTime">75:00:21</span>
+        </div>
+        <div class="bg">
+          <div class="label"></div>
+          <div class="time"></div>
+        </div>
+      </div>
+      <!-- END COUNTDOWN -->
+      <!-- START MAIN -->
+      <div class="main">
+        <ul id="lightSlider">
+          <!-- START HOME SECTION -->
+          <li>
+            <div class="home" id="home">
+              <div class="logo">
+                <img src="logo.png" alt="landingx" />
+              </div>
+              <p>We are launching soon...</p>
+              <audio id="music" preload="auto" loop="false">
+                <source id="mp3Source" src="audio/riders-on-the-storm.mp3" type="audio/mp3">
+                <source id="ogSource" src="audio/riders-on-the-storm.ogg" type="audio/ogg">
+              </audio>
+              <div class="player">
+                <button class="btnSub playing" id="btnPlay"><i class="fa fa-stop"></i> Music</button>
+              </div>
+            </div>
+          </li>
+          <!-- END HOME SECTION -->
+          <!-- START ABOUT SECTION -->
+          <li>
+            <div class="about" id="about">
+              <h3>About</h3>
+              <hr class="slash-1">
+              <p class="content">
+                Humanity's interest in the heavens has been universal and enduring. Humans are driven to explore the unknown,
+                discover new worlds, push the boundaries of our scientific and technical limits, and then push further. The intangible desire to explore
+                and challenge the boundaries of what we know and where we have been has provided benefits to our society for centuries.
+              </p>
+              <div class="quote">
+                "&#160;This template is just awesome! Everything has been carefully thought out. This is perfect solution for any type of your business.&#160;"
+                <p class="author">MIKE GREEN, ITEMBRIDGE</p>
+              </div>
+            </div>
+          </li>
+          <!-- END ABOUT SECTION -->
+          <!-- START SUBS SECTION -->
+          <li>
+            <div class="subscribe" id="subscribe">
+              <h3>Subscribe</h3>
+              <hr class="slash-1">
+              <p class="content">Register to get latest news, Please, write your email below to stay in touch with us.</p>
+              <input placeholder='youremail@address.com' type='text'>
+              <button class="btnSub" type="submit">Get Aboard</button>
+            </div>
+          </li>
+          <!-- END SUBS SECTION -->
+          <!-- START CONTACTS SECTION -->
+          <li>
+            <div class="contact" id="contact">
+              <h3>Contact</h3>
+              <hr class="slash-1">
+              <div class="social-links">
+                <a href="#" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="#" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="#" title="Google+" target="_blank"><i class="fa fa-google-plus"></i></a>
+                <a href="#" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="#" title="Dribbble" target="_blank"><i class="fa fa-dribbble"></i></a>
+              </div>
+              <form>
+                <input placeholder='My Name is' type='text' id="textName" required>
+                <input placeholder='My E-Mail is' type='text' required>
+                <input placeholder='My Subject is' type='text' required>
+                <textarea placeholder="I'd like to chat about" cols="30" rows="5" required></textarea>
+                <button class="btnSub" type="submit">Establish Communication</button>
+              </form>
+            </div>
+          </li>
+          <!-- START END SECTION -->
+        </ul>
+      </div>
+      <!-- END MAIN -->
+      <!-- START FOOTER -->
+      <div class="footer">
+        <div class="footer-title">
+          Launch: Landing X
+        </div>
+        <div class="timeline-wrapper">
+          <ol class="progress" data-steps="4" id="navProgress">
+            <li class="active">
+              <span class="name">Home</span>
+              <span class="step"><span></span></span>
+            </li>
+            <li>
+              <span class="name">About</span>
+              <span class="step"><span></span></span>
+            </li>
+            <li>
+              <span class="name">Subscribe</span>
+              <span class="step"><span></span></span>
+            </li>
+            <li>
+              <span class="name">Contact</span>
+              <span class="step"><span></span></span>
+            </li>
+          </ol>
+          <div class="logo">
+            <img src="logo.png" alt="landingx" />
+          </div>
+        </div>
+      </div>
+      <!-- END FOOTER -->
+    </div>
+    <!-- END CONTAINER -->
+    <canvas id="canvas"></canvas>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-2.1.3.min.js"></script>
+
+<script src="js/jquery.countdown.js"></script>
+<script src="js/random.min.js"></script>
+<script src="plugins/lightslider/lightslider.min.js"></script>
+<script src="plugins/waves/waves.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
