@@ -19,7 +19,7 @@ var themeConfigs = {
     launchTime: '2019/03/24',
     bodyRipple: true,
     enableMusic: true,
-    musicURL: 'https://www.dropbox.com/s/kwh2ups2xn84nrn/spacex.mp3?dl=1',
+    musicURL: 'https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/audio/riders-on-the-storm.mp3?dl=1',
     musicAutoPlay: true };
 
 

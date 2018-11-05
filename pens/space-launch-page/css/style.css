@@ -108,7 +108,7 @@ body {
 body {
   font-family: 'Jura', sans-serif;
   background-color: rgba(0, 0, 0, 0.85);
-  background: url(../images/space-launch.jpg) center center;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/images/space-launch.jpg) center center;
   background-size: cover;
   color: #fff;
   /* &:before{
