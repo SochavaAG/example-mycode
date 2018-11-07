@@ -13,34 +13,34 @@
 */
 @font-face {
   font-family: 'Expletus Sans';
-  src: url(../fonts/ExpletusSans/ExpletusSans.eot);
-  src: url(../fonts/ExpletusSans/ExpletusSans.eot?#iefix) format('embedded-opentype'),
-  url(../fonts/ExpletusSans/ExpletusSans.woff2) format('woff2'),
-  url(../fonts/ExpletusSans/ExpletusSans.woff) format('woff'),
-  url(../fonts/ExpletusSans/ExpletusSans.ttf) format('truetype'),
-  url(../fonts/ExpletusSans/ExpletusSans.svg#ExpletusSans) format('svg');
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/fonts/ExpletusSans/ExpletusSans.eot);
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/fonts/ExpletusSans/ExpletusSans.eot?#iefix) format('embedded-opentype'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/fonts/ExpletusSans/ExpletusSans.woff2) format('woff2'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/fonts/ExpletusSans/ExpletusSans.woff) format('woff'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/fonts/ExpletusSans/ExpletusSans.ttf) format('truetype'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/fonts/ExpletusSans/ExpletusSans.svg#ExpletusSans) format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: Jura;
-  src: url(../fonts/Jura-Regular/Jura-Regular.eot);
-  src: url(../fonts/Jura-Regular/Jura-Regular.eot?#iefix) format('embedded-opentype'),
-  url(../fonts/Jura-Regular/Jura-Regular.woff2) format('woff2'),
-  url(../fonts/Jura-Regular/Jura-Regular.woff) format('woff'),
-  url(../fonts/Jura-Regular/Jura-Regular.ttf) format('truetype'),
-  url(../fonts/Jura-Regular/Jura-Regular.svg#Jura-Regular) format('svg');
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/fonts/Jura-Regular/Jura-Regular.eot);
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/fonts/Jura-Regular/Jura-Regular.eot?#iefix) format('embedded-opentype'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/fonts/Jura-Regular/Jura-Regular.woff2) format('woff2'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/fonts/Jura-Regular/Jura-Regular.woff) format('woff'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/fonts/Jura-Regular/Jura-Regular.ttf) format('truetype'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/fonts/Jura-Regular/Jura-Regular.svg#Jura-Regular) format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Nixie One';
-  src: url(../fonts/NixieOne-Regular/NixieOne-Regular.eot);
-  src: url(../fonts/NixieOne-Regular/NixieOne-Regular.eot?#iefix) format('embedded-opentype'),
-  url(../fonts/NixieOne-Regular/NixieOne-Regular.woff2) format('woff2'),
-  url(../fonts/NixieOne-Regular/NixieOne-Regular.woff) format('woff'),
-  url(../fonts/NixieOne-Regular/NixieOne-Regular.ttf) format('truetype'),
-  url(../fonts/NixieOne-Regular/NixieOne-Regular.svg#NixieOne-Regular) format('svg');
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/fonts/NixieOne-Regular/NixieOne-Regular.eot);
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/fonts/NixieOne-Regular/NixieOne-Regular.eot?#iefix) format('embedded-opentype'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/fonts/NixieOne-Regular/NixieOne-Regular.woff2) format('woff2'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/fonts/NixieOne-Regular/NixieOne-Regular.woff) format('woff'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/fonts/NixieOne-Regular/NixieOne-Regular.ttf) format('truetype'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/space-launch-page/fonts/NixieOne-Regular/NixieOne-Regular.svg#NixieOne-Regular) format('svg');
   font-weight: normal;
   font-style: normal;
 }
