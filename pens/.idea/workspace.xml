@@ -18,77 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/currency-pair/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/currency-pair/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="42" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/currency-pair/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="377" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="406" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="format-2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/format-2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2252">
-              <caret line="3385" column="77" lean-forward="false" selection-start-line="3385" selection-start-column="73" selection-end-line="3385" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/format-t.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="2194" column="1" lean-forward="false" selection-start-line="2194" selection-start-column="1" selection-end-line="2194" selection-end-column="10" />
-              <folding>
-                <marker date="1541515412016" expanded="true" signature="34991:35024" ph="{...}" />
-                <marker date="1541515412016" expanded="true" signature="35118:35348" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="faq-KO.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project/2018.10.28_FX-12165_page_FAQ/faq-KO.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="806" column="0" lean-forward="false" selection-start-line="806" selection-start-column="0" selection-end-line="2861" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="faq-PT.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="faq-PT.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/vazhno_project/2018.10.28_FX-12165_page_FAQ/faq-PT.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="362">
-              <caret line="2471" column="12" lean-forward="true" selection-start-line="2471" selection-start-column="12" selection-end-line="2471" selection-end-column="12" />
+              <caret line="2471" column="12" lean-forward="false" selection-start-line="2471" selection-start-column="12" selection-end-line="2471" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#!!top" expanded="false" />
                 <element signature="n#nav#0;n#div#0;n#div#0;n#!!top" expanded="false" />
@@ -102,13 +36,61 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/example-site/test.easyplanet.fr/index.html">
+        <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="283" column="0" lean-forward="false" selection-start-line="283" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
-              <folding>
-                <element signature="e#13127#13133#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="573">
+              <caret line="745" column="23" lean-forward="false" selection-start-line="745" selection-start-column="16" selection-end-line="745" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/css/style.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example/примеры сайтов/loreal-paris.ua/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swiper/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="38" column="33" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swiper/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/swiper/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="1244" column="17" lean-forward="false" selection-start-line="1244" selection-start-column="17" selection-end-line="1244" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,58 +99,38 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.r.svg</find>
-      <find>.ag-values-controller_item</find>
-      <find>images/</find>
-      <find>refreshController</find>
-      <find>slickGoTo</find>
-      <find>ag-mob-language_selectbox</find>
-      <find>&lt;li class=&quot;ag-marker_item&quot;&gt;</find>
-      <find>.ag-step_title-list</find>
-      <find>.ag-step_list</find>
-      <find>fire</find>
-      <find>mc-embedded-subscribe</find>
-      <find>ag-step_list</find>
-      <find>”</find>
-      <find>3.5</find>
-      <find>to</find>
-      <find>.from</find>
-      <find>curency-give</find>
-      <find>#curency-1</find>
-      <find>curency-take</find>
-      <find>ag-ant-line</find>
-      <find>js-ag-ant-down</find>
-      <find>transparent-from-to-currency</find>
-      <find>side-content</find>
-      <find>js-ag-ant-line</find>
-      <find>ag-currency_title-item</find>
-      <find>group-title</find>
-      <find>agAntLineDir</find>
-      <find>from</find>
-      <find>#</find>
-      <find>&quot;ag-currency_title-item&quot;</find>
+      <find>backToTop</find>
+      <find>main</find>
+      <find>../img/</find>
+      <find>Raleway-Bold</find>
+      <find>'helveticaneuecyr'</find>
+      <find>albaregular</find>
+      <find>&quot;albaregular&quot;</find>
+      <find>style=&quot;width: 272.857px;&quot;</find>
+      <find>$('.swiper-container')</find>
+      <find>$(&quot;.swiper-container&quot;)</find>
+      <find>img/</find>
+      <find>intro__food-slides</find>
+      <find>footer</find>
+      <find>popup</find>
+      <find>photoshoot</find>
+      <find>fancybox</find>
+      <find>slick</find>
+      <find>header</find>
+      <find>news</find>
+      <find>rating</find>
+      <find>benefits</find>
+      <find>partners</find>
+      <find>about</find>
+      <find>intro__social</find>
+      <find>intro__main</find>
+      <find>menu</find>
+      <find>intro__food</find>
+      <find>intro__info</find>
+      <find>intro__text</find>
+      <find>intro__btn</find>
     </findStrings>
     <replaceStrings>
-      <replace>js-values-controller_item-active</replace>
-      <replace>.js-ag-active</replace>
-      <replace>.svg&quot; class=&quot;ag-values-controller_img&quot; alt=&quot;&quot;&gt;</replace>
-      <replace>&lt;img src=&quot;images/controller-</replace>
-      <replace>js-ag-active</replace>
-      <replace>agValuesSlider</replace>
-      <replace>ag-values-controller_img-box</replace>
-      <replace>js-ag-values-controller_list-</replace>
-      <replace>.svg</replace>
-      <replace>https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/slider-rotate/images/</replace>
-      <replace>agValuesControllerItem</replace>
-      <replace>&quot;</replace>
-      <replace>js-ag-from</replace>
-      <replace>.js-ag-to</replace>
-      <replace>js-ag-to</replace>
-      <replace>.js-ag-from</replace>
-      <replace>js-currency_list__give</replace>
-      <replace>ag-currency_list__give</replace>
-      <replace>js-currency_list__take</replace>
-      <replace>.js-currency_list__take</replace>
       <replace>.js-currency_list__give</replace>
       <replace>ag-currency_list__take</replace>
       <replace>0192ff</replace>
@@ -179,6 +141,26 @@
       <replace>js-currency_title-item</replace>
       <replace>agAntLinePos</replace>
       <replace>&quot;js-currency_title-item ag-currency_title-item&quot;</replace>
+      <replace />
+      <replace>&lt;br/&gt;</replace>
+      <replace>Raleway-Light</replace>
+      <replace>Raleway-Medium</replace>
+      <replace>Raleway-Bold</replace>
+      <replace>Raleway-ExtraBold</replace>
+      <replace>ProximaNova-Regular</replace>
+      <replace>ProximaNova-Bold</replace>
+      <replace>ProximaNova</replace>
+      <replace>../images/</replace>
+      <replace>Alba</replace>
+      <replace>HelveticaNeueCyr-Bold</replace>
+      <replace>HelveticaNeueCyr-Roman</replace>
+      <replace>HelveticaNeueCyr-Light</replace>
+      <replace>HelveticaNeueCyr-Medium</replace>
+      <replace>HelveticaNeueCyr-Thin</replace>
+      <replace>helveticaneuecyr</replace>
+      <replace>albaregular</replace>
+      <replace>agSwiper</replace>
+      <replace>images/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -189,20 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/css/pop-up_analytics-simple-snippet-ES.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/css/pop-up_analytics-simple-snippet-FR.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/css/pop-up_analytics-simple-snippet-ID.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/css/pop-up_analytics-simple-snippet-KO.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/css/pop-up_analytics-simple-snippet-MS.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/css/pop-up_analytics-simple-snippet-PK.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/css/pop-up_analytics-simple-snippet-PT.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/css/pop-up_analytics-simple-snippet-RU.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/css/pop-up_analytics-simple-snippet-TH.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/css/pop-up_analytics-simple-snippet-VI.html" />
-        <option value="$PROJECT_DIR$/smoke-gun-animation/js/main.js" />
-        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.03.30_landing_forex-sprint/forex-sprint-EN.html" />
-        <option value="$PROJECT_DIR$/smoke-gun-animation/css/style.css" />
-        <option value="$PROJECT_DIR$/smoke-gun-animation/index.html" />
         <option value="$PROJECT_DIR$/item-animation-wave/index.html" />
         <option value="$PROJECT_DIR$/item-animation-wave/css/style.css" />
         <option value="$USER_HOME$/example/примеры сайтов/boosta.biz/index.html" />
@@ -238,8 +206,22 @@
         <option value="$PROJECT_DIR$/currency-pair/css/style.css" />
         <option value="$PROJECT_DIR$/currency-pair/index.html" />
         <option value="$USER_HOME$/format-2.js" />
-        <option value="$USER_HOME$/example-site/test.easyplanet.fr/index.html" />
         <option value="$USER_HOME$/vazhno_project/2018.10.28_FX-12165_page_FAQ/faq-PT.html" />
+        <option value="$USER_HOME$/example-site/test.easyplanet.fr/css/main.css" />
+        <option value="$USER_HOME$/example-site/test.easyplanet.fr/index.html" />
+        <option value="$USER_HOME$/example-site/www.pepperico.fr/index.html" />
+        <option value="$USER_HOME$/example-site/www.pepperico.fr/css/main.css" />
+        <option value="$USER_HOME$/example-site/htmldev.pro_kras/index.html" />
+        <option value="$USER_HOME$/example-site/htmldev.pro_kras/css/style.min.css" />
+        <option value="$USER_HOME$/example-site/htmldev.pro_palisade-global/index.html" />
+        <option value="$USER_HOME$/example-site/htmldev.pro_palisade-global/css/style.css" />
+        <option value="$USER_HOME$/example-site/sobolev.htmldev.pro/index.html" />
+        <option value="$USER_HOME$/example-site/sobolev.htmldev.pro/css/style.min.css" />
+        <option value="$PROJECT_DIR$/mockup/index.html" />
+        <option value="$PROJECT_DIR$/mockup/css/style.css" />
+        <option value="$PROJECT_DIR$/swiper/js/main.js" />
+        <option value="$PROJECT_DIR$/swiper/index.html" />
+        <option value="$PROJECT_DIR$/swiper/css/style.css" />
       </list>
     </option>
   </component>
@@ -274,7 +256,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/format-t.css" />
+    <property name="last_opened_file_path" value="$USER_HOME$/example/примеры сайтов/loreal-paris.ua/css/style.css" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RunManager">
@@ -393,12 +375,12 @@
       <workItem from="1540360917599" duration="26456000" />
       <workItem from="1540447306092" duration="20953000" />
       <workItem from="1540802478437" duration="20352000" />
-      <workItem from="1541573953634" duration="9350000" />
+      <workItem from="1541573953634" duration="19670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="300506000" />
+    <option name="totallyTimeSpent" value="310826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -408,6 +390,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -419,7 +402,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -435,106 +417,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/smoke-gun-animation/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="154" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="154" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2016.05.11_landing_hot-deposit-bonus/hot-deposit-bonus-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.19_landing_double-bonus-africa/double-bonus-africa-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15264">
-          <caret line="636" column="0" lean-forward="false" selection-start-line="636" selection-start-column="0" selection-end-line="636" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-animation-wave/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-animation-wave/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example/примеры сайтов/loreal-paris.ua/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11232">
-          <caret line="468" column="119" lean-forward="false" selection-start-line="468" selection-start-column="107" selection-end-line="468" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/FlipClock-master/src/flipclock/js/libs/timer.js" />
-    <entry file="file://$USER_HOME$/example/примеры сайтов/bmwu.e-art.com.ru/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_plagins_wp_2018.08.13/2018.07.26_wp-plugin_ag-slick-slider/slick/slick.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="17" column="11465" lean-forward="true" selection-start-line="17" selection-start-column="11465" selection-end-line="17" selection-end-column="11465" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/slick-master/slick/slick.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example/примеры сайтов/boosta.biz/js/libs.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72024">
-          <caret line="3001" column="3" lean-forward="false" selection-start-line="3001" selection-start-column="3" selection-end-line="3001" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slider-rotate/index-1.html" />
-    <entry file="file://$PROJECT_DIR$/buttons/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="106" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example/примеры сайтов/kuliksystem.ua/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30000">
-          <caret line="1250" column="40" lean-forward="false" selection-start-line="1250" selection-start-column="34" selection-end-line="1250" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example/примеры сайтов/boosta.biz/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8640">
-          <caret line="360" column="44" lean-forward="false" selection-start-line="360" selection-start-column="44" selection-end-line="360" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/slick-master/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1176">
@@ -678,17 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="2194" column="1" lean-forward="false" selection-start-line="2194" selection-start-column="1" selection-end-line="2194" selection-end-column="10" />
-          <folding>
-            <marker date="1541515412016" expanded="true" signature="34991:35024" ph="{...}" />
-            <marker date="1541515412016" expanded="true" signature="35118:35348" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/currency-pair/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -708,12 +579,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/example-site/test.easyplanet.fr/index.html">
+    <entry file="file://$USER_HOME$/format-t.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="283" column="0" lean-forward="false" selection-start-line="283" selection-start-column="0" selection-end-line="284" selection-end-column="0" />
+        <state relative-caret-position="567">
+          <caret line="2194" column="1" lean-forward="false" selection-start-line="2194" selection-start-column="1" selection-end-line="2194" selection-end-column="10" />
           <folding>
-            <element signature="e#13127#13133#0" expanded="true" />
+            <marker date="1541515412016" expanded="true" signature="34991:35024" ph="{...}" />
+            <marker date="1541515412016" expanded="true" signature="35118:35348" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -721,7 +593,7 @@
     <entry file="file://$USER_HOME$/vazhno_project/2018.10.28_FX-12165_page_FAQ/faq-PT.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
-          <caret line="2471" column="12" lean-forward="true" selection-start-line="2471" selection-start-column="12" selection-end-line="2471" selection-end-column="12" />
+          <caret line="2471" column="12" lean-forward="false" selection-start-line="2471" selection-start-column="12" selection-end-line="2471" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#!!top" expanded="false" />
             <element signature="n#nav#0;n#div#0;n#div#0;n#!!top" expanded="false" />
@@ -730,6 +602,144 @@
             <element signature="n#ul#2;n#div#0;n#!!top" expanded="false" />
             <element signature="n#ul#3;n#div#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site/test.easyplanet.fr/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="1529" column="17" lean-forward="true" selection-start-line="1529" selection-start-column="1" selection-end-line="1529" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site/test.easyplanet.fr/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="166" column="10" lean-forward="true" selection-start-line="166" selection-start-column="10" selection-end-line="166" selection-end-column="10" />
+          <folding>
+            <element signature="e#13247#13253#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site/www.pepperico.fr/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site/www.pepperico.fr/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="485" column="27" lean-forward="true" selection-start-line="485" selection-start-column="27" selection-end-line="485" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site/htmldev.pro_kras/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1187">
+          <caret line="705" column="37" lean-forward="true" selection-start-line="705" selection-start-column="37" selection-end-line="705" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site/htmldev.pro_kras/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="69" column="73" lean-forward="true" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site/htmldev.pro_palisade-global/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="556" column="21" lean-forward="true" selection-start-line="556" selection-start-column="21" selection-end-line="556" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site/htmldev.pro_palisade-global/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="831" column="2" lean-forward="true" selection-start-line="831" selection-start-column="2" selection-end-line="831" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site/htmldev.pro_palisade-global/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1641">
+          <caret line="4055" column="34" lean-forward="true" selection-start-line="4055" selection-start-column="34" selection-end-line="4055" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="745" column="23" lean-forward="false" selection-start-line="745" selection-start-column="16" selection-end-line="745" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example/примеры сайтов/loreal-paris.ua/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockup/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="3856" column="26" lean-forward="false" selection-start-line="3856" selection-start-column="26" selection-end-line="3856" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockup/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="38" column="33" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="1244" column="17" lean-forward="false" selection-start-line="1244" selection-start-column="17" selection-end-line="1244" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
