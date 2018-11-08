@@ -136,7 +136,7 @@
         <entry file="file://$USER_HOME$/example-site/planetakino.ua_showtimes/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="616">
-              <caret line="229" column="1" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="229" selection-end-column="1" />
+              <caret line="145" column="1" lean-forward="false" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -162,12 +162,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image-fixed-top-screen/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4087">
-              <caret line="496" column="162" lean-forward="false" selection-start-line="496" selection-start-column="162" selection-end-line="496" selection-end-column="162" />
-              <folding />
+            <state relative-caret-position="216">
+              <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,18 +177,18 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image-fixed-top-screen/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="39" column="11" lean-forward="false" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+            <state relative-caret-position="383">
+              <caret line="26" column="47" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/image-fixed-top-screen/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="502">
-              <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+              <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -196,7 +198,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ag-slide-info_rate span</find>
       <find>ag-slide-info_rate--none</find>
       <find>ag-slide-info_rate--none</find>
       <find>.ag</find>
@@ -223,12 +224,12 @@
       <find>https://raw.githubusercontent.com/</find>
       <find>showtime-movie-container</find>
       <find>$(this).find('.js-showtimes_img-box')</find>
-      <find>ag-showtime-movie</find>
       <find>20</find>
       <find>$('.buy-ticket-banner:visible')</find>
+      <find>images/poster.jpg</find>
+      <find>ag-showtime-movie</find>
     </findStrings>
     <replaceStrings>
-      <replace>agSwiper</replace>
       <replace>images/</replace>
       <replace>&lt;div class=&quot;swiper-slide intro__food-slides&quot;</replace>
       <replace>:</replace>
@@ -256,8 +257,9 @@
       <replace>https://rawcdn.githack.com/</replace>
       <replace>ag-showtimes-info_text</replace>
       <replace>agShowtimeBox</replace>
-      <replace>js-ag-showtimes_img-box__sticked</replace>
       <replace>agShowtimeBoxVisible</replace>
+      <replace>https://rawcdn.githack.com/SochavaAG/example-mycode/d14e07ef70f02d1afb2d3885ce123043f454c06c/pens/image-fixed-top-screen/images/poster.jpg</replace>
+      <replace>js-ag-showtimes_img-box__sticked</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -315,10 +317,10 @@
         <option value="$USER_HOME$/format-2.js" />
         <option value="$USER_HOME$/example-site/planetakino.ua_showtimes/index.html" />
         <option value="$USER_HOME$/example-site/planetakino.ua_showtimes/js/main.js" />
-        <option value="$USER_HOME$/example-site/planetakino.ua_showtimes/css/style.css" />
-        <option value="$PROJECT_DIR$/image-fixed-top-screen/css/style.css" />
         <option value="$PROJECT_DIR$/image-fixed-top-screen/js/main.js" />
         <option value="$PROJECT_DIR$/image-fixed-top-screen/index.html" />
+        <option value="$USER_HOME$/example-site/planetakino.ua_showtimes/css/style.css" />
+        <option value="$PROJECT_DIR$/image-fixed-top-screen/css/style.css" />
       </list>
     </option>
   </component>
@@ -473,12 +475,12 @@
       <workItem from="1540447306092" duration="20953000" />
       <workItem from="1540802478437" duration="20352000" />
       <workItem from="1541573953634" duration="19670000" />
-      <workItem from="1541660872499" duration="10609000" />
+      <workItem from="1541660872499" duration="11123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321435000" />
+    <option name="totallyTimeSpent" value="321949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -797,22 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/example-site/planetakino.ua_showtimes/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="229" column="1" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="229" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image-fixed-top-screen/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/example-site/planetakino.ua_showtimes/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -823,16 +809,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/image-fixed-top-screen/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="39" column="11" lean-forward="false" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        <state relative-caret-position="383">
+          <caret line="26" column="47" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image-fixed-top-screen/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4087">
-          <caret line="496" column="162" lean-forward="false" selection-start-line="496" selection-start-column="162" selection-end-line="496" selection-end-column="162" />
+        <state relative-caret-position="216">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site/planetakino.ua_showtimes/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="145" column="1" lean-forward="false" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-fixed-top-screen/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
           <folding />
         </state>
       </provider>
