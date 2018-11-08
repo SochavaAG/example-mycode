@@ -35,16 +35,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="644">
-              <caret line="745" column="23" lean-forward="false" selection-start-line="745" selection-start-column="16" selection-end-line="745" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/css/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,8 +48,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swiper/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="208" selection-end-column="10" />
+            <state relative-caret-position="371">
+              <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -67,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swiper/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="538">
-              <caret line="48" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="11" />
+              <caret line="48" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -80,8 +70,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swiper/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="246" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="254" selection-end-column="1" />
+            <state relative-caret-position="238">
+              <caret line="235" column="0" lean-forward="false" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -103,7 +93,7 @@
         <entry file="file://$USER_HOME$/example/plugins/swiper-4.1.0/demos/240-effect-coverflow.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+              <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -115,7 +105,99 @@
         <entry file="file://$USER_HOME$/format-t.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="85" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="257" selection-end-column="1" />
+              <caret line="85" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="257" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example-site/planetakino.ua_showtimes/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="503" selection-end-column="6" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example-site/planetakino.ua_showtimes/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="229" column="1" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="229" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example-site/planetakino.ua_showtimes/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="format-2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/format-2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="6291" column="9" lean-forward="false" selection-start-line="6291" selection-start-column="9" selection-end-line="6293" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/image-fixed-top-screen/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image-fixed-top-screen/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="695">
+              <caret line="39" column="11" lean-forward="false" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image-fixed-top-screen/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -125,22 +207,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ag-slide_item img</find>
-      <find>.jpg&quot; alt=&quot;&quot;&gt;</find>
-      <find>swiper-wrapper</find>
-      <find>intro__food-info</find>
-      <find>intro__food-category</find>
-      <find>intro__food-title</find>
-      <find>intro__food-route</find>
-      <find>ag-slide-info_route img</find>
-      <find>intro</find>
-      <find>.svg&quot; alt=&quot;#&quot; width=&quot;10&quot; height=&quot;10&quot;&gt;</find>
-      <find>.ag-slide-block</find>
-      <find>intro__food-rate</find>
-      <find>&lt;b&gt;</find>
-      <find>ag-slide-info_rate b</find>
-      <find>intro__food-comments</find>
-      <find>ag-slide-info_rate</find>
       <find>ag-slide-info_rate span</find>
       <find>ag-slide-info_rate--none</find>
       <find>ag-slide-info_rate--none</find>
@@ -151,21 +217,28 @@
       <find>box-sizing: border-box;</find>
       <find>transition: transform 0.5s;</find>
       <find>transition: ease 0.5s;</find>
-      <find>transform: translateY(25%);</find>
       <find>img&quot;alt=&quot;&quot;</find>
-      <find>https://raw.githubusercontent.com/</find>
+      <find>transform: translateY(25%);</find>
+      <find>__center</find>
+      <find>/movies/mcqueen/</find>
       <find>ag-slide-info_img</find>
+      <find>lng-register__wrap</find>
+      <find>ag-showtimes-info_descr</find>
+      <find>site</find>
+      <find>showtimes.showtimes-body</find>
+      <find>checkTablet</find>
+      <find>&quot;</find>
+      <find>movie-title</find>
+      <find>end</find>
+      <find>children</find>
+      <find>https://raw.githubusercontent.com/</find>
+      <find>showtime-movie-container</find>
+      <find>$(this).find('.js-showtimes_img-box')</find>
+      <find>ag-showtime-movie</find>
+      <find>20</find>
+      <find>$('.buy-ticket-banner:visible')</find>
     </findStrings>
     <replaceStrings>
-      <replace>../images/</replace>
-      <replace>Alba</replace>
-      <replace>HelveticaNeueCyr-Bold</replace>
-      <replace>HelveticaNeueCyr-Roman</replace>
-      <replace>HelveticaNeueCyr-Light</replace>
-      <replace>HelveticaNeueCyr-Medium</replace>
-      <replace>HelveticaNeueCyr-Thin</replace>
-      <replace>helveticaneuecyr</replace>
-      <replace>albaregular</replace>
       <replace>agSwiper</replace>
       <replace>images/</replace>
       <replace>&lt;div class=&quot;swiper-slide intro__food-slides&quot;</replace>
@@ -183,10 +256,19 @@
       <replace>ag-slide-info_rate</replace>
       <replace>&lt;b class=&quot;ag-slide-info_strong&quot;&gt;</replace>
       <replace>ag-slide-info_strong</replace>
-      <replace>&lt;div class=&quot;ag-slide-info_descr&quot;&gt;</replace>
       <replace>img&quot; alt=&quot;&quot;</replace>
-      <replace>https://rawcdn.githack.com/</replace>
+      <replace>&lt;div class=&quot;ag-slide-info_descr&quot;&gt;</replace>
       <replace>ag-slide-info_comments</replace>
+      <replace>#</replace>
+      <replace>'</replace>
+      <replace>js-showtime-movie</replace>
+      <replace>js-showtimes_img-box</replace>
+      <replace>js-showtimes_img-box__end</replace>
+      <replace>https://rawcdn.githack.com/</replace>
+      <replace>ag-showtimes-info_text</replace>
+      <replace>agShowtimeBox</replace>
+      <replace>js-ag-showtimes_img-box__sticked</replace>
+      <replace>agShowtimeBoxVisible</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -197,12 +279,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/item-animation-wave/css/style.css" />
-        <option value="$USER_HOME$/example/примеры сайтов/boosta.biz/index.html" />
-        <option value="$USER_HOME$/example/примеры сайтов/boosta.biz/css/style.css" />
-        <option value="$USER_HOME$/format.html" />
-        <option value="$USER_HOME$/example/примеры сайтов/kuliksystem.ua/index.html" />
-        <option value="$PROJECT_DIR$/buttons/index.html" />
         <option value="$PROJECT_DIR$/buttons/css/style.css" />
         <option value="$USER_HOME$/example/примеры сайтов/bmwu.e-art.com.ru/index.html" />
         <option value="$USER_HOME$/example/примеры сайтов/boosta.biz/js/libs.min.js" />
@@ -230,7 +306,6 @@
         <option value="$PROJECT_DIR$/currency-pair/js/main.js" />
         <option value="$PROJECT_DIR$/currency-pair/css/style.css" />
         <option value="$PROJECT_DIR$/currency-pair/index.html" />
-        <option value="$USER_HOME$/format-2.js" />
         <option value="$USER_HOME$/vazhno_project/2018.10.28_FX-12165_page_FAQ/faq-PT.html" />
         <option value="$USER_HOME$/example-site/test.easyplanet.fr/css/main.css" />
         <option value="$USER_HOME$/example-site/test.easyplanet.fr/index.html" />
@@ -248,6 +323,13 @@
         <option value="$PROJECT_DIR$/swiper/css/style.css" />
         <option value="$PROJECT_DIR$/swiper/index.html" />
         <option value="$PROJECT_DIR$/swiper/js/main.js" />
+        <option value="$USER_HOME$/format-2.js" />
+        <option value="$USER_HOME$/example-site/planetakino.ua_showtimes/index.html" />
+        <option value="$PROJECT_DIR$/image-fixed-top-screen/index.html" />
+        <option value="$USER_HOME$/example-site/planetakino.ua_showtimes/js/main.js" />
+        <option value="$USER_HOME$/example-site/planetakino.ua_showtimes/css/style.css" />
+        <option value="$PROJECT_DIR$/image-fixed-top-screen/css/style.css" />
+        <option value="$PROJECT_DIR$/image-fixed-top-screen/js/main.js" />
       </list>
     </option>
   </component>
@@ -282,7 +364,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/format-t.css" />
+    <property name="last_opened_file_path" value="$USER_HOME$/format-2.js" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RunManager">
@@ -402,12 +484,12 @@
       <workItem from="1540447306092" duration="20953000" />
       <workItem from="1540802478437" duration="20352000" />
       <workItem from="1541573953634" duration="19670000" />
-      <workItem from="1541660872499" duration="5439000" />
+      <workItem from="1541660872499" duration="10493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316265000" />
+    <option name="totallyTimeSpent" value="321319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -444,43 +526,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/example/примеры сайтов/boosta.biz/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/slider-rotate/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="187" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="781" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slider-rotate/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slider-rotate/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slider-rotate/plugins/slick/slick.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu-and-lamp-light/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="196" column="57" lean-forward="true" selection-start-line="196" selection-start-column="31" selection-end-line="196" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2018.10.28_page_FAQ/faq-CN.html" />
     <entry file="file://$USER_HOME$/vazhno_project/2018.10.28_page_FAQ/faq-ES.html" />
     <entry file="file://$USER_HOME$/vazhno_project/2018.10.28_page_FAQ/faq-FR.html" />
     <entry file="file://$USER_HOME$/vazhno_project/2018.10.28_page_FAQ/faq-ID.html" />
@@ -531,13 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2252">
-          <caret line="3385" column="77" lean-forward="false" selection-start-line="3385" selection-start-column="73" selection-end-line="3385" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -676,7 +714,7 @@
     <entry file="file://$USER_HOME$/example/plugins/swiper-4.1.0/demos/240-effect-coverflow.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <caret line="37" column="32" lean-forward="false" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
           </folding>
@@ -701,37 +739,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/swiper/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="48" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/format-t.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="85" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="257" selection-end-column="1" />
+          <caret line="85" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="257" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="235" column="0" lean-forward="false" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.08.13_landing_double-benifit-bonus/double-benifit-bonus-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="628" column="8" lean-forward="false" selection-start-line="628" selection-start-column="8" selection-end-line="628" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="6291" column="9" lean-forward="false" selection-start-line="6291" selection-start-column="9" selection-end-line="6293" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/swiper/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="208" selection-end-column="10" />
+        <state relative-caret-position="371">
+          <caret line="209" column="0" lean-forward="false" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swiper/css/style.css">
+    <entry file="file://$USER_HOME$/example-site/planetakino.ua_showtimes/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="246" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="254" selection-end-column="1" />
+        <state relative-caret-position="504">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="503" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site/planetakino.ua_showtimes/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="229" column="1" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="229" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swiper/js/main.js">
+    <entry file="file://$PROJECT_DIR$/image-fixed-top-screen/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="48" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="11" />
+        <state relative-caret-position="502">
+          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site/planetakino.ua_showtimes/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-fixed-top-screen/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="39" column="11" lean-forward="false" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image-fixed-top-screen/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
