@@ -13,6 +13,7 @@ $(function () {
     if (ww <= 800) sliderView = 3;
     if (ww <= 560) sliderView = 2;
     if (ww <= 400) sliderView = 1;
+
     var swiper = new Swiper('.swiper-container', {
       slidesPerView: sliderView,
       spaceBetween: 0,
@@ -25,7 +26,7 @@ $(function () {
     });
 
     $(window).resize(function () {
-      var ww = $(window).width()
+      var ww = $(window).width();
       if (ww >= 1700) swiper.params.slidesPerView = 7;
       if (ww <= 1700) swiper.params.slidesPerView = 7;
       if (ww <= 1560) swiper.params.slidesPerView = 6;
@@ -34,12 +35,11 @@ $(function () {
       if (ww <= 800) swiper.params.slidesPerView = 3;
       if (ww <= 560) swiper.params.slidesPerView = 2;
       if (ww <= 400) swiper.params.slidesPerView = 1;
-
     });
 
     $(window).trigger('resize');
 
-    var mySwiper = document.querySelector('.swiper-container').swiper
+    var mySwiper = document.querySelector('.swiper-container').swiper;
 
     agSwiper.mouseenter(function () {
       mySwiper.autoplay.stop();

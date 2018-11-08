@@ -21,7 +21,7 @@
       <file leaf-file-name="faq-PT.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/vazhno_project/2018.10.28_FX-12165_page_FAQ/faq-PT.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
+            <state relative-caret-position="12840">
               <caret line="2471" column="12" lean-forward="false" selection-start-line="2471" selection-start-column="12" selection-end-line="2471" selection-end-column="12" />
               <folding>
                 <element signature="n#style#0;n#!!top" expanded="false" />
@@ -38,7 +38,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
+            <state relative-caret-position="644">
               <caret line="745" column="23" lean-forward="false" selection-start-line="745" selection-start-column="16" selection-end-line="745" selection-end-column="23" />
               <folding />
             </state>
@@ -48,28 +48,18 @@
       <file leaf-file-name="style.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/css/style.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="24">
               <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/example/примеры сайтов/loreal-paris.ua/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/swiper/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="38" column="33" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="33" />
+            <state relative-caret-position="747">
+              <caret line="49" column="43" lean-forward="true" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -78,18 +68,52 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swiper/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="10">
+              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swiper/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="1244" column="17" lean-forward="false" selection-start-line="1244" selection-start-column="17" selection-end-line="1244" selection-end-column="17" />
+            <state relative-caret-position="646">
+              <caret line="252" column="21" lean-forward="true" selection-start-line="252" selection-start-column="21" selection-end-line="252" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="020-navigation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example/plugins/swiper-4.1.0/demos/020-navigation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="240-effect-coverflow.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example/plugins/swiper-4.1.0/demos/240-effect-coverflow.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/format-t.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="85" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="257" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -99,56 +123,38 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>backToTop</find>
-      <find>main</find>
-      <find>../img/</find>
-      <find>Raleway-Bold</find>
-      <find>'helveticaneuecyr'</find>
-      <find>albaregular</find>
-      <find>&quot;albaregular&quot;</find>
-      <find>style=&quot;width: 272.857px;&quot;</find>
-      <find>$('.swiper-container')</find>
-      <find>$(&quot;.swiper-container&quot;)</find>
-      <find>img/</find>
       <find>intro__food-slides</find>
-      <find>footer</find>
-      <find>popup</find>
-      <find>photoshoot</find>
-      <find>fancybox</find>
-      <find>slick</find>
-      <find>header</find>
-      <find>news</find>
-      <find>rating</find>
-      <find>benefits</find>
-      <find>partners</find>
-      <find>about</find>
-      <find>intro__social</find>
-      <find>intro__main</find>
-      <find>menu</find>
-      <find>intro__food</find>
-      <find>intro__info</find>
-      <find>intro__text</find>
-      <find>intro__btn</find>
+      <find>ag-slide_item img</find>
+      <find>.jpg&quot; alt=&quot;&quot;&gt;</find>
+      <find>swiper-wrapper</find>
+      <find>intro__food-info</find>
+      <find>intro__food-category</find>
+      <find>intro__food-title</find>
+      <find>intro__food-route</find>
+      <find>ag-slide-info_route img</find>
+      <find>intro</find>
+      <find>.svg&quot; alt=&quot;#&quot; width=&quot;10&quot; height=&quot;10&quot;&gt;</find>
+      <find>.ag-slide-block</find>
+      <find>intro__food-rate</find>
+      <find>&lt;b&gt;</find>
+      <find>ag-slide-info_rate b</find>
+      <find>intro__food-comments</find>
+      <find>ag-slide-info_rate</find>
+      <find>ag-slide-info_rate span</find>
+      <find>ag-slide-info_rate--none</find>
+      <find>ag-slide-info_rate--none</find>
+      <find>.ag</find>
+      <find>ag-slide-info_</find>
+      <find>float</find>
+      <find>&lt;div class=&quot;ag-slide-info_descr clearfix&quot;&gt;</find>
+      <find>box-sizing: border-box;</find>
+      <find>transition: transform 0.5s;</find>
+      <find>transition: ease 0.5s;</find>
+      <find>transform: translateY(25%);</find>
+      <find>img&quot;alt=&quot;&quot;</find>
+      <find>ag-slide-info_img</find>
     </findStrings>
     <replaceStrings>
-      <replace>.js-currency_list__give</replace>
-      <replace>ag-currency_list__take</replace>
-      <replace>0192ff</replace>
-      <replace>ag-currency_from-to</replace>
-      <replace>&lt;span class=&quot;ag-currency_code&quot;&gt;</replace>
-      <replace>ag-currency_title-item</replace>
-      <replace>ag-ant-line</replace>
-      <replace>js-currency_title-item</replace>
-      <replace>agAntLinePos</replace>
-      <replace>&quot;js-currency_title-item ag-currency_title-item&quot;</replace>
-      <replace />
-      <replace>&lt;br/&gt;</replace>
-      <replace>Raleway-Light</replace>
-      <replace>Raleway-Medium</replace>
-      <replace>Raleway-Bold</replace>
-      <replace>Raleway-ExtraBold</replace>
-      <replace>ProximaNova-Regular</replace>
-      <replace>ProximaNova-Bold</replace>
       <replace>ProximaNova</replace>
       <replace>../images/</replace>
       <replace>Alba</replace>
@@ -161,6 +167,24 @@
       <replace>albaregular</replace>
       <replace>agSwiper</replace>
       <replace>images/</replace>
+      <replace>&lt;div class=&quot;swiper-slide intro__food-slides&quot;</replace>
+      <replace>:</replace>
+      <replace>ag-slide_item</replace>
+      <replace>.jpg&quot; class=&quot;ag-slide_img&quot; alt=&quot;&quot;&gt;</replace>
+      <replace>ag-slide_img</replace>
+      <replace>ag-slide_info</replace>
+      <replace>ag-slide-info_category</replace>
+      <replace>ag-slide-info_title</replace>
+      <replace>ag-slide-info_route</replace>
+      <replace>ag-slide-info_img</replace>
+      <replace>.svg&quot; class=&quot;ag-slide-info_img&quot; alt=&quot;#&quot; width=&quot;10&quot; height=&quot;10&quot;&gt;</replace>
+      <replace>ag-slide-block</replace>
+      <replace>ag-slide-info_rate</replace>
+      <replace>&lt;b class=&quot;ag-slide-info_strong&quot;&gt;</replace>
+      <replace>ag-slide-info_strong</replace>
+      <replace>&lt;div class=&quot;ag-slide-info_descr&quot;&gt;</replace>
+      <replace>img&quot; alt=&quot;&quot;</replace>
+      <replace>ag-slide-info_comments</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -171,7 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/item-animation-wave/index.html" />
         <option value="$PROJECT_DIR$/item-animation-wave/css/style.css" />
         <option value="$USER_HOME$/example/примеры сайтов/boosta.biz/index.html" />
         <option value="$USER_HOME$/example/примеры сайтов/boosta.biz/css/style.css" />
@@ -220,8 +243,9 @@
         <option value="$PROJECT_DIR$/mockup/index.html" />
         <option value="$PROJECT_DIR$/mockup/css/style.css" />
         <option value="$PROJECT_DIR$/swiper/js/main.js" />
-        <option value="$PROJECT_DIR$/swiper/index.html" />
+        <option value="$USER_HOME$/format-t.css" />
         <option value="$PROJECT_DIR$/swiper/css/style.css" />
+        <option value="$PROJECT_DIR$/swiper/index.html" />
       </list>
     </option>
   </component>
@@ -256,7 +280,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/example/примеры сайтов/loreal-paris.ua/css/style.css" />
+    <property name="last_opened_file_path" value="$USER_HOME$/format-t.css" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RunManager">
@@ -376,11 +400,12 @@
       <workItem from="1540447306092" duration="20953000" />
       <workItem from="1540802478437" duration="20352000" />
       <workItem from="1541573953634" duration="19670000" />
+      <workItem from="1541660872499" duration="5262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="310826000" />
+    <option name="totallyTimeSpent" value="316088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -390,7 +415,6 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -402,6 +426,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -417,34 +442,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/slick-master/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="90" column="52" lean-forward="true" selection-start-line="90" selection-start-column="52" selection-end-line="90" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example/примеры сайтов/boosta.biz/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26208">
-          <caret line="1092" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="1092" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example/примеры сайтов/boosta.biz/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49176">
-          <caret line="2623" column="17" lean-forward="false" selection-start-line="2623" selection-start-column="17" selection-end-line="2623" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/example/примеры сайтов/boosta.biz/css/style.css" />
     <entry file="file://$PROJECT_DIR$/slider-rotate/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
@@ -524,7 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-432">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -532,7 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -540,7 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2252">
           <caret line="3385" column="77" lean-forward="false" selection-start-line="3385" selection-start-column="73" selection-end-line="3385" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -548,7 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="586">
           <caret line="377" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="406" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -556,7 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="42" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -564,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,27 +564,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
           <caret line="806" column="0" lean-forward="false" selection-start-line="806" selection-start-column="0" selection-end-line="2861" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="2194" column="1" lean-forward="false" selection-start-line="2194" selection-start-column="1" selection-end-line="2194" selection-end-column="10" />
-          <folding>
-            <marker date="1541515412016" expanded="true" signature="34991:35024" ph="{...}" />
-            <marker date="1541515412016" expanded="true" signature="35118:35348" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/vazhno_project/2018.10.28_FX-12165_page_FAQ/faq-PT.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
+        <state relative-caret-position="12840">
           <caret line="2471" column="12" lean-forward="false" selection-start-line="2471" selection-start-column="12" selection-end-line="2471" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#!!top" expanded="false" />
@@ -609,7 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="1529" column="17" lean-forward="true" selection-start-line="1529" selection-start-column="1" selection-end-line="1529" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,9 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="166" column="10" lean-forward="true" selection-start-line="166" selection-start-column="10" selection-end-line="166" selection-end-column="10" />
-          <folding>
-            <element signature="e#13247#13253#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-504">
           <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -635,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="485" column="27" lean-forward="true" selection-start-line="485" selection-start-column="27" selection-end-line="485" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1187">
           <caret line="705" column="37" lean-forward="true" selection-start-line="705" selection-start-column="37" selection-end-line="705" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="69" column="73" lean-forward="true" selection-start-line="69" selection-start-column="73" selection-end-line="69" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -659,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="556" column="21" lean-forward="true" selection-start-line="556" selection-start-column="21" selection-end-line="556" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
           <caret line="831" column="2" lean-forward="true" selection-start-line="831" selection-start-column="2" selection-end-line="831" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,70 +642,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1641">
           <caret line="4055" column="34" lean-forward="true" selection-start-line="4055" selection-start-column="34" selection-end-line="4055" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="745" column="23" lean-forward="false" selection-start-line="745" selection-start-column="16" selection-end-line="745" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mockup/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/mockup/index.html" />
     <entry file="file://$USER_HOME$/example/примеры сайтов/loreal-paris.ua/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="24">
           <caret line="5" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/swiper-4.1.0/dist/css/swiper.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="607" column="0" lean-forward="false" selection-start-line="607" selection-start-column="0" selection-end-line="607" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="24">
           <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mockup/css/style.css">
+    <entry file="file://$USER_HOME$/example/plugins/swiper-4.1.0/demos/240-effect-coverflow.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="3856" column="26" lean-forward="false" selection-start-line="3856" selection-start-column="26" selection-end-line="3856" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="240">
+          <caret line="37" column="32" lean-forward="true" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mockup/index.html">
+    <entry file="file://$USER_HOME$/example/plugins/swiper-4.1.0/demos/020-navigation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="192">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/swiper/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="10">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swiper/index.html">
+    <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="38" column="33" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="33" />
+        <state relative-caret-position="644">
+          <caret line="745" column="23" lean-forward="false" selection-start-line="745" selection-start-column="16" selection-end-line="745" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-t.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="85" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="257" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/swiper/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="1244" column="17" lean-forward="false" selection-start-line="1244" selection-start-column="17" selection-end-line="1244" selection-end-column="17" />
+        <state relative-caret-position="646">
+          <caret line="252" column="21" lean-forward="true" selection-start-line="252" selection-start-column="21" selection-end-line="252" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="49" column="43" lean-forward="true" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
           <folding />
         </state>
       </provider>
