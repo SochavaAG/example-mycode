@@ -55,21 +55,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swiper/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
-              <caret line="49" column="43" lean-forward="true" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="347">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="208" selection-end-column="10" />
+              <folding>
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/swiper/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
-              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="538">
+              <caret line="48" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -78,8 +80,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swiper/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="252" column="21" lean-forward="true" selection-start-line="252" selection-start-column="21" selection-end-line="252" selection-end-column="21" />
+            <state relative-caret-position="502">
+              <caret line="246" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="254" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -123,7 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>intro__food-slides</find>
       <find>ag-slide_item img</find>
       <find>.jpg&quot; alt=&quot;&quot;&gt;</find>
       <find>swiper-wrapper</find>
@@ -152,10 +153,10 @@
       <find>transition: ease 0.5s;</find>
       <find>transform: translateY(25%);</find>
       <find>img&quot;alt=&quot;&quot;</find>
+      <find>https://raw.githubusercontent.com/</find>
       <find>ag-slide-info_img</find>
     </findStrings>
     <replaceStrings>
-      <replace>ProximaNova</replace>
       <replace>../images/</replace>
       <replace>Alba</replace>
       <replace>HelveticaNeueCyr-Bold</replace>
@@ -184,6 +185,7 @@
       <replace>ag-slide-info_strong</replace>
       <replace>&lt;div class=&quot;ag-slide-info_descr&quot;&gt;</replace>
       <replace>img&quot; alt=&quot;&quot;</replace>
+      <replace>https://rawcdn.githack.com/</replace>
       <replace>ag-slide-info_comments</replace>
     </replaceStrings>
     <dirStrings>
@@ -242,10 +244,10 @@
         <option value="$USER_HOME$/example-site/sobolev.htmldev.pro/css/style.min.css" />
         <option value="$PROJECT_DIR$/mockup/index.html" />
         <option value="$PROJECT_DIR$/mockup/css/style.css" />
-        <option value="$PROJECT_DIR$/swiper/js/main.js" />
         <option value="$USER_HOME$/format-t.css" />
         <option value="$PROJECT_DIR$/swiper/css/style.css" />
         <option value="$PROJECT_DIR$/swiper/index.html" />
+        <option value="$PROJECT_DIR$/swiper/js/main.js" />
       </list>
     </option>
   </component>
@@ -400,12 +402,12 @@
       <workItem from="1540447306092" duration="20953000" />
       <workItem from="1540802478437" duration="20352000" />
       <workItem from="1541573953634" duration="19670000" />
-      <workItem from="1541660872499" duration="5262000" />
+      <workItem from="1541660872499" duration="5439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316088000" />
+    <option name="totallyTimeSpent" value="316265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -691,14 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swiper/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -715,18 +709,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/swiper/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="208" selection-end-column="10" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/swiper/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="252" column="21" lean-forward="true" selection-start-line="252" selection-start-column="21" selection-end-line="252" selection-end-column="21" />
+        <state relative-caret-position="502">
+          <caret line="246" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="254" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swiper/index.html">
+    <entry file="file://$PROJECT_DIR$/swiper/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="49" column="43" lean-forward="true" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+        <state relative-caret-position="538">
+          <caret line="48" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="11" />
           <folding />
         </state>
       </provider>

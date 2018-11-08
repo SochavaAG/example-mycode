@@ -1,4 +1,6 @@
-$(function () {
+(function ($) {
+  $(function () {
+
   var agSwiper = $('.swiper-container');
 
   if (agSwiper.length > 0) {
@@ -52,4 +54,5 @@ $(function () {
     });
   }
 
-});
+  });
+})(jQuery);
