@@ -36,7 +36,7 @@
   left: 0;
 }
 .ag-preload:before {
-  background-image: url(https://rawcdn.githack.com/SochavaAG/example-mycode/pens/preloader-kitchen-knife/images/preload-left.svg);
+  background-image: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/preloader-kitchen-knife/images/preload-left.svg);
 
   -webkit-animation: an-preload-left 1s alternate linear;
   -moz-animation: an-preload-left 1s alternate linear;
@@ -49,7 +49,7 @@
   animation-iteration-count: infinite;
 }
 .ag-preload:after {
-  background-image: url(https://rawcdn.githack.com/SochavaAG/example-mycode/pens/preloader-kitchen-knife/images/preload-right.svg);
+  background-image: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/preloader-kitchen-knife/images/preload-right.svg);
 
   -webkit-animation: an-preload-right 1s alternate linear;
   -moz-animation: an-preload-right 1s alternate linear;
