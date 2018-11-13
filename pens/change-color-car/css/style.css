@@ -1,0 +1,374 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: ProximaNova-Bold;
+  src: url(../fonts/ProximaNova-Bold/ProximaNova-Bold.eot);
+  src: url(../fonts/ProximaNova-Bold/ProximaNova-Bold.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/ProximaNova-Bold/ProximaNova-Bold.woff2) format('woff2'),
+  url(../fonts/ProximaNova-Bold/ProximaNova-Bold.woff) format('woff'),
+  url(../fonts/ProximaNova-Bold/ProximaNova-Bold.ttf) format('truetype'),
+  url(../fonts/ProximaNova-Bold/ProximaNova-Bold.svg#ProximaNova-Bold) format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ProximaNova-Regular;
+  src: url(../fonts/ProximaNova-Regular/ProximaNova-Regular.eot);
+  src: url(../fonts/ProximaNova-Regular/ProximaNova-Regular.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/ProximaNova-Regular/ProximaNova-Regular.woff2) format('woff2'),
+  url(../fonts/ProximaNova-Regular/ProximaNova-Regular.woff) format('woff'),
+  url(../fonts/ProximaNova-Regular/ProximaNova-Regular.ttf) format('truetype'),
+  url(../fonts/ProximaNova-Regular/ProximaNova-Regular.svg#ProximaNova-Regular) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ProximaNova-Extrabld;
+  src: url(../fonts/ProximaNova-Extrabld/ProximaNova-Extrabld.eot);
+  src: url(../fonts/ProximaNova-Extrabld/ProximaNova-Extrabld.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/ProximaNova-Extrabld/ProximaNova-Extrabld.woff2) format('woff2'),
+  url(../fonts/ProximaNova-Extrabld/ProximaNova-Extrabld.woff) format('woff'),
+  url(../fonts/ProximaNova-Extrabld/ProximaNova-Extrabld.ttf) format('truetype'),
+  url(../fonts/ProximaNova-Extrabld/ProximaNova-Extrabld.svg#ProximaNova-Extrabld) format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ProximaNova-Semibold;
+  src: url(../fonts/ProximaNova-Semibold/ProximaNova-Semibold.eot);
+  src: url(../fonts/ProximaNova-Semibold/ProximaNova-Semibold.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/ProximaNova-Semibold/ProximaNova-Semibold.woff2) format('woff2'),
+  url(../fonts/ProximaNova-Semibold/ProximaNova-Semibold.woff) format('woff'),
+  url(../fonts/ProximaNova-Semibold/ProximaNova-Semibold.ttf) format('truetype'),
+  url(../fonts/ProximaNova-Semibold/ProximaNova-Semibold.svg#ProximaNova-Semibold) format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ag-cars-block {
+  margin: 150px 0 0;
+  background: url(../images/cars-bg.jpg) no-repeat scroll 50% 100%;
+  background-size: cover;
+}
+.ag-cars_box {
+  position: relative;
+}
+.ag-cars_special {
+  height: 180px;
+  width: 180px;
+  padding: 30px 16px 0 0;
+  background: url(../images/sprite.png) no-repeat scroll 0 -3442px;
+
+  text-align: center;
+
+  font-family: ProximaNova-Bold, sans-serif;
+  font-size: 16px;
+  color: #FFF;
+
+  z-index: 1;
+  position: absolute;
+  top: -100px;
+  left: 0;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ag-cars_special__attention {
+  padding: 0 30px;
+
+  color: #ff9000;
+}
+.ag-cars_list {
+  padding: 50px 0;
+
+  text-align: center;
+}
+.ag-cars_item {
+  display: inline-block;
+  width: 48%;
+  margin: 0 0 30px;
+  padding: 0 0 0 30px;
+  border: 1px solid transparent;
+  border-right-color: rgba(255, 255, 255, .3);
+
+  vertical-align: top;
+  text-align: left;
+  color: #FFF;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  position: relative;
+}
+
+.ag-cars_icons {
+  display: inline-block;
+  height: 200px;
+  width: 370px;
+  background-image: url(../images/sprite.png);
+  background-repeat: no-repeat;
+  background-size: 1450px auto;
+
+  cursor: url(../images/cursor-brush.png), auto;
+
+  position: relative;
+}
+.ag-cars_icon-tesla {
+  background-position: 0 0;
+}
+.ag-cars_icon-bmw {
+  background-position: -397px 0;
+}
+.ag-cars_icon-mini {
+  width: 335px;
+
+  background-position: -790px 0;
+}
+.ag-cars_icon-smart {
+  width: 305px;
+
+  background-position: -1148px 0;
+}
+.ag-cars_icons:before {
+  content: "";
+  display: inline-block;
+  height: 175px;
+  width: 370px;
+  background-image: url(../images/sprite.png);
+  background-repeat: no-repeat;
+  background-size: 1450px auto;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.js-ag-cars_icon-tesla-0:before {
+  background: no-repeat;
+}
+.js-ag-cars_icon-tesla-1:before {
+  background-position: 0 -218px;
+}
+.js-ag-cars_icon-tesla-2:before {
+  background-position: 0 -399px;
+}
+.js-ag-cars_icon-tesla-3:before {
+  background-position: 0 -580px;
+}
+.js-ag-cars_icon-tesla-4:before {
+  background-position: 0 -760px;
+}
+.js-ag-cars_icon-tesla-5:before {
+  background-position: 0 -941px;
+}
+.js-ag-cars_icon-tesla-6:before {
+  background-position: 0 -1121px;
+}
+.js-ag-cars_icon-tesla-7:before {
+  background-position: 0 -1302px;
+}
+.js-ag-cars_icon-tesla-8:before {
+  background-position: 0 -1482px;
+}
+.js-ag-cars_icon-tesla-9:before {
+  background-position: 0 -1663px;
+}
+.js-ag-cars_icon-tesla-10:before {
+  background-position: 0 -1844px;
+}
+
+.js-ag-cars_icon-bmw-0:before {
+  background: no-repeat;
+}
+.js-ag-cars_icon-bmw-1:before {
+  background-position: -397px -213px;
+}
+.js-ag-cars_icon-bmw-2:before {
+  background-position: -397px -394px;
+}
+.js-ag-cars_icon-bmw-3:before {
+  background-position: -397px -574px;
+}
+.js-ag-cars_icon-bmw-4:before {
+  background-position: -397px -755px;
+}
+.js-ag-cars_icon-bmw-5:before {
+  background-position: -397px -936px;
+}
+.js-ag-cars_icon-bmw-6:before {
+  background-position: -397px -1116px;
+}
+.js-ag-cars_icon-bmw-7:before {
+  background-position: -397px -1297px;
+}
+.js-ag-cars_icon-bmw-8:before {
+  background-position: -397px -1477px;
+}
+.js-ag-cars_icon-bmw-9:before {
+  background-position: -397px -1658px;
+}
+.js-ag-cars_icon-bmw-10:before {
+  background-position: -397px -1839px;
+}
+
+.ag-cars_icon-mini:before {
+  width: 335px;
+}
+.js-ag-cars_icon-mini-0:before {
+  background: none;
+}
+.js-ag-cars_icon-mini-1:before {
+  background-position: -790px -222px;
+}
+.js-ag-cars_icon-mini-2:before {
+  background-position: -790px -402px;
+}
+.js-ag-cars_icon-mini-3:before {
+  background-position: -790px -583px;
+}
+.js-ag-cars_icon-mini-4:before {
+  background-position: -790px -763px;
+}
+.js-ag-cars_icon-mini-5:before {
+  background-position: -790px -944px;
+}
+.js-ag-cars_icon-mini-6:before {
+  background-position: -790px -1125px;
+}
+.js-ag-cars_icon-mini-7:before {
+  background-position: -790px -1305px;
+}
+.js-ag-cars_icon-mini-8:before {
+  background-position: -790px -1486px;
+}
+.js-ag-cars_icon-mini-9:before {
+  background-position: -790px -1667px;
+}
+.js-ag-cars_icon-mini-10:before {
+  background-position: -790px -1848px;
+}
+
+.ag-cars_icon-smart:before {
+  width: 305px;
+}
+.js-ag-cars_icon-smart-0:before {
+  background: no-repeat;
+}
+.js-ag-cars_icon-smart-1:before {
+  background-position: -1148px -223px;
+}
+.js-ag-cars_icon-smart-2:before {
+  background-position: -1148px -403px;
+}
+.js-ag-cars_icon-smart-3:before {
+  background-position: -1148px -584px;
+}
+.js-ag-cars_icon-smart-4:before {
+  background-position: -1148px -764px;
+}
+.js-ag-cars_icon-smart-5:before {
+  background-position: -1148px -945px;
+}
+.js-ag-cars_icon-smart-6:before {
+  background-position: -1148px -1126px;
+}
+.js-ag-cars_icon-smart-7:before {
+  background-position: -1148px -1306px;
+}
+.js-ag-cars_icon-smart-8:before {
+  background-position: -1148px -1487px;
+}
+.js-ag-cars_icon-smart-9:before {
+  background-position: -1148px -1668px;
+}
+.js-ag-cars_icon-smart-10:before {
+  background-position: -1148px -1849px;
+}
+
+.ag-cars_info {
+  padding: 0 40px 0 0;
+
+  position: relative;
+}
+.ag-cars_info:before {
+  content: "";
+  background-image: url(../images/sprite.png);
+  background-repeat: no-repeat;
+  background-size: 1000px auto;
+
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+.ag-cars_info-tesla:before {
+  height: 34px;
+  width: 30px;
+  background-position: 0 -1395px;
+}
+.ag-cars_info-bmw:before {
+  height: 34px;
+  width: 34px;
+  background-position: -33px -1395px;
+}
+.ag-cars_info-mini:before {
+  height: 34px;
+  width: 62px;
+  background-position: -70px -1395px;
+}
+.ag-cars_info-smart:before {
+  height: 34px;
+  width: 32px;
+  background-position: -132px -1395px;
+}
+.ag-cars_model {
+  text-transform: uppercase;
+  font-family: ProximaNova-Bold, sans-serif;
+  font-size: 20px;
+}
+.ag-cars_top {
+  color: #ff9000;
+}
+
+@media only screen and (max-width: 979px) {
+  .ag-cars_item {
+    display: block;
+    width: 420px;
+    margin: 0 auto 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
