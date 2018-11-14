@@ -11,25 +11,20 @@
       return (Math.floor(Math.random() * 10) + 0);
     }
 
-    agTesla.on('mouseenter', function() {
-      $(this).removeAttr('class');
-      $(this).addClass('ag-cars_icons ag-cars_icon-tesla js-ag-cars_icon-tesla-' + rand());
-    });
+    function agChangeColor(agCar, agModelCar, agGetClass) {
+      agCar.on('mouseenter', function() {
+        $(this).removeAttr('class');
+        $(this).addClass(agGetClass + ' js-ag-cars_icon-' + agModelCar + '-' + rand());
+      });
+    }
 
-    agBMW.on('mouseenter', function() {
-      $(this).removeAttr('class');
-      $(this).addClass('ag-cars_icons ag-cars_icon-bmw js-ag-cars_icon-bmw-' + rand());
-    });
+    agChangeColor(agTesla, 'tesla', agTesla.attr('class'));
 
-    agMini.on('mouseenter', function() {
-      $(this).removeAttr('class');
-      $(this).addClass('ag-cars_icons ag-cars_icon-mini js-ag-cars_icon-mini-' + rand());
-    });
+    agChangeColor(agBMW, 'bmw', agBMW.attr('class'));
 
-    agSmart.on('mouseenter', function() {
-      $(this).removeAttr('class');
-      $(this).addClass('ag-cars_icons ag-cars_icon-smart js-ag-cars_icon-smart-' + rand());
-    });
+    agChangeColor(agMini, 'mini', agMini.attr('class'));
+
+    agChangeColor(agSmart, 'smart', agSmart.attr('class'));
 
   });
 })(jQuery);

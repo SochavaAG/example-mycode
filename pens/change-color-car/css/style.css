@@ -150,6 +150,18 @@
   top: 0;
   left: 0;
 }
+.ag-cars_icon-tesla:before {
+  background-position: 0 0;
+}
+.ag-cars_icon-bmw:before {
+  background-position: -397px 0;
+}
+.ag-cars_icon-mini:before {
+  background-position: -790px 0;
+}
+.ag-cars_icon-smart:before {
+  background-position: -1148px 0;
+}
 .js-ag-cars_icon-tesla-0:before {
   background: no-repeat;
 }
