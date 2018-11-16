@@ -1,0 +1,307 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-benefits-block {
+  padding: 50px 0;
+}
+.ag-benefits_radio {
+  display: none;
+}
+.ag-benefits-tab_list {
+  white-space: nowrap;
+  text-align: center;
+
+  position: relative;
+}
+.ag-benefits-tab_item {
+  display: inline-block;
+  width: 33%;
+
+  vertical-align: top;
+}
+.ag-benefits-tab_label {
+  display: block;
+  height: 200px;
+
+  cursor: pointer;
+
+  text-align: center;
+}
+.ag-benefits_img {
+  width: 120px;
+  padding: 40px 0;
+
+  -webkit-transition: width .3s ease-in-out .15s, padding-top .3s ease-in-out .15s;
+  -moz-transition: width .3s ease-in-out .15s, padding-top .3s ease-in-out .15s;
+  -ms-transition: width .3s ease-in-out .15s, padding-top .3s ease-in-out .15s;
+  -o-transition: width .3s ease-in-out .15s, padding-top .3s ease-in-out .15s;
+  transition: width .3s ease-in-out .15s, padding-top .3s ease-in-out .15s;
+}
+#gears:checked ~ .ag-benefits-tab_list .ag-benefits_img__gears,
+#clock:checked ~ .ag-benefits-tab_list .ag-benefits_img__clock,
+#cost:checked ~ .ag-benefits-tab_list .ag-benefits_img__cost {
+  width: 200px;
+  padding: 0;
+
+  -webkit-transition: width .3s ease-in-out .15s, padding-top .3s ease-in-out .15s;
+  -moz-transition: width .3s ease-in-out .15s, padding-top .3s ease-in-out .15s;
+  -ms-transition: width .3s ease-in-out .15s, padding-top .3s ease-in-out .15s;
+  -o-transition: width .3s ease-in-out .15s, padding-top .3s ease-in-out .15s;
+  transition: width .3s ease-in-out .15s, padding-top .3s ease-in-out .15s;
+}
+
+.ag-benefits_title {
+  padding: 15px 0 35px;
+
+  white-space: normal;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+  color: #d3d3d3;
+
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+#gears:checked ~ .ag-benefits-tab_list .ag-benefits_title__gears,
+#clock:checked ~ .ag-benefits-tab_list .ag-benefits_title__clock,
+#cost:checked ~ .ag-benefits-tab_list .ag-benefits_title__cost {
+  color: #323a45;
+}
+
+.ag-benefits-control-block {
+  height: 2px;
+  width: 70%;
+  margin: 0 auto;
+  background-color: #dce6e6;
+
+  -webkit-transition: width .3s ease-in-out;
+  -moz-transition: width .3s ease-in-out;
+  -ms-transition: width .3s ease-in-out;
+  -o-transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+
+  position: relative;
+}
+.ag-benefits-control_btn {
+  height: 18px;
+  width: 18px;
+  margin: auto;
+  background-color: #bacdcd;
+
+  cursor: pointer;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  -webkit-border-radius: 50% 50% 50% 50%;
+  -moz-border-radius: 50% 50% 50% 50%;
+  -ms-border-radius: 50% 50% 50% 50%;
+  -o-border-radius: 50% 50% 50% 50%;
+  border-radius: 50% 50% 50% 50%;
+}
+.ag-benefits-control_btn__gears {
+  left: 0;
+}
+.ag-benefits-control_btn__clock {
+  left: 0;
+  right: 0;
+}
+.ag-benefits-control_btn__cost {
+  right: 0;
+}
+.ag-benefits-control_btn-active {
+  height: 22px;
+  width: 22px;
+  margin: auto;
+  background: #18b5b5;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  -webkit-border-radius: 50% 50% 50% 50%;
+  -moz-border-radius: 50% 50% 50% 50%;
+  -ms-border-radius: 50% 50% 50% 50%;
+  -o-border-radius: 50% 50% 50% 50%;
+  border-radius: 50% 50% 50% 50%;
+
+  -webkit-box-shadow: 0 3px 15px #18b5b5;
+  -moz-box-shadow: 0 3px 15px #18b5b5;
+  -o-box-shadow: 0 3px 15px #18b5b5;
+  box-shadow: 0 3px 15px #18b5b5;
+
+  -webkit-transition: left .3s ease-in-out .15s;
+  -moz-transition: left .3s ease-in-out .15s;
+  -ms-transition: left .3s ease-in-out .15s;
+  -o-transition: left .3s ease-in-out .15s;
+  transition: left .3s ease-in-out .15s;
+}
+#clock:checked ~ .ag-benefits-control-block > .ag-benefits-control_btn-active {
+  left: calc(50% - 11px);
+}
+#cost:checked ~ .ag-benefits-control-block > .ag-benefits-control_btn-active {
+  left: calc(100% - 22px);
+}
+
+.ag-benefits_text {
+  line-height: 1.45;
+  max-width: 60%;
+  margin: 0 auto;
+
+  opacity: 0;
+  visibility: hidden;
+
+  white-space: normal;
+  text-align: center;
+  font-size: 18px;
+  color: #525c69;
+
+  position: absolute;
+  top: 300px;
+  left: 0;
+  right: 0;
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#gears:checked ~ .ag-benefits-tab_list .ag-benefits_text__gears,
+#clock:checked ~ .ag-benefits-tab_list .ag-benefits_text__clock,
+#cost:checked ~ .ag-benefits-tab_list .ag-benefits_text__cost {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+  .ag-benefits-tab_label {
+    height: 150px;
+  }
+  .ag-benefits_img {
+    width: 100px;
+    padding: 25px 0;
+  }
+  #gears:checked ~ .ag-benefits-tab_list .ag-benefits_img__gears,
+  #clock:checked ~ .ag-benefits-tab_list .ag-benefits_img__clock,
+  #cost:checked ~ .ag-benefits-tab_list .ag-benefits_img__cost {
+    width: 150px;
+  }
+
+  .ag-benefits_title {
+    font-size: 18px;
+  }
+  .ag-benefits_text {
+    max-width: 90%;
+
+    top: 275px;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+  .ag-benefits_img,
+  #gears:checked ~ .ag-benefits-tab_list .ag-benefits_img__gears,
+  #clock:checked ~ .ag-benefits-tab_list .ag-benefits_img__clock,
+  #cost:checked ~ .ag-benefits-tab_list .ag-benefits_img__cost,
+  .ag-benefits_title,
+  .ag-benefits-control-block,
+  .ag-benefits-control_btn-active,
+  .ag-benefits_text {
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+  }
+
+  .ag-benefits-tab_item,
+  .ag-benefits-tab_item:last-child {
+    display: block;
+    width: 90%;
+    margin: 0 auto 50px;
+  }
+  .ag-benefits-tab_item:last-child {
+    margin: 0 auto;
+  }
+  .ag-benefits-tab_label {
+    height: auto;
+  }
+  #gears ~ .ag-benefits-tab_list .ag-benefits_img__gears,
+  #clock ~ .ag-benefits-tab_list .ag-benefits_img__clock,
+  #cost ~ .ag-benefits-tab_list .ag-benefits_img__cost,
+  #gears:checked ~ .ag-benefits-tab_list .ag-benefits_img__gears,
+  #clock:checked ~ .ag-benefits-tab_list .ag-benefits_img__clock,
+  #cost:checked ~ .ag-benefits-tab_list .ag-benefits_img__cost {
+    width: 200px;
+    padding: 0;
+  }
+  .ag-benefits_title {
+    padding: 15px 0;
+  }
+  #gears ~ .ag-benefits-tab_list .ag-benefits_text__gears,
+  #clock ~ .ag-benefits-tab_list .ag-benefits_text__clock,
+  #cost ~ .ag-benefits-tab_list .ag-benefits_text__cost {
+    opacity: 1;
+    visibility: visible;
+
+    position: static;
+  }
+  #gears ~ .ag-benefits-tab_list .ag-benefits_title__gears,
+  #clock ~ .ag-benefits-tab_list .ag-benefits_title__clock,
+  #cost ~ .ag-benefits-tab_list .ag-benefits_title__cost {
+    color: #323a45;
+  }
+
+  .ag-benefits-control-block {
+    display: none;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+  .ag-benefits-tab_label {
+    height: 150px;
+  }
+  .ag-benefits_img {
+    width: 100px;
+    padding: 25px 0;
+  }
+  #gears:checked ~ .ag-benefits-tab_list .ag-benefits_img__gears,
+  #clock:checked ~ .ag-benefits-tab_list .ag-benefits_img__clock,
+  #cost:checked ~ .ag-benefits-tab_list .ag-benefits_img__cost {
+    width: 150px;
+  }
+
+  .ag-benefits_title {
+    font-size: 18px;
+  }
+  .ag-benefits_text {
+    top: 255px;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
