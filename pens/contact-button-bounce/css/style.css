@@ -15,12 +15,12 @@
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   color: #FFF;
 
   position: absolute;
   top: 109px;
-  left: -101px;
+  left: -93px;
 
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
@@ -40,7 +40,7 @@
   z-index: 1000;
   position: fixed;
   top: 50%;
-  left: 0;
+  left: -10px;
 
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
