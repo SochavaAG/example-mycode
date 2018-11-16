@@ -21,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tabs-no-js/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
-              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="54" column="108" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="108" />
               <folding />
             </state>
           </provider>
@@ -31,7 +31,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tabs-no-js/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
+            <state relative-caret-position="646">
               <caret line="283" column="20" lean-forward="false" selection-start-line="283" selection-start-column="20" selection-end-line="283" selection-end-column="20" />
               <folding />
             </state>
@@ -61,8 +61,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact-button-bounce/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="35" column="103" lean-forward="false" selection-start-line="35" selection-start-column="103" selection-end-line="35" selection-end-column="103" />
               <folding />
             </state>
           </provider>
@@ -95,13 +95,13 @@
       <find>.ag-benefits_text</find>
       <find>ag-benefits_text</find>
       <find>:checked</find>
-      <find>images/</find>
       <find>rubberBand</find>
       <find>transi</find>
       <find>100% {</find>
       <find>75% {</find>
       <find>rotate</find>
       <find>30% {</find>
+      <find>images/</find>
     </findStrings>
     <replaceStrings>
       <replace>../images/fitnes.jpg</replace>
@@ -124,7 +124,6 @@
       <replace>ag-benefits_title__</replace>
       <replace>all 0.2s ease;</replace>
       <replace>ag-benefits-tab_list</replace>
-      <replace>https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/tabs-no-js/images/</replace>
       <replace>an-rubberBand</replace>
       <replace>scale3d(1.25, 0.75, 1);</replace>
       <replace>scale3d(0.75, 1.25, 1);</replace>
@@ -134,6 +133,7 @@
       <replace>20%, 100% {</replace>
       <replace>15% {</replace>
       <replace>6% {</replace>
+      <replace>https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/tabs-no-js/images/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -146,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/example-site/htmldev.pro_palisade-global/index.html" />
         <option value="$USER_HOME$/example-site/htmldev.pro_palisade-global/css/style.css" />
         <option value="$USER_HOME$/example-site/sobolev.htmldev.pro/index.html" />
         <option value="$USER_HOME$/example-site/sobolev.htmldev.pro/css/style.min.css" />
@@ -197,6 +196,7 @@
         <option value="$PROJECT_DIR$/button-bounce/css/style.css" />
         <option value="$PROJECT_DIR$/button-bounce/index.html" />
         <option value="$PROJECT_DIR$/contact-button-bounce/index.html" />
+        <option value="$PROJECT_DIR$/contact-button-bounce/css/style.css" />
       </list>
     </option>
   </component>
@@ -354,12 +354,12 @@
       <workItem from="1541660872499" duration="23648000" />
       <workItem from="1542095692734" duration="24547000" />
       <workItem from="1542181165345" duration="20400000" />
-      <workItem from="1542353103876" duration="21651000" />
+      <workItem from="1542353103876" duration="21781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="401072000" />
+    <option name="totallyTimeSpent" value="401202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -732,22 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tabs-no-js/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="283" column="20" lean-forward="false" selection-start-line="283" selection-start-column="20" selection-end-line="283" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tabs-no-js/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project/2016.06.01_header-footer-1/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -788,10 +772,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tabs-no-js/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="283" column="20" lean-forward="false" selection-start-line="283" selection-start-column="20" selection-end-line="283" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tabs-no-js/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="54" column="108" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/contact-button-bounce/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="336">
+          <caret line="35" column="103" lean-forward="false" selection-start-line="35" selection-start-column="103" selection-end-line="35" selection-end-column="103" />
           <folding />
         </state>
       </provider>
