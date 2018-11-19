@@ -17,125 +17,121 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tabs-no-js/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="54" column="108" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="108" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tabs-no-js/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6792">
-              <caret line="283" column="20" lean-forward="false" selection-start-line="283" selection-start-column="20" selection-end-line="283" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project/2016.06.01_header-footer-1/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6528">
-              <caret line="272" column="2" lean-forward="false" selection-start-line="272" selection-start-column="2" selection-end-line="276" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact-button-bounce/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact-button-bounce/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6960">
-              <caret line="290" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="236" column="29" lean-forward="true" selection-start-line="236" selection-start-column="29" selection-end-line="236" selection-end-column="29" />
-              <folding>
-                <element signature="e#5538#7605#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buttons/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="145" selection-end-column="8" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="1661" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1675" selection-end-column="0" />
-              <folding>
-                <element signature="e#12850#13513#2" expanded="true" />
-                <element signature="e#14680#15427#2" expanded="true" />
-                <element signature="e#43590#44261#2" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eyes-of-man/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eyes-of-man/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="8" selection-end-column="98" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tabs-no-js/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1296">
+                  <caret line="54" column="108" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="108" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tabs-no-js/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="6792">
+                  <caret line="283" column="20" lean-forward="false" selection-start-line="283" selection-start-column="20" selection-end-line="283" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/vazhno_project/2016.06.01_header-footer-1/css/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="6528">
+                  <caret line="272" column="2" lean-forward="false" selection-start-line="272" selection-start-column="2" selection-end-line="276" selection-end-column="41" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/contact-button-bounce/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="216">
+                  <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/contact-button-bounce/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="6960">
+                  <caret line="290" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="178">
+                  <caret line="236" column="29" lean-forward="true" selection-start-line="236" selection-start-column="29" selection-end-line="236" selection-end-column="29" />
+                  <folding>
+                    <element signature="e#5538#7605#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/buttons/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="500">
+                  <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="160" selection-end-column="8" />
+                  <folding>
+                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="467">
+                  <caret line="1825" column="0" lean-forward="true" selection-start-line="1825" selection-start-column="0" selection-end-line="1825" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#12893#13556#2" expanded="true" />
+                    <element signature="e#14723#15470#2" expanded="true" />
+                    <element signature="e#43633#44304#2" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="375">
+                  <caret line="1823" column="1" lean-forward="false" selection-start-line="1823" selection-start-column="1" selection-end-line="1823" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#12893#13556#2" expanded="true" />
+                    <element signature="e#14723#15470#2" expanded="true" />
+                    <element signature="e#43633#44304#2" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.ag-benefits_title</find>
-      <find>ag-benefits_title-box</find>
-      <find>.ag-benefits_text</find>
-      <find>ag-benefits_text</find>
-      <find>:checked</find>
-      <find>rubberBand</find>
       <find>transi</find>
       <find>100% {</find>
       <find>75% {</find>
@@ -149,7 +145,6 @@
       <find>shine</find>
       <find>transform</find>
       <find>50%</find>
-      <find>span</find>
       <find>em</find>
       <find>transition:</find>
       <find>.ag-progress-bar_btn</find>
@@ -158,16 +153,17 @@
       <find>appearance</find>
       <find>border-radius: 50px;</find>
       <find>default</find>
-      <find>18</find>
+      <find>.</find>
+      <find>العلامة البيضاء</find>
       <find>.hover</find>
+      <find>div</find>
+      <find>a</find>
+      <find>span</find>
+      <find>.button</find>
+      <find>.links</find>
+      <find>18</find>
     </findStrings>
     <replaceStrings>
-      <replace>benefits-radio</replace>
-      <replace>الحد الأدنى للإيداع</replace>
-      <replace>ag-benefits_title__</replace>
-      <replace>all 0.2s ease;</replace>
-      <replace>ag-benefits-tab_list</replace>
-      <replace>an-rubberBand</replace>
       <replace>scale3d(1.25, 0.75, 1);</replace>
       <replace>scale3d(0.75, 1.25, 1);</replace>
       <replace>scale3d(1.15, 0.85, 1);</replace>
@@ -190,8 +186,14 @@
       <replace>18</replace>
       <replace>.ag-base_btn-v21</replace>
       <replace>ag-base_text-btn-v22</replace>
-      <replace>21</replace>
       <replace>.ag-base_text-btn-v22__hover</replace>
+      <replace>.ag-base_btn-v23</replace>
+      <replace>.ag-base_text-btn-wrap-v23</replace>
+      <replace>.ag-base_text-btn-v23</replace>
+      <replace>.ag-base_text-btn-v24</replace>
+      <replace>.ag-base_text-btn-v24__hover</replace>
+      <replace>ag-base_icon-btn-v24</replace>
+      <replace>21</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -204,7 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mockup/css/style.css" />
         <option value="$PROJECT_DIR$/swiper/css/style.css" />
         <option value="$PROJECT_DIR$/swiper/index.html" />
         <option value="$PROJECT_DIR$/swiper/js/main.js" />
@@ -252,9 +253,10 @@
         <option value="$PROJECT_DIR$/contact-button-bounce/css/style.css" />
         <option value="$USER_HOME$/vazhno_project/2018.10.28_FX-12165_page_FAQ/faq-VI.html" />
         <option value="$USER_HOME$/vazhno_project/2018.10.28_FX-12165_page_FAQ/faq-TH.html" />
-        <option value="$PROJECT_DIR$/buttons/css/style.css" />
-        <option value="$PROJECT_DIR$/buttons/index.html" />
         <option value="$PROJECT_DIR$/eyes-of-man/css/style.css" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_best conditions/best-conditions-AR.html" />
+        <option value="$PROJECT_DIR$/buttons/index.html" />
+        <option value="$PROJECT_DIR$/buttons/css/style.css" />
       </list>
     </option>
   </component>
@@ -413,12 +415,12 @@
       <workItem from="1542095692734" duration="24547000" />
       <workItem from="1542181165345" duration="20400000" />
       <workItem from="1542353103876" duration="23416000" />
-      <workItem from="1542612408110" duration="13405000" />
+      <workItem from="1542612408110" duration="17186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="416242000" />
+    <option name="totallyTimeSpent" value="420023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -455,13 +457,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-ES.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="477" column="8" lean-forward="false" selection-start-line="477" selection-start-column="8" selection-end-line="477" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-FR.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="766">
@@ -777,25 +772,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/index.html">
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_best conditions/best-conditions-AR.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="145" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
           <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+    <entry file="file://$PROJECT_DIR$/eyes-of-man/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="1661" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1675" selection-end-column="0" />
-          <folding>
-            <element signature="e#12850#13513#2" expanded="true" />
-            <element signature="e#14680#15427#2" expanded="true" />
-            <element signature="e#43590#44261#2" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="8" selection-end-column="98" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -807,11 +799,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eyes-of-man/css/style.css">
+    <entry file="file://$PROJECT_DIR$/buttons/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="8" selection-end-column="98" />
-          <folding />
+        <state relative-caret-position="500">
+          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="160" selection-end-column="8" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="1825" column="0" lean-forward="true" selection-start-line="1825" selection-start-column="0" selection-end-line="1825" selection-end-column="0" />
+          <folding>
+            <element signature="e#12893#13556#2" expanded="true" />
+            <element signature="e#14723#15470#2" expanded="true" />
+            <element signature="e#43633#44304#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
