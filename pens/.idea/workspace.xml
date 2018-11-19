@@ -17,142 +17,179 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tabs-no-js/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1296">
-                  <caret line="54" column="108" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="108" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tabs-no-js/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6792">
-                  <caret line="283" column="20" lean-forward="false" selection-start-line="283" selection-start-column="20" selection-end-line="283" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/vazhno_project/2016.06.01_header-footer-1/css/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6528">
-                  <caret line="272" column="2" lean-forward="false" selection-start-line="272" selection-start-column="2" selection-end-line="276" selection-end-column="41" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/contact-button-bounce/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="30" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/contact-button-bounce/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6960">
-                  <caret line="290" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="178">
-                  <caret line="236" column="29" lean-forward="true" selection-start-line="236" selection-start-column="29" selection-end-line="236" selection-end-column="29" />
-                  <folding>
-                    <element signature="e#5538#7605#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/buttons/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="256">
-                  <caret line="56" column="63" lean-forward="true" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="63" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-10800">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#12893#13556#2" expanded="true" />
-                    <element signature="e#14723#15470#2" expanded="true" />
-                    <element signature="e#43633#44304#2" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/buttons/js/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="1823" column="1" lean-forward="false" selection-start-line="1823" selection-start-column="1" selection-end-line="1823" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#12893#13556#2" expanded="true" />
-                    <element signature="e#14723#15470#2" expanded="true" />
-                    <element signature="e#43633#44304#2" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tabs-no-js/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1296">
+              <caret line="54" column="108" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="108" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tabs-no-js/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6792">
+              <caret line="283" column="20" lean-forward="false" selection-start-line="283" selection-start-column="20" selection-end-line="283" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/vazhno_project/2016.06.01_header-footer-1/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6528">
+              <caret line="272" column="2" lean-forward="false" selection-start-line="272" selection-start-column="2" selection-end-line="276" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact-button-bounce/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contact-button-bounce/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6960">
+              <caret line="290" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="236" column="29" lean-forward="false" selection-start-line="236" selection-start-column="29" selection-end-line="236" selection-end-column="29" />
+              <folding>
+                <element signature="e#5538#7605#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buttons/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="56" column="63" lean-forward="false" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10800">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#12893#13556#2" expanded="true" />
+                <element signature="e#14723#15470#2" expanded="true" />
+                <element signature="e#43633#44304#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buttons/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/glitch-effect/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="format-2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/format-2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1464">
+              <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/glitch-effect/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/format-t.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="132" column="21" lean-forward="true" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/glitch-effect/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="first-step-to-profitable-trading-AR.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_first-step-to-profitable-trading/first-step-to-profitable-trading-AR.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="974">
+              <caret line="1064" column="9" lean-forward="true" selection-start-line="1064" selection-start-column="9" selection-end-line="1064" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="best-conditions-AR.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_best conditions/best-conditions-AR.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="873" column="0" lean-forward="false" selection-start-line="873" selection-start-column="0" selection-end-line="889" selection-end-column="11" />
+              <folding>
+                <element signature="n#div#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>transi</find>
-      <find>100% {</find>
-      <find>75% {</find>
-      <find>rotate</find>
-      <find>30% {</find>
-      <find>images/</find>
-      <find />
-      <find>MetaTrader 4</find>
-      <find>“</find>
-      <find>”</find>
-      <find>shine</find>
-      <find>transform</find>
-      <find>50%</find>
       <find>em</find>
       <find>transition:</find>
       <find>.ag-progress-bar_btn</find>
@@ -170,14 +207,21 @@
       <find>.links</find>
       <find>span</find>
       <find>18</find>
+      <find>beat</find>
+      <find>header-background</find>
+      <find>g-container</find>
+      <find>F</find>
+      <find>F()</find>
+      <find>data-glitch</find>
+      <find>!1</find>
+      <find>!0</find>
+      <find>preload</find>
+      <find>Modernizr</find>
+      <find>v</find>
+      <find>&quot;</find>
+      <find>&amp;quot;</find>
     </findStrings>
     <replaceStrings>
-      <replace>scale3d(1.25, 0.75, 1);</replace>
-      <replace>scale3d(0.75, 1.25, 1);</replace>
-      <replace>scale3d(1.15, 0.85, 1);</replace>
-      <replace>scale3d(.95, 1.05, 1);</replace>
-      <replace>scale3d(1.05, .95, 1);</replace>
-      <replace>20%, 100% {</replace>
       <replace>15% {</replace>
       <replace>6% {</replace>
       <replace>https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/tabs-no-js/images/</replace>
@@ -199,9 +243,15 @@
       <replace>.ag-base_text-btn-wrap-v23</replace>
       <replace>.ag-base_text-btn-v24</replace>
       <replace>.ag-base_text-btn-v24__hover</replace>
-      <replace>ag-base_icon-btn-v24</replace>
       <replace>.ag-base_text-btn-v23</replace>
       <replace>21</replace>
+      <replace>ag-base_icon-btn-v24</replace>
+      <replace>false</replace>
+      <replace>true</replace>
+      <replace>'</replace>
+      <replace>agGlitchImgBox.</replace>
+      <replace>agGlitchImgEffect</replace>
+      <replace>agGlitchImgOriginal</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -214,10 +264,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/swiper/index.html" />
-        <option value="$PROJECT_DIR$/swiper/js/main.js" />
-        <option value="$USER_HOME$/format-2.js" />
-        <option value="$USER_HOME$/example-site/planetakino.ua_showtimes/index.html" />
         <option value="$USER_HOME$/example-site/planetakino.ua_showtimes/js/main.js" />
         <option value="$PROJECT_DIR$/image-fixed-top-screen/js/main.js" />
         <option value="$PROJECT_DIR$/image-fixed-top-screen/index.html" />
@@ -248,7 +294,6 @@
         <option value="$USER_HOME$/example-site/fs-web-design.webflow.io/index.html" />
         <option value="$USER_HOME$/example-site/fs-web-design.webflow.io/contact.html" />
         <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.14_landing_reliable-broker/reliable-broker-AR.html" />
-        <option value="$USER_HOME$/format-t.css" />
         <option value="$USER_HOME$/format.html" />
         <option value="$PROJECT_DIR$/slider-no-js/index.html" />
         <option value="$PROJECT_DIR$/slider-no-js/css/style.css" />
@@ -261,10 +306,15 @@
         <option value="$USER_HOME$/vazhno_project/2018.10.28_FX-12165_page_FAQ/faq-VI.html" />
         <option value="$USER_HOME$/vazhno_project/2018.10.28_FX-12165_page_FAQ/faq-TH.html" />
         <option value="$PROJECT_DIR$/eyes-of-man/css/style.css" />
-        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_best conditions/best-conditions-AR.html" />
         <option value="$PROJECT_DIR$/buttons/index.html" />
         <option value="$PROJECT_DIR$/buttons/css/style.css" />
         <option value="$PROJECT_DIR$/buttons/js/main.js" />
+        <option value="$USER_HOME$/format-2.js" />
+        <option value="$USER_HOME$/format-t.css" />
+        <option value="$PROJECT_DIR$/glitch-effect/css/style.css" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_best conditions/best-conditions-AR.html" />
+        <option value="$PROJECT_DIR$/glitch-effect/index.html" />
+        <option value="$PROJECT_DIR$/glitch-effect/js/main.js" />
       </list>
     </option>
   </component>
@@ -299,7 +349,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/vazhno_project/2018.10.28_FX-12165_page_FAQ/faq-PT.html" />
+    <property name="last_opened_file_path" value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_best conditions/best-conditions-AR.html" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RunManager">
@@ -423,12 +473,12 @@
       <workItem from="1542095692734" duration="24547000" />
       <workItem from="1542181165345" duration="20400000" />
       <workItem from="1542353103876" duration="23416000" />
-      <workItem from="1542612408110" duration="17349000" />
+      <workItem from="1542612408110" duration="21684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="420186000" />
+    <option name="totallyTimeSpent" value="424521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -465,27 +515,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-ID.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="477" column="8" lean-forward="false" selection-start-line="477" selection-start-column="8" selection-end-line="477" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-KO.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="477" column="8" lean-forward="false" selection-start-line="477" selection-start-column="8" selection-end-line="477" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-MS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="477" column="8" lean-forward="false" selection-start-line="477" selection-start-column="8" selection-end-line="477" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-PT.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="766">
@@ -641,24 +670,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12864">
-          <caret line="536" column="1" lean-forward="true" selection-start-line="536" selection-start-column="1" selection-end-line="536" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/change-color-car/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="7193" column="4" lean-forward="false" selection-start-line="7193" selection-start-column="4" selection-end-line="7193" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -669,13 +684,6 @@
         <state relative-caret-position="6528">
           <caret line="272" column="2" lean-forward="false" selection-start-line="272" selection-start-column="2" selection-end-line="276" selection-end-column="41" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_first-step-to-profitable-trading/first-step-to-profitable-trading-AR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="419" column="4" lean-forward="false" selection-start-line="419" selection-start-column="4" selection-end-line="423" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -708,7 +716,7 @@
     <entry file="file://$PROJECT_DIR$/contact-button-bounce/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6960">
-          <caret line="290" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
+          <caret line="290" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -716,7 +724,7 @@
     <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
-          <caret line="236" column="29" lean-forward="true" selection-start-line="236" selection-start-column="29" selection-end-line="236" selection-end-column="29" />
+          <caret line="236" column="29" lean-forward="false" selection-start-line="236" selection-start-column="29" selection-end-line="236" selection-end-column="29" />
           <folding>
             <element signature="e#5538#7605#0" expanded="false" />
           </folding>
@@ -773,17 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_best conditions/best-conditions-AR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eyes-of-man/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -815,7 +812,7 @@
     <entry file="file://$PROJECT_DIR$/buttons/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
-          <caret line="56" column="63" lean-forward="true" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="63" />
+          <caret line="56" column="63" lean-forward="false" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="63" />
           <folding />
         </state>
       </provider>
@@ -824,6 +821,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-t.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="132" column="21" lean-forward="true" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glitch-effect/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_first-step-to-profitable-trading/first-step-to-profitable-trading-AR.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="974">
+          <caret line="1064" column="9" lean-forward="true" selection-start-line="1064" selection-start-column="9" selection-end-line="1064" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_best conditions/best-conditions-AR.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="873" column="0" lean-forward="false" selection-start-line="873" selection-start-column="0" selection-end-line="889" selection-end-column="11" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1464">
+          <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glitch-effect/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glitch-effect/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
           <folding />
         </state>
       </provider>
