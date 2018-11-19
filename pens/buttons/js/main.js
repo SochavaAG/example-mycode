@@ -8,7 +8,7 @@
     /* /button 4 */
 
 
-    /* button 9 */
+    /* button 6 */
     var agDownloadBtn = $('.js-progress-bar_btn'),
         agDownloadBtnStatus = $('.js-progress-bar_btn__status'),
         agDownloadBtnTrack = $('.js-progress-bar_btn__track'),
@@ -23,7 +23,7 @@
         if(i < 100) {
           agDownloadBtnStatus.text(i + '%');
         }else{
-          agDownloadBtnStatus.text('Button 9');
+          agDownloadBtnStatus.text('Button 6');
           agDownloadBtnStatus.removeClass('js-complete');
         }
         agDownloadBtnTrack.css({'left': '-' + agProgress + '%'});
@@ -40,7 +40,7 @@
           agProgressInterval();
         }
       });
-    /* /button 9 */
+    /* /button 6 */
 
     /* button 10 */
     var agBtn10 = $('.js-base_btn-v10');
