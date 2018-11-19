@@ -92,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="456">
@@ -102,6 +102,26 @@
                 <element signature="e#14680#15427#2" expanded="true" />
                 <element signature="e#43590#44261#2" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eyes-of-man/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eyes-of-man/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="8" selection-end-column="98" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,8 +158,8 @@
       <find>appearance</find>
       <find>border-radius: 50px;</find>
       <find>default</find>
-      <find>.hover</find>
       <find>18</find>
+      <find>.hover</find>
     </findStrings>
     <replaceStrings>
       <replace>benefits-radio</replace>
@@ -170,8 +190,8 @@
       <replace>18</replace>
       <replace>.ag-base_btn-v21</replace>
       <replace>ag-base_text-btn-v22</replace>
-      <replace>.ag-base_text-btn-v22__hover</replace>
       <replace>21</replace>
+      <replace>.ag-base_text-btn-v22__hover</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -184,7 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mockup/index.html" />
         <option value="$PROJECT_DIR$/mockup/css/style.css" />
         <option value="$PROJECT_DIR$/swiper/css/style.css" />
         <option value="$PROJECT_DIR$/swiper/index.html" />
@@ -235,6 +254,7 @@
         <option value="$USER_HOME$/vazhno_project/2018.10.28_FX-12165_page_FAQ/faq-TH.html" />
         <option value="$PROJECT_DIR$/buttons/css/style.css" />
         <option value="$PROJECT_DIR$/buttons/index.html" />
+        <option value="$PROJECT_DIR$/eyes-of-man/css/style.css" />
       </list>
     </option>
   </component>
@@ -393,12 +413,12 @@
       <workItem from="1542095692734" duration="24547000" />
       <workItem from="1542181165345" duration="20400000" />
       <workItem from="1542353103876" duration="23416000" />
-      <workItem from="1542612408110" duration="12737000" />
+      <workItem from="1542612408110" duration="13405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="415574000" />
+    <option name="totallyTimeSpent" value="416242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -435,20 +455,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="477" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-CN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="477" column="8" lean-forward="false" selection-start-line="477" selection-start-column="8" selection-end-line="477" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-ES.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="766">
@@ -790,6 +796,22 @@
             <element signature="e#14680#15427#2" expanded="true" />
             <element signature="e#43590#44261#2" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eyes-of-man/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eyes-of-man/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="8" selection-end-column="98" />
+          <folding />
         </state>
       </provider>
     </entry>

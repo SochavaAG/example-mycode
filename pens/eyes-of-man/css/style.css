@@ -3,6 +3,12 @@
   margin: 0 auto;
 }
 
+body {
+  background: -webkit-repeating-linear-gradient(45deg, #f0f2ed, #f0f2ed 20px, #f8f4eb 20px, #f8f4eb 40px);
+  background: -moz-repeating-linear-gradient(45deg, #f0f2ed, #f0f2ed 20px, #f8f4eb 20px, #f8f4eb 40px);
+  background: repeating-linear-gradient(45deg, #f0f2ed, #f0f2ed 20px, #f8f4eb 20px, #f8f4eb 40px);
+}
+
 .ag-man-page {
   min-height: 2000px;
 }
