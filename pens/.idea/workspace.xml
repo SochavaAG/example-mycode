@@ -18,169 +18,160 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tabs-no-js/index.html">
+      <file leaf-file-name="black-friday-2018-EN.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-EN.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="54" column="108" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="108" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tabs-no-js/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6792">
-              <caret line="283" column="20" lean-forward="false" selection-start-line="283" selection-start-column="20" selection-end-line="283" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project/2016.06.01_header-footer-1/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6528">
-              <caret line="272" column="2" lean-forward="false" selection-start-line="272" selection-start-column="2" selection-end-line="276" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact-button-bounce/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contact-button-bounce/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6960">
-              <caret line="290" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="236" column="29" lean-forward="false" selection-start-line="236" selection-start-column="29" selection-end-line="236" selection-end-column="29" />
-              <folding>
-                <element signature="e#5538#7605#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buttons/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="56" column="63" lean-forward="false" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10800">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#12893#13556#2" expanded="true" />
-                <element signature="e#14723#15470#2" expanded="true" />
-                <element signature="e#43633#44304#2" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buttons/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/glitch-effect/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="format-2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/format-2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1464">
-              <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/glitch-effect/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/format-t.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="132" column="21" lean-forward="true" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/glitch-effect/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="first-step-to-profitable-trading-AR.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_first-step-to-profitable-trading/first-step-to-profitable-trading-AR.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="974">
-              <caret line="1064" column="9" lean-forward="true" selection-start-line="1064" selection-start-column="9" selection-end-line="1064" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="best-conditions-AR.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_best conditions/best-conditions-AR.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="873" column="0" lean-forward="false" selection-start-line="873" selection-start-column="0" selection-end-line="889" selection-end-column="11" />
+            <state relative-caret-position="96">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="405" selection-end-column="3" />
               <folding>
                 <element signature="n#div#0;n#!!top" expanded="false" />
+                <element signature="n#script#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="black-friday-2018-CN.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-CN.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="484" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="black-friday-2018-ES.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-ES.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="486" selection-end-column="6" />
+              <folding>
+                <element signature="n#div#0;n#!!top" expanded="false" />
+                <element signature="n#script#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="black-friday-2018-FR.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-FR.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="573" column="9" lean-forward="true" selection-start-line="573" selection-start-column="9" selection-end-line="573" selection-end-column="9" />
+              <folding>
+                <element signature="n#style#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#!!top" expanded="false" />
+                <element signature="n#script#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="black-friday-2018-ID.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-ID.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="430" column="20" lean-forward="false" selection-start-line="430" selection-start-column="20" selection-end-line="430" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#!!top" expanded="false" />
+                <element signature="n#script#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="black-friday-2018-KO.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-KO.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="485" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#!!top" expanded="false" />
+                <element signature="n#script#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="black-friday-2018-MS.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-MS.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="487" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#!!top" expanded="false" />
+                <element signature="n#script#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="black-friday-2018-PK.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-PK.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="487" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#!!top" expanded="false" />
+                <element signature="n#script#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="black-friday-2018-PT.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-PT.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2083">
+              <caret line="489" column="30" lean-forward="false" selection-start-line="489" selection-start-column="30" selection-end-line="489" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#!!top" expanded="false" />
+                <element signature="n#script#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="black-friday-2018-RU.html" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-RU.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="419" column="9" lean-forward="false" selection-start-line="419" selection-start-column="9" selection-end-line="419" selection-end-column="9" />
+              <folding>
+                <element signature="n#style#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="black-friday-2018-TH.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-TH.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="483" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#!!top" expanded="false" />
+                <element signature="n#script#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="black-friday-2018-VI.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-VI.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="499" column="57" lean-forward="true" selection-start-line="499" selection-start-column="57" selection-end-line="499" selection-end-column="57" />
+              <folding>
+                <element signature="n#style#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -190,68 +181,68 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>em</find>
-      <find>transition:</find>
-      <find>.ag-progress-bar_btn</find>
-      <find>6</find>
-      <find>.btn</find>
-      <find>appearance</find>
-      <find>border-radius: 50px;</find>
-      <find>default</find>
-      <find>.</find>
-      <find>العلامة البيضاء</find>
-      <find>.hover</find>
-      <find>div</find>
-      <find>a</find>
-      <find>.button</find>
-      <find>.links</find>
-      <find>span</find>
-      <find>18</find>
-      <find>beat</find>
-      <find>header-background</find>
-      <find>g-container</find>
-      <find>F</find>
       <find>F()</find>
       <find>data-glitch</find>
       <find>!1</find>
       <find>!0</find>
-      <find>preload</find>
       <find>Modernizr</find>
       <find>v</find>
       <find>&quot;</find>
       <find>&amp;quot;</find>
+      <find>preload</find>
+      <find>images/</find>
+      <find>agGlitchImgArr</find>
+      <find>ag-reason</find>
+      <find>ag-reason_item</find>
+      <find>clients.png</find>
+      <find>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/glitch-effect/images/</find>
+      <find>/registration</find>
+      <find>Buka akaun demo :</find>
+      <find>5,</find>
+      <find>—</find>
+      <find>Open Demo Account</find>
+      <find>Open Demo Account:</find>
+      <find>!</find>
+      <find>-</find>
+      <find>$5</find>
+      <find>href=&quot;/</find>
+      <find>JUSTFOREX</find>
+      <find>black friday</find>
+      <find>ag-account_text</find>
+      <find>2 ہفتوں</find>
+      <find>ECN Zero</find>
     </findStrings>
     <replaceStrings>
-      <replace>15% {</replace>
-      <replace>6% {</replace>
-      <replace>https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/tabs-no-js/images/</replace>
-      <replace>MetaTrader&amp;#160;4</replace>
-      <replace>&quot;</replace>
-      <replace>an-shine</replace>
-      <replace>.ag-base_info-btn-v19</replace>
-      <replace>.ag-base_text-btn-v19</replace>
-      <replace>50px</replace>
-      <replace>transition: .4s ease-in-out;</replace>
-      <replace />
-      <replace>6</replace>
-      <replace>9</replace>
-      <replace>18</replace>
-      <replace>.ag-base_btn-v21</replace>
-      <replace>ag-base_text-btn-v22</replace>
-      <replace>.ag-base_text-btn-v22__hover</replace>
-      <replace>.ag-base_btn-v23</replace>
-      <replace>.ag-base_text-btn-wrap-v23</replace>
-      <replace>.ag-base_text-btn-v24</replace>
-      <replace>.ag-base_text-btn-v24__hover</replace>
-      <replace>.ag-base_text-btn-v23</replace>
-      <replace>21</replace>
-      <replace>ag-base_icon-btn-v24</replace>
-      <replace>false</replace>
-      <replace>true</replace>
-      <replace>'</replace>
-      <replace>agGlitchImgBox.</replace>
-      <replace>agGlitchImgEffect</replace>
-      <replace>agGlitchImgOriginal</replace>
+      <replace>ag-stop</replace>
+      <replace>href=&quot;/id/</replace>
+      <replace>Tipe Akun Demo JustForex</replace>
+      <replace>href=&quot;/ms/</replace>
+      <replace>Buka akaun demo</replace>
+      <replace>Buka akaun demo:</replace>
+      <replace>Membuka akun demo</replace>
+      <replace>href=&quot;/es/</replace>
+      <replace>Abrir una cuenta de prueba</replace>
+      <replace>href=&quot;/vi/</replace>
+      <replace>Mở tài khoản demo</replace>
+      <replace>데모계정 오픈</replace>
+      <replace>href=&quot;/ko/</replace>
+      <replace>เปิดบัญชีสาธิต</replace>
+      <replace>href=&quot;/th/</replace>
+      <replace>开启演示账户：</replace>
+      <replace>href=&quot;/fr/</replace>
+      <replace>Ouvrir le compte demo&amp;#160;:</replace>
+      <replace>&amp;#160;:</replace>
+      <replace>&amp;#160;;</replace>
+      <replace>href=&quot;/cn/</replace>
+      <replace>&amp;#160;!</replace>
+      <replace>href=&quot;/pk/</replace>
+      <replace>ag-stop_item</replace>
+      <replace>href=&quot;/pt/</replace>
+      <replace>href=&quot;/ru/</replace>
+      <replace>JustForex</replace>
+      <replace>Black Friday</replace>
+      <replace>ECN&amp;#160;Zero</replace>
+      <replace>&amp;#160;–</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -264,30 +255,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/example-site/planetakino.ua_showtimes/js/main.js" />
-        <option value="$PROJECT_DIR$/image-fixed-top-screen/js/main.js" />
-        <option value="$PROJECT_DIR$/image-fixed-top-screen/index.html" />
-        <option value="$PROJECT_DIR$/image-fixed-top-screen/css/style.css" />
-        <option value="$USER_HOME$/example-site/planetakino.ua_showtimes/css/style.css" />
-        <option value="$USER_HOME$/vazhno_project/2018.10.28_FX-12165_page_FAQ/faq-PT.html" />
-        <option value="$PROJECT_DIR$/item-animation-arc-arrow/index.html" />
-        <option value="$PROJECT_DIR$/item-animation-arc-arrow/css/style.css" />
-        <option value="$USER_HOME$/vazhno_project/2018.11.12_page_trading-platforms_mt4-pc/trading-platforms_mt4-pc-EN.html" />
-        <option value="$PROJECT_DIR$/animation-zooming-background/css/style.css" />
-        <option value="$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-EN.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-CN.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-ES.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-FR.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-ID.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-KO.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-MS.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-PT.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-RU.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-TH.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-VI.html" />
-        <option value="$PROJECT_DIR$/change-color-car/index.html" />
-        <option value="$PROJECT_DIR$/change-color-car/css/style.css" />
-        <option value="$PROJECT_DIR$/change-color-car/js/main.js" />
         <option value="$USER_HOME$/vazhno_project/2018.11.14_page_account-types/account-types-EN.html" />
         <option value="$USER_HOME$/vazhno_project/2018.11.14_page_trading-platforms/trading-platforms-EN.html" />
         <option value="$USER_HOME$/example-site/fs-web-design.webflow.io/css/fs-web-design.webflow.css" />
@@ -311,10 +278,34 @@
         <option value="$PROJECT_DIR$/buttons/js/main.js" />
         <option value="$USER_HOME$/format-2.js" />
         <option value="$USER_HOME$/format-t.css" />
-        <option value="$PROJECT_DIR$/glitch-effect/css/style.css" />
         <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_best conditions/best-conditions-AR.html" />
+        <option value="$PROJECT_DIR$/glitch-effect/css/style.css" />
         <option value="$PROJECT_DIR$/glitch-effect/index.html" />
         <option value="$PROJECT_DIR$/glitch-effect/js/main.js" />
+        <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-ID.html" />
+        <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-EN.html" />
+        <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-MS.html" />
+        <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-ES.html" />
+        <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-VI.html" />
+        <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-KO.html" />
+        <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-TH.html" />
+        <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-CN.html" />
+        <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-PK.html" />
+        <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-FR.html" />
+        <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-PT.html" />
+        <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-RU.html" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-CN.html" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-EN.html" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-PT.html" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-VI.html" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-ES.html" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-FR.html" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-ID.html" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-KO.html" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-MS.html" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-PK.html" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-TH.html" />
+        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-RU.html" />
       </list>
     </option>
   </component>
@@ -349,7 +340,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_best conditions/best-conditions-AR.html" />
+    <property name="last_opened_file_path" value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-VI.html" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RunManager">
@@ -473,12 +464,14 @@
       <workItem from="1542095692734" duration="24547000" />
       <workItem from="1542181165345" duration="20400000" />
       <workItem from="1542353103876" duration="23416000" />
-      <workItem from="1542612408110" duration="21684000" />
+      <workItem from="1542612408110" duration="22445000" />
+      <workItem from="1542698934800" duration="21619000" />
+      <workItem from="1542871798922" duration="5839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="424521000" />
+    <option name="totallyTimeSpent" value="452740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -515,201 +508,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-PT.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="477" column="8" lean-forward="false" selection-start-line="477" selection-start-column="8" selection-end-line="477" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-RU.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="477" column="8" lean-forward="false" selection-start-line="477" selection-start-column="8" selection-end-line="477" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-TH.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="477" column="8" lean-forward="false" selection-start-line="477" selection-start-column="8" selection-end-line="477" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-animation-border-circle-background/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="112" column="41" lean-forward="true" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.13_page_demo-account/demo-account-VI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="457" column="26" lean-forward="false" selection-start-line="457" selection-start-column="26" selection-end-line="457" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example/02.10.2015_example/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272952">
-          <caret line="11748" column="44" lean-forward="false" selection-start-line="11748" selection-start-column="44" selection-end-line="11748" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example/примеры сайтов/www.northghost.com/js/coreUtils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="0" column="54205" lean-forward="true" selection-start-line="0" selection-start-column="54205" selection-end-line="0" selection-end-column="54205" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/change-color-car/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3360">
-          <caret line="140" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="386" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pop-up-modal-window-in-local-storage/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="43" column="6" lean-forward="false" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu-and-lamp-light/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="189" column="59" lean-forward="true" selection-start-line="189" selection-start-column="12" selection-end-line="189" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/change-color-car/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.14_page_account-types/account-types-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="560" column="0" lean-forward="false" selection-start-line="560" selection-start-column="0" selection-end-line="1129" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.10.19_landing_double-bonus-africa/double-bonus-africa-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20808">
-          <caret line="867" column="9" lean-forward="false" selection-start-line="834" selection-start-column="0" selection-end-line="867" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.14_page_trading-platforms/trading-platforms-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="377" column="8" lean-forward="true" selection-start-line="377" selection-start-column="8" selection-end-line="377" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example-site/fs-web-design.webflow.io/css/fs-web-design.webflow.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example-site/fs-web-design.webflow.io/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1272">
-          <caret line="53" column="73" lean-forward="false" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example-site/fs-web-design.webflow.io/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="28" column="7" lean-forward="false" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2017.10.11_landing_reliable-broker/reliable-broker-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.14_landing_reliable-broker/reliable-broker-AR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="552" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slider-no-js/libs/jquery/jquery-1.11.1.min.js" />
-    <entry file="file://$USER_HOME$/example-site/nodeart.io_ru/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9912">
-          <caret line="413" column="24" lean-forward="false" selection-start-line="413" selection-start-column="16" selection-end-line="413" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="468" column="85" lean-forward="false" selection-start-line="468" selection-start-column="76" selection-end-line="468" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example-site/nodeart.io_ru/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="340077" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/change-color-car/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slider-no-js/css/style.css" />
     <entry file="file://$PROJECT_DIR$/slider-no-js/index.html" />
     <entry file="file://$USER_HOME$/vazhno_project/2016.06.01_header-footer-1/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6528">
           <caret line="272" column="2" lean-forward="false" selection-start-line="272" selection-start-column="2" selection-end-line="276" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/button-bounce/css/style.css" />
     <entry file="file://$PROJECT_DIR$/button-bounce/index.html" />
-    <entry file="file://$PROJECT_DIR$/contact-button-bounce/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tabs-no-js/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6792">
-          <caret line="283" column="20" lean-forward="false" selection-start-line="283" selection-start-column="20" selection-end-line="283" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tabs-no-js/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
+        <state relative-caret-position="0">
           <caret line="54" column="108" lean-forward="false" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="108" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,17 +530,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6960">
           <caret line="290" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/example-site/sobolev.htmldev.pro/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="5664">
           <caret line="236" column="29" lean-forward="false" selection-start-line="236" selection-start-column="29" selection-end-line="236" selection-end-column="29" />
-          <folding>
-            <element signature="e#5538#7605#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -735,7 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -743,10 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="569">
           <caret line="847" column="0" lean-forward="false" selection-start-line="847" selection-start-column="0" selection-end-line="3041" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,14 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="806" column="0" lean-forward="false" selection-start-line="806" selection-start-column="0" selection-end-line="2924" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#ul#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#ul#2;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="245" column="2" lean-forward="false" selection-start-line="245" selection-start-column="2" selection-end-line="247" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="8" selection-end-column="98" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,27 +586,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10800">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#12893#13556#2" expanded="true" />
-            <element signature="e#14723#15470#2" expanded="true" />
-            <element signature="e#43633#44304#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buttons/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="1344">
           <caret line="56" column="63" lean-forward="false" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,7 +600,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_first-step-to-profitable-trading/first-step-to-profitable-trading-AR.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25536">
+          <caret line="1064" column="9" lean-forward="true" selection-start-line="1064" selection-start-column="9" selection-end-line="1064" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glitch-effect/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glitch-effect/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="24" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2040">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact-button-bounce/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_best conditions/best-conditions-AR.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="120" />
         </state>
       </provider>
     </entry>
@@ -829,57 +656,167 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="132" column="21" lean-forward="true" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/glitch-effect/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_first-step-to-profitable-trading/first-step-to-profitable-trading-AR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="974">
-          <caret line="1064" column="9" lean-forward="true" selection-start-line="1064" selection-start-column="9" selection-end-line="1064" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_best conditions/best-conditions-AR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="873" column="0" lean-forward="false" selection-start-line="873" selection-start-column="0" selection-end-line="889" selection-end-column="11" />
-          <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1464">
-          <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/glitch-effect/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="191">
+          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="26" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/glitch-effect/js/main.js">
+    <entry file="file://$PROJECT_DIR$/tabs-no-js/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-          <folding />
+        <state relative-caret-position="-4248">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-ID.html" />
+    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-MS.html" />
+    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-CN.html" />
+    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-ES.html" />
+    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-FR.html" />
+    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-KO.html" />
+    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-PK.html" />
+    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-VI.html" />
+    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-TH.html" />
+    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-EN.html" />
+    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-RU.html" />
+    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-PT.html" />
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-CN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="484" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="405" selection-end-column="3" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-VI.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="499" column="57" lean-forward="true" selection-start-line="499" selection-start-column="57" selection-end-line="499" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-ES.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="486" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-FR.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="573" column="9" lean-forward="true" selection-start-line="573" selection-start-column="9" selection-end-line="573" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-ID.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="430" column="20" lean-forward="false" selection-start-line="430" selection-start-column="20" selection-end-line="430" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-KO.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="485" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-MS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="487" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-PK.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="487" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-PT.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2083">
+          <caret line="489" column="30" lean-forward="false" selection-start-line="489" selection-start-column="30" selection-end-line="489" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-TH.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="483" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-RU.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="419" column="9" lean-forward="false" selection-start-line="419" selection-start-column="9" selection-end-line="419" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

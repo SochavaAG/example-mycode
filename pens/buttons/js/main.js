@@ -2,7 +2,7 @@
   $(function () {
 
     /* button 4 */
-    $('.js-base_btn-v4').click(function (e) {
+    $('.js-base_btn-v4').on('click', function () {
       $(this).toggleClass('js-ag-base_btn-v4-clicked');
     });
     /* /button 4 */
@@ -35,11 +35,11 @@
       }, 200);
     }
 
-      agDownloadBtn.click(function () {
-        if(!agDownloadBtnStatus.hasClass('js-complete')) {
-          agProgressInterval();
-        }
-      });
+    agDownloadBtn.on('click', function () {
+      if(!agDownloadBtnStatus.hasClass('js-complete')) {
+        agProgressInterval();
+      }
+    });
     /* /button 6 */
 
     /* button 10 */
@@ -60,7 +60,7 @@
       agBtn10.addClass('js-complete');
     }
 
-    agBtn10.click(function () {
+    agBtn10.on('click', function () {
       if(!agBtn10.hasClass('js-complete')) {
         agAnimateBtnBorderShow();
       }
@@ -68,4 +68,3 @@
 
   });
 })(jQuery);
-
