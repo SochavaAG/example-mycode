@@ -1,0 +1,208 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-more-block {
+  padding: 50px 0;
+}
+
+.ag-more_text {
+  display: table;
+  padding: 0 20px 0 0;
+
+  font-size: 30px;
+  color: #3e4de5;
+
+  position: relative;
+}
+.ag-more_text:before,
+.ag-more_text:after {
+  content: "";
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent #3e4de5 #3e4de5 transparent;
+  background: transparent;
+
+  position: absolute;
+  top: 50%;
+  right: 0;
+
+  -webkit-transform: translateX(0) rotate(-45deg);
+  -moz-transform: translateX(0) rotate(-45deg);
+  -ms-transform: translateX(0) rotate(-45deg);
+  -o-transform: translateX(0) rotate(-45deg);
+  transform: translateX(0) rotate(-45deg);
+
+  -webkit-animation: an-arrows 2s linear infinite;
+  -moz-animation: an-arrows 2s linear infinite;
+  -o-animation: an-arrows 2s linear infinite;
+  animation: an-arrows 2s linear infinite;
+}
+.ag-more_text:before {
+  width: 10px;
+  height: 10px;
+  margin: -6px 0 0;
+
+  opacity: 0;
+
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.ag-more_text:after {
+  width: 5px;
+  height: 5px;
+  margin: -4px 0 0;
+}
+
+@-webkit-keyframes an-arrows {
+  0% {
+    opacity: 0;
+
+    -webkit-transform: translateX(-10px) rotate(-45deg);
+    transform: translateX(-10px) rotate(-45deg);
+  }
+  20% {
+    opacity: 1;
+
+    -webkit-transform: translateX(-5px) rotate(-45deg);
+    transform: translateX(-5px) rotate(-45deg);
+  }
+  80% {
+    opacity: 1;
+
+    -webkit-transform: translateX(5px) rotate(-45deg);
+    transform: translateX(5px) rotate(-45deg);
+  }
+  100% {
+    opacity: 0;
+
+    -webkit-transform: translateX(10px) rotate(-45deg);
+    transform: translateX(10px) rotate(-45deg);
+  }
+}
+
+@-moz-keyframes an-arrows {
+  0% {
+    opacity: 0;
+
+    -moz-transform: translateX(-10px) rotate(-45deg);
+    transform: translateX(-10px) rotate(-45deg);
+  }
+  20% {
+    opacity: 1;
+
+    -moz-transform: translateX(-5px) rotate(-45deg);
+    transform: translateX(-5px) rotate(-45deg);
+  }
+  80% {
+    opacity: 1;
+
+    -moz-transform: translateX(5px) rotate(-45deg);
+    transform: translateX(5px) rotate(-45deg);
+  }
+  100% {
+    opacity: 0;
+
+    -moz-transform: translateX(10px) rotate(-45deg);
+    transform: translateX(10px) rotate(-45deg);
+  }
+}
+
+@-o-keyframes an-arrows {
+  0% {
+    opacity: 0;
+
+    -o-transform: translateX(-10px) rotate(-45deg);
+    transform: translateX(-10px) rotate(-45deg);
+  }
+  20% {
+    opacity: 1;
+
+    -o-transform: translateX(-5px) rotate(-45deg);
+    transform: translateX(-5px) rotate(-45deg);
+  }
+  80% {
+    opacity: 1;
+
+    -o-transform: translateX(5px) rotate(-45deg);
+    transform: translateX(5px) rotate(-45deg);
+  }
+  100% {
+    opacity: 0;
+
+    -o-transform: translateX(10px) rotate(-45deg);
+    transform: translateX(10px) rotate(-45deg);
+  }
+}
+
+@keyframes an-arrows {
+  0% {
+    opacity: 0;
+
+    -webkit-transform: translateX(-10px) rotate(-45deg);
+    -moz-transform: translateX(-10px) rotate(-45deg);
+    -o-transform: translateX(-10px) rotate(-45deg);
+    transform: translateX(-10px) rotate(-45deg);
+  }
+  20% {
+    opacity: 1;
+
+    -webkit-transform: translateX(-5px) rotate(-45deg);
+    -moz-transform: translateX(-5px) rotate(-45deg);
+    -o-transform: translateX(-5px) rotate(-45deg);
+    transform: translateX(-5px) rotate(-45deg);
+  }
+  80% {
+    opacity: 1;
+
+    -webkit-transform: translateX(5px) rotate(-45deg);
+    -moz-transform: translateX(5px) rotate(-45deg);
+    -o-transform: translateX(5px) rotate(-45deg);
+    transform: translateX(5px) rotate(-45deg);
+  }
+  100% {
+    opacity: 0;
+
+    -webkit-transform: translateX(10px) rotate(-45deg);
+    -moz-transform: translateX(10px) rotate(-45deg);
+    -o-transform: translateX(10px) rotate(-45deg);
+    transform: translateX(10px) rotate(-45deg);
+  }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
