@@ -1824,6 +1824,102 @@
 }
 /* /button 24 */
 
+/* button 25 */
+.ag-base_btn-v25 {
+  display: block;
+  background: #fa4923;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZhNDkyMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmJhMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(left,  #fa4923 0%, #ffba00 100%);
+  background: -webkit-linear-gradient(left,  #fa4923 0%,#ffba00 100%);
+  background: linear-gradient(to right,  #fa4923 0%,#ffba00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa4923', endColorstr='#ffba00',GradientType=1 );
+
+  overflow: hidden;
+
+  color: #FFF;
+
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -ms-border-radius: 5px 5px 5px 5px;
+  -o-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+
+  -webkit-box-shadow: 0 2px 0 0 rgba(232, 52, 14, .004), 0 9px 16px 1px rgba(250, 73, 35, .25);
+  -moz-box-shadow: 0 2px 0 0 rgba(232, 52, 14, .004), 0 9px 16px 1px rgba(250, 73, 35, .25);
+  -o-box-shadow: 0 2px 0 0 rgba(232, 52, 14, .004), 0 9px 16px 1px rgba(250, 73, 35, .25);
+  box-shadow: 0 2px 0 0 rgba(232, 52, 14, .004), 0 9px 16px 1px rgba(250, 73, 35, .25);
+
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+
+  position: relative;
+}
+.ag-base_btn-v25:before {
+  content: "";
+  height: 300px;
+  width: 20px;
+  margin-left: 60px;
+  background-color: #FFF;
+
+
+  position: absolute;
+  left: -40px;
+  top: -150px;
+
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  transition: all 0.1s;
+
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+
+  -webkit-animation: an-slideme 3s ease-in-out 0.05s infinite;
+  -moz-animation: an-slideme 3s ease-in-out 0.05s infinite;
+  -o-animation: an-slideme 3s ease-in-out 0.05s infinite;
+  animation: an-slideme 3s ease-in-out 0.05s infinite;
+}
+.ag-base_btn-v25:hover {
+  background: #fb6e4f;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZiNmU0ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmM5MzMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(left,  #fb6e4f 0%, #ffc933 100%);
+  background: -webkit-linear-gradient(left,  #fb6e4f 0%,#ffc933 100%);
+  background: linear-gradient(to right,  #fb6e4f 0%,#ffc933 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb6e4f', endColorstr='#ffc933',GradientType=1 );
+}
+
+@-webkit-keyframes an-slideme {
+  0% { left: -30px; margin-left: 0; }
+  30% { left: 110%; margin-left: 80px; }
+  100% { left: 110%; margin-left: 80px; }
+}
+
+@-moz-keyframes an-slideme {
+  0% { left: -30px; margin-left: 0; }
+  30% { left: 110%; margin-left: 80px; }
+  100% { left: 110%; margin-left: 80px; }
+}
+
+@-o-keyframes an-slideme {
+  0% { left: -30px; margin-left: 0; }
+  30% { left: 110%; margin-left: 80px; }
+  100% { left: 110%; margin-left: 80px; }
+}
+
+@keyframes an-slideme {
+  0% { left: -30px; margin-left: 0; }
+  30% { left: 110%; margin-left: 80px; }
+  100% { left: 110%; margin-left: 80px; }
+}
+/* /button 25 */
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;
