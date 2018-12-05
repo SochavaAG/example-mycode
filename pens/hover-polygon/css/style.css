@@ -110,13 +110,13 @@ body {
   bottom: 0;
 }
 .ag-delivery_text-item-1:before {
-  background: url(../images/tick.gif) no-repeat scroll 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/hover-polygon/images/tick.gif) no-repeat scroll 0 0;
 }
 .ag-delivery_text-item-2:before {
-  background: url(../images/bike.gif) no-repeat scroll 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/hover-polygon/images/bike.gif) no-repeat scroll 0 0;
 }
 .ag-delivery_text-item-3:before {
-  background: url(../images/pizza.gif) no-repeat scroll 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/hover-polygon/images/pizza.gif) no-repeat scroll 0 0;
 }
 
 
