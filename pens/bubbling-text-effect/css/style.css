@@ -1,0 +1,57 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-bubbles-block {
+  padding: 50px 0;
+}
+.ag-bubbles {
+  display: table;
+  margin: 0 auto;
+
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 45px;
+  color: #4ca1ea;
+
+  position: relative;
+}
+
+.js-ag-individual-bubble {
+  position: absolute;
+  border-radius: 100%;
+  bottom: 10px;
+  background-color: #4ca1ea;
+  z-index: 1;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
