@@ -1,0 +1,255 @@
+html,
+body,
+.ag-snow-block,
+.ag-format-container {
+  height: 100%;
+}
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-snow-block {
+  overflow: hidden;
+}
+.ag-snow_box:before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 200%;
+
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: -50%;
+  
+  background-image: url(../images/falling-snow-small.png);
+
+  -webkit-animation: an-snow 28s linear infinite;
+  -moz-animation: an-snow 28s linear infinite;
+  -ms-animation: an-snow 28s linear infinite;
+  -o-animation: an-snow 28s linear infinite;
+  animation: an-snow 28s linear infinite;
+
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+
+  -webkit-transition: opacity 10s;
+  -moz-transition: opacity 10s;
+  -ms-transition: opacity 10s;
+  -o-transition: opacity 10s;
+  transition: opacity 10s;
+}
+.ag-snow_box:after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 200%;
+
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: -50%;
+
+  background-image: url(../images/falling-snow-big.png);
+
+  -webkit-animation: an-snow 18s linear infinite;
+  -moz-animation: an-snow 18s linear infinite;
+  -ms-animation: an-snow 18s linear infinite;
+  -o-animation: an-snow 18s linear infinite;
+  animation: an-snow 18s linear infinite;
+
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+
+  -webkit-transition: opacity 5s;
+  -moz-transition: opacity 5s;
+  -ms-transition: opacity 5s;
+  -o-transition: opacity 5s;
+  transition: opacity 5s;
+}
+.ag-snow_box:before,
+.ag-snow_box:after {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+
+.ag-snow-block {
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+
+  background: -webkit-linear-gradient(top, #7dbacc, #fafcfd);
+  background: -moz-linear-gradient(top, #7dbacc, #fafcfd);
+  background: -ms-linear-gradient(top, #7dbacc, #fafcfd);
+  background: -o-linear-gradient(top, #7dbacc, #fafcfd);
+  background: linear-gradient(to bottom, #7dbacc, #fafcfd);
+}
+
+.ag-cloud-one {
+  height: 22.3rem;
+  width: 55.7rem;
+
+  z-index: 1;
+  position: absolute;
+  top: -2.4rem;
+  left: -10%;
+
+  background-repeat: no-repeat;
+  background-image: url(../images/cloud-left.png);
+}
+.ag-cloud-two {
+  height: 25.6rem;
+  width: 72.4rem;
+
+  z-index: 2;
+  position: absolute;
+  top: -6.4rem;
+  right: -10%;
+
+  background-repeat: no-repeat;
+  background-image: url(../images/cloud-right.png);
+}
+.ag-bamboo {
+  height: 100%;
+  width: 320px;
+
+  background: url(../images/xmas-bamboo.png) no-repeat scroll 100% 100%;
+
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  right: 10%;
+  bottom: 0;
+}
+.ag-grass {
+  height: 27px;
+  background: url(../images/snow.png) no-repeat scroll 50% 100%;
+  background-size: cover;
+
+  z-index: 9;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
+  .ag-cloud-one {
+    background-image: url(../images/cloud-left-2x.png);
+  }
+  .ag-cloud-two {
+    background-image: url(../images/cloud-right-2x.png);
+  }
+  .ag-bamboo {
+    background-image: url(../images/xmas-bamboo-2x.png);
+  }
+  .ag-grass {
+    background-image: url(../images/snow-2x.png);
+  }
+}
+
+.ag-cloud-one,
+.ag-cloud-two {
+  opacity: .6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: alpha(opacity=60);
+
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -ms-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+@-webkit-keyframes an-snow {
+  0% {
+    background-position-x: 0;
+    background-position-y: 0;
+  }
+  50% {
+    background-position-y: 400px;
+  }
+  100% {
+    background-position-x: 400px;
+    background-position-y: 800px;
+  }
+}
+
+@-moz-keyframes an-snow {
+  0% {
+    background-position-x: 0;
+    background-position-y: 0;
+  }
+  50% {
+    background-position-y: 400px
+  }
+  100% {
+    background-position-x: 400px;
+    background-position-y: 800px;
+  }
+}
+
+@-o-keyframes an-snow {
+  0% {
+    background-position-x: 0;
+    background-position-y: 0;
+  }
+  50% {
+    background-position-y: 400px;
+  }
+  100% {
+    background-position-x: 400px;
+    background-position-y: 800px;
+  }
+}
+
+@keyframes an-snow {
+  0% {
+    background-position-x: 0;
+    background-position-y: 0;
+  }
+  50% {
+    background-position-y: 400px;
+  }
+  100% {
+    background-position-x: 400px;
+    background-position-y: 800px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
