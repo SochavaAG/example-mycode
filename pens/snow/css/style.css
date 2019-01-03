@@ -23,8 +23,8 @@ body,
   position: absolute;
   top: 0;
   left: -50%;
-  
-  background-image: url(../images/falling-snow-small.png);
+
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/snow/images/falling-snow-small.png);
 
   -webkit-animation: an-snow 28s linear infinite;
   -moz-animation: an-snow 28s linear infinite;
@@ -53,7 +53,7 @@ body,
   top: 0;
   left: -50%;
 
-  background-image: url(../images/falling-snow-big.png);
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/snow/images/falling-snow-big.png);
 
   -webkit-animation: an-snow 18s linear infinite;
   -moz-animation: an-snow 18s linear infinite;
@@ -102,7 +102,7 @@ body,
   left: -10%;
 
   background-repeat: no-repeat;
-  background-image: url(../images/cloud-left.png);
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/snow/images/cloud-left.png);
 }
 .ag-cloud-two {
   height: 25.6rem;
@@ -114,13 +114,13 @@ body,
   right: -10%;
 
   background-repeat: no-repeat;
-  background-image: url(../images/cloud-right.png);
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/snow/images/cloud-right.png);
 }
 .ag-bamboo {
   height: 100%;
   width: 320px;
 
-  background: url(../images/xmas-bamboo.png) no-repeat scroll 100% 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/snow/images/xmas-bamboo.png) no-repeat scroll 100% 100%;
 
   z-index: 5;
   position: absolute;
@@ -130,7 +130,7 @@ body,
 }
 .ag-grass {
   height: 27px;
-  background: url(../images/snow.png) no-repeat scroll 50% 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/snow/images/snow.png) no-repeat scroll 50% 100%;
   background-size: cover;
 
   z-index: 9;
@@ -143,16 +143,16 @@ body,
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
   .ag-cloud-one {
-    background-image: url(../images/cloud-left-2x.png);
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/snow/images/cloud-left-2x.png);
   }
   .ag-cloud-two {
-    background-image: url(../images/cloud-right-2x.png);
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/snow/images/cloud-right-2x.png);
   }
   .ag-bamboo {
-    background-image: url(../images/xmas-bamboo-2x.png);
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/snow/images/xmas-bamboo-2x.png);
   }
   .ag-grass {
-    background-image: url(../images/snow-2x.png);
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/snow/images/snow-2x.png);
   }
 }
 

@@ -1,0 +1,78 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-brand_list {
+  margin: 60px 0;
+  padding: 15px 20px;
+  background-color: #F8BC3A;
+
+  text-align: center;
+}
+.ag-brand_item {
+  display: inline-block;
+  width: 24%;
+
+  vertical-align: middle;
+}
+.ag-brand_img {
+  display: block;
+  height: 98px;
+  margin: 0 auto;
+  background-image: url(../images/sprite-brands.png);
+  background-repeat: no-repeat;
+}
+.ag-brand_img-1 {
+  width: 83px;
+  background-position: 0 50%;
+}
+.ag-brand_img-2 {
+  width: 155px;
+  background-position: -100px 50%;
+}
+.ag-brand_img-3 {
+  width: 175px;
+  background-position: -300px 50%;
+}
+.ag-brand_img-4 {
+  width: 160px;
+  background-position: -500px 50%;
+}
+
+
+@media only screen and (max-width: 979px) {
+  .ag-brand_item {
+    display: block;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
