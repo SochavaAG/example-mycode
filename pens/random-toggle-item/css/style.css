@@ -20,7 +20,7 @@
   display: block;
   height: 98px;
   margin: 0 auto;
-  background-image: url(../images/sprite-brands.png);
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/random-toggle-item/images/sprite-brands.png);
   background-repeat: no-repeat;
 }
 .ag-brand_img-1 {

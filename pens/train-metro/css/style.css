@@ -1,0 +1,175 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+/*
+.announce__text {
+  font-family: serif;
+  font-size: 110%;
+  max-width: 920px;
+  margin: 24px auto 12px;
+  padding: 10px 20px;
+  width: 72%;
+}
+
+.announce__text .body_link{
+  margin-left: -20px;
+}
+
+.announce__picture {
+  margin: 10px 22px 20px;
+  text-align: center;
+}
+
+.announce__picture a{
+  display: inline-block;
+}
+
+.announce__picture a{
+  border-bottom: none !important;
+}
+
+.announce__picture img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.announce__picture iframe {
+  max-width: 100%;
+}
+.announce__picture-note {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  max-width: 920px;
+  margin: 20px 100px 30px 50%;
+  padding-left: 100px;
+  color: #000;
+  text-align: left;
+  width: 37%;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.announce__picture-note2 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline;
+  font-style: italic;
+  font-size: 15px;
+  color: #000;
+  text-align: left;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+
+
+.shake_mobile {
+  display: none;
+  width: 100%;
+  height: 600px;
+  background: url(../images/wall.jpg) top center repeat-x;
+  margin-bottom: 75px;
+}
+.shake_mobile_train {
+  margin-left: -300px;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+}*/
+.portfolio_slider__wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+.portfolio_slider_0 {
+  overflow: hidden;
+}
+.portfolio_screenshot {
+  position: relative;
+  width: 100%;
+}
+.portfolio_slider__inner {
+  position: absolute;
+  background: url(../images/wall.jpg) top center repeat-x;
+  top: 986px;
+  width: 100%;
+  height: auto;
+}
+.portfolio_slider__inner.ui-draggable {
+  cursor: url(../images/openhand_8_8.cur), default;
+}
+.portfolio_slider__inner.ui-draggable.ui-draggable-dragging {
+  cursor: url(../images/closedhand_8_8.cur), move;
+}
+.slider-img {
+  position: relative;
+  width: 19330px;
+  height: 570px;
+}
+.platform {
+  position: relative;
+  width: 100%;
+  height: 570px;
+  margin-top: -570px;
+  margin-bottom: 200px;
+  background: url(../images/platform.png) top center repeat-x;
+  pointer-events: none;
+}
+.tFixed {
+  position: fixed;
+  top: 50%;
+  margin-top: -285px;
+}
+.tStopped {
+  position: absolute;
+}
+.note_slider {
+  width: 100%;
+  height: 200px;
+
+  z-index: 344;
+  position: absolute;
+  top: 590px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
