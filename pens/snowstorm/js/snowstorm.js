@@ -71,7 +71,7 @@ function SnowStorm() {
   // PROPERTIES
   // ------------------
 
-  var imagePath = 'images/snow/'; // relative path to snow images (including trailing slash)
+  var imagePath = 'https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/snowstorm/images/snow/'; // relative path to snow images (including trailing slash)
   var flakesMax = 65;
   var flakesMaxActive = 65;
   var vMaxX = 2;
