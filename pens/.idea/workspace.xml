@@ -21,48 +21,84 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/example-site/chudo-nauka.ru/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
+            <state relative-caret-position="44352">
               <caret line="1848" column="13" lean-forward="false" selection-start-line="1848" selection-start-column="13" selection-end-line="1848" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example-site/chudo-nauka.ru/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151392">
+              <caret line="6308" column="46" lean-forward="false" selection-start-line="6308" selection-start-column="30" selection-end-line="6308" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/circle-animation-svg/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="50" column="47" lean-forward="false" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/circle-animation-svg/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example-site/cobiro.com/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="52" column="60740" lean-forward="false" selection-start-line="52" selection-start-column="60740" selection-end-line="52" selection-end-column="60740" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/example-site/cobiro.com/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="4633" column="8" lean-forward="true" selection-start-line="4633" selection-start-column="8" selection-end-line="4633" selection-end-column="8" />
               <folding>
-                <element signature="e#33869#33877#0" expanded="true" />
-                <element signature="e#34466#34474#0" expanded="true" />
-                <element signature="e#35075#35083#0" expanded="true" />
-                <element signature="e#35631#35639#0" expanded="true" />
-                <element signature="e#36252#36260#0" expanded="true" />
-                <element signature="e#36832#36840#0" expanded="true" />
-                <element signature="e#37383#37391#0" expanded="true" />
-                <element signature="e#37978#37986#0" expanded="true" />
-                <element signature="e#38562#38570#0" expanded="true" />
-                <element signature="e#39215#39223#0" expanded="true" />
-                <element signature="e#39835#39843#0" expanded="true" />
-                <element signature="e#40448#40456#0" expanded="true" />
-                <element signature="e#41605#41613#0" expanded="true" />
-                <element signature="e#42243#42251#0" expanded="true" />
-                <element signature="e#42892#42900#0" expanded="true" />
-                <element signature="e#43483#43491#0" expanded="true" />
-                <element signature="e#44031#44039#0" expanded="true" />
-                <element signature="e#44643#44651#0" expanded="true" />
-                <element signature="e#45223#45231#0" expanded="true" />
-                <element signature="e#45857#45865#0" expanded="true" />
-                <element signature="e#46423#46431#0" expanded="true" />
-                <element signature="e#46987#46995#0" expanded="true" />
-                <element signature="e#47610#47618#0" expanded="true" />
-                <element signature="e#48200#48208#0" expanded="true" />
-                <element signature="e#48756#48764#0" expanded="true" />
-                <element signature="e#49317#49325#0" expanded="true" />
-                <element signature="e#49936#49944#0" expanded="true" />
-                <element signature="e#50537#50545#0" expanded="true" />
-                <marker date="1543503848935" expanded="false" signature="3067:5705" ph="..." />
+                <element signature="e#51516#52840#0" expanded="false" />
+                <element signature="e#52882#52925#0" expanded="false" />
+                <element signature="e#52957#53006#0" expanded="false" />
+                <element signature="e#53035#53072#0" expanded="false" />
+                <element signature="e#53222#53529#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/example-site/chudo-nauka.ru/css/style.css">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/circle-animation-svg/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="6308" column="46" lean-forward="false" selection-start-line="6308" selection-start-column="30" selection-end-line="6308" selection-end-column="46" />
+            <state relative-caret-position="384">
+              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example-site/cobiro.com/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1157">
+              <caret line="611" column="50" lean-forward="true" selection-start-line="611" selection-start-column="50" selection-end-line="611" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -72,15 +108,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/media/catalog/brands/</find>
-      <find>/media/content/logos/</find>
-      <find>/media/social/</find>
-      <find>1.png</find>
-      <find>media/</find>
-      <find>&lt;img</find>
-      <find>/static/img/lp/</find>
-      <find>/static/img/</find>
-      <find>&quot;</find>
       <find>&quot;FjallaOne&quot;</find>
       <find>/static/img</find>
       <find>cloudfront.net</find>
@@ -102,6 +129,15 @@
       <find>SegoePrintRegular</find>
       <find>font-family: SegoePrintRegular</find>
       <find>url(../images/</find>
+      <find>.logo-icon .svg-container</find>
+      <find>.svg-container</find>
+      <find>w</find>
+      <find>w(</find>
+      <find>y(</find>
+      <find>points</find>
+      <find>w(t)</find>
+      <find>mask-large</find>
+      <find>.timeline</find>
     </findStrings>
     <replaceStrings>
       <replace>开启演示账户：</replace>
@@ -146,11 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/slider-no-js/css/style.css" />
-        <option value="$PROJECT_DIR$/tabs-no-js/css/style.css" />
-        <option value="$PROJECT_DIR$/tabs-no-js/index.html" />
-        <option value="$PROJECT_DIR$/button-bounce/css/style.css" />
-        <option value="$PROJECT_DIR$/button-bounce/index.html" />
         <option value="$PROJECT_DIR$/contact-button-bounce/index.html" />
         <option value="$PROJECT_DIR$/contact-button-bounce/css/style.css" />
         <option value="$USER_HOME$/vazhno_project/2018.10.28_FX-12165_page_FAQ/faq-VI.html" />
@@ -197,6 +228,11 @@
         <option value="$USER_HOME$/example-site/spaceage.tass.ru/index.html" />
         <option value="$USER_HOME$/example-site/chudo-nauka.ru/index.html" />
         <option value="$USER_HOME$/example-site/chudo-nauka.ru/css/style.css" />
+        <option value="$PROJECT_DIR$/circle-animation-svg/css/style.css" />
+        <option value="$PROJECT_DIR$/circle-animation-svg/index.html" />
+        <option value="$PROJECT_DIR$/circle-animation-svg/js/main.js" />
+        <option value="$USER_HOME$/example-site/cobiro.com/js/main.js" />
+        <option value="$USER_HOME$/example-site/cobiro.com/index.html" />
       </list>
     </option>
   </component>
@@ -359,11 +395,12 @@
       <workItem from="1542698934800" duration="21619000" />
       <workItem from="1542871798922" duration="5839000" />
       <workItem from="1543481383929" duration="16777000" />
+      <workItem from="1547192629145" duration="9912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="469517000" />
+    <option name="totallyTimeSpent" value="479429000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -396,52 +433,19 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$USER_HOME$/example-site/cobiro.com/js/main.js</url>
+          <line>1313</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project/2018.10.28_FX-12165_page_FAQ/faq-VI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="806" column="0" lean-forward="false" selection-start-line="806" selection-start-column="0" selection-end-line="2924" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2018.10.28_FX-12165_page_FAQ/faq-PT.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu-and-lamp-light/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="245" column="2" lean-forward="false" selection-start-line="245" selection-start-column="2" selection-end-line="247" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eyes-of-man/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="8" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eyes-of-man/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="44" lean-forward="false" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_first-step-to-profitable-trading/first-step-to-profitable-trading-AR.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25536">
@@ -528,10 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="484" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -539,10 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="3" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="405" selection-end-column="3" />
-          <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,9 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2328">
           <caret line="499" column="9" lean-forward="false" selection-start-line="499" selection-start-column="9" selection-end-line="499" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -560,10 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9696">
           <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="486" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -571,11 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="573" column="9" lean-forward="false" selection-start-line="573" selection-start-column="9" selection-end-line="573" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,10 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="430" column="20" lean-forward="false" selection-start-line="430" selection-start-column="20" selection-end-line="430" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -594,11 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="485" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -606,11 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="487" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -618,11 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="487" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,10 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2064">
           <caret line="488" column="30" lean-forward="false" selection-start-line="488" selection-start-column="30" selection-end-line="488" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,11 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="483" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -653,9 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
           <caret line="419" column="9" lean-forward="false" selection-start-line="419" selection-start-column="9" selection-end-line="419" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -663,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -671,7 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="3143" column="5" lean-forward="true" selection-start-line="3143" selection-start-column="5" selection-end-line="3143" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -679,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="1" column="71963" lean-forward="false" selection-start-line="1" selection-start-column="71963" selection-end-line="1" selection-end-column="71963" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -695,7 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="0" column="2222" lean-forward="false" selection-start-line="0" selection-start-column="2222" selection-end-line="0" selection-end-column="2222" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,81 +651,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="1569" column="0" lean-forward="true" selection-start-line="1569" selection-start-column="0" selection-end-line="1569" selection-end-column="0" />
-          <folding>
-            <element signature="e#57580#57586#0" expanded="true" />
-            <marker date="1543488189242" expanded="true" signature="2127:2291" ph="..." />
-            <marker date="1543488189242" expanded="true" signature="2220:2246" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/example-site/spaceage.tass.ru/js/main.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="711">
-          <caret line="0" column="1034516" lean-forward="false" selection-start-line="0" selection-start-column="1034506" selection-end-line="0" selection-end-column="1034516" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example-site/spaceage.tass.ru/js/vendor.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="0" column="66894" lean-forward="false" selection-start-line="0" selection-start-column="66894" selection-end-line="0" selection-end-column="66894" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example-site/spaceage.tass.ru/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="5053" column="58" lean-forward="true" selection-start-line="5053" selection-start-column="58" selection-end-line="5053" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/example-site/spaceage.tass.ru/js/main.bundle.js" />
+    <entry file="file://$USER_HOME$/example-site/spaceage.tass.ru/js/vendor.bundle.js" />
+    <entry file="file://$USER_HOME$/example-site/spaceage.tass.ru/index.html" />
     <entry file="file://$USER_HOME$/example-site/chudo-nauka.ru/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
+        <state relative-caret-position="44352">
           <caret line="1848" column="13" lean-forward="false" selection-start-line="1848" selection-start-column="13" selection-end-line="1848" selection-end-column="13" />
-          <folding>
-            <element signature="e#33869#33877#0" expanded="true" />
-            <element signature="e#34466#34474#0" expanded="true" />
-            <element signature="e#35075#35083#0" expanded="true" />
-            <element signature="e#35631#35639#0" expanded="true" />
-            <element signature="e#36252#36260#0" expanded="true" />
-            <element signature="e#36832#36840#0" expanded="true" />
-            <element signature="e#37383#37391#0" expanded="true" />
-            <element signature="e#37978#37986#0" expanded="true" />
-            <element signature="e#38562#38570#0" expanded="true" />
-            <element signature="e#39215#39223#0" expanded="true" />
-            <element signature="e#39835#39843#0" expanded="true" />
-            <element signature="e#40448#40456#0" expanded="true" />
-            <element signature="e#41605#41613#0" expanded="true" />
-            <element signature="e#42243#42251#0" expanded="true" />
-            <element signature="e#42892#42900#0" expanded="true" />
-            <element signature="e#43483#43491#0" expanded="true" />
-            <element signature="e#44031#44039#0" expanded="true" />
-            <element signature="e#44643#44651#0" expanded="true" />
-            <element signature="e#45223#45231#0" expanded="true" />
-            <element signature="e#45857#45865#0" expanded="true" />
-            <element signature="e#46423#46431#0" expanded="true" />
-            <element signature="e#46987#46995#0" expanded="true" />
-            <element signature="e#47610#47618#0" expanded="true" />
-            <element signature="e#48200#48208#0" expanded="true" />
-            <element signature="e#48756#48764#0" expanded="true" />
-            <element signature="e#49317#49325#0" expanded="true" />
-            <element signature="e#49936#49944#0" expanded="true" />
-            <element signature="e#50537#50545#0" expanded="true" />
-            <marker date="1543503848935" expanded="false" signature="3067:5705" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/example-site/chudo-nauka.ru/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
+        <state relative-caret-position="151392">
           <caret line="6308" column="46" lean-forward="false" selection-start-line="6308" selection-start-column="30" selection-end-line="6308" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site/cobiro.com/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="52" column="60740" lean-forward="false" selection-start-line="52" selection-start-column="60740" selection-end-line="52" selection-end-column="60740" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle-animation-svg/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle-animation-svg/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle-animation-svg/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="50" column="47" lean-forward="false" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site/cobiro.com/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1157">
+          <caret line="611" column="50" lean-forward="true" selection-start-line="611" selection-start-column="50" selection-end-line="611" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site/cobiro.com/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="4633" column="8" lean-forward="true" selection-start-line="4633" selection-start-column="8" selection-end-line="4633" selection-end-column="8" />
+          <folding>
+            <element signature="e#51516#52840#0" expanded="false" />
+            <element signature="e#52882#52925#0" expanded="false" />
+            <element signature="e#52957#53006#0" expanded="false" />
+            <element signature="e#53035#53072#0" expanded="false" />
+            <element signature="e#53222#53529#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

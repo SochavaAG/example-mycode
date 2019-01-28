@@ -1,0 +1,82 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+html,
+body {
+  height: 100%;
+}
+.svg-container {
+  display: block;
+  height: 0;
+  padding-bottom: 100%;
+
+  position: relative;
+}
+.svg-container svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  overflow: visible;
+}
+
+.logo-icon .svg-container {
+  padding-bottom: 84.765%;
+}
+
+.logo {
+  width: 80%;
+
+  fill: #fcf22b;
+  stroke: #fcf22b;
+
+  /*position: absolute;
+  bottom: -25%;
+  left: 4%;*/
+}
+
+.svg-container svg {
+  width: 100%;
+  height: 100%;
+
+  overflow: visible;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
