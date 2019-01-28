@@ -10,7 +10,7 @@
   display: inline-block;
   height: 35px;
   width: 70px;
-  background: url(../images/light.svg) no-repeat scroll #83d8ff;
+  background: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/checkbox-night-light/images/light.svg) no-repeat scroll #83d8ff;
 
   cursor: pointer;
 
@@ -69,10 +69,10 @@
   left: -100px;
 }
 .ag-switcher_input:checked + .ag-switcher_switcher {
-  background-image: url(../images/night.svg);
+  background-image: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/checkbox-night-light/images/night.svg);
 }
 .ag-switcher_input:checked + .ag-switcher_switcher .ag-switcher_toggle-handler {
-  background: url(../images/moon.svg) no-repeat scroll #eff9ff;
+  background: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/checkbox-night-light/images/moon.svg) no-repeat scroll #eff9ff;
 
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, .25), inset 0 -3px 6px 0 rgba(0, 0, 0, .15);
   -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, .25), inset 0 -3px 6px 0 rgba(0, 0, 0, .15);
