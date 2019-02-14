@@ -1,10 +1,14 @@
 (function ($) {
   $(function () {
 
+
     var agActive,
       agCount,
       agTimerId,
-      agSpeed = 50000,
+      agSpeed = 500,
+
+      agCount = $('.js-review-user-avatar_item').length,
+
       agSlideWidth = $('#js-review-slider').width(),
       agAvatarWidth = $('.js-review-user-avatar_item').width(),
       agAvatarActiveMarginLeft = $('.js-ag-review-user-avatar_item__active').css('margin-left'),
@@ -17,6 +21,10 @@
 
     agAvatarBox.width(agAvatarBoxWidth);
     $('.ag-review-user-info_item').width(agSlideWidth);
+
+    for (var i = 0; i < agCount; i++) {
+      $('#js-review-slider-control_list').append('<li class="js-review-slider-control_item ag-review-slider-control_item"></li>');
+    }
 
     function agSlideStart() {
       agTimerId = setInterval(function () {
@@ -53,7 +61,6 @@
         $('.js-review-user-avatar_item:eq(' + agAvatarActiveLast + ')').css('margin-right', agAvatarActiveMarginEdge + 'px');
         $('#js-review-user-info').css('margin-left', (-100 * agActive) + '%');
       }
-
       $('.js-review-slider-control_item:eq(' + agActive + ')').addClass('js-ag-review-slider-control_item__active');
       $('.js-review-user-avatar_item:eq(' + agActive + ')').addClass('js-ag-review-user-avatar_item__active');
     }
@@ -115,37 +122,18 @@
       agSlideRestart();
     }
 
-    $(document).ready(function () {
+    agSlideStart();
 
-      agCount = $('.js-review-user-avatar_item').length;
-      agActive = 1;
-      for (var i = 0; i < agCount; i++) {
-        $('#js-review-slider-control_list').append('<li class="js-review-slider-control_item ag-review-slider-control_item"></li>');
-      }
+    $('#js-review-slider_arrow-left').on('click', function () {
+      agSlideLeft();
+    });
 
-      //$('.js-review-user-avatar_item:eq(1)').addClass('js-ag-review-user-avatar_item__active');
-      //$('.js-review-slider-control_item:eq(1)').addClass('js-ag-review-slider-control_item__active');
-      //$('.js-review-user-avatar_item:eq(' + agNunSlide + ')').addClass('js-ag-review-user-avatar_item__active');
-      var agCalcul = -((agNunSlide - 1) * agAvatarWidth);
-      $('#js-review-user-avatar').css('margin-left', agCalcul + 'px');
+    $('#js-review-slider_arrow-right').on('click', function () {
+      agSlideRight();
+    });
 
-      $('.js-review-slider-control_item:eq(' + agNunSlide + ')').addClass('js-ag-review-slider-control_item__active');
-      $('#js-review-user-info').css('width', (agCount * 100) + '%');
-      $('#js-review-user-info').css('margin-left', (-100 * agNunSlide) + '%');
-
-      agSlideStart();
-
-      $('#js-review-slider_arrow-left').on('click', function () {
-        agSlideLeft();
-      });
-
-      $('#js-review-slider_arrow-right').on('click', function () {
-        agSlideRight();
-      });
-
-      $('.js-review-slider-control_item').on('click', function () {
-        agSlideTo($('.js-review-slider-control_item').index(this));
-      });
+    $('.js-review-slider-control_item').on('click', function () {
+      agSlideTo($('.js-review-slider-control_item').index(this));
     });
 
   });
