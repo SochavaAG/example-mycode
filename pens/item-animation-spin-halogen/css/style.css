@@ -54,7 +54,7 @@ body {
   display: inline-block;
   height: 40px;
   width: 232px;
-  background: url(../images/sprite-icons.png) no-repeat scroll -140px 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-spin-halogen/images/sprite-icons.png) no-repeat scroll -140px 0;
 
   position: absolute;
   top: 38px;
@@ -95,7 +95,7 @@ body {
 .ag-get-bonus_icons:before {
   content: "";
   display: inline-block;
-  background-image: url(../images/sprite-icons.png);
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-spin-halogen/images/sprite-icons.png);
   background-repeat: no-repeat;
 
   position: absolute;
@@ -126,7 +126,7 @@ body {
   height: 140px;
   width: 140px;
   margin: -70px 0 0 -70px;
-  background: url(../images/sprite-icons.png) no-repeat scroll 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/item-animation-spin-halogen/images/sprite-icons.png) no-repeat scroll 0 0;
 
   opacity: 0;
   filter:alpha(opacity=0);
