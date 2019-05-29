@@ -4,7 +4,7 @@
 }
 .ag-cloud-block {
   height: 480px;
-  background: url(../images/cloud.jpg) repeat-x scroll 50% 100% #309dc2;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-cloud/images/cloud.jpg) repeat-x scroll 50% 100% #309dc2;
 
   position: absolute;
   left: 0;
