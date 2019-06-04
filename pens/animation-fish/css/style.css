@@ -1,0 +1,246 @@
+html,
+body,
+.ag-main-page,
+.ag-family-page {
+  height: 100%;
+}
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-main-page {
+  background: url(../images/bg-main.jpg) no-repeat scroll 50% 100%;
+  background-size: cover;
+
+  overflow: hidden;
+
+  position: relative;
+}
+.ag-family-page {
+  background: url(../images/bg-family.png) no-repeat scroll 50% 100%;
+  background-size: cover;
+
+  z-index: 100;
+  position: relative;
+}
+.ag-shark {
+  width: 463px;
+  height: 143px;
+  background: url(../images/shark.png) no-repeat scroll 0 0;
+  background-size: cover;
+
+  position: absolute;
+  top: 250px;
+
+  -webkit-animation: an-shark 30s infinite linear;
+  -moz-animation: an-shark 30s infinite linear;
+  -o-animation: an-shark 30s infinite linear;
+  animation: an-shark 30s infinite linear;
+}
+.ag-angelfish {
+  display: inline-block;
+  height: 66px;
+  width: 100px;
+  background: url(../images/angelfish.png) no-repeat scroll 0 0;
+  background-size: cover;
+
+  position: absolute;
+  top: 300px;
+
+  -webkit-animation: an-angelfish 30s infinite linear;
+  -moz-animation: an-angelfish 30s infinite linear;
+  -o-animation: an-angelfish 30s infinite linear;
+  animation: an-angelfish 30s infinite linear;
+}
+
+.ag-bluefish {
+  display: inline-block;
+  height: 40px;
+  width: 70px;
+  background: url(../images/bluefish.png) no-repeat scroll 0 0;
+  background-size: cover;
+
+  position: absolute;
+  top: 650px;
+
+  -webkit-animation: an-bluefish 42s infinite linear;
+  -moz-animation: an-bluefish 42s infinite linear;
+  -o-animation: an-bluefish 42s infinite linear;
+  animation: an-bluefish 42s infinite linear;
+}
+
+.ag-clowntriggerfish {
+  display: inline-block;
+  height: 27px;
+  width: 60px;
+  background: url(../images/clowntriggerfish.png) no-repeat scroll 0 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  position: absolute;
+  top: 510px;
+
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+
+  -webkit-animation: an-clowntriggerfish 62s infinite;
+  -moz-animation: an-clowntriggerfish 62s infinite;
+  -o-animation: an-clowntriggerfish 62s infinite;
+  animation: an-clowntriggerfish 62s infinite;
+
+  -webkit-animation-timing-function: step-middle;
+  animation-timing-function: step-middle;
+}
+
+.ag-dsafdasf {
+  display: inline-block;
+  height: 52px;
+  width: 80px;
+  background: url(../images/dsafdasf.png) no-repeat scroll 0 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  -webkit-animation: an-dsafdasf 30s infinite linear;
+  -moz-animation: an-dsafdasf 30s infinite linear;
+  -o-animation: an-dsafdasf 30s infinite linear;
+  animation: an-dsafdasf 30s infinite linear;
+
+  position: absolute;
+  top: 580px;
+}
+
+@-webkit-keyframes an-shark {
+  0% {
+    left: -463px;
+  }
+  100% {
+    left: 220%;
+  }
+}
+
+@keyframes an-shark {
+  0% {
+    left: -463px;
+  }
+  100% {
+    left: 220%;
+  }
+}
+
+@-webkit-keyframes an-angelfish {
+  0% {
+    right: -300px;
+  }
+  50% {
+    right: 40%;
+  }
+  100% {
+    right: 100%;
+  }
+}
+
+@keyframes an-angelfish {
+  0% {
+    right: -300px;
+  }
+  50% {
+    right: 40%;
+  }
+  100% {
+    right: 100%;
+  }
+}
+
+@-webkit-keyframes an-bluefish {
+  0% {
+    left: -270px;
+  }
+  50% {
+    left: 40%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes an-bluefish {
+  0% {
+    left: -270px;
+  }
+  50% {
+    left: 40%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes an-clowntriggerfish {
+  0% {
+    left: 150%;
+  }
+  100% {
+    left: -60px;
+  }
+}
+
+@keyframes an-clowntriggerfish {
+  0% {
+    left: 150%;
+  }
+  100% {
+    left: -60px;
+  }
+}
+
+@-webkit-keyframes an-dsafdasf {
+  0% {
+    right: -80px;
+  }
+  100% {
+    right: 100%;
+  }
+}
+
+@keyframes an-dsafdasf {
+  0% {
+    right: -80px;
+  }
+  100% {
+    right: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
