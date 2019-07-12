@@ -11,7 +11,7 @@ body,
 }
 
 .ag-main-page {
-  background: url(../images/bg-main.jpg) no-repeat scroll 50% 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fish/images/bg-main.jpg) no-repeat scroll 50% 100%;
   background-size: cover;
 
   overflow: hidden;
@@ -19,7 +19,7 @@ body,
   position: relative;
 }
 .ag-family-page {
-  background: url(../images/bg-family.png) no-repeat scroll 50% 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fish/images/bg-family.png) no-repeat scroll 50% 100%;
   background-size: cover;
 
   z-index: 100;
@@ -28,7 +28,7 @@ body,
 .ag-shark {
   width: 463px;
   height: 143px;
-  background: url(../images/shark.png) no-repeat scroll 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fish/images/shark.png) no-repeat scroll 0 0;
   background-size: cover;
 
   position: absolute;
@@ -43,7 +43,7 @@ body,
   display: inline-block;
   height: 66px;
   width: 100px;
-  background: url(../images/angelfish.png) no-repeat scroll 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fish/images/angelfish.png) no-repeat scroll 0 0;
   background-size: cover;
 
   position: absolute;
@@ -59,7 +59,7 @@ body,
   display: inline-block;
   height: 40px;
   width: 70px;
-  background: url(../images/bluefish.png) no-repeat scroll 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fish/images/bluefish.png) no-repeat scroll 0 0;
   background-size: cover;
 
   position: absolute;
@@ -75,7 +75,7 @@ body,
   display: inline-block;
   height: 27px;
   width: 60px;
-  background: url(../images/clowntriggerfish.png) no-repeat scroll 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fish/images/clowntriggerfish.png) no-repeat scroll 0 0;
   -webkit-background-size: cover;
   background-size: cover;
 
@@ -101,7 +101,7 @@ body,
   display: inline-block;
   height: 52px;
   width: 80px;
-  background: url(../images/dsafdasf.png) no-repeat scroll 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fish/images/dsafdasf.png) no-repeat scroll 0 0;
   -webkit-background-size: cover;
   background-size: cover;
 

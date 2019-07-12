@@ -4,7 +4,7 @@
     var agActive,
       agCount,
       agTimerId,
-      agSpeed = 50000,
+      agSpeed = 3000,
       agSlideWidth = $('#js-review-slider').width(),
       agAvatarWidth = $('.js-review-user-avatar_item').width(),
       agAvatarActiveMarginLeft = $('.js-ag-review-user-avatar_item__active').css('margin-left'),
