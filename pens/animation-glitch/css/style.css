@@ -15,7 +15,7 @@ body {
 .ag-glitch_item {
   background-color: transparent;
   background-blend-mode: normal;
-  background: url(../images/black-friday-2018.jpg) no-repeat center;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-glitch/images/black-friday-2018.jpg) no-repeat center;
 
   position: absolute;
   top: 5%;
