@@ -65,6 +65,16 @@
         agAnimateBtnBorderShow();
       }
     });
+    /* /button 10 */
+
+    /* button 31 */
+        $('.js-base_btn-v31').on("mousemove", function (e) {
+        var t = $(this).offset(),
+          n = e.pageX - t.left,
+          i = e.pageY - t.top;
+        $(this).attr("style", "--x:" + n + "px;--y:" + i + "px;");
+      });
+    /* /button 31 */
 
   });
 })(jQuery);
