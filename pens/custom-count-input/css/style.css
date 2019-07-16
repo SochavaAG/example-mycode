@@ -1,0 +1,138 @@
+button:active, button:focus {
+  outline: none !important;
+}
+button::-moz-focus-inner {
+  border: 0 !important;
+}
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-num_label {
+  line-height: 40px;
+  margin: 0 20px 0 0;
+
+  font-size: 18px;
+}
+.ag-num_box {
+  display: inline-block;
+  padding: 30px 0;
+
+  vertical-align: middle;
+  font-size: 0;
+}
+.ag-num_input {
+  display: inline-block;
+  height: 40px;
+  width: 60px;
+  border: 1px solid #9d9e9e;
+  background-color: transparent;
+
+  vertical-align: top;
+  text-align: center;
+  font-size: 18px;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ag-num_btn__min,
+.ag-num_btn__plus {
+  border: 1px solid #9d9e9e;
+
+  outline: none;
+
+  vertical-align: top;
+}
+.ag-num_btn__min {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border-right: 0;
+
+  -webkit-border-radius: 24px 0 0 24px;
+  -moz-border-radius: 24px 0 0 24px;
+  border-radius: 24px 0 0 24px;
+
+  position: relative;
+}
+.ag-num_btn__min:before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 14px;
+  margin: 0 0 0 -7px;
+  background-color: #9d9e9e;
+
+  position: absolute;
+  left: 50%;
+}
+.ag-num_btn__plus {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border-left: 0;
+
+  -webkit-border-radius: 0 24px 24px 0;
+  -moz-border-radius: 0 24px 24px 0;
+  border-radius: 0 24px 24px 0;
+
+  position: relative;
+}
+.ag-num_btn__plus:after,
+.ag-num_btn__plus:before {
+  content: "";
+  display: block;
+  background-color: #9d9e9e;
+}
+.ag-num_btn__plus:before {
+  height: 1px;
+  width: 14px;
+  margin: 0 0 0 -7px;
+
+  position: absolute;
+  left: 50%;
+}
+.ag-num_btn__plus:after {
+  height: 14px;
+  width: 1px;
+  margin: -7px 0 0;
+
+  position: absolute;
+  top: 50%;
+  right: 18px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
