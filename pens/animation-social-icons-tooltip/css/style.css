@@ -2,11 +2,6 @@
   width: 1142px;
   margin: 0 auto;
 }
-/*.ag-soc-icon_tooltip:before,
-.ag-soc-icon_item:before,
-.ag-soc-icon_list:after {
-  content: "";
-}*/
 .ag-soc-icon_list {
   padding: 60px 0;
   background-color: #40A8DF;

@@ -1,0 +1,168 @@
+.ag-modal-popup_overlay,
+.ag-modal-popup_wrapper {
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.ag-modal-popup_overlay {
+  background: rgba(0, 0, 0, .4)
+}
+.ag-modal-popup_wrapper {
+  padding: 30px 20px;
+  
+  text-align: center;
+  
+  overflow-x: hidden;
+  overflow-y: auto;
+  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+  -webkit-overflow-scrolling: touch;
+}
+/* выравнивание блока по высоте */
+.ag-modal-popup_wrapper:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: .1px;
+  
+  vertical-align: middle;
+}
+/* /выравнивание блока по высоте */
+.ag-modal-popup_overlay {
+  opacity: 0;
+
+  -webkit-transition-duration: 450ms;
+  -moz-transition-duration: 450ms;
+  -o-transition-duration: 450ms;
+  transition-duration: 450ms;
+
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.ag-modal-popup_container {
+  opacity: 0;
+
+  -webkit-font-smoothing: subpixel-antialiased;
+
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  -webkit-transform: perspective(1px) scale(1.185);
+  -moz-transform: perspective(1px) scale(1.185);
+  transform: perspective(1px) scale(1.185);
+
+  -webkit-transition-duration: 450ms;
+  -moz-transition-duration: 450ms;
+  -o-transition-duration: 450ms;
+  transition-duration: 450ms;
+
+  -webkit-transition-property: opacity, -webkit-transform;
+  -moz-transition-property: opacity, -moz-transform;
+  -o-transition-property: opacity, -o-transform;
+  transition-property: opacity, transform;
+}
+.js-ag-popup-animation-in .ag-modal-popup_overlay {
+  opacity: 1;
+}
+.js-ag-popup-animation-in .ag-modal-popup_container {
+  opacity: 1;
+
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+  -moz-transform: translate3d(0, 0, 0) scale(1);
+  transform: translate3d(0, 0, 0) scale(1);
+}
+.js-ag-popup-animation-out .ag-modal-popup_overlay {
+  opacity: 0;
+}
+.js-ag-popup-animation-out .ag-modal-popup_container {
+  opacity: 0;
+
+  -webkit-transform: translate3d(0, 0, 0) scale(.815);
+  -moz-transform: translate3d(0, 0, 0) scale(.815);
+  transform: translate3d(0, 0, 0) scale(.815);
+}
+.ag-modal-popup_container {
+  display: inline-block;
+  line-height: 1.5;
+  min-width: 290px;
+  max-width: 640px;
+  background: #FFF;
+
+  white-space: normal;
+  letter-spacing: normal;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 14px;
+
+  z-index: 9999;
+  position: relative;
+
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+.ag-modal-popup_content {
+  padding: 30px 15px;
+
+  -webkit-user-select: initial;
+  -moz-user-select: initial;
+  -ms-user-select: initial;
+  user-select: initial;
+}
+.ag-modal-popup_description {
+  line-height: 1.4;
+  margin: 0 0 5px;
+
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  color: #4e667c;
+}
+.ag-modal-popup_btn-wrap {
+  padding: 15px 0 5px;
+}
+.ag-modal-popup_btn {
+  display: table;
+  min-width: 120px;
+  margin: 0 auto;
+  padding: 10px 15px;
+  border: 1px solid #298ecc;
+  background-color: #2D9DE2;
+
+  cursor: pointer;
+
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 16px;
+  color: #FFF;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.ag-modal-popup_btn:hover {
+  border: 1px solid #298ecc;
+  background-color: #48a3da;
+}
+
+@media (max-width: 767px) {
+  .ag-modal-popup_container {
+    max-width: 100%
+  }
+}
