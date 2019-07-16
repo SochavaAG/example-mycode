@@ -21,8 +21,7 @@ body {
   height: 110px;
   width: 110px;
   margin: 0 auto;
-  /*background: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/animation-play-button/icon-play.svg) center no-repeat;*/
-  background: url(../images/icon-play.svg) center no-repeat;
+  background: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/animation-play-button/icon-play.svg) no-repeat 50% 50%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
