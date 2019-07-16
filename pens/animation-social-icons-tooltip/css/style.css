@@ -1,0 +1,118 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+/*.ag-soc-icon_tooltip:before,
+.ag-soc-icon_item:before,
+.ag-soc-icon_list:after {
+  content: "";
+}*/
+.ag-soc-icon_list {
+  padding: 60px 0;
+  background-color: #40A8DF;
+
+  text-align: center;
+}
+.ag-soc-icon_item {
+  display: inline-block;
+  margin: 0 2px;
+
+  vertical-align: middle;
+  text-align: center;
+
+  -webkit-transition: opacity .3s;
+  -moz-transition: opacity .3s;
+  -o-transition: opacity .3s;
+  transition: opacity .3s;
+}
+.ag-soc-icon_item:before {
+  content: "";
+  display: inline-block;
+
+  vertical-align: middle;
+}
+.ag-soc-icon_item:hover .ag-soc-icon_img {
+  opacity: .85;
+}
+.ag-soc-icon_item:hover .ag-soc-icon_tooltip {
+  opacity: 1;
+
+  visibility: visible;
+
+  z-index: 1;
+  bottom: 30px;
+}
+.ag-soc-icon_item:active {
+  opacity: .75;
+}
+.ag-soc-icon_link {
+  position: relative;
+}
+.ag-soc-icon_tooltip {
+  padding: 3px 7px;
+  background: #FFF;
+
+  font-size: 14px;
+  color: #333;
+
+  opacity: 0;
+
+  visibility: hidden;
+
+  z-index: -1;
+  position: absolute;
+  left: -25px;
+  right: -25px;
+  bottom: 0;
+
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+
+  -webkit-transition: all .5s cubic-bezier(.68, -.55, .265, 1.55);
+  -moz-transition: all .5s cubic-bezier(.68, -.55, .265, 1.55);
+  -o-transition: all .5s cubic-bezier(.68, -.55, .265, 1.55);
+  transition: all .5s cubic-bezier(.68, -.55, .265, 1.55);
+}
+.ag-soc-icon_tooltip:before {
+  content: "";
+  margin: 0 0 0 -7px;
+
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #FFF;
+
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
