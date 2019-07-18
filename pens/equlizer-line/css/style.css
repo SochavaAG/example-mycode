@@ -1,0 +1,64 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-equlizer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  height: 7rem;
+  margin-bottom: 6rem;
+}
+.ag-equlizer_line {
+  height: .2rem;
+  width: .8rem;
+  margin-right: .1rem;
+  margin-left: .1rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(17%, #175eda), color-stop(62%, #6b48aa), to(#be0574));
+  background-image: -webkit-linear-gradient(top, #175eda 17%, #6b48aa 62%, #be0574);
+  background-image: -o-linear-gradient(top, #175eda 17%, #6b48aa 62%, #be0574);
+  background-image: linear-gradient(to bottom, #175eda 17%, #6b48aa 62%, #be0574);
+
+  -webkit-transition: height 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: height 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: height 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: height 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
