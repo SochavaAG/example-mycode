@@ -1,0 +1,120 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-shake {
+  margin: 200px auto auto 0;
+
+  -webkit-animation: 1s an-shake infinite alternate;
+  -moz-animation: 1s an-shake infinite alternate;
+  -o-animation: 1s an-shake infinite alternate;
+  animation: 1s an-shake infinite alternate;
+}
+
+@-webkit-keyframes an-shake {
+  0%,
+  10% {
+    -webkit-transform: skewX(-2deg);
+    transform: skewX(-2deg);
+  }
+  15%,
+  5% {
+    -webkit-transform: skewX(2deg);
+    transform: skewX(2deg);
+  }
+  100%,
+  20% {
+    -webkit-transform: skewX(0);
+    transform: skewX(0);
+  }
+}
+
+@-moz-keyframes an-shake {
+  0%,
+  10% {
+    -moz-transform: skewX(-2deg);
+    transform: skewX(-2deg);
+  }
+  15%,
+  5% {
+    -moz-transform: skewX(2deg);
+    transform: skewX(2deg);
+  }
+  100%,
+  20% {
+    -moz-transform: skewX(0);
+    transform: skewX(0);
+  }
+}
+
+@-o-keyframes an-shake {
+  0%,
+  10% {
+    -o-transform: skewX(-2deg);
+    transform: skewX(-2deg);
+  }
+  15%,
+  5% {
+    -o-transform: skewX(2deg);
+    transform: skewX(2deg);
+  }
+  100%,
+  20% {
+    -o-transform: skewX(0);
+    transform: skewX(0);
+  }
+}
+
+@keyframes an-shake {
+  0%,
+  10% {
+    -webkit-transform: skewX(-2deg);
+    -moz-transform: skewX(-2deg);
+    -o-transform: skewX(-2deg);
+    transform: skewX(-2deg);
+  }
+  15%,
+  5% {
+    -webkit-transform: skewX(2deg);
+    -moz-transform: skewX(2deg);
+    -o-transform: skewX(2deg);
+    transform: skewX(2deg);
+  }
+  100%,
+  20% {
+    -webkit-transform: skewX(0);
+    -moz-transform: skewX(0);
+    -o-transform: skewX(0);
+    transform: skewX(0);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
