@@ -1,0 +1,138 @@
+body {
+  background-color: #000;
+}
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-wave {
+  display: block;
+  height: 120px;
+  line-height: 110px;
+  margin: 100px 0 0;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-wave/images/wave.png);
+  background-repeat: repeat-x;
+  background-size: 200px 100px;
+
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -o-background-clip: text;
+  background-clip: text;
+
+  vertical-align: bottom;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+  color: transparent;
+
+  text-shadow: 0 0 rgba(255, 255, 255, .06);
+
+  -webkit-animation: an-wave-animation 1s infinite linear, an-loading-animation 5s infinite linear alternate;
+  -moz-animation: an-wave-animation 1s infinite linear, an-loading-animation 5s infinite linear alternate;
+  -o-animation: an-wave-animation 1s infinite linear, an-loading-animation 5s infinite linear alternate;
+  animation: an-wave-animation 1s infinite linear, an-loading-animation 5s infinite linear alternate;
+}
+
+@-webkit-keyframes an-wave-animation {
+  0% {
+    background-position: 0 100%;
+  }
+  100% {
+    background-position: 200px 100%;
+  }
+}
+
+@-moz-keyframes an-wave-animation {
+  0% {
+    background-position: 0 100%;
+  }
+  100% {
+    background-position: 200px 100%;
+  }
+}
+
+@-o-keyframes an-wave-animation {
+  0% {
+    background-position: 0 100%;
+  }
+  100% {
+    background-position: 200px 100%;
+  }
+}
+
+@keyframes an-wave-animation {
+  0% {
+    background-position: 0 100%;
+  }
+  100% {
+    background-position: 200px 100%;
+  }
+}
+
+@-webkit-keyframes an-loading-animation {
+  0% {
+    background-size: 200px 0;
+  }
+  100% {
+    background-size: 200px 200px;
+  }
+}
+
+@-moz-keyframes an-loading-animation {
+  0% {
+    background-size: 200px 0;
+  }
+  100% {
+    background-size: 200px 200px;
+  }
+}
+
+@-o-keyframes an-loading-animation {
+  0% {
+    background-size: 200px 0;
+  }
+  100% {
+    background-size: 200px 200px;
+  }
+}
+
+@keyframes an-loading-animation {
+  0% {
+    background-size: 200px 0;
+  }
+  100% {
+    background-size: 200px 200px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
