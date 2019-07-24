@@ -16,6 +16,7 @@ body {
   position: relative;
 }
 .ag-glitch-v2 {
+  font-weight: bold;
   color: #989094;
 }
 .ag-glitch:after,
@@ -57,6 +58,10 @@ body {
   -moz-animation: an-noise-anim 3s infinite linear alternate-reverse;
   -o-animation: an-noise-anim 3s infinite linear alternate-reverse;
   animation: an-noise-anim 3s infinite linear alternate-reverse;
+}
+.ag-glitch_text-v2 {
+  z-index: 5;
+  position: relative;
 }
 
 @-webkit-keyframes an-noise-anim {
