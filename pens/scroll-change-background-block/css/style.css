@@ -11,6 +11,11 @@
   font-weight: bold;
   font-size: 150px;
   color: #FFF;
+
+  -webkit-transition: background-color .5s;
+  -moz-transition: background-color .5s;
+  -o-transition: background-color .5s;
+  transition: background-color .5s;
 }
 
 
