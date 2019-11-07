@@ -1,0 +1,104 @@
+@font-face {
+  font-family: Rozetka;
+  src: url(../fonts/RozetkaWeb-Regular/RozetkaWeb-Regular.eot);
+  src: url(../fonts/RozetkaWeb-Regular/RozetkaWeb-Regular.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/RozetkaWeb-Regular/RozetkaWeb-Regular.woff2) format('woff2'),
+  url(../fonts/RozetkaWeb-Regular/RozetkaWeb-Regular.woff) format('woff'),
+  url(../fonts/RozetkaWeb-Regular/RozetkaWeb-Regular.ttf) format('truetype'),
+  url(../fonts/RozetkaWeb-Regular/RozetkaWeb-Regular.svg#RozetkaWeb-Regular) format('svg');
+  font-weight: 400;
+  font-style: normal;
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Rozetka;
+  src: url(../fonts/RozetkaWeb-Bold/RozetkaWeb-Bold.eot);
+  src: url(../fonts/RozetkaWeb-Bold/RozetkaWeb-Bold.eot?#iefix) format('embedded-opentype'),
+  url(../fonts/RozetkaWeb-Bold/RozetkaWeb-Bold.woff2) format('woff2'),
+  url(../fonts/RozetkaWeb-Bold/RozetkaWeb-Bold.woff) format('woff'),
+  url(../fonts/RozetkaWeb-Bold/RozetkaWeb-Bold.ttf) format('truetype'),
+  url(../fonts/RozetkaWeb-Bold/RozetkaWeb-Bold.svg#RozetkaWeb-Bold) format('svg');
+  font-weight: 700;
+  font-style: normal;
+
+  font-display: swap;
+}
+
+.ag-panda-block {
+  min-height: 3000px;
+  padding-top: 48px;
+  padding-bottom: 56px;
+  background: url(../images/bg.jpg) no-repeat scroll 50% 0 #fda915;
+
+  overflow: hidden;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  position: relative;
+}
+.js-ag-panda-right {
+  height: 314px;
+  width: 244px;
+  margin-right: 150px;
+  background: url(../images/panda-right.png) no-repeat scroll 50% 50%;
+
+  position: absolute;
+  top: 150px;
+  right: 50%;
+}
+.js-ag-panda-left {
+  height: 312px;
+  width: 264px;
+  margin-left: 200px;
+  background: url(../images/panda-left.png) no-repeat scroll 50% 50%;
+
+  position: absolute;
+  top: 200px;
+  left: 50%;
+}
+
+/* timer */
+.ag-timer {
+  height: 130px;
+  padding: 400px 0 0;
+
+  text-align: center;
+  font-family: Rozetka, Arial, Helvetica, sans-serif;
+  color: #221f20;
+}
+.js-ag-flip-block {
+  display: inline-block;
+  height: 110px;
+  width: 150px;
+
+  text-align: center;
+
+  position: relative;
+}
+.js-ag-flip-text {
+  line-height: 110px;
+
+  font-size: 100px;
+}
+.js-ag-flip-counter {
+  text-align: center;
+  font-size: 18px;
+}
+.js-ag-flip-block:before {
+  content: ":";
+  height: 110px;
+
+  font-size: 100px;
+
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+.js-ag-flip-block:last-child:before {
+  display: none;
+}
+/* /timer */
