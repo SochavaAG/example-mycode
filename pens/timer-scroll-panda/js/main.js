@@ -44,7 +44,7 @@
 
         if (timeLeft < 0) {
           clearInterval(setTimer);
-          document.getElementById("rz_timer").innerHTML = '' +
+          document.getElementById('js-timer').innerHTML = '' +
             '<div class="js-ag-flip-block">' + '<span class="js-ag-flip-text">' + 0 + 0 + '</span>' + '<div class="js-ag-flip-counter">дни</div>' + '</div>' +
             '<div class="js-ag-flip-block">' + '<span class="js-ag-flip-text ">' + 0 + 0 + '</span>' + '<div class="js-ag-flip-counter">часы</div>' + '</div>' +
             '<div class="js-ag-flip-block">' + '<span class="js-ag-flip-text ">' + 0 + 0+ '</span>' + '<div class="js-ag-flip-counter">минуты</div>' + '</div>' +

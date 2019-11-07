@@ -1,11 +1,11 @@
 @font-face {
   font-family: Rozetka;
-  src: url(../fonts/RozetkaWeb-Regular/RozetkaWeb-Regular.eot);
-  src: url(../fonts/RozetkaWeb-Regular/RozetkaWeb-Regular.eot?#iefix) format('embedded-opentype'),
-  url(../fonts/RozetkaWeb-Regular/RozetkaWeb-Regular.woff2) format('woff2'),
-  url(../fonts/RozetkaWeb-Regular/RozetkaWeb-Regular.woff) format('woff'),
-  url(../fonts/RozetkaWeb-Regular/RozetkaWeb-Regular.ttf) format('truetype'),
-  url(../fonts/RozetkaWeb-Regular/RozetkaWeb-Regular.svg#RozetkaWeb-Regular) format('svg');
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timer-scroll-panda/fonts/RozetkaWeb-Regular/RozetkaWeb-Regular.eot);
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timer-scroll-panda/fonts/RozetkaWeb-Regular/RozetkaWeb-Regular.eot?#iefix) format('embedded-opentype'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timer-scroll-panda/fonts/RozetkaWeb-Regular/RozetkaWeb-Regular.woff2) format('woff2'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timer-scroll-panda/fonts/RozetkaWeb-Regular/RozetkaWeb-Regular.woff) format('woff'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timer-scroll-panda/fonts/RozetkaWeb-Regular/RozetkaWeb-Regular.ttf) format('truetype'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timer-scroll-panda/fonts/RozetkaWeb-Regular/RozetkaWeb-Regular.svg#RozetkaWeb-Regular) format('svg');
   font-weight: 400;
   font-style: normal;
 
@@ -14,12 +14,12 @@
 
 @font-face {
   font-family: Rozetka;
-  src: url(../fonts/RozetkaWeb-Bold/RozetkaWeb-Bold.eot);
-  src: url(../fonts/RozetkaWeb-Bold/RozetkaWeb-Bold.eot?#iefix) format('embedded-opentype'),
-  url(../fonts/RozetkaWeb-Bold/RozetkaWeb-Bold.woff2) format('woff2'),
-  url(../fonts/RozetkaWeb-Bold/RozetkaWeb-Bold.woff) format('woff'),
-  url(../fonts/RozetkaWeb-Bold/RozetkaWeb-Bold.ttf) format('truetype'),
-  url(../fonts/RozetkaWeb-Bold/RozetkaWeb-Bold.svg#RozetkaWeb-Bold) format('svg');
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timer-scroll-panda/fonts/RozetkaWeb-Bold/RozetkaWeb-Bold.eot);
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timer-scroll-panda/fonts/RozetkaWeb-Bold/RozetkaWeb-Bold.eot?#iefix) format('embedded-opentype'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timer-scroll-panda/fonts/RozetkaWeb-Bold/RozetkaWeb-Bold.woff2) format('woff2'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timer-scroll-panda/fonts/RozetkaWeb-Bold/RozetkaWeb-Bold.woff) format('woff'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timer-scroll-panda/fonts/RozetkaWeb-Bold/RozetkaWeb-Bold.ttf) format('truetype'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timer-scroll-panda/fonts/RozetkaWeb-Bold/RozetkaWeb-Bold.svg#RozetkaWeb-Bold) format('svg');
   font-weight: 700;
   font-style: normal;
 
@@ -30,7 +30,7 @@
   min-height: 3000px;
   padding-top: 48px;
   padding-bottom: 56px;
-  background: url(../images/bg.jpg) no-repeat scroll 50% 0 #fda915;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timer-scroll-panda/images/bg.jpg) no-repeat scroll 50% 0 #fda915;
 
   overflow: hidden;
 
@@ -44,7 +44,7 @@
   height: 314px;
   width: 244px;
   margin-right: 150px;
-  background: url(../images/panda-right.png) no-repeat scroll 50% 50%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timer-scroll-panda/images/panda-right.png) no-repeat scroll 50% 50%;
 
   position: absolute;
   top: 150px;
@@ -54,7 +54,7 @@
   height: 312px;
   width: 264px;
   margin-left: 200px;
-  background: url(../images/panda-left.png) no-repeat scroll 50% 50%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timer-scroll-panda/images/panda-left.png) no-repeat scroll 50% 50%;
 
   position: absolute;
   top: 200px;
