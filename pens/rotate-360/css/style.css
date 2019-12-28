@@ -1,0 +1,82 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-bear-block {
+  width: 100%;
+
+  overflow: hidden;
+
+  position: relative;
+}
+.ag-bear_img {
+  width: 50%;
+  margin: 50px auto;
+
+  cursor: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rotate-360/images/bear/360.png), pointer;
+
+  position: relative;
+}
+.ag-bear_img:before {
+  content: "";
+  height: 210px;
+  width: 130px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rotate-360/images/info-before.png) no-repeat left;
+
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ag-bear_img:after {
+  content: attr(data-text);
+  height: calc(100% - 15px);
+  width: 200px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rotate-360/images/info-after.png) no-repeat bottom;
+
+  text-align: right;
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.ag-bear_img img {
+  width: 80%;
+  margin: auto;
+
+  position: relative;
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
