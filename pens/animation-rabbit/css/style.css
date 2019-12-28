@@ -1,0 +1,296 @@
+body {
+  background-color: #2196F3;
+}
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-rabbit {
+  display: table;
+  margin: 50px auto;
+
+  position: relative;
+}
+.ag-rabbit_box {
+  margin: 50px 0 0 -150px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.ag-rabbit_wrap {
+  display: inline-block;
+  margin-left: 20px;
+
+  z-index: 1;
+  position: relative;
+}
+.ag-rabbit_wrap:focus,
+.ag-rabbit_wrap:hover {
+  outline: none;
+
+  text-decoration: none;
+}
+.ag-rabbit_rabbit {
+  width: 138px;
+  height: 167px;
+
+  position: relative;
+
+  -webkit-animation: an-floating-rabbit 5s ease-in-out infinite;
+  -moz-animation: an-floating-rabbit 5s ease-in-out infinite;
+  -o-animation: an-floating-rabbit 5s ease-in-out infinite;
+  animation: an-floating-rabbit 5s ease-in-out infinite;
+}
+.ag-rabbit_body {
+  width: 138px;
+
+  z-index: 2;
+  position: relative;
+}
+.ag-rabbit_left-arm,
+.ag-rabbit_right-arm {
+  position: absolute;
+
+  -webkit-animation: an-rotate-arm 3s ease-in-out infinite;
+  -moz-animation: an-rotate-arm 3s ease-in-out infinite;
+  -o-animation: an-rotate-arm 3s ease-in-out infinite;
+  animation: an-rotate-arm 3s ease-in-out infinite;
+}
+.ag-rabbit_left-arm {
+  width: 57px;
+
+  z-index: 3;
+  position: absolute;
+  top: 51px;
+  left: 5px;
+
+  -webkit-transform-origin: right;
+  -moz-transform-origin: right;
+  -o-transform-origin: right;
+  transform-origin: right;
+}
+.ag-rabbit_right-arm {
+  width: 47px;
+
+  z-index: 1;
+  position: absolute;
+  top: 37px;
+  right: 4px;
+
+  -webkit-transform-origin: left;
+  -moz-transform-origin: left;
+  -o-transform-origin: left;
+  transform-origin: left;
+
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  -o-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+.ag-rabbit_bubble {
+  width: 148px;
+  max-width: none;
+
+  position: absolute;
+  top: -86px;
+  right: -80px;
+
+  -webkit-animation: an-floating-rabbit 5s ease-in-out infinite .5s;
+  -moz-animation: an-floating-rabbit 5s ease-in-out infinite .5s;
+  -o-animation: an-floating-rabbit 5s ease-in-out infinite .5s;
+  animation: an-floating-rabbit 5s ease-in-out infinite .5s;
+}
+.ag-rabbit.\--browser-ie {
+  top: 90px;
+}
+.ag-rabbit.\--browser-ie .ag-rabbit_wrap {
+  -webkit-transform: scale(.8);
+  -moz-transform: scale(.8);
+  -o-transform: scale(.8);
+  transform: scale(.8);
+}
+
+@-webkit-keyframes an-floating-rabbit {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-13px);
+    transform: translateY(-13px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-moz-keyframes an-floating-rabbit {
+  0% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -moz-transform: translateY(-13px);
+    transform: translateY(-13px);
+  }
+  to {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-o-keyframes an-floating-rabbit {
+  0% {
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -o-transform: translateY(-13px);
+    transform: translateY(-13px);
+  }
+  to {
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes an-floating-rabbit {
+  0% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-13px);
+    -moz-transform: translateY(-13px);
+    -o-transform: translateY(-13px);
+    transform: translateY(-13px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes an-rotate-arm {
+  0% {
+    -webkit-transform: rotate(0) translateX(0);
+    transform: rotate(0) translateX(0);
+  }
+  50% {
+    -webkit-transform: rotate(8deg) translateX(3px);
+    transform: rotate(8deg) translateX(3px);
+  }
+  to {
+    -webkit-transform: rotate(0) translateX(0);
+    transform: rotate(0) translateX(0);
+  }
+}
+
+@-moz-keyframes an-rotate-arm {
+  0% {
+    -moz-transform: rotate(0) translateX(0);
+    transform: rotate(0) translateX(0);
+  }
+  50% {
+    -moz-transform: rotate(8deg) translateX(3px);
+    transform: rotate(8deg) translateX(3px);
+  }
+  to {
+    -moz-transform: rotate(0) translateX(0);
+    transform: rotate(0) translateX(0);
+  }
+}
+
+@-o-keyframes an-rotate-arm {
+  0% {
+    -o-transform: rotate(0) translateX(0);
+    transform: rotate(0) translateX(0);
+  }
+  50% {
+    -o-transform: rotate(8deg) translateX(3px);
+    transform: rotate(8deg) translateX(3px);
+  }
+  to {
+    -o-transform: rotate(0) translateX(0);
+    transform: rotate(0) translateX(0);
+  }
+}
+
+@keyframes an-rotate-arm {
+  0% {
+    -webkit-transform: rotate(0) translateX(0);
+    -moz-transform: rotate(0) translateX(0);
+    -o-transform: rotate(0) translateX(0);
+    transform: rotate(0) translateX(0);
+  }
+  50% {
+    -webkit-transform: rotate(8deg) translateX(3px);
+    -moz-transform: rotate(8deg) translateX(3px);
+    -o-transform: rotate(8deg) translateX(3px);
+    transform: rotate(8deg) translateX(3px);
+  }
+  to {
+    -webkit-transform: rotate(0) translateX(0);
+    -moz-transform: rotate(0) translateX(0);
+    -o-transform: rotate(0) translateX(0);
+    transform: rotate(0) translateX(0);
+  }
+}
+
+
+@media (max-width: 1161px) {
+  .ag-rabbit_wrap {
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -o-transform: scale(.8);
+    transform: scale(.8);
+  }
+}
+
+@media (max-height: 680px) {
+  .ag-rabbit_wrap {
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -o-transform: scale(.8);
+    transform: scale(.8);
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
