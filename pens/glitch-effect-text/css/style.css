@@ -1,0 +1,250 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-glitch {
+  display: table;
+  margin: 0 auto;
+
+  text-align: center;
+  font-size: 100px;
+
+  position: relative;
+}
+.ag-glitch:before,
+.ag-glitch:after {
+  content: attr(data-text);
+  height: 100%;
+  width: 100%;
+
+  clip: rect(0, 0, 0, 0);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ag-glitch:before {
+  /* ... всё, что нужно, чтобы сделать слой идентичным оригиналу */
+  /* отличия от оригинала */
+  left: 4px;
+  text-shadow: -2px 0 #f12645;
+  /* Важно: непрозрачный фон закрывает предыдущий слой */
+  background: #FFF;
+
+  -webkit-animation: an-glitch-anim-1 2s infinite linear alternate-reverse;
+  -moz-animation: an-glitch-anim-1 2s infinite linear alternate-reverse;
+  -o-animation: an-glitch-anim-1 2s infinite linear alternate-reverse;
+  animation: an-glitch-anim-1 2s infinite linear alternate-reverse;
+}
+.ag-glitch:after {
+  /* ... всё, что нужно, чтобы сделать слой идентичным оригиналу */
+  /* отличия от оригинала */
+  left: -4px;
+  text-shadow: 3px 0 #9df772;
+  /* Важно: непрозрачный фон закрывает предыдущий слой */
+  background: #FFF;
+
+  -webkit-animation: an-glitch-anim-2 3s infinite linear alternate-reverse;
+  -moz-animation: an-glitch-anim-2 3s infinite linear alternate-reverse;
+  -o-animation: an-glitch-anim-2 3s infinite linear alternate-reverse;
+  animation: an-glitch-anim-2 3s infinite linear alternate-reverse;
+}
+.ag-glitch-v2:before {
+  -webkit-animation: an-glitch-anim-3 2s infinite linear alternate-reverse;
+  -moz-animation: an-glitch-anim-3 2s infinite linear alternate-reverse;
+  -o-animation: an-glitch-anim-3 2s infinite linear alternate-reverse;
+  animation: an-glitch-anim-3 2s infinite linear alternate-reverse;
+}
+.ag-glitch-v2:after {
+  -webkit-animation: an-glitch-anim-4 3s infinite linear alternate-reverse;
+  -moz-animation: an-glitch-anim-4 3s infinite linear alternate-reverse;
+  -o-animation: an-glitch-anim-4 3s infinite linear alternate-reverse;
+  animation: an-glitch-anim-4 3s infinite linear alternate-reverse;
+}
+
+
+@keyframes an-glitch-anim-1 {
+  0% {
+    clip: rect(70px, auto, 76px, 0);
+  }
+  20% {
+    clip: rect(29px, auto, 16px, 0);
+  }
+  40% {
+    clip: rect(76px, auto, 3px, 0);
+  }
+  60% {
+    clip: rect(42px, auto, 78px, 0);
+  }
+  80% {
+    clip: rect(15px, auto, 13px, 0);
+  }
+  100% {
+    clip: rect(53px, auto, 5px, 0);
+  }
+}
+
+@keyframes an-glitch-anim-2 {
+  0% {
+    clip: rect(170px, auto, 176px, 0);
+  }
+  20% {
+    clip: rect(129px, auto, 116px, 0);
+  }
+  40% {
+    clip: rect(176px, auto, 13px, 0);
+  }
+  60% {
+    clip: rect(142px, auto, 178px, 0);
+  }
+  80% {
+    clip: rect(115px, auto, 113px, 0);
+  }
+  100% {
+    clip: rect(153px, auto, 15px, 0);
+  }
+}
+
+@keyframes an-glitch-anim-3 {
+  0% {
+    clip: rect(39px, auto, 70px, 0);
+  }
+  5.88235% {
+    clip: rect(22px, auto, 23px, 0);
+  }
+  11.76471% {
+    clip: rect(101px, auto, 113px, 0);
+  }
+  17.64706% {
+    clip: rect(67px, auto, 32px, 0);
+  }
+  23.52941% {
+    clip: rect(104px, auto, 69px, 0);
+  }
+  29.41176% {
+    clip: rect(92px, auto, 14px, 0);
+  }
+  35.29412% {
+    clip: rect(58px, auto, 80px, 0);
+  }
+  41.17647% {
+    clip: rect(101px, auto, 107px, 0);
+  }
+  47.05882% {
+    clip: rect(26px, auto, 41px, 0);
+  }
+  52.94118% {
+    clip: rect(53px, auto, 20px, 0);
+  }
+  58.82353% {
+    clip: rect(42px, auto, 69px, 0);
+  }
+  64.70588% {
+    clip: rect(37px, auto, 94px, 0);
+  }
+  70.58824% {
+    clip: rect(39px, auto, 86px, 0);
+  }
+  76.47059% {
+    clip: rect(22px, auto, 70px, 0);
+  }
+  82.35294% {
+    clip: rect(47px, auto, 59px, 0);
+  }
+  88.23529% {
+    clip: rect(10px, auto, 94px, 0);
+  }
+  94.11765% {
+    clip: rect(19px, auto, 84px, 0);
+  }
+  100% {
+    clip: rect(2px, auto, 111px, 0);
+  }
+}
+
+@keyframes an-glitch-anim-4 {
+  0% {
+    clip: rect(61px, auto, 26px, 0);
+  }
+  5.88235% {
+    clip: rect(104px, auto, 81px, 0);
+  }
+  11.76471% {
+    clip: rect(46px, auto, 32px, 0);
+  }
+  17.64706% {
+    clip: rect(8px, auto, 26px, 0);
+  }
+  23.52941% {
+    clip: rect(46px, auto, 36px, 0);
+  }
+  29.41176% {
+    clip: rect(58px, auto, 46px, 0);
+  }
+  35.29412% {
+    clip: rect(47px, auto, 37px, 0);
+  }
+  41.17647% {
+    clip: rect(73px, auto, 105px, 0);
+  }
+  47.05882% {
+    clip: rect(44px, auto, 2px, 0);
+  }
+  52.94118% {
+    clip: rect(43px, auto, 83px, 0);
+  }
+  58.82353% {
+    clip: rect(87px, auto, 21px, 0);
+  }
+  64.70588% {
+    clip: rect(66px, auto, 110px, 0);
+  }
+  70.58824% {
+    clip: rect(8px, auto, 95px, 0);
+  }
+  76.47059% {
+    clip: rect(11px, auto, 72px, 0);
+  }
+  82.35294% {
+    clip: rect(112px, auto, 6px, 0);
+  }
+  88.23529% {
+    clip: rect(27px, auto, 26px, 0);
+  }
+  94.11765% {
+    clip: rect(73px, auto, 74px, 0);
+  }
+  100% {
+    clip: rect(54px, auto, 115px, 0);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
