@@ -12,6 +12,7 @@
 }
 .ag-bear_img {
   width: 50%;
+  max-width: 600px;
   margin: 50px auto;
 
   cursor: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rotate-360/images/bear/360.png), pointer;
@@ -50,52 +51,6 @@
   margin: auto;
 
   position: relative;
-}
-
-.hidden {
-  opacity: 0;
-}
-
-.visible {
-  opacity: 1;
-}
-
-.animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@-webkit-keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(20%, 0, 0);
-    transform: translate3d(20%, 0, 0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-@keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(20%, 0, 0);
-    transform: translate3d(20%, 0, 0);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-
-.fadeInRight {
-  -webkit-animation-name: fadeInRight;
-  animation-name: fadeInRight;
 }
 
 @media only screen and (max-width: 767px) {
