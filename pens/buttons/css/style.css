@@ -3170,6 +3170,126 @@
 }
 /* /button 44 */
 
+/* button 45 */
+.ag-base_btn-v45 {
+  background-color: #fdd101;
+
+  color: #000;
+
+  border-radius: 1px;
+
+  box-shadow: -3px 3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+}
+.ag-base_btn-v45:hover {
+  -webkit-animation: an-glitch-effect .22s ease-out infinite;
+  -moz-animation: an-glitch-effect .22s ease-out infinite;
+  -o-animation: an-glitch-effect .22s ease-out infinite;
+  animation: an-glitch-effect .22s ease-out infinite;
+}
+
+@-webkit-keyframes an-glitch-effect {
+  0% {
+    -webkit-box-shadow: -3px 3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+    box-shadow: -3px 3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+  }
+  25% {
+    -webkit-box-shadow: 3px -3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+    box-shadow: 3px -3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+  }
+  50% {
+    -webkit-box-shadow: 1px 1px 0 0 #f12645, 3px -3px 0 0 #9df772;
+    box-shadow: 1px 1px 0 0 #f12645, 3px -3px 0 0 #9df772;
+  }
+  75% {
+    -webkit-box-shadow: 3px 3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+    box-shadow: 3px 3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+  }
+  100% {
+    -webkit-box-shadow: -3px -3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+    box-shadow: -3px -3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+  }
+}
+
+@-moz-keyframes an-glitch-effect {
+  0% {
+    -moz-box-shadow: -3px 3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+    box-shadow: -3px 3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+  }
+  25% {
+    -moz-box-shadow: 3px -3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+    box-shadow: 3px -3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+  }
+  50% {
+    -moz-box-shadow: 1px 1px 0 0 #f12645, 3px -3px 0 0 #9df772;
+    box-shadow: 1px 1px 0 0 #f12645, 3px -3px 0 0 #9df772;
+  }
+  75% {
+    -moz-box-shadow: 3px 3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+    box-shadow: 3px 3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+  }
+  100% {
+    -moz-box-shadow: -3px -3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+    box-shadow: -3px -3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+  }
+}
+
+@-o-keyframes an-glitch-effect {
+  0% {
+    -o-box-shadow: -3px 3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+    box-shadow: -3px 3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+  }
+  25% {
+    -o-box-shadow: 3px -3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+    box-shadow: 3px -3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+  }
+  50% {
+    -o-box-shadow: 1px 1px 0 0 #f12645, 3px -3px 0 0 #9df772;
+    box-shadow: 1px 1px 0 0 #f12645, 3px -3px 0 0 #9df772;
+  }
+  75% {
+    -o-box-shadow: 3px 3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+    box-shadow: 3px 3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+  }
+  100% {
+    -o-box-shadow: -3px -3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+    box-shadow: -3px -3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+  }
+}
+
+@keyframes an-glitch-effect {
+  0% {
+    -webkit-box-shadow: -3px 3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+    -moz-box-shadow: -3px 3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+    -o-box-shadow: -3px 3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+    box-shadow: -3px 3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+  }
+  25% {
+    -webkit-box-shadow: 3px -3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+    -moz-box-shadow: 3px -3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+    -o-box-shadow: 3px -3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+    box-shadow: 3px -3px 0 0 #f12645, 3px -3px 0 0 #9df772;
+  }
+  50% {
+    -webkit-box-shadow: 1px 1px 0 0 #f12645, 3px -3px 0 0 #9df772;
+    -moz-box-shadow: 1px 1px 0 0 #f12645, 3px -3px 0 0 #9df772;
+    -o-box-shadow: 1px 1px 0 0 #f12645, 3px -3px 0 0 #9df772;
+    box-shadow: 1px 1px 0 0 #f12645, 3px -3px 0 0 #9df772;
+  }
+  75% {
+    -webkit-box-shadow: 3px 3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+    -moz-box-shadow: 3px 3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+    -o-box-shadow: 3px 3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+    box-shadow: 3px 3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+  }
+  100% {
+    -webkit-box-shadow: -3px -3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+    -moz-box-shadow: -3px -3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+    -o-box-shadow: -3px -3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+    box-shadow: -3px -3px 0 0 #f12645, 3px 3px 0 0 #9df772;
+  }
+}
+/* /button 45 */
+
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
