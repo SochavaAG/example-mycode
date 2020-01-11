@@ -3290,6 +3290,155 @@
 }
 /* /button 45 */
 
+/* button 46 */
+.ag-base_btn-v46 {
+  padding: 0;
+
+  position: relative;
+}
+.ag-base_text-btn-v46 {
+  display: block;
+  padding: 0 20px;
+  border-left: 2px solid #FF0A74;
+  border-right: 2px solid #FF0A74;
+
+  vertical-align: middle;
+  color: #FF0A74;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.ag-base_btn-v46:hover .ag-base_text-btn-v46 {
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  background-color: #000;
+
+  color: #FFF;
+}
+.ag-base_text-btn-v46:before {
+  content: "";
+  display: inline-block;
+  height: 40px;
+  width: 0;
+
+  vertical-align: middle;
+}
+.ag-bevel_btn__top,
+.ag-bevel_btn__bottom {
+  display: block;
+}
+.ag-bevel_btn-radius__top-left,
+.ag-bevel_btn-radius__top-right,
+.ag-bevel_btn-radius__bottom-left,
+.ag-bevel_btn-radius__bottom-right {
+  display: block;
+  width: 10px;
+  height: 10px;
+
+  overflow: hidden;
+
+  position: absolute;
+}
+.ag-bevel_btn-radius__top-left {
+  top: 0;
+  left: 0;
+}
+.ag-bevel_btn-radius__top-right {
+  top: 0;
+  right: 0;
+}
+.ag-bevel_btn-radius__bottom-left {
+  left: 0;
+  bottom: 0;
+}
+.ag-bevel_btn-radius__bottom-right {
+  right: 0;
+  bottom: 0;
+}
+.ag-bevel_btn-radius__top-left:before,
+.ag-bevel_btn-radius__top-right:before,
+.ag-bevel_btn-radius__bottom-left:before,
+.ag-bevel_btn-radius__bottom-right:before {
+  content: "";
+  display: block;
+  height: 20px;
+  width: 20px;
+  border: 2px solid #FF0A74;
+
+  position: absolute;
+
+  -webkit-border-radius: 50% 50% 50% 50%;
+  -moz-border-radius: 50% 50% 50% 50%;
+  border-radius: 50% 50% 50% 50%;
+}
+.ag-base_btn-v46:hover .ag-bevel_btn-radius__top-left:before,
+.ag-base_btn-v46:hover .ag-bevel_btn-radius__top-right:before,
+.ag-base_btn-v46:hover .ag-bevel_btn-radius__bottom-left:before,
+.ag-base_btn-v46:hover .ag-bevel_btn-radius__bottom-right:before {
+  border: 8px solid #000;
+}
+.ag-bevel_btn-radius__top-left:before {
+  right: 0;
+  bottom: 0;
+}
+.ag-base_btn-v46:hover .ag-bevel_btn-radius__top-left:before {
+  right: -6px;
+  bottom: -6px;
+}
+.ag-bevel_btn-radius__top-right:before {
+  left: 0;
+  bottom: 0;
+}
+.ag-base_btn-v46:hover .ag-bevel_btn-radius__top-right:before {
+  left: -6px;
+  bottom: -6px;
+}
+.ag-bevel_btn-radius__bottom-left:before {
+  top: 0;
+  right: 0;
+}
+.ag-base_btn-v46:hover .ag-bevel_btn-radius__bottom-left:before {
+  top: -6px;
+  right: -6px;
+}
+.ag-bevel_btn-radius__bottom-right:before {
+  top: 0;
+  left: 0;
+}
+.ag-base_btn-v46:hover .ag-bevel_btn-radius__bottom-right:before {
+  top: -6px;
+  left: -6px;
+}
+.ag-bevel_btn-border__top,
+.ag-bevel_btn-border__bottom {
+  display: block;
+  height: 8px;
+  margin: 0 10px;
+
+  overflow: hidden;
+
+  position: relative;
+}
+.ag-base_btn-v46:hover .ag-bevel_btn-border__top,
+.ag-base_btn-v46:hover .ag-bevel_btn-border__bottom {
+  background-color: #000;
+}
+.ag-bevel_btn-border__top {
+  border-top: 2px solid #FF0A74;
+}
+.ag-bevel_btn-border__bottom {
+  border-bottom: 2px solid #FF0A74;
+}
+.ag-base_btn-v46:hover .ag-bevel_btn-border__top {
+  border-top: 2px solid #000;
+}
+.ag-base_btn-v46:hover .ag-bevel_btn-border__bottom {
+  border-bottom: 2px solid #000;
+}
+/* /button 46 */
+
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
