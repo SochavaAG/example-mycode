@@ -3439,6 +3439,111 @@
 }
 /* /button 46 */
 
+/* button 47 */
+.ag-base_btn-v47 {
+  border: 2px solid #5deef3;
+
+  outline: none;
+
+  color: #1e83aa;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-border-radius: 6px 6px 6px 6px;
+  -moz-border-radius: 6px 6px 6px 6px;
+  border-radius: 6px 6px 6px 6px;
+
+  -webkit-box-shadow: 0 0 7px rgba(89, 237, 243, .6), 0 0 7px rgba(89, 237, 243, .6) inset;
+  -moz-box-shadow: 0 0 7px rgba(89, 237, 243, .6), 0 0 7px rgba(89, 237, 243, .6) inset;
+  -o-box-shadow: 0 0 7px rgba(89, 237, 243, .6), 0 0 7px rgba(89, 237, 243, .6) inset;
+  box-shadow: 0 0 7px rgba(89, 237, 243, .6), 0 0 7px rgba(89, 237, 243, .6) inset;
+
+  -webkit-transition: -webkit-transform .1s, -webkit-box-shadow .1s;
+  -moz-transition: -moz-transform .1s, -moz-box-shadow .1s;
+  -o-transition: -o-transform .1s, -o-box-shadow .1s;
+  transition: transform .1s, box-shadow .1s;
+
+  -webkit-font-smoothing: antialiased;
+
+  position: relative;
+}
+.ag-base_btn-v47:active,
+.ag-base_btn-v47:focus,
+.ag-base_btn-v47:hover {
+  -webkit-box-shadow: 0 0 10px #59edf3, 0 0 10px #59edf3 inset;
+  -moz-box-shadow: 0 0 10px #59edf3, 0 0 10px #59edf3 inset;
+  -o-box-shadow: 0 0 10px #59edf3, 0 0 10px #59edf3 inset;
+  box-shadow: 0 0 10px #59edf3, 0 0 10px #59edf3 inset;
+}
+.ag-base_btn-v47:active {
+  -webkit-transform: translate(0, 2px);
+  -moz-transform: translate(0, 2px);
+  -o-transform: translate(0, 2px);
+  transform: translate(0, 2px);
+}
+/* /button 47 */
+
+/* button 48 */
+.js-ag-base_btn-v48 {
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, .01);
+
+  overflow: hidden;
+
+  text-decoration: none;
+  color: #00D7B9;
+
+  z-index: 0;
+  position: relative;
+
+  -moz-border-image: -moz-linear-gradient(left, #00D7B9 0%, #00BDD7 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #00D7B9 0%, #00BDD7 100%);
+  border-image: linear-gradient(to right, #00D7B9 0%, #00BDD7 100%);
+  border-image-slice: 1;
+
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  -o-transition: color 1s ease;
+  transition: color 1s ease;
+}
+.js-ag-base_btn-v48:hover {
+  color: #FFF;
+
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  -o-transition: color 1s ease;
+  transition: color 1s ease;
+}
+.js-ag-base_icon-v48 {
+  display: block;
+  width: 0;
+  height: 0;
+
+  z-index: -1;
+  position: absolute;
+
+  -webkit-border-radius: 50% 50% 50% 50%;
+  -moz-border-radius: 50% 50% 50% 50%;
+  border-radius: 50% 50% 50% 50%;
+
+  background: -moz-linear-gradient(left, #00D7B9 0%, #00BDD7 100%);
+  background: -webkit-linear-gradient(left, #00D7B9 0%, #00BDD7 100%);
+  background: linear-gradient(to right, #00D7B9 0%, #00BDD7 100%);
+
+  -webkit-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  -moz-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  -o-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* /button 48 */
+
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {

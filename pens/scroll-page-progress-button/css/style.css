@@ -1,0 +1,130 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-page {
+  height: 4000px;
+  background-color: #ffe3a6;
+}
+.ag-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 150px;
+  color: #000;
+}
+
+/* progress */
+.js-ag-progress-wrap {
+  display: block;
+  height: 46px;
+  width: 46px;
+
+  opacity: 0;
+  visibility: hidden;
+
+  cursor: pointer;
+
+  z-index: 10000;
+  position: fixed;
+  right: 50px;
+  bottom: 70px;
+
+  -webkit-box-shadow: inset 0 0 0 2px #DDDDDD;
+  -moz-box-shadow: inset 0 0 0 2px #DDDDDD;
+  -o-box-shadow: inset 0 0 0 2px #DDDDDD;
+  box-shadow: inset 0 0 0 2px #DDDDDD;
+
+  -webkit-border-radius: 50px 50px 50px 50px;
+  -moz-border-radius: 50px 50px 50px 50px;
+  border-radius: 50px 50px 50px 50px;
+
+  -webkit-transform: translateY(15px);
+  -moz-transform: translateY(15px);
+  -o-transform: translateY(15px);
+  transform: translateY(15px);
+
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+.js-ag-progress_active {
+  opacity: 1;
+  visibility: visible;
+
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+.js-ag-progress-wrap:before {
+  content: "";
+  display: block;
+  height: 23px;
+  width: 17px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='17' height='23' viewBox='0 0 17 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M0.292893 8.77817C-0.0976311 8.38765 -0.0976311 7.75449 0.292893 7.36396L7.36396 0.292893C7.56004 0.0968121 7.81729 -0.000817233 8.07429 5.15215e-06C8.32928 0.000709109 8.58406 0.0983382 8.77862 0.292894L15.8497 7.36396C16.2402 7.75449 16.2402 8.38765 15.8497 8.77817C15.4592 9.1687 14.826 9.1687 14.4355 8.77817L9 3.3427L9 21.9998C9 22.5521 8.55229 22.9998 8 22.9998C7.44772 22.9998 7 22.5521 7 21.9998L7 3.48528L1.70711 8.77817C1.31658 9.1687 0.683418 9.1687 0.292893 8.77817Z' fill='%2300B7AB'/%3e%3c/svg%3e ");
+
+  cursor: pointer;
+
+  text-align: center;
+
+  z-index: 2;
+  position: absolute;
+  top: 11px;
+  left: 15px;
+
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+.js-ag-progress-wrap:hover:before {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='17' height='23' viewBox='0 0 17 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M0.292893 8.77817C-0.0976311 8.38765 -0.0976311 7.75449 0.292893 7.36396L7.36396 0.292893C7.56004 0.0968121 7.81729 -0.000817233 8.07429 5.15215e-06C8.32928 0.000709109 8.58406 0.0983382 8.77862 0.292894L15.8497 7.36396C16.2402 7.75449 16.2402 8.38765 15.8497 8.77817C15.4592 9.1687 14.826 9.1687 14.4355 8.77817L9 3.3427L9 21.9998C9 22.5521 8.55229 22.9998 8 22.9998C7.44772 22.9998 7 22.5521 7 21.9998L7 3.48528L1.70711 8.77817C1.31658 9.1687 0.683418 9.1687 0.292893 8.77817Z' fill='%2301D3C5'/%3e%3c/svg%3e ");
+}
+.js-ag-progress-wrap svg path {
+  fill: none;
+}
+.js-ag-progress-wrap .ag-progress-circle path {
+  stroke: #00B7AB;
+  stroke-width: 4;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-transition: all 200ms linear;
+  -moz-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
