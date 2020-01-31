@@ -1,0 +1,52 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-star {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/js-animation-background/images/start.png) no-repeat scroll 0 0;
+  height: 210px;
+  width: 324px;
+  margin: 50px auto;
+
+  position: relative;
+}
+.js-ag-flesh-start {
+  height: 160px;
+  width: 160px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/js-animation-background/images/registration.png) no-repeat scroll 0 0;
+
+  position: absolute;
+  top: 20px;
+  left: 90px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
