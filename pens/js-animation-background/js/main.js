@@ -1,14 +1,14 @@
 (function ($) {
   $(function () {
 
-    var anim = $('.js-ag-flesh-start'),
-      thisPosition = 0,
-      interval = setInterval(function () {
-        if (thisPosition == 2400) {
-          thisPosition = 0;
+    var agAnim = $('.js-ag-flesh-start'),
+      agThisPosition = 0,
+      agInterval = setInterval(function () {
+        if (agThisPosition == 2400) {
+          agThisPosition = 0;
         }
-        anim.css('background-position', '0px ' + -thisPosition + 'px');
-        thisPosition = thisPosition + 160;
+        agAnim.css('background-position', '0px ' + -agThisPosition + 'px');
+        agThisPosition = agThisPosition + 160;
       }, 150);
 
   });
