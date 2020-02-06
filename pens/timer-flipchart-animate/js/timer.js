@@ -3,7 +3,7 @@
   while (document.getElementById("timer" + _id))_id = _id + "0";
   document.write("<div id='timer" + _id + "' style='min-width:605px;height:87px;'></div>");
   var _t = document.createElement("script");
-  _t.src = "js/timer.min.js";
+  _t.src = "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timer-flipchart-animate/js/timer.min.js";
   var _f = function (_k) {
     var l = new MegaTimer(_id, {
       "view": [1, 1, 1, 1],
