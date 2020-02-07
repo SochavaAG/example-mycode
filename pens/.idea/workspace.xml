@@ -249,18 +249,38 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-wi-fi/index.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animation-wi-fi/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="9" selection-end-column="132" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animation-lamp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
-              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="24" />
+              <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/animation-wi-fi/css/style.css">
+        <entry file="file://$PROJECT_DIR$/animation-lamp/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state relative-caret-position="672">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -344,8 +364,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/glitch-effect/js/main.js" />
-        <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-ID.html" />
         <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-EN.html" />
         <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-MS.html" />
         <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-ES.html" />
@@ -395,6 +413,8 @@
         <option value="$PROJECT_DIR$/bubble-js/css/style.css" />
         <option value="$PROJECT_DIR$/animation-wi-fi/index.html" />
         <option value="$PROJECT_DIR$/animation-wi-fi/css/style.css" />
+        <option value="$PROJECT_DIR$/animation-lamp/index.html" />
+        <option value="$PROJECT_DIR$/animation-lamp/css/style.css" />
       </list>
     </option>
   </component>
@@ -559,12 +579,12 @@
       <workItem from="1543481383929" duration="16777000" />
       <workItem from="1547192629145" duration="9912000" />
       <workItem from="1580475997753" duration="3185000" />
-      <workItem from="1581058527292" duration="8004000" />
+      <workItem from="1581058527292" duration="8429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="490618000" />
+    <option name="totallyTimeSpent" value="491043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -609,8 +629,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-PK.html" />
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-VI.html" />
     <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-TH.html" />
     <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-EN.html" />
     <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-RU.html" />
@@ -920,14 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-wi-fi/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bubble-js/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -936,10 +946,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/animation-wi-fi/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-lamp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/animation-wi-fi/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="144">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="9" selection-end-column="132" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-lamp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding />
         </state>
       </provider>
