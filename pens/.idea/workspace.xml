@@ -160,7 +160,7 @@
         <entry file="file://$PROJECT_DIR$/js-animation-background/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="6" column="120" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="120" />
+              <caret line="6" column="120" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="120" />
               <folding />
             </state>
           </provider>
@@ -169,18 +169,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/instagram-like/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+            <state relative-caret-position="480">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/instagram-like/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="456">
+              <caret line="34" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -206,14 +206,50 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="format-2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/format-2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4171" column="21" lean-forward="true" selection-start-line="4171" selection-start-column="21" selection-end-line="4197" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bubble-js/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="744">
+              <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bubble-js/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bubble-js/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.png'</find>
-      <find>APP_BASE_HREF</find>
-      <find>assets/favicon/</find>
-      <find>tass-space</find>
       <find>mars</find>
       <find>navigation</find>
       <find>—</find>
@@ -240,12 +276,12 @@
       <find>../images/</find>
       <find>sbs-anim-rec153966805-1578681565696</find>
       <find>-webkit-</find>
+      <find>bubble</find>
+      <find>requestAnimationFrame</find>
+      <find>animations</find>
+      <find>t(</find>
     </findStrings>
     <replaceStrings>
-      <replace>&amp;#160;;</replace>
-      <replace>href=&quot;/cn/</replace>
-      <replace>&amp;#160;!</replace>
-      <replace>href=&quot;/pk/</replace>
       <replace>ag-stop_item</replace>
       <replace>href=&quot;/pt/</replace>
       <replace>href=&quot;/ru/</replace>
@@ -272,6 +308,10 @@
       <replace>an-pulse</replace>
       <replace>-moz-</replace>
       <replace>-o-</replace>
+      <replace>$(</replace>
+      <replace>$this.</replace>
+      <replace>agVertical</replace>
+      <replace>https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/bubble-js/images/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -284,10 +324,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/buttons/js/main.js" />
-        <option value="$USER_HOME$/format-2.js" />
-        <option value="$USER_HOME$/format-t.css" />
-        <option value="$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_best conditions/best-conditions-AR.html" />
         <option value="$PROJECT_DIR$/glitch-effect/css/style.css" />
         <option value="$PROJECT_DIR$/glitch-effect/index.html" />
         <option value="$PROJECT_DIR$/glitch-effect/js/main.js" />
@@ -335,6 +371,10 @@
         <option value="$PROJECT_DIR$/js-animation-background/index.html" />
         <option value="$PROJECT_DIR$/instagram-like/index.html" />
         <option value="$PROJECT_DIR$/instagram-like/css/style.css" />
+        <option value="$USER_HOME$/format-2.js" />
+        <option value="$PROJECT_DIR$/bubble-js/index.html" />
+        <option value="$PROJECT_DIR$/bubble-js/js/main.js" />
+        <option value="$PROJECT_DIR$/bubble-js/css/style.css" />
       </list>
     </option>
   </component>
@@ -369,7 +409,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/example/примеры сайтов/loreal-paris.ua/css/style.css" />
+    <property name="last_opened_file_path" value="$USER_HOME$/format-2.js" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RunManager">
@@ -499,12 +539,12 @@
       <workItem from="1543481383929" duration="16777000" />
       <workItem from="1547192629145" duration="9912000" />
       <workItem from="1580475997753" duration="3185000" />
-      <workItem from="1581058527292" duration="2522000" />
+      <workItem from="1581058527292" duration="7014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="485136000" />
+    <option name="totallyTimeSpent" value="489628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -549,10 +589,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-ID.html" />
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-MS.html" />
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-CN.html" />
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-ES.html" />
     <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-FR.html" />
     <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-KO.html" />
     <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-PK.html" />
@@ -805,15 +841,7 @@
     <entry file="file://$PROJECT_DIR$/js-animation-background/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="6" column="120" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/instagram-like/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <caret line="6" column="120" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="120" />
           <folding />
         </state>
       </provider>
@@ -826,6 +854,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/instagram-like/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="34" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instagram-like/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bubble-js/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4171" column="21" lean-forward="true" selection-start-line="4171" selection-start-column="21" selection-end-line="4197" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bubble-js/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/item-animation-up/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -834,10 +902,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/instagram-like/css/style.css">
+    <entry file="file://$PROJECT_DIR$/bubble-js/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="419">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,79 @@
+html,
+body,
+.ag-format-container {
+  height: 100%;
+}
+
+body {
+  background: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/bubble-js/images/bg.jpg) no-repeat scroll 50% 50%;
+}
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+.bubble {
+  display:inline-block;
+  z-index:9;
+  border-radius:50%;
+  background:center no-repeat;
+
+  position: absolute;
+}
+.bubble.bubble--1 {
+  width:83px;
+  height:78px;
+  background-image:url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/bubble-js/images/bubble-1.png)
+}
+.bubble.bubble--2 {
+  width:71px;
+  height:73px;
+  background-image:url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/bubble-js/images/bubble-2.png)
+}
+.bubble.bubble--3 {
+  width:41px;
+  height:45px;
+  background-image:url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/bubble-js/images/bubble-3.png)
+}
+.bubble.bubble--4 {
+  width:42px;
+  height:43px;
+  background-image:url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/bubble-js/images/bubble-4.png)
+}
+.bubble.bubble--5 {
+  width:74px;
+  height:79px;
+  background-image:url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/bubble-js/images/bubble-5.png)
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
