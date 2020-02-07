@@ -1,0 +1,180 @@
+html,
+body,
+.ag-format-container {
+  height: 100%;
+}
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+body {
+  background: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/animation-thunders/images/bg.jpg) no-repeat scroll 50% 50%;
+  background-size: cover;
+}
+
+.ag-thunders {
+  background: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/animation-thunders/images/thunders.png) no-repeat scroll 50% 0;
+
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  -webkit-animation: an-thunders 2s infinite alternate;
+  -moz-animation: an-thunders 2s infinite alternate;
+  -o-animation: an-thunders 2s infinite alternate;
+  animation: an-thunders 2s infinite alternate;
+}
+
+@-webkit-keyframes an-thunders {
+  0%,
+  19%,
+  21%,
+  39%,
+  41%,
+  59%,
+  61%,
+  79%,
+  81% {
+    opacity: 0;
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    opacity: 1;
+  }
+  39%,
+  41% {
+    -webkit-transform: none;
+    transform: none;
+  }
+  40% {
+    -webkit-transform: rotate3d(0, 1, 0, 360deg);
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+
+@-moz-keyframes an-thunders {
+  0%,
+  19%,
+  21%,
+  39%,
+  41%,
+  59%,
+  61%,
+  79%,
+  81% {
+    opacity: 0;
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    opacity: 1;
+  }
+  39%,
+  41% {
+    -moz-transform: none;
+    transform: none;
+  }
+  40% {
+    -moz-transform: rotate3d(0, 1, 0, 360deg);
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+
+@-o-keyframes an-thunders {
+  0%,
+  19%,
+  21%,
+  39%,
+  41%,
+  59%,
+  61%,
+  79%,
+  81% {
+    opacity: 0;
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    opacity: 1;
+  }
+  39%,
+  41% {
+    -o-transform: none;
+    transform: none;
+  }
+  40% {
+    -o-transform: rotate3d(0, 1, 0, 360deg);
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+
+@keyframes an-thunders {
+  0%,
+  19%,
+  21%,
+  39%,
+  41%,
+  59%,
+  61%,
+  79%,
+  81% {
+    opacity: 0;
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    opacity: 1;
+  }
+  39%,
+  41% {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+  40% {
+    -webkit-transform: rotate3d(0, 1, 0, 360deg);
+    -moz-transform: rotate3d(0, 1, 0, 360deg);
+    -o-transform: rotate3d(0, 1, 0, 360deg);
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
