@@ -1,0 +1,182 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-inst_btn {
+  display: table;
+  padding: 250px 0 0;
+  margin: 0 auto;
+  backface-visibility: hidden;
+
+  position: relative;
+}
+.ag-inst_link {
+  display: block;
+  height: 100px;
+  width: 100px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/instagram-like/images/instagram.svg) no-repeat scroll 0 0;
+  background-size: 100% auto;
+
+  -webkit-animation: an-pulse 2s infinite linear;
+  -moz-animation: an-pulse 2s infinite linear;
+  -o-animation: an-pulse 2s infinite linear;
+  animation: an-pulse 2s infinite linear;
+}
+.ag-inst_link:before {
+  content: "";
+  height: 150px;
+  width: 75px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/instagram-like/images/giphy.gif) no-repeat scroll 0 100%;
+  background-size: 100% auto;
+
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+
+  position: absolute;
+  right: -75px;
+  bottom: 80px;
+}
+
+
+@-webkit-keyframes an-pulse {
+  0% {
+    opacity: 1;
+
+    -webkit-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+    transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+  }
+  50% {
+    opacity: 1;
+
+    -webkit-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1.1, 1.1);
+    transform: translateX(0px) translateY(0px) rotate(0deg) scale(1.1, 1.1);
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+  }
+  100% {
+    opacity: 1;
+
+    -webkit-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+    transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+  }
+}
+
+@-moz-keyframes an-pulse {
+  0% {
+    opacity: 1;
+
+    -moz-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+    transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+    -moz-animation-timing-function: linear;
+    animation-timing-function: linear;
+  }
+  50% {
+    opacity: 1;
+
+    -moz-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1.1, 1.1);
+    transform: translateX(0px) translateY(0px) rotate(0deg) scale(1.1, 1.1);
+    -moz-animation-timing-function: linear;
+    animation-timing-function: linear;
+  }
+  100% {
+    opacity: 1;
+
+    -moz-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+    transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+  }
+}
+
+@-o-keyframes an-pulse {
+  0% {
+    opacity: 1;
+
+    -o-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+    transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+  }
+  50% {
+    opacity: 1;
+
+    -o-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1.1, 1.1);
+    transform: translateX(0px) translateY(0px) rotate(0deg) scale(1.1, 1.1);
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+  }
+  100% {
+    opacity: 1;
+
+    -o-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+    transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+  }
+}
+
+@keyframes an-pulse {
+  0% {
+    opacity: 1;
+
+    -webkit-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+    -moz-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+    -o-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+    transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+  }
+  50% {
+    opacity: 1;
+
+    -webkit-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1.1, 1.1);
+    -moz-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1.1, 1.1);
+    -o-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1.1, 1.1);
+    transform: translateX(0px) translateY(0px) rotate(0deg) scale(1.1, 1.1);
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+  }
+  100% {
+    opacity: 1;
+
+    -webkit-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+    -moz-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+    -o-transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+    transform: translateX(0px) translateY(0px) rotate(0deg) scale(1, 1);
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

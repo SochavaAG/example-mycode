@@ -71,7 +71,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/example-site/cobiro.com/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
+            <state relative-caret-position="110232">
               <caret line="4633" column="8" lean-forward="false" selection-start-line="4633" selection-start-column="8" selection-end-line="4633" selection-end-column="8" />
               <folding>
                 <element signature="e#51516#52840#0" expanded="false" />
@@ -119,7 +119,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/size-item/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-343">
+            <state relative-caret-position="2592">
               <caret line="108" column="62" lean-forward="false" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
               <folding />
             </state>
@@ -136,11 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js-animation-background/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+            <state relative-caret-position="226">
+              <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -150,7 +150,7 @@
         <entry file="file://$PROJECT_DIR$/js-animation-background/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="14" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="11" />
+              <caret line="14" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -160,7 +160,27 @@
         <entry file="file://$PROJECT_DIR$/js-animation-background/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="6" column="112" lean-forward="false" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="112" />
+              <caret line="6" column="120" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="120" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/instagram-like/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/instagram-like/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="17" column="103" lean-forward="false" selection-start-line="17" selection-start-column="103" selection-end-line="17" selection-end-column="103" />
               <folding />
             </state>
           </provider>
@@ -170,8 +190,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/static/img</find>
-      <find>cloudfront.net</find>
       <find>.png'</find>
       <find>APP_BASE_HREF</find>
       <find>assets/favicon/</find>
@@ -200,11 +218,10 @@
       <find>mask-large</find>
       <find>.timeline</find>
       <find>../images/</find>
+      <find>sbs-anim-rec153966805-1578681565696</find>
+      <find>-webkit-</find>
     </findStrings>
     <replaceStrings>
-      <replace>href=&quot;/fr/</replace>
-      <replace>Ouvrir le compte demo&amp;#160;:</replace>
-      <replace>&amp;#160;:</replace>
       <replace>&amp;#160;;</replace>
       <replace>href=&quot;/cn/</replace>
       <replace>&amp;#160;!</replace>
@@ -232,6 +249,9 @@
       <replace>IntroRustG-Base2Line</replace>
       <replace>SegoePrint</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/size-item/images/</replace>
+      <replace>an-pulse</replace>
+      <replace>-moz-</replace>
+      <replace>-o-</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -244,8 +264,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/buttons/index.html" />
-        <option value="$PROJECT_DIR$/buttons/css/style.css" />
         <option value="$PROJECT_DIR$/buttons/js/main.js" />
         <option value="$USER_HOME$/format-2.js" />
         <option value="$USER_HOME$/format-t.css" />
@@ -295,6 +313,8 @@
         <option value="$PROJECT_DIR$/js-animation-background/css/style.css" />
         <option value="$PROJECT_DIR$/js-animation-background/js/main.js" />
         <option value="$PROJECT_DIR$/js-animation-background/index.html" />
+        <option value="$PROJECT_DIR$/instagram-like/index.html" />
+        <option value="$PROJECT_DIR$/instagram-like/css/style.css" />
       </list>
     </option>
   </component>
@@ -459,11 +479,12 @@
       <workItem from="1543481383929" duration="16777000" />
       <workItem from="1547192629145" duration="9912000" />
       <workItem from="1580475997753" duration="3185000" />
+      <workItem from="1581058527292" duration="2348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="482614000" />
+    <option name="totallyTimeSpent" value="484962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -508,14 +529,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.15_landing_best conditions/best-conditions-AR.html" />
-    <entry file="file://$USER_HOME$/format-t.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="132" column="21" lean-forward="true" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/glitch-effect/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -729,7 +742,7 @@
     </entry>
     <entry file="file://$USER_HOME$/example-site/cobiro.com/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
+        <state relative-caret-position="110232">
           <caret line="4633" column="8" lean-forward="false" selection-start-line="4633" selection-start-column="8" selection-end-line="4633" selection-end-column="8" />
           <folding>
             <element signature="e#51516#52840#0" expanded="false" />
@@ -753,7 +766,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/size-item/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-343">
+        <state relative-caret-position="2592">
           <caret line="108" column="62" lean-forward="false" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
           <folding />
         </state>
@@ -770,7 +783,15 @@
     <entry file="file://$PROJECT_DIR$/js-animation-background/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="11" />
+          <caret line="14" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js-animation-background/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -778,15 +799,23 @@
     <entry file="file://$PROJECT_DIR$/js-animation-background/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="6" column="112" lean-forward="false" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="112" />
+          <caret line="6" column="120" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="120" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js-animation-background/index.html">
+    <entry file="file://$PROJECT_DIR$/instagram-like/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        <state relative-caret-position="408">
+          <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/instagram-like/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="17" column="103" lean-forward="false" selection-start-line="17" selection-start-column="103" selection-end-line="17" selection-end-column="103" />
           <folding />
         </state>
       </provider>
