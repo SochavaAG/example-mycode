@@ -210,7 +210,7 @@
         <entry file="file://$USER_HOME$/format-2.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="104">
-              <caret line="4171" column="21" lean-forward="true" selection-start-line="4171" selection-start-column="21" selection-end-line="4197" selection-end-column="7" />
+              <caret line="4171" column="21" lean-forward="false" selection-start-line="4171" selection-start-column="21" selection-end-line="4197" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -219,18 +219,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bubble-js/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+            <state relative-caret-position="480">
+              <caret line="32" column="8" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="32" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bubble-js/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="107">
+              <caret line="42" column="104" lean-forward="false" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -239,8 +239,28 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bubble-js/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+            <state relative-caret-position="120">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animation-wi-fi/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/animation-wi-fi/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -273,13 +293,13 @@
       <find>w(t)</find>
       <find>mask-large</find>
       <find>.timeline</find>
-      <find>../images/</find>
       <find>sbs-anim-rec153966805-1578681565696</find>
       <find>-webkit-</find>
       <find>bubble</find>
       <find>requestAnimationFrame</find>
-      <find>animations</find>
       <find>t(</find>
+      <find>animations</find>
+      <find>../images/</find>
     </findStrings>
     <replaceStrings>
       <replace>ag-stop_item</replace>
@@ -307,10 +327,10 @@
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/size-item/images/</replace>
       <replace>an-pulse</replace>
       <replace>-moz-</replace>
-      <replace>-o-</replace>
       <replace>$(</replace>
       <replace>$this.</replace>
       <replace>agVertical</replace>
+      <replace>-o-</replace>
       <replace>https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/bubble-js/images/</replace>
     </replaceStrings>
     <dirStrings>
@@ -324,8 +344,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/glitch-effect/css/style.css" />
-        <option value="$PROJECT_DIR$/glitch-effect/index.html" />
         <option value="$PROJECT_DIR$/glitch-effect/js/main.js" />
         <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-ID.html" />
         <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-EN.html" />
@@ -375,6 +393,8 @@
         <option value="$PROJECT_DIR$/bubble-js/index.html" />
         <option value="$PROJECT_DIR$/bubble-js/js/main.js" />
         <option value="$PROJECT_DIR$/bubble-js/css/style.css" />
+        <option value="$PROJECT_DIR$/animation-wi-fi/index.html" />
+        <option value="$PROJECT_DIR$/animation-wi-fi/css/style.css" />
       </list>
     </option>
   </component>
@@ -539,12 +559,12 @@
       <workItem from="1543481383929" duration="16777000" />
       <workItem from="1547192629145" duration="9912000" />
       <workItem from="1580475997753" duration="3185000" />
-      <workItem from="1581058527292" duration="7014000" />
+      <workItem from="1581058527292" duration="8004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="489628000" />
+    <option name="totallyTimeSpent" value="490618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -589,8 +609,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-FR.html" />
-    <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-KO.html" />
     <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-PK.html" />
     <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-VI.html" />
     <entry file="file://$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-TH.html" />
@@ -870,30 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bubble-js/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4171" column="21" lean-forward="true" selection-start-line="4171" selection-start-column="21" selection-end-line="4197" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bubble-js/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/item-animation-up/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -902,10 +896,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bubble-js/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4171" column="21" lean-forward="false" selection-start-line="4171" selection-start-column="21" selection-end-line="4197" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bubble-js/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="8" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="32" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-wi-fi/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bubble-js/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="107">
+          <caret line="42" column="104" lean-forward="false" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-wi-fi/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding />
         </state>
       </provider>

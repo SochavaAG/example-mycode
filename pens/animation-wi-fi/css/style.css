@@ -1,0 +1,75 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-wi-fi {
+  height: 53px;
+  width: 66px;
+  margin: 50px auto;
+  background: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/animation-wi-fi/images/wi-fi.png) no-repeat 0 50%;
+
+  -webkit-transform: scale(.8);
+  -moz-transform: scale(.8);
+  -o-transform: scale(.8);
+  transform: scale(.8);
+
+  -webkit-animation: an-wi-fi 2s steps(5) infinite;
+  -moz-animation: an-wi-fi 2s steps(5) infinite;
+  -o-animation: an-wi-fi 2s steps(5) infinite;
+  animation: an-wi-fi 2s steps(5) infinite;
+}
+
+@-webkit-keyframes an-wi-fi {
+  100% {
+    background-position: -330px;
+  }
+}
+
+@-moz-keyframes an-wi-fi {
+  100% {
+    background-position: -330px;
+  }
+}
+
+@-o-keyframes an-wi-fi {
+  100% {
+    background-position: -330px;
+  }
+}
+
+@keyframes an-wi-fi {
+  100% {
+    background-position: -330px;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
