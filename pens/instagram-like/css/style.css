@@ -15,7 +15,7 @@
   display: block;
   height: 100px;
   width: 100px;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/instagram-like/images/instagram.svg) no-repeat scroll 0 0;
+  background: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/instagram-like/images/instagram.svg) no-repeat scroll 0 0;
   background-size: 100% auto;
 
   -webkit-animation: an-pulse 2s infinite linear;
@@ -27,7 +27,7 @@
   content: "";
   height: 150px;
   width: 75px;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/instagram-like/images/giphy.gif) no-repeat scroll 0 100%;
+  background: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/instagram-like/images/giphy.gif) no-repeat scroll 0 100%;
   background-size: 100% auto;
 
   -webkit-transform: rotate(30deg);
