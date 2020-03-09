@@ -4,21 +4,33 @@
 }
 
 body {
-  background-color: #000;
+  background-color: #dbf0f5;
 }
 
-.wave {
+.ag-sun {
+  height: 150px;
+  width: 150px;
+  background-color: #f7ed5b;
+
+  z-index: 1;
   position: absolute;
-  bottom: 0;
-  width: 120%;
-  left: -10%;
-  z-index: 14;
+  left: 15%;
+  top: 15%;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
 }
-@media (max-width: 992px) {
-  .wave {
-    width: 1920px;
-    left: -50%;
-  }
+
+.ag-wave {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.ag-wave path {
+  fill: #6ce7e9;
 }
 
 
