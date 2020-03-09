@@ -2,6 +2,7 @@
   $(function () {
 
     var agSlideFlickity = $('.js-flickity-slider').flickity({
+      autoPlay: 2000,
       imagesLoaded: true,
       percentPosition: false,
       prevNextButtons: false,
