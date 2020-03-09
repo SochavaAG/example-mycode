@@ -206,11 +206,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="format-2.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="format-2.js" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/format-2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="4726" column="17" lean-forward="false" selection-start-line="4723" selection-start-column="10" selection-end-line="4726" selection-end-column="17" />
+            <state relative-caret-position="208">
+              <caret line="2582" column="58" lean-forward="false" selection-start-line="2582" selection-start-column="51" selection-end-line="2582" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -319,18 +319,48 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-thunders/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="360">
+              <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="23" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-thunders/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="17" column="91" lean-forward="false" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+            <state relative-caret-position="107">
+              <caret line="7" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flight-plane-scroll/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flight-plane-scroll/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flight-plane-scroll/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="51" column="60" lean-forward="false" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -340,21 +370,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>http://chudo-nauka.ru/wp-content/uploads/2015/12/</find>
-      <find>http://chudo-nauka.ru/wp-content/uploads/2018/07/</find>
-      <find>http://chudo-nauka.ru/wp-content/uploads/</find>
-      <find>/images</find>
-      <find>/wp-content/themes/index/favicon/</find>
-      <find>'</find>
-      <find>SegoePrintRegular</find>
-      <find>font-family: SegoePrintRegular</find>
-      <find>url(../images/</find>
-      <find>.logo-icon .svg-container</find>
-      <find>.svg-container</find>
-      <find>w</find>
-      <find>w(</find>
-      <find>y(</find>
-      <find>points</find>
       <find>w(t)</find>
       <find>mask-large</find>
       <find>.timeline</find>
@@ -364,19 +379,29 @@
       <find>requestAnimationFrame</find>
       <find>animations</find>
       <find>drone</find>
-      <find>t(</find>
       <find>n</find>
       <find>agCoordinate</find>
       <find>webkit</find>
       <find>thunders</find>
       <find>../images/</find>
+      <find>&quot;[data-d3]&quot;</find>
+      <find>data-crop-h</find>
+      <find>plane-dx</find>
+      <find>section3</find>
+      <find>&quot;crop-h&quot;</find>
+      <find>n r(</find>
+      <find>t(</find>
+      <find>l</find>
+      <find>data-d3</find>
+      <find>c.</find>
+      <find>#desktop [data-d3]</find>
+      <find>$(&quot;[data-d3]&quot;)</find>
+      <find>desktop</find>
+      <find>assets/images/s3/</find>
+      <find>crop-h</find>
+      <find>toFixed</find>
     </findStrings>
     <replaceStrings>
-      <replace>ECN&amp;#160;Zero</replace>
-      <replace>&amp;#160;–</replace>
-      <replace>FjallaOne-Regular</replace>
-      <replace>OpenSans</replace>
-      <replace>OpenSans-Bold</replace>
       <replace>OpenSans-Italic</replace>
       <replace>PTSerif-Regular</replace>
       <replace>../images/</replace>
@@ -384,7 +409,6 @@
       <replace>.png</replace>
       <replace>шьфпуы.</replace>
       <replace>--</replace>
-      <replace>images/</replace>
       <replace>FiveMinutes</replace>
       <replace>introrust</replace>
       <replace>IntroRustG-Base2Line</replace>
@@ -395,13 +419,19 @@
       <replace>$this.</replace>
       <replace>agVertical</replace>
       <replace>https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/bubble-js/images/</replace>
-      <replace>$(</replace>
-      <replace>-o-</replace>
       <replace>agCoord</replace>
       <replace>moz</replace>
       <replace>o</replace>
       <replace>an-thunders</replace>
       <replace>https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/animation-lamp/images/</replace>
+      <replace>:</replace>
+      <replace>'[data-d3]'</replace>
+      <replace>'crop-h'</replace>
+      <replace>$(</replace>
+      <replace>-o-</replace>
+      <replace>agWindow.</replace>
+      <replace>images/</replace>
+      <replace>agFlightBox</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -414,9 +444,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-TH.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-CN.html" />
-        <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-PK.html" />
         <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-FR.html" />
         <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-PT.html" />
         <option value="$USER_HOME$/vazhno_project/2018.11.20_page_demo-account/demo-account-RU.html" />
@@ -459,12 +486,15 @@
         <option value="$PROJECT_DIR$/animation-wi-fi/css/style.css" />
         <option value="$PROJECT_DIR$/animation-lamp/index.html" />
         <option value="$PROJECT_DIR$/animation-lamp/css/style.css" />
-        <option value="$USER_HOME$/format-2.js" />
         <option value="$PROJECT_DIR$/drone-mouse/css/style.css" />
         <option value="$PROJECT_DIR$/drone-mouse/index.html" />
         <option value="$PROJECT_DIR$/drone-mouse/js/main.js" />
         <option value="$PROJECT_DIR$/animation-thunders/index.html" />
         <option value="$PROJECT_DIR$/animation-thunders/css/style.css" />
+        <option value="$USER_HOME$/format-2.js" />
+        <option value="$PROJECT_DIR$/flight-plane-scroll/css/style.css" />
+        <option value="$PROJECT_DIR$/flight-plane-scroll/index.html" />
+        <option value="$PROJECT_DIR$/flight-plane-scroll/js/main.js" />
       </list>
     </option>
   </component>
@@ -629,12 +659,12 @@
       <workItem from="1543481383929" duration="16777000" />
       <workItem from="1547192629145" duration="9912000" />
       <workItem from="1580475997753" duration="3185000" />
-      <workItem from="1581058527292" duration="11783000" />
+      <workItem from="1581058527292" duration="18030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="494397000" />
+    <option name="totallyTimeSpent" value="500644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -679,27 +709,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="405" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-VI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2328">
-          <caret line="499" column="9" lean-forward="false" selection-start-line="499" selection-start-column="9" selection-end-line="499" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-ES.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9696">
-          <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="486" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project/_production_09.03.2016/2018.11.21_landing_black-friday-2018/black-friday-2018-FR.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -993,14 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/format-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="4726" column="17" lean-forward="false" selection-start-line="4723" selection-start-column="10" selection-end-line="4726" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/item-animation-up/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1025,14 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-thunders/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/drone-mouse/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1049,10 +1042,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/animation-thunders/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="23" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/animation-thunders/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="17" column="91" lean-forward="false" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+        <state relative-caret-position="107">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flight-plane-scroll/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flight-plane-scroll/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flight-plane-scroll/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="51" column="60" lean-forward="false" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="2582" column="58" lean-forward="false" selection-start-line="2582" selection-start-column="51" selection-end-line="2582" selection-end-column="58" />
           <folding />
         </state>
       </provider>

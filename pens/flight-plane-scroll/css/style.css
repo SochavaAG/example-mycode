@@ -1,0 +1,126 @@
+body {
+  height: 2000px;
+  padding: 800px 0 0;
+  background-color: #EEAE6E;
+}
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-flight_box {
+  padding: 100px;
+
+  position: relative;
+}
+.wrapper {
+  overflow: hidden;
+
+  position: relative;
+}
+.bg img {
+  width: 100%;
+}
+.plane-dx:after,
+.plane-sx:after {
+  content: "";
+  height: 22px;
+
+  position: absolute;
+}
+.plane-sx {
+  width: 40%;
+
+  z-index: 3;
+  position: absolute;
+  top: 7%;
+  left: -2%;
+
+  backface-visibility: hidden;
+
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+.plane-sx:after {
+  width: 52px;
+  background: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/flight-plane-scroll/images/plane-sx.png) center/cover;
+
+  top: -2px;
+  right: -20px;
+
+  -webkit-transform: scale(.5);
+  transform: scale(.5);
+}
+.plane-sx .wake {
+  width: 600px
+}
+.plane-sx .wake img {
+  width: 100%
+}
+.plane-dx {
+  width: 52%;
+
+  z-index: 3;
+  position: absolute;
+  top: 18%;
+  right: -2%;
+
+  -webkit-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.plane-dx:after {
+  width: 52px;
+  background: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/flight-plane-scroll/images/plane-dx.png) center/cover;
+
+  top: -2px;
+  left: -20px;
+
+  -webkit-transform: scale(.5);
+  transform: scale(.5);
+}
+.plane-dx .wake img {
+  width: 100%;
+}
+.plane-dx .plane {
+  position: absolute;
+  top: 0;
+  left: -3%;
+  width: 3%;
+}
+.plane-dx .plane img {
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
