@@ -1,0 +1,174 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+body {
+  background: url(../images/texture.png) repeat scroll 50% 0 #FFDBB5;
+}
+
+.ag-march-gifts-block {
+  padding: 80px 0;
+}
+.ag-march-gifts_list {
+  text-align: center;
+}
+.ag-march-gifts_item {
+  display: inline-block;
+  width: 25%;
+  margin-bottom: 40px;
+
+  position: relative;
+}
+.ag-march-gifts_link:hover {
+  text-decoration: none;
+}
+.ag-march-gifts_title-item {
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+.ag-march-gifts_item:hover .ag-march-gifts_title-item {
+  color: #FF680A;
+}
+.ag-march-gifts_img-box {
+  padding: 0 0 15px;
+
+  text-align: center;
+
+  position: relative;
+}
+.ag-march-gifts_img-box:before {
+  content: "";
+  display: block;
+  height: 210px;
+  width: 210px;
+  margin: -105px auto 0;
+  background: url(../images/girl-hover.png) no-repeat 50% 50%;
+
+  opacity: 0;
+
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+.ag-march-gifts_link:hover .ag-march-gifts_img-box:before {
+  -webkit-animation: an-gifts-hover .4s forwards;
+  -moz-animation: an-gifts-hover .4s forwards;
+  -o-animation: an-gifts-hover .4s forwards;
+  animation: an-gifts-hover .4s forwards;
+}
+.ag-march-gifts_img {
+  z-index: 5;
+  position: relative;
+}
+
+@-webkit-keyframes an-gifts-hover {
+  0% {
+    opacity: 0;
+
+    -webkit-transform: scale(0) rotate(120deg);
+  }
+  100% {
+    opacity: 1;
+
+    -webkit-transform: scale(1) rotate(0);
+  }
+}
+
+@-moz-keyframes an-gifts-hover {
+  0% {
+    opacity: 0;
+
+    -moz-transform: scale(0) rotate(120deg);
+  }
+  100% {
+    opacity: 1;
+
+    -moz-transform: scale(1) rotate(0);
+  }
+}
+
+@-o-keyframes an-gifts-hover {
+  0% {
+    opacity: 0;
+
+    -o-transform: scale(0) rotate(120deg);
+  }
+  100% {
+    opacity: 1;
+
+    -o-transform: scale(1) rotate(0);
+  }
+}
+
+@keyframes an-gifts-hover {
+  0% {
+    opacity: 0;
+
+    -webkit-transform: scale(0) rotate(120deg);
+    -moz-transform: scale(0) rotate(120deg);
+    -o-transform: scale(0) rotate(120deg);
+    transform: scale(0) rotate(120deg);
+  }
+  100% {
+    opacity: 1;
+
+    -webkit-transform: scale(1) rotate(0);
+    -moz-transform: scale(1) rotate(0);
+    -o-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+  .ag-march-gifts_item {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .ag-march-gifts_link:hover .ag-march-gifts_img-box:before {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    animation: none;
+  }
+}
+
+
+@media only screen and (max-width: 479px) {
+  .ag-march-gifts_item {
+    display: block;
+    width: 270px;
+    margin: 0 auto 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+  .ag-march-gifts_item {
+    display: inline-block;
+    width: 33%;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
