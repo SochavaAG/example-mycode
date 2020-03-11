@@ -4,7 +4,7 @@
 }
 
 body {
-  background: url(../images/texture.png) repeat scroll 50% 0 #FFDBB5;
+  background: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/item-hover-citrus/images/texture.png) repeat scroll 50% 0 #FFDBB5;
 }
 
 .ag-march-gifts-block {
@@ -49,7 +49,7 @@ body {
   height: 210px;
   width: 210px;
   margin: -105px auto 0;
-  background: url(../images/girl-hover.png) no-repeat 50% 50%;
+  background: url(https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/item-hover-citrus/images/girl-hover.png) no-repeat 50% 50%;
 
   opacity: 0;
 
