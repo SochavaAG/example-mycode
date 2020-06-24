@@ -1,20 +1,40 @@
 html {
-    height: 100vh;
-  }
-  
-  body {
-    height: 500vh;
-    background: #000;
-  }
-  .hero {
-      position: relative;
+  height: 100vh;
+}
+.body {
+  height: 500vh;
+}
+.ag-scrolling-change-images {
+  height: 500vh;
+
+  position: relative;
+}
+
+/*
+@supports (height:100vh) {
+    .hero {
       height: 500vh;
   }
-  canvas {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 100%;
-    max-height: 100%;
+}
+
+@supports not (height:100vh) {
+    .hero {
+      height: 3000px;
   }
+}
+*/
+
+.ag-scrolling-change-images__canvas {
+  max-width: 100%;
+  max-height: 100%;
+
+  position: fixed;
+  left: 50%;
+  top: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
