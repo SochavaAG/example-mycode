@@ -5,7 +5,7 @@ var context = canvas.getContext("2d");
 var frameCount = 255;
 
 var currentFrame = function (index) {
-  return "images/dd" + index.toString() + ".jpg";
+  return "https://rawcdn.githack.com/SochavaAG/example-mycode/master/pens/scrolling-change-images/images/dd" + index.toString() + ".jpg";
 }
 
 var preloadImages = function () {
