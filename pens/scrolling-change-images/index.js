@@ -1,4 +1,4 @@
-var html = document.querySelector("html");
+var html = document.querySelector("body");
 var canvas = document.getElementById("js-scrolling-change-images__canvas");
 var context = canvas.getContext("2d");
 
