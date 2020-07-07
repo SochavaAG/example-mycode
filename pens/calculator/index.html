@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Calculation</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="plugins/rangeslider/rangeslider.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<div class="ag-calculators-block">
+  <div class="ag-format-container">
+    <div id="affiliate" class="ag-calculator-block">
+      <div class="ag-calculator_title">Calculate your reward</div>
+      <div class="js-calculator_input-wrap ag-calculator_input-wrap">
+        <label class="ag-calculator_label" for="level1-clients">1st Level Clients attracted by you</label>
+        <input id="level1-clients" class="js-calculator_text-input ag-calculator_text-input" type="number" name="level1-clients" min="0" max="100" value="15">
+        <input class="js-calculator_range" step="1" type="range" name="level1-clients" min="0" max="100" value="15">
+      </div>
+      <a class="js-calculator_more-levels ag-calculator_more-levels">
+        <span class="ag-calculator_levels ag-calculator_added-levels">Add three level commissions to calculations</span>
+        <span class="ag-calculator_levels ag-calculator_removed-levels">Remove three level commission from calculation</span>
+      </a>
+      <div class="js-calculator_input-wrap js-calculator_second-level-wrap ag-calculator_input-wrap ag-calculator_second-level-wrap">
+        <label class="ag-calculator_label-2" for="level2-clients">2nd Level Clients attracted by your partners</label>
+        <input id="level2-clients" class="js-calculator_text-input ag-calculator_text-input" type="number" name="level2-clients" min="0" max="100" value="0">
+        <span class="ag-calculator_percent">16.7%</span>
+        <input class="js-calculator_range" step="1" type="range" name="level2-clients" min="0" max="100" value="0">
+      </div>
+      <div class="js-calculator_input-wrap js-calculator_second-level-wrap ag-calculator_input-wrap ag-calculator_second-level-wrap">
+        <label class="ag-calculator_label-2" for="level3-clients">3rd Level Clients attracted by your partners’
+          partners</label>
+        <input id="level3-clients" class="js-calculator_text-input ag-calculator_text-input" type="number" name="level3-clients" min="0" max="100" value="0">
+        <span class="ag-calculator_percent">5.6%</span>
+        <input class="js-calculator_range" step="1" type="range" name="level3-clients" min="0" max="100" value="0">
+      </div>
+      <div class="js-calculator_input-wrap ag-calculator_input-wrap">
+        <label class="ag-calculator_label" for="daily-orders">Daily orders per client</label>
+        <input id="daily-orders" class="js-calculator_text-input ag-calculator_text-input" type="number" name="daily-orders" min="0" max="100" value="10">
+        <input class="js-calculator_range" step="1" type="range" name="daily-orders" min="0" max="100" value="10">
+      </div>
+      <div class="js-calculator_input-wrap ag-calculator_input-wrap">
+        <label class="ag-calculator_label" for="commission">Copy commission share</label>
+        <input id="commission" class="js-calculator_text-input ag-calculator_text-input" type="number" name="commission" min="0" max="8" value="3" step="0.5">
+        <input class="js-calculator_range" step="0.5" type="range" name="commission" min="0" max="8" value="3">
+      </div>
+      <div class="ag-calculator_results-box">
+        <div class="ag-calculator_results-info">
+          <div class="ag-calculator_results-title">Your total monthly income</div>
+          <div id="affiliate-result" class="ag-calculator_results-sum">
+            25'428<span class="ag-calculator_results-currency">$</span>
+          </div>
+        </div>
+        <div class="ag-base_btn-wrap">
+          <a href="#" class="ag-base_btn">Become a partner</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="agent" class="ag-calculator-block">
+      <div class="ag-calculator_title">Calculate your reward</div>
+      <div class="js-calculator_input-wrap ag-calculator_input-wrap">
+        <label class="ag-calculator_label" for="clients-attracted">Clients attracted</label>
+        <input id="clients-attracted" class="js-calculator_text-input ag-calculator_text-input" type="number" name="clients-attracted" min="0" max="100" value="15">
+        <input class="js-calculator_range" step="1" type="range" name="clients-attracted" min="0" max="100" value="15">
+      </div>
+      <div class="js-calculator_input-wrap ag-calculator_input-wrap">
+        <label class="ag-calculator_label" for="daily-orders-per-client">Daily orders per client</label>
+        <input id="daily-orders-per-client" class="js-calculator_text-input ag-calculator_text-input" type="number" name="daily-orders-per-client" min="0" max="100" value="10" step="1">
+        <input class="js-calculator_range" step="1" type="range" name="daily-orders-per-client" min="0" max="100" value="10">
+      </div>
+      <div class="js-calculator_input-wrap ag-calculator_input-wrap">
+        <label class="ag-calculator_label" for="agent-commission">Copy commission share</label>
+        <input id="agent-commission" class="js-calculator_text-input ag-calculator_text-input" type="number" name="agent-commission" min="0" max="8" value="3" step="0.5">
+        <input class="js-calculator_range" step="0.5" type="range" name="agent-commission" min="0" max="8" value="3">
+      </div>
+      <div class="ag-calculator_results-box">
+        <div class="ag-calculator_results-info">
+          <div class="ag-calculator_results-title">Your total monthly income</div>
+          <div id="agent-result" class="ag-calculator_results-sum">
+            11'500<span class="ag-calculator_results-currency">$</span>
+          </div>
+        </div>
+        <div class="ag-base_btn-wrap">
+          <a href="#" class="ag-base_btn">Become a partner</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="prostpmarkup" class="ag-calculator-block">
+      <div class="ag-calculator_title">Calculate your reward</div>
+      <div class="js-calculator_input-wrap ag-calculator_input-wrap">
+        <span class="ag-calculator_label">Level of partner reward</span>
+        <div class="js-calculator_radio-box ag-calculator_radio-box">
+          <input id="price2" class="js-calculator_radio" type="radio" name="partner-reward" value="7" checked="">
+          <label class="ag-calculator_radio-label" for="price2">7$</label>
+          <input id="price3" class="js-calculator_radio" type="radio" name="partner-reward" value="15">
+          <label class="ag-calculator_radio-label" for="price3">15$</label>
+          <input id="price4" class="js-calculator_radio" type="radio" name="partner-reward" value="30">
+          <label class="ag-calculator_radio-label" for="price4">30$</label>
+          <input id="price5" class="js-calculator_radio" type="radio" name="partner-reward" value="40">
+          <label class="ag-calculator_radio-label" for="price5">40$</label>
+          <input id="price6" class="js-calculator_radio" type="radio" name="partner-reward" value="50">
+          <label class="ag-calculator_radio-label" for="price6">50$</label>
+        </div>
+      </div>
+      <div class="js-calculator_input-wrap ag-calculator_input-wrap">
+        <label class="ag-calculator_label" for="stp-clients-attracted">Clients attracted</label>
+        <input id="stp-clients-attracted" class="js-calculator_text-input ag-calculator_text-input" type="number" name="stp-clients-attracted" min="0" max="100" value="15">
+        <input class="js-calculator_range" step="1" type="range" name="stp-clients-attracted" min="0" max="100" value="15">
+      </div>
+      <div class="js-calculator_input-wrap ag-calculator_input-wrap">
+        <label class="ag-calculator_label" for="stp-daily-orders-per-client">Daily orders per client</label>
+        <input id="stp-daily-orders-per-client" class="js-calculator_text-input ag-calculator_text-input" type="number" name="stp-daily-orders-per-client" min="0" max="100" value="10" step="1">
+        <input class="js-calculator_range" step="1" type="range" name="stp-daily-orders-per-client" min="0" max="100" value="15">
+      </div>
+      <div class="ag-calculator_results-box">
+        <div class="ag-calculator_results-info">
+          <div class="ag-calculator_results-title">Your total monthly income</div>
+          <div id="pro-stp-result" class="ag-calculator_results-sum">
+            1'050<span class="ag-calculator_results-currency">$</span>
+          </div>
+        </div>
+        <div class="ag-base_btn-wrap">
+          <a href="#" class="ag-base_btn">Become a partner</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="plugins/rangeslider/rangeslider.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
