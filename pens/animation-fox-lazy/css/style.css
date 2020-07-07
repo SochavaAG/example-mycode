@@ -1,0 +1,70 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+.ag-lazy-fox {
+  height: 443px;
+  width: 455px;
+  margin: -200px auto 0;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-lazy/images/lazy-fox.png);
+  background-position: 0 0;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+.ag-lazy-fox-leg {
+  height: 57px;
+  width: 65px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-lazy/images/lazy-fox.png);
+  background-position: 0 -443px;
+
+  position: absolute;
+  bottom: 140px;
+  left: 34px;
+
+  animation: leg-move 1.2s infinite alternate;
+}
+@keyframes leg-move {
+  0%,
+  40% {
+    transform: rotate(0);
+    animation-timing-function: linear;
+  }
+  100% {
+    transform: translate(-1px, 8px) rotate(-15deg);
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

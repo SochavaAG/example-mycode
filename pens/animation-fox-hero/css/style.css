@@ -1,0 +1,103 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+.ag-hero_fox-wrap {
+  height: 344px;
+  width: 410px;
+  margin: -150px auto 0;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+.ag-hero_fox {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero/images/hero-fox.png);
+  background-position: 0 0;
+
+  position: absolute;
+}
+.ag-hero_cloak-part {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero/images/hero-fox.png);
+
+  position: absolute;
+}
+.ag-hero_cloak-part:nth-child(1) {
+  height: 68px;
+  width: 140px;
+  background-position: -260px -344px;
+
+  top: 230px;
+  left: -22px;
+}
+.ag-hero_cloak-part:nth-child(2) {
+  height: 129px;
+  width: 260px;
+  background-position: 0 -357px;
+
+  top: 157px;
+  left: -88px;
+
+  animation: wind .9s infinite;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+  animation-play-state: running;
+}
+.ag-hero_cloak-part:nth-child(3) {
+  height: 94px;
+  width: 250px;
+  background-position: 0 -486px;
+
+  top: 152px;
+  left: -108px;
+
+  animation: wind 1.8s infinite;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}
+
+@keyframes wind {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0) scale(1);
+    opacity: 1;
+    animation-timing-function: linear;
+  }
+  100% {
+    transform: translate3d(-5px, 0, 0) rotate(2deg) scale(1);
+    opacity: 1;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

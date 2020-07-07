@@ -1,0 +1,136 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+.ag-meditating-fox {
+  height: 470px;
+  width: 490px;
+  margin: -200px auto 0;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-meditating/images/meditating-fox.png);
+  background-position: 0 0;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+
+  animation: fox-float 6s infinite;
+  animation-delay: 2s;
+}
+.ag-meditating-fox_money {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-meditating/images/meditating-fox.png);
+
+  position: absolute;
+}
+.ag-meditating-fox_money:nth-child(1) {
+  height: 63px;
+  width: 83px;
+  background-position: -106px -470px;
+
+  top: 170px;
+  left: 8px;
+
+  animation: money-float-1 6s infinite;
+}
+.ag-meditating-fox_money:nth-child(2) {
+  height: 30px;
+  width: 24px;
+  background-position: -245px -470px;
+
+  top: 275px;
+  left: 20px;
+
+  animation: money-float-2 6s infinite;
+}
+.ag-meditating-fox_money:nth-child(3) {
+  height: 44px;
+  width: 106px;
+  background-position: 0 -470px;
+
+  top: 163px;
+  right: 0;
+
+  animation: money-float-1 6s infinite;
+}
+.ag-meditating-fox_money:nth-child(4) {
+  height: 35px;
+  width: 27px;
+  background-position: -218px -470px;
+
+  top: 200px;
+  right: 40px;
+
+  animation: money-float-2 6s infinite;
+}
+.ag-meditating-fox_money:nth-child(5) {
+  height: 16px;
+  width: 29px;
+  background-position: -189px -470px;
+
+  top: 290px;
+  right: 24px;
+
+  animation: money-float-2 6s infinite;
+}
+
+@keyframes fox-float {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, -20px);
+  }
+}
+
+@keyframes money-float-1 {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(12px);
+  }
+}
+
+@keyframes money-float-2 {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
