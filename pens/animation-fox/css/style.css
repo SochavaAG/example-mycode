@@ -15,7 +15,7 @@
   right: 0;
 }
 .ag-winner_confetti {
-  background-image: url(../images/leader-fox.png);
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox/images/leader-fox.png);
 
   position: absolute;
   top: 0;
@@ -96,7 +96,7 @@
   position: relative;
   height: 100%;
   width: 100%;
-  background-image: url(../images/leader-fox.png);
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox/images/leader-fox.png);
   background-position: 0 0;
 }
 
