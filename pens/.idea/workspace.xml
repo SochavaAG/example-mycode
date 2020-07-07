@@ -18,8 +18,8 @@
       <file leaf-file-name="faq-KO.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/vazhno_project-1/2020.06.30_pages_FAQ/faq-KO.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="1663" column="36" lean-forward="true" selection-start-line="1663" selection-start-column="36" selection-end-line="1663" selection-end-column="36" />
+            <state relative-caret-position="199">
+              <caret line="1663" column="36" lean-forward="false" selection-start-line="1663" selection-start-column="36" selection-end-line="1663" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#!!top" expanded="false" />
                 <element signature="e#47#73#0" expanded="false" />
@@ -226,38 +226,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculation/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="141" selection-end-column="6" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calculation/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/calculation/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="format-2.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-2.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -268,23 +236,50 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculator/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="61" column="71" lean-forward="false" selection-start-line="61" selection-start-column="71" selection-end-line="61" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/calculator/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="288" column="33" lean-forward="false" selection-start-line="288" selection-start-column="33" selection-end-line="288" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animation-fox/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/animation-fox/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.calculator-block</find>
-      <find>second-level-wrapper</find>
-      <find>input-wrapper</find>
-      <find>radio-block</find>
-      <find>.radio</find>
-      <find>radio</find>
-      <find>ag-calculator_radio-block</find>
-      <find>js-calculator_radio-block</find>
-      <find>radio-label</find>
-      <find>calculator-header</find>
-      <find>.range</find>
-      <find>range</find>
-      <find>results-block</find>
       <find>h2</find>
       <find>ag-calculator_results-title</find>
       <find>ag-calculator_results-info</find>
@@ -300,18 +295,23 @@
       <find>js-calculator_second-level-wrapper</find>
       <find>.ag-calculator_levels</find>
       <find>solid 1px</find>
-      <find>ag-calculator-block</find>
       <find>calculator-percent</find>
+      <find>ag-calculator-block</find>
+      <find>flex</find>
+      <find>url(</find>
+      <find>title-appear</find>
+      <find>\;\n      \}</find>
+      <find>\n      \}</find>
+      <find>\n    \}</find>
+      <find>leader-zoom</find>
+      <find>display-name</find>
+      <find>leader-fox</find>
+      <find>ag-winner_fox</find>
+      <find>fox</find>
+      <find>confetti</find>
+      <find>.ag-winner_fox-box .ag-winner_confetti-wrap</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-calculator-block</replace>
-      <replace>js-calculator_input-wrapper</replace>
-      <replace>ag-calculator_second-level-wrapper</replace>
-      <replace>ag-calculator_radio-block</replace>
-      <replace>js-calculator_radio-block ag-calculator_radio-block</replace>
-      <replace>class=&quot;js-calculator_radio ag-calculator_radio&quot;</replace>
-      <replace>.ag-calculator_radio</replace>
-      <replace>js-calculator_radio-block</replace>
       <replace>ag-calculator_radio-box</replace>
       <replace>ag-calculator_radio-label</replace>
       <replace>js-calculator_radio-box</replace>
@@ -332,8 +332,16 @@
       <replace>ag-calculator_more-levels</replace>
       <replace>ag-calculator_second-level-wrap</replace>
       <replace>js-calculator_more-levels</replace>
-      <replace>1px solid</replace>
       <replace>js-calculator_second-level-wrap</replace>
+      <replace>\n      \}</replace>
+      <replace>\;\n      \}</replace>
+      <replace>\;\n    \}</replace>
+      <replace>}</replace>
+      <replace>1px solid</replace>
+      <replace>ag-winner_fox</replace>
+      <replace>ag-winner_fox-box</replace>
+      <replace>.ag-winner_fox</replace>
+      <replace>ag-winner_confetti</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -341,14 +349,12 @@
       <dir>$USER_HOME$/vazhno_project/2018.10.16_pop-up_analytics/css</dir>
       <dir>$USER_HOME$/vazhno_project/2018.11.13_page_demo-account</dir>
       <dir>$PROJECT_DIR$/slider-no-js</dir>
+      <dir>$PROJECT_DIR$/animation-fox</dir>
     </dirStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/size-item/index.html" />
-        <option value="$PROJECT_DIR$/size-item/css/style.css" />
-        <option value="$PROJECT_DIR$/js-animation-background/css/style.css" />
         <option value="$PROJECT_DIR$/js-animation-background/js/main.js" />
         <option value="$PROJECT_DIR$/js-animation-background/index.html" />
         <option value="$PROJECT_DIR$/instagram-like/index.html" />
@@ -397,6 +403,9 @@
         <option value="$PROJECT_DIR$/calculation/index.html" />
         <option value="$PROJECT_DIR$/calculation/css/style.css" />
         <option value="$PROJECT_DIR$/calculation/js/main.js" />
+        <option value="$PROJECT_DIR$/calculator/index.html" />
+        <option value="$PROJECT_DIR$/animation-fox/index.html" />
+        <option value="$PROJECT_DIR$/animation-fox/css/style.css" />
       </list>
     </option>
   </component>
@@ -431,7 +440,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/format-2.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/animation-fox" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RunManager">
@@ -563,12 +572,12 @@
       <workItem from="1580475997753" duration="3185000" />
       <workItem from="1581058527292" duration="18030000" />
       <workItem from="1593753883854" duration="15661000" />
-      <workItem from="1594105146873" duration="14020000" />
+      <workItem from="1594105146873" duration="18194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="530325000" />
+    <option name="totallyTimeSpent" value="534499000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -578,6 +587,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -589,7 +599,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -613,34 +622,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bubble-js/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="42" column="104" lean-forward="false" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animation-wi-fi/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animation-wi-fi/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="9" selection-end-column="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animation-lamp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/item-animation-up/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2352">
@@ -708,6 +689,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="51" column="60" lean-forward="false" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -942,11 +924,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="39016" />
-          <folding>
-            <element signature="e#20230#20809#2" expanded="false" />
-            <element signature="e#21508#22091#2" expanded="false" />
-            <element signature="e#22614#23197#2" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -958,10 +936,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/calculation/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculation/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculation/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="141" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2020.06.30_pages_FAQ/faq-KO.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="1663" column="36" lean-forward="true" selection-start-line="1663" selection-start-column="36" selection-end-line="1663" selection-end-column="36" />
+        <state relative-caret-position="199">
+          <caret line="1663" column="36" lean-forward="false" selection-start-line="1663" selection-start-column="36" selection-end-line="1663" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#!!top" expanded="false" />
             <element signature="e#47#73#0" expanded="false" />
@@ -1113,28 +1115,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculation/index.html">
+    <entry file="file://$PROJECT_DIR$/calculator/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="141" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculation/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="100" selection-end-column="11" />
+        <state relative-caret-position="422">
+          <caret line="288" column="33" lean-forward="false" selection-start-line="288" selection-start-column="33" selection-end-line="288" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculation/css/style.css">
+    <entry file="file://$PROJECT_DIR$/calculator/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="353">
+          <caret line="61" column="71" lean-forward="false" selection-start-line="61" selection-start-column="71" selection-end-line="61" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-fox/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-fox/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding />
         </state>
       </provider>
