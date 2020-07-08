@@ -856,75 +856,75 @@ var createjs, AdobeAn;
     color: "#00A1F1",
     opacity: 1,
     manifest: [{
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_arm1_1.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_arm1_1.png",
       id: "rocket_arm1_1"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_arm1_2.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_arm1_2.png",
       id: "rocket_arm1_2"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_bag_1.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_bag_1.png",
       id: "rocket_bag_1"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_bag_2.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_bag_2.png",
       id: "rocket_bag_2"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_bag_bag.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_bag_bag.png",
       id: "rocket_bag_bag"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_bag_sh.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_bag_sh.png",
       id: "rocket_bag_sh"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_body.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_body.png",
       id: "rocket_body"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_cloud_1.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_cloud_1.png",
       id: "rocket_cloud_1"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_cloud_2.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_cloud_2.png",
       id: "rocket_cloud_2"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_cloud_3.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_cloud_3.png",
       id: "rocket_cloud_3"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_cloud_4.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_cloud_4.png",
       id: "rocket_cloud_4"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_cloud_bulb.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_cloud_bulb.png",
       id: "rocket_cloud_bulb"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_daster.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_daster.png",
       id: "rocket_daster"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_flame_1.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_flame_1.png",
       id: "rocket_flame_1"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_flame_2.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_flame_2.png",
       id: "rocket_flame_2"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_hand_top.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_hand_top.png",
       id: "rocket_hand_top"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_head_1.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_head_1.png",
       id: "rocket_head_1"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_head_back.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_head_back.png",
       id: "rocket_head_back"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_head_bottom.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_head_bottom.png",
       id: "rocket_head_bottom"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_head_face.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_head_face.png",
       id: "rocket_head_face"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_head_main.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_head_main.png",
       id: "rocket_head_main"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_head_top.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_head_top.png",
       id: "rocket_head_top"
     }, {
-      src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_leg.png",
+      src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_leg.png",
       id: "rocket_leg"
-    }, {src: host + "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_neck.png", id: "rocket_neck"}],
+    }, {src: "https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/images/rocket_neck.png", id: "rocket_neck"}],
     preloads: []
   },(lib.Stage = function (e) {
     createjs.Stage.call(this, e)
