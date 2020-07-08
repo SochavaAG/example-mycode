@@ -381,8 +381,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rocket/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="25" column="147" lean-forward="false" selection-start-line="25" selection-start-column="147" selection-end-line="25" selection-end-column="147" />
+            <state relative-caret-position="356">
+              <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -422,7 +422,7 @@
         <entry file="file://$PROJECT_DIR$/astronaut/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
-              <caret line="25" column="147" lean-forward="false" selection-start-line="25" selection-start-column="147" selection-end-line="25" selection-end-column="147" />
+              <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -431,8 +431,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/climber/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="25" column="147" lean-forward="false" selection-start-line="25" selection-start-column="147" selection-end-line="25" selection-end-column="147" />
+            <state relative-caret-position="391">
+              <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -467,11 +467,11 @@
       <find>host +</find>
       <find>&quot;</find>
       <find>ad</find>
-      <find>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/js/</find>
       <find>adob</find>
       <find>host+</find>
       <find>/i/promo/2020_winter/climber/</find>
       <find>/i/promo/2020_winter/astronaut/</find>
+      <find>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/js/</find>
     </findStrings>
     <replaceStrings>
       <replace>.ag-winner_fox</replace>
@@ -501,9 +501,9 @@
       <replace>images/</replace>
       <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/</replace>
       <replace>'</replace>
-      <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/js/</replace>
       <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/climber/images/</replace>
       <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/astronaut/images/</replace>
+      <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/js/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -735,12 +735,12 @@
       <workItem from="1581058527292" duration="18030000" />
       <workItem from="1593753883854" duration="15661000" />
       <workItem from="1594105146873" duration="21093000" />
-      <workItem from="1594189794576" duration="11397000" />
+      <workItem from="1594189794576" duration="11996000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="548795000" />
+    <option name="totallyTimeSpent" value="549394000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -1280,8 +1280,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/climber/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="25" column="147" lean-forward="false" selection-start-line="25" selection-start-column="147" selection-end-line="25" selection-end-column="147" />
+        <state relative-caret-position="391">
+          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -1289,15 +1289,15 @@
     <entry file="file://$PROJECT_DIR$/astronaut/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="25" column="147" lean-forward="false" selection-start-line="25" selection-start-column="147" selection-end-line="25" selection-end-column="147" />
+          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rocket/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="147" lean-forward="false" selection-start-line="25" selection-start-column="147" selection-end-line="25" selection-end-column="147" />
+        <state relative-caret-position="356">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
           <folding />
         </state>
       </provider>
