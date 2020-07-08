@@ -260,7 +260,7 @@
         <entry file="file://$PROJECT_DIR$/animation-fox/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="98" column="109" lean-forward="true" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="109" />
+              <caret line="98" column="109" lean-forward="false" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="109" />
               <folding />
             </state>
           </provider>
@@ -372,37 +372,47 @@
         <entry file="file://$USER_HOME$/Desktop/index-page-sliders.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rocket/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="40" column="81" lean-forward="false" selection-start-line="40" selection-start-column="81" selection-end-line="40" selection-end-column="81" />
+            <state relative-caret-position="308">
+              <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init_animate-min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocket/js/init_animate-min.js">
+      <file leaf-file-name="banner-rocket.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocket/js/banner-rocket.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="275">
+              <caret line="915" column="87" lean-forward="false" selection-start-line="915" selection-start-column="12" selection-end-line="915" selection-end-column="87" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="banner_rocket-min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rocket/js/banner_rocket-min.js">
+      <file leaf-file-name="banner-climber.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/climber/js/banner-climber.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="856" column="15" lean-forward="true" selection-start-line="856" selection-start-column="15" selection-end-line="856" selection-end-column="15" />
+            <state relative-caret-position="196">
+              <caret line="53" column="86" lean-forward="false" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="banner-astronaut.min.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/astronaut/js/banner-astronaut.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="52" column="90" lean-forward="false" selection-start-line="52" selection-start-column="90" selection-end-line="52" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -412,10 +422,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>money</find>
-      <find>.meditating-fox .money</find>
-      <find>https://www.share4you.com/en/wp-content/themes/share4youv2/build/css/elements/../../../resources/</find>
-      <find>.info-row</find>
       <find>.hero-body .info-row</find>
       <find>hero-button</find>
       <find>#fff</find>
@@ -440,12 +446,14 @@
       <find>images/</find>
       <find>AdobeAn</find>
       <find>host +</find>
-      <find>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/js/</find>
       <find>&quot;</find>
+      <find>ad</find>
+      <find>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/js/</find>
+      <find>adob</find>
+      <find>host+</find>
+      <find>/i/promo/2020_winter/climber/</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-winner_fox</replace>
-      <replace>ag-winner_fox-box</replace>
       <replace>.ag-winner_fox</replace>
       <replace>ag-winner_confetti</replace>
       <replace>1px solid</replace>
@@ -472,8 +480,10 @@
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/</replace>
       <replace>images/</replace>
       <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/</replace>
-      <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/js/</replace>
       <replace>'</replace>
+      <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/js/</replace>
+      <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/climber/images/</replace>
+      <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/astronaut/images/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -487,8 +497,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/animation-thunders/index.html" />
-        <option value="$PROJECT_DIR$/animation-thunders/css/style.css" />
         <option value="$PROJECT_DIR$/flight-plane-scroll/css/style.css" />
         <option value="$PROJECT_DIR$/flight-plane-scroll/index.html" />
         <option value="$PROJECT_DIR$/flight-plane-scroll/js/main.js" />
@@ -538,6 +546,8 @@
         <option value="$USER_HOME$/Desktop/banner_rocket-min.js" />
         <option value="$PROJECT_DIR$/rocket/js/banner_rocket-min.js" />
         <option value="$PROJECT_DIR$/rocket/index.html" />
+        <option value="$PROJECT_DIR$/climber/js/banner-climber.min.js" />
+        <option value="$PROJECT_DIR$/astronaut/js/banner-astronaut.min.js" />
       </list>
     </option>
   </component>
@@ -705,12 +715,12 @@
       <workItem from="1581058527292" duration="18030000" />
       <workItem from="1593753883854" duration="15661000" />
       <workItem from="1594105146873" duration="21093000" />
-      <workItem from="1594189794576" duration="9981000" />
+      <workItem from="1594189794576" duration="11225000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="547379000" />
+    <option name="totallyTimeSpent" value="548623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -755,27 +765,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project-1/2020.06.30_pages_FAQ/faq-AR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="1824" column="9" lean-forward="true" selection-start-line="1824" selection-start-column="9" selection-end-line="1824" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2020.06.30_pages_FAQ/faq-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2020.06.30_pages_FAQ/faq-BN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="1797" column="9" lean-forward="true" selection-start-line="1797" selection-start-column="9" selection-end-line="1797" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2020.06.30_pages_FAQ/faq-TH.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -1222,7 +1211,7 @@
     <entry file="file://$USER_HOME$/Desktop/index-page-sliders.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1230,7 +1219,7 @@
     <entry file="file://$PROJECT_DIR$/animation-fox/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="98" column="109" lean-forward="true" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="109" />
+          <caret line="98" column="109" lean-forward="false" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="109" />
           <folding />
         </state>
       </provider>
@@ -1261,8 +1250,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rocket/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="40" column="81" lean-forward="false" selection-start-line="40" selection-start-column="81" selection-end-line="40" selection-end-column="81" />
+        <state relative-caret-position="308">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocket/js/banner-rocket.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="915" column="87" lean-forward="false" selection-start-line="915" selection-start-column="12" selection-end-line="915" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/climber/js/banner-climber.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="53" column="86" lean-forward="false" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astronaut/js/banner-astronaut.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="52" column="90" lean-forward="false" selection-start-line="52" selection-start-column="90" selection-end-line="52" selection-end-column="90" />
           <folding />
         </state>
       </provider>
