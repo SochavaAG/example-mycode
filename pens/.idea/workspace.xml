@@ -259,8 +259,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-fox/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2352">
-              <caret line="98" column="116" lean-forward="false" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="116" />
+            <state relative-caret-position="408">
+              <caret line="98" column="109" lean-forward="true" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="109" />
               <folding />
             </state>
           </provider>
@@ -339,18 +339,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-fox-hero-meteorites/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="69" column="10" lean-forward="true" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+            <state relative-caret-position="984">
+              <caret line="41" column="55" lean-forward="false" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-fox-hero-meteorites/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="437" column="41" lean-forward="true" selection-start-line="437" selection-start-column="41" selection-end-line="437" selection-end-column="41" />
+            <state relative-caret-position="558">
+              <caret line="504" column="1" lean-forward="false" selection-start-line="504" selection-start-column="1" selection-end-line="504" selection-end-column="1" />
               <folding>
                 <element signature="e#908#1823#2" expanded="true" />
               </folding>
@@ -361,8 +361,48 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-fox-hero-meteorites/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="53" />
+            <state relative-caret-position="120">
+              <caret line="5" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index-page-sliders.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/index-page-sliders.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocket/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="17" column="109" lean-forward="false" selection-start-line="17" selection-start-column="109" selection-end-line="17" selection-end-column="109" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init_animate-min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rocket/js/init_animate-min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="banner_rocket-min.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rocket/js/banner_rocket-min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="930" column="70" lean-forward="true" selection-start-line="930" selection-start-column="70" selection-end-line="930" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -372,15 +412,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>\n      \}</find>
-      <find>\n    \}</find>
-      <find>leader-zoom</find>
-      <find>leader-fox</find>
-      <find>ag-winner_fox</find>
-      <find>fox</find>
-      <find>confetti</find>
-      <find>display-name</find>
-      <find>.ag-winner_fox-box .ag-winner_confetti-wrap</find>
       <find>flex</find>
       <find>meditating-fox</find>
       <find>money</find>
@@ -391,7 +422,6 @@
       <find>hero-button</find>
       <find>#fff</find>
       <find>sign</find>
-      <find>&quot;</find>
       <find>meteorites</find>
       <find>meteorite</find>
       <find>ag-hero_meteorite</find>
@@ -401,11 +431,19 @@
       <find>cloud-move</find>
       <find>hero-fox</find>
       <find>s</find>
+      <find>&quot;</find>
       <find>out</find>
+      <find>js-accounts-list</find>
+      <find>slider</find>
+      <find>anim_container</find>
+      <find>rocket_</find>
+      <find>image</find>
+      <find>toLowerCase</find>
+      <find>/i/promo/2020_winter/rocket/</find>
+      <find>AdobeAn</find>
+      <find>images/</find>
     </findStrings>
     <replaceStrings>
-      <replace>\n      \}</replace>
-      <replace>\;\n      \}</replace>
       <replace>\;\n    \}</replace>
       <replace>}</replace>
       <replace>ag-winner_fox</replace>
@@ -422,7 +460,6 @@
       <replace>ag-hero-container</replace>
       <replace>ag-hero-body</replace>
       <replace>ag-hero-block</replace>
-      <replace>'</replace>
       <replace>ag-hero_meteorites</replace>
       <replace>ag-hero_meteorite</replace>
       <replace>an-meteorite-</replace>
@@ -432,8 +469,11 @@
       <replace>forwards;</replace>
       <replace>ag-hero_hero-fox</replace>
       <replace>s;</replace>
+      <replace>'</replace>
       <replace>out;</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero-meteorites/images/</replace>
+      <replace>images/</replace>
+      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -447,11 +487,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/animation-lamp/index.html" />
-        <option value="$PROJECT_DIR$/animation-lamp/css/style.css" />
-        <option value="$PROJECT_DIR$/drone-mouse/css/style.css" />
-        <option value="$PROJECT_DIR$/drone-mouse/index.html" />
-        <option value="$PROJECT_DIR$/drone-mouse/js/main.js" />
         <option value="$PROJECT_DIR$/animation-thunders/index.html" />
         <option value="$PROJECT_DIR$/animation-thunders/css/style.css" />
         <option value="$PROJECT_DIR$/flight-plane-scroll/css/style.css" />
@@ -496,8 +531,13 @@
         <option value="$PROJECT_DIR$/animation-fox-meditating/css/style.css" />
         <option value="$USER_HOME$/format-2.js" />
         <option value="$PROJECT_DIR$/animation-fox-hero-meteorites/js/main.js" />
-        <option value="$PROJECT_DIR$/animation-fox-hero-meteorites/index.html" />
         <option value="$PROJECT_DIR$/animation-fox-hero-meteorites/css/style.css" />
+        <option value="$PROJECT_DIR$/animation-fox-hero-meteorites/index.html" />
+        <option value="$USER_HOME$/Desktop/index-page-sliders.js" />
+        <option value="$USER_HOME$/Desktop/init_animate-min.js" />
+        <option value="$USER_HOME$/Desktop/banner_rocket-min.js" />
+        <option value="$PROJECT_DIR$/rocket/index.html" />
+        <option value="$PROJECT_DIR$/rocket/js/banner_rocket-min.js" />
       </list>
     </option>
   </component>
@@ -665,12 +705,12 @@
       <workItem from="1581058527292" duration="18030000" />
       <workItem from="1593753883854" duration="15661000" />
       <workItem from="1594105146873" duration="21093000" />
-      <workItem from="1594189794576" duration="2801000" />
+      <workItem from="1594189794576" duration="9066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="540199000" />
+    <option name="totallyTimeSpent" value="546464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -715,48 +755,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/flight-plane-scroll/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="51" column="60" lean-forward="false" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6663" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="44" column="52" lean-forward="false" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/line-animate-icons/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="225" column="1" lean-forward="false" selection-start-line="225" selection-start-column="1" selection-end-line="225" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/line-animate-icons/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2020.06.30_pages_FAQ/faq-AR.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -897,14 +895,6 @@
           <folding>
             <element signature="n#style#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project/2018.01.29_pop-up-site_happy-weeks/pop-up-site_landing_happy-weeks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1131,14 +1121,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-fox/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2352">
-          <caret line="98" column="116" lean-forward="false" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="116" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-fox-hero/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
@@ -1179,26 +1161,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-fox-hero-meteorites/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-fox-meditating/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="33" column="8" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="33" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animation-fox-hero-meteorites/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="69" column="10" lean-forward="true" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1211,13 +1177,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/animation-fox-hero-meteorites/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/animation-fox-hero-meteorites/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="437" column="41" lean-forward="true" selection-start-line="437" selection-start-column="41" selection-end-line="437" selection-end-column="41" />
+        <state relative-caret-position="558">
+          <caret line="504" column="1" lean-forward="false" selection-start-line="504" selection-start-column="1" selection-end-line="504" selection-end-column="1" />
           <folding>
             <element signature="e#908#1823#2" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-fox-hero-meteorites/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="984">
+          <caret line="41" column="55" lean-forward="false" selection-start-line="41" selection-start-column="55" selection-end-line="41" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project/2018.01.29_pop-up-site_happy-weeks/pop-up-site_landing_happy-weeks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/banner_rocket-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/init_animate-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/index-page-sliders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocket/js/init_animate-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-fox/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="98" column="109" lean-forward="true" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocket/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" column="109" lean-forward="false" selection-start-line="17" selection-start-column="109" selection-end-line="17" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocket/js/banner_rocket-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="930" column="70" lean-forward="true" selection-start-line="930" selection-start-column="70" selection-end-line="930" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
