@@ -378,11 +378,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rocket/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="99" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="99" />
+            <state relative-caret-position="524">
+              <caret line="40" column="81" lean-forward="false" selection-start-line="40" selection-start-column="81" selection-end-line="40" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -398,11 +398,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="banner_rocket-min.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="banner_rocket-min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rocket/js/banner_rocket-min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="927" column="16" lean-forward="true" selection-start-line="927" selection-start-column="16" selection-end-line="927" selection-end-column="16" />
+            <state relative-caret-position="356">
+              <caret line="856" column="15" lean-forward="true" selection-start-line="856" selection-start-column="15" selection-end-line="856" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -412,7 +412,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>meditating-fox</find>
       <find>money</find>
       <find>.meditating-fox .money</find>
       <find>https://www.share4you.com/en/wp-content/themes/share4youv2/build/css/elements/../../../resources/</find>
@@ -430,7 +429,6 @@
       <find>cloud-move</find>
       <find>hero-fox</find>
       <find>s</find>
-      <find>&quot;</find>
       <find>out</find>
       <find>js-accounts-list</find>
       <find>slider</find>
@@ -441,7 +439,9 @@
       <find>/i/promo/2020_winter/rocket/</find>
       <find>images/</find>
       <find>AdobeAn</find>
+      <find>host +</find>
       <find>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/js/</find>
+      <find>&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>ag-winner_fox</replace>
@@ -467,13 +467,13 @@
       <replace>forwards;</replace>
       <replace>ag-hero_hero-fox</replace>
       <replace>s;</replace>
-      <replace>'</replace>
       <replace>out;</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero-meteorites/images/</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/images/</replace>
       <replace>images/</replace>
-      <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/js/</replace>
       <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/</replace>
+      <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/js/</replace>
+      <replace>'</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -536,8 +536,8 @@
         <option value="$USER_HOME$/Desktop/index-page-sliders.js" />
         <option value="$USER_HOME$/Desktop/init_animate-min.js" />
         <option value="$USER_HOME$/Desktop/banner_rocket-min.js" />
-        <option value="$PROJECT_DIR$/rocket/index.html" />
         <option value="$PROJECT_DIR$/rocket/js/banner_rocket-min.js" />
+        <option value="$PROJECT_DIR$/rocket/index.html" />
       </list>
     </option>
   </component>
@@ -705,12 +705,12 @@
       <workItem from="1581058527292" duration="18030000" />
       <workItem from="1593753883854" duration="15661000" />
       <workItem from="1594105146873" duration="21093000" />
-      <workItem from="1594189794576" duration="9625000" />
+      <workItem from="1594189794576" duration="9981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="547023000" />
+    <option name="totallyTimeSpent" value="547379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -1177,14 +1177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-fox-hero-meteorites/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-fox-hero-meteorites/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -1251,18 +1243,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rocket/index.html">
+    <entry file="file://$PROJECT_DIR$/rocket/js/banner_rocket-min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="99" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="99" />
+        <state relative-caret-position="356">
+          <caret line="856" column="15" lean-forward="true" selection-start-line="856" selection-start-column="15" selection-end-line="856" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rocket/js/banner_rocket-min.js">
+    <entry file="file://$PROJECT_DIR$/animation-fox-hero-meteorites/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="927" column="16" lean-forward="true" selection-start-line="927" selection-start-column="16" selection-end-line="927" selection-end-column="16" />
+        <state relative-caret-position="120">
+          <caret line="5" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocket/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="40" column="81" lean-forward="false" selection-start-line="40" selection-start-column="81" selection-end-line="40" selection-end-column="81" />
           <folding />
         </state>
       </provider>
