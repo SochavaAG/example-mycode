@@ -1,0 +1,505 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+.ag-base_btn {
+  display: inline-block;
+  line-height: .92;
+  min-width: 263px;
+  padding: 20px 76px;
+  border: 1px solid rgba(0, 0, 0, .1);
+  background-color: #78bc1e;
+
+  cursor: pointer;
+
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  color: #FFF;
+
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .1);
+  -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, .1);
+  -o-box-shadow: 0 6px 12px rgba(0, 0, 0, .1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .1);
+
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+
+  transition: background-color .2s;
+
+  position: relative;
+}
+.ag-base_btn:hover,
+.ag-base_btn:focus {
+  background-color: #5c9017;
+
+  outline: 0;
+
+  text-decoration: none;
+  color: #FFF;
+}
+.ag-hero-block {
+  max-width: 100%;
+  background: rgb(52,7,111);
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMzQwNzZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNDYlIiBzdG9wLWNvbG9yPSIjNzIyYmJjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNzglIiBzdG9wLWNvbG9yPSIjYzlhMGYyIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iOTAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+  background: -moz-linear-gradient(top,  rgba(52,7,111,1) 0, rgba(114,43,188,1) 46%, rgba(201,160,242,1) 78%, rgba(255,255,255,1) 90%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(52,7,111,1) 0,rgba(114,43,188,1) 46%,rgba(201,160,242,1) 78%,rgba(255,255,255,1) 90%,rgba(255,255,255,1) 100%);
+  background: linear-gradient(to bottom,  rgba(52,7,111,1) 0,rgba(114,43,188,1) 46%,rgba(201,160,242,1) 78%,rgba(255,255,255,1) 90%,rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34076f', endColorstr='#ffffff',GradientType=0 );
+
+  overflow: hidden;
+
+  position: relative;
+}
+.ag-hero_container {
+  position: relative;
+}
+.ag-hero_body {
+  min-height: 650px;
+  padding: 150px 0 0 400px;
+
+  justify-content: flex-end;
+
+  z-index: 1;
+  position: relative;
+}
+.ag-hero_title {
+  line-height: 68px;
+  max-width: 500px;
+  margin: 0;
+
+  font-size: 76px;
+  color: #78bc1e;
+
+  text-shadow: 0 4px 4px rgba(0, 0, 0, .15);
+}
+.ag-hero_description {
+  max-width: 400px;
+  margin: 24px 0;
+
+  opacity: .8;
+
+  font-size: 18px;
+  color: #FFF;
+}
+.ag-hero_footer {
+  height: 410px;
+  width: 100%;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.ag-hero_sign {
+  height: 523px;
+  width: 325px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero-meteorites/images/autocopy.png);
+  background-size: contain;
+
+  position: absolute;
+  left: 59px;
+  bottom: 100px;
+
+  transform: rotate(-6deg);
+  transform-origin: bottom center;
+  transition: transform 1s;
+}
+.ag-hero_sign.js-ag-animate {
+  transform: rotate(0);
+  transform-origin: bottom center;
+}
+.ag-hero_hero-fox {
+  height: 344px;
+  width: 410px;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.ag-hero_fox {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero-meteorites/images/hero-fox.png);
+  background-position: 0 0;
+
+  position: absolute;
+}
+.ag-hero_cloak-part {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero-meteorites/images/hero-fox.png);
+
+  position: absolute;
+}
+.ag-hero_cloak-part:nth-child(1) {
+  height: 68px;
+  width: 140px;
+  background-position: -260px -344px;
+
+  top: 230px;
+  left: -22px;
+}
+.ag-hero_cloak-part:nth-child(2) {
+  height: 129px;
+  width: 260px;
+  background-position: 0 -357px;
+
+  top: 157px;
+  left: -88px;
+
+  animation: an-wind .9s infinite;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+  animation-play-state: running;
+}
+.ag-hero_cloak-part:nth-child(3) {
+  height: 94px;
+  width: 250px;
+  background-position: 0 -486px;
+
+  top: 152px;
+  left: -108px;
+
+  animation: an-wind 1.8s infinite;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}
+
+@keyframes an-wind {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(0) scale(1);
+    opacity: 1;
+    animation-timing-function: linear;
+  }
+  100% {
+    transform: translate3d(-5px, 0, 0) rotate(2deg) scale(1);
+    opacity: 1;
+  }
+}
+
+.ag-hero_meteorite {
+  height: 72px;
+  width: 174px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero-meteorites/images/meteorite.png);
+
+  position: absolute;
+
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: both;
+}
+.ag-hero_meteorite:nth-child(1) {
+  top: 30%;
+  right: 5%;
+
+  animation-name: an-meteorite-1;
+  animation-duration: 6.2s;
+}
+.ag-hero_meteorite:nth-child(2) {
+  top: 0;
+  right: 15%;
+
+  animation-name: an-meteorite-2;
+  animation-duration: 21.4s;
+}
+.ag-hero_meteorite:nth-child(3) {
+  top: 10%;
+  right: 25%;
+
+  animation-name: an-meteorite-3;
+  animation-duration: 5.3s;
+}
+.ag-hero_meteorite:nth-child(4) {
+  top: 0;
+  right: 35%;
+
+  animation-name: an-meteorite-4;
+  animation-duration: 15s;
+}
+.ag-hero_meteorite:nth-child(5) {
+  top: 10%;
+  right: 45%;
+
+  animation-name: an-meteorite-5;
+  animation-duration: 11.4s;
+}
+.ag-hero_meteorite:nth-child(6) {
+  top: 20%;
+  right: 35%;
+
+  animation-name: an-meteorite-6;
+  animation-duration: 8.7s;
+}
+
+@keyframes an-meteorite-1 {
+  0%,
+  69% {
+    transform: matrix(.001, 0, 0, .001, 0, 0);
+    opacity: 1;
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    transform: matrix(1.97, 0, 0, 1.97, -325, 136);
+    opacity: 0;
+  }
+}
+
+@keyframes an-meteorite-2 {
+  0%,
+  76% {
+    transform: matrix(.001, 0, 0, .001, 0, 0);
+    opacity: 1;
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    transform: matrix(1.97, 0, 0, 1.97, -325, 136);
+    opacity: 0;
+  }
+}
+
+@keyframes an-meteorite-3 {
+  0%,
+  82% {
+    transform: matrix(.001, 0, 0, .001, 0, 0);
+    opacity: 1;
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    transform: matrix(1.97, 0, 0, 1.97, -325, 136);
+    opacity: 0;
+  }
+}
+
+@keyframes an-meteorite-4 {
+  0%,
+  49% {
+    transform: matrix(.001, 0, 0, .001, 0, 0);
+    opacity: 1;
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    transform: matrix(1.97, 0, 0, 1.97, -325, 136);
+    opacity: 0;
+  }
+}
+
+@keyframes an-meteorite-5 {
+  0%,
+  87% {
+    transform: matrix(.001, 0, 0, .001, 0, 0);
+    opacity: 1;
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    transform: matrix(1.97, 0, 0, 1.97, -325, 136);
+    opacity: 0;
+  }
+}
+
+@keyframes an-meteorite-6 {
+  0%,
+  56% {
+    transform: matrix(.001, 0, 0, .001, 0, 0);
+    opacity: 1;
+    animation-timing-function: ease-in-out;
+  }
+  100% {
+    transform: matrix(1.97, 0, 0, 1.97, -325, 136);
+    opacity: 0;
+  }
+}
+
+.ag-hero_clouds-left .ag-hero_cloud {
+  background-size: 100% 100%;
+
+  position: absolute;
+}
+.ag-hero_clouds-left .ag-hero_cloud:nth-child(1) {
+  height: 32px;
+  width: 80px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero-meteorites/images/cloud-3.png);
+
+  top: -52px;
+  right: 161px;
+
+  animation: an-cloud-move-1 5s forwards;
+}
+.ag-hero_clouds-left .ag-hero_cloud:nth-child(2) {
+  height: 54px;
+  width: 131px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero-meteorites/images/cloud-3.png);
+
+  top: -89px;
+  right: 48px;
+
+  animation: an-cloud-move-2 9s forwards;
+}
+.ag-hero_clouds-left .ag-hero_cloud:nth-child(3) {
+  height: 45px;
+  width: 110px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero-meteorites/images/cloud-3.png);
+
+  top: -69px;
+  right: 0;
+
+  transform: translate3d(-36px, 0, 0);
+  transition: transform 8s;
+}
+.ag-hero_clouds-right .ag-hero_cloud {
+  position: absolute;
+  background-size: 100% 100%;
+}
+.ag-hero_clouds-right .ag-hero_cloud:nth-child(1) {
+  height: 28px;
+  width: 68px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero-meteorites/images/cloud-3.png);
+
+  top: 156px;
+  left: 180px;
+
+  animation: an-cloud-move-1 3s forwards;
+}
+.ag-hero_clouds-right .ag-hero_cloud:nth-child(2) {
+  height: 47px;
+  width: 117px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero-meteorites/images/cloud-3.png);
+
+  top: 130px;
+  left: 100px;
+
+  animation: an-cloud-move-3 5s forwards;
+}
+.ag-hero_clouds-center .ag-hero_cloud {
+  background-size: 100% 100%;
+
+  position: absolute;
+}
+.ag-hero_clouds-center .ag-hero_cloud:nth-child(1) {
+  height: 92px;
+  width: 215px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero-meteorites/images/cloud-1.png);
+
+  bottom: 64px;
+  left: 60px;
+
+  animation: an-cloud-move-3 8s forwards;
+}
+.ag-hero_clouds-center .ag-hero_cloud:nth-child(2) {
+  height: 159px;
+  width: 370px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero-meteorites/images/cloud-1.png);
+
+  bottom: 36px;
+  left: 162px;
+
+  animation: an-cloud-move-3 5s forwards;
+}
+.ag-hero_clouds-center .ag-hero_cloud:nth-child(3) {
+  height: 80px;
+  width: 182px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero-meteorites/images/cloud-2.png);
+
+  bottom: 36px;
+  left: 451px;
+
+  animation: an-cloud-move-3 4s forwards;
+}
+.ag-hero_clouds-center .ag-hero_cloud:nth-child(4) {
+  height: 89px;
+  width: 316px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero-meteorites/images/cloud-2.png);
+
+  bottom: 75px;
+  left: 518px;
+
+  animation: an-cloud-move-1 3s forwards;
+}
+.ag-hero_clouds-center .ag-hero_cloud:nth-child(5) {
+  height: 73px;
+  width: 163px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero-meteorites/images/cloud-1.png);
+
+  bottom: 57px;
+  left: 780px;
+
+  animation: an-cloud-move-3 3s forwards;
+}
+.ag-hero_clouds-center .ag-hero_cloud:nth-child(6) {
+  height: 54px;
+  width: 111px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-hero-meteorites/images/cloud-1.png);
+
+  bottom: 36px;
+  left: 694px;
+
+  animation: an-cloud-move-4 6s forwards;
+}
+
+@keyframes an-cloud-move-1 {
+  from {
+    transform: translate3d(24px, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes an-cloud-move-2 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-36px);
+  }
+}
+
+@keyframes an-cloud-move-3 {
+  from {
+    transform: translateX(47px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes an-cloud-move-4 {
+  from {
+    transform: translateX(60px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
