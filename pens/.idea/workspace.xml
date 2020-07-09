@@ -378,7 +378,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rocket/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="356">
@@ -401,8 +401,8 @@
       <file leaf-file-name="banner-climber.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/climber/js/banner-climber.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="53" column="86" lean-forward="false" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="86" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -433,6 +433,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
               <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init-animate.min.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rocket/js/init-animate.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -469,9 +479,9 @@
       <find>ad</find>
       <find>adob</find>
       <find>host+</find>
-      <find>/i/promo/2020_winter/climber/</find>
       <find>/i/promo/2020_winter/astronaut/</find>
       <find>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket/js/</find>
+      <find>/i/promo/2020_winter/climber/</find>
     </findStrings>
     <replaceStrings>
       <replace>.ag-winner_fox</replace>
@@ -501,9 +511,9 @@
       <replace>images/</replace>
       <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/</replace>
       <replace>'</replace>
-      <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/climber/images/</replace>
       <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/astronaut/images/</replace>
       <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/rocket/js/</replace>
+      <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/climber/images/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -735,12 +745,12 @@
       <workItem from="1581058527292" duration="18030000" />
       <workItem from="1593753883854" duration="15661000" />
       <workItem from="1594105146873" duration="21093000" />
-      <workItem from="1594189794576" duration="11996000" />
+      <workItem from="1594189794576" duration="12090000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="549394000" />
+    <option name="totallyTimeSpent" value="549488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -785,13 +795,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project-1/2020.06.30_pages_FAQ/faq-RU.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="1717" column="6" lean-forward="true" selection-start-line="1717" selection-start-column="6" selection-end-line="1717" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2020.06.30_pages_FAQ/faq-ES.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -1262,14 +1265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/climber/js/banner-climber.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="53" column="86" lean-forward="false" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/astronaut/js/banner-astronaut.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -1298,6 +1293,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/climber/js/banner-climber.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rocket/js/init-animate.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
           <folding />
         </state>
       </provider>

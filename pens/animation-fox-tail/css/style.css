@@ -1,0 +1,87 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+.ag-hero-fox {
+  height: 630px;
+  width: 530px;
+
+  position: relative;
+}
+.ag-hero-fox_fox {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-tail/images/leader-hero-fox.png);
+  background-position: 0 0;
+
+  position: relative;
+}
+.ag-hero-fox_tail {
+  height: 91px;
+  width: 140px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fox-tail/images/leader-hero-fox.png);
+  background-position: 0 -630px;
+
+  position: absolute;
+  bottom: 136px;
+  right: 152px;
+
+  -webkit-animation: an-tail-move 1.5s infinite alternate;
+  -moz-animation: an-tail-move 1.5s infinite alternate;
+  -o-animation: an-tail-move 1.5s infinite alternate;
+  animation: an-tail-move 1.5s infinite alternate;
+}
+
+@keyframes an-tail-move {
+  0% {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+  }
+  100% {
+    -webkit-transform: translate(0, -7px) rotate(-5deg);
+    -moz-transform: translate(0, -7px) rotate(-5deg);
+    -ms-transform: translate(0, -7px) rotate(-5deg);
+    -o-transform: translate(0, -7px) rotate(-5deg);
+    transform: translate(0, -7px) rotate(-5deg);
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
