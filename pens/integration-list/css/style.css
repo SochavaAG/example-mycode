@@ -1,0 +1,77 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-integration_list {
+  display: block;
+  height: 600px;
+  margin: 0 0 48px;
+  padding: 0;
+
+  opacity: 0;
+
+  overflow: hidden;
+
+  -webkit-animation: fadeIn 1s 1s forwards;
+  -moz-animation: fadeIn 1s 1s forwards;
+  -o-animation: fadeIn 1s 1s forwards;
+  animation: fadeIn 1s 1s forwards;
+
+  position: relative;
+}
+.ag-integration_item {
+  position: absolute;
+}
+.ag-integration_item img {
+  width: 128px;
+
+  position: absolute;
+
+  -webkit-box-shadow: 0 6px 24px rgba(0, 0, 0, .1);
+  -moz-box-shadow: 0 6px 24px rgba(0, 0, 0, .1);
+  -o-box-shadow: 0 6px 24px rgba(0, 0, 0, .1);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, .1);
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
