@@ -3,9 +3,9 @@
   margin: 0 auto;
 }
 
-.ditch-cartridges {
+.ag-paper-block {
   height: 1500px;
-  padding: 300px 0 0;
+  padding: 400px 0 0;
 
   position: relative;
 }
@@ -46,7 +46,7 @@
 #trigger12 {
   top: 54%;
 }
-.trigger {
+.ag-paper_trigger {
   height: 1px;
   width: 100%;
 
@@ -55,13 +55,13 @@
   right: 0;
 }
 
-.ditch-half-inner {
+.ag-paper_box {
   padding-top: 100%;
 
   position: relative;
 }
 
-.crumple-image {
+.ag-paper_img {
   height: 100%;
   width: 100%;
   background: no-repeat center center / contain;
@@ -109,17 +109,15 @@
   background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/scroll-crumble/images/crumble12.png);
 }
 
-.crumple-image:first-of-type,
-.crumple-image:last-of-type.active.hide {
-  opacity: 1 !important;
-}
-
-.crumple-image.active {
+.ag-paper_img:first-of-type,
+.ag-paper_img:last-of-type.active.hide {
   opacity: 1;
 }
-
-.crumple-image.active.hide {
-  opacity: 0 !important;
+.ag-paper_img.active {
+  opacity: 1;
+}
+.ag-paper_img.active.hide {
+  opacity: 0;
 }
 
 
