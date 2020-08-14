@@ -3,7 +3,111 @@
   margin: 0 auto;
 }
 
+.ag-circle_item {
+  width: 22%;
+  margin: 30px auto;
 
+  position: relative;
+}
+.ag-circle_item__header-group {
+  text-decoration: none;
+}
+.ag-circle_item__header-group:hover {
+  color: #f45c2a;
+}
+.ag-circle_item__header-group:hover .ag-circle_item__orbit:before {
+  border-color: #f45c2a;
+}
+.ag-circle_item__header-group:hover .ag-circle_item__orbit {
+  left: -10px;
+  -webkit-animation: orbit-rotation infinite 5s linear;
+  animation: orbit-rotation infinite 5s linear;
+}
+.ag-circle_item__header-group:hover .ag-circle_item__header:before {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-hover-item/images/bike-type-fg-active.png);
+  width: 200%;
+  height: 200%;
+  -webkit-transform: translate(-45%, -50%);
+  transform: translate(-45%, -50%);
+}
+.ag-circle_item__header {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20px;
+}
+.ag-circle_item__header:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALEAAACwCAYAAABAdY9gAAAE90lEQVR42u3dzW0bRxjGcZWgDqwS1EHcgdWB3YHUgdKB0gHdAY9GZNIsQcfAFIm9+TrczcFHe4eMg0Cwoi+Tu/PO7w88F0OSAe6jV+/XzB4dAQAAAAAAAAAAAAAAAAAAAAAAAAAAAACC8KFJJz/08Ta9/q9+/LtPCYOyaNLx9TKdzpfp3XzdXc1W3XR2297MV20zW7XfnqLd93SL2bqbzNft5exzOss/26eMXx5ZF017vjXaM4z6HPWGTtnc2dg5gnsKeHKkzRHxn+iYDmHax6lbLJru7UI6gnuNu+qNu4t+IzIuQ+MB8p/qnNeWYdz7Uo9uIo+u1LzbgqpQ4/5fdPZ0gzNf5Y7CYYqz4SJz2zAz84YxszQjTNrQ3tRk3p/lzArAMrsNJ/FyXilGRdG3/b3kbsOei7+pqDz66Ft36vDYqJyHORwztui7bi9E36cp/8XinHFE32O57wvTi5t0zEnDGfi0trbZ/oo+efLBuV5176QPjFx094HxGLlY+g/7D4Zj5HINvGzfMxojMzAxMgNXpP7coPYbA0foI0+4UBciwGQvXXAjAxcve8lPbqPlA5uMM7pCT3786FHyiUncaJfrrzj0YQMf24UYfX78mlNN44pPKzj1HvJBTiYpxsiXHPvzPFgaUY6SIu9uFO5P4zKGaCyNINFYN4JEY1M50bjGYo4JRGPFHI0iGovCZIonCtMY7kUWhal4VVXgicIKvPKjsDVLKYXpHEkphl21dO1qZK3b8+ipxKkHLaVQ0JEx9LAmtuhj8CGVIHnxoFH40gOuRZtp0K6E1xFYCCp88d2DrWx69+Xrq2CL79s3enq4VRV33Rv5MCnu5MM0sIljXQdr4afGdKK9UdRR6WoUdVS84hR1S6uX2mw6E+Rm+cFNbHNNr1h7jYrdLX7LxMTEo0gnVnaInX5mYmJiJiYmZmJiYg+UiZmYmHjYFpvLUuwU6xOTPrGxMxk7v9TEVx5onfrU/P1bjHSiac89UFtshefE6cwDdc1r6ceTvNrAyY4A0dhBUQdF9YqpwPvYYt1TrENR4bTutr2KZWKHRU3rAhR37p7QI7YIRDoT8mLSmXgpbgKqSpOjqOgX216TUlAR+vBXOglrYimF2zAtyZN82Gom6Q//qsGHAi+q0lEtuO5VKiEakzN1ojHpSojGVHMqcadvfOHhG3DoG5NTHKZ4ZFfCToWCDv+e/LA0LwqXzXWTTnUrRGHdChKFR9GtWLbvmUMUjpAfu2xFFC6b3DhX6I26LzzlUoWe6ZxBCA12PVWUl8kcdBCycgWWYo6RSRrByBTwgsDhNt7SmWLPNa0xuhbabwfNg6dR3r2hj1yngeXB+57srbspo+3v+D0DH6rgc+B0LwYO8w66ogo+6QUDh8iTpRcMHGRUfaEN97wijoFH173YiMq6EAF6yrtXj8mVHzhurw9cQFR2mtooOdKAZMK8u/ShinuEmTnuHoT0gZmLzX1F3/hmjtqWa/78nM486UrMvOtmbKKctG6cSK65Nbdb95yU2Z6TNuAO2RAFGDrlRaj5l6+vPDE8HKH73upsvZ0GpqEjbjauqIsXmzrn0R9v8zBls9ijsVP++fn/WfR5rhYZ9m7sbQrSR+ztrvM6pyLZ4H3kXG2a+7QrKPuv679++0vRf/+npnsjRQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAwHwHyziGfbuZtEEAAAAASUVORK5CYII=) no-repeat 50%/contain;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-20%, -50%);
+  transform: translate(-20%, -50%);
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease
+}
+.ag-circle_item__orbit {
+  position: absolute;
+  left: 0;
+  top: -17px;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.ag-circle_item__orbit:before {
+  content: '';
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 126px;
+  height: 126px;
+  border-radius: 50%;
+  border: 2px solid #ffd7ba;
+  -webkit-transition: border-color .25s ease;
+  transition: border-color .25s ease;
+}
+.ag-circle_item__orbit:after {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #f45c2a;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.ag-circle_item__pic {
+  position: relative;
+  z-index: 5;
+}
+
+@-webkit-keyframes orbit-rotation {
+  0% {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  100% {
+    -webkit-transform: rotate(315deg);
+    transform: rotate(315deg);
+  }
+}
+@keyframes orbit-rotation {
+  0% {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  100% {
+    -webkit-transform: rotate(315deg);
+    transform: rotate(315deg);
+  }
+}
 
 
 @media only screen and (max-width: 767px) {
