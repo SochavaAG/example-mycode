@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-.animated-image {
+.ag-animated_img {
   height: 1200px;
   background-size: auto 600px;
 
@@ -19,7 +19,9 @@
   background-position: 50% 50%;
 }
 
-.animated-no-1 {
+.ag-animated_img-1 {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-blades/images/white-blades.png);
+
   z-index: 3;
 
   -webkit-animation: an-move-it 2s linear infinite;
@@ -28,7 +30,9 @@
   animation: an-move-it 2s linear infinite;
 }
 
-.animated-no-2 {
+.ag-animated_img-2 {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-blades/images/blades-teal.png);
+
   z-index: 2;
 
   -webkit-animation: an-move-it 3s linear infinite;
@@ -37,7 +41,9 @@
   animation: an-move-it 3s linear infinite;
 }
 
-.animated-no-3 {
+.ag-animated_img-3 {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-blades/images/blurred-blades.png);
+
   z-index: 1;
 
   -webkit-animation: an-move-it 4s linear infinite;
