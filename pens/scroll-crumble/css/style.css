@@ -5,7 +5,7 @@
 
 .ditch-cartridges {
   height: 1500px;
-  padding: 500px 0 0;
+  padding: 300px 0 0;
 
   position: relative;
 }
@@ -14,7 +14,7 @@
   top: 4.5%;
 }
 #trigger2 {
-  top: 29%;
+  top: 9%;
 }
 #trigger3 {
   top: 15.5%;
@@ -56,7 +56,6 @@
 }
 
 .ditch-half-inner {
-  width: 100%;
   padding-top: 100%;
 
   position: relative;

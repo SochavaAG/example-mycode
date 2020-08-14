@@ -159,8 +159,8 @@
       <file leaf-file-name="root-PK.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/vazhno_project-1/2020.08.12_pages_root/root-PK.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="443">
+              <caret line="1311" column="6" lean-forward="false" selection-start-line="1311" selection-start-column="6" selection-end-line="1311" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -236,21 +236,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scroll-crumble/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="528">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scroll-crumble/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="76" column="109" lean-forward="false" selection-start-line="76" selection-start-column="95" selection-end-line="76" selection-end-column="109" />
+            <state relative-caret-position="216">
+              <caret line="54" column="11" lean-forward="true" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -259,8 +259,8 @@
       <file leaf-file-name="format-2.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="225" column="0" lean-forward="false" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+            <state relative-caret-position="896">
+              <caret line="225" column="120" lean-forward="true" selection-start-line="179" selection-start-column="0" selection-end-line="225" selection-end-column="120" />
               <folding />
             </state>
           </provider>
@@ -306,10 +306,10 @@
       <find>.ag-review-slider-control_box</find>
       <find>scene</find>
       <find>https://leafshave.com/wp-content/uploads/2018/11/</find>
-      <find>var scene = new</find>
-      <find>controller</find>
-      <find>trigger</find>
       <find>style=&quot;&quot;</find>
+      <find>controller</find>
+      <find>var scene = new</find>
+      <find>trigger</find>
     </findStrings>
     <replaceStrings>
       <replace>ag-hero-container</replace>
@@ -402,10 +402,10 @@
         <option value="$USER_HOME$/vazhno_project-1/2020.08.12_pages_root/root-ES.html" />
         <option value="$USER_HOME$/vazhno_project-1/2020.08.12_pages_root/root-AR.html" />
         <option value="$USER_HOME$/vazhno_project-1/2020.08.12_pages_root/root-EN.html" />
-        <option value="$PROJECT_DIR$/scroll-crumble/js/main.js" />
         <option value="$USER_HOME$/format-2.js" />
-        <option value="$PROJECT_DIR$/scroll-crumble/css/style.css" />
         <option value="$PROJECT_DIR$/scroll-crumble/index.html" />
+        <option value="$PROJECT_DIR$/scroll-crumble/js/main.js" />
+        <option value="$PROJECT_DIR$/scroll-crumble/css/style.css" />
       </list>
     </option>
   </component>
@@ -574,12 +574,12 @@
       <workItem from="1593753883854" duration="15661000" />
       <workItem from="1594105146873" duration="21093000" />
       <workItem from="1594189794576" duration="12090000" />
-      <workItem from="1597381361409" duration="12021000" />
+      <workItem from="1597381361409" duration="13399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="561509000" />
+    <option name="totallyTimeSpent" value="562887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -854,14 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2020.08.12_pages_root/root-PK.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2020.08.12_pages_root/root-PT.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -987,22 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/format-2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="225" column="0" lean-forward="false" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scroll-crumble/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-blades/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1019,10 +995,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2020.08.12_pages_root/root-PK.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="1311" column="6" lean-forward="false" selection-start-line="1311" selection-start-column="6" selection-end-line="1311" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="225" column="120" lean-forward="true" selection-start-line="179" selection-start-column="0" selection-end-line="225" selection-end-column="120" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scroll-crumble/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="76" column="109" lean-forward="false" selection-start-line="76" selection-start-column="95" selection-end-line="76" selection-end-column="109" />
+        <state relative-caret-position="216">
+          <caret line="54" column="11" lean-forward="true" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scroll-crumble/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
       </provider>
