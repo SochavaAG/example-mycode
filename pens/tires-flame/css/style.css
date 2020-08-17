@@ -1,0 +1,55 @@
+.ag-tires-flame-block {
+  position: relative;
+}
+.ag-tires-flame_bg {
+  max-height: 400px;
+  margin: 0 0 0 -500px;
+
+  position: absolute;
+  top: 200px;
+  left: 50%;
+
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+.ag-tires-flame_bg-in {
+  max-height: inherit;
+
+  -webkit-transform: translateX(-8%);
+  -moz-transform: translateX(-8%);
+  -ms-transform: translateX(-8%);
+  -o-transform: translateX(-8%);
+  transform: translateX(-8%);
+}
+.ag-tires-flame_car {
+  display: block;
+  max-height: inherit;
+}
+.ag-tires-flame_fire {
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: 5% 0 0 9%;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/tires-flame/images/fire.png);
+  background-position-y: 50%;
+  background-size: auto 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-transform: rotate(18deg) scale(1.2);
+  -moz-transform: rotate(18deg) scale(1.2);
+  -ms-transform: rotate(18deg) scale(1.2);
+  -o-transform: rotate(18deg) scale(1.2);
+  transform: rotate(18deg) scale(1.2);
+}
