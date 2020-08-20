@@ -18,14 +18,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accounts-slider/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="964" column="47" lean-forward="true" selection-start-line="964" selection-start-column="47" selection-end-line="964" selection-end-column="47" />
+            <state relative-caret-position="408">
+              <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accounts-slider/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="454">
@@ -35,11 +35,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/accounts-slider/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="667" column="0" lean-forward="true" selection-start-line="667" selection-start-column="0" selection-end-line="667" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tires-flame/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="41" column="114" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="114" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>AdobeAn</find>
       <find>host +</find>
       <find>&quot;</find>
       <find>ad</find>
@@ -67,12 +86,11 @@
       <find>crumple-image</find>
       <find>trigger&quot;</find>
       <find>.ag-review-slider-control_box</find>
-      <find>ag-accounts-caption_list</find>
       <find>L(</find>
+      <find>ag-accounts-caption_list</find>
+      <find>images/</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-hero-block</replace>
-      <replace>ag-hero_meteorites</replace>
       <replace>ag-hero_meteorite</replace>
       <replace>an-meteorite-</replace>
       <replace>an-wind</replace>
@@ -101,6 +119,8 @@
       <replace>ag-paper_img</replace>
       <replace>ag-paper_trigger&quot;</replace>
       <replace>&lt;i class=&quot;ag-review-user_avatar ag-review-user_avatar-0&quot;&gt;&lt;/i&gt;</replace>
+      <replace>../images/</replace>
+      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/accounts-slider/images/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -114,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project-1/2020.06.30_pages_FAQ/faq-JP.html" />
         <option value="$USER_HOME$/vazhno_project-1/2020.06.30_pages_FAQ/faq-FR.html" />
         <option value="$USER_HOME$/vazhno_project-1/2020.06.30_pages_FAQ/faq-PK.html" />
         <option value="$USER_HOME$/vazhno_project-1/2020.06.30_pages_FAQ/faq-PT.html" />
@@ -163,8 +182,9 @@
         <option value="$PROJECT_DIR$/scroll-crumble/js/main.js" />
         <option value="$PROJECT_DIR$/scroll-crumble/css/style.css" />
         <option value="$PROJECT_DIR$/scroll-crumble/index.html" />
-        <option value="$PROJECT_DIR$/accounts-slider/index.html" />
         <option value="$PROJECT_DIR$/accounts-slider/js/main.js" />
+        <option value="$PROJECT_DIR$/accounts-slider/index.html" />
+        <option value="$PROJECT_DIR$/accounts-slider/css/style.css" />
       </list>
     </option>
   </component>
@@ -334,12 +354,12 @@
       <workItem from="1594105146873" duration="21093000" />
       <workItem from="1594189794576" duration="12090000" />
       <workItem from="1597381361409" duration="20424000" />
-      <workItem from="1597900295217" duration="381000" />
+      <workItem from="1597900295217" duration="538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="570293000" />
+    <option name="totallyTimeSpent" value="570450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -384,20 +404,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/animation-fox-lazy/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="8" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animation-fox-meditating/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="33" column="8" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="33" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-fox-lazy/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -743,18 +749,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accounts-slider/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="964" column="47" lean-forward="true" selection-start-line="964" selection-start-column="47" selection-end-line="964" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accounts-slider/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
           <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts-slider/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tires-flame/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="41" column="114" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts-slider/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="667" column="0" lean-forward="true" selection-start-line="667" selection-start-column="0" selection-end-line="667" selection-end-column="0" />
           <folding />
         </state>
       </provider>
