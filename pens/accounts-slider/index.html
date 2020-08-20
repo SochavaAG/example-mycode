@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Accounts Slider</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+
+  <style>
+    html {
+      font-size: 64%;
+    }
+
+    .ag-format-container {
+      width: 1142px;
+      margin: 0 auto;
+    }
+    
+    .ag-accounts-slider-block {
+      padding: 60px 0;
+      background: url(images/accounts-bg.jpg) no-repeat scroll 50% 0;
+      background-size: cover;
+
+      overflow-x: hidden;
+    }
+    .ag-accounts-slider__table {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+      -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+      align-items: stretch;
+
+      margin-top: 3.5rem;
+    }
+    .ag-accounts-caption_list {
+      -ms-flex-negative: 0;
+      flex-shrink: 0;
+
+      width: 200px;
+      margin: 0 -200px 0 0;
+      padding: 0 0 0 1rem;
+
+      list-style-type: none;
+
+      color: #697d8c;
+
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+
+      -webkit-transition: color .5s linear;
+      -moz-transition: color .5s linear;
+      -o-transition: color .5s linear;
+      transition: color .5s linear;
+
+      position: relative;
+    }
+    .ag-accounts-caption_item {
+      line-height: 1.42857143;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+
+      font-size: 1.4rem;
+
+      position: absolute;
+    }
+    .ag-accounts-caption_item:before {
+      content: "";
+      display: block;
+      height: 1px;
+      width: 1200px;
+      background-color: #e6ebef;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .ag-accounts-caption_item:first-child:before {
+      content: none;
+    }
+    .ag-accounts-caption_item__deposit {
+      top: 18.5rem;
+    }
+    .ag-accounts-caption_item__exec {
+      top: 22.5rem;
+    }
+    .ag-accounts-caption_item__spread {
+      top: 26.5rem;
+    }
+    .ag-accounts-caption_item__tools {
+      top: 30.5rem;
+    }
+    .ag-accounts-caption_item__bonuses {
+      top: 36.5rem;
+    }
+    .ag-accounts-caption_item__terminal {
+      padding-bottom: 5rem;
+
+      top: 40.5rem;
+    }
+    .ag-accounts-slider__slider {
+      position: relative;
+    }
+    .js-ag-accounts-slider__pagination {
+      margin-right: 1rem;
+      margin-bottom: 3rem;
+
+      position: absolute;
+      right: 1rem;
+      bottom: 100%;
+    }
+    .ag-accounts-slider__rule-next,
+    .ag-accounts-slider__rule-prev {
+      display: inline-block;
+      padding: 1rem;
+
+      opacity: 0;
+
+      vertical-align: middle;
+      font-size: 0;
+
+      -webkit-transition: all .5s linear;
+      -moz-transition: all linear .5s;
+      -o-transition: all linear .5s;
+      transition: all .5s linear;
+    }
+    .ag-accounts-slider__rule-next {
+      position: absolute;
+    }
+    .js-ag-accounts-slider__bullets {
+      display: none;
+
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+    .ag-accounts-slider__bullet,
+    .js-ag-accounts-slider__bullets.js-ag-accounts-slider-bullets__active {
+      display: inline-block;
+
+      vertical-align: middle;
+    }
+    .ag-accounts-slider__bullet {
+      height: 2.6rem;
+      line-height: 0;
+      width: 2.6rem;
+      background-color: rgba(0, 0, 0, 0);
+
+      opacity: .15;
+
+      cursor: pointer;
+
+      text-align: center;
+      font-style: normal;
+      color: #126cab;
+    }
+    .ag-accounts-slider__bullet:before {
+      content: "";
+      display: inline-block;
+      height: 100%;
+      width: 1px;
+      margin-right: -1px;
+
+      vertical-align: middle;
+    }
+    .ag-accounts-slider__bullet:after {
+      content: "\02022";
+      display: inline-block;
+
+      vertical-align: middle;
+      font-style: normal;
+      font-size: 4rem;
+    }
+    .ag-accounts-slider__bullet.js-ag-accounts-slider-bullets__active,
+    .ag-accounts-slider__bullet:hover {
+      opacity: 1;
+
+      color: #126cab;
+    }
+    .ag-accounts-slider__wrapper {
+      margin: 0 -100px;
+      padding: 0 100px;
+    }
+    .ag-accounts-slider__scrollable {
+      height: 52rem;
+      width: 100%;
+      padding-left: 200px;
+
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+
+      -webkit-transition: all .5s linear;
+      -moz-transition: all .5s linear;
+      -o-transition: all .5s linear;
+      transition: all .5s linear;
+
+      position: relative;
+    }
+    .ag-accounts-slider_list {
+      height: 100%;
+      margin: 0 0 0 -3rem;
+      padding: 0;
+
+      list-style-type: none;
+
+      font-size: 0;
+
+      position: relative;
+    }
+    .ag-accounts-slider__next,
+    .ag-accounts-slider__prev {
+      opacity: 1;
+
+      font-size: 0;
+
+      z-index: 1000;
+      position: absolute;
+      top: 50%;
+
+      -webkit-transition: all .5s linear;
+      -moz-transition: all linear .5s;
+      -o-transition: all linear .5s;
+      transition: all .5s linear;
+    }
+    .ag-accounts-slider__next {
+      margin-right: 1rem;
+
+      right: 0;
+
+      -webkit-transform: translate(200%, -50%);
+      -moz-transform: translate(200%, -50%);
+      -ms-transform: translate(200%, -50%);
+      -o-transform: translate(200%, -50%);
+      transform: translate(200%, -50%);
+    }
+    .ag-accounts-slider__prev {
+      margin-left: 1rem;
+
+      left: 0;
+
+      -webkit-transform: translate(-200%, -50%);
+      -moz-transform: translate(-200%, -50%);
+      -ms-transform: translate(-200%, -50%);
+      -o-transform: translate(-200%, -50%);
+      transform: translate(-200%, -50%);
+    }
+
+    .ag-accounts-slider_item {
+      width: 36rem;
+      height: 52rem;
+      padding: 1rem 4rem 33.7rem;
+      border: none;
+      border-bottom: 3px solid rgba(0, 0, 0, .15);
+      background: #FFF;
+
+      opacity: .6;
+
+      cursor: pointer;
+
+      -webkit-transform-style: preserve-3d;
+      -webkit-backface-visibility: hidden;
+      will-change: auto;
+
+      position: absolute;
+
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+
+      -webkit-transform: translateZ(0);
+      -moz-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+      -o-transform: translateZ(0);
+      transform: translateZ(0);
+
+      -webkit-transition: opacity .9s ease-in-out, -webkit-transform .8s ease-in-out;
+      -moz-transition: opacity .9s ease-in-out, -moz-transform .8s ease-in-out;
+      -o-transition: opacity .9s ease-in-out, -o-transform .8s ease-in-out;
+      transition: opacity .9s ease-in-out, transform .8s ease-in-out, -webkit-transform .8s ease-in-out, -moz-transform .8s ease-in-out, -o-transform .8s ease-in-out;
+    }
+    .ag-accounts-slider_item:first-child:not(.js-ag-active) {
+      opacity: 0;
+    }
+    .ag-accounts-slider_item.js-ag-active {
+      opacity: 1;
+
+      -webkit-transform: translateZ(0);
+      -moz-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+      -o-transform: translateZ(0);
+      transform: translateZ(0);
+    }
+    .ag-accounts-slider_item.js-ag-active ~ .ag-accounts-slider_item {
+      opacity: .8;
+
+      z-index: 2;
+
+      -webkit-transform: translate3d(40rem, 0, 0);
+      -moz-transform: translate3d(40rem, 0, 0);
+      -ms-transform: translate3d(40rem, 0, 0);
+      -o-transform: translate3d(40rem, 0, 0);
+      transform: translate3d(40rem, 0, 0);
+
+      -webkit-transition-delay: .1s;
+      -moz-transition-delay: .1s;
+      -o-transition-delay: .1s;
+      transition-delay: .1s;
+    }
+    .ag-accounts-slider_item.js-ag-active ~ .ag-accounts-slider_item ~ .ag-accounts-slider_item {
+      opacity: .6;
+
+      z-index: 1;
+
+      -webkit-transform: translate3d(80rem, 0, 0);
+      -moz-transform: translate3d(80rem, 0, 0);
+      -ms-transform: translate3d(80rem, 0, 0);
+      -o-transform: translate3d(80rem, 0, 0);
+      transform: translate3d(80rem, 0, 0);
+
+      -webkit-transition-delay: .2s;
+      -moz-transition-delay: .2s;
+      -o-transition-delay: .2s;
+      transition-delay: .2s;
+    }
+    .ag-accounts-slider_item.js-ag-active ~ .ag-accounts-slider_item ~ .ag-accounts-slider_item:after {
+      content: "";
+      display: block;
+      width: 24rem;
+
+      pointer-events: none;
+
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(234, 238, 249, 0)), to(#eaeef9));
+      background-image: -o-linear-gradient(left, rgba(234, 238, 249, 0), #eaeef9 100%);
+      background-image: linear-gradient(90deg, rgba(234, 238, 249, 0), #eaeef9 100%);
+
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: -3px;
+
+      -webkit-transition: all .6s linear;
+      -moz-transition: all .6s linear;
+      -o-transition: all .6s linear;
+      transition: all .6s linear;
+
+    }
+    .ag-accounts-slider_item.js-ag-active ~ .ag-accounts-slider_item ~ .ag-accounts-slider_item ~ .ag-accounts-slider_item,
+    .ag-accounts-slider_item.js-ag-naked ~ .ag-accounts-slider_item ~ .ag-accounts-slider_item ~ .ag-accounts-slider_item {
+      opacity: 0;
+
+      z-index: 0;
+
+      -webkit-transform: translate3d(120rem, 0, 0);
+      -moz-transform: translate3d(120rem, 0, 0);
+      -ms-transform: translate3d(120rem, 0, 0);
+      -o-transform: translate3d(120rem, 0, 0);
+      transform: translate3d(120rem, 0, 0);
+
+      -webkit-transition-delay: .3s;
+      -moz-transition-delay: .3s;
+      -o-transition-delay: .3s;
+      transition-delay: .3s;
+    }
+    .ag-accounts-slider_item.js-ag-naked {
+      background-color: rgba(0, 0, 0, 0);
+      border-color: rgba(0, 0, 0, 0);
+
+      opacity: .8;
+
+      -webkit-transition: opacity .3s linear, background-color 1s linear, border-color 1s linear, -webkit-transform .8s ease-in-out;
+      -moz-transition: opacity .3s linear, background-color 1s linear, border-color 1s linear, -moz-transform .8s ease-in-out;
+      -o-transition: opacity .3s linear, background-color 1s linear, border-color 1s linear, -o-transform .8s ease-in-out;
+      transition: opacity .3s linear, background-color 1s linear, border-color 1s linear, transform .8s ease-in-out, -webkit-transform .8s ease-in-out, -moz-transform .8s ease-in-out, -o-transform .8s ease-in-out;
+    }
+    .ag-accounts-slider_item.js-ag-hide-first {
+      opacity: 0;
+
+      -webkit-transition: opacity .2s linear;
+      -moz-transition: opacity .2s linear;
+      -o-transition: opacity .2s linear;
+      transition: opacity .2s linear;
+    }
+    .ag-accounts-slider_item.js-ag-prev-hidden {
+      opacity: 0;
+
+      -webkit-transition-delay: 0s;
+      -moz-transition-delay: 0s;
+      -o-transition-delay: 0s;
+      transition-delay: 0s;
+    }
+    .ag-accounts-slider_item.fade-out {
+      opacity: 0;
+
+      -webkit-transition: none;
+      -moz-transition: none;
+      -o-transition: none;
+      transition: none;
+    }
+    .ag-accounts-slider_header-item {
+      margin: 1rem 0;
+
+      white-space: nowrap;
+    }
+    .ag-accounts-slider_title-item {
+      display: inline;
+      line-height: 1.76666667;
+      margin-right: .7rem;
+
+      vertical-align: baseline;
+      font-weight: 400;
+      font-size: 3rem;
+    }
+    .ag-accounts-slider_title-item-v2 {
+      color: #7fba2f;
+    }
+    .ag-accounts-slider_sticker {
+      display: inline-block;
+
+      vertical-align: 5px;
+
+      position: relative;
+    }
+    .ag-accounts-slider_sticker:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, .15);
+      -webkit-transform-origin: top left;
+      -ms-transform-origin: top left;
+      transform-origin: top left;
+      -webkit-transform: rotate(3deg);
+      -ms-transform: rotate(3deg);
+      transform: rotate(3deg);
+    }
+    .ag-accounts-slider_sticker:after {
+      content: "";
+      height: 100%;
+      width: 100%;
+      background-image: -webkit-gradient(linear, left top, right top, from(#126cab), color-stop(#168ac9), to(#126cab));
+      background-image: -o-linear-gradient(left, #126cab, #168ac9, #126cab);
+      background-image: linear-gradient(90deg, #126cab, #168ac9, #126cab);
+
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .ag-accounts-slider_sticker-v2:after {
+      background-image: -webkit-gradient(linear, left top, right top, from(#7fba2f), color-stop(#98c838), to(#7fba2f));
+      background-image: -o-linear-gradient(left, #7fba2f, #98c838, #7fba2f);
+      background-image: linear-gradient(90deg, #7fba2f, #98c838, #7fba2f);
+    }
+    .ag-accounts-slider_text {
+      position: relative;
+      z-index: 1;
+      display: block;
+      padding: .3rem 1rem;
+      font-size: 14px;
+      line-height: 1.42857143;
+      font-weight: 700;
+      font-style: normal;
+      text-transform: uppercase;
+      color: #fff;
+    }
+
+    .ag-accounts-slider_desc-item {
+      line-height: 1.42857143;
+
+      font-size: 1.4rem;
+      color: #697d8c;
+    }
+    .ag-accounts-details_list {
+      margin: 0;
+      padding: 0;
+
+      list-style-type: none;
+    }
+    .ag-accounts-details_item {
+      line-height: 1.42857143;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+
+      font-size: 1.4rem;
+
+      position: absolute;
+      left: 40px;
+      right: 40px;
+    }
+    .ag-accounts-details_item dl {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+
+      white-space: nowrap;
+    }
+    .ag-accounts-details_item dl:after,
+    .ag-accounts-details_item dl:before {
+      content: " ";
+      display: table;
+    }
+    .ag-accounts-details_item dl:after {
+      clear: both;
+    }
+    .ag-accounts-details_item dt {
+      float: left;
+      margin: 0 -100% 0 0;
+      padding: 0;
+
+      opacity: 0;
+
+      will-change: auto;
+
+      font-weight: 400;
+      color: #697d8c;
+
+      -webkit-transform: translate3d(-50%, 0, 0);
+      -moz-transform: translate3d(-50%, 0, 0);
+      -ms-transform: translate3d(-50%, 0, 0);
+      -o-transform: translate3d(-50%, 0, 0);
+      transform: translate3d(-50%, 0, 0);
+
+      -webkit-transition: all .4s linear;
+      -moz-transition: all linear .4s;
+      -o-transition: all linear .4s;
+      transition: all .4s linear;
+    }
+    .ag-accounts-details_item dt:after {
+      content: ":";
+      margin-right: 3px;
+    }
+    .ag-accounts-details_item dd {
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+    .ag-accounts-details_item__deposit {
+      top: 18.5rem;
+    }
+    .ag-accounts-details_item__exec {
+      top: 22.5rem;
+    }
+    .ag-accounts-details_item__spread {
+      top: 26.5rem;
+    }
+    .ag-accounts-details_item__tools {
+      top: 30.5rem;
+    }
+    .ag-accounts-details_item__bonuses {
+      top: 36.5rem;
+    }
+    .ag-accounts-details_item__terminals {
+      padding-bottom: 5rem;
+
+      top: 40.5rem;
+    }
+    .ag-account-terminals_list {
+      margin: 0;
+      padding: 0;
+
+      list-style-type: none;
+    }
+    .ag-account-terminals_item {
+      display: inline;
+    }
+    .ag-account-terminals_item:not(:last-child):after {
+      content: ",";
+      display: inline;
+      margin-right: 3px;
+    }
+    .ag-account-terminals_link {
+      margin-top: 4.2rem;
+
+      opacity: .6;
+
+      font-size: 1rem;
+
+      position: absolute;
+    }
+    .ag-account-terminals_link:nth-child(2) {
+      -webkit-transform: translateX(4em);
+      -moz-transform: translateX(4em);
+      -ms-transform: translateX(4em);
+      -o-transform: translateX(4em);
+      transform: translateX(4em);
+    }
+    .ag-account-terminals_link:nth-child(3) {
+      -webkit-transform: translateX(8em);
+      -moz-transform: translateX(8em);
+      -ms-transform: translateX(8em);
+      -o-transform: translateX(8em);
+      transform: translateX(8em);
+    }
+    .ag-account-terminals_item:first-child .ag-account-terminals_link {
+      left: 0;
+    }
+    .ag-account-terminals_item:nth-child(2) .ag-account-terminals_link {
+      left: 4em;
+    }
+    .ag-account-terminals_item:nth-child(3) .ag-account-terminals_link {
+      left: 8em;
+    }
+    .ag-account-terminals_item:nth-child(4) .ag-account-terminals_link {
+      left: 12em;
+    }
+    .ag-account-terminals_item:nth-child(5) .ag-account-terminals_link {
+      left: 16em;
+    }
+    .ag-account-terminals_item:nth-child(6) .ag-account-terminals_link {
+      left: 20em;
+    }
+
+    .ag-account-terminals_icons {
+      display: inline-block;
+      height: 3em;
+      width: 3em;
+      background-repeat: no-repeat;
+      background-position-y: 0;
+
+      pointer-events: none;
+
+      vertical-align: middle;
+      font-size: 1rem;
+    }
+    .ag-account-terminals_link:hover .ag-account-terminals_icons {
+      background-position-y: 100%
+    }
+    .ag-account-terminals_icon_web {
+      background-image: url(images/web.svg);
+      background-position-x: 0;
+      background-size: 3em 200%;
+    }
+    .ag-account-terminals_icon_mt4-desktop {
+      background-image: url(images/mt4-desktop.svg);
+      background-position-x: 0;
+      background-size: 3em 200%;
+    }
+    .ag-account-terminals_icon_mt5-desktop {
+      background-image: url(images/mt5-desktop.svg);
+      background-position-x: 0;
+      background-size: 3em 200%;
+    }
+    .ag-account-terminals_icon_wt-web {
+      background-image: url(images/wt-web.svg);
+      background-position-x: 0;
+      background-size: 3em 200%;
+    }
+    .ag-account-terminals_icon_apple {
+      background-image: url(images/apple.svg);
+      background-position-x: 0;
+      background-size: 3em 200%;
+    }
+    .ag-account-terminals_icon_android {
+      background-image: url(images/android.svg);
+      background-position-x: 0;
+      background-size: 3em 200%;
+    }
+    .ag-account-terminals_icon_ctrader-desktop {
+      background-image: url(images/ctrader-desktop.svg);
+      background-position-x: 0;
+      background-size: 3em 200%;
+    }
+    .ag-account-terminals_icon_phone {;
+      background-image: url(images/phone.png);
+    }
+
+    @media (max-width: 1460px) {
+      .ag-accounts-slider__prev {
+        margin-left: 0;
+
+        -webkit-transform: translate(-100%, -50%);
+        -moz-transform: translate(-100%, -50%);
+        -ms-transform: translate(-100%, -50%);
+        -o-transform: translate(-100%, -50%);
+        transform: translate(-100%, -50%);
+      }
+      .ag-accounts-slider__next {
+        margin-right: 0;
+
+        -webkit-transform: translate(100%, -50%);
+        -moz-transform: translate(100%, -50%);
+        -ms-transform: translate(100%, -50%);
+        -o-transform: translate(100%, -50%);
+        transform: translate(100%, -50%);
+      }
+    }
+
+    @media (max-width: 1370px) {
+      .ag-accounts-slider__next,
+      .ag-accounts-slider__prev {
+        opacity: 0;
+      }
+      .ag-accounts-slider__rule-next,
+      .ag-accounts-slider__rule-prev {
+        opacity: 1;
+        position: static;
+      }
+    }
+
+    @media (max-width: 1200px) {
+      .ag-accounts-slider_item {
+        width: 34rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+      }
+      .ag-accounts-details_item {
+        left: 3rem;
+        right: 3rem;
+      }
+      .ag-accounts-slider_item.js-ag-active ~ .ag-accounts-slider_item {
+        -webkit-transform: translate3d(37rem, 0, 0);
+        -moz-transform: translate3d(37rem, 0, 0);
+        -ms-transform: translate3d(37rem, 0, 0);
+        -o-transform: translate3d(37rem, 0, 0);
+        transform: translate3d(37rem, 0, 0);
+      }
+      .ag-accounts-slider_item.js-ag-active ~ .ag-accounts-slider_item ~ .ag-accounts-slider_item {
+        -webkit-transform: translate3d(74rem, 0, 0);
+        -moz-transform: translate3d(74rem, 0, 0);
+        -ms-transform: translate3d(74rem, 0, 0);
+        -o-transform: translate3d(74rem, 0, 0);
+        transform: translate3d(74rem, 0, 0);
+      }
+      .ag-accounts-slider_item.js-ag-active ~ .ag-accounts-slider_item ~ .ag-accounts-slider_item ~ .ag-accounts-slider_item {
+        -webkit-transform: translate3d(111rem, 0, 0);
+        -moz-transform: translate3d(111rem, 0, 0);
+        -ms-transform: translate3d(111rem, 0, 0);
+        -o-transform: translate3d(111rem, 0, 0);
+        transform: translate3d(111rem, 0, 0);
+      }
+    }
+
+    @media (max-width: 992px) {
+      .ag-accounts-slider_item {
+        width: 32rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+      .ag-accounts-details_item {
+        left: 2rem;
+        right: 2rem;
+      }
+      .ag-accounts-slider_item.js-ag-active ~ .ag-accounts-slider_item {
+        -webkit-transform: translate3d(34rem, 0, 0);
+        -moz-transform: translate3d(34rem, 0, 0);
+        -ms-transform: translate3d(34rem, 0, 0);
+        -o-transform: translate3d(34rem, 0, 0);
+        transform: translate3d(34rem, 0, 0);
+      }
+      .ag-accounts-slider_item.js-ag-active ~ .ag-accounts-slider_item ~ .ag-accounts-slider_item {
+        -webkit-transform: translate3d(68rem, 0, 0);
+        -moz-transform: translate3d(68rem, 0, 0);
+        -ms-transform: translate3d(68rem, 0, 0);
+        -o-transform: translate3d(68rem, 0, 0);
+        transform: translate3d(68rem, 0, 0);
+      }
+      .ag-accounts-slider_item.js-ag-active ~ .ag-accounts-slider_item ~ .ag-accounts-slider_item ~ .ag-accounts-slider_item {
+        -webkit-transform: translate3d(102rem, 0, 0);
+        -moz-transform: translate3d(102rem, 0, 0);
+        -ms-transform: translate3d(102rem, 0, 0);
+        -o-transform: translate3d(102rem, 0, 0);
+        transform: translate3d(102rem, 0, 0);
+      }
+    }
+
+    @media (max-width: 680px) {
+      .ag-accounts-slider_item {
+        height: 43rem;
+        width: 28rem;
+      }
+      .ag-accounts-slider_item.js-ag-active ~ .ag-accounts-slider_item {
+        -webkit-transform: translate3d(29rem, 0, 0);
+        -moz-transform: translate3d(29rem, 0, 0);
+        -ms-transform: translate3d(29rem, 0, 0);
+        -o-transform: translate3d(29rem, 0, 0);
+        transform: translate3d(29rem, 0, 0);
+      }
+      .ag-accounts-slider_item.js-ag-active ~ .ag-accounts-slider_item ~ .ag-accounts-slider_item {
+        -webkit-transform: translate3d(58rem, 0, 0);
+        -moz-transform: translate3d(58rem, 0, 0);
+        -ms-transform: translate3d(58rem, 0, 0);
+        -o-transform: translate3d(58rem, 0, 0);
+        transform: translate3d(58rem, 0, 0);
+      }
+      .ag-accounts-slider_item.js-ag-active ~ .ag-accounts-slider_item ~ .ag-accounts-slider_item ~ .ag-accounts-slider_item {
+        -webkit-transform: translate3d(87rem, 0, 0);
+        -moz-transform: translate3d(87rem, 0, 0);
+        -ms-transform: translate3d(87rem, 0, 0);
+        -o-transform: translate3d(87rem, 0, 0);
+        transform: translate3d(87rem, 0, 0);
+      }
+      .ag-accounts-slider_header-item {
+        margin: 0;
+      }
+      .ag-accounts-slider_title-item {
+        line-height: 2.5;
+
+        font-size: 2rem;
+      }
+      .ag-accounts-slider_text {
+        font-size: 1.2rem;
+        line-height: 1.66666667;
+      }
+      .ag-accounts-slider_desc-item {
+        line-height: 1.66666667;
+
+        font-size: 1.2rem;
+      }
+      .ag-accounts-details_item {
+        line-height: 1.66666667;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+
+        font-size: 1.2rem;
+      }
+      .ag-accounts-details_item__deposit {
+        top: 17.5rem;
+      }
+      .ag-accounts-details_item__exec {
+        top: 20.5rem;
+      }
+      .ag-accounts-details_item__spread {
+        top: 23.5rem;
+      }
+      .ag-accounts-details_item__tools {
+        top: 26.5rem;
+      }
+      .ag-accounts-details_item__bonuses {
+        top: 31.5rem;
+      }
+      .ag-accounts-details_item__terminals {
+        top: 34.5rem;
+      }
+      .ag-account-terminals_link {
+        margin-top: 3.5rem;
+      }
+      .ag-account-terminals_item:first-child .ag-account-terminals_link {
+        left: 0;
+      }
+      .ag-account-terminals_item:nth-child(2) .ag-account-terminals_link {
+        left: 3.4em;
+      }
+      .ag-account-terminals_item:nth-child(3) .ag-account-terminals_link {
+        left: 6.8em;
+      }
+      .ag-account-terminals_item:nth-child(4) .ag-account-terminals_link {
+        left: 10.2em;
+      }
+      .ag-account-terminals_item:nth-child(5) .ag-account-terminals_link {
+        left: 13.6em;
+      }
+      .ag-account-terminals_item:nth-child(6) > .ag-account-terminals_link {
+        left: 17em;
+      }
+      .ag-accounts-slider_item.js-ag-naked .ag-accounts-details_item dt {
+        margin-right: 0;
+
+        opacity: 1;
+
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+      }
+
+      .ag-accounts-slider__table {
+        margin-top: 5rem;
+      }
+      .ag-accounts-caption_list {
+        display: none;
+      }
+      .ag-accounts-caption_item {
+        line-height: 1.66666667;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+
+        font-size: 1.2rem;
+      }
+      .ag-accounts-caption_item__deposit {
+        top: 17.5rem;
+      }
+      .ag-accounts-caption_item__exec {
+        top: 20.5rem;
+      }
+      .ag-accounts-caption_item__spread {
+        top: 23.5rem;
+      }
+      .ag-accounts-caption_item__tools {
+        top: 26.5rem;
+      }
+      .ag-accounts-caption_item__bonuses {
+        top: 31.5rem;
+      }
+      .ag-accounts-caption_item__terminal {
+        padding-bottom: 5rem;
+
+        top: 34.5rem;
+      }
+      .js-ag-accounts-slider__pagination {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+        margin: 0;
+
+        white-space: nowrap;
+        text-align: right;
+
+        left: 0;
+        right: 0;
+      }
+      .js-ag-accounts-slider__bullets {
+        display: inline-block;
+      }
+      .ag-accounts-slider__next,
+      .ag-accounts-slider__prev {
+        -webkit-transform: scale(.7);
+        -moz-transform: scale(.7);
+        -ms-transform: scale(.7);
+        -o-transform: scale(.7);
+        transform: scale(.7);
+      }
+      .ag-accounts-slider__scrollable {
+        height: 43rem;
+        padding-left: 0;
+      }
+      .ag-accounts-slider_list {
+        margin-left: -1rem;
+      }
+    }
+
+    @media only screen and (max-width: 767px) {
+      .ag-format-container {
+        width: 96%;
+      }
+
+    }
+
+    @media only screen and (max-width: 639px) {
+
+    }
+
+    @media only screen and (max-width: 479px) {
+
+    }
+
+    @media (min-width: 768px) and (max-width: 979px) {
+      .ag-format-container {
+        width: 750px;
+      }
+
+    }
+
+    @media (min-width: 980px) and (max-width: 1161px) {
+      .ag-format-container {
+        width: 960px;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+<div class="ag-accounts-slider-block">
+  <div class="ag-format-container">
+    <div class="ag-accounts-slider__slider">
+      <div class="js-ag-accounts-slider__pagination">
+        <!--<span class="js-ag-accounts-slider__bullets">
+          <i class="ag-accounts-slider__bullet js-ag-accounts-slider-bullets__active"></i>
+          <i class="ag-accounts-slider__bullet"></i>
+          <i class="ag-accounts-slider__bullet"></i>
+          <i class="ag-accounts-slider__bullet"></i>
+          <i class="ag-accounts-slider__bullet"></i>
+          <i class="ag-accounts-slider__bullet"></i>
+        </span>-->
+        <span class="ag-accounts-slider__rules">
+          <a class="js-accounts-slider-prev ag-accounts-slider__rule-prev" href="javascrip:void(0)">
+            <svg height="28" stroke="#1378bf" viewBox="0 0 56 56" width="28" xmlns="http://www.w3.org/2000/svg">
+              <polyline fill="none" points="42 55 15 28 42 1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></polyline>
+            </svg>
+          </a>
+          <a class="js-accounts-slider-next ag-accounts-slider__rule-next" href="javascrip:void(0)">
+            <svg height="28" stroke="#1378bf" viewBox="0 0 56 56" width="28" xmlns="http://www.w3.org/2000/svg">
+              <polyline fill="none" points="15 55 42 28 15 1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></polyline>
+            </svg>
+          </a>
+        </span>
+      </div>
+      <div class="ag-accounts-slider__wrapper">
+        <div class="ag-accounts-slider__table">
+          <ul class="ag-accounts-caption_list">
+            <li class="ag-accounts-caption_item ag-accounts-caption_item__deposit">First deposit</li>
+            <li class="ag-accounts-caption_item ag-accounts-caption_item__exec">Execution type</li>
+            <li class="ag-accounts-caption_item ag-accounts-caption_item__spread">Spreads</li>
+            <li class="ag-accounts-caption_item ag-accounts-caption_item__tools">Instruments</li>
+            <li class="ag-accounts-caption_item ag-accounts-caption_item__bonuses">Bonuses</li>
+            <li class="ag-accounts-caption_item ag-accounts-caption_item__terminal">Platforms</li>
+          </ul>
+          <div class="js-accounts-slider_slider ag-accounts-slider__scrollable">
+            <ul class="js-accounts-slider_list ag-accounts-slider_list">
+              <li id="demo" class="js-accounts-slider_card ag-accounts-slider_item js-ag-active js-ag-naked">
+                <div class="ag-accounts-slider_header-item"><h4 class="ag-accounts-slider_title-item">Demo</h4></div>
+                <div class="ag-accounts-slider_desc-item">
+                  <p>
+                    By opening a demo account at RoboForex, you can test our trading conditions -
+                    instruments, spreads, swaps, execution speed - without investing real money.
+                  </p>
+                </div>
+                <ul class="ag-accounts-details_list">
+                  <li class="ag-accounts-details_item ag-accounts-details_item__deposit">
+                    <dl>
+                      <dt>First deposit</dt>
+                      <dd>Not required</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__exec">
+                    <dl>
+                      <dt>Execution type</dt>
+                      <dd>Market Execution</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__spread">
+                    <dl>
+                      <dt>Spreads</dt>
+                      <dd>Depends on type of account</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__tools">
+                    <dl>
+                      <dt>Instruments</dt>
+                      <dd>Depends on type of account</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__bonuses">
+                    <dl>
+                      <dt>Bonuses</dt>
+                      <dd>Limited number of offers</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__terminals">
+                    <dl>
+                      <dt>Platforms</dt>
+                      <dd>
+                        <ul class="ag-account-terminals_list">
+                          <li>Depends on type of account</li>
+                        </ul>
+                      </dd>
+                    </dl>
+                  </li>
+                </ul>
+              </li>
+              <li id="prime" class="js-accounts-slider_card ag-accounts-slider_item">
+                <div class="ag-accounts-slider_header-item"><h4 class="ag-accounts-slider_title-item ag-accounts-slider_title-item-v2">Prime</h4>
+                  <span class="ag-accounts-slider_sticker ag-accounts-slider_sticker-v2"><b class="ag-accounts-slider_text">Premium conditions</b></span>
+                </div>
+                <div class="ag-accounts-slider_desc-item">
+                  <p>
+                  "Prime" ag-accounts-slider combine all best features of ECN ag-accounts-slider and are suitable
+                  for advanced traders.
+                </p>
+                </div>
+                <ul class="ag-accounts-details_list">
+                  <li class="ag-accounts-details_item ag-accounts-details_item__deposit">
+                    <dl>
+                      <dt>First deposit</dt>
+                      <dd>10 USD / 10 EUR / 100 CNY</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__exec">
+                    <dl>
+                      <dt>Execution type</dt>
+                      <dd>Market Execution</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__spread">
+                    <dl>
+                      <dt>Spreads</dt>
+                      <dd>Floating from 0 points</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__tools">
+                    <dl>
+                      <dt>Instruments</dt>
+                      <dd>28 currency pairs,<br>
+                        Metals, CFD, Cryptocurrencies
+                      </dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__bonuses">
+                    <dl>
+                      <dt>Bonuses</dt>
+                      <dd>Limited number of offers</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__terminals">
+                    <dl>
+                      <dt>Platforms</dt>
+                      <dd>
+                        <ul class="ag-account-terminals_list">
+                          <li class="ag-account-terminals_item">
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="MetaTrader4 for desktop">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_mt4-desktop"></i>
+                            </a>
+                            MT4
+                          </li>
+                          <li class="ag-account-terminals_item">
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="WebTrader for web">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_wt-web"></i>
+                            </a>
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="WebTrader for apple">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_apple"></i>
+                            </a>
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="WebTrader for android">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_android"></i>
+                            </a>
+                            WebTrader
+                          </li>
+                        </ul>
+                      </dd>
+                    </dl>
+                  </li>
+                </ul>
+              </li>
+              <li id="ecn-pro" class="js-accounts-slider_card ag-accounts-slider_item">
+                <div class="ag-accounts-slider_header-item"><h4 class="ag-accounts-slider_title-item">ECN</h4>
+                  <span class="ag-accounts-slider_sticker"><b class="ag-accounts-slider_text">Clients' Choice</b></span>
+                </div>
+                <div class="ag-accounts-slider_desc-item">
+                  <p>
+                  ECN account type is intended for professionals, who prefer the best trading
+                  conditions with tight spreads.
+                </p>
+                </div>
+                <ul class="ag-accounts-details_list">
+                  <li class="ag-accounts-details_item ag-accounts-details_item__deposit">
+                    <dl>
+                      <dt>First deposit</dt>
+                      <dd>10 USD / 10 EUR / 100 CNY</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__exec">
+                    <dl>
+                      <dt>Execution type</dt>
+                      <dd>Market Execution</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__spread">
+                    <dl>
+                      <dt>Spreads</dt>
+                      <dd>Floating from 0 points</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__tools">
+                    <dl>
+                      <dt>Instruments</dt>
+                      <dd>36 currency pairs,<br>
+                        Metals, CFD, Cryptocurrencies
+                      </dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__bonuses">
+                    <dl>
+                      <dt>Bonuses</dt>
+                      <dd>Limited number of offers</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__terminals">
+                    <dl>
+                      <dt>Platforms</dt>
+                      <dd>
+                        <ul class="ag-account-terminals_list">
+                          <li class="ag-account-terminals_item">
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="MetaTrader4 for desktop">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_mt4-desktop"></i>
+                            </a>
+                            MT4
+                          </li>
+                          <li class="ag-account-terminals_item">
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="MetaTrader5 for desktop">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_mt5-desktop"></i>
+                            </a>
+                            MT5
+                          </li>
+                          <li class="ag-account-terminals_item">
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="cTrader for desktop">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_ctrader-desktop"></i>
+                            </a>
+                            cTrader
+                          </li>
+                          <li class="ag-account-terminals_item">
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="WebTrader for web">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_wt-web"></i>
+                            </a>
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="WebTrader for apple">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_apple"></i>
+                            </a>
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="WebTrader for android">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_android"></i>
+                            </a>
+                            WebTrader
+                          </li>
+                        </ul>
+                      </dd>
+                    </dl>
+                  </li>
+                </ul>
+              </li>
+              <li id="stocks" class="js-accounts-slider_card ag-accounts-slider_item">
+                <div class="ag-accounts-slider_header-item"><h4 class="ag-accounts-slider_title-item">R Trader</h4>
+                  <span class="ag-accounts-slider_sticker"><b class="ag-accounts-slider_text">For Stock Trading</b></span>
+                </div>
+                <div class="ag-accounts-slider_desc-item">
+                  <p>
+                    R Trader is a multi-asset web platform, which combines modern technologies, a
+                    classic but taken to a new level design, and access to the world’s major financial markets.
+                  </p>
+                </div>
+                <ul class="ag-accounts-details_list">
+                  <li class="ag-accounts-details_item ag-accounts-details_item__deposit">
+                    <dl>
+                      <dt>First deposit</dt>
+                      <dd>100 USD</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__exec">
+                    <dl>
+                      <dt>Execution type</dt>
+                      <dd>Market Execution</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__spread">
+                    <dl>
+                      <dt>Spreads</dt>
+                      <dd>Floating from 0 points</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__tools">
+                    <dl>
+                      <dt>Instruments</dt>
+                      <dd>Over 12,000 Stocks, Indices,<br>
+                        Forex, ETFs, CFDs, Cryptocurrencies
+                      </dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__bonuses">
+                    <dl>
+                      <dt>Bonuses</dt>
+                      <dd>Not available</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__terminals">
+                    <dl>
+                      <dt>Platforms</dt>
+                      <dd>
+                        <ul class="ag-account-terminals_list">
+                          <li class="ag-account-terminals_item">
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="R Trader - Web Platform">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_web"></i>
+                            </a>
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="Mobile version">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_phone"></i>
+                            </a>
+                            R Trader - Web Platform
+                          </li>
+                        </ul>
+                      </dd>
+                    </dl>
+                  </li>
+                </ul>
+              </li>
+              <li id="pro-cent" class="js-accounts-slider_card ag-accounts-slider_item">
+                <div class="ag-accounts-slider_header-item"><h4 class="ag-accounts-slider_title-item">Pro-Cent</h4>
+                  <span class="ag-accounts-slider_sticker"><b class="ag-accounts-slider_text">For Algo Testing</b></span>
+                </div>
+                <div class="ag-accounts-slider_desc-item">
+                  <p>
+                    Pro-Cent ag-accounts-slider provide an opportunity to trade micro lots and is best
+                    suitable for beginners, who want to test our trading conditions with minimum investments.
+                  </p>
+                </div>
+                <ul class="ag-accounts-details_list">
+                  <li class="ag-accounts-details_item ag-accounts-details_item__deposit">
+                    <dl>
+                      <dt>First deposit</dt>
+                      <dd>10 USD / 10 EUR / 100 CNY</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__exec">
+                    <dl>
+                      <dt>Execution type</dt>
+                      <dd>Market Execution</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__spread">
+                    <dl>
+                      <dt>Spreads</dt>
+                      <dd>Floating from 1.3 points</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__tools">
+                    <dl>
+                      <dt>Instruments</dt>
+                      <dd>36 currency pairs,<br>
+                        Metals, Cryptocurrencies
+                      </dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__bonuses">
+                    <dl>
+                      <dt>Bonuses</dt>
+                      <dd>All offers</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__terminals">
+                    <dl>
+                      <dt>Platforms</dt>
+                      <dd>
+                        <ul class="ag-account-terminals_list">
+                          <li class="ag-account-terminals_item">
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="MetaTrader4 for desktop">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_mt4-desktop"></i>
+                            </a>
+                            MT4
+                          </li>
+                          <li class="ag-account-terminals_item">
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="MetaTrader5 for desktop">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_mt5-desktop"></i>
+                            </a>
+                            MT5
+                          </li>
+                          <li class="ag-account-terminals_item">
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="WebTrader for web">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_wt-web"></i>
+                            </a>
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="WebTrader for apple">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_apple"></i>
+                            </a>
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="WebTrader for android">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_android"></i>
+                            </a>
+                            WebTrader
+                          </li>
+                        </ul>
+                      </dd>
+                    </dl>
+                  </li>
+                </ul>
+              </li>
+              <li id="pro-standard" class="js-accounts-slider_card ag-accounts-slider_item">
+                <div class="ag-accounts-slider_header-item"><h4 class="ag-accounts-slider_title-item">Pro-Standard</h4></div>
+                <div class="ag-accounts-slider_desc-item">
+                  <p>
+                    The most popular account type at RoboForex, which is suitable for both
+                    beginners and experienced traders.
+                  </p>
+                </div>
+                <ul class="ag-accounts-details_list">
+                  <li class="ag-accounts-details_item ag-accounts-details_item__deposit">
+                    <dl>
+                      <dt>First deposit</dt>
+                      <dd>10 USD / 10 EUR / 100 CNY</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__exec">
+                    <dl>
+                      <dt>Execution type</dt>
+                      <dd>Market Execution</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__spread">
+                    <dl>
+                      <dt>Spreads</dt>
+                      <dd>Floating from 1.3 points</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__tools">
+                    <dl>
+                      <dt>Instruments</dt>
+                      <dd>36 currency pairs,<br>
+                        Metals, CFD, Cryptocurrencies
+                      </dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__bonuses">
+                    <dl>
+                      <dt>Bonuses</dt>
+                      <dd>All offers</dd>
+                    </dl>
+                  </li>
+                  <li class="ag-accounts-details_item ag-accounts-details_item__terminals">
+                    <dl>
+                      <dt>Platforms</dt>
+                      <dd>
+                        <ul class="ag-account-terminals_list">
+                          <li class="ag-account-terminals_item">
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="MetaTrader4 for desktop">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_mt4-desktop"></i>
+                            </a>
+                            MT4
+                          </li>
+                          <li class="ag-account-terminals_item">
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="MetaTrader5 for desktop">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_mt5-desktop"></i>
+                            </a>
+                            MT5
+                          </li>
+                          <li class="ag-account-terminals_item">
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="cTrader for desktop">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_ctrader-desktop"></i>
+                            </a>
+                            cTrader
+                          </li>
+                          <li class="ag-account-terminals_item">
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="WebTrader for web">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_wt-web"></i>
+                            </a>
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="WebTrader for apple">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_apple"></i>
+                            </a>
+                            <a href="#" class="ag-account-terminals_link" target="_blank" title="WebTrader for android">
+                              <i class="ag-account-terminals_icons ag-account-terminals_icon_android"></i>
+                            </a>
+                            WebTrader
+                          </li>
+                        </ul>
+                      </dd>
+                    </dl>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <a class="js-accounts-slider-prev ag-accounts-slider__prev" href="javascrip:void(0)">
+              <svg height="56" stroke="#1378bf" width="56" xmlns="http://www.w3.org/2000/svg">
+                <polyline fill="none" points="42 55 15 28 42 1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></polyline>
+              </svg>
+            </a><a class="js-accounts-slider-next ag-accounts-slider__next" href="javascrip:void(0)">
+            <svg height="56" stroke="#1378bf" width="56" xmlns="http://www.w3.org/2000/svg">
+              <polyline fill="none" points="15 55 42 28 15 1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"></polyline>
+            </svg>
+          </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
