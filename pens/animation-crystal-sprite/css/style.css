@@ -1,0 +1,137 @@
+body {
+  background-color: #0d4646;
+}
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-meteor {
+  width: 600px;
+  height: 600px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-crystal-sprite/images/meteor.png) no-repeat 0 0;
+
+  -webkit-animation: an-meteor 1s steps(48) infinite;
+  -moz-animation: an-meteor 1s steps(48) infinite;
+  -o-animation: an-meteor 1s steps(48) infinite;
+  animation: an-meteor 1s steps(48) infinite;
+
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+@-webkit-keyframes an-meteor {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -28800px 0;
+  }
+}
+
+@-moz-keyframes an-meteor {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -28800px 0;
+  }
+}
+
+@-o-keyframes an-meteor {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -28800px 0;
+  }
+}
+
+@keyframes an-meteor {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -28800px 0;
+  }
+}
+
+.ag-crystal {
+  width: 130px;
+  height: 127px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-crystal-sprite/images/crystal.png) no-repeat 0 0;
+
+  -webkit-animation: an-crystal 1s steps(49) infinite;
+  -moz-animation: an-crystal 1s steps(49) infinite;
+  -o-animation: an-crystal 1s steps(49) infinite;
+  animation: an-crystal 1s steps(49) infinite;
+}
+
+@-webkit-keyframes an-crystal {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -6370px 0;
+  }
+}
+
+@-moz-keyframes an-crystal {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -6370px 0;
+  }
+}
+
+@-o-keyframes an-crystal {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -6370px 0;
+  }
+}
+
+@keyframes an-crystal {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -6370px 0;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

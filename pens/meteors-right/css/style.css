@@ -1,0 +1,855 @@
+html,
+body,
+.ag-format-container,
+.ag-block {
+  height: 100%;
+}
+body {
+  overflow: hidden;
+}
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-meteor-block {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors-right/images/bg.jpg);
+  background-size: cover;
+
+  pointer-events: none;
+
+  overflow: hidden;
+
+  top: 0;
+  left: 0;
+}
+.ag-meteor-block,
+.meteor__item {
+  position: absolute;
+}
+.meteor__item-img {
+  width: 600px;
+  height: 600px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors-right/images/meteors-sprite.png);
+  background-size: auto 100%;
+
+  -webkit-animation: an-frame-animation 3s steps(48) infinite;
+  -moz-animation: an-frame-animation 3s steps(48) infinite;
+  -o-animation: an-frame-animation 3s steps(48) infinite;
+  animation: an-frame-animation 3s steps(48) infinite;
+
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+@-webkit-keyframes an-frame-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -28800px 0;
+  }
+}
+
+@-moz-keyframes an-frame-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -28800px 0;
+  }
+}
+
+@-o-keyframes an-frame-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -28800px 0;
+  }
+}
+
+@keyframes an-frame-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -28800px 0;
+  }
+}
+
+@keyframes an-shine {
+  0% {
+    background-position: 0 0;
+  }
+  2.12766% {
+    background-position: -600px 0;
+  }
+  4.25532% {
+    background-position: -1200px 0;
+  }
+  6.38298% {
+    background-position: -1800px 0;
+  }
+  8.51064% {
+    background-position: -2400px 0;
+  }
+  10.6383% {
+    background-position: -3000px 0;
+  }
+  12.76596% {
+    background-position: -3600px 0;
+  }
+  14.89362% {
+    background-position: -4200px 0;
+  }
+  17.02128% {
+    background-position: -4800px 0;
+  }
+  19.14894% {
+    background-position: -5400px 0;
+  }
+  21.2766% {
+    background-position: -6000px 0;
+  }
+  23.40426% {
+    background-position: -6600px 0;
+  }
+  25.53191% {
+    background-position: -7200px 0;
+  }
+  27.65957% {
+    background-position: -7800px 0;
+  }
+  29.78723% {
+    background-position: -8400px 0;
+  }
+  31.91489% {
+    background-position: -9000px 0;
+  }
+  34.04255% {
+    background-position: -9600px 0;
+  }
+  36.17021% {
+    background-position: -10200px 0;
+  }
+  38.29787% {
+    background-position: -10800px 0;
+  }
+  40.42553% {
+    background-position: -11400px 0;
+  }
+  42.55319% {
+    background-position: -12000px 0;
+  }
+  44.68085% {
+    background-position: -12600px 0;
+  }
+  46.80851% {
+    background-position: -13200px 0;
+  }
+  48.93617% {
+    background-position: -13800px 0;
+  }
+  51.06383% {
+    background-position: -14400px 0;
+  }
+  53.19149% {
+    background-position: -15000px 0;
+  }
+  55.31915% {
+    background-position: -15600px 0;
+  }
+  57.44681% {
+    background-position: -16200px 0;
+  }
+  59.57447% {
+    background-position: -16800px 0;
+  }
+  61.70213% {
+    background-position: -17400px 0;
+  }
+  63.82979% {
+    background-position: -18000px 0;
+  }
+  65.95745% {
+    background-position: -18600px 0;
+  }
+  68.08511% {
+    background-position: -19200px 0;
+  }
+  70.21277% {
+    background-position: -19800px 0;
+  }
+  72.34043% {
+    background-position: -20400px 0;
+  }
+  74.46809% {
+    background-position: -21000px 0;
+  }
+  76.59574% {
+    background-position: -21600px 0;
+  }
+  78.7234% {
+    background-position: -22200px 0;
+  }
+  80.85106% {
+    background-position: -22800px 0;
+  }
+  82.97872% {
+    background-position: -23400px 0;
+  }
+  85.10638% {
+    background-position: -24000px 0;
+  }
+  87.23404% {
+    background-position: -24600px 0;
+  }
+  89.3617% {
+    background-position: -25200px 0;
+  }
+  91.48936% {
+    background-position: -25800px 0;
+  }
+  93.61702% {
+    background-position: -26400px 0;
+  }
+  95.74468% {
+    background-position: -27000px 0;
+  }
+  97.87234% {
+    background-position: -27600px 0;
+  }
+  to {
+    background-position: -28200px 0;
+  }
+}
+
+
+
+/*
+
+@-webkit-keyframes an-shine {
+  0% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0000.png);
+  }
+  2.12766% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0001.png);
+  }
+  4.25532% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0002.png);
+  }
+  6.38298% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0003.png);
+  }
+  8.51064% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0004.png);
+  }
+  10.6383% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0005.png);
+  }
+  12.76596% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0006.png);
+  }
+  14.89362% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0007.png);
+  }
+  17.02128% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0008.png);
+  }
+  19.14894% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0009.png);
+  }
+  21.2766% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00010.png);
+  }
+  23.40426% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00011.png);
+  }
+  25.53191% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00012.png);
+  }
+  27.65957% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00013.png);
+  }
+  29.78723% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00014.png);
+  }
+  31.91489% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00015.png);
+  }
+  34.04255% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00016.png);
+  }
+  36.17021% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00017.png);
+  }
+  38.29787% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00018.png);
+  }
+  40.42553% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00019.png);
+  }
+  42.55319% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00020.png);
+  }
+  44.68085% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00021.png);
+  }
+  46.80851% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00022.png);
+  }
+  48.93617% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00023.png);
+  }
+  51.06383% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00024.png);
+  }
+  53.19149% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00025.png);
+  }
+  55.31915% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00026.png);
+  }
+  57.44681% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00027.png);
+  }
+  59.57447% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00028.png);
+  }
+  61.70213% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00029.png);
+  }
+  63.82979% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00030.png);
+  }
+  65.95745% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00031.png);
+  }
+  68.08511% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00032.png);
+  }
+  70.21277% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00033.png);
+  }
+  72.34043% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00034.png);
+  }
+  74.46809% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00035.png);
+  }
+  76.59574% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00036.png);
+  }
+  78.7234% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00037.png);
+  }
+  80.85106% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00038.png);
+  }
+  82.97872% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00039.png);
+  }
+  85.10638% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00040.png);
+  }
+  87.23404% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00041.png);
+  }
+  89.3617% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00042.png);
+  }
+  91.48936% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00043.png);
+  }
+  93.61702% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00044.png);
+  }
+  95.74468% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00045.png);
+  }
+  97.87234% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00046.png);
+  }
+  to {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00047.png);
+  }
+}
+
+@-moz-keyframes an-shine {
+  0% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0000.png);
+  }
+  2.12766% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0001.png);
+  }
+  4.25532% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0002.png);
+  }
+  6.38298% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0003.png);
+  }
+  8.51064% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0004.png);
+  }
+  10.6383% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0005.png);
+  }
+  12.76596% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0006.png);
+  }
+  14.89362% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0007.png);
+  }
+  17.02128% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0008.png);
+  }
+  19.14894% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0009.png);
+  }
+  21.2766% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00010.png);
+  }
+  23.40426% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00011.png);
+  }
+  25.53191% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00012.png);
+  }
+  27.65957% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00013.png);
+  }
+  29.78723% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00014.png);
+  }
+  31.91489% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00015.png);
+  }
+  34.04255% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00016.png);
+  }
+  36.17021% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00017.png);
+  }
+  38.29787% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00018.png);
+  }
+  40.42553% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00019.png);
+  }
+  42.55319% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00020.png);
+  }
+  44.68085% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00021.png);
+  }
+  46.80851% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00022.png);
+  }
+  48.93617% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00023.png);
+  }
+  51.06383% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00024.png);
+  }
+  53.19149% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00025.png);
+  }
+  55.31915% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00026.png);
+  }
+  57.44681% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00027.png);
+  }
+  59.57447% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00028.png);
+  }
+  61.70213% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00029.png);
+  }
+  63.82979% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00030.png);
+  }
+  65.95745% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00031.png);
+  }
+  68.08511% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00032.png);
+  }
+  70.21277% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00033.png);
+  }
+  72.34043% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00034.png);
+  }
+  74.46809% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00035.png);
+  }
+  76.59574% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00036.png);
+  }
+  78.7234% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00037.png);
+  }
+  80.85106% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00038.png);
+  }
+  82.97872% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00039.png);
+  }
+  85.10638% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00040.png);
+  }
+  87.23404% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00041.png);
+  }
+  89.3617% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00042.png);
+  }
+  91.48936% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00043.png);
+  }
+  93.61702% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00044.png);
+  }
+  95.74468% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00045.png);
+  }
+  97.87234% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00046.png);
+  }
+  to {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00047.png);
+  }
+}
+
+@-o-keyframes an-shine {
+  0% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0000.png);
+  }
+  2.12766% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0001.png);
+  }
+  4.25532% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0002.png);
+  }
+  6.38298% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0003.png);
+  }
+  8.51064% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0004.png);
+  }
+  10.6383% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0005.png);
+  }
+  12.76596% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0006.png);
+  }
+  14.89362% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0007.png);
+  }
+  17.02128% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0008.png);
+  }
+  19.14894% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0009.png);
+  }
+  21.2766% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00010.png);
+  }
+  23.40426% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00011.png);
+  }
+  25.53191% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00012.png);
+  }
+  27.65957% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00013.png);
+  }
+  29.78723% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00014.png);
+  }
+  31.91489% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00015.png);
+  }
+  34.04255% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00016.png);
+  }
+  36.17021% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00017.png);
+  }
+  38.29787% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00018.png);
+  }
+  40.42553% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00019.png);
+  }
+  42.55319% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00020.png);
+  }
+  44.68085% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00021.png);
+  }
+  46.80851% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00022.png);
+  }
+  48.93617% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00023.png);
+  }
+  51.06383% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00024.png);
+  }
+  53.19149% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00025.png);
+  }
+  55.31915% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00026.png);
+  }
+  57.44681% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00027.png);
+  }
+  59.57447% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00028.png);
+  }
+  61.70213% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00029.png);
+  }
+  63.82979% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00030.png);
+  }
+  65.95745% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00031.png);
+  }
+  68.08511% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00032.png);
+  }
+  70.21277% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00033.png);
+  }
+  72.34043% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00034.png);
+  }
+  74.46809% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00035.png);
+  }
+  76.59574% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00036.png);
+  }
+  78.7234% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00037.png);
+  }
+  80.85106% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00038.png);
+  }
+  82.97872% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00039.png);
+  }
+  85.10638% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00040.png);
+  }
+  87.23404% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00041.png);
+  }
+  89.3617% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00042.png);
+  }
+  91.48936% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00043.png);
+  }
+  93.61702% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00044.png);
+  }
+  95.74468% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00045.png);
+  }
+  97.87234% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00046.png);
+  }
+  to {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00047.png);
+  }
+}
+
+@keyframes an-shine {
+  0% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0000.png);
+  }
+  2.12766% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0001.png);
+  }
+  4.25532% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0002.png);
+  }
+  6.38298% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0003.png);
+  }
+  8.51064% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0004.png);
+  }
+  10.6383% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0005.png);
+  }
+  12.76596% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0006.png);
+  }
+  14.89362% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0007.png);
+  }
+  17.02128% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0008.png);
+  }
+  19.14894% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_0009.png);
+  }
+  21.2766% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00010.png);
+  }
+  23.40426% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00011.png);
+  }
+  25.53191% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00012.png);
+  }
+  27.65957% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00013.png);
+  }
+  29.78723% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00014.png);
+  }
+  31.91489% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00015.png);
+  }
+  34.04255% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00016.png);
+  }
+  36.17021% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00017.png);
+  }
+  38.29787% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00018.png);
+  }
+  40.42553% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00019.png);
+  }
+  42.55319% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00020.png);
+  }
+  44.68085% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00021.png);
+  }
+  46.80851% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00022.png);
+  }
+  48.93617% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00023.png);
+  }
+  51.06383% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00024.png);
+  }
+  53.19149% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00025.png);
+  }
+  55.31915% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00026.png);
+  }
+  57.44681% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00027.png);
+  }
+  59.57447% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00028.png);
+  }
+  61.70213% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00029.png);
+  }
+  63.82979% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00030.png);
+  }
+  65.95745% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00031.png);
+  }
+  68.08511% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00032.png);
+  }
+  70.21277% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00033.png);
+  }
+  72.34043% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00034.png);
+  }
+  74.46809% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00035.png);
+  }
+  76.59574% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00036.png);
+  }
+  78.7234% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00037.png);
+  }
+  80.85106% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00038.png);
+  }
+  82.97872% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00039.png);
+  }
+  85.10638% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00040.png);
+  }
+  87.23404% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00041.png);
+  }
+  89.3617% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00042.png);
+  }
+  91.48936% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00043.png);
+  }
+  93.61702% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00044.png);
+  }
+  95.74468% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00045.png);
+  }
+  97.87234% {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00046.png);
+  }
+  to {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/meteors/images/meteor/meteor_00047.png);
+  }
+}
+*/
+
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
