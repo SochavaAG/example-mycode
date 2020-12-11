@@ -35,7 +35,7 @@
                 transition = meteor.speed;
 
               $("#".concat(id)).css({
-                left: topOrLeft ? 0 : "".concat(left + 1500, "px"),
+                left: topOrLeft ? "100%" : "".concat(left, "px"),
                 top: topOrLeft ? "".concat(top + 1000, "px") : 0,
                 transition: "transform ".concat(transition, "s linear"),
                 transform: "translate(".concat(size, "px, -").concat(size, "px"),

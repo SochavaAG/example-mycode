@@ -15,15 +15,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="grand-prix-2020-EN.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="grand-prix-2020-EN.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/landing-pages/2020.12.04_landing_grand-prix-2020/grand-prix-2020-EN.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="592">
-              <caret line="1717" column="11" lean-forward="true" selection-start-line="1713" selection-start-column="10" selection-end-line="1717" selection-end-column="11" />
+            <state relative-caret-position="24">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <element signature="e#5800#6463#2" expanded="true" />
-                <element signature="e#10013#10676#2" expanded="true" />
-                <element signature="e#22700#23363#2" expanded="true" />
                 <element signature="n#div#0;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -34,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/meteors/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -43,7 +40,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meteors/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
+            <state relative-caret-position="504">
               <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="27" />
               <folding />
             </state>
@@ -73,24 +70,19 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meteors-right/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
+            <state relative-caret-position="1128">
               <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/meteors-right/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
+            <state relative-caret-position="-548">
               <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-              <folding>
-                <marker date="1607521840228" expanded="false" signature="4161:11620" ph="..." />
-                <marker date="1607521840228" expanded="false" signature="11647:19106" ph="..." />
-                <marker date="1607521840228" expanded="false" signature="19131:26590" ph="..." />
-                <marker date="1607521840228" expanded="false" signature="26612:34071" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,7 +90,7 @@
       <file leaf-file-name="main_backup.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/example/02.10.2015_example/main_backup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
+            <state relative-caret-position="124392">
               <caret line="5183" column="0" lean-forward="false" selection-start-line="5183" selection-start-column="0" selection-end-line="5533" selection-end-column="8" />
               <folding>
                 <element signature="n#style#33;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -110,8 +102,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-crystal-sprite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="552">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,8 +112,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-crystal-sprite/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="408">
+              <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -130,8 +122,8 @@
       <file leaf-file-name="trading_grand-prix-2020-FR.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/landing-pages/2020.12.04_landing_grand-prix-2020/trading/trading_grand-prix-2020-FR.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="1134" column="6" lean-forward="true" selection-start-line="942" selection-start-column="0" selection-end-line="1134" selection-end-column="6" />
+            <state relative-caret-position="1152">
+              <caret line="1134" column="6" lean-forward="false" selection-start-line="942" selection-start-column="0" selection-end-line="1134" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
@@ -164,7 +156,7 @@
       <file leaf-file-name="justforex-world-cup-EN.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/landing-pages/2020.07.15_landing_justforex-world-cup/justforex-world-cup-EN.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
+            <state relative-caret-position="50928">
               <caret line="2122" column="7" lean-forward="false" selection-start-line="2122" selection-start-column="7" selection-end-line="2124" selection-end-column="9" />
               <folding />
             </state>
@@ -174,8 +166,8 @@
       <file leaf-file-name="application-responsive.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/vazhno_project-1/2019.11.12_FX-15605/js/application-responsive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="1308" column="5" lean-forward="true" selection-start-line="1306" selection-start-column="2" selection-end-line="1308" selection-end-column="5" />
+            <state relative-caret-position="31104">
+              <caret line="1308" column="5" lean-forward="false" selection-start-line="1306" selection-start-column="2" selection-end-line="1308" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -184,8 +176,8 @@
       <file leaf-file-name="company-EN.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/landing-pages/2018.04.18_landing_company/company-EN.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="577" column="37" lean-forward="true" selection-start-line="575" selection-start-column="8" selection-end-line="577" selection-end-column="37" />
+            <state relative-caret-position="13848">
+              <caret line="577" column="37" lean-forward="false" selection-start-line="575" selection-start-column="8" selection-end-line="577" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -528,11 +520,12 @@
       <workItem from="1599542335002" duration="48000" />
       <workItem from="1607495299497" duration="3705000" />
       <workItem from="1607499757889" duration="16494000" />
+      <workItem from="1607669413025" duration="7000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="592743000" />
+    <option name="totallyTimeSpent" value="592750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -815,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2222">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,13 +815,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="28" column="133" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="133" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/meteors/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
+        <state relative-caret-position="504">
           <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="27" />
           <folding />
         </state>
@@ -839,13 +830,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="755">
           <caret line="632" column="112" lean-forward="false" selection-start-line="632" selection-start-column="112" selection-end-line="632" selection-end-column="112" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/example/02.10.2015_example/main_backup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
+        <state relative-caret-position="124392">
           <caret line="5183" column="0" lean-forward="false" selection-start-line="5183" selection-start-column="0" selection-end-line="5533" selection-end-column="8" />
           <folding>
             <element signature="n#style#33;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -855,15 +845,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/animation-crystal-sprite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="552">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/meteors-right/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
+        <state relative-caret-position="1128">
           <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
           <folding />
         </state>
@@ -871,29 +861,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/animation-crystal-sprite/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="408">
+          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meteors-right/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-          <folding>
-            <marker date="1607521840228" expanded="false" signature="4161:11620" ph="..." />
-            <marker date="1607521840228" expanded="false" signature="11647:19106" ph="..." />
-            <marker date="1607521840228" expanded="false" signature="19131:26590" ph="..." />
-            <marker date="1607521840228" expanded="false" signature="26612:34071" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/landing-pages/2020.12.04_landing_grand-prix-2020/trading/trading_grand-prix-2020-FR.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="1134" column="6" lean-forward="true" selection-start-line="942" selection-start-column="0" selection-end-line="1134" selection-end-column="6" />
+        <state relative-caret-position="1152">
+          <caret line="1134" column="6" lean-forward="false" selection-start-line="942" selection-start-column="0" selection-end-line="1134" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
@@ -922,7 +899,7 @@
     </entry>
     <entry file="file://$USER_HOME$/landing-pages/2020.07.15_landing_justforex-world-cup/justforex-world-cup-EN.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
+        <state relative-caret-position="50928">
           <caret line="2122" column="7" lean-forward="false" selection-start-line="2122" selection-start-column="7" selection-end-line="2124" selection-end-column="9" />
           <folding />
         </state>
@@ -932,22 +909,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="914">
           <caret line="752" column="9" lean-forward="true" selection-start-line="752" selection-start-column="9" selection-end-line="752" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/landing-pages/2018.04.18_landing_company/company-EN.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="577" column="37" lean-forward="true" selection-start-line="575" selection-start-column="8" selection-end-line="577" selection-end-column="37" />
+        <state relative-caret-position="13848">
+          <caret line="577" column="37" lean-forward="false" selection-start-line="575" selection-start-column="8" selection-end-line="577" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2019.11.12_FX-15605/js/application-responsive.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="1308" column="5" lean-forward="true" selection-start-line="1306" selection-start-column="2" selection-end-line="1308" selection-end-column="5" />
+        <state relative-caret-position="31104">
+          <caret line="1308" column="5" lean-forward="false" selection-start-line="1306" selection-start-column="2" selection-end-line="1308" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -955,21 +931,26 @@
     <entry file="file://$PROJECT_DIR$/meteors/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/landing-pages/2020.12.04_landing_grand-prix-2020/grand-prix-2020-EN.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="1717" column="11" lean-forward="true" selection-start-line="1713" selection-start-column="10" selection-end-line="1717" selection-end-column="11" />
+        <state relative-caret-position="24">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#5800#6463#2" expanded="true" />
-            <element signature="e#10013#10676#2" expanded="true" />
-            <element signature="e#22700#23363#2" expanded="true" />
             <element signature="n#div#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meteors-right/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-548">
+          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
