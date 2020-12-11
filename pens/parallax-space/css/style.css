@@ -1,0 +1,140 @@
+body {
+  background-color: #1A1720;
+  
+  color: #FFF;
+}
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-primary-block {
+  height: 2000px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/parallax-space/images/astronomy.jpg) no-repeat scroll 50% 0;
+
+  position: relative;
+}
+.ag-primary_parallax__phone,
+.ag-primary_parallax__spaceman {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  -webkit-transition: background 0.3s linear;
+  -moz-transition: background 0.3s linear;
+  -o-transition: background 0.3s linear;
+  transition: background 0.3s linear;
+}
+.ag-primary_parallax__phone {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/parallax-space/images/astronomy-phone.png) no-repeat scroll 83% 250px;
+
+  z-index: 5;
+}
+.ag-primary_parallax__spaceman {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/parallax-space/images/astronomy-spaceman.png) no-repeat scroll 73% 210px;
+
+  z-index: 4;
+}
+
+/* meteors */
+.ag-meteor-block {
+  height: 100%;
+  width: 100%;
+
+  pointer-events: none;
+
+  overflow: hidden;
+
+  top: 0;
+  left: 0;
+}
+.ag-meteor-block,
+.meteor__item {
+  position: absolute;
+}
+.meteor__item-img {
+  width: 600px;
+  height: 600px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/parallax-space/images/meteors-sprite.png);
+  background-size: auto 100%;
+
+  -webkit-animation: an-frame-animation 3s steps(48) infinite;
+  -moz-animation: an-frame-animation 3s steps(48) infinite;
+  -o-animation: an-frame-animation 3s steps(48) infinite;
+  animation: an-frame-animation 3s steps(48) infinite;
+
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+@-webkit-keyframes an-frame-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -28800px 0;
+  }
+}
+
+@-moz-keyframes an-frame-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -28800px 0;
+  }
+}
+
+@-o-keyframes an-frame-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -28800px 0;
+  }
+}
+
+@keyframes an-frame-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -28800px 0;
+  }
+}
+/* /meteors */
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

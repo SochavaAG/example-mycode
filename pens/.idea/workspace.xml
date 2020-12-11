@@ -40,7 +40,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meteors/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
+            <state relative-caret-position="286">
               <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="27" />
               <folding />
             </state>
@@ -70,18 +70,18 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meteors-right/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1128">
-              <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+            <state relative-caret-position="584">
+              <caret line="80" column="7" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="80" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/meteors-right/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-548">
-              <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+            <state relative-caret-position="432">
+              <caret line="18" column="109" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="109" />
               <folding />
             </state>
           </provider>
@@ -176,8 +176,48 @@
       <file leaf-file-name="company-EN.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/landing-pages/2018.04.18_landing_company/company-EN.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13848">
+            <state relative-caret-position="338">
               <caret line="577" column="37" lean-forward="false" selection-start-line="575" selection-start-column="8" selection-end-line="577" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="astronomy-contest-EN.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/landing-pages/2019.04.25_landing_astronomy-contest/astronomy-contest-EN.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-922">
+              <caret line="880" column="6" lean-forward="true" selection-start-line="880" selection-start-column="6" selection-end-line="940" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parallax-space/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parallax-space/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parallax-space/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="144" column="17" lean-forward="false" selection-start-line="144" selection-start-column="17" selection-end-line="144" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -187,7 +227,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.ag-review-slider-control_box</find>
       <find>images/</find>
       <find>L(</find>
       <find>../images/</find>
@@ -217,6 +256,7 @@
       <find>frame-animation</find>
       <find>sca</find>
       <find>js-ag-header__fixed</find>
+      <find>ag-primary_parallax__phone</find>
     </findStrings>
     <replaceStrings>
       <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/astronaut/images/</replace>
@@ -262,9 +302,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/calculation/index.html" />
-        <option value="$PROJECT_DIR$/calculation/css/style.css" />
-        <option value="$PROJECT_DIR$/calculation/js/main.js" />
         <option value="$PROJECT_DIR$/calculator/index.html" />
         <option value="$PROJECT_DIR$/animation-fox/index.html" />
         <option value="$PROJECT_DIR$/animation-fox/css/style.css" />
@@ -313,6 +350,9 @@
         <option value="$USER_HOME$/landing-pages/2020.12.04_landing_grand-prix-2020/trading/trading_grand-prix-2020-FR.html" />
         <option value="$USER_HOME$/vazhno_project-1/2019.11.12_FX-15605/js/application-responsive.js" />
         <option value="$USER_HOME$/landing-pages/2020.12.04_landing_grand-prix-2020/grand-prix-2020-EN.html" />
+        <option value="$PROJECT_DIR$/parallax-space/index.html" />
+        <option value="$PROJECT_DIR$/parallax-space/js/main.js" />
+        <option value="$PROJECT_DIR$/parallax-space/css/style.css" />
       </list>
     </option>
   </component>
@@ -520,12 +560,12 @@
       <workItem from="1599542335002" duration="48000" />
       <workItem from="1607495299497" duration="3705000" />
       <workItem from="1607499757889" duration="16494000" />
-      <workItem from="1607669413025" duration="7000" />
+      <workItem from="1607669413025" duration="1981000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="592750000" />
+    <option name="totallyTimeSpent" value="594724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -570,34 +610,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project-1/2020.08.12_pages_root/root-FA.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2020.08.12_pages_root/root-HI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2020.08.12_pages_root/root-JP.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2020.08.12_pages_root/root-KO.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2020.08.12_pages_root/root-PT.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -818,14 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/meteors/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/meteors/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="755">
@@ -847,14 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/meteors-right/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1128">
-          <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -912,14 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/landing-pages/2018.04.18_landing_company/company-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13848">
-          <caret line="577" column="37" lean-forward="false" selection-start-line="575" selection-start-column="8" selection-end-line="577" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2019.11.12_FX-15605/js/application-responsive.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31104">
@@ -946,10 +934,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/landing-pages/2018.04.18_landing_company/company-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="577" column="37" lean-forward="false" selection-start-line="575" selection-start-column="8" selection-end-line="577" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/landing-pages/2019.04.25_landing_astronomy-contest/astronomy-contest-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-922">
+          <caret line="880" column="6" lean-forward="true" selection-start-line="880" selection-start-column="6" selection-end-line="940" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meteors-right/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="80" column="7" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="80" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meteors/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parallax-space/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parallax-space/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="144" column="17" lean-forward="false" selection-start-line="144" selection-start-column="17" selection-end-line="144" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/meteors-right/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-548">
-          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+        <state relative-caret-position="432">
+          <caret line="18" column="109" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parallax-space/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
           <folding />
         </state>
       </provider>
