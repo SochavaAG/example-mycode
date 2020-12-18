@@ -196,18 +196,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parallax-space/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            <state relative-caret-position="456">
+              <caret line="28" column="6" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="28" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parallax-space/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            <state relative-caret-position="408">
+              <caret line="17" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -216,8 +216,18 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parallax-space/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="144" column="17" lean-forward="false" selection-start-line="144" selection-start-column="17" selection-end-line="144" selection-end-column="17" />
+            <state relative-caret-position="646">
+              <caret line="149" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="150" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pop-up_120-deposit-bonus-2020.12.11_09-47.js" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/vazhno_project-1/2020.12.10_popup/pop-up_120-deposit-bonus-2020.12.11_09-47.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1185">
+              <caret line="244" column="50" lean-forward="false" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -560,12 +570,12 @@
       <workItem from="1599542335002" duration="48000" />
       <workItem from="1607495299497" duration="3705000" />
       <workItem from="1607499757889" duration="16494000" />
-      <workItem from="1607669413025" duration="1981000" />
+      <workItem from="1607669413025" duration="2747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="594724000" />
+    <option name="totallyTimeSpent" value="595490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -610,13 +620,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project-1/2020.08.12_pages_root/root-PT.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2020.08.12_pages_root/root-RU.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -966,22 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parallax-space/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parallax-space/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="144" column="17" lean-forward="false" selection-start-line="144" selection-start-column="17" selection-end-line="144" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/meteors-right/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -992,8 +979,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parallax-space/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state relative-caret-position="408">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parallax-space/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="28" column="6" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="28" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parallax-space/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="149" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="150" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2020.12.10_popup/pop-up_120-deposit-bonus-2020.12.11_09-47.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="244" column="50" lean-forward="false" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="50" />
           <folding />
         </state>
       </provider>
