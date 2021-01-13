@@ -1565,6 +1565,7 @@ body {
 
   .ag-primary-phone_box {
     height: 520px;
+    width: 320px;
     margin: 50px 0 0;
     background-size: 100% auto;
   }
