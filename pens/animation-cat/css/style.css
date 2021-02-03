@@ -1,0 +1,84 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+  color: #000;
+}
+
+.ag-cat-cont {
+  height: 639px;
+  width: 512px;
+  margin: 0 auto;
+
+  position: relative;
+}
+.ag-cat {
+  height: 600px;
+  width: 512px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-cat/images/cat.png) no-repeat 0 0;
+}
+.ag-cat {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-transition: transform .5s .15s ease-in-out;
+  -moz-transition: transform .5s .15s ease-in-out;
+  -o-transition: transform .5s .15s ease-in-out;
+  transition: transform .5s .15s ease-in-out;
+}
+.ag-cat.js-ag-cat-hide .ag-cat-face {
+  opacity: 1;
+}
+.ag-cat-face {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-cat/images/cat.png) no-repeat -156px -603px;
+  width: 242px;
+  height: 178px;
+}
+.ag-cat-face {
+  opacity: 0;
+
+  position: absolute;
+  top: 5px;
+  left: 155px;
+
+  -webkit-transition: opacity .2s ease;
+  -moz-transition: opacity .2s ease;
+  -o-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
