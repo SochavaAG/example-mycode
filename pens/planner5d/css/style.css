@@ -1,3 +1,15 @@
+a {
+  text-decoration: none;
+  color: #6d6d6d;
+}
+a:hover {
+  text-decoration: none;
+  color: #20bd57;
+}
+img {
+  max-width: 100%;
+}
+
 html,
 body {
   height: 100%;

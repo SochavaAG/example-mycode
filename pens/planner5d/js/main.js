@@ -3,12 +3,12 @@
 
 
     var agMenuBtn = $('.js-menu_btn-wrap'),
-          agMenuBox = $('.js-header-menu_box'),
-          agHeader = $('#header'),
-          agBody = $('body');
+      agMenuBox = $('.js-header-menu_box'),
+      agHeader = $('#header'),
+      agBody = $('body');
 
     agMenuBtn.on('click', function () {
-      if(agMenuBtn.children().hasClass('js-ag-menu_btn__show')) {
+      if (agMenuBtn.children().hasClass('js-ag-menu_btn__show')) {
         agMenuClose();
       } else {
         agMenuBox.addClass('js-ag-header-menu_box');
@@ -30,13 +30,11 @@
       if (agSelectBox.css('display') == 'none') {
         agSelectBox.slideDown();
         $(this).addClass('js-ag-select_info-box__show');
-      }else{
+      } else {
         agSelectBox.slideUp();
         $(this).removeClass('js-ag-select_info-box__show');
       }
     });
-
-
 
 
     function agMenuClose() {

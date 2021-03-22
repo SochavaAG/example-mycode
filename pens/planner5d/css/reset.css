@@ -64,14 +64,6 @@ button {
 li {
   list-style: none outside none;
 }
-a {
-  text-decoration: none;
-  color: #6d6d6d;
-}
-a:hover {
-  text-decoration: none;
-  color: #20bd57;
-}
 
 html {
   overflow-y: scroll;
@@ -82,11 +74,6 @@ body {
   font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #444;
-}
-
-
-img {
-  max-width: 100%;
 }
 
 .clearfix:after {
