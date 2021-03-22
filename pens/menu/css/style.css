@@ -654,6 +654,8 @@ a:hover {
   .js-ag-body-noscroll {
     overflow: hidden;
     position: fixed;
+    left: 0;
+    right: 0;
   }
   .js-ag-overlay {
     background-color: rgba(0,0,0,.5);
