@@ -9,7 +9,7 @@ body {
 
 .img-fix- {
   height: 629px;
-  background: url(../docs/example.png) no-repeat scroll 50% 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/planner5d/docs/example.png) no-repeat scroll 50% 0;
 
   opacity: .5;
 
@@ -470,23 +470,6 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-  }
-  .js-ag-body-noscroll .ag-header {
-    /*border: 0;*/
-  }
-
-  .js-ag-body-noscroll .ag-header_box {
-    /*border-bottom: 1px solid #dee5e8;
-    background-color: #F5F7F8;*/
-
-/*    z-index: 9998;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;*/
-  }
-  .js-ag-body-noscroll .ag-page-content {
-    /*padding: 109px 0 0;*/
   }
 
   .ag-page {
