@@ -1,0 +1,45 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+html, body, .body-wrap {
+  height: 100%;
+}
+.body-wrap {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sakura/images/bg.jpg) no-repeat scroll 50% 50% #006316;
+}
+#sakura {
+  height: 100%;
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
