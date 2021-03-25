@@ -50,12 +50,12 @@ viewport.style.MozPerspective = p;
 viewport.style.oPerspective = p;
 
 textures = [
-  { name: 'white cloud', 	file: '/assets/clouds/cloud.png'		, opacity: 1, weight: 0 },
-  { name: 'dark cloud', 	file: '/assets/clouds/darkCloud.png'	, opacity: 1, weight: 0 },
-  { name: 'smoke cloud', 	file: '/assets/clouds/smoke.png'		, opacity: 1, weight: 0 },
-  { name: 'explosion', 	file: '/assets/clouds/explosion.png'	, opacity: 1, weight: 0 },
-  { name: 'explosion 2', 	file: '/assets/clouds/explosion2.png'	, opacity: 1, weight: 0 },
-  { name: 'box', 			file: '/assets/clouds/box.png'			, opacity: 1, weight: 0 }
+  { name: 'white cloud', 	file: 'https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/clouds/images/cloud.png'		, opacity: 1, weight: 0 },
+  { name: 'dark cloud', 	file: 'https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/clouds/images/darkCloud.png'	, opacity: 1, weight: 0 },
+  { name: 'smoke cloud', 	file: 'https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/clouds/images/smoke.png'		, opacity: 1, weight: 0 },
+  { name: 'explosion', 	file: 'https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/clouds/images/explosion.png'	, opacity: 1, weight: 0 },
+  { name: 'explosion 2', 	file: 'https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/clouds/images/explosion2.png'	, opacity: 1, weight: 0 },
+  { name: 'box', 			file: 'https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/clouds/images/box.png'			, opacity: 1, weight: 0 }
 ];
 
 var el = document.getElementById( 'textureList' );
