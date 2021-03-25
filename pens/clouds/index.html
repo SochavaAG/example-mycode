@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Clouds</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<div id="viewport"><div id="world"></div></div>
+<div id="options">
+  <a href="#" id="closeBtn" class="button">X</a>
+  <h1>CSS3D Clouds</h1>
+  <div id="optionsContent">
+    <p>An experiment on creating <span class="nope">volumetric</span>3d-like clouds with CSS3 3D Transforms and a bit of Javascript.</p>
+    <p>Move the <b>mouse to rotate</b>around and <b>mouse wheel to zoom</b>in and out. Hit <b>space to generate</b>a new cloud. Works on <b>Firefox</b>(faster if Nightly), <b>Chrome</b>and <b>Safari</b>.</p>
+    <div class="actions">
+      <a class="button" href="#" id="generateBtn">Generate clouds</a>
+      <a class="button" href="#" id="showTextureControlsBtn">Show texture controls</a>
+      <a class="button" href="#" id="fullscreenBtn">Fullscreen</a>
+    </div>
+    <div id="textureControls">
+      <h2>Texture list</h2>
+      <p>Select one or more textures to create clouds. The more the merrier!</p>
+      <ul id="textureList"></ul>
+    </div>
+    <h2>Presets</h2>
+    <div class="presets">
+      <a href="#" class="left button" id="cloudsPreset">Clouds</a>
+      <a href="#" class="middle button" id="stormPreset">Storm</a>
+      <a href="#" class="middle button" id="boomPreset">Boom</a>
+      <a href="#" class="right button" id="bayPreset">Michael Bay</a>
+    </div>
+    <div style="clear:both; height: 20px; display: block"></div>
+    <h2>Credits</h2>
+    <p>Coded by Jaume Sánchez (<a href="http://twitter.com/thespite" rel="external">@thespite</a>)
+      <br/><br/>Inspired on Mr.doob's <a href="http://mrdoob.com/131/Clouds" rel="external">WebGL clouds</a>and
+      <br/>Mark J. Harris' <a href="http://www.markmark.net/PDFs/RTCloudsForGames_HarrisGDC2002.pdf" rel="external">Real-Time Cloud Rendering for Games</a>.
+      <br/><br/>Fonts Open Sans and Lato are from <a href="http://www.google.com/webfonts" rel="external">Google Web Fonts</a>.
+      <br/>Textures are property of their respective owners.</p>
+  </div>
+</div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
