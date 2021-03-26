@@ -44,7 +44,7 @@ function init() {
 
   geometry = new THREE.Geometry();
 
-  var texture = ImageUtils.loadTexture( 'https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/fly/cloud10.png' );
+  var texture = ImageUtils.loadTexture( 'https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/fly/images/cloud10.png' );
   texture.magFilter = THREE.LinearMipMapLinearFilter;
   texture.minFilter = THREE.LinearMipMapLinearFilter;
 
