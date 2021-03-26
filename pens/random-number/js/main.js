@@ -7,7 +7,7 @@
       s(a, "font-size:" + c + "px; opacity: 1.0;");
       s(a, "color:rgb(" + r(255) + "," + r(255) + "," + r(255) + ");");
       document.body.appendChild(a);
-      a.innerHTML = u();
+      a.innerHTML = agInteger1 = agRandomInteger(1, 499);
       var b = setInterval(function () {
         m(a)
       }, b)
@@ -25,15 +25,11 @@
         s0(a, "position:absolute;left:" + r(800) + "px;top:" + r(400) + "px;");
         s(a, "color:rgb(" + r(255) + "," + r(255) + "," + r(255) + ");");
         s(a, "font-size:" + (14 + r(72)) + "px; opacity:1.0;");
-        a.innerHTML = u();
+
+        a.innerHTML = agInteger1 = agRandomInteger(500, 999);
       }
     }
-    function u() {
-      num = Math.round(1114111 * Math.random());
 
-      var uni = eval('"\\u' + num.toString(16) + '"');
-      return (uni.length > 1) ? u() : uni
-    }
     function r(a) {
       return Math.round(a * Math.random())
     }
