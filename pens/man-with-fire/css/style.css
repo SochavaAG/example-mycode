@@ -1,0 +1,139 @@
+html, body,
+.ag-format-container {
+  height: 100%;
+}
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-fire-man_box {
+  width: 610px;
+
+  position: absolute;
+  bottom: 0;
+}
+.ag-fire-man_box-img {
+  position: relative;
+}
+.ag-fire-man_fire-bg {
+  width: 71.6%;
+
+  right: 3%;
+  top: 0;
+}
+.ag-fire-man_fire,
+.ag-fire-man_fire-bg {
+  position: absolute;
+}
+.ag-fire-man_fire-img {
+  opacity: 0;
+}
+.ag-fire-man_fire-1 {
+  right: 19%;
+  top: 0;
+  width: 63.4%;
+  background: url(../images/fire-1.png) repeat-x 0;
+  -moz-background-size: auto 100%;
+  background-size: auto 100%;
+
+  -webkit-animation: an-fire .65s steps(18) infinite;
+  -moz-animation: an-fire .65s steps(18) infinite;
+  -o-animation: an-fire .65s steps(18) infinite;
+  animation: an-fire .65s steps(18) infinite;
+}
+.ag-fire-man_fire-2 {
+  right: 10%;
+  top: -1%;
+  width: 63.4%;
+  background: url(../images/fire-2.png) repeat-x 0;
+  -moz-background-size: auto 100%;
+  background-size: auto 100%;
+}
+.ag-fire-man_fire-2.anim {
+  -webkit-animation: an-fire .65s steps(18) infinite backwards;
+  -moz-animation: an-fire .65s steps(18) infinite backwards;
+  -o-animation: an-fire .65s steps(18) infinite backwards;
+  animation: an-fire .65s steps(18) infinite backwards;
+}
+.ag-fire-man_fire-3 {
+  right: 1%;
+  top: -1%;
+  width: 53.1%;
+  background: url(../images/fire-3.png) repeat-x 0;
+  -moz-background-size: auto 100%;
+  background-size: auto 100%;
+}
+.ag-fire-man_fire-3.anim {
+  -webkit-animation: an-fire .65s steps(18) infinite backwards;
+  -moz-animation: an-fire .65s steps(18) infinite backwards;
+  -o-animation: an-fire .65s steps(18) infinite backwards;
+  animation: an-fire .65s steps(18) infinite backwards;
+}
+
+@-webkit-keyframes an-fire {
+  0% {
+    background-position: center left 0;
+  }
+  to {
+    background-position: center left 100%;
+  }
+}
+
+@-moz-keyframes an-fire {
+  0% {
+    background-position: center left 0;
+  }
+  to {
+    background-position: center left 100%;
+  }
+}
+
+@-o-keyframes an-fire {
+  0% {
+    background-position: center left 0;
+  }
+  to {
+    background-position: center left 100%;
+  }
+}
+
+@keyframes an-fire {
+  0% {
+    background-position: center left 0;
+  }
+  to {
+    background-position: center left 100%;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

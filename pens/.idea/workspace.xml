@@ -102,18 +102,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-crystal-sprite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="240">
+              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="26" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-crystal-sprite/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="111" column="121" lean-forward="false" selection-start-line="111" selection-start-column="121" selection-end-line="111" selection-end-column="121" />
+            <state relative-caret-position="352">
+              <caret line="109" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -237,7 +237,7 @@
         <entry file="file://$PROJECT_DIR$/fly/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="95" column="48" lean-forward="true" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="48" />
+              <caret line="95" column="48" lean-forward="false" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -267,7 +267,7 @@
         <entry file="file://$PROJECT_DIR$/fly/plugins/RequestAnimationFrame.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+              <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -309,7 +309,7 @@
         <entry file="file://$PROJECT_DIR$/random-symbol/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="33" column="54" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="54" />
+              <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -379,7 +379,7 @@
         <entry file="file://$PROJECT_DIR$/random-number/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+              <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -409,7 +409,7 @@
         <entry file="file://$PROJECT_DIR$/random-letter/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="44" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="11" />
+              <caret line="44" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -419,7 +419,7 @@
         <entry file="file://$USER_HOME$/vazhno_project-1/2021.03.26_FX-22356_news/scheduled-technical-maintenance-march-27-ALL.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -429,7 +429,7 @@
         <entry file="file://$USER_HOME$/landing-pages/2021.03.26_landing_great-7-contest/great-7-contest-EN.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="1401" column="107" lean-forward="true" selection-start-line="1401" selection-start-column="107" selection-end-line="1401" selection-end-column="107" />
+              <caret line="1401" column="107" lean-forward="false" selection-start-line="1401" selection-start-column="107" selection-end-line="1401" selection-end-column="107" />
               <folding>
                 <element signature="n#style#0;n#!!top" expanded="false" />
                 <element signature="e#6001#6664#2" expanded="true" />
@@ -444,7 +444,37 @@
         <entry file="file://$USER_HOME$/landing-pages/2021.03.15_landing_xauusd-contest/xauusd-contest-EN.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="329">
-              <caret line="374" column="3" lean-forward="true" selection-start-line="204" selection-start-column="2" selection-end-line="374" selection-end-column="3" />
+              <caret line="374" column="3" lean-forward="false" selection-start-line="204" selection-start-column="2" selection-end-line="374" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/man-with-fire/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style-16.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example-site-1/play.pokerok12.com/css/style-16.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="35" column="9799" lean-forward="true" selection-start-line="35" selection-start-column="8466" selection-end-line="35" selection-end-column="9799" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/man-with-fire/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -454,9 +484,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>_this</find>
-      <find>index_defineProperties</find>
-      <find>concat</find>
       <find>__webpack_require__</find>
       <find>jquery_default()(</find>
       <find>meteor__item</find>
@@ -484,9 +511,11 @@
       <find>-</find>
       <find>ag-notification</find>
       <find>/uploads/landing/great-7-contest/sprite-icons.png</find>
+      <find>.man</find>
+      <find>promo16/</find>
+      <find>animation: g</find>
     </findStrings>
     <replaceStrings>
-      <replace>an-move-it</replace>
       <replace>50%</replace>
       <replace>0</replace>
       <replace>100%</replace>
@@ -516,6 +545,7 @@
       <replace>&amp;#160;–</replace>
       <replace>great-7-contest</replace>
       <replace>/uploads/landing/xauusd-contest/sprite-icons.png</replace>
+      <replace>animation: an-fire</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -529,8 +559,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rocket/js/banner_rocket-min.js" />
-        <option value="$PROJECT_DIR$/climber/js/banner-climber.min.js" />
         <option value="$PROJECT_DIR$/astronaut/js/banner-astronaut.min.js" />
         <option value="$PROJECT_DIR$/climber/index.html" />
         <option value="$PROJECT_DIR$/astronaut/index.html" />
@@ -580,6 +608,8 @@
         <option value="$USER_HOME$/landing-pages/2021.03.26_landing_great-7-contest/great-7-contest-EN.html" />
         <option value="$PROJECT_DIR$/animation-crystal-sprite/index.html" />
         <option value="$PROJECT_DIR$/animation-crystal-sprite/css/style.css" />
+        <option value="$PROJECT_DIR$/man-with-fire/index.html" />
+        <option value="$PROJECT_DIR$/man-with-fire/css/style.css" />
       </list>
     </option>
   </component>
@@ -788,15 +818,15 @@
       <workItem from="1607495299497" duration="3705000" />
       <workItem from="1607499757889" duration="16494000" />
       <workItem from="1607669413025" duration="2747000" />
-      <workItem from="1616746026614" duration="12072000" />
+      <workItem from="1616746026614" duration="13969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="607562000" />
+    <option name="totallyTimeSpent" value="609459000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="1015" extended-state="7" />
+    <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16023579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -838,27 +868,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/accounts-slider/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="502" column="8" lean-forward="false" selection-start-line="502" selection-start-column="8" selection-end-line="502" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/gulp/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example-site-1/Startup-HTML-Template-master/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accounts-slider/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -1154,7 +1163,7 @@
     <entry file="file://$PROJECT_DIR$/random-number/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1162,7 +1171,7 @@
     <entry file="file://$PROJECT_DIR$/random-symbol/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="33" column="54" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="54" />
+          <caret line="33" column="54" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -1194,7 +1203,7 @@
     <entry file="file://$PROJECT_DIR$/fly/plugins/RequestAnimationFrame.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -1204,7 +1213,7 @@
     <entry file="file://$PROJECT_DIR$/fly/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="95" column="48" lean-forward="true" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="48" />
+          <caret line="95" column="48" lean-forward="false" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -1212,7 +1221,7 @@
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.03.26_FX-22356_news/scheduled-technical-maintenance-march-27-ALL.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1220,7 +1229,7 @@
     <entry file="file://$PROJECT_DIR$/random-letter/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="44" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="11" />
+          <caret line="44" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1228,7 +1237,7 @@
     <entry file="file://$USER_HOME$/landing-pages/2021.03.15_landing_xauusd-contest/xauusd-contest-EN.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
-          <caret line="374" column="3" lean-forward="true" selection-start-line="204" selection-start-column="2" selection-end-line="374" selection-end-column="3" />
+          <caret line="374" column="3" lean-forward="false" selection-start-line="204" selection-start-column="2" selection-end-line="374" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -1236,7 +1245,7 @@
     <entry file="file://$USER_HOME$/landing-pages/2021.03.26_landing_great-7-contest/great-7-contest-EN.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="1401" column="107" lean-forward="true" selection-start-line="1401" selection-start-column="107" selection-end-line="1401" selection-end-column="107" />
+          <caret line="1401" column="107" lean-forward="false" selection-start-line="1401" selection-start-column="107" selection-end-line="1401" selection-end-column="107" />
           <folding>
             <element signature="n#style#0;n#!!top" expanded="false" />
             <element signature="e#6001#6664#2" expanded="true" />
@@ -1246,18 +1255,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-crystal-sprite/index.html">
+    <entry file="file://$PROJECT_DIR$/animation-crystal-sprite/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="352">
+          <caret line="109" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-crystal-sprite/css/style.css">
+    <entry file="file://$PROJECT_DIR$/animation-crystal-sprite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="111" column="121" lean-forward="false" selection-start-line="111" selection-start-column="121" selection-end-line="111" selection-end-column="121" />
+        <state relative-caret-position="240">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="26" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site-1/play.pokerok12.com/css/style-16.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="35" column="9799" lean-forward="true" selection-start-line="35" selection-start-column="8466" selection-end-line="35" selection-end-column="9799" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man-with-fire/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man-with-fire/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding />
         </state>
       </provider>
