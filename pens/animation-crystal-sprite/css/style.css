@@ -109,7 +109,7 @@ body {
 .ag-fire {
   height: 397px;
   width: 397px;
-  background: url(../images//fire.png) repeat-x 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-crystal-sprite/images/fire.png) repeat-x 0;
   -moz-background-size: auto 100%;
   background-size: auto 100%;
 
