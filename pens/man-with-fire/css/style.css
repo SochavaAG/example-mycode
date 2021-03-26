@@ -34,7 +34,7 @@ html, body,
   right: 19%;
   top: 0;
   width: 63.4%;
-  background: url(../images/fire-1.png) repeat-x 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/man-with-fire/images/fire-1.png) repeat-x 0;
   -moz-background-size: auto 100%;
   background-size: auto 100%;
 
@@ -47,7 +47,7 @@ html, body,
   right: 10%;
   top: -1%;
   width: 63.4%;
-  background: url(../images/fire-2.png) repeat-x 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/man-with-fire/images/fire-2.png) repeat-x 0;
   -moz-background-size: auto 100%;
   background-size: auto 100%;
 }
@@ -61,7 +61,7 @@ html, body,
   right: 1%;
   top: -1%;
   width: 53.1%;
-  background: url(../images/fire-3.png) repeat-x 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/man-with-fire/images/fire-3.png) repeat-x 0;
   -moz-background-size: auto 100%;
   background-size: auto 100%;
 }

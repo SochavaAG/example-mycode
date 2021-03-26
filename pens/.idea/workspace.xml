@@ -112,8 +112,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-crystal-sprite/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="109" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+            <state relative-caret-position="400">
+              <caret line="111" column="121" lean-forward="false" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="121" />
               <folding />
             </state>
           </provider>
@@ -450,11 +450,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/man-with-fire/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+            <state relative-caret-position="303">
+              <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -470,11 +470,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/man-with-fire/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="207">
+              <caret line="63" column="110" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="110" />
               <folding />
             </state>
           </provider>
@@ -484,8 +484,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>__webpack_require__</find>
-      <find>jquery_default()(</find>
       <find>meteor__item</find>
       <find>.png)</find>
       <find>;;</find>
@@ -514,9 +512,10 @@
       <find>.man</find>
       <find>promo16/</find>
       <find>animation: g</find>
+      <find>../images/</find>
+      <find>images/</find>
     </findStrings>
     <replaceStrings>
-      <replace>50%</replace>
       <replace>0</replace>
       <replace>100%</replace>
       <replace>0% {</replace>
@@ -546,6 +545,7 @@
       <replace>great-7-contest</replace>
       <replace>/uploads/landing/xauusd-contest/sprite-icons.png</replace>
       <replace>animation: an-fire</replace>
+      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/man-with-fire/images/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -608,8 +608,8 @@
         <option value="$USER_HOME$/landing-pages/2021.03.26_landing_great-7-contest/great-7-contest-EN.html" />
         <option value="$PROJECT_DIR$/animation-crystal-sprite/index.html" />
         <option value="$PROJECT_DIR$/animation-crystal-sprite/css/style.css" />
-        <option value="$PROJECT_DIR$/man-with-fire/index.html" />
         <option value="$PROJECT_DIR$/man-with-fire/css/style.css" />
+        <option value="$PROJECT_DIR$/man-with-fire/index.html" />
       </list>
     </option>
   </component>
@@ -818,12 +818,12 @@
       <workItem from="1607495299497" duration="3705000" />
       <workItem from="1607499757889" duration="16494000" />
       <workItem from="1607669413025" duration="2747000" />
-      <workItem from="1616746026614" duration="13969000" />
+      <workItem from="1616746026614" duration="14054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="609459000" />
+    <option name="totallyTimeSpent" value="609544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -1255,14 +1255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-crystal-sprite/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="109" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-crystal-sprite/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1279,18 +1271,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/man-with-fire/index.html">
+    <entry file="file://$PROJECT_DIR$/animation-crystal-sprite/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        <state relative-caret-position="400">
+          <caret line="111" column="121" lean-forward="false" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="121" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/man-with-fire/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="207">
+          <caret line="63" column="110" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/man-with-fire/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
           <folding />
         </state>
       </provider>
