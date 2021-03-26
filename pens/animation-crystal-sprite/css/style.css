@@ -106,6 +106,29 @@ body {
   }
 }
 
+.ag-fire {
+  height: 397px;
+  width: 397px;
+  background: url(../images//fire.png) repeat-x 0;
+  -moz-background-size: auto 100%;
+  background-size: auto 100%;
+
+  -webkit-animation: an-fire .65s steps(19) infinite backwards;
+  -moz-animation: an-fire .65s steps(19) infinite backwards;
+  -o-animation: an-fire .65s steps(19) infinite backwards;
+  animation: an-fire .65s steps(19) infinite backwards;
+}
+
+@keyframes an-fire {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: -6156px 0;
+  }
+}
+
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
