@@ -1,0 +1,358 @@
+body {
+  background-color: #000;
+}
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+/* blink-lamp */
+.ag-lamps_box {
+  min-height: 379px;
+  width: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-flashing/images/lamps.png) no-repeat scroll 50% 0;
+
+  position: relative;
+}
+.ag-lamps_lamp {
+  height: 7.0625em;
+  width: 7.0625em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-flashing/images/light-yellow.png) no-repeat center / contain;
+
+  opacity: 1;
+
+  position: absolute;
+  top: 0;
+  left: 50%;
+
+  will-change: opacity;
+
+  -webkit-animation: an-blink-lamp 3s 0.2s linear infinite;
+  -moz-animation: an-blink-lamp 3s 0.2s linear infinite;
+  -o-animation: an-blink-lamp 3s 0.2s linear infinite;
+  animation: an-blink-lamp 3s 0.2s linear infinite;
+}
+.ag-lamps_lamp:nth-child(1),
+.ag-lamps_lamp:nth-child(2) {
+  height: 5em;
+  width: 5em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-flashing/images/light-blue.png) no-repeat center / contain;
+}
+.ag-lamps_lamp:nth-child(1) {
+  -webkit-transform: translate(-17.3em, 4.125em);
+  -moz-transform: translate(-17.3em, 4.125em);
+  -o-transform: translate(-17.3em, 4.125em);
+  transform: translate(-17.3em, 4.125em);
+}
+.ag-lamps_lamp:nth-child(2) {
+  -webkit-transform: translate(11.75em, 4em);
+  -moz-transform: translate(11.75em, 4em);
+  -o-transform: translate(11.75em, 4em);
+  transform: translate(11.75em, 4em);
+}
+.ag-lamps_lamp:nth-child(n+3):nth-child(-n+5) {
+  left: 0;
+}
+.ag-lamps_lamp:nth-child(3) {
+  -webkit-transform: translate(19em, 5em);
+  -moz-transform: translate(19em, 5em);
+  -o-transform: translate(19em, 5em);
+  transform: translate(19em, 5em);
+
+  -webkit-animation-duration: 3.2s;
+  -moz-animation-duration: 3.2s;
+  -o-animation-duration: 3.2s;
+  animation-duration: 3.2s;
+}
+.ag-lamps_lamp:nth-child(4) {
+  -webkit-transform: translate(7.875em, 10.74em);
+  -moz-transform: translate(7.875em, 10.74em);
+  -o-transform: translate(7.875em, 10.74em);
+  transform: translate(7.875em, 10.74em);
+
+  -webkit-animation-duration: 3.4s;
+  -moz-animation-duration: 3.4s;
+  -o-animation-duration: 3.4s;
+  animation-duration: 3.4s;
+
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+.ag-lamps_lamp:nth-child(5) {
+  -webkit-transform: translate(13.8em, 19em);
+  -moz-transform: translate(13.8em, 19em);
+  -o-transform: translate(13.8em, 19em);
+  transform: translate(13.8em, 19em);
+
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  animation-duration: 3s;
+}
+.ag-lamps_lamp:nth-child(n+6):nth-child(-n+8) {
+  left: 100%;
+}
+.ag-lamps_lamp:nth-child(6) {
+  -webkit-transform: translate(-24.5em, 7.5em);
+  -moz-transform: translate(-24.5em, 7.5em);
+  -o-transform: translate(-24.5em, 7.5em);
+  transform: translate(-24.5em, 7.5em);
+
+  -webkit-animation-duration: 3.3s;
+  -moz-animation-duration: 3.3s;
+  -o-animation-duration: 3.3s;
+  animation-duration: 3.3s;
+}
+.ag-lamps_lamp:nth-child(7) {
+  -webkit-transform: translate(-15em, 15.5em);
+  -moz-transform: translate(-15em, 15.5em);
+  -o-transform: translate(-15em, 15.5em);
+  transform: translate(-15em, 15.5em);
+
+  -webkit-animation-duration: 3.6s;
+  -moz-animation-duration: 3.6s;
+  -o-animation-duration: 3.6s;
+  animation-duration: 3.6s;
+}
+.ag-lamps_lamp:nth-child(8) {
+  -webkit-transform: translate(-21em, 21em);
+  -moz-transform: translate(-21em, 21em);
+  -o-transform: translate(-21em, 21em);
+  transform: translate(-21em, 21em);
+
+  -webkit-animation-duration: 2.8s;
+  -moz-animation-duration: 2.8s;
+  -o-animation-duration: 2.8s;
+  animation-duration: 2.8s;
+}
+
+@-webkit-keyframes an-blink-lamp {
+  50% {
+    opacity: 0.2;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes an-blink-lamp {
+  50% {
+    opacity: 0.2;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes an-blink-lamp {
+  50% {
+    opacity: 0.2;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes an-blink-lamp {
+  50% {
+    opacity: 0.2;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* /blink-lamp */
+
+/* flashing-lamps v1 */
+.ag-flashing_box {
+  display: inline-block;
+  height: 155px;
+  width: 309px;
+
+  position: relative;
+}
+.ag-flashing_box::before,
+.ag-flashing_box::after {
+  content: "";
+
+  opacity: 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  will-change: opacity;
+}
+.ag-flashing_box::before {
+  content: "";
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-flashing/images/lamps-yellow.png);
+
+  -webkit-animation: an-lamps-yellow 1s 0.2s ease-in-out infinite;
+  -moz-animation: an-lamps-yellow 1s 0.2s ease-in-out infinite;
+  -o-animation: an-lamps-yellow 1s 0.2s ease-in-out infinite;
+  animation: an-lamps-yellow 1s 0.2s ease-in-out infinite;
+}
+.ag-flashing_box::after {
+  content: "";
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-flashing/images/lamps-blue.png);
+
+  opacity: 1;
+
+  -webkit-animation: an-lamps-blue 1s 0.2s ease-in-out infinite;
+  -moz-animation: an-lamps-blue 1s 0.2s ease-in-out infinite;
+  -o-animation: an-lamps-blue 1s 0.2s ease-in-out infinite;
+  animation: an-lamps-blue 1s 0.2s ease-in-out infinite;
+}
+/* /flashing-lamps v1 */
+
+/* flashing-lamps v2 */
+.ag-flashing_box-v2 {
+  display: inline-block;
+  height: 155px;
+  width: 309px;
+
+  position: relative;
+}
+.ag-flashing_box-v2::before,
+.ag-flashing_box-v2::after {
+  content: "";
+  height: 509px;
+  width: 281px;
+
+  opacity: 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  will-change: opacity;
+}
+.ag-flashing_box-v2::before {
+  content: "";
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-flashing/images/lamps-yellow-2.png);
+
+  -webkit-animation: an-lamps-yellow 1s 0.2s ease-in-out infinite;
+  -moz-animation: an-lamps-yellow 1s 0.2s ease-in-out infinite;
+  -o-animation: an-lamps-yellow 1s 0.2s ease-in-out infinite;
+  animation: an-lamps-yellow 1s 0.2s ease-in-out infinite;
+}
+.ag-flashing_box-v2::after {
+  content: "";
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-flashing/images/lamps-blue-2.png);
+
+  opacity: 1;
+
+  -webkit-animation: an-lamps-blue 1s 0.2s ease-in-out infinite;
+  -moz-animation: an-lamps-blue 1s 0.2s ease-in-out infinite;
+  -o-animation: an-lamps-blue 1s 0.2s ease-in-out infinite;
+  animation: an-lamps-blue 1s 0.2s ease-in-out infinite;
+}
+/* /flashing-lamps v2 */
+
+@-webkit-keyframes an-lamps-yellow {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes an-lamps-yellow {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes an-lamps-yellow {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes an-lamps-yellow {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes an-lamps-blue {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes an-lamps-blue {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes an-lamps-blue {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes an-lamps-blue {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
