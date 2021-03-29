@@ -1,0 +1,412 @@
+body {
+  background-color: #000;
+}
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-arrow_box {
+  display: table;
+  margin: 30px auto;
+}
+.ag-arrow_arrow {
+  width: 40px;
+  height: 4px;
+  margin: 0 0 5px;
+
+  position: relative;
+}
+.ag-arrow_left {
+  display: inline-block;
+  margin: 0 0 0 -35px;
+
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.ag-arrow_right {
+  display: inline-block;
+  margin: 0 -35px 0 0;
+
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.ag-arrow_arrow:before,
+.ag-arrow_arrow:after {
+  content: "";
+  height: 100%;
+  width: 50%;
+  background-color: rgba(255, 255, 255, .35);
+
+  position: absolute;
+  top: 0;
+
+  -webkit-animation: an-arrow-lighting-1 1.2s ease-in infinite;
+  -moz-animation: an-arrow-lighting-1 1.2s ease-in infinite;
+  -o-animation: an-arrow-lighting-1 1.2s ease-in infinite;
+  animation: an-arrow-lighting-1 1.2s ease-in infinite;
+}
+.ag-arrow_arrow:before {
+  left: 0;
+
+  -webkit-box-shadow: -.125em 0 .5625em #0c8ca6;
+  -moz-box-shadow: -.125em 0 .5625em #0c8ca6;
+  -o-box-shadow: -.125em 0 .5625em #0c8ca6;
+  box-shadow: -.125em 0 .5625em #0c8ca6;
+
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+.ag-arrow_up:before {
+  -webkit-transform: skewY(145deg);
+  -moz-transform: skewY(145deg);
+  -o-transform: skewY(145deg);
+  transform: skewY(145deg);
+}
+.ag-arrow_left:before {
+  -webkit-transform: skewY(35deg);
+  -moz-transform: skewY(35deg);
+  -o-transform: skewY(35deg);
+  transform: skewY(35deg);
+}
+
+.ag-arrow_right:before {
+  -webkit-transform: skewY(35deg);
+  -moz-transform: skewY(35deg);
+  -o-transform: skewY(35deg);
+  transform: skewY(35deg);
+}
+.ag-arrow_down:before {
+  -webkit-transform: skewY(35deg);
+  -moz-transform: skewY(35deg);
+  -o-transform: skewY(35deg);
+  transform: skewY(35deg);
+}
+.ag-arrow_arrow:after {
+  right: 0;
+
+  -webkit-box-shadow: .125em 0 .5625em #0c8ca6;
+  -moz-box-shadow: .125em 0 .5625em #0c8ca6;
+  -o-box-shadow: .125em 0 .5625em #0c8ca6;
+  box-shadow: .125em 0 .5625em #0c8ca6;
+
+  -webkit-transform-origin: 100% 0;
+  -moz-transform-origin: 100% 0;
+  -o-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+.ag-arrow_up:after {
+  -webkit-transform: skewY(-145deg);
+  -moz-transform: skewY(-145deg);
+  -o-transform: skewY(-145deg);
+  transform: skewY(-145deg);
+}
+.ag-arrow_left:after {
+  -webkit-transform: skewY(-35deg);
+  -moz-transform: skewY(-35deg);
+  -o-transform: skewY(-35deg);
+  transform: skewY(-35deg);
+}
+.ag-arrow_right:after {
+  -webkit-transform: skewY(-35deg);
+  -moz-transform: skewY(-35deg);
+  -o-transform: skewY(-35deg);
+  transform: skewY(-35deg);
+}
+.ag-arrow_down:after {
+  -webkit-transform: skewY(-35deg);
+  -moz-transform: skewY(-35deg);
+  -o-transform: skewY(-35deg);
+  transform: skewY(-35deg);
+}
+.ag-arrow_up-3:before,
+.ag-arrow_up-3:after,
+.ag-arrow_down-1:before,
+.ag-arrow_down-1:after {
+  -webkit-animation-name: an-arrow-lighting-1;
+  -moz-animation-name: an-arrow-lighting-1;
+  -o-animation-name: an-arrow-lighting-1;
+  animation-name: an-arrow-lighting-1;
+}
+
+.ag-arrow_up-2:before,
+.ag-arrow_up-2:after,
+.ag-arrow_left-2:before,
+.ag-arrow_left-2:after,
+.ag-arrow_right-2:before,
+.ag-arrow_right-2:after,
+.ag-arrow_down-2:before,
+.ag-arrow_down-2:after {
+  -webkit-animation-name: an-arrow-lighting-2;
+  -moz-animation-name: an-arrow-lighting-2;
+  -o-animation-name: an-arrow-lighting-2;
+  animation-name: an-arrow-lighting-2;
+}
+.ag-arrow_up-1:before,
+.ag-arrow_up-1:after,
+.ag-arrow_left-1:before,
+.ag-arrow_left-1:after,
+.ag-arrow_right-3:before,
+.ag-arrow_right-3:after,
+.ag-arrow_down-3:before,
+.ag-arrow_down-3:after {
+  -webkit-animation-name: an-arrow-lighting-3;
+  -moz-animation-name: an-arrow-lighting-3;
+  -o-animation-name: an-arrow-lighting-3;
+  animation-name: an-arrow-lighting-3;
+}
+
+@-webkit-keyframes an-arrow-lighting-1 {
+  0%,
+  0% {
+    background-color: rgba(255, 255, 255, .35);
+  }
+  25%,
+  75% {
+    background-color: #FFF;
+  }
+  100% {
+    background-color: rgba(255, 255, 255, .35);
+
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    -o-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@-moz-keyframes an-arrow-lighting-1 {
+  0%,
+  0% {
+    background-color: rgba(255, 255, 255, .35);
+  }
+  25%,
+  75% {
+    background-color: #FFF;
+  }
+  100% {
+    background-color: rgba(255, 255, 255, .35);
+
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    -o-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@-o-keyframes an-arrow-lighting-1 {
+  0%,
+  0% {
+    background-color: rgba(255, 255, 255, .35);
+  }
+  25%,
+  75% {
+    background-color: #FFF;
+  }
+  100% {
+    background-color: rgba(255, 255, 255, .35);
+
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    -o-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes an-arrow-lighting-1 {
+  0%,
+  0% {
+    background-color: rgba(255, 255, 255, .35);
+  }
+  25%,
+  75% {
+    background-color: #FFF;
+  }
+  100% {
+    background-color: rgba(255, 255, 255, .35);
+
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    -o-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+@-webkit-keyframes an-arrow-lighting-2 {
+  0%,
+  25% {
+    background-color: rgba(255, 255, 255, .35);
+  }
+  50%,
+  75% {
+    background-color: #FFF;
+  }
+  100% {
+    background-color: rgba(255, 255, 255, .35);
+
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    -o-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@-moz-keyframes an-arrow-lighting-2 {
+  0%,
+  25% {
+    background-color: rgba(255, 255, 255, .35);
+  }
+  50%,
+  75% {
+    background-color: #FFF;
+  }
+  100% {
+    background-color: rgba(255, 255, 255, .35);
+
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    -o-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@-o-keyframes an-arrow-lighting-2 {
+  0%,
+  25% {
+    background-color: rgba(255, 255, 255, .35);
+  }
+  50%,
+  75% {
+    background-color: #FFF;
+  }
+  100% {
+    background-color: rgba(255, 255, 255, .35);
+
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    -o-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes an-arrow-lighting-2 {
+  0%,
+  25% {
+    background-color: rgba(255, 255, 255, .35);
+  }
+  50%,
+  75% {
+    background-color: #FFF;
+  }
+  100% {
+    background-color: rgba(255, 255, 255, .35);
+
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    -o-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+@-webkit-keyframes an-arrow-lighting-3 {
+  0%,
+  50% {
+    background-color: rgba(255, 255, 255, .35);
+  }
+  75%,
+  75% {
+    background-color: #FFF;
+  }
+  100% {
+    background-color: rgba(255, 255, 255, .35);
+
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    -o-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@-moz-keyframes an-arrow-lighting-3 {
+  0%,
+  50% {
+    background-color: rgba(255, 255, 255, .35);
+  }
+  75%,
+  75% {
+    background-color: #FFF;
+  }
+  100% {
+    background-color: rgba(255, 255, 255, .35);
+
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    -o-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@-o-keyframes an-arrow-lighting-3 {
+  0%,
+  50% {
+    background-color: rgba(255, 255, 255, .35);
+  }
+  75%,
+  75% {
+    background-color: #FFF;
+  }
+  100% {
+    background-color: rgba(255, 255, 255, .35);
+
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    -o-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+@keyframes an-arrow-lighting-3 {
+  0%,
+  50% {
+    background-color: rgba(255, 255, 255, .35);
+  }
+  75%,
+  75% {
+    background-color: #FFF;
+  }
+  100% {
+    background-color: rgba(255, 255, 255, .35);
+
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    -o-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

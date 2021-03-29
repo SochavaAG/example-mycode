@@ -257,7 +257,6 @@ body {
   -o-animation: an-lamps-blue 1s 0.2s ease-in-out infinite;
   animation: an-lamps-blue 1s 0.2s ease-in-out infinite;
 }
-/* /flashing-lamps v2 */
 
 @-webkit-keyframes an-lamps-yellow {
   50% {
@@ -323,6 +322,105 @@ body {
     opacity: 1;
   }
 }
+/* /flashing-lamps v2 */
+
+/* joker blink */
+.ag-joker_box {
+  position: relative;
+}
+.ag-joker_img {
+  opacity: 0;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  -webkit-animation: an-joker-blink 5s ease infinite alternate-reverse;
+  -moz-animation: an-joker-blink 4s ease infinite alternate-reverse;
+  -o-animation: an-joker-blink 4s ease infinite alternate-reverse;
+  animation: an-joker-blink 4s ease infinite alternate-reverse;
+}
+
+
+@-webkit-keyframes an-joker-blink {
+  2%, 4%, 7%, 10%, 30%, 32%, 60%, 63%, 65%, 79%, 82%, 85%, 100% {
+    opacity: 1;
+  }
+  0%, 3%, 5%, 9%, 62%, 64%, 80% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes an-joker-blink {
+  2%, 4%, 7%, 10%, 30%, 32%, 60%, 63%, 65%, 79%, 82%, 85%, 100% {
+    opacity: 1;
+  }
+  0%, 3%, 5%, 9%, 62%, 64%, 80% {
+    opacity: 0;
+  }
+}
+@-o-keyframes an-joker-blink {
+  2%, 4%, 7%, 10%, 30%, 32%, 60%, 63%, 65%, 79%, 82%, 85%, 100% {
+    opacity: 1;
+  }
+  0%, 3%, 5%, 9%, 62%, 64%, 80% {
+    opacity: 0;
+  }
+}
+@keyframes an-joker-blink {
+  2%, 4%, 7%, 10%, 30%, 32%, 60%, 63%, 65%, 79%, 82%, 85%, 100% {
+    opacity: 1;
+  }
+  0%, 3%, 5%, 9%, 62%, 64%, 80% {
+    opacity: 0;
+  }
+}
+
+.ag-joker_img-v2 {
+  opacity: 0;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  -webkit-animation: an-joker-light 5s ease infinite alternate-reverse;
+  -moz-animation: an-joker-light 4s ease infinite alternate-reverse;
+  -o-animation: an-joker-light 4s ease infinite alternate-reverse;
+  animation: an-joker-light 4s ease infinite alternate-reverse;
+}
+
+@-webkit-keyframes an-joker-light {
+  2%, 4%, 7%, 10%, 25%, 33%, 60%, 65%, 70%, 77%, 82%, 85%, 89%, 100% {
+    opacity: 1;
+  }
+  0%, 3%, 5%, 9%, 27%, 36%, 63%, 68%, 80%, 83%, 87% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes an-joker-light {
+  2%, 4%, 7%, 10%, 25%, 33%, 60%, 65%, 70%, 77%, 82%, 85%, 89%, 100% {
+    opacity: 1;
+  }
+  0%, 3%, 5%, 9%, 27%, 36%, 63%, 68%, 80%, 83%, 87% {
+    opacity: 0;
+  }
+}
+@-o-keyframes an-joker-light {
+  2%, 4%, 7%, 10%, 25%, 33%, 60%, 65%, 70%, 77%, 82%, 85%, 89%, 100% {
+    opacity: 1;
+  }
+  0%, 3%, 5%, 9%, 27%, 36%, 63%, 68%, 80%, 83%, 87% {
+    opacity: 0;
+  }
+}
+@keyframes an-joker-light {
+  2%, 4%, 7%, 10%, 25%, 33%, 60%, 65%, 70%, 77%, 82%, 85%, 89%, 100% {
+    opacity: 1;
+  }
+  0%, 3%, 5%, 9%, 27%, 36%, 63%, 68%, 80%, 83%, 87% {
+    opacity: 0;
+  }
+}
+/* /joker blink */
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
