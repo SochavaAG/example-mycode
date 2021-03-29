@@ -4,7 +4,7 @@ html {
 
 body {
   height: 100%;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-robot/images/bg.jpg) no-repeat 50% 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-robot/images/bg.jpg) no-repeat 50% 0 #01010B;
   background-size: cover;
 }
 
@@ -13,6 +13,7 @@ body {
   margin: 0 auto;
 }
 
+/* robot */
 .ag-robot_platform {
   height: 150px;
   width: 260px;
@@ -200,7 +201,70 @@ body {
     transform: translateY(10%);
   }
 }
+/* /robot */
 
+/* planet */
+.star__wrap .star-animate {
+  height: 18.5em;
+  width: 106em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-robot/images/planet.png) no-repeat;
+  background-size: cover;
+
+  z-index: 0;
+  position: absolute;
+  bottom: 9.375em;
+
+  -webkit-animation: an-planet 120s linear 0ms normal none infinite;
+  -moz-animation: an-planet 120s linear 0ms normal none infinite;
+  -o-animation: an-planet 120s linear 0ms normal none infinite;
+  animation: an-planet 120s linear 0ms normal none infinite;
+}
+
+@-webkit-keyframes an-planet {
+  0% {
+    -webkit-transform: translateX(-150%);
+    transform: translateX(-150%);
+  }
+  100% {
+    -webkit-transform: translateX(150%);
+    transform: translateX(150%);
+  }
+}
+@-moz-keyframes an-planet {
+  0% {
+    -moz-transform: translateX(-150%);
+    transform: translateX(-150%);
+  }
+  100% {
+    -moz-transform: translateX(150%);
+    transform: translateX(150%);
+  }
+}
+@-o-keyframes an-planet {
+  0% {
+    -o-transform: translateX(-150%);
+    transform: translateX(-150%);
+  }
+  100% {
+    -o-transform: translateX(150%);
+    transform: translateX(150%);
+  }
+}
+@keyframes an-planet {
+  0% {
+    -webkit-transform: translateX(-150%);
+    -moz-transform: translateX(-150%);
+    -o-transform: translateX(-150%);
+    transform: translateX(-150%);
+  }
+  100% {
+    -webkit-transform: translateX(150%);
+    -moz-transform: translateX(150%);
+    -o-transform: translateX(150%);
+    transform: translateX(150%);
+  }
+}
+/* /planet */
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
