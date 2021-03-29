@@ -3,7 +3,147 @@
   margin: 0 auto;
 }
 
+.ag-woman {
+  display: inline-block;
+  height: 731px;
+  width: 272px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite-super-woman-and-super-man/images/avsc-woman.png);
 
+  position: relative;
+}
+.ag-man {
+  display: inline-block;
+  height: 758px;
+  width: 337px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite-super-woman-and-super-man/images/avsc-man.png);
+
+  position: relative;
+}
+.ag-woman::before,
+.ag-woman::after,
+.ag-man::before,
+.ag-man::after {
+  content: "";
+
+  position: absolute;
+}
+.ag-woman::before,
+.ag-man::before {
+  background: 0 0/1300% 100% no-repeat;
+
+  z-index: -1;
+
+  -webkit-animation: an-steps-sprite 1.5s steps(12, start) infinite;
+  -moz-animation: an-steps-sprite 1.5s steps(12, start) infinite;
+  -o-animation: an-steps-sprite 1.5s steps(12, start) infinite;
+  animation: an-steps-sprite 1.5s steps(12, start) infinite;
+}
+.ag-woman::after,
+.ag-man::after {
+  height: .625em;
+  width: 2.75em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite-super-woman-and-super-man/images/close-eyes-sprite.png) 0 0/100% 200% no-repeat;
+
+  -webkit-animation: an-eyes-close 5s linear infinite;
+  -moz-animation: an-eyes-close 5s linear infinite;
+  -o-animation: an-eyes-close 5s linear infinite;
+  animation: an-eyes-close 5s linear infinite;
+}
+.ag-woman::before {
+  height: 24.5625em;
+  width: 19.1875em;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite-super-woman-and-super-man/images/woman-cloak.png);
+
+  top: 9.375em;
+  left: -7.0625em;
+
+  -webkit-animation-direction: reverse;
+  -moz-animation-direction: reverse;
+  -o-animation-direction: reverse;
+  animation-direction: reverse;
+}
+.ag-woman::after {
+  background-position-y: 100%;
+
+  top: 5.25em;
+  left: 9.4em;
+}
+.ag-man::before {
+  height: 31.1875em;
+  width: 25.125em;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite-super-woman-and-super-man/images/man-cloak.png);
+
+  top: 7.1875em;
+  right: -9.8125em;
+
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+.ag-man::after {
+  top: 3.1em;
+  left: 9.2em;
+
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+@-webkit-keyframes an-steps-sprite {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-moz-keyframes an-steps-sprite {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-o-keyframes an-steps-sprite {
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes an-steps-sprite {
+  to {
+    background-position-x: 100%;
+  }
+}
+
+@-webkit-keyframes an-eyes-close {
+  0%, 14.99%, 17.01%, 100% {
+    opacity: 0;
+  }
+  15%, 17% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes an-eyes-close {
+  0%, 14.99%, 17.01%, 100% {
+    opacity: 0;
+  }
+  15%, 17% {
+    opacity: 1;
+  }
+}
+@-o-keyframes an-eyes-close {
+  0%, 14.99%, 17.01%, 100% {
+    opacity: 0;
+  }
+  15%, 17% {
+    opacity: 1;
+  }
+}
+@keyframes an-eyes-close {
+  0%, 14.99%, 17.01%, 100% {
+    opacity: 0;
+  }
+  15%, 17% {
+    opacity: 1;
+  }
+}
 
 
 @media only screen and (max-width: 767px) {
