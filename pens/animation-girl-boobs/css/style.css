@@ -1,0 +1,280 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #000;
+}
+
+.ag-girl {
+  display: inline-block;
+  height: 33.125em;
+  width: 20.05em;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl-boobs/images/sprite-girl-boobs.png);
+  background-size: auto 33.125em;
+  background-position: 0 0;
+}
+.ag-girl-1 {
+  -webkit-animation: an-girl-1 15s infinite;
+  animation: an-girl-1 15s infinite;
+}
+
+.ag-girl-2 {
+  -webkit-animation: an-girl-2 15s infinite;
+  animation: an-girl-2 15s infinite;
+}
+
+.ag-girl-3 {
+  -webkit-animation: an-girl-3 15s infinite;
+   animation: an-girl-3 15s infinite;
+}
+
+
+@-webkit-keyframes an-girl-1 {
+  0% {
+    background-position: 0 0;
+    -webkit-animation-timing-function: steps(1, end);
+    animation-timing-function: steps(1, end);
+  }
+  20% {
+    background-position: 42.85714% 0;
+    -webkit-animation-timing-function: steps(1, end);
+    animation-timing-function: steps(1, end);
+  }
+  21% {
+    background-position: 71.42857% 0;
+    -webkit-animation-timing-function: steps(1, end);
+    animation-timing-function: steps(1, end);
+  }
+  23% {
+    background-position: 100% 0;
+    -webkit-animation-timing-function: steps(1, end);
+    animation-timing-function: steps(1, end);
+  }
+  24% {
+    background-position: 71.42857% 0;
+    -webkit-animation-timing-function: steps(1, end);
+    animation-timing-function: steps(1, end);
+  }
+  25% {
+    background-position: 100% 0;
+    -webkit-animation-timing-function: steps(1, start);
+    animation-timing-function: steps(1, start);
+  }
+  26% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+@keyframes an-girl-1 {
+  0% {
+    background-position: 0 0;
+    -webkit-animation-timing-function: steps(1, end);
+    animation-timing-function: steps(1, end);
+  }
+  20% {
+    background-position: 42.85714% 0;
+    -webkit-animation-timing-function: steps(1, end);
+    animation-timing-function: steps(1, end);
+  }
+  21% {
+    background-position: 71.42857% 0;
+    -webkit-animation-timing-function: steps(1, end);
+    animation-timing-function: steps(1, end);
+  }
+  23% {
+    background-position: 100% 0;
+    -webkit-animation-timing-function: steps(1, end);
+    animation-timing-function: steps(1, end);
+  }
+  24% {
+    background-position: 71.42857% 0;
+    -webkit-animation-timing-function: steps(1, end);
+    animation-timing-function: steps(1, end);
+  }
+  25% {
+    background-position: 100% 0;
+    -webkit-animation-timing-function: steps(1, start);
+    animation-timing-function: steps(1, start);
+  }
+  26% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@-webkit-keyframes an-girl-2 {
+  0% {
+    background-position:0 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  25% {
+    background-position:57.142857% 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  50% {
+    background-position:57.142857% 0;
+    -webkit-animation-timing-function:steps(1, start);
+    animation-timing-function:steps(1, start)
+  }
+  100% {
+    background-position:0 0
+  }
+}
+@keyframes an-girl-2 {
+  0% {
+    background-position:0 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  25% {
+    background-position:57.142857% 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  50% {
+    background-position:57.142857% 0;
+    -webkit-animation-timing-function:steps(1, start);
+    animation-timing-function:steps(1, start)
+  }
+  100% {
+    background-position:0 0
+  }
+}
+
+@-webkit-keyframes an-girl-3 {
+  0% {
+    background-position:0 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  10% {
+    background-position:57.142857% 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  20% {
+    background-position:14.2857% 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  40% {
+    background-position:85.7143% 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  50% {
+    background-position:28.5714% 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  60% {
+    background-position:85.7143% 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  70% {
+    background-position:28.5714% 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  80% {
+    background-position:85.7143% 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  90% {
+    background-position:28.5714% 0;
+    -webkit-animation-timing-function:steps(1, start);
+    animation-timing-function:steps(1, start)
+  }
+  100% {
+    background-position:0 0
+  }
+}
+@keyframes an-girl-3 {
+  0% {
+    background-position:0 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  10% {
+    background-position:57.142857% 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  20% {
+    background-position:14.2857% 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  40% {
+    background-position:85.7143% 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  50% {
+    background-position:28.5714% 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  60% {
+    background-position:85.7143% 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  70% {
+    background-position:28.5714% 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  80% {
+    background-position:85.7143% 0;
+    -webkit-animation-timing-function:steps(1, end);
+    animation-timing-function:steps(1, end)
+  }
+  90% {
+    background-position:28.5714% 0;
+    -webkit-animation-timing-function:steps(1, start);
+    animation-timing-function:steps(1, start)
+  }
+  100% {
+    background-position:0 0
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
