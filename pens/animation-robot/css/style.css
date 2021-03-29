@@ -1,11 +1,20 @@
-html {
-  height: 100%;
-}
-
+html,
 body {
   height: 100%;
+}
+.ag-space {
+  height: 100%;
+  padding: 500px 0 0;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-robot/images/bg.jpg) no-repeat 50% 0 #01010B;
   background-size: cover;
+
+  overflow: hidden;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  position: relative;
 }
 
 .ag-format-container {
@@ -17,16 +26,18 @@ body {
 .ag-robot_platform {
   height: 150px;
   width: 260px;
-  margin: 500px auto 0;
+  margin: 0 auto;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-robot/images/platform.png) no-repeat 50% 50%;
   background-size: 100% 100%;
+
+  z-index: 100;
   position: relative;
 }
 .ag-robot {
   height: 26.0625em;
   width: 26.25em;
 
-  z-index: 1;
+  z-index: 100;
   position: absolute;
   right: -2.5em;
   bottom: 6.25em;
@@ -42,7 +53,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 102;
   width: 100%;
   height: 100%;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-robot/images/robot.png) no-repeat 100% 100%;
@@ -54,7 +65,7 @@ body {
   position: absolute;
   top: 6.25em;
   left: -.9375em;
-  z-index: 1;
+  z-index: 103;
   width: 9.9375em;
   height: 5.625em;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-robot/images/roboto-hand.png) no-repeat 100% 100%;
@@ -204,13 +215,13 @@ body {
 /* /robot */
 
 /* planet */
-.star__wrap .star-animate {
+.ag-planet {
   height: 18.5em;
   width: 106em;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-robot/images/planet.png) no-repeat;
   background-size: cover;
 
-  z-index: 0;
+  z-index: 1;
   position: absolute;
   bottom: 9.375em;
 
