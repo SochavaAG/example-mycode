@@ -1,14 +1,25 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-robot/images/bg.jpg) no-repeat 50% 0;
+  background-size: cover;
+}
+
 .ag-format-container {
   width: 1142px;
   margin: 0 auto;
 }
 
 .ag-robot_platform {
-  position: relative;
-  width: 18.125em;
-  height: 10.1875em;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-robot/images/platform.png) center no-repeat;
+  height: 150px;
+  width: 260px;
+  margin: 500px auto 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-robot/images/platform.png) no-repeat 50% 50%;
   background-size: 100% 100%;
+  position: relative;
 }
 .ag-robot {
   height: 26.0625em;
@@ -25,7 +36,8 @@
   animation: an-roboto 20s ease-in-out 0ms normal none infinite;
 }
 .ag-robot::after {
-  content: '';
+  content: "";
+
   position: absolute;
   top: 0;
   left: 0;
@@ -36,7 +48,8 @@
   background-size: 70% 100%;
 }
 .ag-robot::before {
-  content: '';
+  content: "";
+
   position: absolute;
   top: 6.25em;
   left: -.9375em;
