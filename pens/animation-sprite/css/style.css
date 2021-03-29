@@ -7,7 +7,13 @@ body {
   margin: 0 auto;
 }
 
+.ag-animation-sprite-block {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/bg.jpg) no-repeat 50% 0 #01010B;
+  background-size: cover;
+}
+
 .ag-meteor {
+  display: inline-block;
   width: 600px;
   height: 600px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/meteor.png) no-repeat 0 0;
@@ -60,6 +66,7 @@ body {
 }
 
 .ag-crystal {
+  display: inline-block;
   width: 130px;
   height: 127px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/crystal.png) no-repeat 0 0;
@@ -107,6 +114,7 @@ body {
 }
 
 .ag-fire {
+  display: inline-block;
   height: 397px;
   width: 397px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/fire.png) repeat-x 0;
@@ -131,6 +139,7 @@ body {
 
 /* fire v2 */
 .ag-fire-v2 {
+  display: inline-block;
   width: 6.66667em;
   height: 10.41667em;
   background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-fire.png);
