@@ -4247,7 +4247,79 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
   -o-box-shadow: 0 0 8px 2px #b9a447;
   box-shadow: 0 0 8px 2px #b9a447;
 }
-/* /button 61 */
+/* /button 62 */
+
+/* button 63 */
+.ag-base_btn-v63 {
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #716b8e 50%, #302f6a);
+
+  -webkit-border-radius: 0.3125em;
+  -moz-border-radius: 0.3125em;
+  border-radius: 0.3125em;
+
+  -webkit-box-shadow: 0 1px 0.1875em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 0.1875em rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 1px 0.1875em rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0.1875em rgba(0, 0, 0, 0.5);
+
+  transition: background-position 0.3s;
+  will-change: background-position;
+}
+.ag-base_btn-v63:hover {
+  background-position: left top;
+}
+/* /button 63 */
+
+/* button 64 */
+.ag-base_btn-v64 {
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #62a4cb 50%, #337499);
+
+  -webkit-border-radius: 0.3125em;
+  -moz-border-radius: 0.3125em;
+  border-radius: 0.3125em;
+
+  -webkit-box-shadow: 0 1px 0.1875em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 0.1875em rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 1px 0.1875em rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0.1875em rgba(0, 0, 0, 0.5);
+
+  transition: background-position 0.3s;
+  will-change: background-position;
+}
+.ag-base_btn-v64:hover {
+  background-position: left top;
+}
+/* /button 64 */
+
+/* button 65 */
+.ag-base_btn-v65 {
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #5a8f00 50%, #334d00);
+
+  -webkit-border-radius: 0.3125em;
+  -moz-border-radius: 0.3125em;
+  border-radius: 0.3125em;
+
+  -webkit-box-shadow: 0 1px 0.15em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 0.15em rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 1px 0.15em rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 0.15em rgba(0, 0, 0, 0.5);
+
+  transition: background-position 0.3s;
+  will-change: background-position;
+}
+.ag-base_btn-v65:hover {
+  background-position: left top;
+}
+/* /button 65 */
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
