@@ -4418,11 +4418,81 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 /* /button 67 */
 
 /* button 68 */
+.ag-base_btn-v68-wrap {
+  overflow: hidden;
+}
 .ag-base_btn-v68 {
+  background-image: linear-gradient(to bottom, #f9a400 0%, #ff7d00 46%, #b35b08 96%);
 
+  position: relative;
 }
 .ag-base_btn-v68:hover {
+  background: linear-gradient(to bottom, #b35b08 0%, #ff7d00 46%, #f9a400 96%);
 
+  -webkit-transition: background .5s;
+  -moz-transition: background .5s;
+  -o-transition: background .5s;
+  transition: background .5s;
+}
+.ag-base_btn-v68:before {
+  content: "";
+  height: 100%;
+  width: 323px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-68.png);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-animation: an-glare 4s linear infinite;
+  -moz-animation: an-glare 4s linear infinite;
+  -o-animation: an-glare 4s linear infinite;
+  animation: an-glare 4s linear infinite;
+}
+
+@-webkit-keyframes an-glare {
+  0% {
+    left: -350px;
+  }
+  30% {
+    left: 250px;
+  }
+  100% {
+    left: 250px;
+  }
+}
+@-moz-keyframes an-glare {
+  0% {
+    left: -350px;
+  }
+  30% {
+    left: 250px;
+  }
+  100% {
+    left: 250px;
+  }
+}
+@-o-keyframes an-glare {
+  0% {
+    left: -350px;
+  }
+  30% {
+    left: 250px;
+  }
+  100% {
+    left: 250px;
+  }
+}
+@keyframes an-glare {
+  0% {
+    left: -350px;
+  }
+  30% {
+    left: 250px;
+  }
+  100% {
+    left: 250px;
+  }
 }
 /* /button 68 */
 
