@@ -129,6 +129,45 @@ body {
   }
 }
 
+/* fire v2 */
+.ag-fire-v2 {
+  width: 6.66667em;
+  height: 10.41667em;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-fire.png);
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  background-size: 3200% 100%;
+
+  -webkit-animation: an-fire-v2 steps(31, start) 1s infinite;
+  -moz-animation: an-fire-v2 steps(31, start) 1s infinite;
+  -o-animation: an-fire-v2 steps(31, start) 1s infinite;
+  animation: an-fire-v2 steps(31, start) 1s infinite;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+@-webkit-keyframes an-fire-v2 {
+  100% {
+    background-position:100% 50%;
+  }
+}
+@-moz-keyframes an-fire-v2 {
+  100% {
+    background-position:100% 50%;
+  }
+}
+@-o-keyframes an-fire-v2 {
+  100% {
+    background-position:100% 50%;
+  }
+}
+@keyframes an-fire-v2 {
+  100% {
+    background-position:100% 50%;
+  }
+}
+/* /fire v2 */
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
