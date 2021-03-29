@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Animation sprite super woman</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    .avsc__woman::before,
+    .avsc__woman::after,
+    .avsc__man::before,
+    .avsc__man::after {
+      content: "";
+      position: absolute;
+    }
+    .avsc__woman::before,
+    .avsc__man::before {
+      z-index: -1;
+      background: 0 0/1300% 100% no-repeat;
+
+      -webkit-animation: steps-sprite 1.5s steps(12, start) infinite;
+      animation: steps-sprite 1.5s steps(12, start) infinite;
+    }
+    .avsc__woman::after,
+    .avsc__man::after {
+      width: 2.75em;
+      height: .625em;
+      background: url(images/close-eyes-sprite.png) 0 0/100% 200% no-repeat;
+
+      -webkit-animation: eyes-close 5s linear infinite;
+      animation: eyes-close 5s linear infinite;
+    }
+    .avsc__woman {
+      bottom: -.25em;
+      left: 18.125em;
+      width: 17em;
+      height: 45.6875em;
+      background-image: url(images/avsc-woman.png);
+    }
+    .avsc__woman::before {
+      top: 9.375em;
+      left: -7.0625em;
+      width: 19.1875em;
+      height: 24.5625em;
+      background-image: url(images/woman-cloak.png);
+
+      animation-direction: reverse;
+    }
+    .avsc__woman::after {
+      top: 4.625em;
+      left: 8em;
+      background-position-y: 100%;
+    }
+    .avsc__man {
+      right: 8.875em;
+      bottom: -.25em;
+      width: 21.0625em;
+      height: 47.375em;
+      background-image: url(images/avsc-man.png);
+    }
+    .avsc__man::before {
+      top: 7.1875em;
+      right: -9.8125em;
+      width: 25.125em;
+      height: 31.1875em;
+      background-image: url(images/man-cloak.png);
+
+      -webkit-animation-delay: 0.2s;
+      animation-delay: 0.2s;
+    }
+    .avsc__man::after {
+      top: 2.6875em;
+      left: 7.9375em;
+      -webkit-animation-delay: 0.5s;
+      animation-delay: 0.5s;
+    }
+
+    @-webkit-keyframes steps-sprite {
+      to {
+        background-position-x: 100%;
+      }
+    }
+    @-moz-keyframes steps-sprite {
+      to {
+        background-position-x: 100%;
+      }
+    }
+    @-o-keyframes steps-sprite {
+      to {
+        background-position-x: 100%;
+      }
+    }
+    @keyframes steps-sprite {
+      to {
+        background-position-x: 100%;
+      }
+    }
+
+    @-webkit-keyframes eyes-close {
+      0%, 14.99%, 17.01%, 100% {
+        opacity: 0;
+      }
+      15%, 17% {
+        opacity: 1;
+      }
+    }
+    @-moz-keyframes eyes-close {
+      0%, 14.99%, 17.01%, 100% {
+        opacity: 0;
+      }
+      15%, 17% {
+        opacity: 1;
+      }
+    }
+    @-o-keyframes eyes-close {
+      0%, 14.99%, 17.01%, 100% {
+        opacity: 0;
+      }
+      15%, 17% {
+        opacity: 1;
+      }
+    }
+    @keyframes eyes-close {
+      0%, 14.99%, 17.01%, 100% {
+        opacity: 0;
+      }
+      15%, 17% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ag-format-container">
+    <div class="avsc__elem avsc__woman"></div>
+    <div class="avsc__elem avsc__man"></div>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
