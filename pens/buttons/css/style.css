@@ -4365,6 +4365,58 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 }
 /* /button 66 */
 
+/* button 67 */
+.ag-base_btn-v67-wrap {
+  padding: 4px;
+  background: linear-gradient(to bottom, #e1bf75, #ab7e1c);
+  background-position-x: 0;
+  background-position-y: 0;
+  background-size: 100% 120%;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  -webkit-box-shadow: 0 0 0 0 #dfc19b,inset 0 0.1em 0.05em rgba(255,255,255,0.2),inset 0 -0.1em 0.05em rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 0 0 0 #dfc19b,inset 0 0.1em 0.05em rgba(255,255,255,0.2),inset 0 -0.1em 0.05em rgba(0,0,0,0.2);
+  -o-box-shadow: 0 0 0 0 #dfc19b,inset 0 0.1em 0.05em rgba(255,255,255,0.2),inset 0 -0.1em 0.05em rgba(0,0,0,0.2);
+  box-shadow: 0 0 0 0 #dfc19b,inset 0 0.1em 0.05em rgba(255,255,255,0.2),inset 0 -0.1em 0.05em rgba(0,0,0,0.2);
+
+  will-change: background-position, box-shadow;
+
+  -webkit-transition: background-position 0.3s, -webkit-box-shadow 0.3s;
+  -moz-transition: background-position 0.3s, -moz-box-shadow 0.3s;
+  -o-transition: background-position 0.3s, -o-box-shadow 0.3s;
+  transition: background-position 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s, -moz-box-shadow 0.3s, -o-box-shadow 0.3s;
+}
+.ag-base_btn-v67 {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px;
+  background-color: #eac653;
+  background-image: radial-gradient(at 25% 0, rgba(255,255,255,0.4), transparent 20%),radial-gradient(at 25% 100%, rgba(0,0,0,0.3), transparent 20%);
+  background-size: 200% 100%;
+
+  color: #333;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  will-change: background-color;
+
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+.ag-base_btn-v67:hover {
+  background-color: #eed172;
+}
+/* /button 67 */
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;

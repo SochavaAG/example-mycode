@@ -173,6 +173,116 @@ body {
 }
 /* /fire v2 */
 
+/* electricity */
+.sw-slots {
+  position: relative;
+}
+.sw-slots:before,
+.sw-slots:after {
+  content:'';
+  position:absolute;
+  z-index:1;
+  left:-12%;
+  top:4%;
+  width:90px;
+  height:65px;
+  background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-electricity.png);
+  background-size:1700% auto
+}
+.sw-slots:before {
+  -webkit-animation:current 10s steps(16) infinite;
+  animation:current 10s steps(16) infinite;
+}
+.sw-slots:after {
+  -webkit-animation:electricity 11s steps(16) infinite;
+  animation:electricity 11s steps(16) infinite;
+}
+@-webkit-keyframes electricity {
+  0% {
+    background-position:0 0;
+    -webkit-transform:translate(0%, 590%);
+    transform:translate(0%, 590%)
+  }
+  28% {
+    background-position:100% 0;
+    -webkit-transform:translate(0%, 590%);
+    transform:translate(0%, 590%)
+  }
+  28.1% {
+    background-position:0 0;
+    -webkit-transform:translate(0%, 790%);
+    transform:translate(0%, 790%)
+  }
+  55% {
+    background-position:100% 0;
+    -webkit-transform:translate(0%, 790%);
+    transform:translate(0%, 790%)
+  }
+  55.1% {
+    background-position:0 0;
+    -webkit-transform:translate(0%, 220%);
+    transform:translate(0%, 220%)
+  }
+  80% {
+    background-position:100% 0;
+    -webkit-transform:translate(0%, 220%);
+    transform:translate(0%, 220%)
+  }
+  80.1% {
+    background-position:0 0;
+    -webkit-transform:translate(0%, 0%);
+    transform:translate(0%, 0%)
+  }
+  100% {
+    background-position:100% 0;
+    -webkit-transform:translate(0%, 0%);
+    transform:translate(0%, 0%)
+  }
+}
+@keyframes electricity {
+  0% {
+    background-position:0 0;
+    -webkit-transform:translate(0%, 590%);
+    transform:translate(0%, 590%)
+  }
+  28% {
+    background-position:100% 0;
+    -webkit-transform:translate(0%, 590%);
+    transform:translate(0%, 590%)
+  }
+  28.1% {
+    background-position:0 0;
+    -webkit-transform:translate(0%, 790%);
+    transform:translate(0%, 790%)
+  }
+  55% {
+    background-position:100% 0;
+    -webkit-transform:translate(0%, 790%);
+    transform:translate(0%, 790%)
+  }
+  55.1% {
+    background-position:0 0;
+    -webkit-transform:translate(0%, 220%);
+    transform:translate(0%, 220%)
+  }
+  80% {
+    background-position:100% 0;
+    -webkit-transform:translate(0%, 220%);
+    transform:translate(0%, 220%)
+  }
+  80.1% {
+    background-position:0 0;
+    -webkit-transform:translate(0%, 0%);
+    transform:translate(0%, 0%)
+  }
+  100% {
+    background-position:100% 0;
+    -webkit-transform:translate(0%, 0%);
+    transform:translate(0%, 0%)
+  }
+}
+/* /electricity */
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;
