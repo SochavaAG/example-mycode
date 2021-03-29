@@ -4223,6 +4223,32 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 }
 /* /button 61 */
 
+/* button 62 */
+.ag-base_btn-v62 {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #aa8656 #be9a63 #b9a447;
+  background-color: #090302;
+
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+
+  -webkit-box-shadow: 0 0 3px 1px transparent;
+  -moz-box-shadow: 0 0 3px 1px transparent;
+  -o-box-shadow: 0 0 3px 1px transparent;
+  box-shadow: 0 0 3px 1px transparent;
+
+  transition: box-shadow 0.3s;
+}
+.ag-base_btn-v62:hover {
+  -webkit-box-shadow: 0 0 8px 4px #b9a447;
+  -moz-box-shadow: 0 0 8px 4px #b9a447;
+  -o-box-shadow: 0 0 8px 2px #b9a447;
+  box-shadow: 0 0 8px 2px #b9a447;
+}
+/* /button 61 */
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;
