@@ -1,15 +1,10 @@
 body {
-  background-color: #0d4646;
+  background:#01010B;
 }
 
 .ag-format-container {
   width: 1142px;
   margin: 0 auto;
-}
-
-.ag-animation-sprite-block {
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/bg.jpg) no-repeat 50% 0 #01010B;
-  background-size: cover;
 }
 
 .ag-meteor {
