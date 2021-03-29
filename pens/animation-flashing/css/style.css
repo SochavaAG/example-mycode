@@ -170,6 +170,76 @@ body {
 }
 /* /blink-lamp */
 
+/* bjs-lamp */
+.ag-bjs-lamp {
+  display: table;
+  height: 319px;
+  width: 631px;
+  margin: 0 auto;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-flashing/images/bjs-lamps.png);
+
+  -webkit-transform: translate(-6.5625em, -4.375em);
+  -moz-transform: translate(-6.5625em, -4.375em);
+  -o-transform: translate(-6.5625em, -4.375em);
+  transform: translate(-6.5625em, -4.375em);
+
+  position: relative;
+}
+.ag-bjs-lamp:nth-child(2) {
+  -webkit-transform: scale(-1, 1) translate(-3.125em, -4.375em);
+  -moz-transform: scale(-1, 1) translate(-3.125em, -4.375em);
+  -o-transform: scale(-1, 1) translate(-3.125em, -4.375em);
+  transform: scale(-1, 1) translate(-3.125em, -4.375em);
+}
+.ag-bjs-lamp::before {
+  content: "";
+  height: 319px;
+  width: 631px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-flashing/images/bjs-lamps.png);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-animation: an-blink-lamps 3s 0.2s ease-in-out infinite;
+  -moz-animation: an-blink-lamps 3s 0.2s ease-in-out infinite;
+  -o-animation: an-blink-lamps 3s 0.2s ease-in-out infinite;
+  animation: an-blink-lamps 3s 0.2s ease-in-out infinite;
+}
+@-webkit-keyframes an-blink-lamps {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes an-blink-lamps {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes an-blink-lamps {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes an-blink-lamps {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* /bjs-lamp */
+
 /* flashing-lamps v1 */
 .ag-flashing_box {
   display: inline-block;
