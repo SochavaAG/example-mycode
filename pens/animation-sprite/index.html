@@ -33,6 +33,117 @@
 
     <div class="ag-electricity"></div>
 
+    <style>
+      .ag-blink {
+        display: inline-block;
+        height: 12.25em;
+        width: 11.75em;
+
+        will-change: background-position;
+
+        position: relative;
+      }
+      .ag-blink::after {
+        content: "";
+        display: block;
+        height: 12.25em;
+        width: 11.75em;
+        background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-blink.png);
+        -webkit-background-size: auto 300%;
+        -moz-background-size: auto 300%;
+        -o-background-size: auto 300%;
+        background-size: auto 300%;
+
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        -webkit-transform: translate3d(0);
+        -moz-transform: translate3d(0);
+        transform: translate3d(0);
+
+        -webkit-animation: blinkTeams 5s steps(7) infinite forwards;
+        -moz-animation: blinkTeams 5s steps(7) infinite forwards;
+        -o-animation: blinkTeams 5s steps(7) infinite forwards;
+        animation: blinkTeams 5s steps(7) infinite forwards;
+
+        will-change: background-position;
+      }
+      .ag-blink-anim::after {
+        content: none;
+      }
+      .ag-blink-rome {
+        background-position: 0 0;
+      }
+      .ag-blink-rome::after {
+        background-position: 0 -24.5em;
+
+        -webkit-animation-delay: 3s;
+        -moz-animation-delay: 3s;
+        -o-animation-delay: 3s;
+        animation-delay: 3s;
+      }
+      .ag-blink-anglo {
+        background-position: -11.75em 0;
+      }
+      .ag-blink-anglo::after {
+        background-position: 0 0;
+
+        -webkit-animation-delay: 4s;
+        -moz-animation-delay: 4s;
+        -o-animation-delay: 4s;
+        animation-delay: 4s;
+      }
+      .ag-blink-viking {
+        background-position: -23.5em 0;
+      }
+      .ag-blink-viking::after {
+        left: .25em;
+        background-position: 0 -12.25em;
+        -webkit-animation-delay: 5s;
+        -moz-animation-delay: 5s;
+        -o-animation-delay: 5s;
+        animation-delay: 5s;
+      }
+
+      @-webkit-keyframes blinkTeams {
+        0% {
+          background-position-x: 0;
+        }
+        10%, 100% {
+          background-position-x: right;
+        }
+      }
+      @-moz-keyframes blinkTeams {
+        0% {
+          background-position-x: 0;
+        }
+        10%, 100% {
+          background-position-x: right;
+        }
+      }
+      @-o-keyframes blinkTeams {
+        0% {
+          background-position-x: 0;
+        }
+        10%, 100% {
+          background-position-x: right;
+        }
+      }
+      @keyframes blinkTeams {
+        0% {
+          background-position-x: 0;
+        }
+        10%, 100% {
+          background-position-x: right;
+        }
+      }
+    </style>
+
+    <div class="ag-blink ag-blink-rome"></div>
+    <div class="ag-blink ag-blink-anglo"></div>
+    <div class="ag-blink ag-blink-viking"></div>
   </div>
 </div>
 
