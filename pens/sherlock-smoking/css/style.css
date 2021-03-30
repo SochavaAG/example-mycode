@@ -3,7 +3,38 @@
   margin: 0 auto;
 }
 
+.ag-sherlock-block {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sherlock-smoking/images/city.jpg) no-repeat scroll 50% 0 #000;
+  background-size: cover;
+}
+.ag-sherlock {
+  height: 73.375em;
+  width: 45.8125em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sherlock-smoking/images/sherlock.png) no-repeat scroll 0 0;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
 
+  z-index: 5;
+  position: relative;
+}
+.ag-sherlock_smoke {
+  display: block;
+  height: 21.25em;
+  width: 16.875em;
+
+  opacity: 1;
+
+  position: absolute;
+  top: -7.9375em;
+  right: -5.8125em;
+
+  -webkit-transition: opacity 2.4s linear;
+  -moz-transition: opacity 2.4s linear;
+  -o-transition: opacity 2.4s linear;
+  transition: opacity 2.4s linear;
+}
 
 
 @media only screen and (max-width: 767px) {
