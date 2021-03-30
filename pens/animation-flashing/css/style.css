@@ -240,6 +240,164 @@ body {
 }
 /* /bjs-lamp */
 
+/* light */
+.ag-lights_list {
+  height: 400px;
+
+  position: relative;
+}
+.ag-light_item {
+  height: 2.55em;
+  width: 2.55em;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-flashing/images/light.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+
+  opacity: .3;
+
+  position: absolute;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+
+  will-change: opacity;
+}
+.ag-light_item:nth-of-type(1) {
+  left: 0;
+  top: 0;
+}
+.ag-light_item:nth-of-type(2) {
+  left: 1em;
+  top: 4.5em;
+}
+.ag-light_item:nth-of-type(3) {
+  left: 1.5em;
+  top: 10em;
+}
+.ag-light_item:nth-of-type(4) {
+  left: .8em;
+  top: 13.6em;
+}
+.ag-light_item:nth-of-type(5) {
+  left: .9em;
+  top: 20.5em;
+}
+.ag-light_item:nth-of-type(6) {
+  left: .6em;
+  top: 24.8em;
+}
+.ag-light_item:nth-of-type(7) {
+  right: 0;
+  top: 1.1em;
+}
+.ag-light_item:nth-of-type(8) {
+  right: -.5em;
+  top: 5.1em;
+}
+.ag-light_item:nth-of-type(9) {
+  right: -.5em;
+  top: 8.8em;
+}
+.ag-light_item:nth-of-type(10) {
+  right: .2em;
+  top: 13.7em;
+}
+.ag-light_item:nth-of-type(11) {
+  right: .5em;
+  top: 17.9em;
+}
+.ag-light_item:nth-of-type(12) {
+  right: 0;
+  top: 21.5em;
+}
+.ag-light_item:nth-of-type(13) {
+  right: -.5em;
+  top: 24.5em;
+}
+.ag-light_item:nth-of-type(14) {
+  right: -.6em;
+  top: 26.5em;
+}
+.ag-light_item:nth-of-type(3n-2) {
+  -webkit-animation: an-lighting 3s linear infinite;
+  -moz-animation: an-lighting 3s linear infinite;
+  -o-animation: an-lighting 3s linear infinite;
+  animation: an-lighting 3s linear infinite;
+}
+.ag-light_item:nth-of-type(3n-1) {
+  -webkit-animation: an-lighting 3s linear 1s infinite;
+  -moz-animation: an-lighting 3s linear 1s infinite;
+  -o-animation: an-lighting 3s linear 1s infinite;
+  animation: an-lighting 3s linear 1s infinite;
+}
+.ag-light_item:nth-of-type(3n) {
+  -webkit-animation: an-lighting 3s linear 2s infinite;
+  -moz-animation: an-lighting 3s linear 2s infinite;
+  -o-animation: an-lighting 3s linear 2s infinite;
+  animation: an-lighting 3s linear 2s infinite;
+}
+
+@-webkit-keyframes an-lighting {
+  0% {
+    opacity: .5;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .5;
+  }
+}
+@-moz-keyframes an-lighting {
+  0% {
+    opacity: .5;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .5;
+  }
+}
+@-o-keyframes an-lighting {
+  0% {
+    opacity: .5;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .5;
+  }
+}
+@keyframes an-lighting {
+  0% {
+    opacity: .5;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .5;
+  }
+}
+/* /light */
+
 /* flashing-lamps v1 */
 .ag-flashing_box {
   display: inline-block;
