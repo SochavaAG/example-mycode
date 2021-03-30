@@ -16,53 +16,10 @@
 
   <link rel="stylesheet" href="../../_common/css/reset.css" />
   <link rel="stylesheet" href="css/style.css" />
-
-  <style>
-    .nyslots *,
-    .nyslots :before,
-    .nyslots :after {
-      box-sizing:border-box
-    }
-    @media (max-width: 1366px) {
-      .nyslots {
-        font-size:13.66px;
-        background-position:100% 50%
-      }
-    }
-    .nyslots:before {
-      content:"";
-      position:absolute;
-      left:0;
-      top:0;
-      width:100%;
-      height:100%;
-      background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-snow-img/images/snow.png),url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-snow-img/images/snow2.png),url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-snow-img/images/snow3.png);
-      image-rendering:-webkit-optimize-contrast;
-      image-rendering:crisp-edges;
-      background-repeat:repeat;
-      will-change:background-position;
-      -webkit-animation:snowfall 20s linear infinite;
-      animation:snowfall 20s linear infinite
-    }
-    @-webkit-keyframes snowfall {
-      100% {
-        background-position:500px 1000px, 300px 300px, -400px 400px
-      }
-    }
-    @keyframes snowfall {
-      100% {
-        background-position:500px 1000px, 300px 300px, -400px 400px
-      }
-    }
-  </style>
 </head>
 
 <body>
-  <div class="ag-format-container">
-    <div class="nyslots">
-
-    </div>
-  </div>
+<div class="ag-snow"></div>
 
 <!--[if lt IE 9]>
 <script src="libs/IE/html5shiv/es5-shim.min.js"></script>
