@@ -1,0 +1,54 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-gradient_text {
+  background: rgba(46,130,20,1);
+  background: -moz-linear-gradient(top, rgba(46,130,20,1) 0%, rgba(80,233,35,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(46,130,20,1)), color-stop(100%, rgba(80,233,35,1)));
+  background: -webkit-linear-gradient(top, rgba(46,130,20,1) 0%, rgba(80,233,35,1) 100%);
+  background: -o-linear-gradient(top, rgba(46,130,20,1) 0%, rgba(80,233,35,1) 100%);
+  background: -ms-linear-gradient(top, rgba(46,130,20,1) 0%, rgba(80,233,35,1) 100%);
+  background: linear-gradient(to bottom, rgba(46,130,20,1) 0%, rgba(80,233,35,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e8214', endColorstr='#50e923', GradientType=0 );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-rendering: optimizeLegibility;
+
+  font-weight: 600;
+  font-size: 100px;
+  color: #2d8214;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
