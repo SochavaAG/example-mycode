@@ -4496,6 +4496,112 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 }
 /* /button 68 */
 
+/* button 69 */
+.ag-base_btn-v69-wrap {
+  overflow: hidden;
+}
+.ag-base_btn-v69 {
+  background: rgba(46,130,20,1);
+  background: -moz-linear-gradient(left, rgba(46,130,20,1) 0%, rgba(80,233,35,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(46,130,20,1)), color-stop(100%, rgba(80,233,35,1)));
+  background: -webkit-linear-gradient(left, rgba(46,130,20,1) 0%, rgba(80,233,35,1) 100%);
+  background: -o-linear-gradient(left, rgba(46,130,20,1) 0%, rgba(80,233,35,1) 100%);
+  background: -ms-linear-gradient(left, rgba(46,130,20,1) 0%, rgba(80,233,35,1) 100%);
+  background: linear-gradient(to right, rgba(46,130,20,1) 0%, rgba(80,233,35,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e8214', endColorstr='#50e923', GradientType=1 );
+
+  overflow: hidden;
+
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, .3);
+  -moz-box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, .3);
+  -o-box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, .3);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, .3);
+
+  z-index: 1;
+  position: relative;
+}
+.ag-base_btn-v69:hover {
+
+}
+.ag-base_btn-v69:before {
+  content: "";
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-69.png) no-repeat 0 0;
+  background-size: auto 100%;
+
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+
+  -webkit-transition: right .3s linear;
+  -moz-transition: right .3s linear;
+  -o-transition: right .3s linear;
+  transition: right .3s linear;
+
+  -webkit-animation: an-blik 3s linear infinite;
+  -moz-animation: an-blik 3s linear infinite forwards;
+  -o-animation: an-blik 3s linear infinite forwards;
+  animation: an-blik 3s linear infinite forwards;
+}
+
+@-webkit-keyframes an-blik {
+  100% {
+    -webkit-transform: translateX(700%);
+    transform: translateX(700%);
+  }
+}
+@-moz-keyframes an-blik {
+  50% {
+    -moz-transform: translateX(700%);
+    transform: translateX(700%);
+  }
+}
+@-o-keyframes an-blik {
+  100% {
+    -o-transform: translateX(700%);
+    transform: translateX(700%);
+  }
+}
+@keyframes an-blik {
+  100% {
+    -webkit-transform: translateX(700%);
+    -moz-transform: translateX(700%);
+    -o-transform: translateX(700%);
+    transform: translateX(700%);
+  }
+}
+/* /button 69 */
+
+/* button 70 */
+.ag-base_btn-v70-wrap {
+  overflow: hidden;
+}
+.ag-base_btn-v70 {
+
+}
+.ag-base_btn-v70:hover {
+
+}
+.ag-base_btn-v70:before {
+
+}
+/* /button 70 */
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;
