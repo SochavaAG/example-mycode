@@ -4,6 +4,145 @@
 }
 
 
+body {
+  background-color: #007ff2;
+}
+
+.ag-lottery-wheel_box {
+  width: 300px;
+  margin: 50px auto;
+
+  position: relative;
+}
+.ag-lottery-wheel_img {
+  width: 100%;
+}
+.ag-lottery-wheel {
+  position: relative;
+}
+.ag-lottery-wheel_numbers {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-animation: an-rotate-wheel 45s linear infinite;
+  -moz-animation: an-rotate-wheel 45s linear infinite;
+  -o-animation: an-rotate-wheel 45s linear infinite;
+  animation: an-rotate-wheel 45s linear infinite;
+}
+.ag-lottery-wheel_el {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-animation: an-rotate-wheel 65s linear infinite;
+  -moz-animation: an-rotate-wheel 65s linear infinite;
+  -o-animation: an-rotate-wheel 65s linear infinite;
+  animation: an-rotate-wheel 65s linear infinite;
+}
+.ag-lottery-wheel_lights:after {
+  content: "";
+  height: 206px;
+  width: 206px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/lottery-wheel/images/light.png) 0 0 no-repeat;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+
+  opacity: 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-transform: translate(37%, -47%);
+  -moz-transform: translate(37%, -47%);
+  -ms-transform: translate(37%, -47%);
+  -o-transform: translate(37%, -47%);
+  transform: translate(37%, -47%);
+
+  -webkit-animation: an-opacity-light 5s linear infinite;
+  -moz-animation: an-opacity-light 5s linear infinite;
+  -o-animation: an-opacity-light 5s linear infinite;
+  animation: an-opacity-light 5s linear infinite;
+}
+.ag-lottery-wheel_lights:after {
+  width: 100px;
+  height: 100px;
+
+  -webkit-transform: translate(37%, -31%);
+  -moz-transform: translate(37%, -31%);
+  -ms-transform: translate(37%, -31%);
+  -o-transform: translate(37%, -31%);
+  transform: translate(37%, -31%);
+}
+
+@-webkit-keyframes an-rotate-wheel {
+  100% {
+    -webkit-transform:  rotate(360deg);
+    transform:  rotate(360deg);
+  }
+}
+
+@-moz-keyframes an-rotate-wheel {
+  100% {
+    -moz-transform:  rotate(360deg);
+    transform:  rotate(360deg);
+  }
+}
+
+@-o-keyframes an-rotate-wheel {
+  100% {
+    -o-transform:  rotate(360deg);
+    transform:  rotate(360deg);
+  }
+}
+
+@keyframes an-rotate-wheel {
+  100% {
+    -webkit-transform:  rotate(360deg);
+    -moz-transform:  rotate(360deg);
+    -o-transform:  rotate(360deg);
+    transform:  rotate(360deg);
+  }
+}
+
+@-webkit-keyframes an-opacity-light {
+  5% {
+    opacity: 1;
+  }
+  0%,10%,100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes an-opacity-light {
+  5% {
+    opacity: 1;
+  }
+  0%,10%,100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes an-opacity-light {
+  5% {
+    opacity: 1;
+  }
+  0%,10%,100% {
+    opacity: 0;
+  }
+}
+
+@keyframes an-opacity-light {
+  5% {
+    opacity: 1;
+  }
+  0%,10%,100% {
+    opacity: 0;
+  }
+}
 
 
 @media only screen and (max-width: 767px) {

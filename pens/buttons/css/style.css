@@ -4533,14 +4533,32 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
   position: relative;
 }
 .ag-base_btn-v69:hover {
-  background: rgba(80,233,35,1);
+  /*background: rgba(80,233,35,1);
   background: -moz-linear-gradient(left, rgba(80,233,35,1) 0%, rgba(46,130,20,1) 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(80,233,35,1)), color-stop(100%, rgba(46,130,20,1)));
   background: -webkit-linear-gradient(left, rgba(80,233,35,1) 0%, rgba(46,130,20,1) 100%);
   background: -o-linear-gradient(left, rgba(80,233,35,1) 0%, rgba(46,130,20,1) 100%);
   background: -ms-linear-gradient(left, rgba(80,233,35,1) 0%, rgba(46,130,20,1) 100%);
   background: linear-gradient(to right, rgba(80,233,35,1) 0%, rgba(46,130,20,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50e923', endColorstr='#2e8214', GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50e923', endColorstr='#2e8214', GradientType=1 );*/
+
+  background: rgba(139,229,11,0);
+  background: -moz-linear-gradient(top, rgba(139,229,11,0) 0%, rgba(138,229,11,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(139,229,11,0)), color-stop(100%, rgba(138,229,11,1)));
+  background: -webkit-linear-gradient(top, rgba(139,229,11,0) 0%, rgba(138,229,11,1) 100%);
+  background: -o-linear-gradient(top, rgba(139,229,11,0) 0%, rgba(138,229,11,1) 100%);
+  background: -ms-linear-gradient(top, rgba(139,229,11,0) 0%, rgba(138,229,11,1) 100%);
+  background: linear-gradient(to bottom, rgba(139,229,11,0) 0%, rgba(138,229,11,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8be50b', endColorstr='#8ae50b', GradientType=0 );
+
+  background: rgba(80,233,35,1);
+  background: -moz-linear-gradient(top, rgba(80,233,35,1) 0%, rgba(46,130,20,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(80,233,35,1)), color-stop(100%, rgba(46,130,20,1)));
+  background: -webkit-linear-gradient(top, rgba(80,233,35,1) 0%, rgba(46,130,20,1) 100%);
+  background: -o-linear-gradient(top, rgba(80,233,35,1) 0%, rgba(46,130,20,1) 100%);
+  background: -ms-linear-gradient(top, rgba(80,233,35,1) 0%, rgba(46,130,20,1) 100%);
+  background: linear-gradient(to bottom, rgba(80,233,35,1) 0%, rgba(46,130,20,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50e923', endColorstr='#2e8214', GradientType=0 );
 }
 .ag-base_btn-v69:before {
   content: "";
@@ -4606,15 +4624,107 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 /* button 70 */
 .ag-base_btn-v70-wrap {
   overflow: hidden;
+
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+
+  -webkit-box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, .3);
+  -moz-box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, .3);
+  -o-box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, .3);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, .3);
 }
 .ag-base_btn-v70 {
+  background: rgba(80,233,35,1);
+  background: -moz-linear-gradient(left, rgba(80,233,35,1) 0%, rgba(46,130,20,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(80,233,35,1)), color-stop(100%, rgba(46,130,20,1)));
+  background: -webkit-linear-gradient(left, rgba(80,233,35,1) 0%, rgba(46,130,20,1) 100%);
+  background: -o-linear-gradient(left, rgba(80,233,35,1) 0%, rgba(46,130,20,1) 100%);
+  background: -ms-linear-gradient(left, rgba(80,233,35,1) 0%, rgba(46,130,20,1) 100%);
+  background: linear-gradient(to right, rgba(80,233,35,1) 0%, rgba(46,130,20,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50e923', endColorstr='#2e8214', GradientType=1 );
 
+  overflow: hidden;
+
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  z-index: 1;
+  position: relative;
 }
 .ag-base_btn-v70:hover {
-
+  background: rgba(139,229,11,0);
+  background: -moz-linear-gradient(top, rgba(139,229,11,0) 0%, rgba(138,229,11,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(139,229,11,0)), color-stop(100%, rgba(138,229,11,1)));
+  background: -webkit-linear-gradient(top, rgba(139,229,11,0) 0%, rgba(138,229,11,1) 100%);
+  background: -o-linear-gradient(top, rgba(139,229,11,0) 0%, rgba(138,229,11,1) 100%);
+  background: -ms-linear-gradient(top, rgba(139,229,11,0) 0%, rgba(138,229,11,1) 100%);
+  background: linear-gradient(to bottom, rgba(139,229,11,0) 0%, rgba(138,229,11,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8be50b', endColorstr='#8ae50b', GradientType=0 );
 }
 .ag-base_btn-v70:before {
+  content: "";
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-69.png) no-repeat 0 0;
+  background-size: auto 100%;
 
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+
+  -webkit-transition: right .3s linear;
+  -moz-transition: right .3s linear;
+  -o-transition: right .3s linear;
+  transition: right .3s linear;
+
+  -webkit-animation: an-blik 3s linear infinite;
+  -moz-animation: an-blik 3s linear infinite forwards;
+  -o-animation: an-blik 3s linear infinite forwards;
+  animation: an-blik 3s linear infinite forwards;
+}
+.ag-base_btn-v70:hover:before {
+  -webkit-animation: none;
+  -o-animation: none;
+  animation: none;
+}
+
+@-webkit-keyframes an-blik {
+  100% {
+    -webkit-transform: translateX(700%);
+    transform: translateX(700%);
+  }
+}
+@-moz-keyframes an-blik {
+  50% {
+    -moz-transform: translateX(700%);
+    transform: translateX(700%);
+  }
+}
+@-o-keyframes an-blik {
+  100% {
+    -o-transform: translateX(700%);
+    transform: translateX(700%);
+  }
+}
+@keyframes an-blik {
+  100% {
+    -webkit-transform: translateX(700%);
+    -moz-transform: translateX(700%);
+    -o-transform: translateX(700%);
+    transform: translateX(700%);
+  }
 }
 /* /button 70 */
 

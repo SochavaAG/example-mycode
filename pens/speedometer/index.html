@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Speedometer</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .for1-dashboard__rudder {
+    position:relative;
+    width:34.25em;
+    height:14.1875em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/speedometer/images/speedometer.png) 100% 100% no-repeat;
+    background-size:100% 100%
+  }
+  .for1-dashboard__rudder::after {
+    content:'';
+    position:absolute;
+    top:61%;
+    left:42%;
+    width:6.25em;
+    height:.1875em;
+    box-shadow:inset 0 0 .0625em .0625em red,0 0 .3125em .125em red;
+    background:#fff;
+    -webkit-transform:translate(-50%, -50%) rotate(-55deg);
+    /*! transform:translate(-50%, -50%) rotate(-55deg); *//*! -webkit-transform-origin:100% 0; */transform-origin:100% 0;
+    -webkit-animation:speed-arrow 30s ease-in-out infinite;
+    animation:speed-arrow 30s ease-in-out infinite
+  }
+  @-webkit-keyframes speed-arrow {
+    0% {
+      -webkit-transform:translate(-50%, -50%) rotate(-55deg);
+      transform:translate(-50%, -50%) rotate(-55deg)
+    }
+    10% {
+      -webkit-transform:translate(-50%, -50%) rotate(-25deg);
+      transform:translate(-50%, -50%) rotate(-25deg)
+    }
+    20% {
+      -webkit-transform:translate(-50%, -50%) rotate(22deg);
+      transform:translate(-50%, -50%) rotate(22deg)
+    }
+    30% {
+      -webkit-transform:translate(-50%, -50%) rotate(0deg);
+      transform:translate(-50%, -50%) rotate(0deg)
+    }
+    40% {
+      -webkit-transform:translate(-50%, -50%) rotate(70deg);
+      transform:translate(-50%, -50%) rotate(70deg)
+    }
+    50% {
+      -webkit-transform:translate(-50%, -50%) rotate(60deg);
+      transform:translate(-50%, -50%) rotate(60deg)
+    }
+    60% {
+      -webkit-transform:translate(-50%, -50%) rotate(120deg);
+      transform:translate(-50%, -50%) rotate(120deg)
+    }
+    60% {
+      -webkit-transform:translate(-50%, -50%) rotate(110deg);
+      transform:translate(-50%, -50%) rotate(110deg)
+    }
+    70% {
+      -webkit-transform:translate(-50%, -50%) rotate(180deg);
+      transform:translate(-50%, -50%) rotate(180deg)
+    }
+    80% {
+      -webkit-transform:translate(-50%, -50%) rotate(210deg);
+      transform:translate(-50%, -50%) rotate(210deg)
+    }
+  }
+  @keyframes speed-arrow {
+    0% {
+      -webkit-transform:translate(-50%, -50%) rotate(-55deg);
+      transform:translate(-50%, -50%) rotate(-55deg)
+    }
+    10% {
+      -webkit-transform:translate(-50%, -50%) rotate(-25deg);
+      transform:translate(-50%, -50%) rotate(-25deg)
+    }
+    20% {
+      -webkit-transform:translate(-50%, -50%) rotate(22deg);
+      transform:translate(-50%, -50%) rotate(22deg)
+    }
+    30% {
+      -webkit-transform:translate(-50%, -50%) rotate(0deg);
+      transform:translate(-50%, -50%) rotate(0deg)
+    }
+    40% {
+      -webkit-transform:translate(-50%, -50%) rotate(70deg);
+      transform:translate(-50%, -50%) rotate(70deg)
+    }
+    50% {
+      -webkit-transform:translate(-50%, -50%) rotate(60deg);
+      transform:translate(-50%, -50%) rotate(60deg)
+    }
+    60% {
+      -webkit-transform:translate(-50%, -50%) rotate(120deg);
+      transform:translate(-50%, -50%) rotate(120deg)
+    }
+    60% {
+      -webkit-transform:translate(-50%, -50%) rotate(110deg);
+      transform:translate(-50%, -50%) rotate(110deg)
+    }
+    70% {
+      -webkit-transform:translate(-50%, -50%) rotate(180deg);
+      transform:translate(-50%, -50%) rotate(180deg)
+    }
+    80% {
+      -webkit-transform:translate(-50%, -50%) rotate(210deg);
+      transform:translate(-50%, -50%) rotate(210deg)
+    }
+  }
+</style>
+
+  <div class="ag-format-container">
+    <div class="for1-dashboard__rudder"></div>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
