@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Sherlock smoking</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    .SoSh-Sh-Wa {
+      position:absolute;
+      top:1.125em;
+      left:50%;
+      z-index:5;
+      width:45.8125em;
+      height:73.375em;
+      margin-left:-38.5em;
+      background-image:url("/default/img/games/sherlock/Sh-Wa.png");
+      background-repeat:no-repeat;
+      background-size:100% 100%
+    }
+    .SoSh-smoke {
+      opacity:1;
+      display:block;
+      position:absolute;
+      top:-7.9375em;
+      right:-5.8125em;
+      width:16.875em;
+      height:21.25em;
+      transition:opacity 2.4s linear
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ag-format-container">
+    <div class="SoSh-Sh-Wa mounted">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 270 340" class="SoSh-smoke mounted">
+        <mask id="smokeBlick1" x="0" y="0" width="100%" height="100%">
+          <image xlink:href="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sherlock-smoking/images/smoke-1.png" width="168" height="238" x="58" y="92"></image>
+        </mask>
+        <mask id="smokeBlick2" x="0" y="0" width="100%" height="100%">
+          <image xlink:href="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sherlock-smoking/images/smoke-3.png" width="124" height="246" x="69" y="79"></image>
+        </mask>
+        <image id="blickSmoke1" mask="url(#smokeBlick1)" xlink:href="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sherlock-smoking/images/smoke-2.png" width="143" height="397" x="83" y="112.564" style="opacity: 0.5;">
+          <animate attributeName="y" attributeType="XML" from="332" to="-280" dur="12s" begin="0s" repeatCount="indefinite"></animate>
+        </image>
+        <image id="blickSmoke2" mask="url(#smokeBlick2)" xlink:href="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sherlock-smoking/images/smoke-4.png" width="169" height="287" x="69" y="19.2447" style="opacity: 0.5;">
+          <animate attributeName="y" attributeType="XML" from="305" to="-180" dur="9s" begin="5s" repeatCount="indefinite"></animate>
+        </image>
+      </svg>
+    </div>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
