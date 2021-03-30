@@ -4,6 +4,253 @@
 }
 
 
+body {
+  background-color: #2a2a2a;
+}
+.ag-smoke {
+  height: 50em;
+  width: 60.625em;
+  margin: 50px auto;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-smoke/images/bg.png) 100% 100% no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+
+  position: relative;
+}
+.ag-smoke::after {
+  content: "";
+  height: 6.375em;
+  width: 16.375em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-smoke/images/smoke-left.png) 100% 100% no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+
+  position: absolute;
+  top: 0;
+  left: -18%;
+
+  -webkit-transition: all 0.5s;
+
+  -o-transition: all 0.5s;
+
+  -moz-transition: all 0.5s;
+
+  transition: all 0.5s;
+
+  -webkit-animation: an-smoke-left 3s ease infinite;
+  -moz-animation: an-smoke-left 3s ease infinite;
+  -o-animation: an-smoke-left 3s ease infinite;
+  animation: an-smoke-left 3s ease infinite;
+}
+.ag-smoke::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -18%;
+  width: 16.375em;
+  height: 6.375em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-smoke/images/smoke-right.png) 100% 100% no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-animation: an-smoke-right 3s ease infinite;
+  -moz-animation: an-smoke-right 3s ease infinite;
+  -o-animation: an-smoke-right 3s ease infinite;
+  animation: an-smoke-right 3s ease infinite;
+}
+@-webkit-keyframes an-smoke-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2%);
+    transform: translateX(2%);
+  }
+  25% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-5%);
+    transform: translateX(-5%);
+  }
+}
+@-moz-keyframes an-smoke-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2%);
+    -moz-transform: translateX(2%);
+    transform: translateX(2%);
+  }
+  25% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-5%);
+    -moz-transform: translateX(-5%);
+    transform: translateX(-5%);
+  }
+}
+@-o-keyframes an-smoke-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2%);
+    -o-transform: translateX(2%);
+    transform: translateX(2%);
+  }
+  25% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-5%);
+    -o-transform: translateX(-5%);
+    transform: translateX(-5%);
+  }
+}
+@keyframes an-smoke-left {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2%);
+    -moz-transform: translateX(2%);
+    -o-transform: translateX(2%);
+    transform: translateX(2%);
+  }
+  25% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(-5%);
+    -moz-transform: translateX(-5%);
+    -o-transform: translateX(-5%);
+    transform: translateX(-5%);
+  }
+}
+@-webkit-keyframes an-smoke-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2%);
+    transform: translateX(-2%);
+  }
+  25% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(5%);
+    transform: translateX(5%);
+  }
+}
+@-moz-keyframes an-smoke-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2%);
+    -moz-transform: translateX(-2%);
+    transform: translateX(-2%);
+  }
+  25% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(5%);
+    -moz-transform: translateX(5%);
+    transform: translateX(5%);
+  }
+}
+@-o-keyframes an-smoke-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2%);
+    -o-transform: translateX(-2%);
+    transform: translateX(-2%);
+  }
+  25% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(5%);
+    -o-transform: translateX(5%);
+    transform: translateX(5%);
+  }
+}
+@keyframes an-smoke-right {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2%);
+    -moz-transform: translateX(-2%);
+    -o-transform: translateX(-2%);
+    transform: translateX(-2%);
+  }
+  25% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateX(5%);
+    -moz-transform: translateX(5%);
+    -o-transform: translateX(5%);
+    transform: translateX(5%);
+  }
+}
 
 
 @media only screen and (max-width: 767px) {
