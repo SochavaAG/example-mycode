@@ -4783,6 +4783,85 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 }
 /* /button 72 */
 
+/* button 73 */
+.ag-base_btn-v73 {
+  display: block;
+  height: 50px;
+  padding: 0;
+  background: #ffa800;
+  background: -moz-linear-gradient(top,  #ffa800 0, #fb7d09 100%);
+  background: -webkit-linear-gradient(top,  #ffa800 0,#fb7d09 100%);
+  background: linear-gradient(to bottom,  #ffa800 0,#fb7d09 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa800', endColorstr='#fb7d09',GradientType=0 );
+
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+
+  position: relative;
+}
+.ag-base_btn-v73:hover {
+  background: #fb7d09;
+  background: -moz-linear-gradient(top,  #fb7d09 0%, #ffa800 100%);
+  background: -webkit-linear-gradient(top,  #fb7d09 0%,#ffa800 100%);
+  background: linear-gradient(to bottom,  #fb7d09 0%,#ffa800 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb7d09', endColorstr='#ffa800',GradientType=0 );
+
+}
+
+.ag-base_text-btn-v73 {
+  color: #000;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.svg-base_btn-v73 {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+}
+
+.svg-base_btn-v73_path {
+  stroke-dasharray: 590, 50;
+
+  -webkit-animation: an-dash 10s forwards infinite linear;
+  -moz-animation: an-dash 10s forwards infinite linear;
+  -o-animation: an-dash 10s forwards infinite linear;
+  animation: an-dash 10s forwards infinite linear;
+}
+
+@-webkit-keyframes an-dash {
+  to {
+    stroke-dashoffset: 640;
+  }
+}
+@-moz-keyframes an-dash {
+  to {
+    stroke-dashoffset: 640;
+  }
+}
+@-o-keyframes an-dash {
+  to {
+    stroke-dashoffset: 640;
+  }
+}
+@keyframes an-dash {
+  to {
+    stroke-dashoffset: 640;
+  }
+}
+/* /button 73 */
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;
