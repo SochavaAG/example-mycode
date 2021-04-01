@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+.ag-ball-block {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/spin-ball/images/bg.jpg) no-repeat scroll 50% 0;
+  background-size: cover;
+ }
 
 .ag-ball {
   height: 159px;
