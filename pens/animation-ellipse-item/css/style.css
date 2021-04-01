@@ -3,7 +3,493 @@
   margin: 0 auto;
 }
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 100 version
+*/
 
+html, body {
+  height: 100%;
+}
+
+.ag-ellipse-step-block {
+  height: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-ellipse-item/images/bg.jpg) no-repeat scroll 50% 0;
+  background-size: cover;
+}
+.ag-ellipse-step_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  -moz-box-align: start;
+  align-items: flex-start;
+
+  counter-reset: list;
+
+  padding: 95px 0 0;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ag-ellipse-step_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  -webkit-align-items: flex-start;
+  -moz-box-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  justify-content: center;
+  width: 32%;
+  min-height: 300px;
+  padding: 20px;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  z-index: 1;
+  position: relative;
+}
+.ag-ellipse-step_item + .ag-ellipse-step_item {
+  margin-left: 40px;
+}
+.ag-ellipse-step_item-1 {
+  width: 363px;
+  padding: 108px 38px 174px 90px;
+
+  text-align: right;
+}
+.ag-ellipse-step_item-2 {
+  width: 356px;
+  padding: 80px 30px 146px 126px;
+}
+.ag-ellipse-step_item-3 {
+  width: 380px;
+  padding: 179px 82px 51px 74px;
+}
+.ag-ellipse-step_item:before {
+  content: "";
+  min-height: 310px;
+  width: 348px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-ellipse-item/images/step-1.png) no-repeat scroll 50% 0;
+  background-size: 100% 100%;
+
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 40px;
+  bottom: -75px;
+}
+.ag-ellipse-step_item-2:before {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-ellipse-item/images/step-2.png);
+
+  top: 12px;
+  bottom: -90px;
+}
+.ag-ellipse-step_item-3:before {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-ellipse-item/images/step-3.png);
+
+  bottom: -130px;
+}
+.ag-ellipse-step_info {
+  position: relative;
+  max-width: 100%;
+  line-height: 1;
+}
+.ag-ellipse-step_title {
+  padding: 0 0 5px;
+
+  font-weight: bold;
+  font-size: 26px;
+  color: #111;
+}
+.ag-ellipse-step_text {
+  font-weight: bold;
+  font-size: 20px;
+  color: #111;
+}
+
+.ag-ellipse-step_img-wrap {
+  position: absolute;
+}
+.ag-ellipse-step_item-1 .ag-ellipse-step_img-wrap {
+  top: 100%;
+  right: 100%;
+
+  -webkit-transform: translate(44%,-12%);
+  -ms-transform: translate(44%,-12%);
+  -moz-transform: translate(44%,-12%);
+  -o-transform: translate(44%,-12%);
+  transform: translate(44%,-12%);
+}
+.ag-ellipse-step_item-2 .ag-ellipse-step_img-wrap {
+  top: 100%;
+  right: 100%;
+
+  -webkit-transform: translate(19%,-25%);
+  -ms-transform: translate(19%,-25%);
+  -moz-transform: translate(19%,-25%);
+  -o-transform: translate(19%,-25%);
+  transform: translate(19%,-25%);
+}
+.ag-ellipse-step_item-3 .ag-ellipse-step_img-wrap {
+  left: 0;
+  bottom: 100%;
+
+  -webkit-transform: translate(-47%,7%);
+  -ms-transform: translate(-47%,7%);
+  -moz-transform: translate(-47%,7%);
+  -o-transform: translate(-47%,7%);
+  transform: translate(-47%,7%);
+}
+.ag-ellipse-step_img {
+  display: inline-block;
+}
+.ag-ellipse-step_img-1 {
+  height: 221px;
+  width: 188px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-ellipse-item/images/premier-league.png);
+}
+.ag-ellipse-step_img-2 {
+  height: 224px;
+  width: 134px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-ellipse-item/images/champions-league.png);
+}
+.ag-ellipse-step_img-3 {
+  height: 192px;
+  width: 202px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-ellipse-item/images/bundesleague.png);
+}
+.ag-ellipse_list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.ag-ellipse_item {
+  position: absolute;
+
+  -webkit-border-radius: 100%;
+
+  -moz-border-radius: 100%;
+
+  border-radius: 100%;
+
+  -webkit-box-shadow: 0 20px 50px 0 rgba(0,0,0,.5);
+  -moz-box-shadow: 0 20px 50px 0 rgba(0,0,0,.5);
+  box-shadow: 0 20px 50px 0 rgba(0,0,0,.5);
+
+  will-change: transform;
+}
+.ag-ellipse_item__gradient {
+  background: rgb(5,118,230);
+  background: -moz-linear-gradient(left,  rgba(5,118,230,1) 0%, rgba(26,188,156,1) 100%);
+  background: -webkit-linear-gradient(left,  rgba(5,118,230,1) 0%,rgba(26,188,156,1) 100%);
+  background: -webkit-gradient(linear,  left top, right top,  from(rgba(5,118,230,1)),to(rgba(26,188,156,1)));
+  background: -moz-linear-gradient(left,  rgba(5,118,230,1) 0%,rgba(26,188,156,1) 100%);
+  background: -o-linear-gradient(left,  rgba(5,118,230,1) 0%,rgba(26,188,156,1) 100%);
+  background: linear-gradient(to right,  rgba(5,118,230,1) 0%,rgba(26,188,156,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0576e6', endColorstr='#1abc9c',GradientType=1 );
+}
+.ag-ellipse_item__white {
+  background: #FFF;
+}
+.ag-ellipse_item__big {
+  height: 69px;
+  width: 69px;
+}
+.ag-ellipse_item__small {
+  height: 26px;
+  width: 26px;
+}
+.ag-ellipse_item__medium {
+  height: 37px;
+  width: 37px;
+}
+
+@-webkit-keyframes ellipseAnimRightTop {
+  100% {
+    -webkit-transform: translate(50%,8%);
+    transform: translate(50%,8%);
+  }
+}
+@-moz-keyframes ellipseAnimRightTop {
+  100% {
+    -webkit-transform: translate(50%,8%);
+    -moz-transform: translate(50%,8%);
+    transform: translate(50%,8%);
+  }
+}
+@-o-keyframes ellipseAnimRightTop {
+  100% {
+    -webkit-transform: translate(50%,8%);
+    -o-transform: translate(50%,8%);
+    transform: translate(50%,8%);
+  }
+}
+@keyframes ellipseAnimRightTop {
+  100% {
+    -webkit-transform: translate(50%,8%);
+    -moz-transform: translate(50%,8%);
+    -o-transform: translate(50%,8%);
+    transform: translate(50%,8%);
+  }
+}
+
+@-webkit-keyframes ellipseAnimBottom {
+  100% {
+    -webkit-transform: translate(-4%,150%);
+    transform: translate(-4%,150%);
+  }
+}
+@-moz-keyframes ellipseAnimBottom {
+  100% {
+    -webkit-transform: translate(-4%,150%);
+    -moz-transform: translate(-4%,150%);
+    transform: translate(-4%,150%);
+  }
+}
+@-o-keyframes ellipseAnimBottom {
+  100% {
+    -webkit-transform: translate(-4%,150%);
+    -o-transform: translate(-4%,150%);
+    transform: translate(-4%,150%);
+  }
+}
+@keyframes ellipseAnimBottom {
+  100% {
+    -webkit-transform: translate(-4%,150%);
+    -moz-transform: translate(-4%,150%);
+    -o-transform: translate(-4%,150%);
+    transform: translate(-4%,150%);
+  }
+}
+
+@-webkit-keyframes ellipseAnimBottomLeft {
+  100% {
+    -webkit-transform: translate(-65%,150%);
+    transform: translate(-65%,150%);
+  }
+}
+@-moz-keyframes ellipseAnimBottomLeft {
+  100% {
+    -webkit-transform: translate(-65%,150%);
+    -moz-transform: translate(-65%,150%);
+    transform: translate(-65%,150%);
+  }
+}
+@-o-keyframes ellipseAnimBottomLeft {
+  100% {
+    -webkit-transform: translate(-65%,150%);
+    -o-transform: translate(-65%,150%);
+    transform: translate(-65%,150%);
+  }
+}
+@keyframes ellipseAnimBottomLeft {
+  100% {
+    -webkit-transform: translate(-65%,150%);
+    -moz-transform: translate(-65%,150%);
+    -o-transform: translate(-65%,150%);
+    transform: translate(-65%,150%);
+  }
+}
+
+@-webkit-keyframes ellipseAnimRightTop {
+  100% {
+    -webkit-transform: translate(50%,8%);
+    transform: translate(50%,8%);
+  }
+}
+@keyframes ellipseAnimRightTop {
+  100% {
+    -webkit-transform: translate(50%,8%);
+    -moz-transform: translate(50%,8%);
+    -o-transform: translate(50%,8%);
+    transform: translate(50%,8%);
+  }
+}
+
+@-webkit-keyframes ellipseAnimBotTopRight {
+  100% {
+    -webkit-transform: translate(150%,-50%);
+    transform: translate(150%,-50%);
+  }
+}
+@-moz-keyframes ellipseAnimBotTopRight {
+  100% {
+    -webkit-transform: translate(150%,-50%);
+    -moz-transform: translate(150%,-50%);
+    transform: translate(150%,-50%);
+  }
+}
+@-o-keyframes ellipseAnimBotTopRight {
+  100% {
+    -webkit-transform: translate(150%,-50%);
+    -o-transform: translate(150%,-50%);
+    transform: translate(150%,-50%);
+  }
+}
+@keyframes ellipseAnimBotTopRight {
+  100% {
+    -webkit-transform: translate(150%,-50%);
+    -moz-transform: translate(150%,-50%);
+    -o-transform: translate(150%,-50%);
+    transform: translate(150%,-50%);
+  }
+}
+
+@-webkit-keyframes ellipseAnimLeftTop {
+  100% {
+    -webkit-transform: translate(-150%,-40%);
+    transform: translate(-150%,-40%);
+  }
+}
+@-moz-keyframes ellipseAnimLeftTop {
+  100% {
+    -webkit-transform: translate(-150%,-40%);
+    -moz-transform: translate(-150%,-40%);
+    transform: translate(-150%,-40%);
+  }
+}
+@-o-keyframes ellipseAnimLeftTop {
+  100% {
+    -webkit-transform: translate(-150%,-40%);
+    -o-transform: translate(-150%,-40%);
+    transform: translate(-150%,-40%);
+  }
+}
+@keyframes ellipseAnimLeftTop {
+  100% {
+    -webkit-transform: translate(-150%,-40%);
+    -moz-transform: translate(-150%,-40%);
+    -o-transform: translate(-150%,-40%);
+    transform: translate(-150%,-40%);
+  }
+}
+
+.ag-ellipse-step_item-1 .ag-ellipse_item__big {
+  top: 3%;
+  left: 42%;
+
+  -webkit-animation: ellipseAnimRightTop 12s linear infinite alternate;
+  -moz-animation: ellipseAnimRightTop 12s linear infinite alternate;
+  -o-animation: ellipseAnimRightTop 12s linear infinite alternate;
+  animation: ellipseAnimRightTop 12s linear infinite alternate;
+}
+.ag-ellipse-step_item-1 .ag-ellipse_item__small {
+  top: 33%;
+  left: 96%;
+
+  -webkit-animation: ellipseAnimBottom 30s linear infinite alternate;
+  -moz-animation: ellipseAnimBottom 30s linear infinite alternate;
+  -o-animation: ellipseAnimBottom 30s linear infinite alternate;
+  animation: ellipseAnimBottom 30s linear infinite alternate;
+}
+.ag-ellipse-step_item-1 .ag-ellipse_item__small:nth-child(2) {
+  top: 89%;
+  left: 68%;
+
+  -webkit-animation: ellipseAnimBotTopRight 15s linear infinite alternate;
+  -moz-animation: ellipseAnimBotTopRight 15s linear infinite alternate;
+  -o-animation: ellipseAnimBotTopRight 15s linear infinite alternate;
+  animation: ellipseAnimBotTopRight 15s linear infinite alternate;
+}
+.ag-ellipse-step_item-1 .ag-ellipse_item__medium {
+  top: 44%;
+  left: 96%;
+
+  -webkit-animation: ellipseAnimBottom 27s linear infinite alternate;
+  -moz-animation: ellipseAnimBottom 27s linear infinite alternate;
+  -o-animation: ellipseAnimBottom 27s linear infinite alternate;
+  animation: ellipseAnimBottom 27s linear infinite alternate;
+}
+
+.ag-ellipse-step_item-2 .ag-ellipse_item__big {
+  top: 20%;
+  left: 91%;
+
+  -webkit-animation: ellipseAnimBottom 38s linear infinite alternate;
+  -moz-animation: ellipseAnimBottom 38s linear infinite alternate;
+  -o-animation: ellipseAnimBottom 38s linear infinite alternate;
+  animation: ellipseAnimBottom 38s linear infinite alternate;
+}
+.ag-ellipse-step_item-2 .ag-ellipse_item__small {
+  top: 10%;
+  left: 73%;
+
+  -webkit-animation: ellipseAnimRightTop 10s linear infinite alternate;
+  -moz-animation: ellipseAnimRightTop 10s linear infinite alternate;
+  -o-animation: ellipseAnimRightTop 10s linear infinite alternate;
+  animation: ellipseAnimRightTop 10s linear infinite alternate;
+}
+.ag-ellipse-step_item-2 .ag-ellipse_item__medium {
+  top: 6%;
+  left: 52%;
+
+  -webkit-animation: ellipseAnimRightTop 15s linear infinite;
+  -moz-animation: ellipseAnimRightTop 15s linear infinite alternate;
+  -o-animation: ellipseAnimRightTop 15s linear infinite alternate;
+  animation: ellipseAnimRightTop 15s linear infinite alternate;
+}
+
+.ag-ellipse-step_item-3 .ag-ellipse_item__big {
+  top: 8%;
+  left: 60%;
+
+  -webkit-animation: ellipseAnimRightTop 15s linear infinite alternate;
+  -moz-animation: ellipseAnimRightTop 15s linear infinite alternate;
+  -o-animation: ellipseAnimRightTop 15s linear infinite alternate;
+  animation: ellipseAnimRightTop 15s linear infinite alternate;
+}
+.ag-ellipse-step_item-3 .ag-ellipse_item__small {
+  top: 97%;
+  left: 37%;
+
+  -webkit-animation: ellipseAnimBotTopRight 15s linear infinite alternate;
+  -moz-animation: ellipseAnimBotTopRight 15s linear infinite alternate;
+  -o-animation: ellipseAnimBotTopRight 15s linear infinite alternate;
+  animation: ellipseAnimBotTopRight 15s linear infinite alternate;
+}
+.ag-ellipse-step_item-3 .ag-ellipse_item__small:nth-child(2) {
+  top: 95%;
+  left: 25%;
+
+  -webkit-animation: ellipseAnimLeftTop 15s linear infinite alternate;
+  -moz-animation: ellipseAnimLeftTop 15s linear infinite alternate;
+  -o-animation: ellipseAnimLeftTop 15s linear infinite alternate;
+  animation: ellipseAnimLeftTop 15s linear infinite alternate;
+}
+.ag-ellipse-step_item-3 .ag-ellipse_item__medium {
+  top: 50%;
+  left: 94%;
+
+  -webkit-animation: ellipseAnimBottomLeft 27s linear infinite alternate;
+  -moz-animation: ellipseAnimBottomLeft 27s linear infinite alternate;
+  -o-animation: ellipseAnimBottomLeft 27s linear infinite alternate;
+  animation: ellipseAnimBottomLeft 27s linear infinite alternate;
+}
 
 
 @media only screen and (max-width: 767px) {

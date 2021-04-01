@@ -19,381 +19,58 @@
 </head>
 
 <body>
-<style>
-
-  .lottery-steps-wrap {
-    position: relative;
-  }
-  .lottery-steps-wrap:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(0,0,0,0)));
-    background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
-    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
-    opacity: .15;
-  }
-  .lottery-steps {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    counter-reset: list;
-    padding: 95px 0 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  .lottery-step {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    width: 32%;
-    min-height: 300px;
-    padding: 20px;
-    position: relative;
-    font-size: 32px;
-    font-weight: 700;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    z-index: 1;
-  }
-  .lottery-step +.lottery-step {
-    margin-left: 40px;
-  }
-  .lottery-step.one {
-    width: 363px;
-    text-align: right;
-    padding: 108px 38px 174px 90px;
-  }
-  .lottery-step.two {
-    width: 356px;
-    padding: 80px 30px 146px 126px;
-  }
-  .lottery-step.three {
-    width: 380px;
-    padding: 179px 82px 51px 74px;
-  }
-
-  .lottery-step:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    bottom: -80px;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    width: 471px;
-    min-height: 426px;
-    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-ellipse-item/images/step-1.png) center 0 no-repeat;
-    background-size: 100% 100%;
-    z-index: -1;
-  }
-  .lottery-step.two:before {
-    top: 12px;
-    bottom: -90px;
-    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-ellipse-item/images/step-2.png);
-  }
-  .lottery-step.three:before {
-    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-ellipse-item/images/step-3.png);
-  }
-  .lottery-step-in {
-    position: relative;
-    max-width: 100%;
-    line-height: 1;
-  }
-  .lottery-step-title a {
-    color: #222;
-    text-decoration: none;
-  }
-
-  .lottery-step-text {
-    font-size: 20px;
-  }
-  .lottery-step-img-wrap {
-    position: absolute;
-  }
-
-  .one .lottery-step-img-wrap {
-    top: 100%;
-    right: 100%;
-    -webkit-transform: translate(44%,-12%);
-    -ms-transform: translate(44%,-12%);
-    transform: translate(44%,-12%);
-  }
-  .two .lottery-step-img-wrap {
-    top: 100%;
-    right: 100%;
-    -webkit-transform: translate(19%,-25%);
-    -ms-transform: translate(19%,-25%);
-    transform: translate(19%,-25%);
-  }
-  .three .lottery-step-img-wrap {
-    bottom: 100%;
-    left: 0;
-    -webkit-transform: translate(-47%,7%);
-    -ms-transform: translate(-47%,7%);
-    transform: translate(-47%,7%);
-  }
-
-  .lottery-bg-ellipses-wrap {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-  .lottery-bg-ellipse {
-    position: absolute;
-    border-radius: 100%;
-    -webkit-box-shadow: 0 20px 50px 0 rgba(0,0,0,.5);
-    box-shadow: 0 20px 50px 0 rgba(0,0,0,.5);
-    will-change: transform;
-  }
-  .lottery-bg-ellipse.ellipse-big {
-    width: 69px;
-    height: 69px;
-  }
-  .lottery-bg-ellipse.ellipse-small {
-    width: 26px;
-    height: 26px;
-  }
-  .lottery-bg-ellipse.ellipse-medium {
-    width: 37px;
-    height: 37px;
-  }
-  .lottery-bg-ellipse.ellipse-white {
-    background: #fff;
-  }
-  .lottery-bg-ellipse.ellipse-gradient {
-    background: rgba(5,118,230,1);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(5,118,230,1)), color-stop(100%, rgba(26,188,156,1)));
-    background: -o-linear-gradient(top, rgba(5,118,230,1) 0%, rgba(26,188,156,1) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(5,118,230,1)), to(rgba(26,188,156,1)));
-    background: linear-gradient(to bottom, rgba(5,118,230,1) 0%, rgba(26,188,156,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0576e6', endColorstr='#1abc9c', GradientType=0 );
-  }
-
-  @-webkit-keyframes ellipseAnimRightTop {
-    100% {
-      -webkit-transform: translate(50%,8%);
-      transform: translate(50%,8%);
-    }
-  }
-
-  @keyframes ellipseAnimRightTop {
-    100% {
-      -webkit-transform: translate(50%,8%);
-      transform: translate(50%,8%);
-    }
-  }
-
-
-  @-webkit-keyframes ellipseAnimBottom {
-    100% {
-      -webkit-transform: translate(-4%,150%);
-      transform: translate(-4%,150%);
-    }
-  }
-
-  @keyframes ellipseAnimBottom {
-    100% {
-      -webkit-transform: translate(-4%,150%);
-      transform: translate(-4%,150%);
-    }
-  }
-
-
-  @-webkit-keyframes ellipseAnimBottomLeft {
-    100% {
-      -webkit-transform: translate(-65%,150%);
-      transform: translate(-65%,150%);
-    }
-  }
-
-  @keyframes ellipseAnimBottomLeft {
-    100% {
-      -webkit-transform: translate(-65%,150%);
-      transform: translate(-65%,150%);
-    }
-  }
-
-
-
-  @-webkit-keyframes ellipseAnimRightTop {
-    100% {
-      -webkit-transform: translate(50%,8%);
-      transform: translate(50%,8%);
-    }
-  }
-
-  @keyframes ellipseAnimRightTop {
-    100% {
-      -webkit-transform: translate(50%,8%);
-      transform: translate(50%,8%);
-    }
-  }
-
-
-  @-webkit-keyframes ellipseAnimBotTopRight {
-    100% {
-      -webkit-transform: translate(150%,-50%);
-      transform: translate(150%,-50%);
-    }
-  }
-
-  @keyframes ellipseAnimBotTopRight {
-    100% {
-      -webkit-transform: translate(150%,-50%);
-      transform: translate(150%,-50%);
-    }
-  }
-
-
-  @-webkit-keyframes ellipseAnimLeftTop {
-    100% {
-      -webkit-transform: translate(-150%,-40%);
-      transform: translate(-150%,-40%);
-    }
-  }
-
-  @keyframes ellipseAnimLeftTop {
-    100% {
-      -webkit-transform: translate(-150%,-40%);
-      transform: translate(-150%,-40%);
-    }
-  }
-
-  .one .lottery-bg-ellipse.ellipse-big {
-    top: 3%;
-    left: 42%;
-    -webkit-animation: ellipseAnimRightTop 12s linear infinite alternate;
-    animation: ellipseAnimRightTop 12s linear infinite alternate;
-  }
-  .one .lottery-bg-ellipse.ellipse-small {
-    top: 33%;
-    left: 96%;
-    -webkit-animation: ellipseAnimBottom 30s linear infinite alternate;
-    animation: ellipseAnimBottom 30s linear infinite alternate;
-  }
-  .one .lottery-bg-ellipse.ellipse-small:nth-child(2) {
-    top: 89%;
-    left: 68%;
-    -webkit-animation: ellipseAnimBotTopRight 15s linear infinite alternate;
-    animation: ellipseAnimBotTopRight 15s linear infinite alternate;
-  }
-  .one .lottery-bg-ellipse.ellipse-medium {
-    top: 44%;
-    left: 96%;
-    -webkit-animation: ellipseAnimBottom 27s linear infinite alternate;
-    animation: ellipseAnimBottom 27s linear infinite alternate;
-  }
-
-  .two .lottery-bg-ellipse.ellipse-big {
-    top: 20%;
-    left: 91%;
-    -webkit-animation: ellipseAnimBottom 38s linear infinite alternate;
-    animation: ellipseAnimBottom 38s linear infinite alternate;
-  }
-  .two .lottery-bg-ellipse.ellipse-small {
-    top: 10%;
-    left: 73%;
-    -webkit-animation: ellipseAnimRightTop 10s linear infinite alternate;
-    animation: ellipseAnimRightTop 10s linear infinite alternate;
-  }
-  .two .lottery-bg-ellipse.ellipse-medium {
-    top: 6%;
-    left: 52%;
-    -webkit-animation: ellipseAnimRightTop 15s linear infinite;
-    animation: ellipseAnimRightTop 15s linear infinite alternate;
-  }
-
-  .three .lottery-bg-ellipse.ellipse-big {
-    top: 8%;
-    left: 60%;
-    -webkit-animation: ellipseAnimRightTop 15s linear infinite alternate;
-    animation: ellipseAnimRightTop 15s linear infinite alternate;
-  }
-  .three .lottery-bg-ellipse.ellipse-small {
-    top: 97%;
-    left: 37%;
-    -webkit-animation: ellipseAnimBotTopRight 15s linear infinite alternate;
-    animation: ellipseAnimBotTopRight 15s linear infinite alternate;
-  }
-  .three .lottery-bg-ellipse.ellipse-small:nth-child(2) {
-    top: 95%;
-    left: 25%;
-    -webkit-animation: ellipseAnimLeftTop 15s linear infinite alternate;
-    animation: ellipseAnimLeftTop 15s linear infinite alternate;
-  }
-  .three .lottery-bg-ellipse.ellipse-medium {
-    top: 50%;
-    left: 94%;
-    -webkit-animation: ellipseAnimBottomLeft 27s linear infinite alternate;
-    animation: ellipseAnimBottomLeft 27s linear infinite alternate;
-  }
-
-</style>
-
+<div class="ag-ellipse-step-block">
   <div class="ag-format-container">
-    <div class="lottery-steps">
-      <div data-aos="fade-down-right" class="lottery-step one aos-init aos-animate">
-        <div class="lottery-bg-ellipses-wrap">
-          <div class="lottery-bg-ellipse ellipse-gradient ellipse-big"></div>
-          <div class="lottery-bg-ellipse ellipse-gradient ellipse-small"></div>
-          <div class="lottery-bg-ellipse ellipse-gradient ellipse-small"></div>
-          <div class="lottery-bg-ellipse ellipse-white ellipse-medium"></div>
-        </div>
-        <div class="lottery-step-in">
-          <div class="lottery-step-img-wrap">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-ellipse-item/images/premier-league.png" class="lottery-step-img">
+    <ul class="ag-ellipse-step_list">
+      <li class="ag-ellipse-step_item ag-ellipse-step_item-1">
+        <ul class="ag-ellipse_list">
+          <li class="ag-ellipse_item ag-ellipse_item__gradient ag-ellipse_item__big"></li>
+          <li class="ag-ellipse_item ag-ellipse_item__gradient ag-ellipse_item__small"></li>
+          <li class="ag-ellipse_item ag-ellipse_item__gradient ag-ellipse_item__small"></li>
+          <li class="ag-ellipse_item ag-ellipse_item__white ag-ellipse_item__medium"></li>
+        </ul>
+        <div class="ag-ellipse-step_info">
+          <div class="ag-ellipse-step_title">Title item&#160;1</div>
+          <div class="ag-ellipse-step_text">Text item&#160;1</div>
+          <div class="ag-ellipse-step_img-wrap">
+            <i class="ag-ellipse-step_img ag-ellipse-step_img-1"></i>
           </div>
         </div>
-      </div>
-      <div data-aos="zoom-in" class="lottery-step two aos-init aos-animate">
-        <div class="lottery-bg-ellipses-wrap">
-          <div class="lottery-bg-ellipse ellipse-gradient ellipse-big"></div>
-          <div class="lottery-bg-ellipse ellipse-gradient ellipse-small"></div>
-          <div class="lottery-bg-ellipse ellipse-white ellipse-medium"></div>
-        </div>
-        <div class="lottery-step-in">
-          <div class="lottery-step-img-wrap">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-ellipse-item/images/champions-league.png" class="lottery-step-img">
+      </li>
+
+      <li class="ag-ellipse-step_item ag-ellipse-step_item-2">
+        <ul class="ag-ellipse_list">
+          <li class="ag-ellipse_item ag-ellipse_item__gradient ag-ellipse_item__big"></li>
+          <li class="ag-ellipse_item ag-ellipse_item__gradient ag-ellipse_item__small"></li>
+          <li class="ag-ellipse_item ag-ellipse_item__white ag-ellipse_item__medium"></li>
+        </ul>
+        <div class="ag-ellipse-step_info">
+          <div class="ag-ellipse-step_title">Title item&#160;2</div>
+          <div class="ag-ellipse-step_text">Text item&#160;2</div>
+          <div class="ag-ellipse-step_img-wrap">
+            <i class="ag-ellipse-step_img ag-ellipse-step_img-2"></i>
           </div>
         </div>
-      </div>
-      <div data-aos="fade-down-left" class="lottery-step three aos-init aos-animate">
-        <div class="lottery-bg-ellipses-wrap">
-          <div class="lottery-bg-ellipse ellipse-gradient ellipse-big"></div>
-          <div class="lottery-bg-ellipse ellipse-gradient ellipse-small"></div>
-          <div class="lottery-bg-ellipse ellipse-gradient ellipse-small"></div>
-          <div class="lottery-bg-ellipse ellipse-white ellipse-medium"></div>
-        </div>
-        <div class="lottery-step-in">
-          <div class="lottery-step-img-wrap">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-ellipse-item/images/bundesleague.png" class="lottery-step-img">
+      </li>
+
+      <li class="ag-ellipse-step_item ag-ellipse-step_item-3">
+        <ul class="ag-ellipse_list">
+          <li class="ag-ellipse_item ag-ellipse_item__gradient ag-ellipse_item__big"></li>
+          <li class="ag-ellipse_item ag-ellipse_item__gradient ag-ellipse_item__small"></li>
+          <li class="ag-ellipse_item ag-ellipse_item__gradient ag-ellipse_item__small"></li>
+          <li class="ag-ellipse_item ag-ellipse_item__white ag-ellipse_item__medium"></li>
+        </ul>
+        <div class="ag-ellipse-step_info">
+          <div class="ag-ellipse-step_title">Title item&#160;3</div>
+          <div class="ag-ellipse-step_text">Text item&#160;3</div>
+          <div class="ag-ellipse-step_img-wrap">
+            <i class="ag-ellipse-step_img ag-ellipse-step_img-3"></i>
           </div>
         </div>
-      </div>
-    </div>
+      </li>
+    </ul>
   </div>
+</div>
 
 <!--[if lt IE 9]>
 <script src="libs/IE/html5shiv/es5-shim.min.js"></script>
