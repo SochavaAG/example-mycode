@@ -744,10 +744,10 @@ body {
   width: 248px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/ufo-light.png) no-repeat 0 0;
 
-  -webkit-animation: an-ufo-light 1s steps(6) infinite;
-  -moz-animation: an-ufo-light 1s steps(6) infinite;
-  -o-animation: an-ufo-light 1s steps(6) infinite;
-  animation: an-ufo-light 1s steps(6) infinite;
+  -webkit-animation: an-ufo-light 2s steps(20) infinite;
+  -moz-animation: an-ufo-light 2s steps(20) infinite;
+  -o-animation: an-ufo-light 2s steps(20) infinite;
+  animation: an-ufo-light 2s steps(20) infinite;
 }
 
 @-webkit-keyframes an-ufo-light {
@@ -791,13 +791,13 @@ body {
 .ag-ufo-yes {
   display: inline-block;
   height: 412px;
-  width: 248px;
+  width: 252px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/ufo-yes.png) no-repeat 0 0;
 
-  -webkit-animation: an-ufo-yes 1s steps(6) infinite;
-  -moz-animation: an-ufo-yes 1s steps(6) infinite;
-  -o-animation: an-ufo-yes 1s steps(6) infinite;
-  animation: an-ufo-yes 1s steps(6) infinite;
+  -webkit-animation: an-ufo-yes 2s steps(16) infinite;
+  -moz-animation: an-ufo-yes 2s steps(16) infinite;
+  -o-animation: an-ufo-yes 2s steps(16) infinite;
+  animation: an-ufo-yes 2s steps(16) infinite;
 }
 
 @-webkit-keyframes an-ufo-yes {
@@ -841,13 +841,13 @@ body {
 .ag-ufo-no {
   display: inline-block;
   height: 412px;
-  width: 248px;
+  width: 252px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/ufo-no.png) no-repeat 0 0;
 
-  -webkit-animation: an-ufo-no 1s steps(6) infinite;
-  -moz-animation: an-ufo-no 1s steps(6) infinite;
-  -o-animation: an-ufo-no 1s steps(6) infinite;
-  animation: an-ufo-no 1s steps(6) infinite;
+  -webkit-animation: an-ufo-no 1s steps(12) infinite;
+  -moz-animation: an-ufo-no 1s steps(12) infinite;
+  -o-animation: an-ufo-no 1s steps(12) infinite;
+  animation: an-ufo-no 1s steps(12) infinite;
 }
 
 @-webkit-keyframes an-ufo-no {
@@ -886,56 +886,6 @@ body {
   }
 }
 /* /ufo-no */
-
-/* ufo-view */
-.ag-ufo-view {
-  display: inline-block;
-  height: 412px;
-  width: 248px;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/ufo-view.png) no-repeat 0 0;
-
-  -webkit-animation: an-ufo-view 1s steps(6) infinite;
-  -moz-animation: an-ufo-view 1s steps(6) infinite;
-  -o-animation: an-ufo-view 1s steps(6) infinite;
-  animation: an-ufo-view 1s steps(6) infinite;
-}
-
-@-webkit-keyframes an-ufo-view {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 100% 0;
-  }
-}
-
-@-moz-keyframes an-ufo-view {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 100% 0;
-  }
-}
-
-@-o-keyframes an-ufo-view {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 100% 0;
-  }
-}
-
-@keyframes an-ufo-view {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 100% 0;
-  }
-}
-/* /ufo-view */
 
 /* wolf */
 .ag-wolf {
