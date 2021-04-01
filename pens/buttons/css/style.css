@@ -5201,6 +5201,116 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 }
 /* /button 81 */
 
+/* button 82 */
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 100 version
+*/
+
+.ag-base_btn-v82-wrap {
+  overflow: hidden;
+
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+.ag-base_btn-v82 {
+  background: rgb(26,188,156);
+  background: -moz-linear-gradient(left,  rgba(26,188,156,1) 0%, rgba(5,118,230,1) 100%);
+  background: -webkit-linear-gradient(left,  rgba(26,188,156,1) 0%,rgba(5,118,230,1) 100%);
+  background: -webkit-gradient(linear,  left top, right top,  from(rgba(26,188,156,1)),to(rgba(5,118,230,1)));
+  background: -moz-linear-gradient(left,  rgba(26,188,156,1) 0%,rgba(5,118,230,1) 100%);
+  background: -o-linear-gradient(left,  rgba(26,188,156,1) 0%,rgba(5,118,230,1) 100%);
+  background: linear-gradient(to right,  rgba(26,188,156,1) 0%,rgba(5,118,230,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1abc9c', endColorstr='#0576e6',GradientType=1 );
+
+  z-index: 1;
+  position: relative;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-box-shadow: 0 10px 56px 0 rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 10px 56px 0 rgba(0, 0, 0, .3);
+  box-shadow: 0 10px 56px 0 rgba(0, 0, 0, .3);
+}
+.ag-base_text-btn-v82 {
+  z-index: 1;
+  position: relative;
+}
+.ag-base_btn-v82:before {
+  content: "";
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-82.png) -20px -34px no-repeat;
+
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  -webkit-transition: -webkit-transform .3s linear;
+  -moz-transition: -moz-transform .3s linear;
+  -o-transition: -o-transform .3s linear;
+  transition: transform .3s linear, -webkit-transform .3s linear, -moz-transform .3s linear, -o-transform .3s linear;
+
+  -webkit-animation: an-ball 3s linear infinite;
+  -moz-animation: an-ball 3s linear infinite;
+  -o-animation: an-ball 3s linear infinite;
+  animation: an-ball 3s linear infinite;
+
+  will-change: transform;
+}
+.ag-base_btn-v82:hover:before {
+  -webkit-animation: none;
+  -moz-animation: none;
+  -o-animation: none;
+  animation: none;
+
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@-webkit-keyframes an-ball {
+  30% {
+    width: 0;
+  }
+  0%,60%,100% {
+    width: 100%;
+  }
+}
+@-moz-keyframes an-ball {
+  30% {
+    width: 0;
+  }
+  0%,60%,100% {
+    width: 100%;
+  }
+}
+@-o-keyframes an-ball {
+  30% {
+    width: 0;
+  }
+  0%,60%,100% {
+    width: 100%;
+  }
+}
+@keyframes an-ball {
+  30% {
+    width: 0;
+  }
+  0%,60%,100% {
+    width: 100%;
+  }
+}
+/* /button 82 */
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;
