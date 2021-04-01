@@ -650,6 +650,102 @@ body {
 }
 /* /joker blink */
 
+/* illumination */
+.ag-illumination {
+  display: inline-block;
+  height: 323px;
+  width: 325px;
+
+  position: relative;
+}
+.ag-illumination:before {
+  content: "";
+
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-flashing/images/illumination.png) no-repeat;
+  background-size: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  -webkit-animation: an-illumination 2.5s ease infinite;
+  -moz-animation: an-illumination 2.5s ease infinite;
+  -o-animation: an-illumination 2.5s ease infinite;
+  animation: an-illumination 2.5s ease infinite;
+}
+
+@-webkit-keyframes an-illumination {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: .6;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: .3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes an-illumination {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: .6;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: .3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes an-illumination {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: .6;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: .3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes an-illumination {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: .6;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: .3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* /illumination */
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;
