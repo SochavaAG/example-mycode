@@ -594,10 +594,10 @@ body {
   width: 140px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sheep-no.png) no-repeat 0 0;
 
-  -webkit-animation: an-sheep-no 1s steps(11) infinite;
-  -moz-animation: an-sheep-no 1s steps(11) infinite;
-  -o-animation: an-sheep-no 1s steps(11) infinite;
-  animation: an-sheep-no 1s steps(11) infinite;
+  -webkit-animation: an-sheep-no 1s steps(28) infinite;
+  -moz-animation: an-sheep-no 1s steps(28) infinite;
+  -o-animation: an-sheep-no 1s steps(28) infinite;
+  animation: an-sheep-no 1s steps(28) infinite;
 }
 
 @-webkit-keyframes an-sheep-no {
