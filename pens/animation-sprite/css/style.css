@@ -10,8 +10,8 @@ body {
 /* meteor */
 .ag-meteor {
   display: inline-block;
-  width: 600px;
   height: 600px;
+  width: 600px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/meteor.png) no-repeat 0 0;
 
   -webkit-animation: an-meteor 1s steps(48) infinite;
@@ -65,8 +65,8 @@ body {
 /* crystal */
 .ag-crystal {
   display: inline-block;
-  width: 130px;
   height: 127px;
+  width: 130px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/crystal.png) no-repeat 0 0;
 
   -webkit-animation: an-crystal 1s steps(49) infinite;
@@ -139,8 +139,8 @@ body {
 /* fire v2 */
 .ag-fire-v2 {
   display: inline-block;
-  width: 6.66667em;
   height: 10.41667em;
+  width: 6.66667em;
   background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-fire.png);
   background-position: 0 50%;
   background-repeat: no-repeat;
@@ -378,14 +378,14 @@ body {
 /* sheep */
 .ag-sheep {
   display: inline-block;
-  width: 130px;
-  height: 127px;
+  height: 167px;
+  width: 140px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sheep.png) no-repeat 0 0;
 
-  -webkit-animation: an-sheep 1s steps(49) infinite;
-  -moz-animation: an-sheep 1s steps(49) infinite;
-  -o-animation: an-sheep 1s steps(49) infinite;
-  animation: an-sheep 1s steps(49) infinite;
+  -webkit-animation: an-sheep 1s steps(46) infinite;
+  -moz-animation: an-sheep 1s steps(46) infinite;
+  -o-animation: an-sheep 1s steps(46) infinite;
+  animation: an-sheep 1s steps(46) infinite;
 }
 
 @-webkit-keyframes an-sheep {
@@ -393,7 +393,7 @@ body {
     background-position: 0 0;
   }
   100% {
-    background-position: -6370px 0;
+    background-position: 100% 0;
   }
 }
 
@@ -402,7 +402,7 @@ body {
     background-position: 0 0;
   }
   100% {
-    background-position: -6370px 0;
+    background-position: 100% 0;
   }
 }
 
@@ -411,7 +411,7 @@ body {
     background-position: 0 0;
   }
   100% {
-    background-position: -6370px 0;
+    background-position: 100% 0;
   }
 }
 
@@ -420,22 +420,122 @@ body {
     background-position: 0 0;
   }
   100% {
-    background-position: -6370px 0;
+    background-position: 100% 0;
   }
 }
 /* /sheep */
 
+/* sheep-rotation */
+.ag-sheep-rotation {
+  display: inline-block;
+  height: 167px;
+  width: 140px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sheep-rotation.png) no-repeat 0 0;
+
+  -webkit-animation: an-sheep-rotation 2s steps(3) infinite;
+  -moz-animation: an-sheep-rotation 2s steps(3) infinite;
+  -o-animation: an-sheep-rotation 2s steps(3) infinite;
+  animation: an-sheep-rotation 2s steps(3) infinite;
+}
+
+@-webkit-keyframes an-sheep-rotation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-moz-keyframes an-sheep-rotation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-o-keyframes an-sheep-rotation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes an-sheep-rotation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+/* /sheep-rotation */
+
+/* sheep-lock */
+.ag-sheep-lock {
+  display: inline-block;
+  height: 167px;
+  width: 140px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sheep-lock.png) no-repeat 0 0;
+
+  -webkit-animation: an-sheep-lock 2s steps(3) infinite;
+  -moz-animation: an-sheep-lock 2s steps(3) infinite;
+  -o-animation: an-sheep-lock 2s steps(3) infinite;
+  animation: an-sheep-lock 2s steps(3) infinite;
+}
+
+@-webkit-keyframes an-sheep-lock {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-moz-keyframes an-sheep-lock {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-o-keyframes an-sheep-lock {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes an-sheep-lock {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+/* /sheep-lock */
+
 /* wolf */
 .ag-wolf {
   display: inline-block;
-  width: 130px;
-  height: 127px;
+  height: 140px;
+  width: 133px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/wolf.png) no-repeat 0 0;
 
-  -webkit-animation: an-wolf 1s steps(49) infinite;
-  -moz-animation: an-wolf 1s steps(49) infinite;
-  -o-animation: an-wolf 1s steps(49) infinite;
-  animation: an-wolf 1s steps(49) infinite;
+  -webkit-animation: an-wolf 1s steps(20) infinite;
+  -moz-animation: an-wolf 1s steps(20) infinite;
+  -o-animation: an-wolf 1s steps(20) infinite;
+  animation: an-wolf 1s steps(20) infinite;
 }
 
 @-webkit-keyframes an-wolf {
