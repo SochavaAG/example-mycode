@@ -1,36 +1,104 @@
-.ag-format-container {
-  width: 1142px;
-  margin: 0 auto;
+.ag-rudder-block {
+  height: 849px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rudder-turn/images/slot.png) no-repeat 50% 0;
+
+  position: relative;
+}
+.ag-rudder {
+  margin: auto;
+  width: 37%;
+  height: 190px;
+  position: relative
+}
+.ag-rudder:before,
+.ag-rudder:after {
+  content: "";
+  height: 262px;
+  width: 255px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rudder-turn/images/rudder.png) no-repeat center;
+  background-size: 100%;
+
+  cursor: pointer;
+
+  position: absolute;
+  top: 350px;
+  left: 380px;
+
+  -webkit-transition: -webkit-transform .5s;
+  -moz-transition: -moz-transform .5s;
+  -o-transition: -o-transform .5s;
+  transition: transform .5s, -webkit-transform .5s, -moz-transform .5s, -o-transform .5s;
+}
+.ag-rudder:after {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rudder-turn/images/rudder-illumination.png) no-repeat center;
+  background-size: 100%;
+
+  -webkit-animation: an-blink-drum 2s .1s linear infinite;
+  -moz-animation: an-blink-drum 2s .1s linear infinite;
+  -o-animation: an-blink-drum 2s .1s linear infinite;
+  animation: an-blink-drum 2s .1s linear infinite;
+}
+.ag-rudder:hover:before,
+.ag-rudder:hover:after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.ag-rudder:active:before,
+.ag-rudder:active:after {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+
+  -webkit-transition: -webkit-transform 1s;
+  -moz-transition: -moz-transform 1s;
+  -o-transition: -o-transform 1s;
+  transition: transform 1s, -webkit-transform 1s, -moz-transform 1s, -o-transform 1s;
 }
 
-
-
-
-@media only screen and (max-width: 767px) {
-  .ag-format-container {
-    width: 96%;
+@-webkit-keyframes an-blink-drum {
+  0% {
+    opacity: 1;
   }
-
-}
-
-@media only screen and (max-width: 639px) {
-
-}
-
-@media only screen and (max-width: 479px) {
-
-}
-
-@media (min-width: 768px) and (max-width: 979px) {
-  .ag-format-container {
-    width: 750px;
+  50% {
+    opacity: .5;
   }
-
-}
-
-@media (min-width: 980px) and (max-width: 1161px) {
-  .ag-format-container {
-    width: 960px;
+  100% {
+    opacity: 1;
   }
-
+}
+@-moz-keyframes an-blink-drum {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes an-blink-drum {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes an-blink-drum {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
