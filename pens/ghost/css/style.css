@@ -26,8 +26,8 @@ html, body {
 }
 .ag-ghost-block::before {
   content: "";
-  height: 18.4375em;
-  width: 11.625em;
+  height: 295px;
+  width: 186px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/ghost/images/ghost.png) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -37,8 +37,8 @@ html, body {
   opacity: 0;
 
   position: absolute;
-  left: -9.625em;
-  top: 4em;
+  left: -10em;
+  top: 50%;
 
   image-rendering: -webkit-optimize-contrast;
 
