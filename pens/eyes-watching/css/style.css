@@ -5,7 +5,7 @@
 
 .ag-eyes-block {
   height: 1080px;
-  background: url(../images/bg.jpg) no-repeat scroll 50% 0 #030303;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/eyes-watching/images/bg.jpg) no-repeat scroll 50% 0 #030303;
 
   position: relative;
 }
@@ -20,7 +20,7 @@
   left: 50%;
 }
 .ag-eyes_mask {
-  background: url(../images/mask.png) no-repeat scroll 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/eyes-watching/images/mask.png) no-repeat scroll 0 0;
 
   z-index: 10;
   position: absolute;
@@ -32,7 +32,7 @@
 .ag-eyes_eyes {
   height: 80px;
   width: 99px;
-  background: url(../images/eye.png) no-repeat scroll 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/eyes-watching/images/eye.png) no-repeat scroll 0 0;
 
   z-index: 5;
   position: absolute;
