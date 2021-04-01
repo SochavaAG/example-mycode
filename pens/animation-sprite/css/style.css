@@ -544,10 +544,10 @@ body {
   width: 140px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sheep-yes.png) no-repeat 0 0;
 
-  -webkit-animation: an-sheep-yes 1s steps(4) infinite;
-  -moz-animation: an-sheep-yes 1s steps(4) infinite;
-  -o-animation: an-sheep-yes 1s steps(4) infinite;
-  animation: an-sheep-yes 1s steps(4) infinite;
+  -webkit-animation: an-sheep-yes 1s steps(11) infinite;
+  -moz-animation: an-sheep-yes 1s steps(11) infinite;
+  -o-animation: an-sheep-yes 1s steps(11) infinite;
+  animation: an-sheep-yes 1s steps(11) infinite;
 }
 
 @-webkit-keyframes an-sheep-yes {
@@ -586,6 +586,56 @@ body {
   }
 }
 /* /sheep-yes */
+
+/* sheep-no */
+.ag-sheep-no {
+  display: inline-block;
+  height: 167px;
+  width: 140px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sheep-no.png) no-repeat 0 0;
+
+  -webkit-animation: an-sheep-no 1s steps(11) infinite;
+  -moz-animation: an-sheep-no 1s steps(11) infinite;
+  -o-animation: an-sheep-no 1s steps(11) infinite;
+  animation: an-sheep-no 1s steps(11) infinite;
+}
+
+@-webkit-keyframes an-sheep-no {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-moz-keyframes an-sheep-no {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-o-keyframes an-sheep-no {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes an-sheep-no {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+/* /sheep-no */
 
 /* wolf */
 .ag-wolf {
