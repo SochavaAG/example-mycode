@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Animation glare</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .wcup__info {
+    width:100%;
+    height:2.71429em;
+    margin-bottom:1.42857em;
+  }
+  .wcup__info:after,
+  .wcup__info:before {
+    background-size:cover;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    content:'';
+    opacity:0;
+    position:absolute;
+    z-index:-1;
+    width:28.125em;
+    height:15.25em;
+    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-glare/images/glare.png)
+  }
+  .wcup__info:before {
+    top:calc(100% - 14.75em / 2);
+    left:0;
+    -webkit-animation:glare linear 2.9s infinite;
+    animation:glare linear 2.9s infinite;
+  }
+  @-webkit-keyframes glare {
+    0% {
+      opacity:0;
+      -webkit-transform:translateX(0);
+      transform:translateX(0);
+    }
+    50% {
+      opacity:1
+    }
+    100% {
+      opacity:0;
+      -webkit-transform:translateX(150%);
+      transform:translateX(150%);
+    }
+  }
+  @keyframes glare {
+    0% {
+      opacity:0;
+      -webkit-transform:translateX(0);
+      transform:translateX(0);
+    }
+    50% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+      -webkit-transform:translateX(150%);
+      transform:translateX(150%);
+    }
+  }
+  .wcup__info:after {
+    right:0;
+    bottom:calc(100% - 15.75em / 2);
+    -webkit-animation:glare-revert linear 2.9s infinite;
+    animation:glare-revert linear 2.9s infinite;
+  }
+  @-webkit-keyframes glare-revert {
+    0% {
+      opacity:0;
+      -webkit-transform:translateX(0);
+      transform:translateX(0);
+    }
+    50% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+      -webkit-transform:translateX(-150%);
+      transform:translateX(-150%);
+    }
+  }
+  @keyframes glare-revert {
+    0% {
+      opacity:0;
+      -webkit-transform:translateX(0);
+      transform:translateX(0);
+    }
+    50% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+      -webkit-transform:translateX(-150%);
+      transform:translateX(-150%);
+    }
+  }
+</style>
+
+  <div class="ag-format-container">
+    <div class="wcup__info"><span class="wcup__win"></span></div>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
