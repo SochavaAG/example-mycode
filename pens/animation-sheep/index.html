@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Animation sheep</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .ufo__sheeps {
+    position:relative;
+    width:67.75em
+  }
+  .ufo-sheep {
+    position:absolute;
+    z-index:1;
+    cursor:pointer;
+    width:8.75em;
+    height:10.4375em;
+    overflow:hidden
+  }
+  .ufo-sheep.disabled {
+    cursor:default
+  }
+  .ufo-sheep__corpus {
+    position:relative;
+    width:100%;
+    height:100%;
+    background:url(../images/jump.png) 0 0 no-repeat;
+    background-size:cover;
+    -webkit-animation:none;
+    animation:none
+  }
+  .ufo-sheep__corpus.jump {
+    -webkit-animation:jump-corpus steps(46, end) 2.8s forwards;
+    animation:jump-corpus steps(46, end) 2.8s forwards
+  }
+  .ufo-sheep__corpus.jump .ufo-sheep__number {
+    -webkit-transform-origin:50% 50%;
+    transform-origin:50% 50%;
+    -webkit-transform:translate(2.5em, 6.4375em) rotate(0deg);
+    transform:translate(2.5em, 6.4375em) rotate(0deg);
+    -webkit-animation:jump-number 2.8s forwards;
+    animation:jump-number 2.8s forwards
+  }
+  @-webkit-keyframes jump-number {
+    0% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(2.5em, 6.4375em) rotate(0deg);
+      transform:translate(2.5em, 6.4375em) rotate(0deg)
+    }
+    23.32% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(2.5em, 7.125em) rotate(17deg);
+      transform:translate(2.5em, 7.125em) rotate(17deg)
+    }
+    50.87% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(2.5em, 5.25em) rotate(8deg);
+      transform:translate(2.5em, 5.25em) rotate(8deg)
+    }
+    80% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(2.5em, 6.75em) rotate(-2deg);
+      transform:translate(2.5em, 6.75em) rotate(-2deg)
+    }
+    90% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(2.5em, 6.75em);
+      transform:translate(2.5em, 6.75em)
+    }
+    100% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(2.5em, 6.4375em);
+      transform:translate(2.5em, 6.4375em)
+    }
+  }
+  @keyframes jump-number {
+    0% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(2.5em, 6.4375em) rotate(0deg);
+      transform:translate(2.5em, 6.4375em) rotate(0deg)
+    }
+    23.32% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(2.5em, 7.125em) rotate(17deg);
+      transform:translate(2.5em, 7.125em) rotate(17deg)
+    }
+    50.87% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(2.5em, 5.25em) rotate(8deg);
+      transform:translate(2.5em, 5.25em) rotate(8deg)
+    }
+    80% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(2.5em, 6.75em) rotate(-2deg);
+      transform:translate(2.5em, 6.75em) rotate(-2deg)
+    }
+    90% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(2.5em, 6.75em);
+      transform:translate(2.5em, 6.75em)
+    }
+    100% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(2.5em, 6.4375em);
+      transform:translate(2.5em, 6.4375em)
+    }
+  }
+
+  .ufo-sheep__corpus.jump .ufo-sheep__sight {
+    -webkit-animation:jump-sight 2.8s forwards;
+    animation:jump-sight 2.8s forwards;
+    -webkit-transform-origin:50% 50%;
+    transform-origin:50% 50%;
+    -webkit-transform:translate(4.625em, 4.75em);
+    transform:translate(4.625em, 4.75em)
+  }
+  @-webkit-keyframes jump-sight {
+    0%,
+    100% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(4.625em, 4.75em);
+      transform:translate(4.625em, 4.75em)
+    }
+    23.32% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(4.625em, 5.3125em);
+      transform:translate(4.625em, 5.3125em)
+    }
+    50.87% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(4.625em, 3.4375em);
+      transform:translate(4.625em, 3.4375em)
+    }
+    80% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(4.625em, 4.9375em);
+      transform:translate(4.625em, 4.9375em)
+    }
+  }
+  @keyframes jump-sight {
+    0%,
+    100% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(4.625em, 4.75em);
+      transform:translate(4.625em, 4.75em)
+    }
+    23.32% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(4.625em, 5.3125em);
+      transform:translate(4.625em, 5.3125em)
+    }
+    50.87% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(4.625em, 3.4375em);
+      transform:translate(4.625em, 3.4375em)
+    }
+    80% {
+      -webkit-transform-origin:50% 50%;
+      transform-origin:50% 50%;
+      -webkit-transform:translate(4.625em, 4.9375em);
+      transform:translate(4.625em, 4.9375em)
+    }
+  }
+  @-webkit-keyframes jump-corpus {
+    100% {
+      background-position:100% 0
+    }
+  }
+  @keyframes jump-corpus {
+    100% {
+      background-position:100% 0
+    }
+  }
+  .ufo-sheep__corpus.rotation {
+    background:url("/default/img/games/ufosheep/sheep/rotation.png") 0 0 no-repeat;
+    background-size:cover;
+    -webkit-animation:rotation steps(4, end) 0.6s forwards;
+    animation:rotation steps(4, end) 0.6s forwards
+  }
+  @-webkit-keyframes rotation {
+    100% {
+      background-position:100% 0
+    }
+  }
+  @keyframes rotation {
+    100% {
+      background-position:100% 0
+    }
+  }
+  .ufo-sheep__corpus.lock {
+    background:url("/default/img/games/ufosheep/sheep/lock.png") 0 0 no-repeat;
+    background-size:cover;
+    -webkit-animation:lock-corpus steps(3, end) 0.1s forwards;
+    animation:lock-corpus steps(3, end) 0.1s forwards
+  }
+  @-webkit-keyframes lock-corpus {
+    0% {
+      background-position:0 0
+    }
+    100% {
+      background-position:100% 0
+    }
+  }
+  @keyframes lock-corpus {
+    0% {
+      background-position:0 0
+    }
+    100% {
+      background-position:100% 0
+    }
+  }
+</style>
+
+<div class="ag-format-container">
+  <div class="ufo__sheeps">
+    <div data-sheep="1" class="ufo-sheep">
+      <div class="ufo-sheep__corpus rotation lock">
+        <div class="ufo-sheep__sight">
+          <div class="ufo-sheep__orb"></div>
+          <div class="ufo-sheep__orb"></div>
+        </div>
+        <div class="ufo-sheep__number"><span class="ufo-sheep__val">1</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>

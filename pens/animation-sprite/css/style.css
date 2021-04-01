@@ -7,6 +7,7 @@ body {
   margin: 0 auto;
 }
 
+/* meteor */
 .ag-meteor {
   display: inline-block;
   width: 600px;
@@ -59,7 +60,9 @@ body {
     background-position: -28800px 0;
   }
 }
+/* /meteor */
 
+/* crystal */
 .ag-crystal {
   display: inline-block;
   width: 130px;
@@ -107,6 +110,7 @@ body {
     background-position: -6370px 0;
   }
 }
+/* /crystal */
 
 .ag-fire {
   display: inline-block;
@@ -370,6 +374,106 @@ body {
   }
 }
 /* /blink */
+
+/* sheep */
+.ag-sheep {
+  display: inline-block;
+  width: 130px;
+  height: 127px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sheep.png) no-repeat 0 0;
+
+  -webkit-animation: an-sheep 1s steps(49) infinite;
+  -moz-animation: an-sheep 1s steps(49) infinite;
+  -o-animation: an-sheep 1s steps(49) infinite;
+  animation: an-sheep 1s steps(49) infinite;
+}
+
+@-webkit-keyframes an-sheep {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -6370px 0;
+  }
+}
+
+@-moz-keyframes an-sheep {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -6370px 0;
+  }
+}
+
+@-o-keyframes an-sheep {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -6370px 0;
+  }
+}
+
+@keyframes an-sheep {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -6370px 0;
+  }
+}
+/* /sheep */
+
+/* wolf */
+.ag-wolf {
+  display: inline-block;
+  width: 130px;
+  height: 127px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/wolf.png) no-repeat 0 0;
+
+  -webkit-animation: an-wolf 1s steps(49) infinite;
+  -moz-animation: an-wolf 1s steps(49) infinite;
+  -o-animation: an-wolf 1s steps(49) infinite;
+  animation: an-wolf 1s steps(49) infinite;
+}
+
+@-webkit-keyframes an-wolf {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-moz-keyframes an-wolf {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-o-keyframes an-wolf {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes an-wolf {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+/* /wolf */
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {

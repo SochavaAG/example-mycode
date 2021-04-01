@@ -4806,9 +4806,7 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
   background: -webkit-linear-gradient(top,  #fb7d09 0%,#ffa800 100%);
   background: linear-gradient(to bottom,  #fb7d09 0%,#ffa800 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb7d09', endColorstr='#ffa800',GradientType=0 );
-
 }
-
 .ag-base_text-btn-v73 {
   color: #000;
 
@@ -4861,6 +4859,65 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
   }
 }
 /* /button 73 */
+
+/* button 74 */
+.ag-base_btn-v74 {
+  background-color: #fffc00;
+
+  color: #000;
+
+  -webkit-box-shadow: 0 0 .0625em .1875em black,inset 0 0 .625em 0 black,inset 0 0 0 1.25em #fffc00;
+  -moz-box-shadow: 0 0 .0625em .1875em black,inset 0 0 .625em 0 black,inset 0 0 0 1.25em #fffc00;
+  -o-box-shadow: 0 0 .0625em .1875em black,inset 0 0 .625em 0 black,inset 0 0 0 1.25em #fffc00;
+  box-shadow: 0 0 .0625em .1875em black,inset 0 0 .625em 0 black,inset 0 0 0 1.25em #fffc00;
+
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+
+  -webkit-transition: color 0.2s, -webkit-box-shadow .3s;
+  -moz-transition: color 0.2s, -moz-box-shadow .3s;
+  -o-transition: color 0.2s, -o-box-shadow .3s;
+  transition: color 0.2s, box-shadow .3s, -webkit-box-shadow .3s, -moz-box-shadow .3s, -o-box-shadow .3s;
+}
+.ag-base_btn-v74:hover {
+  background-color: #fffc00;
+
+  color: #8B0000;
+
+  -webkit-box-shadow: 0 0 .0625em .1875em black,0 0 .75em .375em black,inset 0 0 .75em 0 black,inset 0 0 0 .9375em #fffc00;
+  -moz-box-shadow: 0 0 .0625em .1875em black,0 0 .75em .375em black,inset 0 0 .75em 0 black,inset 0 0 0 .9375em #fffc00;
+  -o-box-shadow: 0 0 .0625em .1875em black,0 0 .75em .375em black,inset 0 0 .75em 0 black,inset 0 0 0 .9375em #fffc00;
+  box-shadow: 0 0 .0625em .1875em black,0 0 .75em .375em black,inset 0 0 .75em 0 black,inset 0 0 0 .9375em #fffc00;
+}
+/* /button 74 */
+
+/* button 75 */
+.ag-base_btn-v75 {
+  background-color: #0CFFFF;
+
+  color: #000;
+
+  -webkit-box-shadow: inset 0 0 .375em .125em #08a9a9;
+  -moz-box-shadow: inset 0 0 .375em .125em #08a9a9;
+  -o-box-shadow: inset 0 0 .375em .125em #08a9a9;
+  box-shadow: inset 0 0 .375em .125em #08a9a9;
+
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+
+  -webkit-transition: background-color .5s .1s ease;
+  -moz-transition: background-color .5s .1s ease;
+  -o-transition: background-color .5s .1s ease;
+  transition: background-color .5s .1s ease;
+}
+.ag-base_btn-v75:hover {
+  background-color: #ff5b1a;
+
+  color: #FFF;
+}
+/* /button 75 */
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
