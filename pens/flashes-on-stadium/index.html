@@ -7,7 +7,7 @@
 <!--<![endif]-->
 <head>
   <meta charset="utf-8" />
-  <title>Аlashes on stadium</title>
+  <title>Flashes on stadium</title>
   <meta name="description" content="Создание адаптивного сайта" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,697 +19,6 @@
 </head>
 
 <body>
-
-<style>
-  .ag-flashes-on-stadium {
-    min-height: 880px;
-    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/flashes-on-stadium/images/bg.jpg) no-repeat 50% 0 #151e48;
-    background-size: cover;
-
-    z-index: 1;
-    position: relative;
-
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-
-  .ag-flashes-on-stadium_box {
-    position: absolute;
-    top: 21%;
-    left: 0;
-    right: 0;
-    bottom: 36%;
-  }
-  .ag-flashes-on-stadium_flash {
-    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/flash.png);
-
-    position: absolute;
-
-    opacity: 0;
-
-    -webkit-transform: scale(.6);
-    -ms-transform: scale(.6);
-    transform: scale(.6);
-
-    -webkit-animation: transformFlash 10s linear infinite alternate, opacityFlash 4s linear infinite;
-    animation: transformFlash 10s linear infinite alternate, opacityFlash 4s linear infinite;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(3n+2){
-    -webkit-animation: transformFlash 11s linear infinite alternate, opacityFlash 4.8s linear infinite;
-    animation: transformFlash 11s linear infinite alternate, opacityFlash 4.8s linear infinite;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(3n){
-    -webkit-animation: transformFlashTwo 10s linear infinite alternate, opacityFlash 4.5s linear infinite;
-    animation: transformFlashTwo 10s linear infinite alternate, opacityFlash 4.5s linear infinite;
-  }
-  .ag-flashes-on-stadium_flash__center {
-    -webkit-animation: transformFlash 10s linear infinite alternate, opacityFlashCenter 4.3s linear infinite;
-    animation: transformFlash 10s linear infinite alternate, opacityFlashCenter 4.3s linear infinite;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(2) {
-    top: 1%;
-    left: 2.8%;
-
-    -webkit-animation-delay: 1.1s;
-    animation-delay: 1.1s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(4) {
-    top: 12%;
-    left: 4%;
-
-    -webkit-animation-delay: 1.9s;
-    animation-delay: 1.9s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(3) {
-    top: 7%;
-    left: 1.8%;
-
-    -webkit-animation-delay: 4s;
-    animation-delay: 4s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(5) {
-    top: 11%;
-    left: 8%;
-
-    -webkit-animation-delay: 3.3s;
-    animation-delay: 3.3s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(6) {
-    top: 24%;
-    left: 11.2%;
-
-    -webkit-animation-delay: 6.9s;
-    animation-delay: 6.9s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(7) {
-    top: 28%;
-    left: 15%;
-
-    -webkit-animation-delay: 7.9s;
-    animation-delay: 7.9s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(8) {
-    top: 32%;
-    left: 1.5%;
-
-    -webkit-animation-delay: 7.1s;
-    animation-delay: 7.1s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(9) {
-    top: 37%;
-    left: 6.2%;
-
-    -webkit-animation-delay: 6.4s;
-    animation-delay: 6.4s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(10) {
-    top: 43%;
-    left: 2.1%;
-
-    -webkit-animation-delay: 7.4s;
-    animation-delay: 7.4s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(11) {
-    top: 48%;
-    left: 2.1%;
-
-    -webkit-animation-delay: 7.7s;
-    animation-delay: 7.7s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(12) {
-    top: 54%;
-    left: 9.1%;
-
-    -webkit-animation-delay: 3.2s;
-    animation-delay: 3.2s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(13) {
-    top: 51%;
-    left: 10%;
-
-    -webkit-animation-delay: 8s;
-    animation-delay: 8s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(14) {
-    top: 43%;
-    left: 9.8%;
-
-    -webkit-animation-delay: 8.5s;
-    animation-delay: 8.5s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(15) {
-    top: 46%;
-    left: 13.6%;
-
-    -webkit-animation-delay: 3.5s;
-    animation-delay: 3.5s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(16) {
-    top: 55%;
-    left: 12.3%;
-
-    -webkit-animation-delay: 4.2s;
-    animation-delay: 4.2s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(17) {
-    top: 59%;
-    left: 11.4%;
-
-    -webkit-animation-delay: 7.6s;
-    animation-delay: 7.6s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(18) {
-    top: 62%;
-    left: 16.5%;
-
-    -webkit-animation-delay: 6.3s;
-    animation-delay: 6.3s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(19) {
-    top: 47%;
-    left: 0.1%;
-
-    -webkit-animation-delay: 8.9s;
-    animation-delay: 8.9s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(20) {
-    top: 77%;
-    left: 1.5%;
-
-    -webkit-animation-delay: 8.1s;
-    animation-delay: 8.1s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(21) {
-    top: 77%;
-    left: -0.3%;
-
-    -webkit-animation-delay: 1.8s;
-    animation-delay: 1.8s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(22) {
-    top: 86%;
-    left: 0;
-
-    -webkit-animation-delay: 3.1s;
-    animation-delay: 3.1s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(23) {
-    top: 74%;
-    left: 5%;
-
-    -webkit-animation-delay: 1.2s;
-    animation-delay: 1.2s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(24) {
-    top: 77%;
-    left: 8.5%;
-
-    -webkit-animation-delay: 8.6s;
-    animation-delay: 8.6s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(25) {
-    top: 81%;
-    left: 16.5%;
-
-    -webkit-animation-delay: 7.2s;
-    animation-delay: 7.2s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(26) {
-    top: 88%;
-    left: 13.5%;
-
-    -webkit-animation-delay: 6.2s;
-    animation-delay: 6.2s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(27) {
-    top: 90%;
-    left: 1.5%;
-
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(28) {
-    top: 94%;
-    left: 8.5%;
-
-    -webkit-animation-delay: 4.7s;
-    animation-delay: 4.7s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(29) {
-    top: 85%;
-    left: 4.5%;
-
-    -webkit-animation-delay: 4.4s;
-    animation-delay: 4.4s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(30) {
-    top: 94%;
-    left: 14%;
-
-    -webkit-animation-delay: 6.7s;
-    animation-delay: 6.7s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(31) {
-    top: 94%;
-    left: 15.54%;
-
-    -webkit-animation-delay: 3.7s;
-    animation-delay: 3.7s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(32) {
-    top: 88%;
-    left: 17%;
-
-    -webkit-animation-delay: 7s;
-    animation-delay: 7s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(33) {
-    top: 82%;
-    left: 21.4%;
-
-    -webkit-animation-delay: 3s;
-    animation-delay: 3s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(34) {
-    top: 55%;
-    left: 24%;
-
-    -webkit-animation-delay: 6.1s;
-    animation-delay: 6.1s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(35) {
-    top: 46%;
-    left: 21%;
-
-    -webkit-animation-delay: 8.2s;
-    animation-delay: 8.2s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(36) {
-    top: 62%;
-    left: 21%;
-
-    -webkit-animation-delay: 6.8s;
-    animation-delay: 6.8s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(37) {
-    top: 52%;
-    left: 33%;
-
-    -webkit-animation-delay: 5.6s;
-    animation-delay: 5.6s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(38) {
-    top: 53%;
-    left: 45%;
-
-    -webkit-animation-delay: 4.9s;
-    animation-delay: 4.9s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(39) {
-    top: 48%;
-    left: 41%;
-
-    -webkit-animation-delay: 1.8s;
-    animation-delay: 1.8s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(40) {
-    top: 48%;
-    left: 53%;
-
-    -webkit-animation-delay: 2.4s;
-    animation-delay: 2.4s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(41) {
-    top: 20%;
-    left: 52%;
-
-    -webkit-animation-delay: 1.2s;
-    animation-delay: 1.2s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(42) {
-    top: 24%;
-    left: 42%;
-
-    -webkit-animation-delay: 5.3s;
-    animation-delay: 5.3s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(43) {
-     top: 30%;
-     left: 25%;
-
-     -webkit-animation-delay: 5.8s;
-     animation-delay: 5.8s;
-   }
-  .ag-flashes-on-stadium_flash:nth-child(44) {
-    top: 48%;
-    left: 67%;
-
-    -webkit-animation-delay: 2.9s;
-    animation-delay: 2.9s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(45) {
-    top: 32%;
-    left: 73%;
-
-    -webkit-animation-delay: 3.8s;
-    animation-delay: 3.8s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(46) {
-    top: 31%;
-    left: 68%;
-
-    -webkit-animation-delay: 7.3s;
-    animation-delay: 7.3s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(47) {
-    top: 59%;
-    left: 72%;
-
-    -webkit-animation-delay: 4.6s;
-    animation-delay: 4.6s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(48) {
-    top: 62%;
-    right: 30%;
-
-    -webkit-animation-delay: 8.3s;
-    animation-delay: 8.3s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(49) {
-    top: 87%;
-    right: 30%;
-
-    -webkit-animation-delay: 5.9s;
-    animation-delay: 5.9s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(50) {
-    top: 93%;
-    right: 23.5%;
-
-    -webkit-animation-delay: 2.5s;
-    animation-delay: 2.5s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(51) {
-    top: 57%;
-    right: 20%;
-
-    -webkit-animation-delay: 6.5s;
-    animation-delay: 6.5s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(52) {
-    top: 25%;
-    right: 21%;
-
-    -webkit-animation-delay: 5.4s;
-    animation-delay: 5.4s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(53) {
-    top: 48%;
-    right: 23%;
-
-    -webkit-animation-delay: 5s;
-    animation-delay: 5s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(54) {
-    top: 82%;
-    right: 21%;
-
-    -webkit-animation-delay: 2.1s;
-    animation-delay: 2.1s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(55) {
-    top: 3%;
-    right: 1.2%;
-
-    -webkit-animation-delay: 1.6s;
-    animation-delay: 1.6s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(56) {
-    top: 8%;
-    right: 3%;
-
-    -webkit-animation-delay: 7.85s;
-    animation-delay: 7.85s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(57) {
-    top: 9%;
-    right: 8%;
-
-    -webkit-animation-delay: 5.5s;
-    animation-delay: 5.5s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(58) {
-    top: 20%;
-    right: 13%;
-
-    -webkit-animation-delay: 3.4s;
-    animation-delay: 3.4s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(59) {
-    top: 59%;
-    right: 16%;
-
-    -webkit-animation-delay: 2.8s;
-    animation-delay: 2.8s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(60) {
-    top: 51%;
-    right: 13%;
-
-    -webkit-animation-delay: 1.3s;
-    animation-delay: 1.3s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(61) {
-    top: 20%;
-    right: 7%;
-
-    -webkit-animation-delay: 8.4s;
-    animation-delay: 8.4s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(62) {
-    top: 10%;
-    right: 1%;
-
-    -webkit-animation-delay: 1.5s;
-    animation-delay: 1.5s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(63) {
-    top: 57%;
-    right: 11.5%;
-
-    -webkit-animation-delay: 4.5s;
-    animation-delay: 4.5s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(64) {
-    top: 52%;
-    right: 11%;
-
-    -webkit-animation-delay: 9s;
-    animation-delay: 9s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(65) {
-    top: 54%;
-    right: 8.5%;
-
-    -webkit-animation-delay: 3.9s;
-    animation-delay: 3.9s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(66) {
-    top: 51%;
-    right: 5%;
-
-    -webkit-animation-delay: 8.7s;
-    animation-delay: 8.7s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(67) {
-    top: 87%;
-    right: 16%;
-
-    -webkit-animation-delay: 2.6s;
-    animation-delay: 2.6s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(68) {
-    top: 81%;
-    right: 16.5%;
-
-    -webkit-animation-delay: 7.5s;
-    animation-delay: 7.5s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(69) {
-    top: 94%;
-    right: 15%;
-
-    -webkit-animation-delay: 6s;
-    animation-delay: 6s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(70) {
-    top: 88%;
-    right: 10%;
-
-    -webkit-animation-delay: 6.6s;
-    animation-delay: 6.6s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(71) {
-    top: 81%;
-    right: 10.6%;
-
-    -webkit-animation-delay: 4.1s;
-    animation-delay: 4.1s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(72) {
-    top: 78%;
-    right: 8%;
-
-    -webkit-animation-delay: 5.1s;
-    animation-delay: 5.1s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(73) {
-    top: 93%;
-    right: 4%;
-
-    -webkit-animation-delay: 2.3s;
-    animation-delay: 2.3s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(74) {
-    top: 86%;
-    right: 0;
-
-    -webkit-animation-delay: 3.6s;
-    animation-delay: 3.6s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(75) {
-    top: 76%;
-    right: -.5%;
-
-    -webkit-animation-delay: 5.7s;
-    animation-delay: 5.7s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(76) {
-    top: 76%;
-    right: 4.5%;
-
-    -webkit-animation-delay: 1.7s;
-    animation-delay: 1.7s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(77) {
-    top: 77%;
-    right: 1.5%;
-
-    -webkit-animation-delay: 1.4s;
-    animation-delay: 1.4s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(78) {
-    top: 86%;
-    right: 5%;
-
-    -webkit-animation-delay: 4.2s;
-    animation-delay: 4.2s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(79) {
-    top: 90%;
-    right: 6%;
-
-    -webkit-animation-delay: 4.3s;
-    animation-delay: 4.3s;
-  }
-  .ag-flashes-on-stadium_flash:nth-child(80) {
-    top: 90%;
-    right: 1.8%;
-    
-    -webkit-animation-delay: 2.7s;
-    animation-delay: 2.7s;
-  }
-
-  @-webkit-keyframes transformFlash {
-    0% {
-      -webkit-transform: scale(.6) translate(0%,0%);
-      transform: scale(.6) translate(0%,0%);
-    }
-    100% {
-      -webkit-transform: scale(.8) translate(50%,-20%);
-      transform: scale(.8) translate(50%,-20%);
-    }
-  }
-  @keyframes transformFlash {
-    0% {
-      -webkit-transform: scale(.6) translate(0%,0%);
-      transform: scale(.6) translate(0%,0%);
-    }
-    100% {
-      -webkit-transform: scale(.8) translate(50%,-20%);
-      transform: scale(.8) translate(50%,-20%);
-    }
-  }
-
-  @-webkit-keyframes transformFlashTwo {
-    0% {
-      -webkit-transform: scale(.6) translate(0%,0%);
-      transform: scale(.6) translate(0%,0%);
-    }
-    100% {
-      -webkit-transform: scale(1) translate(50%,-20%);
-      transform: scale(1) translate(50%,-20%);
-    }
-  }
-  @keyframes transformFlashTwo {
-    0% {
-      -webkit-transform: scale(.6) translate(0%,0%);
-      transform: scale(.6) translate(0%,0%);
-    }
-    100% {
-      -webkit-transform: scale(.9) translate(50%,-20%);
-      transform: scale(.9) translate(50%,-20%);
-    }
-  }
-
-  @-webkit-keyframes opacityFlash {
-    1%,2% {
-      opacity: 1;
-    }
-    0%, 3%,100% {
-      opacity: 0;
-    }
-  }
-  @keyframes opacityFlash {
-    1%,2% {
-      opacity: 1;
-    }
-    0%, 3%,100% {
-      opacity: 0;
-    }
-  }
-
-  @-webkit-keyframes opacityFlashCenter {
-    1%,2% {
-      opacity: .5;
-
-      -webkit-transform: scale(.8);
-      transform: scale(.8);
-    }
-    0%, 3%,100% {
-      opacity: 0;
-
-      -webkit-transform: scale(.5);
-      transform: scale(.5);
-    }
-  }
-  @keyframes opacityFlashCenter {
-    1%,2% {
-      opacity: .5;
-
-      -webkit-transform: scale(.8);
-      transform: scale(.8);
-    }
-    0%, 3%,100% {
-      opacity: 0;
-
-      -webkit-transform: scale(.5);
-      transform: scale(.5);
-    }
-  }
-</style>
-
 <div class="ag-flashes-on-stadium">
   <div class="ag-format-container">
     <div class="ag-flashes-on-stadium_box">
@@ -719,86 +28,70 @@
       <div class="ag-flashes-on-stadium_flash"></div>
       <div class="ag-flashes-on-stadium_flash"></div>
       <div class="ag-flashes-on-stadium_flash"></div>
-
-
-
-
-
-
-
-    <!--
-
-
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash__center">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">
-      <img src="https://v2l.cdnsfree.com/default/img/promotions_images/headless-football/flash1.png" class="ag-flashes-on-stadium_flash">-->
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash__center"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
+      <div class="ag-flashes-on-stadium_flash"></div>
     </div>
   </div>
 </div>
