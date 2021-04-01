@@ -4,6 +4,70 @@
 }
 
 
+.ag-ball {
+  height: 159px;
+  width: 159px;
+  margin: 50px auto;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/spin-ball/images/ball.png) no-repeat scroll 50% 50% #DDDCDE;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-animation: an-spin linear 1.45s infinite;
+  -moz-animation: an-spin linear 1.45s infinite;
+  -o-animation: an-spin linear 1.45s infinite;
+  animation: an-spin linear 1.45s infinite;
+}
+
+@-webkit-keyframes an-spin {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes an-spin {
+  0% {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    transform: rotate(0)
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes an-spin {
+  0% {
+    -webkit-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0)
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes an-spin {
+  0% {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0)
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 
 
 @media only screen and (max-width: 767px) {

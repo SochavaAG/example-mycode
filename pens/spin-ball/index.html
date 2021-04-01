@@ -19,46 +19,8 @@
 </head>
 
 <body>
-<style>
-  .wcup-action__ball {
-    background-size:cover;
-    background-position:50% 50%;
-    background-repeat:no-repeat;
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/spin-ball/images/ball.png)
-  }
-  .wcup-action__ball.active {
-    -webkit-animation:rotate linear 1.45s infinite;
-    animation:rotate linear 1.45s infinite
-  }
-  @-webkit-keyframes rotate {
-    0% {
-      -webkit-transform:rotate(0);
-      transform:rotate(0)
-    }
-    100% {
-      -webkit-transform:rotate(360deg);
-      transform:rotate(360deg)
-    }
-  }
-  @keyframes rotate {
-    0% {
-      -webkit-transform:rotate(0);
-      transform:rotate(0)
-    }
-    100% {
-      -webkit-transform:rotate(360deg);
-      transform:rotate(360deg)
-    }
-  }
-</style>
-
   <div class="ag-format-container">
-    <div class="wcup-action__ball active"></div>
+    <div class="ag-ball"></div>
   </div>
 
 <!--[if lt IE 9]>
