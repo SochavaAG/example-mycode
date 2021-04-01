@@ -537,6 +537,56 @@ body {
 }
 /* /sheep-lock */
 
+/* sheep-lock-revers */
+.ag-sheep-lock-revers {
+  display: inline-block;
+  height: 167px;
+  width: 140px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sheep-lock-revers.png) no-repeat 0 0;
+
+  -webkit-animation: an-sheep-lock-revers 1s steps(3) infinite;
+  -moz-animation: an-sheep-lock-revers 1s steps(3) infinite;
+  -o-animation: an-sheep-lock-revers 1s steps(3) infinite;
+  animation: an-sheep-lock-revers 1s steps(3) infinite;
+}
+
+@-webkit-keyframes an-sheep-lock-revers {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-moz-keyframes an-sheep-lock-revers {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-o-keyframes an-sheep-lock-revers {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes an-sheep-lock-revers {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+/* /sheep-lock-revers */
+
 /* sheep-yes */
 .ag-sheep-yes {
   display: inline-block;
