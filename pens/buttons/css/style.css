@@ -4921,28 +4921,20 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 
 /* button 76 */
 .ag-base_btn-v76 {
-  background-color: #0CFFFF;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-76.png) no-repeat 95% 0,
+  linear-gradient(to bottom, #21ccf4 0%, #329de0 100%);
 
-  color: #000;
+  color: #3b4c8b;
 
-  -webkit-box-shadow: inset 0 0 .375em .125em #08a9a9;
-  -moz-box-shadow: inset 0 0 .375em .125em #08a9a9;
-  -o-box-shadow: inset 0 0 .375em .125em #08a9a9;
-  box-shadow: inset 0 0 .375em .125em #08a9a9;
-
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  border-radius: 30px;
-
-  -webkit-transition: background-color .5s .1s ease;
-  -moz-transition: background-color .5s .1s ease;
-  -o-transition: background-color .5s .1s ease;
-  transition: background-color .5s .1s ease;
+  -webkit-border-radius: 1.0625em;
+  -moz-border-radius: 1.0625em;
+  border-radius: 1.0625em;
 }
 .ag-base_btn-v76:hover {
-  background-color: #ff5b1a;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-76.png) no-repeat 95% 0,
+  linear-gradient(to bottom, #e2b314 0%, #fcee21 100%);
 
-  color: #FFF;
+  color: #3b4c8b;
 }
 /* /button 75 */
 
