@@ -21,6 +21,101 @@
 </head>
 
 <body>
+<style>
+  .lottery-btn-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: -67px;
+  }
+  .lottery-btn {
+    position: relative;
+    width: 280px;
+    display: inline-block;
+    padding: 23px 15px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    background: rgba(26,188,156,1);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(26,188,156,1)), color-stop(100%, rgba(5,118,230,1)));
+    background: -o-linear-gradient(left, rgba(26,188,156,1) 0%, rgba(5,118,230,1) 100%);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(26,188,156,1)), to(rgba(5,118,230,1)));
+    background: linear-gradient(to right, rgba(26,188,156,1) 0%, rgba(5,118,230,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1abc9c', endColorstr='#0576e6', GradientType=1 );
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 10px 56px 0px rgba(0, 0, 0, .3);
+    box-shadow: 0px 10px 56px 0px rgba(0, 0, 0, .3);
+    z-index: 1;
+  }
+  .lottery-btn  span {
+    position: relative;
+    z-index: 1;
+  }
+  .lottery-btn-anim:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-bg.png) -20px -34px no-repeat;
+    z-index: -1;
+    -webkit-transition: transform .3s linear;
+    -o-transition: transform .3s linear;
+    -webkit-transition: -webkit-transform .3s linear;
+    transition: -webkit-transform .3s linear;
+    transition: transform .3s linear;
+    transition: transform .3s linear, -webkit-transform .3s linear;
+    -webkit-animation: btnAnim 3s linear infinite;
+    animation: btnAnim 3s linear infinite;
+    will-change: transform;
+  }
+
+  @-webkit-keyframes btnAnim {
+    30% {
+      width: 0;
+    }
+    0%,60%,100% {
+      width: 100%;
+    }
+  }
+
+  @keyframes btnAnim {
+    30% {
+      width: 0;
+    }
+    0%,60%,100% {
+      width: 100%;
+    }
+  }
+
+  .lottery-btn-anim:hover:before {
+    -webkit-animation: none;
+    animation: none;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+</style>
+
+    <div class="ag-base-block">
+      <a class="lottery-btn lottery-btn-anim"><span>Place a bet</span></a>
+    </div>
+
   <div class="ag-format-container">
     <div class="ag-base-block">
       <a href="#link-81" class="ag-base_btn ag-base_btn-v81">Button 81</a>

@@ -60,7 +60,6 @@ body {
   0% {
     opacity: 0;
 
-    -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     transform: translateX(0);
   }
@@ -70,7 +69,6 @@ body {
   100% {
     opacity: 0;
 
-    -webkit-transform: translateX(150%);
     -moz-transform: translateX(150%);
     transform: translateX(150%);
   }
@@ -79,7 +77,6 @@ body {
   0% {
     opacity: 0;
 
-    -webkit-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
   }
@@ -89,7 +86,6 @@ body {
   100% {
     opacity: 0;
 
-    -webkit-transform: translateX(150%);
     -o-transform: translateX(150%);
     transform: translateX(150%);
   }
@@ -146,7 +142,6 @@ body {
   0% {
     opacity: 0;
 
-    -webkit-transform: translateX(0);
     -moz-transform: translateX(0);
     transform: translateX(0);
   }
@@ -156,7 +151,6 @@ body {
   100% {
     opacity: 0;
 
-    -webkit-transform: translateX(-150%);
     -moz-transform: translateX(-150%);
     transform: translateX(-150%);
   }
@@ -165,7 +159,6 @@ body {
   0% {
     opacity: 0;
 
-    -webkit-transform: translateX(0);
     -o-transform: translateX(0);
     transform: translateX(0);
   }
@@ -175,7 +168,6 @@ body {
   100% {
     opacity: 0;
 
-    -webkit-transform: translateX(-150%);
     -o-transform: translateX(-150%);
     transform: translateX(-150%);
   }
