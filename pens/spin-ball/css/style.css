@@ -3,16 +3,32 @@
   margin: 0 auto;
 }
 
+html, body {
+  height: 100%;
+}
 .ag-ball-block {
+  height: 100%;
+  padding: 50px 0;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/spin-ball/images/bg.jpg) no-repeat scroll 50% 0;
   background-size: cover;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  position: relative;
  }
 
 .ag-ball {
   height: 159px;
   width: 159px;
-  margin: 50px auto;
+  margin: 0 auto;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/spin-ball/images/ball.png) no-repeat scroll 50% 50% #DDDCDE;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
 
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
