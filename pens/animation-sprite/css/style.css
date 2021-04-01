@@ -687,6 +687,256 @@ body {
 }
 /* /sheep-no */
 
+/* ufo */
+.ag-ufo {
+  display: inline-block;
+  height: 412px;
+  width: 248px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/ufo.png) no-repeat 0 0;
+
+  -webkit-animation: an-ufo 1s steps(6) infinite;
+  -moz-animation: an-ufo 1s steps(6) infinite;
+  -o-animation: an-ufo 1s steps(6) infinite;
+  animation: an-ufo 1s steps(6) infinite;
+}
+
+@-webkit-keyframes an-ufo {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-moz-keyframes an-ufo {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-o-keyframes an-ufo {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes an-ufo {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+/* /ufo */
+
+/* ufo-light */
+.ag-ufo-light {
+  display: inline-block;
+  height: 412px;
+  width: 248px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/ufo-light.png) no-repeat 0 0;
+
+  -webkit-animation: an-ufo-light 1s steps(6) infinite;
+  -moz-animation: an-ufo-light 1s steps(6) infinite;
+  -o-animation: an-ufo-light 1s steps(6) infinite;
+  animation: an-ufo-light 1s steps(6) infinite;
+}
+
+@-webkit-keyframes an-ufo-light {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-moz-keyframes an-ufo-light {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-o-keyframes an-ufo-light {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes an-ufo-light {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+/* /ufo-light */
+
+/* ufo-yes */
+.ag-ufo-yes {
+  display: inline-block;
+  height: 412px;
+  width: 248px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/ufo-yes.png) no-repeat 0 0;
+
+  -webkit-animation: an-ufo-yes 1s steps(6) infinite;
+  -moz-animation: an-ufo-yes 1s steps(6) infinite;
+  -o-animation: an-ufo-yes 1s steps(6) infinite;
+  animation: an-ufo-yes 1s steps(6) infinite;
+}
+
+@-webkit-keyframes an-ufo-yes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-moz-keyframes an-ufo-yes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-o-keyframes an-ufo-yes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes an-ufo-yes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+/* /ufo-yes */
+
+/* ufo-no */
+.ag-ufo-no {
+  display: inline-block;
+  height: 412px;
+  width: 248px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/ufo-no.png) no-repeat 0 0;
+
+  -webkit-animation: an-ufo-no 1s steps(6) infinite;
+  -moz-animation: an-ufo-no 1s steps(6) infinite;
+  -o-animation: an-ufo-no 1s steps(6) infinite;
+  animation: an-ufo-no 1s steps(6) infinite;
+}
+
+@-webkit-keyframes an-ufo-no {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-moz-keyframes an-ufo-no {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-o-keyframes an-ufo-no {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes an-ufo-no {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+/* /ufo-no */
+
+/* ufo-view */
+.ag-ufo-view {
+  display: inline-block;
+  height: 412px;
+  width: 248px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/ufo-view.png) no-repeat 0 0;
+
+  -webkit-animation: an-ufo-view 1s steps(6) infinite;
+  -moz-animation: an-ufo-view 1s steps(6) infinite;
+  -o-animation: an-ufo-view 1s steps(6) infinite;
+  animation: an-ufo-view 1s steps(6) infinite;
+}
+
+@-webkit-keyframes an-ufo-view {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-moz-keyframes an-ufo-view {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@-o-keyframes an-ufo-view {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes an-ufo-view {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+/* /ufo-view */
+
 /* wolf */
 .ag-wolf {
   display: inline-block;
