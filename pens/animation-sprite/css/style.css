@@ -684,6 +684,102 @@ body {
 }
 /* /blink */
 
+/* btn-blue */
+.ag-btn-blue {
+  display: inline-block;
+  height: 248px;
+  width: 270px;
+  margin: 0 0 0 100px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/btn-sprite.png) no-repeat scroll 0 0;
+
+  -webkit-animation: an-btn-blue 1s steps(3) infinite;
+  -moz-animation: an-btn-blue 1s steps(3) infinite;
+  -o-animation: an-btn-blue 1s steps(3) infinite;
+  animation: an-btn-blue 1s steps(3) infinite;
+}
+
+@-webkit-keyframes an-btn-blue {
+  0% {
+    background-position: -270px 0;
+  }
+  100% {
+    background-position: -270px 100%;
+  }
+}
+@-moz-keyframes an-btn-blue {
+  0% {
+    background-position: -270px 0;
+  }
+  100% {
+    background-position: -270px 100%;
+  }
+}
+@-o-keyframes an-btn-blue {
+  0% {
+    background-position: -270px 0;
+  }
+  100% {
+    background-position: -270px 100%;
+  }
+}
+@keyframes an-btn-blue {
+  0% {
+    background-position: -270px 0;
+  }
+  100% {
+    background-position: -270px 100%;
+  }
+}
+/* btn-blue */
+
+/* btn-red */
+.ag-btn-red {
+  display: inline-block;
+  height: 248px;
+  width: 270px;
+  margin: 0 0 0 100px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/btn-sprite.png) no-repeat scroll 0 0;
+
+  -webkit-animation: an-btn-red .5s steps(3) infinite;
+  -moz-animation: an-btn-red .5s steps(3) infinite;
+  -o-animation: an-btn-red .5s steps(3) infinite;
+  animation: an-btn-red .5s steps(3) infinite;
+}
+
+@-webkit-keyframes an-btn-red {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-moz-keyframes an-btn-red {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-o-keyframes an-btn-red {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@keyframes an-btn-red {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+/* btn-red */
+
 /* sheep */
 .ag-sheep {
   display: inline-block;
