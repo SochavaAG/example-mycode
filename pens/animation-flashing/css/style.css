@@ -744,6 +744,7 @@ body {
     opacity: 1;
   }
 }
+
 /* /illumination */
 .ag-slots {
   height: 838px;
@@ -771,10 +772,10 @@ body {
   -moz-box-shadow: 0 40px 50px 25px #ff5200;
   box-shadow: 0 40px 50px 25px #ff5200;
 
-  -webkit-animation: illumination-1 1.5s ease infinite;
-  -moz-animation: illumination-1 1.5s ease infinite;
-  -o-animation: illumination-1 1.5s ease infinite;
-  animation: illumination-1 1.5s ease infinite;
+  -webkit-animation: an-illumination-1 1.5s ease infinite;
+  -moz-animation: an-illumination-1 1.5s ease infinite;
+  -o-animation: an-illumination-1 1.5s ease infinite;
+  animation: an-illumination-1 1.5s ease infinite;
 }
 .ag-slot_illumination-2 {
   position: absolute;
@@ -791,10 +792,10 @@ body {
   -moz-box-shadow: 4px 40px 50px 25px #ff5200;
   box-shadow: 4px 40px 50px 25px #ff5200;
 
-  -webkit-animation: illumination-2 2.5s ease infinite;
-  -moz-animation: illumination-2 2.5s ease infinite;
-  -o-animation: illumination-2 2.5s ease infinite;
-  animation: illumination-2 2.5s ease infinite;
+  -webkit-animation: an-illumination-2 2.5s ease infinite;
+  -moz-animation: an-illumination-2 2.5s ease infinite;
+  -o-animation: an-illumination-2 2.5s ease infinite;
+  animation: an-illumination-2 2.5s ease infinite;
 }
 .ag-slot_illumination-3 {
   position: absolute;
@@ -811,13 +812,13 @@ body {
   -moz-box-shadow: -8px 40px 50px 25px #ff5200;
   box-shadow: -8px 40px 50px 25px #ff5200;
 
-  -webkit-animation: illumination-3 2s ease infinite;
-  -moz-animation: illumination-3 2s ease infinite;
-  -o-animation: illumination-3 2s ease infinite;
-  animation: illumination-3 2s ease infinite;
+  -webkit-animation: an-illumination-3 2s ease infinite;
+  -moz-animation: an-illumination-3 2s ease infinite;
+  -o-animation: an-illumination-3 2s ease infinite;
+  animation: an-illumination-3 2s ease infinite;
 }
 
-@-webkit-keyframes illumination-1 {
+@-webkit-keyframes an-illumination-1 {
   0% {
     opacity: 1;
   }
@@ -834,7 +835,7 @@ body {
     opacity: 1;
   }
 }
-@-moz-keyframes illumination-1 {
+@-moz-keyframes an-illumination-1 {
   0% {
     opacity: 1;
   }
@@ -851,7 +852,7 @@ body {
     opacity: 1;
   }
 }
-@-o-keyframes illumination-1 {
+@-o-keyframes an-illumination-1 {
   0% {
     opacity: 1;
   }
@@ -868,7 +869,7 @@ body {
     opacity: 1;
   }
 }
-@keyframes illumination-1 {
+@keyframes an-illumination-1 {
   0% {
     opacity: 1;
   }
@@ -883,79 +884,79 @@ body {
   }
   to {
     opacity: 1;
-  }
-}
-
-@-webkit-keyframes illumination-2 {
-  0% {
-    opacity: .6;
-  }
-  25% {
-    opacity: 1;
-  }
-  50% {
-    opacity: .3;
-  }
-  75% {
-    opacity: 1;
-  }
-  to {
-    opacity: .6;
-  }
-}
-@-moz-keyframes illumination-2 {
-  0% {
-    opacity: .6;
-  }
-  25% {
-    opacity: 1;
-  }
-  50% {
-    opacity: .3;
-  }
-  75% {
-    opacity: 1;
-  }
-  to {
-    opacity: .6;
-  }
-}
-@-o-keyframes illumination-2 {
-  0% {
-    opacity: .6;
-  }
-  25% {
-    opacity: 1;
-  }
-  50% {
-    opacity: .3;
-  }
-  75% {
-    opacity: 1;
-  }
-  to {
-    opacity: .6;
-  }
-}
-@keyframes illumination-2 {
-  0% {
-    opacity: .6;
-  }
-  25% {
-    opacity: 1;
-  }
-  50% {
-    opacity: .3;
-  }
-  75% {
-    opacity: 1;
-  }
-  to {
-    opacity: .6;
   }
 }
 
-@-webkit-keyframes illumination-3 {
+@-webkit-keyframes an-illumination-2 {
+  0% {
+    opacity: .6;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .3;
+  }
+  75% {
+    opacity: 1;
+  }
+  to {
+    opacity: .6;
+  }
+}
+@-moz-keyframes an-illumination-2 {
+  0% {
+    opacity: .6;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .3;
+  }
+  75% {
+    opacity: 1;
+  }
+  to {
+    opacity: .6;
+  }
+}
+@-o-keyframes an-illumination-2 {
+  0% {
+    opacity: .6;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .3;
+  }
+  75% {
+    opacity: 1;
+  }
+  to {
+    opacity: .6;
+  }
+}
+@keyframes an-illumination-2 {
+  0% {
+    opacity: .6;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .3;
+  }
+  75% {
+    opacity: 1;
+  }
+  to {
+    opacity: .6;
+  }
+}
+
+@-webkit-keyframes an-illumination-3 {
   0% {
     opacity: .6;
   }
@@ -972,7 +973,7 @@ body {
     opacity: .6;
   }
 }
-@-moz-keyframes illumination-3 {
+@-moz-keyframes an-illumination-3 {
   0% {
     opacity: .6;
   }
@@ -989,7 +990,7 @@ body {
     opacity: .6;
   }
 }
-@-o-keyframes illumination-3 {
+@-o-keyframes an-illumination-3 {
   0% {
     opacity: .6;
   }
@@ -1006,7 +1007,7 @@ body {
     opacity: .6;
   }
 }
-@keyframes illumination-3 {
+@keyframes an-illumination-3 {
   0% {
     opacity: .6;
   }
@@ -1023,7 +1024,154 @@ body {
     opacity: .6;
   }
 }
-/* /slots */
+/* /illumination */
+
+/* barricade-blinker */
+.ag-barricade-blinker {
+  height: 315px;
+  width: 347px;
+  margin: 50px 0;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-flashing/images/barricade.png);
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+
+  position: relative;
+}
+.ag-barricade-blinker_lamp__left {
+  height: 43px;
+  width: 43px;
+
+  overflow: hidden;
+
+  position: absolute;
+  top: 10px;
+  left: 44px;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.ag-barricade-blinker_lamp__left:before {
+  content: "";
+  height: 42px;
+  width: 42px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(252, 252, 252, 0.01)), color-stop(45%, rgba(252, 252, 252, 0.05)), color-stop(49%, rgba(252, 252, 252, 0.07)), color-stop(50%, rgba(252, 252, 252, 0.15)), color-stop(55%, rgba(252, 252, 252, 0.07)), to(rgba(252, 252, 252, 0.01))), -webkit-gradient(linear, left top, right top, from(rgba(252, 252, 252, 0.01)), color-stop(45%, rgba(252, 252, 252, 0.05)), color-stop(49%, rgba(252, 252, 252, 0.07)), color-stop(50%, rgba(252, 252, 252, 0.15)), color-stop(55%, rgba(252, 252, 252, 0.07)), to(rgba(252, 252, 252, 0))), radial-gradient(rgba(252, 252, 252, 0.3) 10%, rgba(252, 252, 252, 0.15) 40%, rgba(252, 252, 252, 0.05));
+  background-image: -webkit-linear-gradient(rgba(252, 252, 252, 0.01), rgba(252, 252, 252, 0.05) 45%, rgba(252, 252, 252, 0.07) 49%, rgba(252, 252, 252, 0.15) 50%, rgba(252, 252, 252, 0.07) 55%, rgba(252, 252, 252, 0.01)), -webkit-linear-gradient(left, rgba(252, 252, 252, 0.01), rgba(252, 252, 252, 0.05) 45%, rgba(252, 252, 252, 0.07) 49%, rgba(252, 252, 252, 0.15) 50%, rgba(252, 252, 252, 0.07) 55%, rgba(252, 252, 252, 0)), -webkit-radial-gradient(rgba(252, 252, 252, 0.3) 10%, rgba(252, 252, 252, 0.15) 40%, rgba(252, 252, 252, 0.05));
+  background-image: -moz-linear-gradient(rgba(252, 252, 252, 0.01), rgba(252, 252, 252, 0.05) 45%, rgba(252, 252, 252, 0.07) 49%, rgba(252, 252, 252, 0.15) 50%, rgba(252, 252, 252, 0.07) 55%, rgba(252, 252, 252, 0.01)), -moz-linear-gradient(left, rgba(252, 252, 252, 0.01), rgba(252, 252, 252, 0.05) 45%, rgba(252, 252, 252, 0.07) 49%, rgba(252, 252, 252, 0.15) 50%, rgba(252, 252, 252, 0.07) 55%, rgba(252, 252, 252, 0)), -moz-radial-gradient(rgba(252, 252, 252, 0.3) 10%, rgba(252, 252, 252, 0.15) 40%, rgba(252, 252, 252, 0.05));
+  background-image: -o-linear-gradient(rgba(252, 252, 252, 0.01), rgba(252, 252, 252, 0.05) 45%, rgba(252, 252, 252, 0.07) 49%, rgba(252, 252, 252, 0.15) 50%, rgba(252, 252, 252, 0.07) 55%, rgba(252, 252, 252, 0.01)), -o-linear-gradient(left, rgba(252, 252, 252, 0.01), rgba(252, 252, 252, 0.05) 45%, rgba(252, 252, 252, 0.07) 49%, rgba(252, 252, 252, 0.15) 50%, rgba(252, 252, 252, 0.07) 55%, rgba(252, 252, 252, 0)), -o-radial-gradient(rgba(252, 252, 252, 0.3) 10%, rgba(252, 252, 252, 0.15) 40%, rgba(252, 252, 252, 0.05));
+  background-image: linear-gradient(rgba(252, 252, 252, 0.01), rgba(252, 252, 252, 0.05) 45%, rgba(252, 252, 252, 0.07) 49%, rgba(252, 252, 252, 0.15) 50%, rgba(252, 252, 252, 0.07) 55%, rgba(252, 252, 252, 0.01)), linear-gradient(90deg, rgba(252, 252, 252, 0.01), rgba(252, 252, 252, 0.05) 45%, rgba(252, 252, 252, 0.07) 49%, rgba(252, 252, 252, 0.15) 50%, rgba(252, 252, 252, 0.07) 55%, rgba(252, 252, 252, 0)), radial-gradient(rgba(252, 252, 252, 0.3) 10%, rgba(252, 252, 252, 0.15) 40%, rgba(252, 252, 252, 0.05));
+
+  position: absolute;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-animation: an-blinker 3s infinite linear;
+  -moz-animation: an-blinker 3s infinite linear;
+  -o-animation: an-blinker 3s infinite linear;
+  animation: an-blinker 3s infinite linear;
+}
+.ag-barricade-blinker_lamp__right {
+  height: 43px;
+  width: 43px;
+
+  overflow: hidden;
+
+  position: absolute;
+  top: 3px;
+  right: 56px;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.ag-barricade-blinker_lamp__right:before {
+  content: "";
+  height: 42px;
+  width: 42px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(252, 252, 252, 0.01)), color-stop(45%, rgba(252, 252, 252, 0.05)), color-stop(49%, rgba(252, 252, 252, 0.07)), color-stop(50%, rgba(252, 252, 252, 0.15)), color-stop(55%, rgba(252, 252, 252, 0.07)), to(rgba(252, 252, 252, 0.01))), -webkit-gradient(linear, left top, right top, from(rgba(252, 252, 252, 0.01)), color-stop(45%, rgba(252, 252, 252, 0.05)), color-stop(49%, rgba(252, 252, 252, 0.07)), color-stop(50%, rgba(252, 252, 252, 0.15)), color-stop(55%, rgba(252, 252, 252, 0.07)), to(rgba(252, 252, 252, 0))), radial-gradient(rgba(252, 252, 252, 0.3) 10%, rgba(252, 252, 252, 0.15) 40%, rgba(252, 252, 252, 0.05));
+  background-image: -webkit-linear-gradient(rgba(252, 252, 252, 0.01), rgba(252, 252, 252, 0.05) 45%, rgba(252, 252, 252, 0.07) 49%, rgba(252, 252, 252, 0.15) 50%, rgba(252, 252, 252, 0.07) 55%, rgba(252, 252, 252, 0.01)), -webkit-linear-gradient(left, rgba(252, 252, 252, 0.01), rgba(252, 252, 252, 0.05) 45%, rgba(252, 252, 252, 0.07) 49%, rgba(252, 252, 252, 0.15) 50%, rgba(252, 252, 252, 0.07) 55%, rgba(252, 252, 252, 0)), -webkit-radial-gradient(rgba(252, 252, 252, 0.3) 10%, rgba(252, 252, 252, 0.15) 40%, rgba(252, 252, 252, 0.05));
+  background-image: -moz-linear-gradient(rgba(252, 252, 252, 0.01), rgba(252, 252, 252, 0.05) 45%, rgba(252, 252, 252, 0.07) 49%, rgba(252, 252, 252, 0.15) 50%, rgba(252, 252, 252, 0.07) 55%, rgba(252, 252, 252, 0.01)), -moz-linear-gradient(left, rgba(252, 252, 252, 0.01), rgba(252, 252, 252, 0.05) 45%, rgba(252, 252, 252, 0.07) 49%, rgba(252, 252, 252, 0.15) 50%, rgba(252, 252, 252, 0.07) 55%, rgba(252, 252, 252, 0)), -moz-radial-gradient(rgba(252, 252, 252, 0.3) 10%, rgba(252, 252, 252, 0.15) 40%, rgba(252, 252, 252, 0.05));
+  background-image: -o-linear-gradient(rgba(252, 252, 252, 0.01), rgba(252, 252, 252, 0.05) 45%, rgba(252, 252, 252, 0.07) 49%, rgba(252, 252, 252, 0.15) 50%, rgba(252, 252, 252, 0.07) 55%, rgba(252, 252, 252, 0.01)), -o-linear-gradient(left, rgba(252, 252, 252, 0.01), rgba(252, 252, 252, 0.05) 45%, rgba(252, 252, 252, 0.07) 49%, rgba(252, 252, 252, 0.15) 50%, rgba(252, 252, 252, 0.07) 55%, rgba(252, 252, 252, 0)), -o-radial-gradient(rgba(252, 252, 252, 0.3) 10%, rgba(252, 252, 252, 0.15) 40%, rgba(252, 252, 252, 0.05));
+  background-image: linear-gradient(rgba(252, 252, 252, 0.01), rgba(252, 252, 252, 0.05) 45%, rgba(252, 252, 252, 0.07) 49%, rgba(252, 252, 252, 0.15) 50%, rgba(252, 252, 252, 0.07) 55%, rgba(252, 252, 252, 0.01)), linear-gradient(90deg, rgba(252, 252, 252, 0.01), rgba(252, 252, 252, 0.05) 45%, rgba(252, 252, 252, 0.07) 49%, rgba(252, 252, 252, 0.15) 50%, rgba(252, 252, 252, 0.07) 55%, rgba(252, 252, 252, 0)), radial-gradient(rgba(252, 252, 252, 0.3) 10%, rgba(252, 252, 252, 0.15) 40%, rgba(252, 252, 252, 0.05));
+
+  position: absolute;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-animation: an-blinker 3s infinite linear;
+  -moz-animation: an-blinker 3s infinite linear;
+  -o-animation: an-blinker 3s infinite linear;
+  animation: an-blinker 3s infinite linear;
+}
+
+@-webkit-keyframes an-blinker {
+  0% {
+    opacity:.2;
+
+    right:60px;
+  }
+  50% {
+    opacity:.8;
+  }
+  to {
+    opacity:.2;
+
+    right:-40px;
+  }
+}
+@-moz-keyframes an-blinker {
+  0% {
+    opacity:.2;
+
+    right:60px;
+  }
+  50% {
+    opacity:.8;
+  }
+  to {
+    opacity:.2;
+
+    right:-40px;
+  }
+}
+@-o-keyframes an-blinker {
+  0% {
+    opacity:.2;
+
+    right:60px;
+  }
+  50% {
+    opacity:.8;
+  }
+  to {
+    opacity:.2;
+
+    right:-40px;
+  }
+}
+@keyframes an-blinker {
+  0% {
+    opacity:.2;
+
+    right:60px;
+  }
+  50% {
+    opacity:.8;
+  }
+  to {
+    opacity:.2;
+
+    right:-40px;
+  }
+}
+/* /barricade-blinker */
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
