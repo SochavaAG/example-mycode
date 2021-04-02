@@ -40,8 +40,8 @@
       <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-t.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="1321" column="60" lean-forward="false" selection-start-line="1321" selection-start-column="18" selection-end-line="1321" selection-end-column="60" />
+            <state relative-caret-position="423">
+              <caret line="279" column="1" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="279" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -69,11 +69,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hero/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="60" column="3" lean-forward="true" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+            <state relative-caret-position="515">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hero/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1923">
+              <caret line="88" column="18" lean-forward="false" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -83,8 +93,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>TEXTURE_CUBE_MAP_POSITIVE_X</find>
-      <find>canvas</find>
       <find>u(</find>
       <find>texImage2D</find>
       <find>contest-2021</find>
@@ -111,11 +119,12 @@
       <find>steps-sprite</find>
       <find>characters-left@1x.png</find>
       <find>to-hos__rays</find>
-      <find>data-item=&quot;p</find>
       <find>btn-red</find>
+      <find>data-item=&quot;p</find>
+      <find>character-change-1</find>
+      <find>to-hos__character</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-paper_img</replace>
       <replace>ag-paper_trigger&quot;</replace>
       <replace>&lt;i class=&quot;ag-review-user_avatar ag-review-user_avatar-0&quot;&gt;&lt;/i&gt;</replace>
       <replace>../images/</replace>
@@ -142,9 +151,10 @@
       <replace>btn-red</replace>
       <replace>an-fog</replace>
       <replace>an-candle</replace>
-      <replace>an-ball-rotate</replace>
-      <replace>an-flag</replace>
       <replace>btn-blue</replace>
+      <replace>an-flag</replace>
+      <replace>an-ball-rotate</replace>
+      <replace>ag-character</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -158,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project-1/2020.08.12_pages_root/root-ES.html" />
         <option value="$USER_HOME$/vazhno_project-1/2020.08.12_pages_root/root-AR.html" />
         <option value="$USER_HOME$/vazhno_project-1/2020.08.12_pages_root/root-EN.html" />
         <option value="$USER_HOME$/format-2.js" />
@@ -209,6 +218,7 @@
         <option value="$PROJECT_DIR$/animation-sprite/index.html" />
         <option value="$PROJECT_DIR$/animation-sprite/css/style.css" />
         <option value="$PROJECT_DIR$/hero/index.html" />
+        <option value="$PROJECT_DIR$/hero/css/style.css" />
       </list>
     </option>
   </component>
@@ -418,12 +428,12 @@
       <workItem from="1607499757889" duration="16494000" />
       <workItem from="1607669413025" duration="2747000" />
       <workItem from="1616746026614" duration="15145000" />
-      <workItem from="1617399719792" duration="6483000" />
+      <workItem from="1617399719792" duration="7915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="617118000" />
+    <option name="totallyTimeSpent" value="618550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -468,13 +478,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/landing-pages/2020.03.26_landing_scalping/scalping-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="914">
-          <caret line="752" column="9" lean-forward="true" selection-start-line="752" selection-start-column="9" selection-end-line="752" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2019.11.12_FX-15605/js/application-responsive.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31104">
@@ -833,14 +836,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="1321" column="60" lean-forward="false" selection-start-line="1321" selection-start-column="18" selection-end-line="1321" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/buttons/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -867,10 +862,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/format-t.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="279" column="1" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="279" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hero/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="60" column="3" lean-forward="true" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+        <state relative-caret-position="515">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hero/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1923">
+          <caret line="88" column="18" lean-forward="false" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
           <folding />
         </state>
       </provider>

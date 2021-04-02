@@ -3,7 +3,127 @@
   margin: 0 auto;
 }
 
+.ag-character {
+  display: inline-block;
+  height: 53.125em;
+  width: 42em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/hero/images/characters-left@1x.png) no-repeat 0 100%;
 
+  -webkit-transform-origin: center bottom;
+  -moz-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  -o-transform-origin: center bottom;
+  transform-origin: center bottom;
+
+  clip: rect(0, 42em, 53.125em, 0);
+}
+.ag-character[data-item='p1'] {
+  height: 550px;
+  width: 410px;
+
+  -webkit-animation: character 5s ease-in-out infinite;
+  -moz-animation: character 5s ease-in-out infinite;
+  -o-animation: character 5s ease-in-out infinite;
+  animation: character 5s ease-in-out infinite;
+}
+.ag-character[data-item='p2'] {
+  height: 550px;
+  width: 275px;
+  background-position-x: -434px;
+
+  -webkit-animation: character 5s ease-in-out infinite;
+  -moz-animation: character 5s ease-in-out infinite;
+  -o-animation: character 5s ease-in-out infinite;
+  animation: character 5s ease-in-out infinite;
+}
+.ag-character[data-item='p3'] {
+  height: 550px;
+  width: 298px;
+  background-position-x: -870px;
+
+  -webkit-animation: character 5s ease-in-out infinite;
+  -moz-animation: character 5s ease-in-out infinite;
+  -o-animation: character 5s ease-in-out infinite;
+  animation: character 5s ease-in-out infinite;
+}
+.ag-character[data-item='p4'] {
+  height: 550px;
+  width: 436px;
+  background-position-x: -1304px;
+
+  -webkit-animation: character 5s ease-in-out infinite;
+  -moz-animation: character 5s ease-in-out infinite;
+  -o-animation: character 5s ease-in-out infinite;
+  animation: character 5s ease-in-out infinite;
+}
+.ag-character[data-item='p5'] {
+  height: 550px;
+  width: 300px;
+  background-position-x: -1738px;
+
+  -webkit-animation: character 5s ease-in-out infinite;
+  -moz-animation: character 5s ease-in-out infinite;
+  -o-animation: character 5s ease-in-out infinite;
+  animation: character 5s ease-in-out infinite;
+}
+.ag-character[data-item='p6'] {
+  height: 550px;
+  width: 360px;
+  background-position-x: -2174px;
+
+  -webkit-animation: character 5s ease-in-out infinite;
+  -moz-animation: character 5s ease-in-out infinite;
+  -o-animation: character 5s ease-in-out infinite;
+  animation: character 5s ease-in-out infinite;
+}
+.ag-character[data-item='p7'] {
+  height: 550px;
+  width: 304px;
+  background-position-x: -2610px;
+
+  -webkit-animation: character 5s ease-in-out infinite;
+  -moz-animation: character 5s ease-in-out infinite;
+  -o-animation: character 5s ease-in-out infinite;
+  animation: character 5s ease-in-out infinite;
+}
+.ag-character[data-item='p8'] {
+  height: 550px;
+  width: 342px;
+
+  background-position-x: -3044px;
+
+  -webkit-animation: character-change-8 1s ease-in-out forwards, character 5s ease-in-out infinite;
+  -moz-animation: character-change-8 1s ease-in-out forwards, character 5s ease-in-out infinite;
+  -o-animation: character-change-8 1s ease-in-out forwards, character 5s ease-in-out infinite;
+  animation: character-change-8 1s ease-in-out forwards, character 5s ease-in-out infinite;
+}
+
+@-webkit-keyframes character {
+  50% {
+    -webkit-transform: scale(1.01) translateY(-.625em);
+    transform: scale(1.01) translateY(-.625em);
+  }
+}
+@-moz-keyframes character {
+  50% {
+    -moz-transform: scale(1.01) translateY(-.625em);
+    transform: scale(1.01) translateY(-.625em);
+  }
+}
+@-o-keyframes character {
+  50% {
+    -o-transform: scale(1.01) translateY(-.625em);
+    transform: scale(1.01) translateY(-.625em);
+  }
+}
+@keyframes character {
+  50% {
+    -webkit-transform: scale(1.01) translateY(-.625em);
+    -moz-transform: scale(1.01) translateY(-.625em);
+    -o-transform: scale(1.01) translateY(-.625em);
+    transform: scale(1.01) translateY(-.625em);
+  }
+}
 
 
 @media only screen and (max-width: 767px) {
