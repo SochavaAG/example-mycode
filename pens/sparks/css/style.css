@@ -1,10 +1,20 @@
+html, body {
+  height: 100%;
+}
+
 .ag-format-container {
   width: 1142px;
   margin: 0 auto;
 }
 
 .ag-sparks {
-  
+  height: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sparks/images/bg.jpg) no-repeat scroll 0 0 #01202d;
+}
+.ag-sparks:before,
+.ag-sparks:after {
+  content: "";
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sparks/images/bg.jpg) no-repeat scroll 0 0 #01202d;
 }
 
 
