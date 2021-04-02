@@ -15,14 +15,15 @@
   content: "";
   height: 262px;
   width: 255px;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rudder-turn/images/rudder.png) no-repeat center;
+  margin: 0 0 0 30px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rudder-turn/images/rudder.png) no-repeat 50% 50%;
   background-size: 100%;
 
   cursor: pointer;
 
   position: absolute;
   top: 350px;
-  left: 380px;
+  left: 50%;
 
   -webkit-transition: -webkit-transform .5s;
   -moz-transition: -moz-transform .5s;
@@ -30,7 +31,7 @@
   transition: transform .5s, -webkit-transform .5s, -moz-transform .5s, -o-transform .5s;
 }
 .ag-rudder:after {
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rudder-turn/images/rudder-illumination.png) no-repeat center;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rudder-turn/images/rudder-illumination.png) no-repeat 50% 50%;
   background-size: 100%;
 
   -webkit-animation: an-blink-drum 2s .1s linear infinite;
