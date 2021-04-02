@@ -3,7 +3,339 @@
   margin: 0 auto;
 }
 
+.gt-lever-box {
+  height: 300px;
+  width: 144px;
+  margin: 50px 0 0;
+  background-color: #020507;
 
+  overflow: hidden;
+
+  -webkit-border-radius: 20px;
+
+  -moz-border-radius: 20px;
+
+  border-radius: 20px;
+
+  position: relative;
+}
+.gt-lever-top {
+  width: 111.12%;
+  height: 52.29%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/lever-chain/images/gear.png) no-repeat;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+
+  position: absolute;
+  top: -39%;
+  left: -5%;
+}
+.gt-lever-l {
+  width: 7.64%;
+
+  left: 6%;
+}
+.gt-lever-back,
+.gt-lever-l {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/lever-chain/images/chain.png) repeat-y;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+.gt-lever-back {
+  width: 5.6%;
+
+  opacity: 0.6;
+
+  left: 17%;
+}
+.gt-lever-right {
+  width: 29.17%;
+
+  top: 0;
+  right: 4%;
+}
+.gt-lever-r,
+.gt-lever-right {
+  height: 100%;
+
+  position: absolute;
+}
+.gt-lever-r {
+  width: 19.05%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/lever-chain/images/chain.png) repeat-y;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+
+  right: 38%;
+  bottom: 22%;
+
+  opacity: 0.6;
+}
+.gt-lever-bot {
+  height: 36.605%;
+  width: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/lever-chain/images/weight.png) repeat-y;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+
+  position: absolute;
+  right: 0;
+  bottom: -15%;
+}
+.gt-lever-center {
+  height: 100%;
+  width: 83.34%;
+
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 17%;
+}
+.gt-lever-c {
+  height: 96.4%;
+  width: 9.17%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/lever-chain/images/chain.png) repeat-y;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+
+  position: absolute;
+  top: -76%;
+  left: 46%;
+}
+.gt-lever {
+  height: 36.93%;
+  width: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/lever-chain/images/handle.png) repeat-y;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+
+  cursor: pointer;
+
+  position: absolute;
+  top: 20%;
+  left: 0;
+}
+.gt-lever-center,
+.gt-lever-right {
+  -webkit-transition: top 0.5s ease-out;
+  -o-transition: top 0.5s ease-out;
+  -moz-transition: top 0.5s ease-out;
+  transition: top 0.5s ease-out;
+}
+.gt-lever-top {
+  transition: -webkit-transform 0.5s ease-out;
+  -moz-transition: -moz-transform 0.5s ease-out;
+  -o-transition: -o-transform 0.5s ease-out;
+  transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out, -moz-transform 0.5s ease-out, -o-transform 0.5s ease-out;
+}
+.gt-lever-center.active:hover {
+  top: 35px;
+}
+.gt-lever-center.active:hover ~ .gt-lever-right {
+  top: -32px;
+}
+.gt-lever-center.active:hover ~ .gt-lever-top {
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
+.animation .gt-lever-center {
+  -webkit-animation: an-leverpull 3.6s 1 linear;
+  -moz-animation: an-leverpull 3.6s 1 linear;
+  -o-animation: an-leverpull 3.6s 1 linear;
+  animation: an-leverpull 3.6s 1 linear;
+}
+.animation .gt-lever-right {
+  -webkit-animation: an-leverbackpull 3.6s 1 linear;
+  -moz-animation: an-leverbackpull 3.6s 1 linear;
+  -o-animation: an-leverbackpull 3.6s 1 linear;
+  animation: an-leverbackpull 3.6s 1 linear;
+}
+.animation .gt-lever-top {
+  -webkit-animation: an-leverwheel 3.6s 1 linear;
+  -moz-animation: an-leverwheel 3.6s 1 linear;
+  -o-animation: an-leverwheel 3.6s 1 linear;
+  animation: an-leverwheel 3.6s 1 linear;
+}
+.animation .gt-lever-l {
+  -webkit-animation: an-leverfront 3.6s 1 linear;
+  -moz-animation: an-leverfront 3.6s 1 linear;
+  -o-animation: an-leverfront 3.6s 1 linear;
+  animation: an-leverfront 3.6s 1 linear;
+}
+.animation .gt-lever-back {
+  -webkit-animation: an-leverback 3.6s 1 linear;
+  -moz-animation: an-leverback 3.6s 1 linear;
+  -o-animation: an-leverback 3.6s 1 linear;
+  animation: an-leverback 3.6s 1 linear;
+}
+
+@-webkit-keyframes an-leverpull {
+  20% {
+    top: 100px;
+  }
+  to {
+    top: 0;
+  }
+}
+@-moz-keyframes an-leverpull {
+  20% {
+    top: 100px;
+  }
+  to {
+    top: 0;
+  }
+}
+@-o-keyframes an-leverpull {
+  20% {
+    top: 100px;
+  }
+  to {
+    top: 0;
+  }
+}
+@keyframes an-leverpull {
+  20% {
+    top: 100px;
+  }
+  to {
+    top: 0;
+  }
+}
+
+@-webkit-keyframes an-leverbackpull {
+  20% {
+    top: -120px;
+  }
+  to {
+    top: 0;
+  }
+}
+@-moz-keyframes an-leverbackpull {
+  20% {
+    top: -120px;
+  }
+  to {
+    top: 0;
+  }
+}
+@-o-keyframes an-leverbackpull {
+  20% {
+    top: -120px;
+  }
+  to {
+    top: 0;
+  }
+}
+@keyframes an-leverbackpull {
+  20% {
+    top: -120px;
+  }
+  to {
+    top: 0;
+  }
+}
+
+@-webkit-keyframes an-leverwheel {
+  to {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+@-moz-keyframes an-leverwheel {
+  to {
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+@-o-keyframes an-leverwheel {
+  to {
+    -webkit-transform: rotate(1turn);
+    -o-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+@keyframes an-leverwheel {
+  to {
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    -o-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+
+@-webkit-keyframes an-leverfront {
+  to {
+    top: -200px;
+  }
+}
+@-moz-keyframes an-leverfront {
+  to {
+    top: -200px;
+  }
+}
+@-o-keyframes an-leverfront {
+  to {
+    top: -200px;
+  }
+}
+@keyframes an-leverfront {
+  to {
+    top: -200px;
+  }
+}
+
+@-webkit-keyframes an-leverback {
+  0% {
+    top: -160px;
+  }
+  to {
+    top: 0;
+  }
+}
+@-moz-keyframes an-leverback {
+  0% {
+    top: -160px;
+  }
+  to {
+    top: 0;
+  }
+}
+@-o-keyframes an-leverback {
+  0% {
+    top: -160px;
+  }
+  to {
+    top: 0;
+  }
+}
+@keyframes an-leverback {
+  0% {
+    top: -160px;
+  }
+  to {
+    top: 0;
+  }
+}
 
 
 @media only screen and (max-width: 767px) {
