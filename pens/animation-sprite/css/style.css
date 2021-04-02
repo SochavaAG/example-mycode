@@ -396,6 +396,7 @@ body {
   display: inline-block;
   height: 10.41667em;
   width: 6.66667em;
+  margin: 0 0 0 100px;
   background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-fire.png);
   background-position: 0 50%;
   background-repeat: no-repeat;
@@ -437,6 +438,7 @@ body {
   display: inline-block;
   height: 65px;
   width: 90px;
+  margin: 0 0 0 100px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-electricity.png);
   background-size: 1700% auto;
 }
@@ -483,8 +485,10 @@ body {
 
 /* fire-v3 */
 .ag-fire-v3 {
+  display: inline-block;
   height: 148px;
   width: 114px;
+  margin: 0 0 0 100px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-fair-3.png) no-repeat scroll 0 0;
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100%;
