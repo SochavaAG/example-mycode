@@ -40,8 +40,8 @@
       <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-t.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="599" column="1" lean-forward="true" selection-start-line="573" selection-start-column="0" selection-end-line="599" selection-end-column="1" />
+            <state relative-caret-position="303">
+              <caret line="423" column="1" lean-forward="true" selection-start-line="423" selection-start-column="1" selection-end-line="427" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -50,8 +50,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="226">
+              <caret line="25" column="70" lean-forward="false" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -60,8 +60,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="5404" column="100" lean-forward="false" selection-start-line="5404" selection-start-column="100" selection-end-line="5404" selection-end-column="100" />
+            <state relative-caret-position="298">
+              <caret line="5424" column="2" lean-forward="false" selection-start-line="5424" selection-start-column="2" selection-end-line="5424" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -71,8 +71,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>url(../images/</find>
-      <find>zIndex</find>
       <find>meteor</find>
       <find>620</find>
       <find>29860</find>
@@ -101,6 +99,8 @@
       <find>ball-anim</find>
       <find>scraper</find>
       <find>.rou-our-btn</find>
+      <find>.sm-btn:hover</find>
+      <find>.sm-border-decor</find>
     </findStrings>
     <replaceStrings>
       <replace>0% {</replace>
@@ -194,8 +194,8 @@
         <option value="$USER_HOME$/format-2.html" />
         <option value="$PROJECT_DIR$/animation-sprite/index.html" />
         <option value="$PROJECT_DIR$/animation-sprite/css/style.css" />
-        <option value="$USER_HOME$/format-t.css" />
         <option value="$PROJECT_DIR$/buttons/index.html" />
+        <option value="$USER_HOME$/format-t.css" />
         <option value="$PROJECT_DIR$/buttons/css/style.css" />
       </list>
     </option>
@@ -406,12 +406,12 @@
       <workItem from="1607499757889" duration="16494000" />
       <workItem from="1607669413025" duration="2747000" />
       <workItem from="1616746026614" duration="15145000" />
-      <workItem from="1617399719792" duration="1664000" />
+      <workItem from="1617399719792" duration="2468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="612299000" />
+    <option name="totallyTimeSpent" value="613103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -853,24 +853,24 @@
     </entry>
     <entry file="file://$USER_HOME$/format-t.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="599" column="1" lean-forward="true" selection-start-line="573" selection-start-column="0" selection-end-line="599" selection-end-column="1" />
+        <state relative-caret-position="303">
+          <caret line="423" column="1" lean-forward="true" selection-start-line="423" selection-start-column="1" selection-end-line="427" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buttons/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="226">
+          <caret line="25" column="70" lean-forward="false" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="5404" column="100" lean-forward="false" selection-start-line="5404" selection-start-column="100" selection-end-line="5404" selection-end-column="100" />
+        <state relative-caret-position="298">
+          <caret line="5424" column="2" lean-forward="false" selection-start-line="5424" selection-start-column="2" selection-end-line="5424" selection-end-column="2" />
           <folding />
         </state>
       </provider>

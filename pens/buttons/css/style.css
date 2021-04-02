@@ -5332,13 +5332,6 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 /* /button 83 */
 
 /* button 84 */
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 100 version
-*/
-
 .ag-base_btn-v84 {
   background: rgb(175,222,48);
   background: -moz-linear-gradient(left,  rgba(175,222,48,1) 0%, rgba(120,155,25,1) 100%);
@@ -5406,6 +5399,38 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
   box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, .2), inset -1px -1px 0 0 rgba(0, 0, 0, .2);
 }
 /* /button 85 */
+
+/* button 86 */
+.ag-base_btn-v86 {
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #3d220d, #fffae4 50%, #3d220d);
+  border-image-slice: 1;
+
+  background-color: #e9cf7e;
+
+  -webkit-box-shadow: inset #793c09 0 57px 54px -30px, inset rgba(0, 0, 0, 0) 0 57px 54px -30px;
+  -moz-box-shadow: inset #793c09 0 57px 54px -30px, inset rgba(0, 0, 0, 0) 0 57px 54px -30px;
+  -o-box-shadow: inset #793c09 0 57px 54px -30px, inset rgba(0, 0, 0, 0) 0 57px 54px -30px;
+  box-shadow: inset #793c09 0 57px 54px -30px, inset rgba(0, 0, 0, 0) 0 57px 54px -30px;
+
+  -webkit-transition: all 1.5s;
+  -moz-transition: all 1.5s;
+  -o-transition: all 1.5s;
+  transition: all 1.5s;
+}
+.ag-base_btn-v86:hover {
+  background-color: #a9937a;
+  
+  color: #000;
+
+  -webkit-box-shadow: inset #f7d4bc 0 40px 15px 0, inset #fbf0e6 0 50px 15px 0;
+  -moz-box-shadow: inset #f7d4bc 0 40px 15px 0, inset #fbf0e6 0 50px 15px 0;
+  -o-box-shadow: inset #f7d4bc 0 40px 15px 0, inset #fbf0e6 0 50px 15px 0;
+  box-shadow: inset #f7d4bc 0 40px 15px 0, inset #fbf0e6 0 50px 15px 0;
+}
+/* /button 86 */
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
