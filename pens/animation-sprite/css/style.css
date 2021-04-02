@@ -937,6 +937,84 @@ body {
 }
 /* /wolf */
 
+/* dragon */
+.ag-dragon_box {
+  padding: 50px;
+  background-color: rgb(164, 231, 255);
+}
+.ag-dragon {
+  height: 212px;
+  width: 300px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/dragon.png) no-repeat scroll 0 0;
+  background-size: 100% auto;
+
+  -webkit-animation: an-dragon-fly 1s steps(9) infinite;
+  -moz-animation: an-dragon-fly 1s steps(9) infinite;
+  -o-animation: an-dragon-fly 1s steps(9) infinite;
+  animation: an-dragon-fly 1s steps(9) infinite;
+}
+
+@-webkit-keyframes an-dragon-fly {
+  to {
+    background-position: 0 100%;
+  }
+}
+@-moz-keyframes an-dragon-fly {
+  to {
+    background-position: 0 100%;
+  }
+}
+@-o-keyframes an-dragon-fly {
+  to {
+    background-position: 0 100%;
+  }
+}
+@keyframes an-dragon-fly {
+  to {
+    background-position: 0 100%;
+  }
+}
+/* /dragon */
+
+/* dragon small */
+.ag-dragon_box {
+  padding: 50px;
+  background-color: rgb(164, 231, 255);
+}
+.ag-dragon {
+  height: 212px;
+  width: 300px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/dragon-small.png) no-repeat scroll 0 0;
+  background-size: 100% auto;
+
+  -webkit-animation: an-dragon-fly 1s steps(9) infinite;
+  -moz-animation: an-dragon-fly 1s steps(9) infinite;
+  -o-animation: an-dragon-fly 1s steps(9) infinite;
+  animation: an-dragon-fly 1s steps(9) infinite;
+}
+
+@-webkit-keyframes an-dragon-fly {
+  to {
+    background-position: 0 100%;
+  }
+}
+@-moz-keyframes an-dragon-fly {
+  to {
+    background-position: 0 100%;
+  }
+}
+@-o-keyframes an-dragon-fly {
+  to {
+    background-position: 0 100%;
+  }
+}
+@keyframes an-dragon-fly {
+  to {
+    background-position: 0 100%;
+  }
+}
+/* /dragon small */
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;

@@ -12,9 +12,7 @@
   overflow: hidden;
 
   -webkit-border-radius: 20px;
-
   -moz-border-radius: 20px;
-
   border-radius: 20px;
 
   position: relative;
@@ -23,9 +21,6 @@
   width: 111.12%;
   height: 52.29%;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/lever-chain/images/gear.png) no-repeat;
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
   background-size: 100% 100%;
 
   position: absolute;
@@ -40,9 +35,6 @@
 .gt-lever-back,
 .gt-lever-l {
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/lever-chain/images/chain.png) repeat-y;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
   background-size: 100% auto;
 
   position: absolute;
@@ -71,9 +63,6 @@
 .gt-lever-r {
   width: 19.05%;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/lever-chain/images/chain.png) repeat-y;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
   background-size: 100% auto;
 
   right: 38%;
@@ -85,9 +74,6 @@
   height: 36.605%;
   width: 100%;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/lever-chain/images/weight.png) repeat-y;
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
   background-size: 100% 100%;
 
   position: absolute;
@@ -107,9 +93,6 @@
   height: 96.4%;
   width: 9.17%;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/lever-chain/images/chain.png) repeat-y;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
   background-size: 100% auto;
 
   position: absolute;
@@ -120,9 +103,6 @@
   height: 36.93%;
   width: 100%;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/lever-chain/images/handle.png) repeat-y;
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
   background-size: 100% 100%;
 
   cursor: pointer;
