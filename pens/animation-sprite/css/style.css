@@ -153,7 +153,7 @@ body {
   display: inline-block;
   height: 297px;
   width: 70px;
-  margin: 0 50px;
+  margin: 0 0 0 100px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-arm.png) no-repeat scroll 0 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -214,6 +214,185 @@ body {
   }
 }
 /* /arm */
+
+/* ball */
+.ag-ball {
+  display: inline-block;
+  height: 100px;
+  width: 120px;
+  margin: 0 0 0 100px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/ball.png) no-repeat scroll 0 0;
+
+  -webkit-animation: an-ball-rotate 1.5s step-start 0s normal none infinite running;
+  -moz-animation: an-ball-rotate 1.5s step-start 0s normal none infinite running;
+  -o-animation: an-ball-rotate 1.5s step-start 0s normal none infinite running;
+  animation: an-ball-rotate 1.5s step-start 0s normal none infinite running;
+}
+@-webkit-keyframes an-ball-rotate {
+  0% {
+    background-position: 0 0;
+  }
+  8% {
+    background-position: 0 -120px;
+  }
+  16% {
+    background-position: 0 -240px;
+  }
+  24% {
+    background-position: 0 -360px;
+  }
+  33% {
+    background-position: 0 -480px;
+  }
+  41% {
+    background-position: 0 -600px;
+  }
+  49% {
+    background-position: 0 -720px;
+  }
+  58% {
+    background-position: 0 -840px;
+  }
+  66% {
+    background-position: 0 -960px;
+  }
+  74% {
+    background-position: 0 -1080px;
+  }
+  83% {
+    background-position: 0 -1200px;
+  }
+  91% {
+    background-position: 0 -1320px;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@-moz-keyframes an-ball-rotate {
+  0% {
+    background-position: 0 0;
+  }
+  8% {
+    background-position: 0 -120px;
+  }
+  16% {
+    background-position: 0 -240px;
+  }
+  24% {
+    background-position: 0 -360px;
+  }
+  33% {
+    background-position: 0 -480px;
+  }
+  41% {
+    background-position: 0 -600px;
+  }
+  49% {
+    background-position: 0 -720px;
+  }
+  58% {
+    background-position: 0 -840px;
+  }
+  66% {
+    background-position: 0 -960px;
+  }
+  74% {
+    background-position: 0 -1080px;
+  }
+  83% {
+    background-position: 0 -1200px;
+  }
+  91% {
+    background-position: 0 -1320px;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@-o-keyframes an-ball-rotate {
+  0% {
+    background-position: 0 0;
+  }
+  8% {
+    background-position: 0 -120px;
+  }
+  16% {
+    background-position: 0 -240px;
+  }
+  24% {
+    background-position: 0 -360px;
+  }
+  33% {
+    background-position: 0 -480px;
+  }
+  41% {
+    background-position: 0 -600px;
+  }
+  49% {
+    background-position: 0 -720px;
+  }
+  58% {
+    background-position: 0 -840px;
+  }
+  66% {
+    background-position: 0 -960px;
+  }
+  74% {
+    background-position: 0 -1080px;
+  }
+  83% {
+    background-position: 0 -1200px;
+  }
+  91% {
+    background-position: 0 -1320px;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes an-ball-rotate {
+  0% {
+    background-position: 0 0;
+  }
+  8% {
+    background-position: 0 -120px;
+  }
+  16% {
+    background-position: 0 -240px;
+  }
+  24% {
+    background-position: 0 -360px;
+  }
+  33% {
+    background-position: 0 -480px;
+  }
+  41% {
+    background-position: 0 -600px;
+  }
+  49% {
+    background-position: 0 -720px;
+  }
+  58% {
+    background-position: 0 -840px;
+  }
+  66% {
+    background-position: 0 -960px;
+  }
+  74% {
+    background-position: 0 -1080px;
+  }
+  83% {
+    background-position: 0 -1200px;
+  }
+  91% {
+    background-position: 0 -1320px;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+/* /ball */
 
 /* fire v2 */
 .ag-fire-v2 {

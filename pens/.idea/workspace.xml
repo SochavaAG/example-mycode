@@ -15,21 +15,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="50" column="9" lean-forward="false" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+            <state relative-caret-position="192">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1587">
-              <caret line="211" column="6" lean-forward="true" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+            <state relative-caret-position="299">
+              <caret line="155" column="22" lean-forward="false" selection-start-line="155" selection-start-column="22" selection-end-line="155" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/format-t.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="236" column="1" lean-forward="true" selection-start-line="155" selection-start-column="0" selection-end-line="236" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -39,7 +49,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.png)</find>
       <find>;;</find>
       <find>url(../images/</find>
       <find>zIndex</find>
@@ -69,9 +78,9 @@
       <find>images/</find>
       <find>/uploads/landing/great-7-contest/sprite-icons.png</find>
       <find>scraper</find>
+      <find>ball-anim</find>
     </findStrings>
     <replaceStrings>
-      <replace>100%</replace>
       <replace>0% {</replace>
       <replace>ag-animated_img</replace>
       <replace>Justforex</replace>
@@ -101,6 +110,7 @@
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/man-with-fire/images/</replace>
       <replace>/uploads/landing/xauusd-contest/sprite-icons.png</replace>
       <replace>an-scraper</replace>
+      <replace>an-ball-rotate</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -114,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rocket/index.html" />
         <option value="$PROJECT_DIR$/animation-blades/css/style.css" />
         <option value="$PROJECT_DIR$/animation-blades/index.html" />
         <option value="$USER_HOME$/vazhno_project-1/2020.08.12_pages_root/root-MS.html" />
@@ -163,8 +172,9 @@
         <option value="$PROJECT_DIR$/man-with-fire/css/style.css" />
         <option value="$PROJECT_DIR$/man-with-fire/index.html" />
         <option value="$USER_HOME$/format-2.html" />
-        <option value="$PROJECT_DIR$/animation-sprite/css/style.css" />
+        <option value="$USER_HOME$/format-t.css" />
         <option value="$PROJECT_DIR$/animation-sprite/index.html" />
+        <option value="$PROJECT_DIR$/animation-sprite/css/style.css" />
       </list>
     </option>
   </component>
@@ -199,7 +209,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/format-2.html" />
+    <property name="last_opened_file_path" value="$USER_HOME$/format-t.css" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
@@ -374,12 +384,12 @@
       <workItem from="1607499757889" duration="16494000" />
       <workItem from="1607669413025" duration="2747000" />
       <workItem from="1616746026614" duration="15145000" />
-      <workItem from="1617399719792" duration="418000" />
+      <workItem from="1617399719792" duration="832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="611053000" />
+    <option name="totallyTimeSpent" value="611467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -424,13 +434,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/animation-icons-scroll/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="28" column="133" lean-forward="false" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/meteors/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="755">
@@ -723,7 +726,7 @@
         <state relative-caret-position="96">
           <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -825,18 +828,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
+    <entry file="file://$USER_HOME$/format-t.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1587">
-          <caret line="211" column="6" lean-forward="true" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        <state relative-caret-position="567">
+          <caret line="236" column="1" lean-forward="true" selection-start-line="155" selection-start-column="0" selection-end-line="236" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="50" column="9" lean-forward="false" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        <state relative-caret-position="192">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="155" column="22" lean-forward="false" selection-start-line="155" selection-start-column="22" selection-end-line="155" selection-end-column="22" />
           <folding />
         </state>
       </provider>
