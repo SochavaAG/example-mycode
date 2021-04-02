@@ -1021,21 +1021,32 @@ body {
 .ag-chain_dragon {
   height: 750px;
   width: 1142px;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/dragon-chain.png) no-repeat scroll 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/dragon-chain.png) no-repeat scroll 50% 0;
+
+  overflow: hidden;
 
   position: relative;
 }
+.ag-chain_dragon:before,
 .ag-chain {
-  display: inline-block;
   height: 691px;
   width: 259px;
+  margin: 0 0 0 -188px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/chain.png) no-repeat scroll 0 0;
   background-size: 100% auto;
 
-  -webkit-animation: an-chain 1s steps(11) infinite;
-  -moz-animation: an-chain 1s steps(11) infinite;
-  -o-animation: an-chain 1s steps(11) infinite;
-  animation: an-chain 1s steps(11) infinite;
+  position: absolute;
+  top: 133px;
+  left: 50%;
+}
+.ag-chain_dragon:before {
+  content: "";
+}
+.ag-chain {
+  -webkit-animation: an-chain 1.5s steps(11) infinite;
+  -moz-animation: an-chain 1.5s steps(11) infinite;
+  -o-animation: an-chain 1.5s steps(11) infinite;
+  animation: an-chain 1.5s steps(11) infinite;
 }
 
 @-webkit-keyframes an-chain {
@@ -1060,45 +1071,45 @@ body {
 }
 /* /dragon chain */
 
-/* dragon */
-.ag-dragon_box {
+/* lock */
+.ag-lock_box {
   padding: 50px;
   background-color: rgb(164, 231, 255);
 }
-.ag-dragon {
+.ag-lock {
   display: inline-block;
-  height: 212px;
-  width: 300px;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/dragon.png) no-repeat scroll 0 0;
+  height: 380px;
+  width: 498px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/lock-anim-min.png) no-repeat scroll 0 0;
   background-size: 100% auto;
 
-  -webkit-animation: an-dragon-fly 1s steps(9) infinite;
-  -moz-animation: an-dragon-fly 1s steps(9) infinite;
-  -o-animation: an-dragon-fly 1s steps(9) infinite;
-  animation: an-dragon-fly 1s steps(9) infinite;
+  -webkit-animation: an-lock 3s steps(21) infinite;
+  -moz-animation: an-lock 3s steps(21) infinite;
+  -o-animation: an-lock 3s steps(21) infinite;
+  animation: an-lock 3s steps(21) infinite;
 }
 
-@-webkit-keyframes an-dragon-fly {
+@-webkit-keyframes an-lock {
   to {
     background-position: 0 100%;
   }
 }
-@-moz-keyframes an-dragon-fly {
+@-moz-keyframes an-lock {
   to {
     background-position: 0 100%;
   }
 }
-@-o-keyframes an-dragon-fly {
+@-o-keyframes an-lock {
   to {
     background-position: 0 100%;
   }
 }
-@keyframes an-dragon-fly {
+@keyframes an-lock {
   to {
     background-position: 0 100%;
   }
 }
-/* /dragon */
+/* /lock */
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
