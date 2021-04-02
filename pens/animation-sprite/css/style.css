@@ -148,6 +148,73 @@ body {
 }
 /* /crystal */
 
+/* arm */
+.ag-arm {
+  display: inline-block;
+  height: 297px;
+  width: 70px;
+  margin: 0 50px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-arm.png) no-repeat scroll 0 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  cursor: pointer;
+}
+.js-ag-arm_avtive {
+  -webkit-animation: an-scraper 1s 0.1s steps(4);
+  -moz-animation: an-scraper 1s 0.1s steps(4);
+  -o-animation: an-scraper 1s 0.1s steps(4);
+  animation: an-scraper 1s 0.1s steps(4);
+}
+
+@-webkit-keyframes an-scraper {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 0 100%;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@-moz-keyframes an-scraper {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 0 100%;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@-o-keyframes an-scraper {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 0 100%;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes an-scraper {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 0 100%;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+/* /arm */
+
 /* fire v2 */
 .ag-fire-v2 {
   display: inline-block;
