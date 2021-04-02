@@ -5202,13 +5202,6 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 /* /button 81 */
 
 /* button 82 */
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 100 version
-*/
-
 .ag-base_btn-v82-wrap {
   overflow: hidden;
 
@@ -5310,6 +5303,20 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
   }
 }
 /* /button 82 */
+
+/* button 83 */
+.ag-base_btn-v83 {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-83.png) no-repeat scroll 0 0;
+
+  -webkit-transition: background .5s .1s ease;
+  -moz-transition: background .5s .1s ease;
+  -o-transition: background .5s .1s ease;
+  transition: background .5s .1s ease;
+}
+.ag-base_btn-v83:hover {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-83-hover.png) no-repeat scroll 0 0;
+}
+/* /button 83 */
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
