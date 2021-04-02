@@ -19,8 +19,87 @@
 </head>
 
 <body>
-  <div class="ag-format-container">
+<style>
+  .to-hos__character {
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:42em;
+    height:53.125em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/hero/images/characters-left@1x.png) 0 0/800% 100% no-repeat;
+    -webkit-transform-origin:center bottom;
+    transform-origin:center bottom;
+    clip:rect(0, 42em, 53.125em, 0)
+  }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .to-hos__character {
+      background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/hero/images/characters-left@2x.png);
+    }
+  }
+  @media (min-width: 2560px) {
+    .to-hos__character {
+      background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/hero/images/characters-left@2x.png);
+    }
+  }
+  .to-hos__character--right {
+    right:0;
+    left:auto;
+    width:71.4375em;
+    height:53.125em;
+    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/hero/images/characters-right@1x.png);
+    clip:rect(0, 71.4375em, 53.125em, .25em)
+  }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .to-hos__character--right {
+      background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/hero/images/characters-right@2x.png);
+    }
+  }
+  @media (min-width: 2560px) {
+    .to-hos__character--right {
+      background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/hero/images/characters-right@2x.png);
+    }
+  }
+  .to-hos__character[data-item='p1'] {
+    -webkit-animation:character-change-1 1s ease-in-out forwards,character 5s ease-in-out infinite;
+    animation:character-change-1 1s ease-in-out forwards,character 5s ease-in-out infinite
+  }
+  .to-hos__character[data-item='p2'] {
+    -webkit-animation:character-change-2 1s ease-in-out forwards,character 5s ease-in-out infinite;
+    animation:character-change-2 1s ease-in-out forwards,character 5s ease-in-out infinite
+  }
+  .to-hos__character[data-item='p3'] {
+    -webkit-animation:character-change-3 1s ease-in-out forwards,character 5s ease-in-out infinite;
+    animation:character-change-3 1s ease-in-out forwards,character 5s ease-in-out infinite
+  }
+  .to-hos__character[data-item='p4'] {
+    -webkit-animation:character-change-4 1s ease-in-out forwards,character 5s ease-in-out infinite;
+    animation:character-change-4 1s ease-in-out forwards,character 5s ease-in-out infinite
+  }
+  .to-hos__character[data-item='p5'] {
+    -webkit-animation:character-change-5 1s ease-in-out forwards,character 5s ease-in-out infinite;
+    animation:character-change-5 1s ease-in-out forwards,character 5s ease-in-out infinite
+  }
+  .to-hos__character[data-item='p6'] {
+    -webkit-animation:character-change-6 1s ease-in-out forwards,character 5s ease-in-out infinite;
+    animation:character-change-6 1s ease-in-out forwards,character 5s ease-in-out infinite
+  }
+  .to-hos__character[data-item='p7'] {
+    -webkit-animation:character-change-7 1s ease-in-out forwards,character 5s ease-in-out infinite;
+    animation:character-change-7 1s ease-in-out forwards,character 5s ease-in-out infinite
+  }
+  .to-hos__character[data-item='p8'] {
+    -webkit-animation:character-change-8 1s ease-in-out forwards,character 5s ease-in-out infinite;
+    animation:character-change-8 1s ease-in-out forwards,character 5s ease-in-out infinite
+  }
+</style>
 
+  <div class="ag-format-container">
+    <div class="to-hos xgames-container">
+      <div data-item="p3" class="to-hos__character"></div>
+      <div data-item="p2" class="to-hos__character to-hos__character--right"></div>
+      <div data-item="p3" class="to-hos__tooltip to-hos__tooltip--left"></div>
+      <div data-item="p2" class="to-hos__tooltip to-hos__tooltip--right"></div>
+    </div>
   </div>
 
 <!--[if lt IE 9]>
