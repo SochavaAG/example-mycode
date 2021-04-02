@@ -498,21 +498,33 @@ body {
 }
 
 @-webkit-keyframes an-candle {
+  0% {
+    background-position: 0 0;
+  }
   100% {
     background-position: 0 100%;
   }
 }
 @-moz-keyframes an-candle {
+  0% {
+    background-position: 0 0;
+  }
   100% {
     background-position: 0 100%;
   }
 }
 @-o-keyframes an-candle {
+  0% {
+    background-position: 0 0;
+  }
   100% {
     background-position: 0 100%;
   }
 }
 @keyframes an-candle {
+  0% {
+    background-position: 0 0;
+  }
   100% {
     background-position: 0 100%;
   }
