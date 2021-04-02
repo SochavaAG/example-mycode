@@ -5,6 +5,8 @@
 
 html, body {
   height: 100%;
+
+  overflow: hidden;
 }
 .ag-fly-block {
   height: 100%;
@@ -18,16 +20,22 @@ html, body {
   width: 190px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fly-aircraft-balloon/images/aircraft.png) no-repeat scroll 0 0;
 
+  position: absolute;
+  top: 0;
+  left: 0;
+
   -webkit-transform: translate(-700px, 150px);
   -moz-transform: translate(-700px, 150px);
   -ms-transform: translate(-700px, 150px);
   -o-transform: translate(-700px, 150px);
   transform: translate(-700px, 150px);
 
-  -webkit-animation: an-aircraft 30s linear infinite;
-  -moz-animation: an-aircraft 30s linear infinite;
-  -o-animation: an-aircraft 30s linear infinite;
-  animation: an-aircraft 30s linear infinite;
+  will-change: transform;
+
+  -webkit-animation: an-aircraft 20s linear infinite;
+  -moz-animation: an-aircraft 20s linear infinite;
+  -o-animation: an-aircraft 20s linear infinite;
+  animation: an-aircraft 20s linear infinite;
 }
 .ag-fly-block:after {
   content: "";
@@ -35,15 +43,17 @@ html, body {
   width: 118px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fly-aircraft-balloon/images/balloon.png) no-repeat scroll 0 0;
 
-  z-index: -1;
+  position: absolute;
   top: 0;
   right: 0;
 
-  -webkit-transform: translate(-240px, -150px);
-  -moz-transform: translate(-240px, -150px);
-  -ms-transform: translate(-240px, -150px);
-  -o-transform: translate(-240px, -150px);
-  transform: translate(-240px, -150px);
+  -webkit-transform: translate(-240px, 150px);
+  -moz-transform: translate(-240px, 150px);
+  -ms-transform: translate(-240px, 150px);
+  -o-transform: translate(-240px, 150px);
+  transform: translate(-240px, 150px);
+
+  will-change: transform;
 
   -webkit-animation: an-balloon 30s linear infinite;
   -moz-animation: an-balloon 30s linear infinite;
@@ -122,122 +132,134 @@ html, body {
 
 @-webkit-keyframes an-balloon {
   0% {
-    opacity: 1;
+    margin-left: 300px;
 
-    -webkit-transform: translate(-50px, -150px);
-    transform: translate(-50px, -150px);
+    left: 100%;
+
+    -webkit-transform: translate(0, 150px);
+    transform: translate(0, 150px);
   }
-  70% {
-    opacity: .5;
-
-    -webkit-transform: translate(-50px, -150px);
-    transform: translate(-50px, -150px);
+  30% {
+    -webkit-transform: translate(0, 50px);
+    transform: translate(0, 50px);
   }
-  95% {
-    opacity: .2;
+  65% {
+    -webkit-transform: translate(0, 500px);
+    transform: translate(0, 500px);
+  }
+  80% {
+    margin-left: -300px;
 
-    -webkit-transform: translate(-150px);
-    transform: translate(-150px);
+    left: 0;
   }
   to {
-    opacity: 0;
+    margin-left: -300px;
 
-    -webkit-transform: translate(-150px);
-    transform: translate(-150px);
+    left: 0;
+
+    -webkit-transform: translate(0, 350px);
+    transform: translate(0, 350px);
   }
 }
 @-moz-keyframes an-balloon {
   0% {
-    opacity: 1;
+    margin-left: 300px;
 
-    -webkit-transform: translate(-50px, -150px);
-    -moz-transform: translate(-50px, -150px);
-    transform: translate(-50px, -150px);
+    left: 100%;
+
+    -moz-transform: translate(0, 150px);
+    transform: translate(0, 150px);
   }
-  70% {
-    opacity: .5;
-
-    -webkit-transform: translate(-50px, -150px);
-    -moz-transform: translate(-50px, -150px);
-    transform: translate(-50px, -150px);
+  30% {
+    -moz-transform: translate(0, 50px);
+    transform: translate(0, 50px);
   }
-  95% {
-    opacity: .2;
+  65% {
+    -moz-transform: translate(0, 500px);
+    transform: translate(0, 500px);
+  }
+  80% {
+    margin-left: -300px;
 
-    -webkit-transform: translate(-150px);
-    -moz-transform: translate(-150px);
-    transform: translate(-150px);
+    left: 0;
   }
   to {
-    opacity: 0;
+    margin-left: -300px;
 
-    -webkit-transform: translate(-150px);
-    -moz-transform: translate(-150px);
-    transform: translate(-150px);
+    left: 0;
+
+    -moz-transform: translate(0, 350px);
+    transform: translate(0, 350px);
   }
 }
 @-o-keyframes an-balloon {
   0% {
-    opacity: 1;
+    margin-left: 300px;
 
-    -webkit-transform: translate(-50px, -150px);
-    -o-transform: translate(-50px, -150px);
-    transform: translate(-50px, -150px);
+    left: 100%;
+
+    -o-transform: translate(0, 150px);
+    transform: translate(0, 150px);
   }
-  70% {
-    opacity: .5;
-
-    -webkit-transform: translate(-50px, -150px);
-    -o-transform: translate(-50px, -150px);
-    transform: translate(-50px, -150px);
+  30% {
+    -o-transform: translate(0, 50px);
+    transform: translate(0, 50px);
   }
-  95% {
-    opacity: .2;
+  65% {
+    -o-transform: translate(0, 500px);
+    transform: translate(0, 500px);
+  }
+  80% {
+    margin-left: -300px;
 
-    -webkit-transform: translate(-150px);
-    -o-transform: translate(-150px);
-    transform: translate(-150px);
+    left: 0;
   }
   to {
-    opacity: 0;
+    margin-left: -300px;
 
-    -webkit-transform: translate(-150px);
-    -o-transform: translate(-150px);
-    transform: translate(-150px);
+    left: 0;
+
+    -o-transform: translate(0, 350px);
+    transform: translate(0, 350px);
   }
 }
 @keyframes an-balloon {
   0% {
-    opacity: 1;
+    margin-left: 300px;
 
-    -webkit-transform: translate(-50px, -150px);
-    -moz-transform: translate(-50px, -150px);
-    -o-transform: translate(-50px, -150px);
-    transform: translate(-50px, -150px);
+    left: 100%;
+
+    -webkit-transform: translate(0, 150px);
+    -moz-transform: translate(0, 150px);
+    -o-transform: translate(0, 150px);
+    transform: translate(0, 150px);
   }
-  70% {
-    opacity: .5;
-
-    -webkit-transform: translate(-50px, -150px);
-    -moz-transform: translate(-50px, -150px);
-    -o-transform: translate(-50px, -150px);
-    transform: translate(-50px, -150px);
+  30% {
+    -webkit-transform: translate(0, 50px);
+    -moz-transform: translate(0, 50px);
+    -o-transform: translate(0, 50px);
+    transform: translate(0, 50px);
   }
-  95% {
-    opacity: .2;
+  65% {
+    -webkit-transform: translate(0, 500px);
+    -moz-transform: translate(0, 500px);
+    -o-transform: translate(0, 500px);
+    transform: translate(0, 500px);
+  }
+  80% {
+    margin-left: -300px;
 
-    -webkit-transform: translate(-150px);
-    -moz-transform: translate(-150px);
-    -o-transform: translate(-150px);
-    transform: translate(-150px);
+    left: 0;
   }
   to {
-    opacity: 0;
+    margin-left: -300px;
 
-    -webkit-transform: translate(-150px);
-    -moz-transform: translate(-150px);
-    -o-transform: translate(-150px);
-    transform: translate(-150px);
+    left: 0;
+
+    -webkit-transform: translate(0, 350px);
+    -moz-transform: translate(0, 350px);
+    -o-transform: translate(0, 350px);
+    transform: translate(0, 350px);
   }
 }
 
