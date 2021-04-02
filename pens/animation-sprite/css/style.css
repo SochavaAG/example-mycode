@@ -155,9 +155,6 @@ body {
   width: 70px;
   margin: 0 0 0 100px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-arm.png) no-repeat scroll 0 0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 
   cursor: pointer;
