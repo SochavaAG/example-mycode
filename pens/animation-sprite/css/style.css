@@ -481,6 +481,44 @@ body {
 }
 /* /electricity */
 
+/* fire-v3 */
+.ag-fire-v3 {
+  height: 148px;
+  width: 114px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-fair-3.png) no-repeat scroll 0 0;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  -webkit-animation: an-candle 1.5s steps(11, end);
+  -moz-animation: an-candle 1.5s steps(11, end);
+  -o-animation: an-candle 1.5s steps(11, end);
+  animation: an-candle 1.5s steps(11, end);
+}
+
+@-webkit-keyframes an-candle {
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-moz-keyframes an-candle {
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-o-keyframes an-candle {
+  100% {
+    background-position: 0 100%;
+  }
+}
+@keyframes an-candle {
+  100% {
+    background-position: 0 100%;
+  }
+}
+/* fire-v3 */
+
 /* electricity v2 */
 .ag-electricity-v2 {
   display: inline-block;
