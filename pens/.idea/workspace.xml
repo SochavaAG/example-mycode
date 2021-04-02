@@ -18,18 +18,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="78" column="3" lean-forward="false" selection-start-line="78" selection-start-column="3" selection-end-line="98" selection-end-column="7" />
+            <state relative-caret-position="816">
+              <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="692" column="113" lean-forward="false" selection-start-line="692" selection-start-column="18" selection-end-line="692" selection-end-column="113" />
+            <state relative-caret-position="395">
+              <caret line="689" column="22" lean-forward="false" selection-start-line="689" selection-start-column="22" selection-end-line="689" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -75,26 +75,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/animation-fog/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/animation-fog/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -126,13 +106,11 @@
       <find>scraper</find>
       <find>to-hos__flag</find>
       <find>/default/img/games/twentyone_hots/characters-left@2x.png</find>
-      <find>steps-sprite</find>
       <find>btn-red</find>
       <find>candle</find>
+      <find>steps-sprite</find>
     </findStrings>
     <replaceStrings>
-      <replace>images/</replace>
-      <replace>frame</replace>
       <replace>ag-paper_img</replace>
       <replace>ag-paper_trigger&quot;</replace>
       <replace>&lt;i class=&quot;ag-review-user_avatar ag-review-user_avatar-0&quot;&gt;&lt;/i&gt;</replace>
@@ -160,7 +138,9 @@
       <replace>btn-red</replace>
       <replace>an-ball-rotate</replace>
       <replace>btn-blue</replace>
+      <replace>an-fog</replace>
       <replace>an-candle</replace>
+      <replace>an-flag</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -220,11 +200,11 @@
         <option value="$PROJECT_DIR$/buttons/index.html" />
         <option value="$PROJECT_DIR$/buttons/css/style.css" />
         <option value="$USER_HOME$/format-t.css" />
-        <option value="$PROJECT_DIR$/animation-sprite/css/style.css" />
         <option value="$PROJECT_DIR$/hero/index.html" />
-        <option value="$PROJECT_DIR$/animation-sprite/index.html" />
         <option value="$PROJECT_DIR$/animation-fog/index.html" />
         <option value="$PROJECT_DIR$/animation-fog/css/style.css" />
+        <option value="$PROJECT_DIR$/animation-sprite/index.html" />
+        <option value="$PROJECT_DIR$/animation-sprite/css/style.css" />
       </list>
     </option>
   </component>
@@ -434,12 +414,12 @@
       <workItem from="1607499757889" duration="16494000" />
       <workItem from="1607669413025" duration="2747000" />
       <workItem from="1616746026614" duration="15145000" />
-      <workItem from="1617399719792" duration="5412000" />
+      <workItem from="1617399719792" duration="5858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="616047000" />
+    <option name="totallyTimeSpent" value="616493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -855,10 +835,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
+    <entry file="file://$PROJECT_DIR$/animation-fog/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="692" column="113" lean-forward="false" selection-start-line="692" selection-start-column="18" selection-end-line="692" selection-end-column="113" />
+        <state relative-caret-position="216">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -866,23 +846,23 @@
     <entry file="file://$PROJECT_DIR$/animation-fog/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="26" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="78" column="3" lean-forward="false" selection-start-line="78" selection-start-column="3" selection-end-line="98" selection-end-column="7" />
+        <state relative-caret-position="816">
+          <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-fog/css/style.css">
+    <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="395">
+          <caret line="689" column="22" lean-forward="false" selection-start-line="689" selection-start-column="22" selection-end-line="689" selection-end-column="22" />
           <folding />
         </state>
       </provider>

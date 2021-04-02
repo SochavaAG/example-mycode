@@ -13,21 +13,34 @@ html, body {
 }
 .ag-fog {
   height: 75.625em;
-  width: 121.25em;
+  /*width: 121.25em;*/
+  width: 100%;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fog/images/fog.png) 0 100%/6400% 100% no-repeat;
 
   opacity: 0.3;
 
-  -webkit-animation: steps-sprite steps(63, start) 8s infinite;
-  animation: steps-sprite steps(63, start) 8s infinite;
+  -webkit-animation: an-fog steps(63, start) 8s infinite;
+  -moz-animation: an-fog steps(63, start) 8s infinite;
+  -o-animation: an-fog steps(63, start) 8s infinite;
+  animation: an-fog steps(63, start) 8s infinite;
 }
 
-@-webkit-keyframes steps-sprite {
+@-webkit-keyframes an-fog {
   to {
     background-position-x: 100%;
   }
 }
-@keyframes steps-sprite {
+@-moz-keyframes an-fog {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-o-keyframes an-fog {
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes an-fog {
   to {
     background-position-x: 100%;
   }
