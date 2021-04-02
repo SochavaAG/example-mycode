@@ -745,6 +745,285 @@ body {
   }
 }
 /* /illumination */
+.ag-slots {
+  height: 838px;
+  width: 740px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-flashing/images/slots.png) no-repeat scroll 0 0;
+
+  position: relative;
+}
+.ag-slot_illumination {
+  position: absolute;
+  top: 110px;
+}
+.ag-slot_illumination-1 {
+  position: absolute;
+  left: 19%;
+}
+.ag-slot_illumination-1:before {
+  content: "";
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-box-shadow: 0 40px 50px 25px #ff5200;
+  -moz-box-shadow: 0 40px 50px 25px #ff5200;
+  box-shadow: 0 40px 50px 25px #ff5200;
+
+  -webkit-animation: illumination-1 1.5s ease infinite;
+  -moz-animation: illumination-1 1.5s ease infinite;
+  -o-animation: illumination-1 1.5s ease infinite;
+  animation: illumination-1 1.5s ease infinite;
+}
+.ag-slot_illumination-2 {
+  position: absolute;
+  left: 50%;
+}
+.ag-slot_illumination-2:before {
+  content: "";
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-box-shadow: 4px 40px 50px 25px #ff5200;
+  -moz-box-shadow: 4px 40px 50px 25px #ff5200;
+  box-shadow: 4px 40px 50px 25px #ff5200;
+
+  -webkit-animation: illumination-2 2.5s ease infinite;
+  -moz-animation: illumination-2 2.5s ease infinite;
+  -o-animation: illumination-2 2.5s ease infinite;
+  animation: illumination-2 2.5s ease infinite;
+}
+.ag-slot_illumination-3 {
+  position: absolute;
+  left: 81%;
+}
+.ag-slot_illumination-3:before {
+  content: "";
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-box-shadow: -8px 40px 50px 25px #ff5200;
+  -moz-box-shadow: -8px 40px 50px 25px #ff5200;
+  box-shadow: -8px 40px 50px 25px #ff5200;
+
+  -webkit-animation: illumination-3 2s ease infinite;
+  -moz-animation: illumination-3 2s ease infinite;
+  -o-animation: illumination-3 2s ease infinite;
+  animation: illumination-3 2s ease infinite;
+}
+
+@-webkit-keyframes illumination-1 {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: .6;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: .3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes illumination-1 {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: .6;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: .3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes illumination-1 {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: .6;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: .3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes illumination-1 {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: .6;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: .3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes illumination-2 {
+  0% {
+    opacity: .6;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .3;
+  }
+  75% {
+    opacity: 1;
+  }
+  to {
+    opacity: .6;
+  }
+}
+@-moz-keyframes illumination-2 {
+  0% {
+    opacity: .6;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .3;
+  }
+  75% {
+    opacity: 1;
+  }
+  to {
+    opacity: .6;
+  }
+}
+@-o-keyframes illumination-2 {
+  0% {
+    opacity: .6;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .3;
+  }
+  75% {
+    opacity: 1;
+  }
+  to {
+    opacity: .6;
+  }
+}
+@keyframes illumination-2 {
+  0% {
+    opacity: .6;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .3;
+  }
+  75% {
+    opacity: 1;
+  }
+  to {
+    opacity: .6;
+  }
+}
+
+@-webkit-keyframes illumination-3 {
+  0% {
+    opacity: .6;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .6;
+  }
+  75% {
+    opacity: 1;
+  }
+  to {
+    opacity: .6;
+  }
+}
+@-moz-keyframes illumination-3 {
+  0% {
+    opacity: .6;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .6;
+  }
+  75% {
+    opacity: 1;
+  }
+  to {
+    opacity: .6;
+  }
+}
+@-o-keyframes illumination-3 {
+  0% {
+    opacity: .6;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .6;
+  }
+  75% {
+    opacity: 1;
+  }
+  to {
+    opacity: .6;
+  }
+}
+@keyframes illumination-3 {
+  0% {
+    opacity: .6;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .6;
+  }
+  75% {
+    opacity: 1;
+  }
+  to {
+    opacity: .6;
+  }
+}
+/* /slots */
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
