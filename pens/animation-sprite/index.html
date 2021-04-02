@@ -60,42 +60,48 @@
 
     <style>
       .ag-flag-blue {
-        position:absolute;
-        top:0;
-        left:32.625em;
-        width:9.25em;
         height:15.375em;
+        width:9.25em;
         background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/flag-blue.png) 0 100%/3500% 100% no-repeat;
+
         -webkit-animation:steps-sprite steps(34, start) 3.4s infinite;
         animation:steps-sprite steps(34, start) 3.4s infinite;
       }
       .ag-flag-red {
-        right:36.25em;
-        left:auto;
-        width:8.5em;
         height:14.1875em;
+        width:8.5em;
         background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/flag-red.png);
         background-size:3400% 100%;
-        -webkit-animation-timing-function:steps(33, start);
-        animation-timing-function:steps(33, start);
+
+        -webkit-animation:steps-sprite steps(33, start) 3.4s infinite;
+        animation:steps-sprite steps(33, start) 3.4s infinite;
       }
       .ag-fog {
-        opacity:0.3;
-        position:absolute;
-        bottom:0;
-        left:-.625em;
-        width:121.25em;
         height:75.625em;
+        width:121.25em;
         background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/fog.png) 0 100%/6400% 100% no-repeat;
+
+        opacity:0.3;
+
         -webkit-animation:steps-sprite steps(63, start) 8s infinite;
         animation:steps-sprite steps(63, start) 8s infinite;
+      }
+
+      @-webkit-keyframes steps-sprite {
+        to {
+          background-position-x:100%
+        }
+      }
+      @keyframes steps-sprite {
+        to {
+          background-position-x:100%
+        }
       }
     </style>
 
     <div class="ag-block">
       <div class="ag-flag-blue"></div>
       <div class="ag-flag-red"></div>
-      <div class="ag-fog"></div>
     </div>
 
     <div class="ag-block">

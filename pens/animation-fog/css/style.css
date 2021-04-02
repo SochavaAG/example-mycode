@@ -1,0 +1,64 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+html, body {
+  height: 100%;
+}
+
+.ag-fog-block {
+  height: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fog/images/bg.jpeg) no-repeat 50% 0;
+}
+.ag-fog {
+  height: 75.625em;
+  width: 121.25em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-fog/images/fog.png) 0 100%/6400% 100% no-repeat;
+
+  opacity: 0.3;
+
+  -webkit-animation: steps-sprite steps(63, start) 8s infinite;
+  animation: steps-sprite steps(63, start) 8s infinite;
+}
+
+@-webkit-keyframes steps-sprite {
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes steps-sprite {
+  to {
+    background-position-x: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
