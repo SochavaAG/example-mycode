@@ -3,7 +3,373 @@
   margin: 0 auto;
 }
 
+html, body {
+  height: 100%;
+}
+.ag-island-block {
+  height: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/waves/images/bg.jpg) no-repeat scroll 50% 0;
+  background-size: cover;
 
+  overflow: hidden;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  position: relative;
+}
+.ag-island-block:after {
+  content: "";
+  height: 336px;
+  width: 1000px;
+  margin: 0 auto;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/waves/images/island.png) no-repeat scroll 50% 0;
+
+  pointer-events: none;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.ag-island_waves {
+  height: 22.875em;
+  width: 120em;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/waves/images/waves.png);
+  background-position: 0 0;
+  background-size: 100% auto;
+
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+
+  -webkit-animation: an-waves 0.75s steps(3) infinite;
+  -moz-animation: an-waves 0.75s steps(3) infinite;
+  -o-animation: an-waves 0.75s steps(3) infinite;
+  animation: an-waves 0.75s steps(3) infinite;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+.ag-island_survivor {
+  height: 17.5em;
+  width: 22.75em;
+  margin-left: -11.375em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/waves/images/sprite-survivor.png) no-repeat;
+  background-size: 100% auto;
+
+  z-index: 100;
+  position: absolute;
+  bottom: 10em;
+  left: 50%;
+
+  will-change: left, margin-left;
+
+  -webkit-transition: left 0.3s, margin-left 0.3s;
+  -o-transition: left 0.3s, margin-left 0.3s;
+  -moz-transition: left 0.3s, margin-left 0.3s;
+  transition: left 0.3s, margin-left 0.3s;
+
+  -webkit-animation: an-survivor-waves 2.5s linear infinite, an-survivor-idle 14s step-start infinite;
+  -moz-animation: an-survivor-waves 2.5s linear infinite, an-survivor-idle 14s step-start infinite;
+  -o-animation: an-survivor-waves 2.5s linear infinite, an-survivor-idle 14s step-start infinite;
+  animation: an-survivor-waves 2.5s linear infinite, an-survivor-idle 14s step-start infinite;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+.js-ag-active {
+  -webkit-animation: an-survivor-prepare 1.5s steps(7, start), an-survivor-rowing 0.5s steps(4, start) 1s;
+  -moz-animation: an-survivor-prepare 1.5s steps(7, start), an-survivor-rowing 0.5s steps(4, start) 1s;
+  -o-animation: an-survivor-prepare 1.5s steps(7, start), an-survivor-rowing 0.5s steps(4, start) 1s;
+  animation: an-survivor-prepare 1.5s steps(7, start), an-survivor-rowing 0.5s steps(4, start) 1s
+}
+
+@-webkit-keyframes an-waves {
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-moz-keyframes an-waves {
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-o-keyframes an-waves {
+  100% {
+    background-position: 0 100%;
+  }
+}
+@keyframes an-waves {
+  100% {
+    background-position: 0 100%;
+  }
+}
+
+@-webkit-keyframes an-survivor-prepare {
+  100% {
+    background-position: 50% 46.66667%;
+  }
+}
+@-moz-keyframes an-survivor-prepare {
+  100% {
+    background-position: 50% 46.66667%;
+  }
+}
+@-o-keyframes an-survivor-prepare {
+  100% {
+    background-position: 50% 46.66667%;
+  }
+}
+@keyframes an-survivor-prepare {
+  100% {
+    background-position: 50% 46.66667%;
+  }
+}
+
+@-webkit-keyframes an-survivor-rowing {
+  0% {
+    background-position: 50% 53.33333%;
+  }
+  100% {
+    background-position: 50% 80%;
+  }
+}
+@-moz-keyframes an-survivor-rowing {
+  0% {
+    background-position: 50% 53.33333%;
+  }
+  100% {
+    background-position: 50% 80%;
+  }
+}
+@-o-keyframes an-survivor-rowing {
+  0% {
+    background-position: 50% 53.33333%;
+  }
+  100% {
+    background-position: 50% 80%;
+  }
+}
+@keyframes an-survivor-rowing {
+  0% {
+    background-position: 50% 53.33333%;
+  }
+  100% {
+    background-position: 50% 80%;
+  }
+}
+
+@-webkit-keyframes an-survivor-waves {
+  0% {
+    -webkit-transform: translate(-1%, 0);
+    transform: translate(-1%, 0);
+  }
+  33% {
+    -webkit-transform: translate(0%, -2%);
+    transform: translate(0%, -2%);
+  }
+  66% {
+    -webkit-transform: translate(1%, 1%);
+    transform: translate(1%, 1%);
+  }
+  100% {
+    -webkit-transform: translate(-1%, 0);
+    transform: translate(-1%, 0);
+  }
+}
+@-moz-keyframes an-survivor-waves {
+  0% {
+    -webkit-transform: translate(-1%, 0);
+    -moz-transform: translate(-1%, 0);
+    transform: translate(-1%, 0);
+  }
+  33% {
+    -webkit-transform: translate(0%, -2%);
+    -moz-transform: translate(0%, -2%);
+    transform: translate(0%, -2%);
+  }
+  66% {
+    -webkit-transform: translate(1%, 1%);
+    -moz-transform: translate(1%, 1%);
+    transform: translate(1%, 1%);
+  }
+  100% {
+    -webkit-transform: translate(-1%, 0);
+    -moz-transform: translate(-1%, 0);
+    transform: translate(-1%, 0);
+  }
+}
+@-o-keyframes an-survivor-waves {
+  0% {
+    -webkit-transform: translate(-1%, 0);
+    -o-transform: translate(-1%, 0);
+    transform: translate(-1%, 0);
+  }
+  33% {
+    -webkit-transform: translate(0%, -2%);
+    -o-transform: translate(0%, -2%);
+    transform: translate(0%, -2%);
+  }
+  66% {
+    -webkit-transform: translate(1%, 1%);
+    -o-transform: translate(1%, 1%);
+    transform: translate(1%, 1%);
+  }
+  100% {
+    -webkit-transform: translate(-1%, 0);
+    -o-transform: translate(-1%, 0);
+    transform: translate(-1%, 0);
+  }
+}
+@keyframes an-survivor-waves {
+  0% {
+    -webkit-transform: translate(-1%, 0);
+    -moz-transform: translate(-1%, 0);
+    -o-transform: translate(-1%, 0);
+    transform: translate(-1%, 0);
+  }
+  33% {
+    -webkit-transform: translate(0%, -2%);
+    -moz-transform: translate(0%, -2%);
+    -o-transform: translate(0%, -2%);
+    transform: translate(0%, -2%);
+  }
+  66% {
+    -webkit-transform: translate(1%, 1%);
+    -moz-transform: translate(1%, 1%);
+    -o-transform: translate(1%, 1%);
+    transform: translate(1%, 1%);
+  }
+  100% {
+    -webkit-transform: translate(-1%, 0);
+    -moz-transform: translate(-1%, 0);
+    -o-transform: translate(-1%, 0);
+    transform: translate(-1%, 0);
+  }
+}
+
+@-webkit-keyframes an-survivor-idle {
+  0% {
+    background-position: 50% 0;
+  }
+  93% {
+    background-position: 50% 0;
+  }
+  94% {
+    background-position: 50% 6.66667%;
+  }
+  95% {
+    background-position: 50% 13.33333%;
+  }
+  96% {
+    background-position: 50% 20%;
+  }
+  97% {
+    background-position: 50% 26.66667%;
+  }
+  98% {
+    background-position: 50% 33.33333%;
+  }
+  99% {
+    background-position: 50% 40%;
+  }
+  100% {
+    background-position: 50% 46.66667%;
+  }
+}
+@-moz-keyframes an-survivor-idle {
+  0% {
+    background-position: 50% 0;
+  }
+  93% {
+    background-position: 50% 0;
+  }
+  94% {
+    background-position: 50% 6.66667%;
+  }
+  95% {
+    background-position: 50% 13.33333%;
+  }
+  96% {
+    background-position: 50% 20%;
+  }
+  97% {
+    background-position: 50% 26.66667%;
+  }
+  98% {
+    background-position: 50% 33.33333%;
+  }
+  99% {
+    background-position: 50% 40%;
+  }
+  100% {
+    background-position: 50% 46.66667%;
+  }
+}
+@-o-keyframes an-survivor-idle {
+  0% {
+    background-position: 50% 0;
+  }
+  93% {
+    background-position: 50% 0;
+  }
+  94% {
+    background-position: 50% 6.66667%;
+  }
+  95% {
+    background-position: 50% 13.33333%;
+  }
+  96% {
+    background-position: 50% 20%;
+  }
+  97% {
+    background-position: 50% 26.66667%;
+  }
+  98% {
+    background-position: 50% 33.33333%;
+  }
+  99% {
+    background-position: 50% 40%;
+  }
+  100% {
+    background-position: 50% 46.66667%;
+  }
+}
+@keyframes an-survivor-idle {
+  0% {
+    background-position: 50% 0;
+  }
+  93% {
+    background-position: 50% 0;
+  }
+  94% {
+    background-position: 50% 6.66667%;
+  }
+  95% {
+    background-position: 50% 13.33333%;
+  }
+  96% {
+    background-position: 50% 20%;
+  }
+  97% {
+    background-position: 50% 26.66667%;
+  }
+  98% {
+    background-position: 50% 33.33333%;
+  }
+  99% {
+    background-position: 50% 40%;
+  }
+  100% {
+    background-position: 50% 46.66667%;
+  }
+}
 
 
 @media only screen and (max-width: 767px) {
