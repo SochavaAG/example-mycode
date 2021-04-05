@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Mockup</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .island-con {
+    image-rendering:-webkit-optimize-contrast;
+    image-rendering:crisp-edges;
+    background-size:cover;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    position:relative;
+    max-width:120em;
+    height:53.9375em;
+    margin:0 auto;
+    overflow:hidden;
+    background-image:url("/default/img/games/island/bg.jpg")
+  }
+  .island-con:after {
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    box-shadow:inset 3.75em 0em 2.5em -2.5em #000,inset -3.75em 0em 2.5em -2.5em #000;
+    pointer-events:none
+  }
+  .island__waves {
+    image-rendering:-webkit-optimize-contrast;
+    image-rendering:crisp-edges;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    width:120em;
+    height:22.875em;
+    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/waves/images/waves.png);
+    background-position:0 0;
+    background-size:100% auto;
+    -webkit-transform:translateX(-50%);
+    transform:translateX(-50%);
+    -webkit-animation:waves-anim 0.75s steps(3) infinite;
+    animation:waves-anim 0.75s steps(3) infinite
+  }
+  @-webkit-keyframes waves-anim {
+    100% {
+      background-position:0 100%
+    }
+  }
+  @keyframes waves-anim {
+    100% {
+      background-position:0 100%
+    }
+  }
+</style>
+
+  <div class="ag-format-container">
+
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
