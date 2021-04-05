@@ -22,271 +22,363 @@
 <style>
   html, body {
     height: 100%;
+
+    overflow: hidden;
   }
   .aquarium-block {
     height: 100%;
-    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/bg-2.jpg) no-repeat scroll 50% 0;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/bg-2.jpg) no-repeat scroll 50% 0 #0068A6;
     background-size: cover;
 
     position: relative;
   }
-
   [class*=ag-fish-] {
-    position:absolute;
-    left:0;
-    z-index:1;
-    margin-left:-100px;
+    margin-left: -100px;
+
+    z-index: 1;
+    position: absolute;
+    left: 0;
   }
-  [class*=ag-fish-]>div {
-    width:100%;
+  [class*=ag-fish-] > div {
+    width: 100%;
   }
-  [class*=ag-fish-]>div,
-  [class*=ag-fish-]>div:before {
-    position:absolute;
-    top:0;
-    height:100%;
-    background-repeat:no-repeat;
+  [class*=ag-fish-] > div,
+  [class*=ag-fish-] > div:before {
+    height: 100%;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
   }
-  [class*=ag-fish-]>div:before {
-    content:'';
-    display:block;
-    width:25px;
-    background-size:100% 100%;
+  [class*=ag-fish-] > div:before {
+    content: "";
+    display: block;
+    width: 25px;
+    background-size: 100% 100%;
   }
   .ag-fish-1 {
-    top:431px;
-    width:60px;
-    height:33px;
+    height: 33px;
+    width: 60px;
+
+    top: 431px;
 
     animation: an-fish-anim-1 50s linear 0ms reverse none infinite running;
   }
-  .ag-fish-1>div {
-    left:0;
-    width:51px;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-1.png);
+  .ag-fish-1 > div {
+    width: 51px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-1.png);
+
+    left: 0;
 
     animation: an-fish-anim-2 20s ease 0ms reverse none infinite running;
   }
-  .ag-fish-1>div:before {
-    left:100%;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-1_.png);
+  .ag-fish-1 > div:before {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fishtail-1.png);
+
+    left: 100%;
 
     animation: an-fish-anim-3 0.8s linear -.2s reverse none infinite running;
   }
   .ag-fish-2 {
-    top:761px;
-    width:53px;
-    height:37px;
+    height: 37px;
+    width: 53px;
+
+    top: 761px;
+
     animation: an-fish-anim-1 60s linear -10s reverse none infinite running;
   }
-  .ag-fish-2>div {
-    left:0;
-    width:43px;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-2.png);
+  .ag-fish-2 > div {
+    width: 43px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-2.png);
 
-    -webkit-animation: an-fish-anim-2 20s ease -5s normal none infinite running ;
-    animation: an-fish-anim-2 20s ease -5s normal none infinite running ;
+    left: 0;
+
+    -webkit-animation: an-fish-anim-2 20s ease -5s normal none infinite running;
+    animation: an-fish-anim-2 20s ease -5s normal none infinite running;
   }
-  .ag-fish-2>div:before {
-    left:100%;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-2_.png);
+  .ag-fish-2 > div:before {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fishtail-2.png);
+
+    left: 100%;
 
     animation: an-fish-anim-31s linear -.4s reverse none infinite running;
   }
   .ag-fish-3 {
-    top:392px;
-    width:99px;
-    height:70px;
+    height: 70px;
+    width: 99px;
+
+    top: 392px;
 
     -webkit-animation: an-fish-anim-1 90s linear -20s normal none infinite running;
     animation: an-fish-anim-1 90s linear -20s normal none infinite running;
   }
-  .ag-fish-3>div {
-    right:0;
-    width:78px;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-3.png);
-    background-position:100% 0;
+  .ag-fish-3 > div {
+    width: 78px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-3.png);
+    background-position: 100% 0;
+
+    right: 0;
+
     -webkit-animation: an-fish-anim-2 25s ease -10s normal none infinite running;
     animation: an-fish-anim-2 25s ease -10s normal none infinite running;
   }
-  .ag-fish-3>div:before {
-    right:100%;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-3_.png);
+  .ag-fish-3 > div:before {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fishtail-3.png);
+
+    right: 100%;
+
     animation: an-fish-anim-3 1.4s linear -.6s reverse none infinite running;
   }
   .ag-fish-4 {
-    top:637px;
-    width:69px;
-    height:33px;
+    height: 33px;
+    width: 69px;
+
+    top: 637px;
+
     -webkit-animation: an-fish-anim-170s linear -30s normal none infinite running;
     animation: an-fish-anim-170s linear -30s normal none infinite running;
   }
-  .ag-fish-4>div {
-    right:0;
-    width:58px;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-4.png);
-    background-position:100% 0;
+  .ag-fish-4 > div {
+    width: 58px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-4.png);
+    background-position: 100% 0;
+
+    right: 0;
+
     -webkit-animation: an-fish-anim-230s ease -15s normal none infinite running;
     animation: an-fish-anim-230s ease -15s normal none infinite running;
   }
-  .ag-fish-4>div:before {
-    right:100%;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-4_.png);
+  .ag-fish-4 > div:before {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fishtail-4.png);
+
+    right: 100%;
+
     animation: an-fish-anim-3 1.2s linear -.8s reverse none infinite running;
   }
   .ag-fish-5 {
-    top:697px;
-    width:102px;
-    height:48px;
+    height: 48px;
+    width: 102px;
+
+    top: 697px;
+
     animation: an-fish-anim-1 80s linear -40s reverse none infinite running;
   }
-  .ag-fish-5>div {
-    left:0;
-    width:85px;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-5.png);
+  .ag-fish-5 > div {
+    left: 0;
+    width: 85px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-5.png);
 
     -webkit-animation: an-fish-anim-235s ease -20s normal none infinite running;
     animation: an-fish-anim-235s ease -20s normal none infinite running;
   }
-  .ag-fish-5>div:before {
-    left:100%;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-5_.png);
-    animation:  an-fish-anim-3 1.6s linear -1s reverse none infinite running;
+  .ag-fish-5 > div:before {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fishtail-5.png);
+
+    left: 100%;
+
+    animation: an-fish-anim-3 1.6s linear -1s reverse none infinite running;
   }
   .ag-fish-6-1 {
-    top:297px;
-    z-index:0;
-    width:104px;
-    height:100px;
+    height: 100px;
+    width: 104px;
+
+    z-index: 0;
+    top: 297px;
 
     animation: an-fish-anim-1 100s linear 1s reverse none infinite running;
   }
-  .ag-fish-6-1>div {
-    left:0;
-    width:104px;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-6-1.png);
+  .ag-fish-6-1 > div {
+    width: 104px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-6-1.png);
+
+    left: 0;
   }
   .ag-fish-6-2 {
-    top:363px;
-    z-index:0;
-    width:137px;
-    height:54px;
+    height: 54px;
+    width: 137px;
+
+    z-index: 0;
+    top: 363px;
 
     -webkit-animation: an-fish-anim-1120s linear -10s normal none infinite running;
     animation: an-fish-anim-1120s linear -10s normal none infinite running;
   }
-  .ag-fish-6-2>div {
-    left:0;
-    width:137px;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-6-2.png);
+  .ag-fish-6-2 > div {
+    width: 137px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-6-2.png);
+
+    left: 0;
   }
   .ag-fish-6-3 {
-    top:690px;
-    z-index:0;
-    width:332px;
-    height:90px;
+    height: 90px;
+    width: 332px;
+
+    z-index: 0;
+    top: 690px;
 
     -webkit-animation: an-fish-anim-1140s linear -20s normal none infinite running;
     animation: an-fish-anim-1140s linear -20s normal none infinite running;
   }
-  .ag-fish-6-3>div {
-    left:0;
-    width:332px;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-6-3.png);
+  .ag-fish-6-3 > div {
+    width: 332px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-6-3.png);
+
+    left: 0;
   }
   .ag-fish-6-4 {
-    top:200px;
-    z-index:0;
-    width:160px;
-    height:72px;
+    height: 72px;
+    width: 160px;
+
+    z-index: 0;
+    top: 200px;
 
     -webkit-animation: an-fish-anim-1 160s linear -30s normal none infinite running;
     animation: an-fish-anim-1 160s linear -30s normal none infinite running;
   }
-  .ag-fish-6-4>div {
-    left:0;
-    width:160px;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-6-4.png);
+  .ag-fish-6-4 > div {
+    width: 160px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/fish-6-4.png);
+
+    left: 0;
+  }
+
+  .ag-bubble {
+    position:absolute;
+    bottom:0;
+    margin-bottom:-20px;
+    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/bubble.png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    animation:ag-bubble-anim linear reverse none infinite running
+  }
+  .ag-bubble_dop {
+    opacity:0.2;
+    bottom:100%;
+    margin-bottom:20px;
+    transition:bottom, opacity, margin-bottom;
+    transition-timing-function:linear
+  }
+  .ag-bubble-con {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0
   }
 
   @-webkit-keyframes an-fish-anim-1 {
     0% {
-      margin-left:-350px;
+      margin-left: -350px;
 
-      left:0;
+      left: 0;
     }
     80% {
-      margin-left:350px;
+      margin-left: 350px;
 
-      left:100%;
+      left: 100%;
     }
     to {
-      margin-left:350px;
+      margin-left: 350px;
 
-      left:100%;
+      left: 100%;
     }
   }
   @keyframes an-fish-anim-1 {
     0% {
-      margin-left:-350px;
+      margin-left: -350px;
 
-      left:0;
+      left: 0;
     }
     80% {
-      margin-left:350px;
+      margin-left: 350px;
 
-      left:100%;
+      left: 100%;
     }
     to {
-      margin-left:350px;
+      margin-left: 350px;
 
-      left:100%;
+      left: 100%;
     }
   }
 
   @-webkit-keyframes an-fish-anim-2 {
     0% {
-      margin-top:-50px;
+      margin-top: -50px;
     }
     50% {
-      margin-top:50px;
+      margin-top: 50px;
     }
     to {
-      margin-top:-50px;
+      margin-top: -50px;
     }
   }
   @keyframes an-fish-anim-2 {
     0% {
-      margin-top:-50px;
+      margin-top: -50px;
     }
     50% {
-      margin-top:50px;
+      margin-top: 50px;
     }
     to {
-      margin-top:-50px;
+      margin-top: -50px;
     }
   }
 
   @-webkit-keyframes an-fish-anim-3 {
     0% {
-      width:25px;
+      width: 25px;
     }
     50% {
-      width:14px;
+      width: 14px;
     }
     to {
-      width:25px;
+      width: 25px;
     }
   }
   @keyframes an-fish-anim-3 {
     0% {
-      width:25px;
+      width: 25px;
     }
     50% {
-      width:14px;
+      width: 14px;
     }
     to {
-      width:25px;
+      width: 25px;
+    }
+  }
+
+  @-webkit-keyframes ag-bubble-anim {
+    0% {
+      margin-left:-2px;
+      -webkit-animation-timing-function:ease;
+      animation-timing-function:ease
+    }
+    50% {
+      margin-left:2px;
+      -webkit-animation-timing-function:ease;
+      animation-timing-function:ease
+    }
+    to {
+      margin-left:-2px;
+      -webkit-animation-timing-function:ease;
+      animation-timing-function:ease
+    }
+  }
+  @keyframes ag-bubble-anim {
+    0% {
+      margin-left:-2px;
+      -webkit-animation-timing-function:ease;
+      animation-timing-function:ease
+    }
+    50% {
+      margin-left:2px;
+      -webkit-animation-timing-function:ease;
+      animation-timing-function:ease
+    }
+    to {
+      margin-left:-2px;
+      -webkit-animation-timing-function:ease;
+      animation-timing-function:ease
     }
   }
 </style>
@@ -306,32 +398,32 @@
       <div></div>
     </div>
 
-    <div class="PSDN-bubbleOne-con">
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(-34px); width: 7px; height: 4.62px; animation-duration: 860ms; animation-delay: -406ms; transition-duration: 8549ms; transition-delay: 0ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(1px); width: 17px; height: 11.22px; animation-duration: 755ms; animation-delay: -253ms; transition-duration: 11183ms; transition-delay: 33ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(24px); width: 16px; height: 10.56px; animation-duration: 674ms; animation-delay: -137ms; transition-duration: 11406ms; transition-delay: 176ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(13px); width: 16px; height: 10.56px; animation-duration: 441ms; animation-delay: -550ms; transition-duration: 10134ms; transition-delay: 249ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(-20px); width: 15px; height: 9.9px; animation-duration: 483ms; animation-delay: -870ms; transition-duration: 11918ms; transition-delay: 432ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(-44px); width: 7px; height: 4.62px; animation-duration: 548ms; animation-delay: -367ms; transition-duration: 10795ms; transition-delay: 255ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(40px); width: 12px; height: 7.92px; animation-duration: 526ms; animation-delay: -31ms; transition-duration: 9041ms; transition-delay: 870ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(-10px); width: 18px; height: 11.88px; animation-duration: 489ms; animation-delay: -832ms; transition-duration: 10222ms; transition-delay: 609ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(48px); width: 14px; height: 9.24px; animation-duration: 721ms; animation-delay: -813ms; transition-duration: 8302ms; transition-delay: 824ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(-32px); width: 10px; height: 6.6px; animation-duration: 578ms; animation-delay: -183ms; transition-duration: 11832ms; transition-delay: 747ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(-4px); width: 15px; height: 9.9px; animation-duration: 484ms; animation-delay: -598ms; transition-duration: 10211ms; transition-delay: 1480ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(50px); width: 7px; height: 4.62px; animation-duration: 470ms; animation-delay: -846ms; transition-duration: 8751ms; transition-delay: 605ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(-12px); width: 14px; height: 9.24px; animation-duration: 400ms; animation-delay: -456ms; transition-duration: 8070ms; transition-delay: 468ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(10px); width: 18px; height: 11.88px; animation-duration: 783ms; animation-delay: -101ms; transition-duration: 8761ms; transition-delay: 1365ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(13px); width: 18px; height: 11.88px; animation-duration: 509ms; animation-delay: -490ms; transition-duration: 9588ms; transition-delay: 1092ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(0px); width: 16px; height: 10.56px; animation-duration: 685ms; animation-delay: -159ms; transition-duration: 11491ms; transition-delay: 2250ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(-46px); width: 5px; height: 3.3px; animation-duration: 703ms; animation-delay: -149ms; transition-duration: 11895ms; transition-delay: 1056ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(43px); width: 9px; height: 5.94px; animation-duration: 403ms; animation-delay: -179ms; transition-duration: 10016ms; transition-delay: 2414ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(31px); width: 14px; height: 9.24px; animation-duration: 502ms; animation-delay: -411ms; transition-duration: 9704ms; transition-delay: 1530ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(34px); width: 16px; height: 10.56px; animation-duration: 659ms; animation-delay: -766ms; transition-duration: 9905ms; transition-delay: 2489ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(-11px); width: 8px; height: 5.28px; animation-duration: 797ms; animation-delay: -569ms; transition-duration: 11887ms; transition-delay: 1820ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(30px); width: 14px; height: 9.24px; animation-duration: 727ms; animation-delay: -152ms; transition-duration: 11856ms; transition-delay: 2310ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(26px); width: 5px; height: 3.3px; animation-duration: 805ms; animation-delay: -251ms; transition-duration: 9606ms; transition-delay: 1826ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(16px); width: 11px; height: 7.26px; animation-duration: 753ms; animation-delay: -728ms; transition-duration: 10276ms; transition-delay: 2277ms;"></div>
-      <div class="PSDN-bubbleOne PSDN-bubbleOne_dop" style="left: 71%; transform: translateX(-18px); width: 16px; height: 10.56px; animation-duration: 499ms; animation-delay: -300ms; transition-duration: 9722ms; transition-delay: 2184ms;"></div>
+    <div class="ag-bubble-con">
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(-34px); width: 7px; height: 4.62px; animation-duration: 860ms; animation-delay: -406ms; transition-duration: 8549ms; transition-delay: 0ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(1px); width: 17px; height: 11.22px; animation-duration: 755ms; animation-delay: -253ms; transition-duration: 11183ms; transition-delay: 33ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(24px); width: 16px; height: 10.56px; animation-duration: 674ms; animation-delay: -137ms; transition-duration: 11406ms; transition-delay: 176ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(13px); width: 16px; height: 10.56px; animation-duration: 441ms; animation-delay: -550ms; transition-duration: 10134ms; transition-delay: 249ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(-20px); width: 15px; height: 9.9px; animation-duration: 483ms; animation-delay: -870ms; transition-duration: 11918ms; transition-delay: 432ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(-44px); width: 7px; height: 4.62px; animation-duration: 548ms; animation-delay: -367ms; transition-duration: 10795ms; transition-delay: 255ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(40px); width: 12px; height: 7.92px; animation-duration: 526ms; animation-delay: -31ms; transition-duration: 9041ms; transition-delay: 870ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(-10px); width: 18px; height: 11.88px; animation-duration: 489ms; animation-delay: -832ms; transition-duration: 10222ms; transition-delay: 609ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(48px); width: 14px; height: 9.24px; animation-duration: 721ms; animation-delay: -813ms; transition-duration: 8302ms; transition-delay: 824ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(-32px); width: 10px; height: 6.6px; animation-duration: 578ms; animation-delay: -183ms; transition-duration: 11832ms; transition-delay: 747ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(-4px); width: 15px; height: 9.9px; animation-duration: 484ms; animation-delay: -598ms; transition-duration: 10211ms; transition-delay: 1480ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(50px); width: 7px; height: 4.62px; animation-duration: 470ms; animation-delay: -846ms; transition-duration: 8751ms; transition-delay: 605ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(-12px); width: 14px; height: 9.24px; animation-duration: 400ms; animation-delay: -456ms; transition-duration: 8070ms; transition-delay: 468ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(10px); width: 18px; height: 11.88px; animation-duration: 783ms; animation-delay: -101ms; transition-duration: 8761ms; transition-delay: 1365ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(13px); width: 18px; height: 11.88px; animation-duration: 509ms; animation-delay: -490ms; transition-duration: 9588ms; transition-delay: 1092ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(0px); width: 16px; height: 10.56px; animation-duration: 685ms; animation-delay: -159ms; transition-duration: 11491ms; transition-delay: 2250ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(-46px); width: 5px; height: 3.3px; animation-duration: 703ms; animation-delay: -149ms; transition-duration: 11895ms; transition-delay: 1056ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(43px); width: 9px; height: 5.94px; animation-duration: 403ms; animation-delay: -179ms; transition-duration: 10016ms; transition-delay: 2414ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(31px); width: 14px; height: 9.24px; animation-duration: 502ms; animation-delay: -411ms; transition-duration: 9704ms; transition-delay: 1530ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(34px); width: 16px; height: 10.56px; animation-duration: 659ms; animation-delay: -766ms; transition-duration: 9905ms; transition-delay: 2489ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(-11px); width: 8px; height: 5.28px; animation-duration: 797ms; animation-delay: -569ms; transition-duration: 11887ms; transition-delay: 1820ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(30px); width: 14px; height: 9.24px; animation-duration: 727ms; animation-delay: -152ms; transition-duration: 11856ms; transition-delay: 2310ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(26px); width: 5px; height: 3.3px; animation-duration: 805ms; animation-delay: -251ms; transition-duration: 9606ms; transition-delay: 1826ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(16px); width: 11px; height: 7.26px; animation-duration: 753ms; animation-delay: -728ms; transition-duration: 10276ms; transition-delay: 2277ms;"></div>
+      <div class="ag-bubble ag-bubble_dop" style="left: 71%; transform: translateX(-18px); width: 16px; height: 10.56px; animation-duration: 499ms; animation-delay: -300ms; transition-duration: 9722ms; transition-delay: 2184ms;"></div>
     </div>
 
     <div class="ag-fish-1">
