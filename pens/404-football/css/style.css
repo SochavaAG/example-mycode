@@ -5,16 +5,17 @@
 
 .ag-football-block {
   padding: 50px 0;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/404-football/images/gates.png) no-repeat scroll 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/404-football/images/gates.png) no-repeat scroll 50% 0;
 }
 .ag-football_box {
   padding: 50px;
   background-color: rgb(164, 231, 255);
 }
 .ag-football {
-  display: inline-block;
+  display: table;
   height: 587px;
   width: 524px;
+  margin: 0 auto;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/404-football/images/sprite-football.png) no-repeat scroll 0 0;
   background-position: 0 100%;
 
