@@ -20,302 +20,505 @@
 
 <body>
 <style>
-  .ew-conveyor {
+  .ag-conveyor {
     position: relative;
-    -webkit-flex: none;
-    -ms-flex: none;
-    flex: none;
-    margin-left: -4.0625em
   }
   @media (max-width: 1800px) {
-    .ew-conveyor {
+    .ag-conveyor {
       position: absolute;
       top: 3.125em;
-      right: -12.5em
+      right: -12.5em;
     }
   }
   @media (max-width: 1600px) {
-    .ew-conveyor {
+    .ag-conveyor {
       top: -50px;
+
       -webkit-transform: scale(0.8);
-      transform: scale(0.8)
+      transform: scale(0.8);
     }
   }
   @media (max-width: 1366px) {
-    .ew-conveyor {
+    .ag-conveyor {
       position: absolute;
       top: 50%;
-      right: auto;
       left: 50%;
-      margin-top: -1.25em;
-      margin-left: 22.8125em;
+      right: auto;
+
       -webkit-transform: translate(-50%, -50%) scale(0.7);
-      transform: translate(-50%, -50%) scale(0.7)
+      transform: translate(-50%, -50%) scale(0.7);
     }
   }
   @media (max-width: 1280px) {
-    .ew-conveyor {
-      margin-left: 18.75em;
+    .ag-conveyor {
       -webkit-transform: translate(-50%, -50%) scale(0.6);
-      transform: translate(-50%, -50%) scale(0.6)
+      transform: translate(-50%, -50%) scale(0.6);
     }
   }
-  .ew-conveyor__content {
-    position: relative;
-    width: 75.6875em;
+  .ag-conveyor_content {
     height: 56.6875em;
-    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/conveyor-mobile/images/conveyor.png) no-repeat center/contain
-  }
-  .ew-conveyor__phone {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
-  }
-  .ew-conveyor__phone--one {
-    width: 5em;
-    height: 10.5em;
-    margin-top: -8.4375em;
-    margin-left: -11.5625em
-  }
-  .ew-conveyor__phone--two {
-    width: 5.25em;
-    height: 11.1875em;
-    margin-top: -10.625em;
-    margin-left: 5.4375em
-  }
-  .ew-conveyor__phone--three {
-    width: 6.0625em;
-    height: 11.4375em;
-    margin-top: 1.125em;
-    margin-left: 10.8125em
-  }
-  .ew-conveyor__phone--main {
-    width: 10.625em;
-    height: 21.75em;
-    margin-top: -4.0625em;
-    margin-left: -1.875em
-  }
-  .ew-conveyor__phone-img {
-    opacity: 0;
+    width: 75.6875em;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/conveyor-mobile/images/conveyor.png) no-repeat center/contain;
+
     position: relative;
-    width: 100%;
-    height: 100%;
-    transition: all 0.7s ease-out
   }
-  .ew-conveyor__phone-img--one {
-    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/conveyor-mobile/images/conveyor-phone-1.png) no-repeat center/contain;
-  }
-  .ew-conveyor__phone-img--two {
-    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/conveyor-mobile/images/conveyor-phone-2.png) no-repeat center/contain;
-  }
-  .ew-conveyor__phone-img--three {
-    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/conveyor-mobile/images/conveyor-phone-3.png) no-repeat center/contain;
-  }
-  .ew-conveyor__phone-img--main {
-    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/conveyor-mobile/images/conveyor-phone-4.png) no-repeat center/contain;
-  }
-  .ew-conveyor__phone-img--blue {
-    -webkit-filter: hue-rotate(180deg);
-    filter: hue-rotate(180deg)
-  }
-  .ew-conveyor__phone-img--green {
-    -webkit-filter: hue-rotate(90deg);
-    filter: hue-rotate(90deg)
-  }
-  .ew-conveyor__phone-img--pink {
-    -webkit-filter: hue-rotate(250deg);
-    filter: hue-rotate(250deg)
-  }
-  .ew-conveyor__phone-img--yellow {
-    -webkit-filter: hue-rotate(0deg);
-    filter: hue-rotate(0deg)
-  }
-  .ew-conveyor__cooler {
+  .ag-conveyor_phone {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -340px;
-    margin-left: 250px;
+
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    -webkit-animation: rotating 0.5s ease infinite;
-    animation: rotating 0.5s ease infinite
   }
-  .ew-conveyor__light {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+  .ag-conveyor_phone__one {
+    height: 10.5em;
+    width: 5em;
+    margin-top: -8.4375em;
+    margin-left: -11.5625em;
+  }
+  .ag-conveyor_phone__two {
+    height: 11.1875em;
+    width: 5.25em;
+    margin-top: -10.625em;
+    margin-left: 5.4375em;
+  }
+  .ag-conveyor_phone__three {
+    height: 11.4375em;
+    width: 6.0625em;
+    margin-top: 1.125em;
+    margin-left: 10.8125em;
+  }
+  .ag-conveyor_phone__main {
+    height: 21.75em;
+    width: 10.625em;
+    margin-top: -4.0625em;
+    margin-left: -1.875em;
+  }
+  .ag-conveyor_phone-img {
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+
+    transition: all 0.7s ease-out;
+
+    position: relative;
+  }
+  .ag-conveyor_phone-img__one {
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/conveyor-mobile/images/conveyor-phone-1.png) no-repeat center/contain;
+  }
+  .ag-conveyor_phone-img__two {
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/conveyor-mobile/images/conveyor-phone-2.png) no-repeat center/contain;
+  }
+  .ag-conveyor_phone-img__three {
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/conveyor-mobile/images/conveyor-phone-3.png) no-repeat center/contain;
+  }
+  .ag-conveyor_phone-img__main {
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/conveyor-mobile/images/conveyor-phone-4.png) no-repeat center/contain;
+  }
+  .ag-conveyor_phone-img__green {
+    -webkit-filter: hue-rotate(90deg);
+    filter: hue-rotate(90deg);
+  }
+  .ag-conveyor_phone-img__pink {
+    -webkit-filter: hue-rotate(250deg);
+    filter: hue-rotate(250deg);
+  }
+  .ag-conveyor_phone-img__yellow {
+    -webkit-filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg);
+  }
+  .ag-conveyor_light {
+    height: 12.875em;
+    width: 10.375em;
+    padding: 0 10px;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/conveyor-mobile/images/light2.png) no-repeat center/contain;
+
+    z-index: 2;
     position: absolute;
     top: 50%;
     left: 50%;
-    z-index: 2;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding: 0 10px;
-    width: 10.375em;
-    height: 12.875em;
-    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/conveyor-mobile/images/light2.png) no-repeat center/contain;
+
     -webkit-transform: translate(-50%, -50%) scale(0.98);
     transform: translate(-50%, -50%) scale(0.98);
-    -webkit-animation: ew-conveyor-light-scale 3s infinite alternate both linear;
-    animation: ew-conveyor-light-scale 3s infinite alternate both linear
+
+    -webkit-animation: an-conveyor-light-scale 3s infinite alternate both linear;
+    animation: an-conveyor-light-scale 3s infinite alternate both linear;
   }
-  .ew-conveyor__light-bright {
-    opacity: 0;
-    width: .25em;
+  .ag-conveyor_light-bright {
     height: 7.5em;
+    width: .25em;
     background: linear-gradient(to bottom, rgba(255, 221, 87, 0) 1%, #ffdd57 50%, rgba(255, 221, 87, 0) 100%);
+
+    opacity: 0;
+
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px);
+
     -webkit-filter: blur(3px);
-    filter: blur(3px)
+    filter: blur(3px);
   }
-  .ew-conveyor__light-bright--one,
-  .ew-conveyor__light-bright--five {
+  .ag-conveyor_light-bright__one,
+  .ag-conveyor_light-bright__five {
     height: 5.3125em;
-    -webkit-animation: ew-conveyor-light 3s infinite backwards linear;
-    animation: ew-conveyor-light 3s infinite backwards linear
+
+    -webkit-animation: an-conveyor-light 3s infinite backwards linear;
+    animation: an-conveyor-light 3s infinite backwards linear;
   }
-  .ew-conveyor__light-bright--two,
-  .ew-conveyor__light-bright--six {
+  .ag-conveyor_light-bright__two,
+  .ag-conveyor_light-bright__six {
     height: 10em;
     margin-top: 1.5625em;
-    -webkit-animation: ew-conveyor-light 3s infinite backwards linear;
-    animation: ew-conveyor-light 3s infinite backwards linear
+
+    -webkit-animation: an-conveyor-light 3s infinite backwards linear;
+    animation: an-conveyor-light 3s infinite backwards linear;
   }
-  .ew-conveyor__light-bright--three,
-  .ew-conveyor__light-bright--seven {
-    opacity: 0.3;
+  .ag-conveyor_light-bright__three,
+  .ag-conveyor_light-bright__seven {
     height: 3.75em;
-    -webkit-animation: ew-conveyor-light 3s infinite backwards linear;
-    animation: ew-conveyor-light 3s infinite backwards linear
+
+    opacity: 0.3;
+
+    -webkit-animation: an-conveyor-light 3s infinite backwards linear;
+    animation: an-conveyor-light 3s infinite backwards linear;
   }
-  .ew-conveyor__light-bright--four,
-  .ew-conveyor__light-bright--eight {
+  .ag-conveyor_light-bright__four,
+  .ag-conveyor_light-bright__eight {
     margin-top: 1.25em;
-    -webkit-animation: ew-conveyor-light 3s infinite backwards linear;
-    animation: ew-conveyor-light 3s infinite backwards linear
+
+    -webkit-animation: an-conveyor-light 3s infinite backwards linear;
+    animation: an-conveyor-light 3s infinite backwards linear;
   }
-  .ew-conveyor__light-bright--one {
+  .ag-conveyor_light-bright__one {
     -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s
+    animation-delay: 0.2s;
   }
-  .ew-conveyor__light-bright--two {
+  .ag-conveyor_light-bright__two {
     -webkit-animation-delay: 0.3s;
-    animation-delay: 0.3s
+    animation-delay: 0.3s;
   }
-  .ew-conveyor__light-bright--three {
+  .ag-conveyor_light-bright__three {
     -webkit-animation-delay: 0.4s;
-    animation-delay: 0.4s
+    animation-delay: 0.4s;
   }
-  .ew-conveyor__light-bright--four {
+  .ag-conveyor_light-bright__four {
     -webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s
+    animation-delay: 0.5s;
   }
-  .ew-conveyor__light-bright--five {
+  .ag-conveyor_light-bright__five {
     -webkit-animation-delay: 0.6s;
-    animation-delay: 0.6s
+    animation-delay: 0.6s;
   }
-  .ew-conveyor__light-bright--six {
+  .ag-conveyor_light-bright__six {
     -webkit-animation-delay: 0.7s;
-    animation-delay: 0.7s
+    animation-delay: 0.7s;
   }
-  .ew-conveyor__light-bright--seven {
+  .ag-conveyor_light-bright__seven {
     -webkit-animation-delay: 0.8s;
-    animation-delay: 0.8s
+    animation-delay: 0.8s;
   }
-  .ew-conveyor__light-bright--eight {
+  .ag-conveyor_light-bright__eight {
     -webkit-animation-delay: 0.9s;
-    animation-delay: 0.9s
+    animation-delay: 0.9s;
   }
-  .ew-conveyor__light--one {
+  .ag-conveyor_light__one {
     margin-top: -12.625em;
-    margin-left: -21.25em
+    margin-left: -21.25em;
   }
-  .ew-conveyor__light--two {
+  .ag-conveyor_light__two {
     margin-top: -25.75em;
-    margin-left: -1.6875em
+    margin-left: -1.6875em;
   }
-  .ew-conveyor__light--main {
-    width: 13.3125em;
+  .ag-conveyor_light__main {
     height: 22.1875em;
+    width: 13.3125em;
     margin-top: -3.5em;
     margin-left: -3em;
-    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/conveyor-mobile/images/main-light.png) no-repeat center/contain
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/conveyor-mobile/images/main-light.png) no-repeat center/contain;
   }
-  .ew-conveyor--loaded .ew-conveyor__phone-img--one {
-    -webkit-animation: ew-conveyor-first-line 5s 1.5s infinite linear;
-    animation: ew-conveyor-first-line 5s 1.5s infinite linear
+  .ag-conveyor__loaded .ag-conveyor_phone-img__one {
+    -webkit-animation: an-conveyor-first-line 5s 1.5s infinite linear;
+    animation: an-conveyor-first-line 5s 1.5s infinite linear;
   }
-  .ew-conveyor--loaded .ew-conveyor__phone-img--two {
-    -webkit-animation: ew-conveyor-second-line 5s 1.5s infinite linear;
-    animation: ew-conveyor-second-line 5s 1.5s infinite linear
+  .ag-conveyor__loaded .ag-conveyor_phone-img__two {
+    -webkit-animation: an-conveyor-second-line 5s 1.5s infinite linear;
+    animation: an-conveyor-second-line 5s 1.5s infinite linear;
   }
-  .ew-conveyor--loaded .ew-conveyor__phone-img--three {
-    -webkit-animation: ew-conveyor-third-line 5s 1.5s infinite linear;
-    animation: ew-conveyor-third-line 5s 1.5s infinite linear
+  .ag-conveyor__loaded .ag-conveyor_phone-img__three {
+    -webkit-animation: an-conveyor-third-line 5s 1.5s infinite linear;
+    animation: an-conveyor-third-line 5s 1.5s infinite linear;
   }
-  .ew-conveyor--loaded .ew-conveyor__phone-img--main {
-    -webkit-animation: ew-conveyor-main-phone 5s 1.5s infinite linear;
-    animation: ew-conveyor-main-phone 5s 1.5s infinite linear
+  .ag-conveyor__loaded .ag-conveyor_phone-img__main {
+    -webkit-animation: an-conveyor-main-phone 5s 1.5s infinite linear;
+    animation: an-conveyor-main-phone 5s 1.5s infinite linear;
+  }
+
+  @-webkit-keyframes an-conveyor-first-line {
+    0%,
+    95% {
+      opacity: 0;
+    }
+    20%,
+    80% {
+      opacity: 1;
+    }
+    0% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+    100% {
+      -webkit-transform: translate(4.6875em, -2.5em);
+      transform: translate(4.6875em, -2.5em);
+    }
+  }
+  @keyframes an-conveyor-first-line {
+    0%,
+    95% {
+      opacity: 0;
+    }
+    20%,
+    80% {
+      opacity: 1;
+    }
+    0% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+    100% {
+      -webkit-transform: translate(4.6875em, -2.5em);
+      transform: translate(4.6875em, -2.5em);
+    }
+  }
+
+  @-webkit-keyframes an-conveyor-second-line {
+    0%,
+    95% {
+      opacity: 0;
+    }
+    20%,
+    80% {
+      opacity: 1;
+    }
+    0% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+    100% {
+      opacity: 0;
+
+      -webkit-transform: translate(3.75em, 2.5em);
+      transform: translate(3.75em, 2.5em);
+    }
+  }
+  @keyframes an-conveyor-second-line {
+    0%,
+    95% {
+      opacity: 0;
+    }
+    20%,
+    80% {
+      opacity: 1;
+    }
+    0% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+    100% {
+      opacity: 0;
+
+      -webkit-transform: translate(3.75em, 2.5em);
+      transform: translate(3.75em, 2.5em);
+    }
+  }
+
+  @-webkit-keyframes an-conveyor-third-line {
+    0%,
+    95% {
+      opacity: 0;
+    }
+    20%,
+    80% {
+      opacity: 1;
+    }
+    0% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+    100% {
+      -webkit-transform: translate(-5.625em, 3.4375em);
+      transform: translate(-5.625em, 3.4375em);
+    }
+  }
+  @keyframes an-conveyor-third-line {
+    0%,
+    95% {
+      opacity: 0;
+    }
+    20%,
+    80% {
+      opacity: 1;
+    }
+    0% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+    100% {
+      -webkit-transform: translate(-5.625em, 3.4375em);
+      transform: translate(-5.625em, 3.4375em);
+    }
+  }
+
+  @-webkit-keyframes an-conveyor-main-phone {
+    0%,
+    95%,
+    100% {
+      opacity: 0;
+    }
+    15%,
+    80% {
+      opacity: 1;
+    }
+  }
+  @keyframes an-conveyor-main-phone {
+    0%,
+    95%,
+    100% {
+      opacity: 0;
+    }
+    15%,
+    80% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes an-conveyor-light {
+    0% {
+      opacity: 0;
+
+      -webkit-transform: translateY(-.9375em);
+      transform: translateY(-.9375em);
+    }
+    20%,
+    60% {
+      opacity: 1;
+
+      -webkit-transform: translateY(.9375em);
+      transform: translateY(.9375em);
+    }
+    40%,
+    80% {
+      opacity: 0.5;
+
+      -webkit-transform: translateY(-.9375em);
+      transform: translateY(-.9375em);
+    }
+    100% {
+      opacity: 1;
+
+      -webkit-transform: translateY(-25em);
+      transform: translateY(-25em);
+    }
+  }
+  @keyframes an-conveyor-light {
+    0% {
+      opacity: 0;
+
+      -webkit-transform: translateY(-.9375em);
+      transform: translateY(-.9375em);
+    }
+    20%,
+    60% {
+      opacity: 1;
+
+      -webkit-transform: translateY(.9375em);
+      transform: translateY(.9375em);
+    }
+    40%,
+    80% {
+      opacity: 0.5;
+
+      -webkit-transform: translateY(-.9375em);
+      transform: translateY(-.9375em);
+    }
+    100% {
+      opacity: 1;
+
+      -webkit-transform: translateY(-25em);
+      transform: translateY(-25em);
+    }
+  }
+
+  @-webkit-keyframes an-conveyor-light-scale {
+    0% {
+      opacity: 0.7;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes an-conveyor-light-scale {
+    0% {
+      opacity: 0.7;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes rotating {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(-360deg);
+      transform: rotate(-360deg);
+    }
   }
 </style>
 
   <div class="ag-format-container">
-    <div class="ew-conveyor ew-conveyor--loaded">
-      <div class="ew-conveyor__content aos-init aos-animate">
-        <div class="ew-conveyor__light ew-conveyor__light--one">
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--one"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--two"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--three"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--four"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--five"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--six"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--seven"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--eight"></div>
+    <div class="ag-conveyor ag-conveyor__loaded">
+      <div class="ag-conveyor_content aos-init">
+        <div class="ag-conveyor_light ag-conveyor_light__one">
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__one"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__two"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__three"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__four"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__five"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__six"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__seven"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__eight"></div>
         </div>
-        <div class="ew-conveyor__light ew-conveyor__light--two">
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--one"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--two"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--three"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--four"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--one"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--two"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--three"></div>
+        <div class="ag-conveyor_light ag-conveyor_light__two">
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__one"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__two"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__three"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__four"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__one"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__two"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__three"></div>
         </div>
-        <div class="ew-conveyor__light ew-conveyor__light--main">
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--one"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--two"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--three"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--four"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--one"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--two"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--three"></div>
-          <div class="ew-conveyor__light-bright ew-conveyor__light-bright--four"></div>
+        <div class="ag-conveyor_light ag-conveyor_light__main">
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__one"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__two"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__three"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__four"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__one"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__two"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__three"></div>
+          <div class="ag-conveyor_light-bright ag-conveyor_light-bright__four"></div>
         </div>
-        <div class="ew-conveyor__phone ew-conveyor__phone--one">
-          <div class="ew-conveyor__phone-img ew-conveyor__phone-img--one"></div>
+        <div class="ag-conveyor_phone ag-conveyor_phone__one">
+          <div class="ag-conveyor_phone-img ag-conveyor_phone-img__one"></div>
         </div>
-        <div class="ew-conveyor__phone ew-conveyor__phone--two">
-          <div class="ew-conveyor__phone-img ew-conveyor__phone-img--two ew-conveyor__phone-img--yellow"></div>
+        <div class="ag-conveyor_phone ag-conveyor_phone__two">
+          <div class="ag-conveyor_phone-img ag-conveyor_phone-img__two ag-conveyor_phone-img__yellow"></div>
         </div>
-        <div class="ew-conveyor__phone ew-conveyor__phone--three">
-          <div class="ew-conveyor__phone-img ew-conveyor__phone-img--three ew-conveyor__phone-img--pink"></div>
+        <div class="ag-conveyor_phone ag-conveyor_phone__three">
+          <div class="ag-conveyor_phone-img ag-conveyor_phone-img__three ag-conveyor_phone-img__pink"></div>
         </div>
-        <div class="ew-conveyor__phone ew-conveyor__phone--main">
-          <div class="ew-conveyor__phone-img ew-conveyor__phone-img--main ew-conveyor-main-phone ew-conveyor__phone-img--green"></div>
+        <div class="ag-conveyor_phone ag-conveyor_phone__main">
+          <div class="ag-conveyor_phone-img ag-conveyor_phone-img__main ag-conveyor-main-phone ag-conveyor_phone-img__green"></div>
         </div>
       </div>
     </div>
