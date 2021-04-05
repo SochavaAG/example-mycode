@@ -5433,13 +5433,6 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 /* /button 86 */
 
 /* button 87 */
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 100 version
-*/
-
 .ag-base_btn-v87 {
   border-width: 0 0 0.28em;
   border-style: solid;
@@ -5475,6 +5468,23 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
   background-color: #33e7ff;
 }
 /* /button 87 */
+
+/* button 88 */
+.ag-base_btn-v88 {
+  border: 1px solid #aeff52;
+  background: #036ffc;
+
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.ag-base_btn-v88:hover {
+  -webkit-box-shadow: inset 0 0 .5em 2px #024397;
+  -moz-box-shadow: inset 0 0 .5em 2px #024397;
+  box-shadow: inset 0 0 .5em 2px #024397;
+}
+/* /button 88 */
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {

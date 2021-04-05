@@ -19,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="776">
-              <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+              <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -38,8 +38,8 @@
       <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-t.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6696">
-              <caret line="279" column="1" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="279" selection-end-column="1" />
+            <state relative-caret-position="365">
+              <caret line="1421" column="1" lean-forward="true" selection-start-line="1171" selection-start-column="0" selection-end-line="1421" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -48,11 +48,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="25" column="70" lean-forward="false" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,8 +58,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130080">
-              <caret line="5420" column="23" lean-forward="false" selection-start-line="5420" selection-start-column="23" selection-end-line="5420" selection-end-column="23" />
+            <state relative-caret-position="652">
+              <caret line="5444" column="110" lean-forward="false" selection-start-line="5444" selection-start-column="24" selection-end-line="5444" selection-end-column="110" />
               <folding />
             </state>
           </provider>
@@ -91,17 +89,27 @@
         <entry file="file://$PROJECT_DIR$/aquarium/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="840">
-              <caret line="257" column="0" lean-forward="true" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
+              <caret line="257" column="0" lean-forward="false" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aquarium/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="50" column="2" lean-forward="false" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+            <state relative-caret-position="456">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conveyor-mobile/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -111,8 +119,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>contest-2021</find>
-      <find>sprite-icons.png</find>
       <find>-</find>
       <find>ag-notification</find>
       <find>.man</find>
@@ -141,9 +147,10 @@
       <find>to-hos__character</find>
       <find>js-ag-bubble_item__dop</find>
       <find>agBubblesDopClass</find>
+      <find>ew-conveyor</find>
+      <find>/genfiles/cms/1/desktop/promotions/everyday-winner/</find>
     </findStrings>
     <replaceStrings>
-      <replace>&lt;i class=&quot;ag-review-user_avatar ag-review-user_avatar-0&quot;&gt;&lt;/i&gt;</replace>
       <replace>../images/</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/accounts-slider/images/</replace>
       <replace>$</replace>
@@ -173,6 +180,7 @@
       <replace>an-ball-rotate</replace>
       <replace>ag-character</replace>
       <replace>agBubblesDopClass</replace>
+      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/conveyor-mobile/images/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -186,7 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/format-2.js" />
         <option value="$PROJECT_DIR$/scroll-crumble/js/main.js" />
         <option value="$PROJECT_DIR$/scroll-crumble/css/style.css" />
         <option value="$PROJECT_DIR$/scroll-crumble/index.html" />
@@ -226,9 +233,6 @@
         <option value="$PROJECT_DIR$/man-with-fire/css/style.css" />
         <option value="$PROJECT_DIR$/man-with-fire/index.html" />
         <option value="$USER_HOME$/format-2.html" />
-        <option value="$PROJECT_DIR$/buttons/index.html" />
-        <option value="$PROJECT_DIR$/buttons/css/style.css" />
-        <option value="$USER_HOME$/format-t.css" />
         <option value="$PROJECT_DIR$/animation-fog/index.html" />
         <option value="$PROJECT_DIR$/animation-fog/css/style.css" />
         <option value="$PROJECT_DIR$/animation-sprite/index.html" />
@@ -237,6 +241,10 @@
         <option value="$PROJECT_DIR$/hero/css/style.css" />
         <option value="$PROJECT_DIR$/aquarium/index.html" />
         <option value="$PROJECT_DIR$/aquarium/js/main.js" />
+        <option value="$PROJECT_DIR$/buttons/index.html" />
+        <option value="$PROJECT_DIR$/buttons/css/style.css" />
+        <option value="$USER_HOME$/format-t.css" />
+        <option value="$PROJECT_DIR$/conveyor-mobile/index.html" />
       </list>
     </option>
   </component>
@@ -447,15 +455,15 @@
       <workItem from="1607669413025" duration="2747000" />
       <workItem from="1616746026614" duration="15145000" />
       <workItem from="1617399719792" duration="7915000" />
-      <workItem from="1617649463430" duration="3617000" />
+      <workItem from="1617649463430" duration="4644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="622167000" />
+    <option name="totallyTimeSpent" value="623194000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
+    <frame x="0" y="24" width="1920" height="1015" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16023579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -497,13 +505,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/landing-pages/2018.04.18_landing_company/company-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13848">
-          <caret line="577" column="37" lean-forward="false" selection-start-line="575" selection-start-column="8" selection-end-line="577" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/landing-pages/2019.04.25_landing_astronomy-contest/astronomy-contest-EN.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21120">
@@ -794,36 +795,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130080">
-          <caret line="5420" column="23" lean-forward="false" selection-start-line="5420" selection-start-column="23" selection-end-line="5420" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16608">
           <caret line="692" column="113" lean-forward="false" selection-start-line="692" selection-start-column="18" selection-end-line="692" selection-end-column="113" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6696">
-          <caret line="279" column="1" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="279" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -847,7 +822,7 @@
     <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="776">
-          <caret line="104" column="0" lean-forward="true" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -855,15 +830,47 @@
     <entry file="file://$PROJECT_DIR$/aquarium/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
-          <caret line="257" column="0" lean-forward="true" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
+          <caret line="257" column="0" lean-forward="false" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aquarium/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="50" column="2" lean-forward="false" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+        <state relative-caret-position="456">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="25" column="70" lean-forward="false" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-t.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="1421" column="1" lean-forward="true" selection-start-line="1171" selection-start-column="0" selection-end-line="1421" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="5444" column="110" lean-forward="false" selection-start-line="5444" selection-start-column="24" selection-end-line="5444" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conveyor-mobile/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding />
         </state>
       </provider>
