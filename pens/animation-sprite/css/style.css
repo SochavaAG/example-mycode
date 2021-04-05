@@ -1554,166 +1554,205 @@ body {
 /* /lock */
 
 /* posiedon logo */
-.ag-poseidon-logo_box {
-  padding: 50px;
-  background-color: rgb(164, 231, 255);
-}
 .ag-poseidon-logo {
   display: inline-block;
-  height: 380px;
-  width: 498px;
+  height: 320px;
+  width: 645px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/poseidon-logo.png) no-repeat scroll 0 0;
   background-size: 100% auto;
 
   -webkit-animation: an-poseidon-logo 5s step-start 0.5s normal none infinite running;
+  -moz-animation: an-poseidon-logo 5s step-start 0.5s normal none infinite running;
+  -o-animation: an-poseidon-logo 5s step-start 0.5s normal none infinite running;
   animation: an-poseidon-logo 5s step-start 0.5s normal none infinite running
 }
 
 @-webkit-keyframes an-poseidon-logo {
   0% {
-    background-position:0 0
+    background-position: 0 0;
   }
   2% {
-    background-position:0 -236px
+    background-position: 0 -320px;
   }
   4% {
-    background-position:0 -472px
+    background-position: 0 -640px;
   }
   6% {
-    background-position:0 -708px
+    background-position: 0 -960px;
   }
   8% {
-    background-position:0 -944px
+    background-position: 0 -1280px;
   }
   10% {
-    background-position:0 -1180px
+    background-position: 0 -1600px;
   }
   12% {
-    background-position:0 -1416px
+    background-position: 0 -1920px;
   }
   14% {
-    background-position:0 -1652px
+    background-position: 0 -2240px;
   }
   16% {
-    background-position:0 -1888px
+    background-position: 0 -2560px;
   }
   18% {
-    background-position:0 -2124px
+    background-position: 0 -2880px;
   }
   20% {
-    background-position:0 -2360px
+    background-position: 0 -3200px;
   }
   22% {
-    background-position:0 -2596px
+    background-position: 0 -3520px;
   }
   24% {
-    background-position:0 -2832px
+    background-position: 0 -3840px;
   }
   26% {
-    background-position:0 0
+    background-position: 0 0;
   }
   to {
-    background-position:0 0
+    background-position: 0 0;
+  }
+}
+@-moz-keyframes an-poseidon-logo {
+  0% {
+    background-position: 0 0;
+  }
+  2% {
+    background-position: 0 -320px;
+  }
+  4% {
+    background-position: 0 -640px;
+  }
+  6% {
+    background-position: 0 -960px;
+  }
+  8% {
+    background-position: 0 -1280px;
+  }
+  10% {
+    background-position: 0 -1600px;
+  }
+  12% {
+    background-position: 0 -1920px;
+  }
+  14% {
+    background-position: 0 -2240px;
+  }
+  16% {
+    background-position: 0 -2560px;
+  }
+  18% {
+    background-position: 0 -2880px;
+  }
+  20% {
+    background-position: 0 -3200px;
+  }
+  22% {
+    background-position: 0 -3520px;
+  }
+  24% {
+    background-position: 0 -3840px;
+  }
+  26% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@-o-keyframes an-poseidon-logo {
+  0% {
+    background-position: 0 0;
+  }
+  2% {
+    background-position: 0 -320px;
+  }
+  4% {
+    background-position: 0 -640px;
+  }
+  6% {
+    background-position: 0 -960px;
+  }
+  8% {
+    background-position: 0 -1280px;
+  }
+  10% {
+    background-position: 0 -1600px;
+  }
+  12% {
+    background-position: 0 -1920px;
+  }
+  14% {
+    background-position: 0 -2240px;
+  }
+  16% {
+    background-position: 0 -2560px;
+  }
+  18% {
+    background-position: 0 -2880px;
+  }
+  20% {
+    background-position: 0 -3200px;
+  }
+  22% {
+    background-position: 0 -3520px;
+  }
+  24% {
+    background-position: 0 -3840px;
+  }
+  26% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 0;
   }
 }
 @keyframes an-poseidon-logo {
   0% {
-    background-position:0 0
+    background-position: 0 0;
   }
   2% {
-    background-position:0 -236px
+    background-position: 0 -320px;
   }
   4% {
-    background-position:0 -472px
+    background-position: 0 -640px;
   }
   6% {
-    background-position:0 -708px
+    background-position: 0 -960px;
   }
   8% {
-    background-position:0 -944px
+    background-position: 0 -1280px;
   }
   10% {
-    background-position:0 -1180px
+    background-position: 0 -1600px;
   }
   12% {
-    background-position:0 -1416px
+    background-position: 0 -1920px;
   }
   14% {
-    background-position:0 -1652px
+    background-position: 0 -2240px;
   }
   16% {
-    background-position:0 -1888px
+    background-position: 0 -2560px;
   }
   18% {
-    background-position:0 -2124px
+    background-position: 0 -2880px;
   }
   20% {
-    background-position:0 -2360px
+    background-position: 0 -3200px;
   }
   22% {
-    background-position:0 -2596px
+    background-position: 0 -3520px;
   }
   24% {
-    background-position:0 -2832px
+    background-position: 0 -3840px;
   }
   26% {
-    background-position:0 0
+    background-position: 0 0;
   }
   to {
-    background-position:0 0
-  }
-}
-
-@-webkit-keyframes PSDN-makeBut-anim2 {
-  0% {
-    background-position:0 0
-  }
-  2% {
-    background-position:0 -42px
-  }
-  4% {
-    background-position:0 -84px
-  }
-  6% {
-    background-position:0 -126px
-  }
-  8% {
-    background-position:0 -168px
-  }
-  10% {
-    background-position:0 -210px
-  }
-  12% {
-    background-position:0 0
-  }
-  to {
-    background-position:0 0
-  }
-}
-@keyframes PSDN-makeBut-anim2 {
-  0% {
-    background-position:0 0
-  }
-  2% {
-    background-position:0 -42px
-  }
-  4% {
-    background-position:0 -84px
-  }
-  6% {
-    background-position:0 -126px
-  }
-  8% {
-    background-position:0 -168px
-  }
-  10% {
-    background-position:0 -210px
-  }
-  12% {
-    background-position:0 0
-  }
-  to {
-    background-position:0 0
+    background-position: 0 0;
   }
 }
 /* /posiedon logo */
