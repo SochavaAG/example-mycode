@@ -1,7 +1,7 @@
 (function ($) {
   $(function () {
 
-    var agActive = 0, agCount, agSpeed = 3000,
+    var agActive = 0, agCount, agTimerId, agSpeed = 3000,
       agItem = $('.js-getbonus_item'),
       agCount = $('.js-getbonus_item').length;
 

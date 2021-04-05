@@ -1,7 +1,7 @@
 (function ($) {
   $(function () {
 
-    var agSpeed = 3000,
+    var agTimerId, agSpeed = 3000,
       agItem = $('.js-island_survivor');
 
 
