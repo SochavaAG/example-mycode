@@ -1,0 +1,76 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-football-block {
+  padding: 50px 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/404-football/images/gates.png) no-repeat scroll 0 0;
+}
+.ag-football_box {
+  padding: 50px;
+  background-color: rgb(164, 231, 255);
+}
+.ag-football {
+  display: inline-block;
+  height: 587px;
+  width: 524px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/404-football/images/sprite-football.png) no-repeat scroll 0 0;
+  background-position: 0 100%;
+
+  -webkit-animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
+  -moz-animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
+  -o-animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
+  animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
+}
+
+@-webkit-keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+@-moz-keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+@-o-keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+@keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
