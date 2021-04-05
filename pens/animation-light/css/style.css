@@ -4,6 +4,529 @@
 }
 
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 100 version
+*/
+
+html, body {
+  height: 100%;
+}
+.ag-format-container {
+  height: 100%;
+
+  position: relative;
+}
+
+.ag-getbonus-block {
+  height: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-light/images/bg.jpg) no-repeat scroll 50% 100%;
+  background-size: cover;
+}
+.ag-getbonus_list {
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ag-getbonus_item {
+  position: absolute;
+}
+.ag-getbonus_item:before,
+.ag-getbonus_item:after {
+  content: "";
+
+  position: absolute;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+.ag-getbonus_item:before {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-light/images/sprite-light.png);
+
+  opacity: 0;
+  pointer-events: none;
+
+  left: 50%;
+  top: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.ag-getbonus_item:after {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-light/images/sprite-toys-unlit.png);
+
+  opacity: 1;
+
+  left: 0;
+  top: 0;
+
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+.ag-getbonus_item_bear {
+  height: 11.71875em;
+  width: 9.21875em;
+
+  top: 45em;
+  left: 32em;
+}
+.ag-getbonus_item_bear:before {
+  height: 13.85417em;
+  width: 13.38542em;
+  -webkit-background-size: 515.1751% 479.32331%;
+  -moz-background-size: 515.1751% 479.32331%;
+  -o-background-size: 515.1751% 479.32331%;
+  background-size: 515.1751% 479.32331%;
+  background-position: -55em -14.6875em;
+}
+.ag-getbonus_item_bear:after {
+  height: 11.71875em;
+  width: 9.21875em;
+  -webkit-background-size: 631.63842% 412.88889%;
+  -moz-background-size: 631.63842% 412.88889%;
+  -o-background-size: 631.63842% 412.88889%;
+  background-size: 631.63842% 412.88889%;
+  background-position: -33.33333em -12.5em;
+}
+.ag-getbonus_item_bear_2 {
+  height: 10.83333em;
+  width: 9.21875em;
+
+  top: 45em;
+  left: 48em;
+}
+.ag-getbonus_item_bear_2:before {
+  height: 14.42708em;
+  width: 13.95833em;
+  -webkit-background-size: 494.02985% 460.28881%;
+  -moz-background-size: 494.02985% 460.28881%;
+  -o-background-size: 494.02985% 460.28881%;
+  background-size: 494.02985% 460.28881%;
+  background-position: -55em 0;
+}
+.ag-getbonus_item_bear_2:after {
+  height: 10.83333em;
+  width: 9.21875em;
+  -webkit-background-size: 631.63842% 446.63462%;
+  -moz-background-size: 631.63842% 446.63462%;
+  -o-background-size: 631.63842% 446.63462%;
+  background-size: 631.63842% 446.63462%;
+  background-position: 0 -37.55208em;
+}
+.ag-getbonus_item_bear_3 {
+  height: 10.57292em;
+  width: 12.39583em;
+
+  top: 31.5em;
+  left: 72em;
+}
+.ag-getbonus_item_bear_3:before {
+  height: 14.375em;
+  width: 14.53125em;
+  -webkit-background-size: 474.55197% 461.95652%;
+  -moz-background-size: 474.55197% 461.95652%;
+  -o-background-size: 474.55197% 461.95652%;
+  background-size: 474.55197% 461.95652%;
+  background-position: 0 -37.91667em;
+}
+.ag-getbonus_item_bear_3:after {
+  height: 10.57292em;
+  width: 12.39583em;
+  -webkit-background-size: 469.7479% 457.63547%;
+  -moz-background-size: 469.7479% 457.63547%;
+  -o-background-size: 469.7479% 457.63547%;
+  background-size: 469.7479% 457.63547%;
+  background-position: 0 -15.9375em;
+}
+.ag-getbonus_item_box {
+  height: 7.44792em;
+  width: 7.5em;
+
+  top: 37.5em;
+  left: 58em;
+}
+.ag-getbonus_item_box:before {
+  height: 11.66667em;
+  width: 11.30208em;
+  -webkit-background-size: 610.13825% 569.19643%;
+  -moz-background-size: 610.13825% 569.19643%;
+  -o-background-size: 610.13825% 569.19643%;
+  background-size: 610.13825% 569.19643%;
+  background-position: -30.625em -37.91667em;
+}
+.ag-getbonus_item_box:after {
+  height: 7.44792em;
+  width: 7.5em;
+  -webkit-background-size: 776.38889% 649.65035%;
+  -moz-background-size: 776.38889% 649.65035%;
+  -o-background-size: 776.38889% 649.65035%;
+  background-size: 776.38889% 649.65035%;
+  background-position: -11.77083em -26.77083em;
+}
+.ag-getbonus_item_cane {
+  height: 8.85417em;
+  width: 6.25em;
+
+  top: 5em;
+  left: 23em;
+}
+.ag-getbonus_item_cane:before {
+  height: 10.57292em;
+  width: 10.20833em;
+  -webkit-background-size: 675.5102% 628.07882%;
+  -moz-background-size: 675.5102% 628.07882%;
+  -o-background-size: 675.5102% 628.07882%;
+  background-size: 675.5102% 628.07882%;
+  background-position: -42.1875em -37.91667em;
+}
+.ag-getbonus_item_cane:after {
+  height: 8.85417em;
+  width: 6.25em;
+  -webkit-background-size: 931.66667% 546.47059%;
+  -moz-background-size: 931.66667% 546.47059%;
+  -o-background-size: 931.66667% 546.47059%;
+  background-size: 931.66667% 546.47059%;
+  background-position: -51.30208em -12.76042em;
+}
+.ag-getbonus_item_car {
+  height: 10.52083em;
+  width: 11.51042em;
+
+  top: 37.5em;
+  left: 21em;
+}
+.ag-getbonus_item_car:before {
+  height: 13.85417em;
+  width: 13.38542em;
+  -webkit-background-size: 515.1751% 479.32331%;
+  -moz-background-size: 515.1751% 479.32331%;
+  -o-background-size: 515.1751% 479.32331%;
+  background-size: 515.1751% 479.32331%;
+  background-position: 0 -52.55208em;
+}
+.ag-getbonus_item_car:after {
+  height: 10.52083em;
+  width: 11.51042em;
+  -webkit-background-size: 505.88235% 459.90099%;
+  -moz-background-size: 505.88235% 459.90099%;
+  -o-background-size: 505.88235% 459.90099%;
+  background-size: 505.88235% 459.90099%;
+  background-position: 0 -26.77083em;
+}
+.ag-getbonus_item_elephant {
+  height: 12.23958em;
+  width: 10.625em;
+
+  top: 5em;
+  left: 66em;
+}
+.ag-getbonus_item_elephant:before {
+  height: 18.69792em;
+  width: 18.07292em;
+  -webkit-background-size: 381.5562% 355.1532%;
+  -moz-background-size: 381.5562% 355.1532%;
+  -o-background-size: 381.5562% 355.1532%;
+  background-size: 381.5562% 355.1532%;
+  background-position: -18.33333em 0;
+}
+.ag-getbonus_item_elephant:after {
+  height: 12.23958em;
+  width: 10.625em;
+  -webkit-background-size: 548.03922% 395.31915%;
+  -moz-background-size: 548.03922% 395.31915%;
+  -o-background-size: 548.03922% 395.31915%;
+  background-size: 548.03922% 395.31915%;
+  background-position: -33.33333em 0;
+}
+.ag-getbonus_item_horse {
+  height: 15.67708em;
+  width: 13.38542em;
+
+  top: 31em;
+  left: 45em;
+}
+.ag-getbonus_item_horse:before {
+  height: 18.69792em;
+  width: 18.07292em;
+  -webkit-background-size: 381.5562% 355.1532%;
+  -moz-background-size: 381.5562% 355.1532%;
+  -o-background-size: 381.5562% 355.1532%;
+  background-size: 381.5562% 355.1532%;
+  background-position: -36.66667em 0;
+}
+.ag-getbonus_item_horse:after {
+  height: 15.67708em;
+  width: 13.38542em;
+  -webkit-background-size: 435.01946% 308.63787%;
+  -moz-background-size: 435.01946% 308.63787%;
+  -o-background-size: 435.01946% 308.63787%;
+  background-size: 435.01946% 308.63787%;
+  background-position: 0 0;
+}
+.ag-getbonus_item_jar {
+  height: 15.15625em;
+  width: 9.6875em;
+
+  top: 22em;
+  left: 15em;
+}
+.ag-getbonus_item_jar:before {
+  height: 18.69792em;
+  width: 18.07292em;
+  -webkit-background-size: 381.5562% 355.1532%;
+  -moz-background-size: 381.5562% 355.1532%;
+  -o-background-size: 381.5562% 355.1532%;
+  background-size: 381.5562% 355.1532%;
+  background-position: 0 0;
+}
+.ag-getbonus_item_jar:after {
+  height: 15.15625em;
+  width: 9.6875em;
+  -webkit-background-size: 601.07527% 319.24399%;
+  -moz-background-size: 601.07527% 319.24399%;
+  -o-background-size: 601.07527% 319.24399%;
+  background-size: 601.07527% 319.24399%;
+  background-position: -13.64583em 0;
+}
+.ag-getbonus_item_lollipop {
+  height: 8.33333em;
+  width: 5.67708em;
+
+  top: 22.5em;
+  left: -2em;
+}
+.ag-getbonus_item_lollipop:before {
+  height: 9.73958em;
+  width: 9.58333em;
+  -webkit-background-size: 719.56522% 681.81818%;
+  -moz-background-size: 719.56522% 681.81818%;
+  -o-background-size: 719.56522% 681.81818%;
+  background-size: 719.56522% 681.81818%;
+  background-position: -23.95833em -52.55208em;
+}
+.ag-getbonus_item_lollipop:after {
+  height: 8.33333em;
+  width: 5.67708em;
+  -webkit-background-size: 1025.68807% 580.625%;
+  -moz-background-size: 1025.68807% 580.625%;
+  -o-background-size: 1025.68807% 580.625%;
+  background-size: 1025.68807% 580.625%;
+  background-position: -51.30208em -21.875em;
+}
+.ag-getbonus_item_nutcracker {
+  height: 13.95833em;
+  width: 9.47917em;
+
+  top: 37.5em;
+  left: 40.5em;
+}
+.ag-getbonus_item_nutcracker:before {
+  height: 18.69792em;
+  width: 18.07292em;
+  -webkit-background-size: 381.5562% 355.1532%;
+  -moz-background-size: 381.5562% 355.1532%;
+  -o-background-size: 381.5562% 355.1532%;
+  background-size: 381.5562% 355.1532%;
+  background-position: 0 -18.95833em;
+}
+.ag-getbonus_item_nutcracker:after {
+  height: 13.95833em;
+  width: 9.47917em;
+  -webkit-background-size: 614.28571% 346.64179%;
+  -moz-background-size: 614.28571% 346.64179%;
+  -o-background-size: 614.28571% 346.64179%;
+  background-size: 614.28571% 346.64179%;
+  background-position: -23.59375em 0;
+}
+.ag-getbonus_item_snowman {
+  height: 10.20833em;
+  width: 7.96875em;
+
+  top: 18em;
+  left: 66em;
+}
+.ag-getbonus_item_snowman:before {
+  height: 15em;
+  width: 14.53125em;
+  -webkit-background-size: 474.55197% 442.70833%;
+  -moz-background-size: 474.55197% 442.70833%;
+  -o-background-size: 474.55197% 442.70833%;
+  background-size: 474.55197% 442.70833%;
+  background-position: -33.125em -18.95833em;
+}
+.ag-getbonus_item_snowman:after {
+  height: 10.20833em;
+  width: 7.96875em;
+  -webkit-background-size: 730.71895% 473.97959%;
+  -moz-background-size: 730.71895% 473.97959%;
+  -o-background-size: 730.71895% 473.97959%;
+  background-size: 730.71895% 473.97959%;
+  background-position: -24.73958em -15.9375em;
+}
+.ag-getbonus_item_sock {
+  height: 10.57292em;
+  width: 7.70833em;
+
+  top: 7em;
+  left: 77.5em;
+}
+.ag-getbonus_item_sock:before {
+  height: 15em;
+  width: 14.53125em;
+  -webkit-background-size: 474.55197% 442.70833%;
+  -moz-background-size: 474.55197% 442.70833%;
+  -o-background-size: 474.55197% 442.70833%;
+  background-size: 474.55197% 442.70833%;
+  background-position: -18.33333em -18.95833em;
+}
+.ag-getbonus_item_sock:after {
+  height: 10.57292em;
+  width: 7.70833em;
+  -webkit-background-size: 755.40541% 457.63547%;
+  -moz-background-size: 755.40541% 457.63547%;
+  -o-background-size: 755.40541% 457.63547%;
+  background-size: 755.40541% 457.63547%;
+  background-position: -9.47917em -37.55208em;
+}
+.ag-getbonus_item_soldier {
+  height: 17.91667em;
+  width: 6.82292em;
+
+  top: 27em;
+  left: 31em;
+}
+.ag-getbonus_item_soldier:before {
+  height: 13.85417em;
+  width: 13.38542em;
+  -webkit-background-size: 515.1751% 479.32331%;
+  -moz-background-size: 515.1751% 479.32331%;
+  -o-background-size: 515.1751% 479.32331%;
+  background-size: 515.1751% 479.32331%;
+  background-position: -55em -28.80208em;
+}
+.ag-getbonus_item_soldier:after {
+  height: 17.91667em;
+  width: 6.82292em;
+  -webkit-background-size: 853.43511% 270.05814%;
+  -moz-background-size: 853.43511% 270.05814%;
+  -o-background-size: 853.43511% 270.05814%;
+  background-size: 853.43511% 270.05814%;
+  background-position: -44.21875em 0;
+}
+.ag-getbonus_item_sweets {
+  height: 10.3125em;
+  width: 11.82292em;
+
+  bottom: 35px;
+  left: 1em;
+}
+.ag-getbonus_item_sweets:before {
+  height: 12.96875em;
+  width: 15.57292em;
+  -webkit-background-size: 442.80936% 512.04819%;
+  -moz-background-size: 442.80936% 512.04819%;
+  -o-background-size: 442.80936% 512.04819%;
+  background-size: 442.80936% 512.04819%;
+  background-position: -14.79167em -37.91667em;
+}
+.ag-getbonus_item_sweets:after {
+  height: 10.3125em;
+  width: 11.82292em;
+  -webkit-background-size: 492.51101% 469.19192%;
+  -moz-background-size: 492.51101% 469.19192%;
+  -o-background-size: 492.51101% 469.19192%;
+  background-size: 492.51101% 469.19192%;
+  background-position: -12.65625em -15.9375em;
+}
+.ag-getbonus_item_train {
+  height: 12.5em;
+  width: 6.92708em;
+
+  top: 45em;
+  left: 17em;
+}
+.ag-getbonus_item_train:before {
+  height: 11.82292em;
+  width: 10.05208em;
+  -webkit-background-size: 686.01036% 561.67401%;
+  -moz-background-size: 686.01036% 561.67401%;
+  -o-background-size: 686.01036% 561.67401%;
+  background-size: 686.01036% 561.67401%;
+  background-position: -13.64583em -52.55208em;
+}
+.ag-getbonus_item_train:after {
+  height: 12.5em;
+  width: 6.92708em;
+  -webkit-background-size: 840.6015% 387.08333%;
+  -moz-background-size: 840.6015% 387.08333%;
+  -o-background-size: 840.6015% 387.08333%;
+  background-size: 840.6015% 387.08333%;
+  background-position: -51.30208em 0;
+}
+.js-ag-active:before {
+  opacity: 1;
+}
+.js-ag-active:after {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-light/images/sprite-toys-lit.png);
+}
+.js-ag-active:nth-of-type(3n-2):before {
+  -webkit-animation: an-toy-shine 1.5s linear 1s infinite;
+  -moz-animation: an-toy-shine 1.5s linear 1s infinite;
+  -o-animation: an-toy-shine 1.5s linear 1s infinite;
+  animation: an-toy-shine 1.5s linear 1s infinite;
+}
+.js-ag-active:nth-of-type(3n-1):before {
+  -webkit-animation: an-toy-shine 1.5s linear .5s infinite;
+  -moz-animation: an-toy-shine 1.5s linear .5s infinite;
+  -o-animation: an-toy-shine 1.5s linear .5s infinite;
+  animation: an-toy-shine 1.5s linear .5s infinite;
+}
+.js-ag-active:nth-of-type(3n):before {
+  -webkit-animation: an-toy-shine 1.5s linear infinite;
+  -moz-animation: an-toy-shine 1.5s linear infinite;
+  -o-animation: an-toy-shine 1.5s linear infinite;
+  animation: an-toy-shine 1.5s linear infinite;
+}
+.js-ag-active:hover:before {
+  -webkit-animation: none;
+  -moz-animation: none;
+  -o-animation: none;
+  animation: none;
+}
+
+@-webkit-keyframes an-toy-shine {
+  50% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes an-toy-shine {
+  50% {
+    opacity: 0;
+  }
+}
+@-o-keyframes an-toy-shine {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes an-toy-shine {
+  50% {
+    opacity: 0;
+  }
+}
 
 
 @media only screen and (max-width: 767px) {
