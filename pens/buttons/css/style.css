@@ -5735,6 +5735,92 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 }
 /* /button 89 */
 
+/* button 90 */
+.ag-base_btn-v90 {
+  cursor:pointer;
+  position:relative;
+  text-transform:uppercase;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-justify-content:center;
+  -ms-flex-pack:center;
+  justify-content:center;
+  -webkit-align-items:center;
+  -ms-flex-align:center;
+  align-items:center;
+  width:11.66667em;
+  margin:0 auto;
+  height:2.41667em;
+  color:#fff;
+  font-size:1.5em;
+  transition:all 0.5s ease;
+  font-weight:700;
+  font-style:italic;
+  overflow:hidden;
+}
+.ag-base_btn-v90::before {
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  opacity:0;
+  transition:0.3s ease;
+  background-color:#408f00;
+}
+.ag-base_btn-v90:hover::before {
+  opacity:1
+}
+.ag-base_text-btn-v90::after {
+  content:'';
+  width:16.5em;
+  height:4.66667em;
+  background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-90-blik.png);
+  background-size:cover;
+  position:absolute;
+  top:0;
+  left:-5.41667em;
+  right:0;
+  bottom:0;
+
+  -webkit-animation: an-btn-blik 8s ease infinite;
+  animation: an-btn-blik 8s ease infinite;
+}
+.pm-btn--acc {
+  font-size:1em;
+  min-width:12.5em;
+  height:2.75em;
+  margin:0 auto;
+  background-image:linear-gradient(5deg, #00b32a 0%, #00e632 100%);
+  text-align:center;
+  padding:0 .625em;
+}
+
+@keyframes an-btn-blik {
+  0% {
+    opacity:0
+  }
+  25% {
+    opacity:0;
+    -webkit-transform:translateX(0);
+    transform:translateX(0)
+  }
+  50% {
+    opacity:1
+  }
+  75% {
+    opacity:0
+  }
+  100% {
+    -webkit-transform:translateX(500%);
+    transform:translateX(500%);
+    opacity:0
+  }
+}
+/* /button 90 */
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;
