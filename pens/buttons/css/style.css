@@ -5487,13 +5487,6 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 /* /button 88 */
 
 /* button 89 */
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 100 version
-*/
-
 .ag-base_btn-v89 {
   background: rgb(17,41,162);
   background: -moz-linear-gradient(left,  rgba(17,41,162,1) 4.72%, rgba(162,56,52,1) 39.22%, rgba(207,147,7,1) 90.88%);

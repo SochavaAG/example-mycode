@@ -45,6 +45,117 @@
     </div>
   </div>
 
+  <style>
+    @font-face {
+      font-family: Icons;
+      src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-arrow/fonts/icons/Icons.eot);
+      src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-arrow/fonts/icons/Icons.eot?#iefix) format("embedded-opentype"),
+      url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-arrow/fonts/icons/Icons.woff) format("woff"),
+      url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-arrow/fonts/icons/Icons.ttf) format("truetype"),
+      url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-arrow/fonts/icons/Icons.svg#Icons) format("svg");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    .icon {
+      font-family:Icons,sans-serif;
+      display:inline-block;
+      font-style:normal;
+      font-weight:400;
+      line-height:1;
+      vertical-align:middle;
+      -moz-osx-font-smoothing:grayscale;
+      -webkit-font-smoothing:antialiased;
+      font-variant:normal;
+      text-rendering:auto
+    }
+    .i_arr-b:before {
+      content:"\E001"
+    }
+    .next {
+      position:fixed;
+      bottom:4.375rem;
+      left:3.75rem;
+      cursor:pointer;
+      display:-webkit-box;
+      display:-ms-flexbox;
+      display:flex;
+      -webkit-box-orient:vertical;
+      -webkit-box-direction:normal;
+      -ms-flex-flow:column nowrap;
+      flex-flow:column nowrap;
+      -webkit-box-pack:center;
+      -ms-flex-pack:center;
+      justify-content:center;
+      -webkit-box-align:center;
+      -ms-flex-align:center;
+      align-items:center;
+      color:#fff;
+    }
+    .next .icon {
+      font-size:.8em;
+      line-height:1;
+      display:block;
+      position:relative;
+      -webkit-animation:arrow 1.5s infinite;
+      animation:arrow 1.5s infinite;
+    }
+    .next .icon:nth-child(2) {
+      -webkit-animation-delay:-.2s;
+      animation-delay:-.2s;
+    }
+    .next .icon:nth-child(3) {
+      -webkit-animation-delay:-.4s;
+      animation-delay:-.4s;
+    }
+    .next .icon:first-child {
+      margin-top:0;
+    }
+
+    .i_arr-b:before {
+      content:"\E001";
+    }
+
+    @-webkit-keyframes arrow {
+      0% {
+        opacity:0;
+        -webkit-transform:translateY(-20px);
+        transform:translateY(-20px)
+      }
+      50% {
+        opacity:1
+      }
+      to {
+        opacity:0;
+        -webkit-transform:translateY(20px);
+        transform:translateY(20px)
+      }
+    }
+    @keyframes arrow {
+      0% {
+        opacity:0;
+        -webkit-transform:translateY(-20px);
+        transform:translateY(-20px)
+      }
+      50% {
+        opacity:1
+      }
+      to {
+        opacity:0;
+        -webkit-transform:translateY(20px);
+        transform:translateY(20px)
+      }
+    }
+  </style>
+
+  <div class="ag-format-container">
+    <div class="next">
+      <div class="icon i_arr-b"></div>
+      <div class="icon i_arr-b"></div>
+      <div class="icon i_arr-b"></div>
+    </div>
+  </div>
+
 <!--[if lt IE 9]>
 <script src="libs/IE/html5shiv/es5-shim.min.js"></script>
 <script src="libs/IE/html5shiv/html5shiv.min.js"></script>
