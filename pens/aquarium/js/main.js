@@ -6,8 +6,9 @@ function agRandom (argMin, argMax) {
 }
 
 function afterReflowWindow () {
+  var agBubbelsBox = $('.js-bubble_list');
 
-  $('.js-bubble_list').empty();
+  agBubbelsBox.empty();
 
   for (var agStyle = [], agPos = agRandom(95, 5), i = 0; i <= agRandom(50, 20); i++) {
     var agWidth = agRandom(18, 5),
@@ -37,7 +38,7 @@ function afterReflowWindow () {
     });
 
     //$('.js-bubble_list').append('<li class="js-bubble_item-' + i + ' js-ag-bubble_item"></li>');
-    $('.js-bubble_list').append('<li class="js-bubble_item js-ag-bubble_item"></li>');
+    agBubbelsBox.append('<li class="js-bubble_item js-ag-bubble_item"></li>');
 
     //$('.js-bubble_item-' + i).css(agStyle[i]);
     $('.js-bubble_item:eq(' + i + ')').css(agStyle[i]);
