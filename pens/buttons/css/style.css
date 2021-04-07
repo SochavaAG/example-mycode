@@ -5970,7 +5970,7 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 /* button 93 */
 .ag-base_btn-v93 {
   display: inline-block;
-  height: 58px;
+  height: 60px;
   line-height: 60px;
   padding: 0 10px;
   border: 2px solid #fca633;
@@ -6053,7 +6053,7 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 /* button 94 */
 .ag-base_btn-v94 {
   display: inline-block;
-  height: 58px;
+  height: 60px;
   line-height: 60px;
   padding: 0 10px;
   border: 2px solid #737373;
@@ -6174,6 +6174,89 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
   text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
 }
 /* /button 95 */
+
+/* button 96 */
+.ag-base_btn-v96 {
+  border: 2px solid #FFF;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9100c2), color-stop(33%, #282ad7), color-stop(66%, transparent)), -webkit-gradient(linear, left bottom, left top, color-stop(37%, #050f24), to(#6f7b90));
+  background-image: -webkit-linear-gradient(top, #9100c2, #282ad7 33%, transparent 66%), -webkit-linear-gradient(bottom, #050f24 37%, #6f7b90);
+  background-image: -moz-linear-gradient(top, #9100c2, #282ad7 33%, transparent 66%), -moz-linear-gradient(bottom, #050f24 37%, #6f7b90);
+  background-image: -o-linear-gradient(top, #9100c2, #282ad7 33%, transparent 66%), -o-linear-gradient(bottom, #050f24 37%, #6f7b90);
+  background-image: linear-gradient(to bottom, #9100c2, #282ad7 33%, transparent 66%), linear-gradient(to top, #050f24 37%, #6f7b90);
+  background-position: 0 100%;
+  background-size: 100% 300%, 100% 100%;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  -webkit-transition: background-position 0.3s linear, -webkit-box-shadow 0.3s;
+  -moz-transition: background-position 0.3s linear, -moz-box-shadow 0.3s;
+  -o-transition: background-position 0.3s linear, -o-box-shadow 0.3s;
+  transition: background-position 0.3s linear, box-shadow 0.3s, -webkit-box-shadow 0.3s, -moz-box-shadow 0.3s, -o-box-shadow 0.3s;
+
+  will-change: background-position, box-shadow;
+
+  position: relative;
+}
+.ag-base_btn-v96:hover {
+  background-position: 0 0;
+
+  -webkit-box-shadow: 0 0 25px 4px rgba(143, 102, 177, 0.8);
+  -moz-box-shadow: 0 0 25px 4px rgba(143, 102, 177, 0.8);
+  box-shadow: 0 0 25px 4px rgba(143, 102, 177, 0.8);
+}
+/* /button 96 */
+
+/* button 97 */
+.ag-base_btn-v97 {
+  background-image: -webkit-linear-gradient(275deg, rgba(255, 255, 255, 0.2) 48%, transparent 52%), -webkit-linear-gradient(bottom, #7c3c61, #b400f0);
+  background-image: -moz-linear-gradient(275deg, rgba(255, 255, 255, 0.2) 48%, transparent 52%), -moz-linear-gradient(bottom, #7c3c61, #b400f0);
+  background-image: -o-linear-gradient(275deg, rgba(255, 255, 255, 0.2) 48%, transparent 52%), -o-linear-gradient(bottom, #7c3c61, #b400f0);
+  background-image: linear-gradient(-185deg, rgba(255, 255, 255, 0.2) 48%, transparent 52%), linear-gradient(to top, #7c3c61, #b400f0);
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%, 100% 150%;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+  -webkit-transition: background-position 0.3s;
+  -o-transition: background-position 0.3s;
+  -moz-transition: background-position 0.3s;
+  transition: background-position 0.3s;
+
+  will-change: background-position;
+}
+.ag-base_btn-v97:hover {
+  background-position: 0 0, 0 0;
+}
+/* /button 97 */
+
+/* button 98 */
+.ag-base_btn-v98 {
+  border: 2px solid #0f2c60;
+  border-image: linear-gradient(-184deg, #071838, #5b6881, #0c234e) 2;
+  background-color: #051026;
+  background-image: linear-gradient(-185deg, rgba(255, 255, 255, 0.2) 48%, transparent 52%);
+
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  -o-box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+
+  will-change: background-color;
+}
+.ag-base_btn-v98:hover {
+  background-color: #0b2353;
+}
+/* /button 98 */
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {

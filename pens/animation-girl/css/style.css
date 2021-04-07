@@ -5,15 +5,18 @@
 
 html, body {
   height: 100%;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl/images/girl.png) no-repeat scroll 50% 0 #1F394E;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl/images/bg.jpeg) no-repeat scroll 50% 0 #1F394E;
   background-size: cover;
 
   overflow: hidden;
+
+  position: relative;
 }
 
 .ag-girl {
   height: 44em;
   width: 21.0625em;
+  margin: 0 auto;
   background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl/images/girl.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -21,7 +24,10 @@ html, body {
   image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
 
-  position: relative;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 .ag-girl_ball {
   height: 6.875em;
