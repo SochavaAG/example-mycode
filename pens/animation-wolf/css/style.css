@@ -1,36 +1,82 @@
-.ag-format-container {
-  width: 1142px;
+.ag-wolf-block {
+  height: 554px;
+  width: 1219px;
   margin: 0 auto;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-wolf/images/bg.png) no-repeat scroll 50% 0;
+
+  position: relative;
+}
+.ag-wolf_body__left,
+.ag-wolf_body__right {
+  height:136px;
+  width:88px;
+
+  opacity: 0;
+
+  position:absolute;
+  top: 50%;
+  left: 50%;
+}
+.ag-wolf_body__left {
+  margin: -37px 0 0 60px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-wolf/images/wolf-left.png) no-repeat scroll 0 0;
+  background-size: auto 100%;
+}
+.ag-wolf_body__right {
+  margin: -37px 0 0 135px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-wolf/images/wolf-right.png) no-repeat scroll 0 0;
+  background-size: auto 100%;
 }
 
+.ag-wolf_hand__left-top {
+  height: 65px;
+  width: 98px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-wolf/images/wolf-hands-lt.png) no-repeat scroll 0 0;
+  background-size: auto 100%;
 
+  opacity: 0;
 
+  position: absolute;
+  top: -2px;
+  left: -44px;
+}
+.ag-wolf_hand__left-bottom {
+  height: 60px;
+  width: 76px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-wolf/images/wolf-hands-lb.png) no-repeat scroll 0 0;
+  background-size: auto 100%;
 
-@media only screen and (max-width: 767px) {
-  .ag-format-container {
-    width: 96%;
-  }
+  opacity: 0;
 
+  position: absolute;
+  top: 64px;
+  left: -53px;
+}
+.ag-wolf_hand__right-top {
+  height: 64px;
+  width: 80px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-wolf/images/wolf-hands-rt.png) no-repeat scroll 0 0;
+  background-size: auto 100%;
+
+  opacity: 0;
+
+  position:absolute;
+  top: 6px;
+  left: 66px;
+}
+.ag-wolf_hand__right-bottom {
+  height: 60px;
+  width: 74px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-wolf/images/wolf-hands-rb.png) no-repeat scroll 0 0;
+  background-size: auto 100%;
+
+  opacity: 0;
+
+  position:absolute;
+  top: 67px;
+  left: 57px;
 }
 
-@media only screen and (max-width: 639px) {
-
-}
-
-@media only screen and (max-width: 479px) {
-
-}
-
-@media (min-width: 768px) and (max-width: 979px) {
-  .ag-format-container {
-    width: 750px;
-  }
-
-}
-
-@media (min-width: 980px) and (max-width: 1161px) {
-  .ag-format-container {
-    width: 960px;
-  }
-
+.js-ag-active {
+  opacity: 1;
 }
