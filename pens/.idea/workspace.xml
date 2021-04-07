@@ -38,7 +38,7 @@
       <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-t.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
+            <state relative-caret-position="3197">
               <caret line="405" column="1" lean-forward="true" selection-start-line="268" selection-start-column="0" selection-end-line="405" selection-end-column="1" />
               <folding />
             </state>
@@ -78,8 +78,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-wolf/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="36" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="11" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -88,8 +88,8 @@
       <file leaf-file-name="methods.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/example-site-1/mastir-landing-fb-master/libs/jv/test/methods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="1214" column="46" lean-forward="false" selection-start-line="1214" selection-start-column="46" selection-end-line="1214" selection-end-column="46" />
+            <state relative-caret-position="24">
+              <caret line="1576" column="83" lean-forward="true" selection-start-line="1576" selection-start-column="76" selection-end-line="1576" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -105,11 +105,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-girl/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="83" column="3" lean-forward="true" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="3" />
+            <state relative-caret-position="384">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animation-girl/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/animation-girl/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -119,16 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/default/img/games/twentyone/</find>
-      <find>.tod__fire</find>
-      <find>fire-refresh-sprite.png</find>
-      <find>ag-fire</find>
-      <find>steps-sprite</find>
-      <find>an-fire-big-v steps(23, start) 1s infinite;</find>
-      <find>sparks.png</find>
-      <find>disabled:ho</find>
-      <find>piraChes-smoke2-con</find>
-      <find>piraChes-smoke</find>
       <find>&quot;/default/img/piratechest/</find>
       <find>smoke-anim</find>
       <find>sparks</find>
@@ -141,26 +151,26 @@
       <find>wolf</find>
       <find>.pogodi-game__wolf--rb</find>
       <find>agSlide</find>
-      <find>formSelector</find>
       <find>opacity: 0;</find>
       <find>agItem</find>
       <find>agToggleWolfHand</find>
-      <find>js-wolf_hand__right</find>
       <find>/default/img/games/</find>
-      <find>whichhand-game</find>
       <find>/default/img/games/whichhand/</find>
+      <find>whichhand-game</find>
+      <find>__ball</find>
+      <find>__hand</find>
+      <find>_right</find>
+      <find>formSelector</find>
+      <find>on</find>
+      <find>_left</find>
+      <find>.ag-girl_ball.open</find>
+      <find>coin-shine</find>
+      <find>open-ball</find>
+      <find>js-wolf_hand__right</find>
+      <find>coin-flash</find>
+      <find>ag-girl_ball.winner</find>
     </findStrings>
     <replaceStrings>
-      <replace>an-conveyor-main-phone</replace>
-      <replace>an-conveyor-second-line</replace>
-      <replace>an-conveyor-third-line</replace>
-      <replace>ag-conveyor</replace>
-      <replace>ag-conveyor_</replace>
-      <replace>agBubblesDopClass</replace>
-      <replace>__</replace>
-      <replace>an-arrow</replace>
-      <replace>ag-n-</replace>
-      <replace>$(</replace>
       <replace>images/</replace>
       <replace>../images/</replace>
       <replace>an-btn-blik</replace>
@@ -178,9 +188,19 @@
       <replace>94</replace>
       <replace>2s</replace>
       <replace>agToggle</replace>
-      <replace>agWolf</replace>
-      <replace>.png</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl/images/</replace>
+      <replace>ag-girl</replace>
+      <replace>_ball</replace>
+      <replace>_hand</replace>
+      <replace>__right</replace>
+      <replace>agWolf</replace>
+      <replace>__left</replace>
+      <replace>.js-ag-girl_ball__open</replace>
+      <replace>an-coin-shine</replace>
+      <replace>an-open-ball</replace>
+      <replace>.png</replace>
+      <replace>an-coin-flash</replace>
+      <replace>ag-girl_ball__winner</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -194,8 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/liquid-particles/js/main.js" />
-        <option value="$PROJECT_DIR$/random-number/index.html" />
         <option value="$PROJECT_DIR$/random-symbol/js/main.js" />
         <option value="$PROJECT_DIR$/random-number/js/main.js" />
         <option value="$PROJECT_DIR$/random-letter/index.html" />
@@ -244,7 +262,9 @@
         <option value="$PROJECT_DIR$/animation-wolf/index.html" />
         <option value="$PROJECT_DIR$/animation-wolf/css/style.css" />
         <option value="$USER_HOME$/format-t.css" />
+        <option value="$PROJECT_DIR$/animation-girl/js/main.js" />
         <option value="$PROJECT_DIR$/animation-girl/index.html" />
+        <option value="$PROJECT_DIR$/animation-girl/css/style.css" />
       </list>
     </option>
   </component>
@@ -279,7 +299,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/format-t.css" />
+    <property name="last_opened_file_path" value="$USER_HOME$/vazhno_project-1/2021.04.06_ib-reward-program/ib-reward-program-EN.html" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
@@ -457,12 +477,12 @@
       <workItem from="1617399719792" duration="7915000" />
       <workItem from="1617649463430" duration="7645000" />
       <workItem from="1617733081349" duration="12809000" />
-      <workItem from="1617814501093" duration="16989000" />
+      <workItem from="1617814501093" duration="18237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="655993000" />
+    <option name="totallyTimeSpent" value="657241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -507,27 +527,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/landing-pages/2021.03.15_landing_xauusd-contest/xauusd-contest-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8976">
-          <caret line="374" column="3" lean-forward="false" selection-start-line="204" selection-start-column="2" selection-end-line="374" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animation-crystal-sprite/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example-site-1/play.pokerok12.com/css/style-16.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="35" column="9799" lean-forward="false" selection-start-line="35" selection-start-column="8466" selection-end-line="35" selection-end-column="9799" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-crystal-sprite/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2664">
@@ -819,10 +818,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/animation-wolf/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="57" column="111" lean-forward="true" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-t.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3197">
+          <caret line="405" column="1" lean-forward="true" selection-start-line="268" selection-start-column="0" selection-end-line="405" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-wolf/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/example-site-1/mastir-landing-fb-master/libs/jv/test/methods.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="1214" column="46" lean-forward="false" selection-start-line="1214" selection-start-column="46" selection-end-line="1214" selection-end-column="46" />
+        <state relative-caret-position="24">
+          <caret line="1576" column="83" lean-forward="true" selection-start-line="1576" selection-start-column="76" selection-end-line="1576" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-girl/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.04.06_ib-reward-program/ib-reward-program-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="2062" column="11" lean-forward="true" selection-start-line="2050" selection-start-column="8" selection-end-line="2062" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -835,34 +874,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-wolf/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="36" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="405" column="1" lean-forward="true" selection-start-line="268" selection-start-column="0" selection-end-line="405" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animation-wolf/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="57" column="111" lean-forward="true" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="111" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-girl/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="83" column="3" lean-forward="true" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="3" />
+        <state relative-caret-position="384">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-girl/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
           <folding />
         </state>
       </provider>

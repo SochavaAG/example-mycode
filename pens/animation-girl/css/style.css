@@ -3,7 +3,249 @@
   margin: 0 auto;
 }
 
+html, body {
+  height: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl/images/girl.png) no-repeat scroll 50% 0 #1F394E;
+  background-size: cover;
 
+  overflow: hidden;
+}
+
+.ag-girl {
+  height: 44em;
+  width: 21.0625em;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl/images/girl.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+
+  position: relative;
+}
+.ag-girl_ball {
+  height: 6.875em;
+  width: 5.6875em;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl/images/sprite-ball-back.png);
+  background-repeat: no-repeat;
+  background-size: 100% 1100%;
+
+  cursor: pointer;
+
+  position: absolute;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+.ag-girl_ball__left {
+  top: 20.8125em;
+  left: 0;
+}
+.ag-girl_ball__right {
+  top: 21.25em;
+  right: 0;
+}
+.ag-girl_ball:before,
+.ag-girl_ball:after {
+  content: "";
+  background-repeat: no-repeat;
+
+  position: absolute;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+.ag-girl_ball:before {
+  height: 1.875em;
+  width: 1em;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl/images/coin.png);
+  background-size: 100% 100%;
+
+  visibility: hidden;
+
+  opacity: 0;
+
+  top: 2.25em;
+  left: 2.25em;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+
+  will-change: opacity, visibility, box-shadow;
+}
+.ag-girl_ball:after {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl/images/sprite-ball-front.png);
+  background-size: 100% 1100%;
+
+  top: 0;
+  left: 0;
+}
+.js-ag-girl_ball__open {
+  -webkit-animation: an-open-ball 0.5s steps(10) forwards;
+  -moz-animation: an-open-ball 0.5s steps(10) forwards;
+  -o-animation: an-open-ball 0.5s steps(10) forwards;
+  animation: an-open-ball 0.5s steps(10) forwards;
+}
+.js-ag-girl_ball__open:after {
+  -webkit-animation: an-open-ball 0.5s steps(10) forwards;
+  -moz-animation: an-open-ball 0.5s steps(10) forwards;
+  -o-animation: an-open-ball 0.5s steps(10) forwards;
+  animation: an-open-ball 0.5s steps(10) forwards;
+}
+.ag-girl_ball__winner:before {
+  visibility: visible;
+
+  opacity: 1;
+
+  -webkit-animation: an-coin-flash 1s, an-coin-shine 1s 1s infinite;
+  -moz-animation: an-coin-flash 1s, an-coin-shine 1s 1s infinite;
+  -o-animation: an-coin-flash 1s, an-coin-shine 1s 1s infinite;
+  animation: an-coin-flash 1s, an-coin-shine 1s 1s infinite;
+}
+.ag-girl_hand {
+  height: 4.125em;
+  width: 5.25em;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl/images/hands.png);
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+
+  position: absolute;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+.ag-girl_hand__left {
+  background-position: 0 0;
+
+  top: 25.25em;
+  left: 0;
+}
+.ag-girl_hand__right {
+  background-position: 100% 0;
+
+  top: 25.625em;
+  right: .125em;
+}
+
+@-webkit-keyframes an-open-ball {
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-moz-keyframes an-open-ball {
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-o-keyframes an-open-ball {
+  100% {
+    background-position: 0 100%;
+  }
+}
+@keyframes an-open-ball {
+  100% {
+    background-position: 0 100%;
+  }
+}
+
+@-webkit-keyframes an-coin-flash {
+  50% {
+    -webkit-box-shadow: inset 0 0 .625em .3125em #fff, 0 0 1.25em .9375em #fff;
+    box-shadow: inset 0 0 .625em .3125em #fff, 0 0 1.25em .9375em #fff;
+  }
+}
+@-moz-keyframes an-coin-flash {
+  50% {
+    -moz-box-shadow: inset 0 0 .625em .3125em #fff, 0 0 1.25em .9375em #fff;
+    box-shadow: inset 0 0 .625em .3125em #fff, 0 0 1.25em .9375em #fff;
+  }
+}
+@-o-keyframes an-coin-flash {
+  50% {
+    -o-box-shadow: inset 0 0 .625em .3125em #fff, 0 0 1.25em .9375em #fff;
+    box-shadow: inset 0 0 .625em .3125em #fff, 0 0 1.25em .9375em #fff;
+  }
+}
+@keyframes an-coin-flash {
+  50% {
+    -webkit-box-shadow: inset 0 0 .625em .3125em #fff, 0 0 1.25em .9375em #fff;
+    -moz-box-shadow: inset 0 0 .625em .3125em #fff, 0 0 1.25em .9375em #fff;
+    -o-box-shadow: inset 0 0 .625em .3125em #fff, 0 0 1.25em .9375em #fff;
+    box-shadow: inset 0 0 .625em .3125em #fff, 0 0 1.25em .9375em #fff;
+  }
+}
+
+@-webkit-keyframes an-coin-shine {
+  0% {
+    -webkit-box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    -webkit-box-shadow: inset 0 0 .5625em .25em rgba(255, 255, 255, 0.8), 0 0 1.125em .625em rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0 0 .5625em .25em rgba(255, 255, 255, 0.8), 0 0 1.125em .625em rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+  }
+}
+@-moz-keyframes an-coin-shine {
+  0% {
+    -moz-box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    -moz-box-shadow: inset 0 0 .5625em .25em rgba(255, 255, 255, 0.8), 0 0 1.125em .625em rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0 0 .5625em .25em rgba(255, 255, 255, 0.8), 0 0 1.125em .625em rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    -moz-box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+  }
+}
+@-o-keyframes an-coin-shine {
+  0% {
+    -o-box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    -o-box-shadow: inset 0 0 .5625em .25em rgba(255, 255, 255, 0.8), 0 0 1.125em .625em rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0 0 .5625em .25em rgba(255, 255, 255, 0.8), 0 0 1.125em .625em rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    -o-box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+  }
+}
+@keyframes an-coin-shine {
+  0% {
+    -webkit-box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+    -moz-box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+    -o-box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    -webkit-box-shadow: inset 0 0 .5625em .25em rgba(255, 255, 255, 0.8), 0 0 1.125em .625em rgba(255, 255, 255, 0.8);
+    -moz-box-shadow: inset 0 0 .5625em .25em rgba(255, 255, 255, 0.8), 0 0 1.125em .625em rgba(255, 255, 255, 0.8);
+    -o-box-shadow: inset 0 0 .5625em .25em rgba(255, 255, 255, 0.8), 0 0 1.125em .625em rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0 0 .5625em .25em rgba(255, 255, 255, 0.8), 0 0 1.125em .625em rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    -webkit-box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+    -moz-box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+    -o-box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0 0 .3125em 0 rgba(255, 255, 255, 0.8), 0 0 .625em .3125em rgba(255, 255, 255, 0.8);
+  }
+}
 
 
 @media only screen and (max-width: 767px) {

@@ -7,7 +7,7 @@
 <!--<![endif]-->
 <head>
   <meta charset="utf-8" />
-  <title>Animation girl</title>
+  <title>Animation winner girl</title>
   <meta name="description" content="Создание адаптивного сайта" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,153 +19,12 @@
 </head>
 
 <body>
-<style>
-  .whichhand-game {
-    position:relative;
-    -webkit-align-self:flex-end;
-    -ms-flex-item-align:end;
-    align-self:flex-end;
-    width:21.0625em;
-    height:44em;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl/images/girl.png);
-    background-repeat:no-repeat;
-    background-size:100% 100%;
-    direction:ltr;
-    image-rendering:-webkit-optimize-contrast;
-    image-rendering:crisp-edges
-  }
-  .whichhand-game__ball {
-    position:absolute;
-    width:5.6875em;
-    height:6.875em;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl/images/sprite-ball-back.png);
-    background-repeat:no-repeat;
-    background-size:100% 1100%;
-    image-rendering:-webkit-optimize-contrast;
-    image-rendering:crisp-edges
-  }
-  .whichhand-game__ball_left {
-    top:20.8125em;
-    left:0em
-  }
-  .whichhand-game__ball_right {
-    top:21.25em;
-    right:0em
-  }
-  .whichhand-game__ball:before,
-  .whichhand-game__ball:after {
-    content:'';
-    position:absolute;
-    background-repeat:no-repeat;
-    image-rendering:-webkit-optimize-contrast;
-    image-rendering:crisp-edges
-  }
-  .whichhand-game__ball:before {
-    visibility:hidden;
-    opacity:0;
-    top:2.25em;
-    left:2.25em;
-    width:1em;
-    height:1.875em;
-    border-radius:50%;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl/images/coin.png);
-    background-size:100% 100%;
-    -webkit-transform:rotate(-10deg);
-    transform:rotate(-10deg);
-    will-change:opacity, visibility, box-shadow
-  }
-  .whichhand-game__ball:after {
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl/images/sprite-ball-front.png);
-    background-size:100% 1100%
-  }
-  .whichhand-game__ball.open {
-    -webkit-animation:open-ball 0.5s steps(10) forwards;
-    animation:open-ball 0.5s steps(10) forwards
-  }
-  .whichhand-game__ball.open:after {
-    -webkit-animation:open-ball 0.5s steps(10) forwards;
-    animation:open-ball 0.5s steps(10) forwards
-  }
-  @-webkit-keyframes open-ball {
-    100% {
-      background-position:0 100%
-    }
-  }
-  @keyframes open-ball {
-    100% {
-      background-position:0 100%
-    }
-  }
-  .whichhand-game__ball.winner:before {
-    visibility:visible;
-    opacity:1;
-    -webkit-animation:coin-flash 1s, coin-shine 1s 1s infinite;
-    animation:coin-flash 1s, coin-shine 1s 1s infinite
-  }
-  @-webkit-keyframes coin-flash {
-    50% {
-      box-shadow:inset 0 0 .625em .3125em #fff,0 0 1.25em .9375em #fff
-    }
-  }
-  @keyframes coin-flash {
-    50% {
-      box-shadow:inset 0 0 .625em .3125em #fff,0 0 1.25em .9375em #fff
-    }
-  }
-  @-webkit-keyframes coin-shine {
-    0% {
-      box-shadow:inset 0 0 .3125em 0em rgba(255,255,255,0.8),0 0 .625em .3125em rgba(255,255,255,0.8)
-    }
-    50% {
-      box-shadow:inset 0 0 .5625em .25em rgba(255,255,255,0.8),0 0 1.125em .625em rgba(255,255,255,0.8)
-    }
-    100% {
-      box-shadow:inset 0 0 .3125em 0em rgba(255,255,255,0.8),0 0 .625em .3125em rgba(255,255,255,0.8)
-    }
-  }
-  @keyframes coin-shine {
-    0% {
-      box-shadow:inset 0 0 .3125em 0em rgba(255,255,255,0.8),0 0 .625em .3125em rgba(255,255,255,0.8)
-    }
-    50% {
-      box-shadow:inset 0 0 .5625em .25em rgba(255,255,255,0.8),0 0 1.125em .625em rgba(255,255,255,0.8)
-    }
-    100% {
-      box-shadow:inset 0 0 .3125em 0em rgba(255,255,255,0.8),0 0 .625em .3125em rgba(255,255,255,0.8)
-    }
-  }
-  .whichhand-game__hand {
-    position:absolute;
-    width:5.25em;
-    height:4.125em;
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl/images/hands.png);
-    background-repeat:no-repeat;
-    background-size:200% 100%;
-    image-rendering:-webkit-optimize-contrast;
-    image-rendering:crisp-edges
-  }
-  .whichhand-game__hand_left {
-    top:25.25em;
-    left:0;
-    background-position:0 0
-  }
-  .whichhand-game__hand_right {
-    top:25.625em;
-    right:.125em;
-    background-position:100% 0
-  }
-</style>
-
   <div class="ag-format-container">
-    <div class="whichhand-game">
-      <div class="whichhand-game__ball whichhand-game__ball_left"></div>
-      <div class="whichhand-game__ball whichhand-game__ball_right"></div>
-      <div class="whichhand-game__hand whichhand-game__hand_left"></div>
-      <div class="whichhand-game__hand whichhand-game__hand_right"></div>
+    <div class="ag-girl">
+      <div class="js-girl_ball ag-girl_ball ag-girl_ball__left ag-girl_ball__winner"></div>
+      <div class="js-girl_ball ag-girl_ball ag-girl_ball__right"></div>
+      <div class="ag-girl_hand ag-girl_hand__left"></div>
+      <div class="ag-girl_hand ag-girl_hand__right"></div>
     </div>
   </div>
 
