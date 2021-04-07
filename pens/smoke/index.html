@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Smoke</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .piraChes-smoke2-con {
+    position:absolute;
+    bottom:0;
+    left:50%;
+    z-index:4;
+    width:1920px;
+    margin-left:-960px;
+  }
+  .piraChes-smoke.v2 {
+    bottom:0;
+    left:0;
+    width:1920px;
+    height:297px
+  }
+  .piraChes-smoke.fade_smoke {
+    margin-bottom:-430px
+  }
+  .piraChes-smoke-2-1 {
+    background-image:url("/default/img/piratechest/smoke-2-1.png")
+  }
+  .piraChes-smoke-2-2 {
+    background-image:url("/default/img/piratechest/smoke-2-2.png")
+  }
+  .piraChes-smoke-2-3 {
+    background-image:url("/default/img/piratechest/smoke-2-3.png")
+  }
+  .piraChes-smoke-2-4 {
+    background-image:url("/default/img/piratechest/smoke-2-4.png")
+  }
+  .piraChes-smoke-2-5 {
+    background-image:url("/default/img/piratechest/smoke-2-5.png")
+  }
+  .piraChes-smoke-2-6 {
+    background-image:url("/default/img/piratechest/smoke-2-6.png")
+  }
+  .piraChes-smoke-1-1 {
+    z-index:4;
+    -webkit-animation:20s ease 0s normal none infinite running smoke-anim-1;
+    animation:20s ease 0s normal none infinite running smoke-anim-1
+  }
+  .piraChes-smoke-1-2 {
+    -webkit-animation:15s ease -7s normal none infinite running smoke-anim-1;
+    animation:15s ease -7s normal none infinite running smoke-anim-1
+  }
+  .piraChes-smoke-2-1 {
+    -webkit-animation:25s ease -4s normal none infinite running smoke-anim-2;
+    animation:25s ease -4s normal none infinite running smoke-anim-2
+  }
+  .piraChes-smoke-2-2 {
+    -webkit-animation:25s ease -8s normal none infinite running smoke-anim-2;
+    animation:25s ease -8s normal none infinite running smoke-anim-2
+  }
+  .piraChes-smoke-2-3 {
+    -webkit-animation:25s ease -12s normal none infinite running smoke-anim-2;
+    animation:25s ease -12s normal none infinite running smoke-anim-2
+  }
+  .piraChes-smoke-2-4 {
+    -webkit-animation:25s ease -16s normal none infinite running smoke-anim-2;
+    animation:25s ease -16s normal none infinite running smoke-anim-2
+  }
+  .piraChes-smoke-2-5 {
+    -webkit-animation:25s ease -20s normal none infinite running smoke-anim-2;
+    animation:25s ease -20s normal none infinite running smoke-anim-2
+  }
+  .piraChes-smoke-2-6 {
+    -webkit-animation:25s ease -24s normal none infinite running smoke-anim-2;
+    animation:25s ease -24s normal none infinite running smoke-anim-2
+  }
+  @-webkit-keyframes smoke-anim-1 {
+    0% {
+      opacity:1;
+      -webkit-transform:scale(1) translateY(-7px);
+      transform:scale(1) translateY(-7px)
+    }
+    25% {
+      opacity:0.85;
+      -webkit-transform:scale(1) translate(14px);
+      transform:scale(1) translate(14px)
+    }
+    50% {
+      opacity:0.7;
+      -webkit-transform:scale(1) translateY(7px);
+      transform:scale(1) translateY(7px)
+    }
+    75% {
+      opacity:0.85;
+      -webkit-transform:scale(1) translate(-14px);
+      transform:scale(1) translate(-14px)
+    }
+    to {
+      opacity:1;
+      -webkit-transform:scale(1) translateY(-7px);
+      transform:scale(1) translateY(-7px)
+    }
+  }
+  @keyframes smoke-anim-1 {
+    0% {
+      opacity:1;
+      -webkit-transform:scale(1) translateY(-7px);
+      transform:scale(1) translateY(-7px)
+    }
+    25% {
+      opacity:0.85;
+      -webkit-transform:scale(1) translate(14px);
+      transform:scale(1) translate(14px)
+    }
+    50% {
+      opacity:0.7;
+      -webkit-transform:scale(1) translateY(7px);
+      transform:scale(1) translateY(7px)
+    }
+    75% {
+      opacity:0.85;
+      -webkit-transform:scale(1) translate(-14px);
+      transform:scale(1) translate(-14px)
+    }
+    to {
+      opacity:1;
+      -webkit-transform:scale(1) translateY(-7px);
+      transform:scale(1) translateY(-7px)
+    }
+  }
+  @-webkit-keyframes smoke-anim-2 {
+    0% {
+      opacity:1;
+      -webkit-transform:scale(1) translate(-14px);
+      transform:scale(1) translate(-14px)
+    }
+    25% {
+      opacity:0.85;
+      -webkit-transform:scale(1) translate(14px);
+      transform:scale(1) translate(14px)
+    }
+    50% {
+      opacity:0.7;
+      -webkit-transform:scale(1) translate(-14px);
+      transform:scale(1) translate(-14px)
+    }
+    75% {
+      opacity:0.85;
+      -webkit-transform:scale(1) translate(14px);
+      transform:scale(1) translate(14px)
+    }
+    to {
+      opacity:1;
+      -webkit-transform:scale(1) translate(-14px);
+      transform:scale(1) translate(-14px)
+    }
+  }
+  @keyframes smoke-anim-2 {
+    0% {
+      opacity:1;
+      -webkit-transform:scale(1) translate(-14px);
+      transform:scale(1) translate(-14px)
+    }
+    25% {
+      opacity:0.85;
+      -webkit-transform:scale(1) translate(14px);
+      transform:scale(1) translate(14px)
+    }
+    50% {
+      opacity:0.7;
+      -webkit-transform:scale(1) translate(-14px);
+      transform:scale(1) translate(-14px)
+    }
+    75% {
+      opacity:0.85;
+      -webkit-transform:scale(1) translate(14px);
+      transform:scale(1) translate(14px)
+    }
+    to {
+      opacity:1;
+      -webkit-transform:scale(1) translate(-14px);
+      transform:scale(1) translate(-14px)
+    }
+  }
+</style>
+
+<div class="piraChes-smoke2-con">
+  <div class="piraChes-smoke v2 piraChes-smoke-2-1"></div>
+  <div class="piraChes-smoke v2 piraChes-smoke-2-2"></div>
+  <div class="piraChes-smoke v2 piraChes-smoke-2-3"></div>
+  <div class="piraChes-smoke v2 piraChes-smoke-2-4"></div>
+  <div class="piraChes-smoke v2 piraChes-smoke-2-5"></div>
+  <div class="piraChes-smoke v2 piraChes-smoke-2-6"></div>
+</div>
+
+  <div class="ag-format-container">
+
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>

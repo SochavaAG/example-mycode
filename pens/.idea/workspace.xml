@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="271">
-              <caret line="1958" column="113" lean-forward="true" selection-start-line="1958" selection-start-column="18" selection-end-line="1958" selection-end-column="113" />
+              <caret line="1958" column="113" lean-forward="false" selection-start-line="1958" selection-start-column="18" selection-end-line="1958" selection-end-column="113" />
               <folding />
             </state>
           </provider>
@@ -38,8 +38,8 @@
       <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-t.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="2888" column="1" lean-forward="true" selection-start-line="2877" selection-start-column="0" selection-end-line="2888" selection-end-column="1" />
+            <state relative-caret-position="523">
+              <caret line="458" column="1" lean-forward="true" selection-start-line="291" selection-start-column="0" selection-end-line="458" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -48,9 +48,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="382">
+              <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="510" selection-end-column="8" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,8 +60,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-360">
-              <caret line="5764" column="21" lean-forward="false" selection-start-line="5764" selection-start-column="21" selection-end-line="5764" selection-end-column="21" />
+            <state relative-caret-position="-497">
+              <caret line="5975" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6158" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -160,11 +162,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-sparks/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="28" column="106" lean-forward="false" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="106" />
+            <state relative-caret-position="311">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animation-sparks/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/smoke/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -174,11 +196,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ew-conveyor</find>
-      <find>.ag-conveyor</find>
-      <find>arrow</find>
-      <find>ag-</find>
-      <find>@-webkit-keyframes b</find>
       <find>updateParticles</find>
       <find>paralaxObj</find>
       <find>https://v2l.cdnsfree.com/default/</find>
@@ -203,11 +220,14 @@
       <find>steps-sprite</find>
       <find>an-fire-big-v steps(23, start) 1s infinite;</find>
       <find>sparks.png</find>
+      <find>sparks</find>
+      <find>disabled:ho</find>
       <find>1s</find>
+      <find>93</find>
+      <find>piraChes-smoke2-con</find>
+      <find>piraChes-smoke</find>
     </findStrings>
     <replaceStrings>
-      <replace>btn-red</replace>
-      <replace>an-fog</replace>
       <replace>an-candle</replace>
       <replace>btn-blue</replace>
       <replace>an-flag</replace>
@@ -235,7 +255,9 @@
       <replace>fire-big</replace>
       <replace>fire-big-v</replace>
       <replace>an-fire-big-v steps(23) 1s infinite;</replace>
+      <replace>an-sparks</replace>
       <replace>2s</replace>
+      <replace>94</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -249,8 +271,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/parallax-space/index.html" />
-        <option value="$PROJECT_DIR$/parallax-space/js/main.js" />
         <option value="$PROJECT_DIR$/parallax-space/css/style.css" />
         <option value="$PROJECT_DIR$/fly/index.html" />
         <option value="$PROJECT_DIR$/fly/css/style.css" />
@@ -294,12 +314,14 @@
         <option value="$USER_HOME$/example-site-1/betwin441421.top_us_promotions_porsche/js/main.js" />
         <option value="$USER_HOME$/example-site-1/betwin441421.top_us_promotions_porsche/index.html" />
         <option value="$USER_HOME$/example-site-1/betwin441421.top_us_promotions_porsche/css/style.css" />
-        <option value="$PROJECT_DIR$/buttons/index.html" />
-        <option value="$PROJECT_DIR$/buttons/css/style.css" />
-        <option value="$USER_HOME$/format-t.css" />
         <option value="$PROJECT_DIR$/animation-sprite/index.html" />
         <option value="$PROJECT_DIR$/animation-sprite/css/style.css" />
         <option value="$PROJECT_DIR$/animation-sparks/index.html" />
+        <option value="$PROJECT_DIR$/animation-sparks/css/style.css" />
+        <option value="$PROJECT_DIR$/buttons/index.html" />
+        <option value="$USER_HOME$/format-t.css" />
+        <option value="$PROJECT_DIR$/buttons/css/style.css" />
+        <option value="$PROJECT_DIR$/smoke/index.html" />
       </list>
     </option>
   </component>
@@ -512,12 +534,12 @@
       <workItem from="1617399719792" duration="7915000" />
       <workItem from="1617649463430" duration="7645000" />
       <workItem from="1617733081349" duration="12809000" />
-      <workItem from="1617814501093" duration="2397000" />
+      <workItem from="1617814501093" duration="6094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="641401000" />
+    <option name="totallyTimeSpent" value="645098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -562,20 +584,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/landing-pages/2020.11.25_landing_cyber-monday/cyber-monday-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63216">
-          <caret line="2634" column="10" lean-forward="false" selection-start-line="2634" selection-start-column="10" selection-end-line="2634" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random-number/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/liquid-particles/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="768">
@@ -861,22 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="5764" column="21" lean-forward="false" selection-start-line="5764" selection-start-column="21" selection-end-line="5764" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1152">
@@ -885,10 +877,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
+    <entry file="file://$PROJECT_DIR$/animation-sparks/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="2888" column="1" lean-forward="true" selection-start-line="2877" selection-start-column="0" selection-end-line="2888" selection-end-column="1" />
+        <state relative-caret-position="311">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-sparks/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -896,15 +896,41 @@
     <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
-          <caret line="1958" column="113" lean-forward="true" selection-start-line="1958" selection-start-column="18" selection-end-line="1958" selection-end-column="113" />
+          <caret line="1958" column="113" lean-forward="false" selection-start-line="1958" selection-start-column="18" selection-end-line="1958" selection-end-column="113" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-sparks/index.html">
+    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="28" column="106" lean-forward="false" selection-start-line="28" selection-start-column="90" selection-end-line="28" selection-end-column="106" />
+        <state relative-caret-position="-497">
+          <caret line="5975" column="28" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6158" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="510" selection-end-column="8" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-t.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="458" column="1" lean-forward="true" selection-start-line="291" selection-start-column="0" selection-end-line="458" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smoke/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="64" />
           <folding />
         </state>
       </provider>

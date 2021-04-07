@@ -1,36 +1,80 @@
-.ag-format-container {
-  width: 1142px;
+html, body {
+  height: 100%;
+  background: #000;
+}
+
+.ag-sparks {
+  height: 100%;
+  width: 557px;
   margin: 0 auto;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sparks/images/sparks.png) repeat-y 0 0;
+
+  -webkit-animation: an-sparks 400s linear infinite;
+  -moz-animation: an-sparks 40s linear infinite;
+  -o-animation: an-sparks 40s linear infinite;
+  animation: an-sparks 40s linear infinite;
+
+  position: relative;
+}
+.ag-sparks:before,
+.ag-sparks:after {
+  content: "";
+  width: 557px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sparks/images/sparks.png);
+  background-repeat: repeat-y;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.ag-sparks:before {
+  background-position: 50% 0;
+
+  -webkit-animation: an-sparks 300s linear infinite;
+  -moz-animation: an-sparks 30s linear infinite;
+  -o-animation: an-sparks 30s linear infinite;
+  animation: an-sparks 30s linear infinite;
+}
+.ag-sparks:after {
+  background-position: 100% 0;
+
+  -webkit-animation: an-sparks 350s linear infinite;
+  -moz-animation: an-sparks 35s linear infinite;
+  -o-animation: an-sparks 35s linear infinite;
+  animation: an-sparks 35s linear infinite;
 }
 
-
-
-
-@media only screen and (max-width: 767px) {
-  .ag-format-container {
-    width: 96%;
+@-webkit-keyframes an-sparks {
+  from {
+    background-position-y: -5000%;
   }
-
-}
-
-@media only screen and (max-width: 639px) {
-
-}
-
-@media only screen and (max-width: 479px) {
-
-}
-
-@media (min-width: 768px) and (max-width: 979px) {
-  .ag-format-container {
-    width: 750px;
+  to {
+    background-position-y: 0;
   }
-
 }
-
-@media (min-width: 980px) and (max-width: 1161px) {
-  .ag-format-container {
-    width: 960px;
+@-moz-keyframes an-sparks {
+  from {
+    background-position-y: -5000%;
   }
-
+  to {
+    background-position-y: 0;
+  }
+}
+@-o-keyframes an-sparks {
+  from {
+    background-position-y: -5000%;
+  }
+  to {
+    background-position-y: 0;
+  }
+}
+@keyframes an-sparks {
+  from {
+    background-position-y: -5000%;
+  }
+  to {
+    background-position-y: 0;
+  }
 }
