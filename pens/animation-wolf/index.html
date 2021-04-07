@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Animation wolf</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .pogodi-game__wolf {
+    position:absolute;
+    width:100%;
+    height:100%
+  }
+  .pogodi-game__wolf--lt {
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-wolf/images/wolf-left.png) 11.1875em 8.5625em/6.875em 10.8125em no-repeat,url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-wolf/images/wolf-hands-lt.png) 7.75em 8.4375em/5.3125em 5.25em no-repeat
+  }
+  .pogodi-game__wolf--lb {
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-wolf/images/wolf-left.png) 11.1875em 8.5625em/6.875em 10.8125em no-repeat,url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-wolf/images/wolf-hands-lb.png) 7.125em 13.6875em/5.9375em 4.75em no-repeat
+  }
+  .pogodi-game__wolf--rt {
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-wolf/images/wolf-right.png) 16.9375em 8.5625em/6.3125em 10.6875em no-repeat,url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-wolf/images/wolf-hands-rt.png) 22.25em 9.1875em/5em 4.9375em no-repeat
+  }
+  .pogodi-game__wolf--rb {
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-wolf/images/wolf-right.png) 16.9375em 8.5625em/6.3125em 10.6875em no-repeat,url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-wolf/images/wolf-hands-rb.png) 21.625em 13.9375em/5.5625em 4.625em no-repeat
+  }
+  .pogodi-game__hare {
+    position:absolute;
+    opacity:0;
+    top:0;
+    left:0;
+    width:4.0625em;
+    height:2.5em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-wolf/images/hare-hand.png) left top/cover no-repeat
+  }
+  .pogodi-game__hare--anim {
+    -webkit-animation:hare-hand 0.9s steps(1) forwards;
+    animation:hare-hand 0.9s steps(1) forwards
+  }
+  @-webkit-keyframes hare-hand {
+    0%, 25%, 50%, 75%, 99.9% {
+      opacity:1;
+      top:1.25em;
+      left:10.8125em;
+      width:4.0625em;
+      height:2.5em;
+      background-position-y:0
+    }
+    12.5%, 37.5%, 62.5%, 87.5% {
+      opacity:1;
+      top:4.1875em;
+      left:11em;
+      height:3.75em;
+      background-position-y:-2.5em
+    }
+    100% {
+      opacity:0
+    }
+  }
+  @keyframes hare-hand {
+    0%, 25%, 50%, 75%, 99.9% {
+      opacity:1;
+      top:1.25em;
+      left:10.8125em;
+      width:4.0625em;
+      height:2.5em;
+      background-position-y:0
+    }
+    12.5%, 37.5%, 62.5%, 87.5% {
+      opacity:1;
+      top:4.1875em;
+      left:11em;
+      height:3.75em;
+      background-position-y:-2.5em
+    }
+    100% {
+      opacity:0
+    }
+  }
+</style>
+
+  <div class="ag-format-container">
+    <div class="pogodi-game__wolf pogodi-game__wolf--rb pogodi-game__hare--anim"></div>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
