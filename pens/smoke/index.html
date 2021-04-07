@@ -20,196 +20,233 @@
 
 <body>
 <style>
+  html, body {
+    height: 100%;
+
+    overflow: hidden;
+  }
+  .ag-smoke-block {
+    height: 100%;
+
+    position: relative;
+  }
   .piraChes-smoke2-con {
-    position:absolute;
-    bottom:0;
-    left:50%;
-    z-index:4;
-    width:1920px;
-    margin-left:-960px;
+    height: 297px;
+    width: 100%;
+
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
   }
   .piraChes-smoke.v2 {
-    bottom:0;
-    left:0;
-    width:1920px;
-    height:297px
+    height: 297px;
+    width: 1920px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
   }
   .piraChes-smoke.fade_smoke {
-    margin-bottom:-430px
+    margin-bottom: -430px
   }
   .piraChes-smoke-2-1 {
-    background-image:url("/default/img/piratechest/smoke-2-1.png")
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/smoke/images/smoke-2-1.png);
   }
   .piraChes-smoke-2-2 {
-    background-image:url("/default/img/piratechest/smoke-2-2.png")
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/smoke/images/smoke-2-2.png);
   }
   .piraChes-smoke-2-3 {
-    background-image:url("/default/img/piratechest/smoke-2-3.png")
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/smoke/images/smoke-2-3.png);
   }
   .piraChes-smoke-2-4 {
-    background-image:url("/default/img/piratechest/smoke-2-4.png")
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/smoke/images/smoke-2-4.png);
   }
   .piraChes-smoke-2-5 {
-    background-image:url("/default/img/piratechest/smoke-2-5.png")
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/smoke/images/smoke-2-5.png);
   }
   .piraChes-smoke-2-6 {
-    background-image:url("/default/img/piratechest/smoke-2-6.png")
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/smoke/images/smoke-2-6.png);
   }
   .piraChes-smoke-1-1 {
-    z-index:4;
-    -webkit-animation:20s ease 0s normal none infinite running smoke-anim-1;
-    animation:20s ease 0s normal none infinite running smoke-anim-1
+    z-index: 4;
+
+    -webkit-animation: an-smoke-anim-1 20s ease 0s normal none infinite running;
+    animation: an-smoke-anim-1 20s ease 0s normal none infinite running;
   }
   .piraChes-smoke-1-2 {
-    -webkit-animation:15s ease -7s normal none infinite running smoke-anim-1;
-    animation:15s ease -7s normal none infinite running smoke-anim-1
+    -webkit-animation: an-smoke-anim-1 15s ease -7s normal none infinite running;
+    animation: an-smoke-anim-1 15s ease -7s normal none infinite running;
   }
   .piraChes-smoke-2-1 {
-    -webkit-animation:25s ease -4s normal none infinite running smoke-anim-2;
-    animation:25s ease -4s normal none infinite running smoke-anim-2
+    -webkit-animation: an-smoke-anim-2 25s ease -4s normal none infinite running;
+    animation: an-smoke-anim-2 25s ease -4s normal none infinite running;
   }
   .piraChes-smoke-2-2 {
-    -webkit-animation:25s ease -8s normal none infinite running smoke-anim-2;
-    animation:25s ease -8s normal none infinite running smoke-anim-2
+    -webkit-animation: an-smoke-anim-2 25s ease -8s normal none infinite running;
+    animation: an-smoke-anim-2 25s ease -8s normal none infinite running;
   }
   .piraChes-smoke-2-3 {
-    -webkit-animation:25s ease -12s normal none infinite running smoke-anim-2;
-    animation:25s ease -12s normal none infinite running smoke-anim-2
+    -webkit-animation: an-smoke-anim-2 25s ease -12s normal none infinite running;
+    animation: an-smoke-anim-2 25s ease -12s normal none infinite running;
   }
   .piraChes-smoke-2-4 {
-    -webkit-animation:25s ease -16s normal none infinite running smoke-anim-2;
-    animation:25s ease -16s normal none infinite running smoke-anim-2
+    -webkit-animation: an-smoke-anim-2 25s ease -16s normal none infinite running;
+    animation: an-smoke-anim-2 25s ease -16s normal none infinite running;
   }
   .piraChes-smoke-2-5 {
-    -webkit-animation:25s ease -20s normal none infinite running smoke-anim-2;
-    animation:25s ease -20s normal none infinite running smoke-anim-2
+    -webkit-animation: an-smoke-anim-2 25s ease -20s normal none infinite running;
+    animation: an-smoke-anim-2 25s ease -20s normal none infinite running;
   }
   .piraChes-smoke-2-6 {
-    -webkit-animation:25s ease -24s normal none infinite running smoke-anim-2;
-    animation:25s ease -24s normal none infinite running smoke-anim-2
+    -webkit-animation: an-smoke-anim-2 25s ease -24s normal none infinite running;
+    animation: an-smoke-anim-2 25s ease -24s normal none infinite running;
   }
+
   @-webkit-keyframes smoke-anim-1 {
     0% {
-      opacity:1;
-      -webkit-transform:scale(1) translateY(-7px);
-      transform:scale(1) translateY(-7px)
+      opacity: 1;
+
+      -webkit-transform: scale(1) translateY(-7px);
+      transform: scale(1) translateY(-7px);
     }
     25% {
-      opacity:0.85;
-      -webkit-transform:scale(1) translate(14px);
-      transform:scale(1) translate(14px)
+      opacity: 0.85;
+
+      -webkit-transform: scale(1) translate(14px);
+      transform: scale(1) translate(14px);
     }
     50% {
-      opacity:0.7;
-      -webkit-transform:scale(1) translateY(7px);
-      transform:scale(1) translateY(7px)
+      opacity: 0.7;
+
+      -webkit-transform: scale(1) translateY(7px);
+      transform: scale(1) translateY(7px);
     }
     75% {
-      opacity:0.85;
-      -webkit-transform:scale(1) translate(-14px);
-      transform:scale(1) translate(-14px)
+      opacity: 0.85;
+
+      -webkit-transform: scale(1) translate(-14px);
+      transform: scale(1) translate(-14px);
     }
     to {
-      opacity:1;
-      -webkit-transform:scale(1) translateY(-7px);
-      transform:scale(1) translateY(-7px)
+      opacity: 1;
+
+      -webkit-transform: scale(1) translateY(-7px);
+      transform: scale(1) translateY(-7px);
     }
   }
   @keyframes smoke-anim-1 {
     0% {
-      opacity:1;
-      -webkit-transform:scale(1) translateY(-7px);
-      transform:scale(1) translateY(-7px)
+      opacity: 1;
+
+      -webkit-transform: scale(1) translateY(-7px);
+      transform: scale(1) translateY(-7px);
     }
     25% {
-      opacity:0.85;
-      -webkit-transform:scale(1) translate(14px);
-      transform:scale(1) translate(14px)
+      opacity: 0.85;
+
+      -webkit-transform: scale(1) translate(14px);
+      transform: scale(1) translate(14px);
     }
     50% {
-      opacity:0.7;
-      -webkit-transform:scale(1) translateY(7px);
-      transform:scale(1) translateY(7px)
+      opacity: 0.7;
+
+      -webkit-transform: scale(1) translateY(7px);
+      transform: scale(1) translateY(7px);
     }
     75% {
-      opacity:0.85;
-      -webkit-transform:scale(1) translate(-14px);
-      transform:scale(1) translate(-14px)
+      opacity: 0.85;
+
+      -webkit-transform: scale(1) translate(-14px);
+      transform: scale(1) translate(-14px);
     }
     to {
-      opacity:1;
-      -webkit-transform:scale(1) translateY(-7px);
-      transform:scale(1) translateY(-7px)
+      opacity: 1;
+
+      -webkit-transform: scale(1) translateY(-7px);
+      transform: scale(1) translateY(-7px);
     }
   }
   @-webkit-keyframes smoke-anim-2 {
     0% {
-      opacity:1;
-      -webkit-transform:scale(1) translate(-14px);
-      transform:scale(1) translate(-14px)
+      opacity: 1;
+
+      -webkit-transform: scale(1) translate(-14px);
+      transform: scale(1) translate(-14px);
     }
     25% {
-      opacity:0.85;
-      -webkit-transform:scale(1) translate(14px);
-      transform:scale(1) translate(14px)
+      opacity: 0.85;
+
+      -webkit-transform: scale(1) translate(14px);
+      transform: scale(1) translate(14px);
     }
     50% {
-      opacity:0.7;
-      -webkit-transform:scale(1) translate(-14px);
-      transform:scale(1) translate(-14px)
+      opacity: 0.7;
+
+      -webkit-transform: scale(1) translate(-14px);
+      transform: scale(1) translate(-14px);
     }
     75% {
-      opacity:0.85;
-      -webkit-transform:scale(1) translate(14px);
-      transform:scale(1) translate(14px)
+      opacity: 0.85;
+
+      -webkit-transform: scale(1) translate(14px);
+      transform: scale(1) translate(14px);
     }
     to {
-      opacity:1;
-      -webkit-transform:scale(1) translate(-14px);
-      transform:scale(1) translate(-14px)
+      opacity: 1;
+
+      -webkit-transform: scale(1) translate(-14px);
+      transform: scale(1) translate(-14px);
     }
   }
   @keyframes smoke-anim-2 {
     0% {
-      opacity:1;
-      -webkit-transform:scale(1) translate(-14px);
-      transform:scale(1) translate(-14px)
+      opacity: 1;
+
+      -webkit-transform: scale(1) translate(-14px);
+      transform: scale(1) translate(-14px);
     }
     25% {
-      opacity:0.85;
-      -webkit-transform:scale(1) translate(14px);
-      transform:scale(1) translate(14px)
+      opacity: 0.85;
+
+      -webkit-transform: scale(1) translate(14px);
+      transform: scale(1) translate(14px);
     }
     50% {
-      opacity:0.7;
-      -webkit-transform:scale(1) translate(-14px);
-      transform:scale(1) translate(-14px)
+      opacity: 0.7;
+
+      -webkit-transform: scale(1) translate(-14px);
+      transform: scale(1) translate(-14px);
     }
     75% {
-      opacity:0.85;
-      -webkit-transform:scale(1) translate(14px);
-      transform:scale(1) translate(14px)
+      opacity: 0.85;
+
+      -webkit-transform: scale(1) translate(14px);
+      transform: scale(1) translate(14px);
     }
     to {
-      opacity:1;
-      -webkit-transform:scale(1) translate(-14px);
-      transform:scale(1) translate(-14px)
+      opacity: 1;
+
+      -webkit-transform: scale(1) translate(-14px);
+      transform: scale(1) translate(-14px);
     }
   }
 </style>
+<div class="ag-smoke-block">
+  <div class="piraChes-smoke piraChes-smoke-1-1"></div>
+  <div class="piraChes-smoke piraChes-smoke-1-2"></div>
 
-<div class="piraChes-smoke2-con">
-  <div class="piraChes-smoke v2 piraChes-smoke-2-1"></div>
-  <div class="piraChes-smoke v2 piraChes-smoke-2-2"></div>
-  <div class="piraChes-smoke v2 piraChes-smoke-2-3"></div>
-  <div class="piraChes-smoke v2 piraChes-smoke-2-4"></div>
-  <div class="piraChes-smoke v2 piraChes-smoke-2-5"></div>
-  <div class="piraChes-smoke v2 piraChes-smoke-2-6"></div>
-</div>
+  <div class="piraChes-smoke2-con">
+    <div class="piraChes-smoke v2 piraChes-smoke-2-1"></div>
+    <div class="piraChes-smoke v2 piraChes-smoke-2-2"></div>
+    <div class="piraChes-smoke v2 piraChes-smoke-2-3"></div>
+    <div class="piraChes-smoke v2 piraChes-smoke-2-4"></div>
+    <div class="piraChes-smoke v2 piraChes-smoke-2-5"></div>
+    <div class="piraChes-smoke v2 piraChes-smoke-2-6"></div>
+  </div>
 
   <div class="ag-format-container">
 
   </div>
+</div>
 
 <!--[if lt IE 9]>
 <script src="libs/IE/html5shiv/es5-shim.min.js"></script>
