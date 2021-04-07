@@ -1797,6 +1797,79 @@ body {
 }
 /* /football */
 
+/* fire-big-1 */
+.tod__fire {
+  position:absolute;
+  bottom:-3.125em;
+  left:3.5625em;
+  width:15em;
+  height:25em;
+  background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-fire-big.png) 0 0/2400% 300% no-repeat;
+  -webkit-transform:scaleX(1.5) scaleY(0.9);
+  transform:scaleX(1.5) scaleY(0.9);
+  -webkit-transform-origin:bottom;
+  transform-origin:bottom;
+  -webkit-animation:steps-sprite steps(23, start) 1s infinite;
+  animation:steps-sprite steps(23, start) 1s infinite
+}
+.tod__fire[data-item='p1'],
+.tod__fire[data-item='p2'],
+.tod__fire[data-item='p5'] {
+  background-position-y:100%
+}
+.tod__fire[data-item='p3'],
+.tod__fire[data-item='p4'] {
+  background-position-y:50%
+}
+.tod__fire[data-item='p3'] {
+  -webkit-transform:scaleX(1.5) scaleY(0.55);
+  transform:scaleX(1.5) scaleY(0.55)
+}
+.tod__fire--right {
+  right:3.75em;
+  left:auto
+}
+.tod__fire--right[data-item='p1'],
+.tod__fire--right[data-item='p2'] {
+  background-position-y:0
+}
+.tod__fire--right[data-item='p3'],
+.tod__fire--right[data-item='p6'] {
+  background-position-y:50%
+}
+.tod__fire--right[data-item='p4'],
+.tod__fire--right[data-item='p5'] {
+  background-position-y:100%
+}
+.tod__fire--right[data-item='p4'] {
+  -webkit-transform:scaleX(1.5) scaleY(0.8);
+  transform:scaleX(1.5) scaleY(0.8)
+}
+
+
+
+@-webkit-keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+@-moz-keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+@-o-keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+@keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+/* /fire-big-1 */
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;
