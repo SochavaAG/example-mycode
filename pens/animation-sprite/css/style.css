@@ -225,6 +225,7 @@ body {
   -o-animation: an-ball-rotate 1.5s step-start 0s normal none infinite running;
   animation: an-ball-rotate 1.5s step-start 0s normal none infinite running;
 }
+
 @-webkit-keyframes an-ball-rotate {
   0% {
     background-position: 0 0;
@@ -390,6 +391,32 @@ body {
   }
 }
 /* /ball */
+
+/* bird-flying */
+.ag-bird-flying {
+  display: inline-block;
+  height: 167px;
+  width: 227.5px;
+  margin: 0 0 0 100px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/bird-flying.png) no-repeat left top/100% 100%;
+  -webkit-animation: an-bird-flying 1s steps(7, end) infinite;
+  animation: an-bird-flying 1s steps(7, end) infinite;
+  will-change: transform
+}
+@-webkit-keyframes transRight {
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@keyframes transRight {
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+/* /bird-flying */
+
 
 /* fire-refresh */
 .ag-fire-refresh-1 {
