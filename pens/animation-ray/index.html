@@ -19,71 +19,11 @@
 </head>
 
 <body>
-<style>
-  .ag-ray-block {
-    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-ray/images/shaman-2.png) no-repeat 0 0;
-  }
-
-  .bottle__light {
-    position:absolute;
-    top:0;
-    width:100%;
-    height:100%;
-    -webkit-transform-origin:top right;
-    transform-origin:top right;
-    will-change:transform, opacity
-  }
-  .bottle__light::after {
-    content:'';
-    display:block;
-    width:100%;
-    height:100%;
-    background:url("/default/img/games/bottle/light.png") left top/100% no-repeat
-  }
-  .bottle__light--top-left {
-    left:0;
-    -webkit-transform:rotate(65deg);
-    transform:rotate(65deg);
-    -webkit-transform-origin:top left;
-    transform-origin:top left;
-    -webkit-animation:top-to-bottom-reverse 7s linear infinite;
-    animation:top-to-bottom-reverse 7s linear infinite
-  }
-  .bottle__light--top-left::after {
-    -webkit-transform:scale(-1, 1);
-    transform:scale(-1, 1)
-  }
-  .bottle__light--bottom-left {
-    left:0;
-    -webkit-transform:rotate(-65deg);
-    transform:rotate(-65deg);
-    -webkit-transform-origin:top left;
-    transform-origin:top left;
-    -webkit-animation:bottom-to-top-reverse 11s linear infinite;
-    animation:bottom-to-top-reverse 11s linear infinite
-  }
-  .bottle__light--bottom-left::after {
-    -webkit-transform:scale(-1, 1);
-    transform:scale(-1, 1)
-  }
-  .bottle__light--top-right {
-    right:0;
-    -webkit-transform:rotate(65deg);
-    transform:rotate(65deg);
-    -webkit-animation:top-to-bottom 13s linear infinite;
-    animation:top-to-bottom 13s linear infinite
-  }
-  .bottle__light--bottom-right {
-    right:0;
-    -webkit-transform:rotate(-65deg);
-    transform:rotate(-65deg);
-    -webkit-animation:bottom-to-top 7s linear infinite;
-    animation:bottom-to-top 7s linear infinite
-  }
-</style>
-
 <div class="ag-ray-block">
-  <div class="bottle__light"></div>
+  <div class="ag-ray_light ag-ray_light__top-left"></div>
+  <div class="ag-ray_light ag-ray_light__bottom-left"></div>
+  <div class="ag-ray_light ag-ray_light__top-right"></div>
+  <div class="ag-ray_light ag-ray_light__bottom-right"></div>
 
   <div class="ag-format-container">
 
