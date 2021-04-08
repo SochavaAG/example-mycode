@@ -396,27 +396,109 @@ body {
 .ag-bird-flying {
   display: inline-block;
   height: 167px;
-  width: 227.5px;
+  width: 260px;
   margin: 0 0 0 100px;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/bird-flying.png) no-repeat left top/100% 100%;
-  -webkit-animation: an-bird-flying 1s steps(7, end) infinite;
-  animation: an-bird-flying 1s steps(7, end) infinite;
-  will-change: transform
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/bird-flying.png) no-repeat 0 0;
+
+  -webkit-animation: an-bird-flying 1s steps(6, end) infinite;
+  -moz-animation: an-bird-flying 1s steps(6, end) infinite;
+  -o-animation: an-bird-flying 1s steps(6, end) infinite;
+  animation: an-bird-flying 1s steps(6, end) infinite;
 }
-@-webkit-keyframes transRight {
-  100% {
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
+
+@-webkit-keyframes an-bird-flying {
+  to {
+    background-position-x: 100%;
   }
 }
-@keyframes transRight {
-  100% {
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
+@-moz-keyframes an-bird-flying {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-o-keyframes an-bird-flying {
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes an-bird-flying {
+  to {
+    background-position-x: 100%;
   }
 }
 /* /bird-flying */
 
+/* bird */
+.ag-bird {
+  display: inline-block;
+  height: 216px;
+  width: 158px;
+  margin: 0 0 0 100px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/bird-totem.png) no-repeat 0 0;
+
+  -webkit-animation: an-bird 1s steps(10, end) infinite;
+  -moz-animation: an-bird 1s steps(10, end) infinite;
+  -o-animation: an-bird 1s steps(10, end) infinite;
+  animation: an-bird 1s steps(10, end) infinite;
+}
+
+@-webkit-keyframes an-bird {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-moz-keyframes an-bird {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-o-keyframes an-bird {
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes an-bird {
+  to {
+    background-position-x: 100%;
+  }
+}
+/* /bird */
+
+/* bird-v2 */
+.ag-bird-v2 {
+  display: inline-block;
+  height: 216px;
+  width: 158px;
+  margin: 0 0 0 100px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/bird-totem.png) no-repeat 0 100%;
+
+  -webkit-animation: an-bird-v2 1s steps(10, end) infinite;
+  -moz-animation: an-bird-v2 1s steps(10, end) infinite;
+  -o-animation: an-bird-v2 1s steps(10, end) infinite;
+  animation: an-bird-v2 1s steps(10, end) infinite;
+}
+
+@-webkit-keyframes an-bird-v2 {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-moz-keyframes an-bird-v2 {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-o-keyframes an-bird-v2 {
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes an-bird-v2 {
+  to {
+    background-position-x: 100%;
+  }
+}
+/* /bird-v2 */
 
 /* fire-refresh */
 .ag-fire-refresh-1 {

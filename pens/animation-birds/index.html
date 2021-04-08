@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Animation birds</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .js__totem {
+    position:absolute;
+    top:5.9375em;
+    right:100%;
+    width:18em;
+    height:41.3125em;
+    margin-right:-8.125em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/totem.png) left top/100% 100% no-repeat
+  }
+  .js__bird {
+    position:absolute;
+    top:6%;
+    left:12%;
+    width:54.865%;
+    height:32.68%;
+    overflow:hidden;
+    background:url("/default/img/games/junglesecrets/bg-parts/bird-totem.png") left top/1100% 200% no-repeat;
+    -webkit-animation:bird-tile 20s steps(10) infinite,bird-head 40s steps(2) infinite;
+    animation:bird-tile 20s steps(10) infinite,bird-head 40s steps(2) infinite;
+    pointer-events:none;
+    will-change:background-position
+  }
+  @-webkit-keyframes bird-tile {
+    0%,
+    5% {
+      background-position-x:0
+    }
+    4.99%,
+    10%,
+    100% {
+      background-position-x:100%
+    }
+  }
+  @keyframes bird-tile {
+    0%,
+    5% {
+      background-position-x:0
+    }
+    4.99%,
+    10%,
+    100% {
+      background-position-x:100%
+    }
+  }
+  @-webkit-keyframes bird-head {
+    0%,
+    5% {
+      background-position-y:0
+    }
+    4.99%,
+    100% {
+      background-position-y:200%
+    }
+  }
+  @keyframes bird-head {
+    0%,
+    5% {
+      background-position-y:0
+    }
+    4.99%,
+    100% {
+      background-position-y:200%
+    }
+  }
+  .js__indicator {
+    position:absolute;
+    top:0;
+    left:100%;
+    margin-top:1.25em;
+    margin-left:4.375em
+  }
+  .js__animal {
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:7.5em;
+    height:7.5em;
+    overflow:hidden;
+    -webkit-transform:translateZ(0);
+    transform:translateZ(0)
+  }
+  .js__animal::before,
+  .js__animal::after {
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:400%;
+    height:100%;
+    background:url("/default/img/games/junglesecrets/animals-heads.png") top/100% 800% no-repeat;
+    transition:opacity 0.5s linear
+  }
+  .js__animal[data-animal='gorilla']::before,
+  .js__animal[data-animal='gorilla']::after {
+    left:-100%
+  }
+  .js__animal[data-animal='tiger']::before,
+  .js__animal[data-animal='tiger']::after {
+    left:-200%
+  }
+  .js__animal[data-animal='crocodile']::before,
+  .js__animal[data-animal='crocodile']::after {
+    left:-300%
+  }
+  .js__animal[data-animal='none']::before,
+  .js__animal[data-animal='none']::after {
+    left:-400%
+  }
+  .js__animal::after {
+    opacity:0
+  }
+</style>
+
+<div class="ag-jungle-block">
+  <div class="ag-format-container">
+    <div class="js__totem">
+      <div class="js__bird"></div>
+    </div>
+  </div>
+</div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
