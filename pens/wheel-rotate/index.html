@@ -22,12 +22,11 @@
 <style>
 
   .pc_wheel{
-    position: relative;
-    width: 620px;
     height: 620px;
-    margin-right: 125px;
-    margin-bottom: 0;
-    margin-left: auto;
+    width: 620px;
+    margin: 0 auto;
+
+    position: relative;
   }
   .pc_info_wheel {
     position:relative;
@@ -97,24 +96,26 @@
   }
 
   .pc_wheel_num {
-    /*display:-webkit-flex;
-    display:-ms-flexbox;
-    display:flex;*/
+    height:294px;
+    line-height:1;
+    width:92px;
+    padding-top:38px;
+
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-weight:700;
+    font-size:40px;
+    color:#FFF;
+
+    z-index:0;
     position:absolute;
     top:calc(50% - 294px);
     left:calc(50% - 92px / 2);
-    z-index:0;
-    /*-webkit-justify-content:center;
-    -ms-flex-pack:center;
-    justify-content:center;*/
-    /*padding-top:38px;*/
-    width:92px;
-    height:294px;
-    font-family:Arial, sans-serif;
-    font-size:54px;
-    font-weight:700;
-    line-height:1;
-    color:#fff;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
     -webkit-transform-origin:center bottom;
     transform-origin:center bottom
   }
@@ -151,6 +152,7 @@
       border-top-color:rgba(0,0,0,0.39)
     }
   }
+
   .pc_wrapper_wheel {
     position:absolute;
     top:44px;
@@ -177,6 +179,7 @@
   .pc_wrapper_wheel .pc_wheel_star:before {
     display:none
   }
+
   @-webkit-keyframes sector-active {
     to {
       border-top-color:#fff
@@ -372,37 +375,38 @@
     border-left:48px solid transparent
   }
   .pc_wheel_center {
-    /*display:-webkit-flex;
-    display:-ms-flexbox;
-    display:flex;*/
-    position:absolute;
-    top:calc(50% - 153px / 2);
-    left:calc(50% - 153px / 2);
-    z-index:2;
-/*    -webkit-align-items:center;
-    -ms-flex-align:center;
-    align-items:center;
-    -webkit-justify-content:center;
-    -ms-flex-pack:center;
-    justify-content:center;*/
-    width:153px;
     height:153px;
-    border-radius:50%;
-    box-shadow:inset 0 0 21px 10px rgba(139,108,57,0.75),0 0 0 13px rgba(0,0,0,0.1);
+    width:153px;
     background-color:#ffea23;
+
+    cursor: pointer;
+
     font-family:Arial, sans-serif;
     font-size:100px;
     font-weight:700;
-    letter-spacing:0.5px
+    /*letter-spacing: .5px;*/
+
+    z-index:2;
+    position:absolute;
+    top:calc(50% - 153px / 2);
+    left:calc(50% - 153px / 2);
+
+    border-radius:50%;
+
+    box-shadow:inset 0 0 21px 10px rgba(139,108,57,0.75),0 0 0 13px rgba(0,0,0,0.1);
   }
   .pc_wheel_center_num {
-    position:relative;
-    margin-left:-5px;
+    height: 100px;
+    width: 55px;
+    margin: 25px auto 0;
     background:linear-gradient(0deg, #f015e8, #631084);
     -webkit-background-clip:text;
-    font-size:90px;
+    -webkit-text-fill-color:transparent;
+
     letter-spacing:1px;
-    -webkit-text-fill-color:transparent
+    font-size:90px;
+
+    position:relative;
   }
   .pc_wheel_center_num:after {
     content:attr(data-text);
@@ -431,7 +435,7 @@
     left:-17px;
     width:50px;
     height:50px;
-    background:url(/default/img/fortunegames/shine.png) 50% no-repeat;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/wheel-rotate/images/shine.png) 50% no-repeat;
     background-size:145%
   }
   .pc_wheel_lamp:nth-child(odd)::before {
@@ -547,7 +551,7 @@
     left:calc(50% - 16px / 2)
   }
 
-  @media screen and (max-width: 1270px) {
+  /*@media screen and (max-width: 1270px) {
     .pc_wheel_blue:before,
     .pc_wheel_green:before,
     .pc_wheel_pink:before,
@@ -573,7 +577,7 @@
       width:120px;
       height:120px
     }
-    .wrapper_wheel_loading {
+!*    .wrapper_wheel_loading {
       width:162px
     }
     .pc_wheel_loading,
@@ -593,7 +597,7 @@
       border-right:81px solid transparent;
       border-left:81px solid #c413bf;
       border-radius:162px
-    }
+    }*!
     .pc_wrapper_wheel .pc_wheel_num:after {
       left:0;
       border-top-width:230px;
@@ -617,9 +621,9 @@
       height:215px;
       font-size:36px
     }
-    .pc_info_statistic {
+   !* .pc_info_statistic {
       margin-left:15px
-    }
+    }*!
     .pc_wheel:after {
       top:-150px;
       left:-85px;
@@ -676,7 +680,7 @@
       bottom:45px;
       left:115px
     }
-    .pc_info_statistic {
+ !*   .pc_info_statistic {
       margin-bottom:-50px
     }
     .wrapper_wheel {
@@ -709,8 +713,8 @@
       border-radius:192px;
       transform:scale(-0.85, 0.85);
       animation:background 20s linear infinite
-    }
-    :root .pc_wheel_loading:before,
+    }*!
+   !* :root .pc_wheel_loading:before,
     _:-ms-fullscreen {
       content:'';
       position:absolute;
@@ -720,37 +724,53 @@
       border-left:96px solid #c413bf;
       border-radius:192px;
       animation:rotate 20s linear infinite
-    }
-  /*  :root .pc_info_statistic,
-    _:-ms-fullscreen {
-      flex-basis:510px;
-      -ms-flex-preferred-size:510px
-    }*/
-  }
+    }*!
+  }*/
 
-  .pc_info {
-    /*display:-webkit-flex;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-align-items:flex-end;
-    -ms-flex-align:end;
-    align-items:flex-end;
-    -webkit-justify-content:space-between;
-    -ms-flex-pack:justify;
-    justify-content:space-between;*/
-    padding-bottom:130px;
-    min-width:1024px;
-    max-width:1670px;
-    margin:0 auto
+
+  .pc_wheel_stand {
+    position:absolute;
+    bottom:-90px;
+    left:calc(50% - 110px / 2);
+    width:110px;
+    height:100px;
+    box-shadow:inset 0 85px 33px -60px rgba(0,0,0,0.83);
+    background-color:#be8a0e
+  }
+  .pc_wheel_stand:before {
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:-97px;
+    width:304px;
+    height:45px;
+    border-radius:18px;
+    background-color:#ffb810
+  }
+  .pc_wheel_stand:after {
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:-106px;
+    width:322px;
+    height:17px;
+    border-radius:7px;
+    box-shadow:inset 0 -3px 7px 0 rgba(0,0,0,0.66);
+    background-color:#996d06
+  }
+  .pc_wheel_stand_shadow {
+    opacity:0.08;
+    bottom:-190px;
+    -webkit-transform:scaleY(-1);
+    transform:scaleY(-1)
   }
 </style>
 
 <div class="ag-format-container">
-  <div class="pc_info">
-  <div class="pc_wheel">
-    <div class="wrapper_wheel_loading">
+    <div class="pc_wheel">
+<!--    <div class="wrapper_wheel_loading">
       <div class="pc_wheel_loading"></div>
-    </div>
+    </div>-->
     <div class="pc_wheel_center"><p data-text="?" class="pc_wheel_center_num">?</p></div>
     <div class="pc_info_wheel">
       <p class="pc_wheel_num pc_wheel_pink"></p>
@@ -808,12 +828,6 @@
     <div class="pc_wheel_stand"></div>
     <div class="pc_wheel_stand pc_wheel_stand_shadow"></div>
   </div>
-  </div>
-
-
-
-
-
 
   </div>
 
