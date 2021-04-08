@@ -20,27 +20,44 @@
 
 <body>
 <style>
+  html, body {
+    height: 100%;
+
+    overflow: hidden;
+  }
+
+  .ag-jungle-block {
+    height: 100%;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/bg.jpg) no-repeat left top/100% 100%;
+
+    position: relative;
+  }
   .js__totem {
-    position:absolute;
-    top:5.9375em;
-    right:100%;
-    width:18em;
-    height:41.3125em;
-    margin-right:-8.125em;
-    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/totem.png) left top/100% 100% no-repeat
+    height: 578px;
+    width: 252px;
+    margin: 250px 0 0 -575px;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/totem.png) no-repeat left top/100% 100%;
+
+    position: absolute;
+    top: 0;
+    left: 50%;
   }
   .js__bird {
-    position:absolute;
-    top:6%;
-    left:12%;
-    width:54.865%;
-    height:32.68%;
-    overflow:hidden;
-    background:url("/default/img/games/junglesecrets/bg-parts/bird-totem.png") left top/1100% 200% no-repeat;
-    -webkit-animation:bird-tile 20s steps(10) infinite,bird-head 40s steps(2) infinite;
-    animation:bird-tile 20s steps(10) infinite,bird-head 40s steps(2) infinite;
-    pointer-events:none;
-    will-change:background-position
+    height: 32.68%;
+    width: 54.865%;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/bird-totem.png) no-repeat left top/1100% 200%;
+
+    overflow: hidden;
+
+    pointer-events: none;
+
+    position: absolute;
+    top: 6%;
+    left: 12%;
+
+    -webkit-animation: bird-tile 20s steps(10) infinite, bird-head 40s steps(2) infinite;
+    animation: bird-tile 20s steps(10) infinite, bird-head 40s steps(2) infinite;
+    will-change: background-position;
   }
   @-webkit-keyframes bird-tile {
     0%,
@@ -84,57 +101,149 @@
       background-position-y:200%
     }
   }
-  .js__indicator {
+
+  .js-bird-flying {
     position:absolute;
-    top:0;
-    left:100%;
-    margin-top:1.25em;
-    margin-left:4.375em
-  }
-  .js__animal {
-    position:absolute;
-    top:50%;
-    left:50%;
-    width:7.5em;
-    height:7.5em;
+    top:10%;
+    right:-300%;
+    width:9.75em;
+    height:6.25em;
     overflow:hidden;
-    -webkit-transform:translateZ(0);
-    transform:translateZ(0)
+    -webkit-transform:translate(100%);
+    transform:translate(100%);
+    -webkit-animation:right 100s linear infinite, transNone 100s linear infinite;
+    animation:right 100s linear infinite, transNone 100s linear infinite;
+    will-change:transform, right
   }
-  .js__animal::before,
-  .js__animal::after {
+  .js-bird-flying::before {
     content:'';
     position:absolute;
     top:0;
     left:0;
-    width:400%;
+    width:700%;
     height:100%;
-    background:url("/default/img/games/junglesecrets/animals-heads.png") top/100% 800% no-repeat;
-    transition:opacity 0.5s linear
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/bird-flying.png) left top/100% 100% no-repeat;
+    -webkit-animation:transRight 1s steps(7, end) infinite;
+    animation:transRight 1s steps(7, end) infinite;
+    will-change:transform
   }
-  .js__animal[data-animal='gorilla']::before,
-  .js__animal[data-animal='gorilla']::after {
-    left:-100%
+  @-webkit-keyframes transRight {
+    100% {
+      -webkit-transform:translateX(-100%);
+      transform:translateX(-100%)
+    }
   }
-  .js__animal[data-animal='tiger']::before,
-  .js__animal[data-animal='tiger']::after {
-    left:-200%
+  @keyframes transRight {
+    100% {
+      -webkit-transform:translateX(-100%);
+      transform:translateX(-100%)
+    }
   }
-  .js__animal[data-animal='crocodile']::before,
-  .js__animal[data-animal='crocodile']::after {
-    left:-300%
+  @-webkit-keyframes transNone {
+    100% {
+      -webkit-transform:none;
+      transform:none
+    }
   }
-  .js__animal[data-animal='none']::before,
-  .js__animal[data-animal='none']::after {
-    left:-400%
+  @keyframes transNone {
+    100% {
+      -webkit-transform:none;
+      transform:none
+    }
   }
-  .js__animal::after {
-    opacity:0
+  @-webkit-keyframes right {
+    100% {
+      right:100%
+    }
+  }
+  @keyframes right {
+    100% {
+      right:100%
+    }
+  }
+  @-webkit-keyframes left {
+    100% {
+      left:100%
+    }
+  }
+  @keyframes left {
+    100% {
+      left:100%
+    }
+  }
+
+
+  .js__branch {
+    position:absolute;
+    top:-4.375em;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    -webkit-transform:skew(-8deg, 5deg);
+    transform:skew(-8deg, 5deg);
+    -webkit-transform-origin:50% 0;
+    transform-origin:50% 0;
+    -webkit-animation:transHalfNone 6s ease-in-out infinite;
+    animation:transHalfNone 6s ease-in-out infinite;
+    will-change:transform
+  }
+  .js__branch--left {
+    top:-4.375em;
+    right:100%;
+    width:15.4375em;
+    height:15.125em;
+    margin-right:-6.25em;
+    -webkit-animation-delay:0.5s;
+    animation-delay:0.5s
+  }
+  .js__branch--left1 {
+    background-image:url("/default/img/games/junglesecrets/bg-parts/branch-left1.png");
+    -webkit-animation-delay:1s;
+    animation-delay:1s
+  }
+  .js__branch--left2 {
+    background-image:url("/default/img/games/junglesecrets/bg-parts/branch-left2.png");
+    -webkit-transform:skew(-5deg, 3deg);
+    /*! transform:skew(-5deg, 3deg) */
+  }
+  .js__branch--right {
+    top:-18%;
+    left:100%;
+    width:21.25em;
+    height:18.9375em;
+    margin-left:-6.25em
+  }
+  .js__branch--right1 {
+    background-image:url("/default/img/games/junglesecrets/bg-parts/branch-right1.png");
+    -webkit-transform:skew(-5deg, 3deg);
+    transform:skew(-5deg, 3deg);
+    -webkit-animation-delay:1s;
+    animation-delay:1s
+  }
+  .js__branch--right2 {
+    background-image:url("/default/img/games/junglesecrets/bg-parts/branch-right2.png")
+  }
+  .js__totem {
+    position:absolute;
+    top:5.9375em;
+    right:100%;
+    width:18em;
+    height:41.3125em;
+    margin-right:-8.125em;
+    background:url("/default/img/games/junglesecrets/bg-parts/totem.png") left top/100% 100% no-repeat
   }
 </style>
 
 <div class="ag-jungle-block">
+  <canvas id="canvas" width="1920" height="941"></canvas>
+
+  <div class="js__branch js__branch--left js__branch--left1"></div>
+  <div class="js__branch js__branch--left js__branch--left2"></div>
+  <div class="js__branch js__branch--right js__branch--right1"></div>
+  <div class="js__branch js__branch--right js__branch--right2"></div>
+
   <div class="ag-format-container">
+    <div class="js-bird-flying"></div>
+
     <div class="js__totem">
       <div class="js__bird"></div>
     </div>
