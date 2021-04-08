@@ -809,6 +809,139 @@ body {
 }
 /* /fire-refresh */
 
+/* bottle */
+.ag-bottle {
+  display: inline-block;
+  height: 7em;
+  width: 11em;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/bottle.png);
+  background-repeat: repeat-y;
+  background-size: 100% auto;
+  background-position-x: 0;
+}
+
+.ag-bottle_first-to-start {
+  height: 140px;
+  width: 204px;
+
+  -webkit-animation: an-skewer-bottle-first-to-start 1s steps(14) infinite;
+  animation: an-skewer-bottle-first-to-start 1s steps(14) infinite;
+}
+
+.ag-bottle_first {
+  -webkit-animation: an-skewer-bottle-first 0.8s steps(28, start) forwards;
+  animation: an-skewer-bottle-first 0.8s steps(28, start) forwards;
+}
+.ag-bottle_second {
+  -webkit-animation: an-skewer-bottle-second 0.8s steps(26, start) forwards;
+  animation: an-skewer-bottle-second 0.8s steps(26, start) forwards;
+}
+.ag-bottle_third {
+  -webkit-animation: an-skewer-bottle-third 0.8s steps(25, start) forwards;
+  animation: an-skewer-bottle-third 0.8s steps(25, start) forwards;
+}
+.ag-bottle_second-to-start {
+  -webkit-animation: an-skewer-bottle-second-to-start 0.5s steps(19, start) forwards;
+  animation: an-skewer-bottle-second-to-start 0.5s steps(19, start) forwards;
+}
+.ag-bottle_third-to-start {
+  -webkit-animation: an-skewer-bottle-third-to-start 0.5s steps(20, start) forwards;
+  animation: an-skewer-bottle-third-to-start 0.5s steps(20, start) forwards;
+}
+.ag-bottle_fast-speed {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+}
+.ag-bottle_middle-speed {
+  -webkit-animation-duration: 0.6s;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes an-skewer-bottle-first-to-start {
+  from {
+    background-position-y: 0;
+  }
+  to {
+    background-position-y: 100%;
+  }
+}
+@keyframes an-skewer-bottle-first-to-start {
+  from {
+    background-position-y: 0;
+  }
+  to {
+    background-position-y: 100%;
+  }
+}
+
+@-webkit-keyframes an-skewer-bottle-first {
+  to {
+    background-position-y: 198.5%;
+  }
+}
+@keyframes an-skewer-bottle-first {
+  to {
+    background-position-y: 198.5%;
+  }
+}
+
+@-webkit-keyframes an-skewer-bottle-second {
+  to {
+    background-position-y: 185%;
+  }
+}
+@keyframes an-skewer-bottle-second {
+  to {
+    background-position-y: 185%;
+  }
+}
+
+@-webkit-keyframes an-skewer-bottle-second-to-start {
+  from {
+    background-position-y: 185%;
+  }
+  to {
+    background-position-y: 319.5%;
+  }
+}
+@keyframes an-skewer-bottle-second-to-start {
+  from {
+    background-position-y: 185%;
+  }
+  to {
+    background-position-y: 319.5%;
+  }
+}
+
+@-webkit-keyframes an-skewer-bottle-third {
+  to {
+    background-position-y: 178%;
+  }
+}
+@keyframes an-skewer-bottle-third {
+  to {
+    background-position-y: 178%;
+  }
+}
+
+@-webkit-keyframes an-skewer-bottle-third-to-start {
+  from {
+    background-position-y: 178%;
+  }
+  to {
+    background-position-y: 319.5%;
+  }
+}
+@keyframes an-skewer-bottle-third-to-start {
+  from {
+    background-position-y: 178%;
+  }
+  to {
+    background-position-y: 319.5%;
+  }
+}
+/* /bottle */
+
 /* fire v2 */
 .ag-fire-v2 {
   display: inline-block;
