@@ -19,626 +19,214 @@
 </head>
 
 <body>
-<style>
-  body {
-    background-color: #141a1f;
-  }
-  .cases-main {
-    padding: 50px 0;
-    background-color: #141a1f;
-
-    border-radius: .3125em;
-  }
-  .cases-main__list {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-
-    padding: 0;
-    margin: 0;
-
-    list-style: none;
-  }
-  .cases-main__list:hover .cases-card__picture::before {
-    -webkit-animation: none;
-    animation: none;
-  }
-  .cases-main__item {
-    margin: .5em;
-  }
-  .cases-card {
-    height: 24em;
-    width: calc(25% - 1em);
-
-    overflow: hidden;
-
-    border-radius: .1875em;
-
-    -webkit-transform: perspective(50em);
-    transform: perspective(50em);
-
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-  }
-  .cases-card__link {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-
-    -webkit-justify-content: flex-end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-
-    height: 100%;
-    border: 1px solid transparent;
-    background-color: #262b31;
-
-    cursor: pointer;
-
-    text-decoration: none;
-
-    box-sizing: border-box;
-
-    transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-
-    position: relative;
-  }
-  .cases-card__link::before,
-  .cases-card__link::after {
-    content: "";
-    height: 1.5em;
-    width: 1.5em;
-    border: 1px solid transparent;
-    background-color: #141a1f;
-
-    z-index: 1;
-    position: absolute;
-    left: -.875em;
-    bottom: 1.875em;
-
-    border-radius: 50%;
-  }
-  .cases-card__link::after {
-    left: auto;
-    right: -.875em;
-  }
-  .cases-card__link:hover {
-    border-radius: .1875em;
-  }
-  .cases-card__link:hover::before,
-  .cases-card__link:hover::after {
-    border-radius: 50%;
-
-    clip: rect(0, 1.6875em, 1.6875em, 0);
-  }
-  .cases-card__picture {
-    margin-bottom: .875em;
-
-    -webkit-transition: -webkit-transform 0.3s ease-in-out;
-    -moz-transition: -moz-transform 0.3s ease-in-out;
-    -o-transition: -o-transform 0.3s ease-in-out;
-    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out, -moz-transform 0.3s ease-in-out, -o-transform 0.3s ease-in-out;
-    
-    image-rendering: -webkit-optimize-contrast;
-
-    position: relative;
-  }
-  .cases-card__picture::before {
-    content: "";
-    height: 9.8125em;
-    width: 9.8125em;
-
-    position: absolute;
-    right: 50%;
-    bottom: .3125em;
-
-    border-radius: 50%;
-
-    box-shadow: 0 .5em 1.8125em 0, 0 0 6.25em .4375em;
-
-    -webkit-transform: translateX(50%);
-    transform: translateX(50%);
-
-    -webkit-animation: shadow-blink 16s ease-in-out infinite;
-    animation: shadow-blink 16s ease-in-out infinite;
-  }
-  .cases-card__img {
-    position: relative;
-  }
-  .cases-card__title {
-    margin: 0 0 .2em;
-
-    text-transform: uppercase;
-    font-size: 1.25em;
-    font-weight: 700;
-    color: #fff;
-
-    z-index: 1;
-  }
-  .cases-card__text {
-    color: #fff;
-  }
-  .cases-card__text--btn {
-    text-transform: uppercase;
-  }
-  .cases-card__text--prize {
-    margin: 0 0 1.91667em;
-
-    font-size: .75em;
-  }
-  .cases-card__bottom {
-    width: 100%;
-    padding: .6875em;
-
-    text-align: center;
-
-    box-sizing: border-box;
-
-    border-radius: 0 0 .1875em .1875em;
-
-    position: relative;
-  }
-  .cases-card__bottom::before {
-    content: "";
-    height: 2px;
-    width: 100%;
-    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent 100%);
-    background-size: 1em 2px;
-
-    position: absolute;
-    top: -2px;
-    left: 0;
-  }
-  .cases-card__info {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-
-    width: 100%;
-    padding: .625em .5em 0;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    box-sizing: border-box;
-  }
-  .cases-card__info .cases-card__text {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-
-    margin: 0;
-
-    font-size: .75em;
-  }
-  .cases-card__info .cases-card__text--field {
-    font-size: inherit;
-    color: #999;
-  }
-  .cases-card__info .cases-card__text--right {
-    text-align: right;
-  }
-  .cases-card--newbie .cases-card__link:hover,
-  .cases-card--newbie .cases-card__link:hover::before,
-  .cases-card--newbie .cases-card__link:hover::after {
-    border-color: #999;
-  }
-  .cases-card--newbie .cases-card__bottom {
-    background-color: #999;
-  }
-  .cases-card--newbie .cases-card__picture::before {
-    background-image: linear-gradient(-30deg, #999, #fcfcfc);
-
-    color: rgba(153, 153, 153, 0.58);
-
-    -webkit-animation-delay: 0s;
-    animation-delay: 0s;
-  }
-  .cases-card--salaga .cases-card__link:hover,
-  .cases-card--salaga .cases-card__link:hover::before,
-  .cases-card--salaga .cases-card__link:hover::after {
-    border-color: #a26afb;
-  }
-  .cases-card--salaga .cases-card__bottom {
-    background-color: #a26afb;
-  }
-  .cases-card--salaga .cases-card__picture::before {
-    background-image: linear-gradient(-30deg, #a26afb, #f360f6);
-
-    color: rgba(162, 106, 251, 0.58);
-
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
-  }
-  .cases-card--lucky .cases-card__link:hover,
-  .cases-card--lucky .cases-card__link:hover::before,
-  .cases-card--lucky .cases-card__link:hover::after {
-    border-color: #fc7dae;
-  }
-  .cases-card--lucky .cases-card__bottom {
-    background-color: #fc7dae;
-  }
-  .cases-card--lucky .cases-card__picture::before {
-    background-image: linear-gradient(-30deg, #fc7dae, #ff9d4d);
-
-    color: rgba(252, 125, 174, 0.58);
-
-    -webkit-animation-delay: 4s;
-    animation-delay: 4s;
-  }
-  .cases-card--amateur .cases-card__link:hover,
-  .cases-card--amateur .cases-card__link:hover::before,
-  .cases-card--amateur .cases-card__link:hover::after {
-    border-color: #ef7939;
-  }
-  .cases-card--amateur .cases-card__bottom {
-    background-color: #ef7939;
-  }
-  .cases-card--amateur .cases-card__picture::before {
-    background-image: linear-gradient(-30deg, #ef7939, #f5d03d);
-
-    color: rgba(239, 121, 57, 0.58);
-
-    -webkit-animation-delay: 6s;
-    animation-delay: 6s;
-  }
-  .cases-card--experienced .cases-card__link:hover,
-  .cases-card--experienced .cases-card__link:hover::before,
-  .cases-card--experienced .cases-card__link:hover::after {
-    border-color: #fc7d7d;
-  }
-  .cases-card--experienced .cases-card__bottom {
-    background-color: #fc7d7d;
-  }
-  .cases-card--experienced .cases-card__picture::before {
-    background-image: linear-gradient(-30deg, #fc7d7d, #e5060d);
-
-    color: rgba(252, 125, 125, 0.58);
-
-    -webkit-animation-delay: 8s;
-    animation-delay: 8s;
-  }
-  .cases-card--specialist .cases-card__link:hover,
-  .cases-card--specialist .cases-card__link:hover::before,
-  .cases-card--specialist .cases-card__link:hover::after {
-    border-color: #0e93ec;
-  }
-  .cases-card--specialist .cases-card__bottom {
-    background-color: #0e93ec;
-  }
-  .cases-card--specialist .cases-card__picture::before {
-    background-image: linear-gradient(-30deg, #0e93ec, #02f7e7);
-
-    color: rgba(14, 147, 236, 0.58);
-
-    -webkit-animation-delay: 10s;
-    animation-delay: 10s;
-  }
-  .cases-card--professional .cases-card__link:hover,
-  .cases-card--professional .cases-card__link:hover::before,
-  .cases-card--professional .cases-card__link:hover::after {
-    border-color: #15b769;
-  }
-  .cases-card--professional .cases-card__bottom {
-    background-color: #15b769;
-  }
-  .cases-card--professional .cases-card__picture::before {
-    background-image: linear-gradient(-30deg, #15b769, #b4ee6d);
-
-    color: rgba(21, 183, 105, 0.58);
-
-    -webkit-animation-delay: 12s;
-    animation-delay: 12s;
-  }
-  .cases-card--thieves .cases-card__link:hover,
-  .cases-card--thieves .cases-card__link:hover::before,
-  .cases-card--thieves .cases-card__link:hover::after {
-    border-color: #fbba41;
-  }
-  .cases-card--thieves .cases-card__bottom {
-    background-color: #fbba41;
-  }
-  .cases-card--thieves .cases-card__picture::before {
-    background-image: linear-gradient(-30deg, #fbba41, #fcfc64);
-
-    color: rgba(251, 186, 65, 0.58);
-    
-    -webkit-animation-delay: 14s;
-    animation-delay: 14s;
-  }
-
-  @-webkit-keyframes shadow-blink {
-    6% {
-      box-shadow: 0 .5em 2.5em 1.25em, 0 0 7.5em 1.5625em;
-    }
-    12.5% {
-      box-shadow: 0 .5em 1.8125em 0, 0 0 6.25em .4375em;
-    }
-  }
-  @keyframes shadow-blink {
-    6% {
-      box-shadow: 0 .5em 2.5em 1.25em, 0 0 7.5em 1.5625em;
-    }
-    12.5% {
-      box-shadow: 0 .5em 1.8125em 0, 0 0 6.25em .4375em;
-    }
-  }
-
-  @-webkit-keyframes move-light {
-    to {
-      -webkit-transform: translateX(25em) skewX(-45deg);
-      transform: translateX(25em) skewX(-45deg);
-    }
-  }
-  @keyframes move-light {
-    to {
-      -webkit-transform: translateX(25em) skewX(-45deg);
-      transform: translateX(25em) skewX(-45deg);
-    }
-  }
-
-  @media only screen and (max-width: 979px) {
-    .cases-card {
-      width: calc(50% - 1em);
-    }
-  }
-
-  @media only screen and (max-width: 767px) {
-    .ag-format-container {
-      width: 96%;
-    }
-
-  }
-
-  @media only screen and (max-width: 639px) {
-    .cases-card {
-      width: 100%;
-    }
-  }
-
-  @media only screen and (max-width: 479px) {
-
-  }
-
-  @media (min-width: 768px) and (max-width: 979px) {
-    .ag-format-container {
-      width: 750px;
-    }
-
-  }
-
-  @media (min-width: 980px) and (max-width: 1161px) {
-    .ag-format-container {
-      width: 960px;
-    }
-    .cases-card {
-      width: calc(33% - 1em);
-    }
-  }
-</style>
-
-<div class="cases-main">
+<div class="ag-cards-block">
   <div class="ag-format-container">
-    <ul class="cases-main__list">
-      <li class="cases-main__item cases-card cases-card--newbie">
-        <div class="cases-card__link">
-          <picture class="cases-card__picture">
+    <ul class="ag-cards_list">
+      <li class="ag-cards_item ag-cards_item__newbie">
+        <div class="ag-cards_info">
+          <picture class="ag-cards_picture">
             <source srcset="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/newbie@1x.webp 1x" type="image/webp">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/newbie@1x.png" alt="Новичок" class="cases-card__img">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/newbie@1x.png" alt="Beginner" class="ag-cards_img">
           </picture>
-          <div class="cases-card__info">
-            <p class="cases-card__text">
+          <div class="ag-cards_descr">
+            <p class="ag-cards_text">
             2913137
-            <span class="cases-card__text cases-card__text--field">Open</span>
+            <span class="ag-cards_text ag-cards_text__field">Open</span>
             </p>
-            <p class="cases-card__text cases-card__text--right">
-              29800217.2 RUB <span class="cases-card__text cases-card__text--field">Withdrawal</span>
+            <p class="ag-cards_text ag-cards_text__right">
+              $2980 <span class="ag-cards_text ag-cards_text__field">Withdrawal</span>
             </p>
           </div>
-          <p class="cases-card__title">
-            Новичок
+          <p class="ag-cards_title">
+            Beginner
           </p>
-          <p class="cases-card__text cases-card__text--prize">
-            Внутри от 1 RUB до 40 RUB
+          <p class="ag-cards_text ag-cards_text__prize">
+            Interval
           </p>
-          <div class="cases-card__bottom">
-            <span class="cases-card__text cases-card__text--btn">Deposit</span>
+          <div class="ag-cards_btn">
+            <span class="ag-cards_text ag-cards_text__btn">Deposit</span>
           </div>
         </div>
       </li>
-      <li class="cases-main__item cases-card cases-card--salaga">
-        <div class="cases-card__link">
-          <picture class="cases-card__picture">
+
+      <li class="ag-cards_item ag-cards_item__salaga">
+        <div class="ag-cards_info">
+          <picture class="ag-cards_picture">
             <source srcset="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/salaga@1x.webp 1x" type="image/webp">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/salaga@1x.png" alt="Везунчик" class="cases-card__img">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/salaga@1x.png" alt="Lucky" class="ag-cards_img">
           </picture>
-          <div class="cases-card__info">
-            <p class="cases-card__text">
-            1878898 <span class="cases-card__text cases-card__text--field">Open</span>
+          <div class="ag-cards_descr">
+            <p class="ag-cards_text">
+            1878898 <span class="ag-cards_text ag-cards_text__field">Open</span>
             </p>
-            <p class="cases-card__text cases-card__text--right">
-              37895236.95 RUB <span class="cases-card__text cases-card__text--field">Withdrawal</span>
+            <p class="ag-cards_text ag-cards_text__right">
+              $3789 <span class="ag-cards_text ag-cards_text__field">Withdrawal</span>
             </p>
           </div>
-          <p class="cases-card__title">
-            Везунчик
+          <p class="ag-cards_title">
+            Lucky
           </p>
-          <p class="cases-card__text cases-card__text--prize">
-            Внутри от 2 RUB до 80 RUB
+          <p class="ag-cards_text ag-cards_text__prize">
+            Interval
           </p>
-          <div class="cases-card__bottom">
-            <span class="cases-card__text cases-card__text--btn">Deposit</span>
+          <div class="ag-cards_btn">
+            <span class="ag-cards_text ag-cards_text__btn">Deposit</span>
           </div>
         </div>
       </li>
-      <li class="cases-main__item cases-card cases-card--lucky">
-        <div class="cases-card__link">
-          <picture class="cases-card__picture">
+
+      <li class="ag-cards_item ag-cards_item__lucky">
+        <div class="ag-cards_info">
+          <picture class="ag-cards_picture">
             <source srcset="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/lucky@1x.webp 1x" type="image/webp">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/lucky@1x.png" alt="Топовый" class="cases-card__img">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/lucky@1x.png" alt="Masthead" class="ag-cards_img">
           </picture>
-          <div class="cases-card__info">
-            <p class="cases-card__text">
-            1401964 <span class="cases-card__text cases-card__text--field">Open</span>
+          <div class="ag-cards_descr">
+            <p class="ag-cards_text">
+            1401964 <span class="ag-cards_text ag-cards_text__field">Open</span>
             </p>
-            <p class="cases-card__text cases-card__text--right">
-              65592716.87 RUB <span class="cases-card__text cases-card__text--field">Withdrawal</span>
+            <p class="ag-cards_text ag-cards_text__right">
+              $6559 <span class="ag-cards_text ag-cards_text__field">Withdrawal</span>
             </p>
           </div>
-          <p class="cases-card__title">
-            Топовый
+          <p class="ag-cards_title">
+            Masthead
           </p>
-          <p class="cases-card__text cases-card__text--prize">
-            Внутри от 5 RUB до 250 RUB
+          <p class="ag-cards_text ag-cards_text__prize">
+            Interval
           </p>
-          <div class="cases-card__bottom">
-            <span class="cases-card__text cases-card__text--btn">Deposit</span>
+          <div class="ag-cards_btn">
+            <span class="ag-cards_text ag-cards_text__btn">Deposit</span>
           </div>
         </div>
       </li>
-      <li class="cases-main__item cases-card cases-card--amateur">
-        <div class="cases-card__link">
-          <picture class="cases-card__picture">
+
+      <li class="ag-cards_item ag-cards_item__amateur">
+        <div class="ag-cards_info">
+          <picture class="ag-cards_picture">
             <source srcset="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/amateur@1x.webp 1x" type="image/webp">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/amateur@1x.png" alt="Фартовый" class="cases-card__img">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/amateur@1x.png" alt="Fortunate" class="ag-cards_img">
           </picture>
-          <div class="cases-card__info">
-            <p class="cases-card__text">
-            200073 <span class="cases-card__text cases-card__text--field">Open</span>
+          <div class="ag-cards_descr">
+            <p class="ag-cards_text">
+            200073 <span class="ag-cards_text ag-cards_text__field">Open</span>
             </p>
-            <p class="cases-card__text cases-card__text--right">
-              83325462.35 RUB <span class="cases-card__text cases-card__text--field">Withdrawal</span>
+            <p class="ag-cards_text ag-cards_text__right">
+              $8332 <span class="ag-cards_text ag-cards_text__field">Withdrawal</span>
             </p>
           </div>
-          <p class="cases-card__title">
-            Фартовый
+          <p class="ag-cards_title">
+            Fortunate
           </p>
-          <p class="cases-card__text cases-card__text--prize">
-            Внутри от 50 RUB до 2000 RUB
+          <p class="ag-cards_text ag-cards_text__prize">
+            Interval
           </p>
-          <div class="cases-card__bottom">
-            <span class="cases-card__text cases-card__text--btn">Deposit</span>
+          <div class="ag-cards_btn">
+            <span class="ag-cards_text ag-cards_text__btn">Deposit</span>
           </div>
         </div>
       </li>
-      <li class="cases-main__item cases-card cases-card--experienced">
-        <div class="cases-card__link">
-          <picture class="cases-card__picture">
+
+      <li class="ag-cards_item ag-cards_item__experienced">
+        <div class="ag-cards_info">
+          <picture class="ag-cards_picture">
             <source srcset="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/experienced@1x.webp 1x" type="image/webp">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/experienced@1x.png" alt="Лакшери" class="cases-card__img">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/experienced@1x.png" alt="Luxury" class="ag-cards_img">
           </picture>
-          <div class="cases-card__info">
-            <p class="cases-card__text">
-            52961 <span class="cases-card__text cases-card__text--field">Open</span>
+          <div class="ag-cards_descr">
+            <p class="ag-cards_text">
+            52961 <span class="ag-cards_text ag-cards_text__field">Open</span>
           </p>
-            <p class="cases-card__text cases-card__text--right">
-              53700806.31 RUB <span class="cases-card__text cases-card__text--field">Withdrawal</span>
+            <p class="ag-cards_text ag-cards_text__right">
+              $5370 <span class="ag-cards_text ag-cards_text__field">Withdrawal</span>
             </p>
           </div>
-          <p class="cases-card__title">
-            Лакшери
+          <p class="ag-cards_title">
+            Luxury
           </p>
-          <p class="cases-card__text cases-card__text--prize">
-            Внутри от 150 RUB до 7500 RUB
+          <p class="ag-cards_text ag-cards_text__prize">
+            Interval
           </p>
-          <div class="cases-card__bottom">
-            <span class="cases-card__text cases-card__text--btn">Deposit</span>
+          <div class="ag-cards_btn">
+            <span class="ag-cards_text ag-cards_text__btn">Deposit</span>
           </div>
         </div>
       </li>
-      <li class="cases-main__item cases-card cases-card--specialist">
-        <div class="cases-card__link">
-          <picture class="cases-card__picture">
+
+      <li class="ag-cards_item ag-cards_item__specialist">
+        <div class="ag-cards_info">
+          <picture class="ag-cards_picture">
             <source srcset="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/specialist@1x.webp 1x" type="image/webp">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/specialist@1x.png" alt="Олигарх" class="cases-card__img">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/specialist@1x.png" alt="Oligarch" class="ag-cards_img">
           </picture>
-          <div class="cases-card__info">
-            <p class="cases-card__text">
-              9429 <span class="cases-card__text cases-card__text--field">Open</span>
+          <div class="ag-cards_descr">
+            <p class="ag-cards_text">
+              9429 <span class="ag-cards_text ag-cards_text__field">Open</span>
             </p>
-            <p class="cases-card__text cases-card__text--right">
-              47316359.85 RUB <span class="cases-card__text cases-card__text--field">Withdrawal</span>
+            <p class="ag-cards_text ag-cards_text__right">
+              $4731 <span class="ag-cards_text ag-cards_text__field">Withdrawal</span>
             </p>
           </div>
-          <p class="cases-card__title">
-            Олигарх
+          <p class="ag-cards_title">
+            Oligarch
           </p>
-          <p class="cases-card__text cases-card__text--prize">
-            Внутри от 1000 RUB до 40000 RUB
+          <p class="ag-cards_text ag-cards_text__prize">
+            Interval
           </p>
-          <div class="cases-card__bottom">
-            <span class="cases-card__text cases-card__text--btn">Deposit</span>
+          <div class="ag-cards_btn">
+            <span class="ag-cards_text ag-cards_text__btn">Deposit</span>
           </div>
         </div>
       </li>
-      <li class="cases-main__item cases-card cases-card--professional">
-        <div class="cases-card__link">
-          <picture class="cases-card__picture">
+
+      <li class="ag-cards_item ag-cards_item__professional">
+        <div class="ag-cards_info">
+          <picture class="ag-cards_picture">
             <source srcset="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/professional@1x.webp 1x" type="image/webp">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/professional@1x.png" alt="Миллионер" class="cases-card__img">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/professional@1x.png" alt="Millionaire" class="ag-cards_img">
           </picture>
-          <div class="cases-card__info">
-            <p class="cases-card__text">
-            12961 <span class="cases-card__text cases-card__text--field">Open</span>
+          <div class="ag-cards_descr">
+            <p class="ag-cards_text">
+            12961 <span class="ag-cards_text ag-cards_text__field">Open</span>
             </p>
-            <p class="cases-card__text cases-card__text--right">
-              132482846.89 RUB <span class="cases-card__text cases-card__text--field">Withdrawal</span>
+            <p class="ag-cards_text ag-cards_text__right">
+              $1324 <span class="ag-cards_text ag-cards_text__field">Withdrawal</span>
             </p>
           </div>
-          <p class="cases-card__title">
-            Миллионер
+          <p class="ag-cards_title">
+            Millionaire
           </p>
-          <p class="cases-card__text cases-card__text--prize">
-            Внутри от 2000 RUB до 80000 RUB
+          <p class="ag-cards_text ag-cards_text__prize">
+            Interval
           </p>
-          <div class="cases-card__bottom">
-            <span class="cases-card__text cases-card__text--btn">Deposit</span>
+          <div class="ag-cards_btn">
+            <span class="ag-cards_text ag-cards_text__btn">Deposit</span>
           </div>
         </div>
       </li>
-      <li class="cases-main__item cases-card cases-card--thieves">
-        <div class="cases-card__link">
-          <picture class="cases-card__picture">
+
+      <li class="ag-cards_item ag-cards_item__thieves">
+        <div class="ag-cards_info">
+          <picture class="ag-cards_picture">
             <source srcset="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/thieves@1x.webp 1x" type="image/webp">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/thieves@1x.png" alt="Хозяин жизни" class="cases-card__img">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/pecture-items/images/thieves@1x.png" alt="Boss" class="ag-cards_img">
           </picture>
-          <div class="cases-card__info">
-            <p class="cases-card__text">
-            13299 <span class="cases-card__text cases-card__text--field">Open</span>
+          <div class="ag-cards_descr">
+            <p class="ag-cards_text">
+            13299 <span class="ag-cards_text ag-cards_text__field">Open</span>
             </p>
-            <p class="cases-card__text cases-card__text--right">
-              172798779.14 RUB <span class="cases-card__text cases-card__text--field">Withdrawal</span>
+            <p class="ag-cards_text ag-cards_text__right">
+              $1727 <span class="ag-cards_text ag-cards_text__field">Withdrawal</span>
             </p>
           </div>
-          <p class="cases-card__title">
-            Хозяин жизни
+          <p class="ag-cards_title">
+            Boss
           </p>
-          <p class="cases-card__text cases-card__text--prize">
-            Внутри от 3500 RUB до 175000 RUB
+          <p class="ag-cards_text ag-cards_text__prize">
+            Interval
           </p>
-          <div class="cases-card__bottom">
-            <span class="cases-card__text cases-card__text--btn">Deposit</span>
+          <div class="ag-cards_btn">
+            <span class="ag-cards_text ag-cards_text__btn">Deposit</span>
           </div>
         </div>
       </li>
