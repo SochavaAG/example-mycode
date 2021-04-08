@@ -4,6 +4,481 @@
 }
 
 
+html, body {
+  height: 100%;
+
+  overflow: hidden;
+}
+.ag-jungle-block {
+  height: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/bg.jpg) no-repeat 50% 100% #DBFBB8;
+  background-size: cover;
+
+  position: relative;
+}
+.ag-jungle_totem {
+  height: 578px;
+  width: 252px;
+  margin: 250px 0 0 -575px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/totem.png) no-repeat left top/100% 100%;
+
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+}
+.ag-jungle_totem::before {
+  content: "";
+  height: 35.5%;
+  width: 169%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/totem-grass.png) left top/100% 100% no-repeat;
+
+  position: absolute;
+  left: -40%;
+  bottom: -10%;
+}
+.ag-jungle_bird {
+  height: 32.68%;
+  width: 54.865%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/bird-totem.png) no-repeat left top/1100% 200%;
+
+  overflow: hidden;
+
+  pointer-events: none;
+
+  position: absolute;
+  top: 6%;
+  left: 12%;
+
+  -webkit-animation: an-bird-tile 20s steps(10) infinite, an-bird-head 40s steps(2) infinite;
+  -moz-animation: an-bird-tile 20s steps(10) infinite, an-bird-head 40s steps(2) infinite;
+  -o-animation: an-bird-tile 20s steps(10) infinite, an-bird-head 40s steps(2) infinite;
+  animation: an-bird-tile 20s steps(10) infinite, an-bird-head 40s steps(2) infinite;
+
+  will-change: background-position;
+}
+.js-bird-flying {
+  height: 6.25em;
+  width: 9.75em;
+
+  position: absolute;
+  top: 10%;
+  right: -120%;
+
+  overflow: hidden;
+
+  -webkit-animation: an-right 20s linear infinite;
+  -moz-animation: an-right 20s linear infinite;
+  -o-animation: an-right 20s linear infinite;
+  animation: an-right 20s linear infinite;
+
+  will-change: right;
+}
+.js-bird-flying::before {
+  content: "";
+  height: 100%;
+  width: 700%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/bird-flying.png) left top/100% 100% no-repeat;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-animation: an-trans-right .8s steps(7, end) infinite;
+  -moz-animation: an-trans-right .8s steps(7, end) infinite;
+  -o-animation: an-trans-right .8s steps(7, end) infinite;
+  animation: an-trans-right .8s steps(7, end) infinite;
+
+  will-change: transform;
+}
+.ag-jungle_branch {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  position: absolute;
+  top: -4.375em;
+
+  -webkit-transform: skew(-8deg, 5deg);
+  -moz-transform: skew(-8deg, 5deg);
+  -ms-transform: skew(-8deg, 5deg);
+  -o-transform: skew(-8deg, 5deg);
+  transform: skew(-8deg, 5deg);
+
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  -o-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+
+  -webkit-animation: an-trans-half-none 6s ease-in-out infinite;
+  -moz-animation: an-trans-half-none 6s ease-in-out infinite;
+  -o-animation: an-trans-half-none 6s ease-in-out infinite;
+  animation: an-trans-half-none 6s ease-in-out infinite;
+
+  will-change: transform;
+}
+.ag-jungle_branch--left {
+  height: 15.125em;
+  width: 15.4375em;
+
+  top: -45px;
+  left: 15%;
+
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+.ag-jungle_branch--left1 {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/branch-left1.png);
+
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.ag-jungle_branch--left2 {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/branch-left2.png);
+
+  -webkit-transform: skew(-5deg, 3deg);
+  -moz-transform: skew(-5deg, 3deg);
+  -ms-transform: skew(-5deg, 3deg);
+  -o-transform: skew(-5deg, 3deg);
+  transform: skew(-5deg, 3deg);
+}
+.ag-jungle_branch--right {
+  height: 18.9375em;
+  width: 21.25em;
+
+  top: -100px;
+  right: 15%;
+}
+.ag-jungle_branch--right1 {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/branch-right1.png);
+
+  -webkit-transform: skew(-5deg, 3deg);
+  -moz-transform: skew(-5deg, 3deg);
+  -ms-transform: skew(-5deg, 3deg);
+  -o-transform: skew(-5deg, 3deg);
+  transform: skew(-5deg, 3deg);
+
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.ag-jungle_branch--right2 {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/branch-right2.png);
+}
+
+.js-shaman {
+  height: 38.3125em;
+  width: 29.5625em;
+  margin-left: -15.625em;
+
+  pointer-events: none;
+
+  z-index: 1;
+  position: absolute;
+  left: 50%;
+  bottom: 1.125em;
+}
+.js-shaman::before {
+  content: "";
+  background-size: 100% 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.js-shaman::before {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/shaman-sback.png);
+
+  z-index: -1;
+}
+.js-shaman::after {
+  content: "";
+  height: 13%;
+  width: 17%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/light.png) left top/100% 100%;
+
+  opacity: 0;
+
+  position: absolute;
+  left: 46.5%;
+  bottom: 3%;
+
+  -webkit-animation: 10s an-opacity-half infinite;
+  -moz-animation: 10s an-opacity-half infinite;
+  -o-animation: 10s an-opacity-half infinite;
+  animation: 10s an-opacity-half infinite;
+}
+.js-shaman__main {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/shaman.png) left top/1200% 300% no-repeat;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  will-change: background-position;
+}
+.js-shaman__main::after {
+  content: "";
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/shaman-sfront.png);
+  background-size: 100% 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.js-shaman__grass {
+  height: 13%;
+  width: 48%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/shaman-leaves.png) left top/100% 100%;
+
+  z-index: 1;
+  position: absolute;
+  right: -2%;
+  bottom: -5%;
+}
+
+.ag-jungle_light {
+  height: 21.875em;
+  width: 26.5625em;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  opacity: 0;
+
+  position: absolute;
+  top: 12%;
+  left: 50%;
+
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  transform: translateX(100%);
+
+  will-change: opacity
+}
+.ag-jungle_light--1 {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/light1.png);
+
+  -webkit-animation: an-opacity-half 6s 2s linear infinite;
+  -moz-animation: an-opacity-half 6s 2s linear infinite;
+  -o-animation: an-opacity-half 6s 2s linear infinite;
+  animation: an-opacity-half 6s 2s linear infinite;
+}
+.ag-jungle_light--2 {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/light2.png);
+
+  -webkit-animation: an-opacity-half 6s 4s linear infinite;
+  -moz-animation: an-opacity-half 6s 4s linear infinite;
+  -o-animation: an-opacity-half 6s 4s linear infinite;
+  animation: an-opacity-half 6s 4s linear infinite;
+}
+.ag-jungle_light--3 {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/light3.png);
+
+  -webkit-animation: an-opacity-half 6s 6s linear infinite;
+  -moz-animation: an-opacity-half 6s 6s linear infinite;
+  -o-animation: an-opacity-half 6s 6s linear infinite;
+  animation: an-opacity-half 6s 6s linear infinite;
+}
+.ag-jungle_dust {
+  height: 21.4375em;
+  width: 27.625em;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/dust.png);
+  background-size: 300% 100%;
+
+  opacity: 0;
+
+  position: absolute;
+  top: 25%;
+  left: 50%;
+
+  -webkit-transform: translateX(90%);
+  -moz-transform: translateX(90%);
+  -ms-transform: translateX(90%);
+  -o-transform: translateX(90%);
+  transform: translateX(90%);
+
+  will-change: opacity;
+}
+.ag-jungle_dust.ag-jungle_light--2 {
+  background-position: 100% 0;
+}
+.ag-jungle_dust.ag-jungle_light--3 {
+  background-position: 200% 0;
+}
+
+@-webkit-keyframes an-bird-tile {
+  0%, 5% {
+    background-position-x: 0;
+  }
+  4.99%, 10%, 100% {
+    background-position-x: 100%;
+  }
+}
+@-moz-keyframes an-bird-tile {
+  0%, 5% {
+    background-position-x: 0;
+  }
+  4.99%, 10%, 100% {
+    background-position-x: 100%;
+  }
+}
+@-o-keyframes an-bird-tile {
+  0%, 5% {
+    background-position-x: 0;
+  }
+  4.99%, 10%, 100% {
+    background-position-x: 100%;
+  }
+}
+@keyframes an-bird-tile {
+  0%, 5% {
+    background-position-x: 0;
+  }
+  4.99%, 10%, 100% {
+    background-position-x: 100%;
+  }
+}
+
+@-webkit-keyframes an-bird-head {
+  0%, 5% {
+    background-position-y: 0;
+  }
+  4.99%, 100% {
+    background-position-y: 200%;
+  }
+}
+@-moz-keyframes an-bird-head {
+  0%, 5% {
+    background-position-y: 0;
+  }
+  4.99%, 100% {
+    background-position-y: 200%;
+  }
+}
+@-o-keyframes an-bird-head {
+  0%, 5% {
+    background-position-y: 0;
+  }
+  4.99%, 100% {
+    background-position-y: 200%;
+  }
+}
+@keyframes an-bird-head {
+  0%, 5% {
+    background-position-y: 0;
+  }
+  4.99%, 100% {
+    background-position-y: 200%;
+  }
+}
+
+@-webkit-keyframes an-right {
+  100% {
+    right: 100%;
+  }
+}
+@-moz-keyframes an-right {
+  100% {
+    right: 100%;
+  }
+}
+@-o-keyframes an-right {
+  100% {
+    right: 100%;
+  }
+}
+@keyframes an-right {
+  100% {
+    right: 100%;
+  }
+}
+
+@-webkit-keyframes an-trans-right {
+  100% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@-moz-keyframes an-trans-right {
+  100% {
+    -moz-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@-o-keyframes an-trans-right {
+  100% {
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+@keyframes an-trans-right {
+  100% {
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes an-trans-half-none {
+  50% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@-moz-keyframes an-trans-half-none {
+  50% {
+    -moz-transform: none;
+    transform: none;
+  }
+}
+@-o-keyframes an-trans-half-none {
+  50% {
+    -o-transform: none;
+    transform: none;
+  }
+}
+@keyframes an-trans-half-none {
+  50% {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes an-opacity-half {
+  50% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes an-opacity-half {
+  50% {
+    opacity: 1;
+  }
+}
+@-o-keyframes an-opacity-half {
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes an-opacity-half {
+  50% {
+    opacity: 1;
+  }
+}
 
 
 @media only screen and (max-width: 767px) {
