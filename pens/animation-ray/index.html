@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Animation ray</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .ag-ray-block {
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-ray/images/shaman-2.png) no-repeat 0 0;
+  }
+
+  .bottle__light {
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    -webkit-transform-origin:top right;
+    transform-origin:top right;
+    will-change:transform, opacity
+  }
+  .bottle__light::after {
+    content:'';
+    display:block;
+    width:100%;
+    height:100%;
+    background:url("/default/img/games/bottle/light.png") left top/100% no-repeat
+  }
+  .bottle__light--top-left {
+    left:0;
+    -webkit-transform:rotate(65deg);
+    transform:rotate(65deg);
+    -webkit-transform-origin:top left;
+    transform-origin:top left;
+    -webkit-animation:top-to-bottom-reverse 7s linear infinite;
+    animation:top-to-bottom-reverse 7s linear infinite
+  }
+  .bottle__light--top-left::after {
+    -webkit-transform:scale(-1, 1);
+    transform:scale(-1, 1)
+  }
+  .bottle__light--bottom-left {
+    left:0;
+    -webkit-transform:rotate(-65deg);
+    transform:rotate(-65deg);
+    -webkit-transform-origin:top left;
+    transform-origin:top left;
+    -webkit-animation:bottom-to-top-reverse 11s linear infinite;
+    animation:bottom-to-top-reverse 11s linear infinite
+  }
+  .bottle__light--bottom-left::after {
+    -webkit-transform:scale(-1, 1);
+    transform:scale(-1, 1)
+  }
+  .bottle__light--top-right {
+    right:0;
+    -webkit-transform:rotate(65deg);
+    transform:rotate(65deg);
+    -webkit-animation:top-to-bottom 13s linear infinite;
+    animation:top-to-bottom 13s linear infinite
+  }
+  .bottle__light--bottom-right {
+    right:0;
+    -webkit-transform:rotate(-65deg);
+    transform:rotate(-65deg);
+    -webkit-animation:bottom-to-top 7s linear infinite;
+    animation:bottom-to-top 7s linear infinite
+  }
+</style>
+
+<div class="ag-ray-block">
+  <div class="bottle__light"></div>
+
+  <div class="ag-format-container">
+
+  </div>
+</div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
