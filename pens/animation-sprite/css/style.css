@@ -539,7 +539,7 @@ body {
 /* shaman-2 */
 .ag-shaman-2 {
   display: inline-block;
-  height: 613px;
+  height: 598px;
   width: 473px;
   margin: 0 0 0 50px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/shaman-2.png) no-repeat 0 50%;
@@ -578,12 +578,12 @@ body {
   height: 613px;
   width: 473px;
   margin: 0 0 0 50px;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/shaman.png) no-repeat 0 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/shaman-3.png) no-repeat 0 100%;
 
-  -webkit-animation: an-shaman-3 1s steps(11) forwards;
-  -moz-animation: an-shaman-3 1s steps(11) forwards;
-  -o-animation: an-shaman-3 1s steps(11) forwards;
-  animation: an-shaman-3 1s steps(11) forwards;
+  -webkit-animation: an-shaman-3 1s steps(11) infinite;
+  -moz-animation: an-shaman-3 1s steps(11) infinite;
+  -o-animation: an-shaman-3 1s steps(11) infinite;
+  animation: an-shaman-3 1s steps(11) infinite;
 }
 
 @-webkit-keyframes an-shaman-3 {
@@ -607,6 +607,42 @@ body {
   }
 }
 /* shaman-3 */
+
+/* shaman-4 */
+.ag-shaman-4 {
+  display: inline-block;
+  height: 613px;
+  width: 473px;
+  margin: 0 0 0 50px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/shaman.png) no-repeat 0 100%;
+
+  -webkit-animation: an-shaman-4 1s steps(11) forwards;
+  -moz-animation: an-shaman-4 1s steps(11) forwards;
+  -o-animation: an-shaman-4 1s steps(11) forwards;
+  animation: an-shaman-4 1s steps(11) forwards;
+}
+
+@-webkit-keyframes an-shaman-4 {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-moz-keyframes an-shaman-4 {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-o-keyframes an-shaman-4 {
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes an-shaman-4 {
+  to {
+    background-position-x: 100%;
+  }
+}
+/* shaman-4 */
 
 /* fire-refresh */
 .ag-fire-refresh-1 {
