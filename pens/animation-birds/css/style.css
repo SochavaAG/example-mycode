@@ -171,16 +171,15 @@ html, body {
 }
 
 .js-shaman {
-  height: 38.3125em;
-  width: 29.5625em;
-  margin-left: -15.625em;
+  height: 598px;
+  width: 473px;
 
   pointer-events: none;
 
   z-index: 1;
   position: absolute;
   left: 50%;
-  bottom: 1.125em;
+  bottom: 5%;
 }
 .js-shaman::before {
   content: "";
@@ -207,7 +206,7 @@ html, body {
 
   position: absolute;
   left: 46.5%;
-  bottom: 3%;
+  bottom: 6%;
 
   -webkit-animation: 10s an-opacity-half infinite;
   -moz-animation: 10s an-opacity-half infinite;
@@ -505,6 +504,7 @@ html, body {
     background-position-x: 100%;
   }
 }
+
 
 
 @media only screen and (max-width: 767px) {
