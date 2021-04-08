@@ -215,13 +215,18 @@ html, body {
   animation: 10s an-opacity-half infinite;
 }
 .js-shaman__main {
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/shaman.png) left top/1200% 300% no-repeat;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-birds/images/shaman-2.png) no-repeat 0 0;
 
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+
+  -webkit-animation: an-shaman-2 1s steps(6) infinite;
+  -moz-animation: an-shaman-2 1s steps(6) infinite;
+  -o-animation: an-shaman-2 1s steps(6) infinite;
+  animation: an-shaman-2 1s steps(6) infinite;
 
   will-change: background-position;
 }
@@ -477,6 +482,27 @@ html, body {
 @keyframes an-opacity-half {
   50% {
     opacity: 1;
+  }
+}
+
+@-webkit-keyframes an-shaman-2 {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-moz-keyframes an-shaman-2 {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-o-keyframes an-shaman-2 {
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes an-shaman-2 {
+  to {
+    background-position-x: 100%;
   }
 }
 
