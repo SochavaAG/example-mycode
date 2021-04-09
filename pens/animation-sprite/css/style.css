@@ -1774,6 +1774,39 @@ body {
 }
 /* /sheep-no */
 
+/* cat */
+.ag-cat {
+  height: 15.25em;
+  width: 10.5em;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-cat.png);
+  background-size: 1500% auto;
+  background-repeat: no-repeat;
+
+  -webkit-animation: an-sprite-cat 2s steps(14, start) infinite;
+  animation: an-sprite-cat 2s steps(14, start) infinite;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+@-webkit-keyframes an-sprite-cat {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+@keyframes an-sprite-cat {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+/* /cat */
+
 /* ufo */
 .ag-ufo {
   display: inline-block;
