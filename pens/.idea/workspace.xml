@@ -71,18 +71,48 @@
       <file leaf-file-name="192.dcb1988c4e500b3048e7.chunk.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/192.dcb1988c4e500b3048e7.chunk.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="44" column="58" lean-forward="false" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
+            <state relative-caret-position="144">
+              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cube-spin/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="207" column="99" lean-forward="false" selection-start-line="207" selection-start-column="90" selection-end-line="207" selection-end-column="99" />
+            <state relative-caret-position="-1776">
+              <caret line="199" column="3" lean-forward="true" selection-start-line="199" selection-start-column="3" selection-end-line="199" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cube-spin/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-696">
+              <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buttons/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="25" column="73" lean-forward="false" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="6574" column="0" lean-forward="false" selection-start-line="6574" selection-start-column="0" selection-end-line="6574" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -92,10 +122,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.-selected</find>
-      <find>-selected</find>
-      <find>ag-range-track_item__selected</find>
-      <find>-active</find>
       <find>rangeVal</find>
       <find>https://cdn.onesignal.com/sdks/OneSignalSDK.js</find>
       <find>https://cdn.onesignal.com/sdks/OneSignalSDKWorker.js</find>
@@ -112,7 +138,6 @@
       <find>sprite-cat</find>
       <find>girl</find>
       <find>hod__girl</find>
-      <find>3ddice2</find>
       <find>hod-girl</find>
       <find>hod-cubes__wrap</find>
       <find>hod-cube</find>
@@ -120,12 +145,15 @@
       <find>hod-cubes__elem</find>
       <find>hod-bets</find>
       <find>sprite-girl</find>
-      <find>&quot;/default/img/games/hotdice/</find>
       <find>hod-cube-</find>
+      <find>3ddice2</find>
+      <find>&quot;/default/img/games/hotdice/</find>
+      <find>!1</find>
+      <find>!0</find>
+      <find>startLightAnimation</find>
+      <find>rollThem3D</find>
     </findStrings>
     <replaceStrings>
-      <replace>_hand</replace>
-      <replace>__right</replace>
       <replace>agWolf</replace>
       <replace>__left</replace>
       <replace>.js-ag-girl_ball__open</replace>
@@ -151,9 +179,11 @@
       <replace>an-logo-blink</replace>
       <replace>an-sprite-cat</replace>
       <replace>ag-girl</replace>
-      <replace>__</replace>
       <replace>an-sprite-girl</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/cube-spin/images/</replace>
+      <replace>false</replace>
+      <replace>__</replace>
+      <replace>true</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -167,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/animation-fog/css/style.css" />
         <option value="$PROJECT_DIR$/hero/index.html" />
         <option value="$PROJECT_DIR$/hero/css/style.css" />
         <option value="$PROJECT_DIR$/aquarium/index.html" />
@@ -202,8 +231,6 @@
         <option value="$PROJECT_DIR$/animation-girl/index.html" />
         <option value="$PROJECT_DIR$/animation-girl/css/style.css" />
         <option value="$PROJECT_DIR$/wheel-rotate/index.html" />
-        <option value="$PROJECT_DIR$/buttons/index.html" />
-        <option value="$PROJECT_DIR$/buttons/css/style.css" />
         <option value="$USER_HOME$/vazhno_project-1/2021.04.09_forexcaptain.info/WP/wayup-child/header-id.php" />
         <option value="$USER_HOME$/format-2.html" />
         <option value="$PROJECT_DIR$/nouislider/js/main.js" />
@@ -218,6 +245,9 @@
         <option value="$USER_HOME$/Desktop/192.dcb1988c4e500b3048e7.chunk.js" />
         <option value="$USER_HOME$/format-t.css" />
         <option value="$PROJECT_DIR$/cube-spin/index.html" />
+        <option value="$PROJECT_DIR$/cube-spin/js/main.js" />
+        <option value="$PROJECT_DIR$/buttons/index.html" />
+        <option value="$PROJECT_DIR$/buttons/css/style.css" />
       </list>
     </option>
   </component>
@@ -433,12 +463,12 @@
       <workItem from="1617814501093" duration="25661000" />
       <workItem from="1617971390816" duration="564000" />
       <workItem from="1617973662505" duration="8551000" />
-      <workItem from="1617992942426" duration="3536000" />
+      <workItem from="1617992942426" duration="4957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="677316000" />
+    <option name="totallyTimeSpent" value="678737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -483,13 +513,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hero/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/raine/js/main.js" />
     <entry file="file://$PROJECT_DIR$/raine/index.html" />
     <entry file="file://$PROJECT_DIR$/raine/css/style.css" />
@@ -662,14 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151464">
-          <caret line="6311" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6381" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/OneSignal-Web-SDK-HTTPS-Integration-Files(1)/OneSignal-Web-SDK-HTTPS-Integration-Files/OneSignalSDKWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -740,13 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-light/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-134">
@@ -787,14 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/192.dcb1988c4e500b3048e7.chunk.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="44" column="58" lean-forward="false" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-girl-bottle/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
@@ -821,8 +821,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cube-spin/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="207" column="99" lean-forward="false" selection-start-line="207" selection-start-column="90" selection-end-line="207" selection-end-column="99" />
+        <state relative-caret-position="-1776">
+          <caret line="199" column="3" lean-forward="true" selection-start-line="199" selection-start-column="3" selection-end-line="199" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/192.dcb1988c4e500b3048e7.chunk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cube-spin/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-696">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="25" column="73" lean-forward="false" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="6574" column="0" lean-forward="false" selection-start-line="6574" selection-start-column="0" selection-end-line="6574" selection-end-column="0" />
           <folding />
         </state>
       </provider>

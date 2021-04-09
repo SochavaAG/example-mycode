@@ -6571,6 +6571,38 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 }
 /* /button 104 */
 
+/* button 105 */
+.ag-base_btn-v105 {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(26%, #d8ac27), color-stop(52%, #ffe9a6), color-stop(90%, #d8ac27), to(#a58400));
+  background: -webkit-linear-gradient(bottom, #d8ac27 26%, #ffe9a6 52%, #d8ac27 90%, #a58400);
+  background: -moz-linear-gradient(bottom, #d8ac27 26%, #ffe9a6 52%, #d8ac27 90%, #a58400);
+  background: -o-linear-gradient(bottom, #d8ac27 26%, #ffe9a6 52%, #d8ac27 90%, #a58400);
+  background: linear-gradient(to top, #d8ac27 26%, #ffe9a6 52%, #d8ac27 90%, #a58400);
+
+  color: #000;
+
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+
+  -webkit-transition: color .5s linear, -webkit-box-shadow .7s linear;
+  transition: color .5s linear, -webkit-box-shadow .7s linear;
+  -o-transition: color .5s linear, box-shadow .7s linear;
+
+  -moz-transition: color .5s linear, box-shadow .7s linear, -moz-box-shadow .7s linear;
+  transition: color .5s linear, box-shadow .7s linear;
+  transition: color .5s linear, box-shadow .7s linear, -webkit-box-shadow .7s linear, -moz-box-shadow .7s linear;
+}
+.ag-base_btn-v105:hover {
+  color: #000;
+
+  -webkit-box-shadow: 0 0 16px 6px #ff8a00;
+  -moz-box-shadow: 0 0 16px 6px #ff8a00;
+  -o-box-shadow: 0 0 16px 6px #ff8a00;
+  box-shadow: 0 0 16px 6px #ff8a00;
+}
+/* /button 105 */
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;
