@@ -3,7 +3,91 @@
   margin: 0 auto;
 }
 
+html, body {
+  height: 100%;
 
+  overflow: hidden;
+}
+
+.ag-clock-block {
+  height: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/clock/images/bg.jpeg) no-repeat scroll 50% 0;
+  background-size: cover;
+}
+.ag-clock {
+  width: 115px;
+  height: 115px;
+  margin: 0 auto;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/clock/images/clock.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.ag-clock_arow {
+  height: 100%;
+  width: 100%;
+
+  position: relative;
+  left: 0;
+  top: 0;
+
+  -webkit-animation: an-arow 60s linear infinite;
+  -moz-animation: an-arow 60s linear infinite;
+  -o-animation: an-arow 60s linear infinite;
+  animation: an-arow 60s linear infinite;
+}
+.ag-clock_arow:after {
+  content: "";
+  height: 37px;
+  width: 2px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, rgba(0, 0, 0, 0)), color-stop(20%, #4a0300), to(#5b5b5d));
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0) 20%, #4a0300 20%, #5b5b5d);
+  background-image: -moz-linear-gradient(rgba(0, 0, 0, 0) 20%, #4a0300 20%, #5b5b5d);
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0) 20%, #4a0300 20%, #5b5b5d);
+  background-image: linear-gradient(rgba(0, 0, 0, 0) 20%, #4a0300 20%, #5b5b5d);
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+@-webkit-keyframes an-arow {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes an-arow {
+  100% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes an-arow {
+  100% {
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes an-arow {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 
 
 @media only screen and (max-width: 767px) {

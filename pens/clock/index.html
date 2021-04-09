@@ -19,64 +19,6 @@
 </head>
 
 <body>
-<style>
-  html, body {
-    height: 100%;
-
-    overflow: hidden;
-  }
-
-  .ag-clock-block {
-    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/clock/images/clock.png) no-repeat scroll 50% 0;
-    background-size: cover;
-  }
-  .ag-clock {
-    width: 115px;
-    height: 115px;
-    margin: 100px auto;
-    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/clock/images/clock.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-    position: relative;
-  }
-  .ag-clock_arow {
-    height: 100%;
-    width: 100%;
-
-    position: relative;
-    left: 0;
-    top: 0;
-
-    -webkit-animation: an-arow 60s linear infinite;
-    animation: an-arow 60s linear infinite;
-  }
-  .ag-clock_arow:after {
-    content: "";
-    height: 37px;
-    width: 2px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0) 20%, #4a0300 20%, #5b5b5d);
-
-    position: absolute;
-    left: 50%;
-    top: 50%;
-  }
-
-  @-webkit-keyframes an-arow {
-    100% {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-  }
-  @keyframes an-arow {
-    100% {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-  }
-</style>
-
 <div class="ag-clock-block">
   <div class="ag-format-container">
     <div class="ag-clock">
