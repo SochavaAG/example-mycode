@@ -20,499 +20,578 @@
 
 <body>
 <style>
+  html, body {
+    height: 100%;
+
+    overflow: hidden;
+  }
   .ag-desert-block {
     height: 100%;
     background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/bg.jpeg) no-repeat scroll 50% 0;
     background-size: cover;
 
-    position:relative;
+    position: relative;
   }
-
-
-  .rg-wrap {
-    position:relative;
-    z-index:0;
-    height:820px;
-    overflow:hidden;
-    background-color:#3290f9;
-    background-image:url(/default/img/reelsofgods/bg.jpg);
-    background-position:50% -352px;
-    background-repeat:no-repeat;
-    font-family:Roboto-Regular
+  .ag-desert_box {
+    position: relative;
+    z-index: 0;
+    /*height:820px;*/
+    height: 100%;
+    overflow: hidden;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/bg.jpg);
+    background-position: 50% -352px;
+    background-repeat: no-repeat;
   }
-  .rg-wrap__rules {
-    position:absolute;
-    top:740px;
-    left:50%;
-    -webkit-transform:translateX(-50%);
-    transform:translateX(-50%)
+  .ag-desert_box:before {
+    width: 923px;
+    height: 65px;
+    margin-left: 37px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/dune1.png)
   }
-  @media screen and (max-height: 880px) {
-    .rg-wrap__rules {
-      top:520px
-    }
+  .ag-desert_box:after,
+  .ag-desert_box:before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 2;
   }
-  .rg-wrap:before {
-    width:923px;
-    height:65px;
-    margin-left:37px;
-    background-image:url(/default/img/reelsofgods/dune1.png?)
+  .ag-desert_box:after {
+    width: 359px;
+    height: 33px;
+    margin-left: -455px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/dune2.png)
   }
-  .rg-wrap:after,
-  .rg-wrap:before {
-    content:'';
-    display:block;
-    position:absolute;
-    bottom:0;
-    left:50%;
-    z-index:1;
-    z-index:2
-  }
-  .rg-wrap:after {
-    width:359px;
-    height:33px;
-    margin-left:-455px;
-    background-image:url(/default/img/reelsofgods/dune2.png?)
-  }
-
   .rg-wrap-anim2 {
-    position:absolute;
-    top:672px;
-    left:50%;
-    z-index:-1;
-    width:62px;
-    height:15px;
-    margin-left:594px;
-    background-image:url(/default/img/reelsofgods/bush-shadow.png);
-    background-repeat:no-repeat
+    position: absolute;
+    top: 672px;
+    left: 50%;
+    z-index: -1;
+    width: 62px;
+    height: 15px;
+    margin-left: 594px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/bush-shadow.png);
+    background-repeat: no-repeat
   }
   .rg-wrap-anim2:before {
-    content:'';
-    position:absolute;
-    right:15px;
-    bottom:4px;
-    width:49px;
-    height:43px;
-    background-image:url(/default/img/reelsofgods/bush.png);
-    background-repeat:no-repeat;
-    background-size:contain;
-    -webkit-animation:2s linear -4s normal none infinite rg-anim2;
-    animation:2s linear -4s normal none infinite rg-anim2
+    content: '';
+    position: absolute;
+    right: 15px;
+    bottom: 4px;
+    width: 49px;
+    height: 43px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/bush.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    -webkit-animation: rg-anim2 2s linear -4s normal none infinite;
+    animation: rg-anim2 2s linear -4s normal none infinite;
   }
-  @-webkit-keyframes rg-anim3 {
+
+  .rg-wrap-anim3 {
+    position: absolute;
+    top: 665px;
+    left: 0;
+    z-index: -1;
+    width: 62px;
+    height: 15px;
+    margin-left: -150px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/bush2-shadow.png);
+
+    -webkit-animation: rg-anim3 32s linear 6s normal none infinite;
+    animation: rg-anim3 32s linear 6s normal none infinite;
+  }
+  .rg-wrap-anim3 > div {
+    content: '';
+    position: absolute;
+    bottom: 1px;
+    left: 21px;
+    width: 47px;
+    height: 47px;
+
+    -webkit-animation: rg-anim4 4s linear 0ms normal none infinite;
+    animation: rg-anim4 4s linear 0ms normal none infinite;
+  }
+  .rg-wrap-anim3 > div:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 47px;
+    height: 47px;
+    margin: -23px 0 0 -23px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/bush2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    -webkit-animation: rg-anim4_ 2.5s linear 0ms normal none infinite;
+    animation: rg-anim4_ 2.5s linear 0ms normal none infinite;
+  }
+
+  .rg-wrap-anim4 {
+    position: absolute;
+    top: 475px;
+    left: 0;
+    z-index: -1;
+    width: 1980px;
+    height: 460px;
+    margin-left: -1980px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/wind.png);
+    background-repeat: no-repeat;
+
+    -webkit-animation: rg-anim5 12s linear 0ms normal none infinite;
+    animation: rg-anim5 12s linear 0ms normal none infinite;
+  }
+
+  .ag-hawk {
+    position: absolute;
+    top: -6px;
+    left: 0;
+    z-index: -1;
+    width: 487px;
+    height: 191px;
+    margin-left: -325px;
+    direction: ltr;
+    -webkit-transform: scale(0.25);
+    transform: scale(0.25);
+
+    -webkit-animation: rg-anim1 40s linear 0ms normal none infinite;
+    animation: rg-anim1 40s linear 0ms normal none infinite;
+  }
+  .ag-hawk_wing-right {
+    position: absolute;
+    top: 101px;
+    left: 310px;
+    width: 2px;
+    height: 2px;
+
+    -webkit-animation: rg-anim-hawk-wing-right 3s linear 0ms normal none infinite;
+    animation: rg-anim-hawk-wing-right 3s linear 0ms normal none infinite;
+  }
+  .ag-hawk_wing-right:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -102px;
+    left: -310px;
+    width: 487px;
+    height: 191px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/hawk-wing-right.png)
+  }
+  .ag-hawk_body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 487px;
+    height: 191px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/hawk-body.png);
+    background-repeat: no-repeat;
+
+    -webkit-animation: rg-anim-hawk-body 3s linear 0ms normal none infinite;
+    animation: rg-anim-hawk-body 3s linear 0ms normal none infinite;
+  }
+  .ag-hawk_wing-left {
+    position: absolute;
+    top: 85px;
+    left: 271px;
+    width: 2px;
+    height: 2px;
+
+    -webkit-animation: rg-anim-hawk-wing-left 3s linear 0ms normal none infinite;
+    animation: rg-anim-hawk-wing-left 3s linear 0ms normal none infinite;
+  }
+  .ag-hawk_wing-left:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -85px;
+    right: -214px;
+    width: 487px;
+    height: 191px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/hawk-wing-left.png)
+  }
+
+  @-webkit-keyframes rg-anim1 {
     0% {
+      top:100px;
       left:0;
-      margin-left:-150px
+      margin-left:-325px
     }
-    70% {
+    75% {
+      top:-100px;
       left:100%;
-      margin-left:150px
+      margin-left:0
     }
     to {
       left:100%;
-      margin-left:150px
+      margin-left:0
+    }
+  }
+  @keyframes rg-anim1 {
+    0% {
+      top:100px;
+      left:0;
+      margin-left:-325px
+    }
+    75% {
+      top:-100px;
+      left:100%;
+      margin-left:0
+    }
+    to {
+      left:100%;
+      margin-left:0
+    }
+  }
+  @-webkit-keyframes rg-anim2 {
+    0% {
+      -webkit-transform:scale(1) rotate(-3deg) translate(-1px);
+      transform:scale(1) rotate(-3deg) translate(-1px)
+    }
+    25% {
+      -webkit-transform:scale(1) rotate(10deg) translate(4px, -2px);
+      transform:scale(1) rotate(10deg) translate(4px, -2px)
+    }
+    50% {
+      -webkit-transform:scale(1) rotate(0deg) translate(0);
+      transform:scale(1) rotate(0deg) translate(0)
+    }
+    75% {
+      -webkit-transform:scale(1) rotate(7deg) translate(2px, -1px);
+      transform:scale(1) rotate(7deg) translate(2px, -1px)
+    }
+    to {
+      -webkit-transform:scale(1) rotate(-3deg) translate(-1px);
+      transform:scale(1) rotate(-3deg) translate(-1px)
+    }
+  }
+  @keyframes rg-anim2 {
+    0% {
+      -webkit-transform:scale(1) rotate(-3deg) translate(-1px);
+      transform:scale(1) rotate(-3deg) translate(-1px)
+    }
+    25% {
+      -webkit-transform:scale(1) rotate(10deg) translate(4px, -2px);
+      transform:scale(1) rotate(10deg) translate(4px, -2px)
+    }
+    50% {
+      -webkit-transform:scale(1) rotate(0deg) translate(0);
+      transform:scale(1) rotate(0deg) translate(0)
+    }
+    75% {
+      -webkit-transform:scale(1) rotate(7deg) translate(2px, -1px);
+      transform:scale(1) rotate(7deg) translate(2px, -1px)
+    }
+    to {
+      -webkit-transform:scale(1) rotate(-3deg) translate(-1px);
+      transform:scale(1) rotate(-3deg) translate(-1px)
+    }
+  }
+  @-webkit-keyframes rg-anim3 {
+    0% {
+      left: 0;
+      margin-left: -150px
+    }
+    70% {
+      left: 100%;
+      margin-left: 150px
+    }
+    to {
+      left: 100%;
+      margin-left: 150px
     }
   }
   @keyframes rg-anim3 {
     0% {
-      left:0;
-      margin-left:-150px
+      left: 0;
+      margin-left: -150px
     }
     70% {
-      left:100%;
-      margin-left:150px
+      left: 100%;
+      margin-left: 150px
     }
     to {
-      left:100%;
-      margin-left:150px
+      left: 100%;
+      margin-left: 150px
     }
   }
-  .rg-wrap-anim3 {
-    position:absolute;
-    top:665px;
-    left:0;
-    z-index:-1;
-    width:62px;
-    height:15px;
-    margin-left:-150px;
-    background-image:url(/default/img/reelsofgods/bush2-shadow.png);
-    -webkit-animation:32s linear 6s normal none infinite rg-anim3;
-    animation:32s linear 6s normal none infinite rg-anim3
-  }
-  .rg-wrap-anim3>div {
-    content:'';
-    position:absolute;
-    bottom:1px;
-    left:21px;
-    width:47px;
-    height:47px;
-    -webkit-animation:4s linear 0ms normal none infinite rg-anim4;
-    animation:4s linear 0ms normal none infinite rg-anim4
-  }
-  .rg-wrap-anim3>div:before {
-    content:'';
-    position:absolute;
-    top:50%;
-    left:50%;
-    width:47px;
-    height:47px;
-    margin:-23px 0 0 -23px;
-    background-image:url(/default/img/reelsofgods/bush2.png);
-    background-repeat:no-repeat;
-    background-size:contain;
-    -webkit-animation:2.5s linear 0ms normal none infinite rg-anim4_;
-    animation:2.5s linear 0ms normal none infinite rg-anim4_
-  }
+
   @-webkit-keyframes rg-anim4 {
     0% {
-      bottom:2rem;
-      -webkit-animation-timing-function:ease-in;
-      animation-timing-function:ease-in
+      bottom: 2rem;
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
     }
     25% {
-      bottom:0;
-      -webkit-animation-timing-function:ease-out;
-      animation-timing-function:ease-out
+      bottom: 0;
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
     }
     50% {
-      bottom:1rem;
-      -webkit-animation-timing-function:ease-in;
-      animation-timing-function:ease-in
+      bottom: 1rem;
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
     }
     75% {
-      bottom:0;
-      -webkit-animation-timing-function:ease-out;
-      animation-timing-function:ease-out
+      bottom: 0;
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
     }
     to {
-      bottom:2rem;
-      -webkit-animation-timing-function:ease-in;
-      animation-timing-function:ease-in
+      bottom: 2rem;
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
     }
   }
   @keyframes rg-anim4 {
     0% {
-      bottom:2rem;
-      -webkit-animation-timing-function:ease-in;
-      animation-timing-function:ease-in
+      bottom: 2rem;
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
     }
     25% {
-      bottom:0;
-      -webkit-animation-timing-function:ease-out;
-      animation-timing-function:ease-out
+      bottom: 0;
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
     }
     50% {
-      bottom:1rem;
-      -webkit-animation-timing-function:ease-in;
-      animation-timing-function:ease-in
+      bottom: 1rem;
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
     }
     75% {
-      bottom:0;
-      -webkit-animation-timing-function:ease-out;
-      animation-timing-function:ease-out
+      bottom: 0;
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
     }
     to {
-      bottom:2rem;
-      -webkit-animation-timing-function:ease-in;
-      animation-timing-function:ease-in
+      bottom: 2rem;
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
     }
   }
   @-webkit-keyframes rg-anim4_ {
     0% {
-      -webkit-transform:scale(1) rotate(0deg);
-      transform:scale(1) rotate(0deg)
+      -webkit-transform: scale(1) rotate(0deg);
+      transform: scale(1) rotate(0deg);
     }
     to {
-      -webkit-transform:scale(1) rotate(359deg);
-      transform:scale(1) rotate(359deg)
+      -webkit-transform: scale(1) rotate(359deg);
+      transform: scale(1) rotate(359deg);
     }
   }
   @keyframes rg-anim4_ {
     0% {
-      -webkit-transform:scale(1) rotate(0deg);
-      transform:scale(1) rotate(0deg)
+      -webkit-transform: scale(1) rotate(0deg);
+      transform: scale(1) rotate(0deg);
     }
     to {
-      -webkit-transform:scale(1) rotate(359deg);
-      transform:scale(1) rotate(359deg)
+      -webkit-transform: scale(1) rotate(359deg);
+      transform: scale(1) rotate(359deg);
     }
   }
   @-webkit-keyframes rg-anim5 {
     0% {
-      left:0;
-      margin-left:-1980px
+      left: 0;
+      margin-left: -1980px;
     }
     50% {
-      left:100%;
-      margin-left:0
+      left: 100%;
+      margin-left: 0;
     }
     to {
-      left:100%;
-      margin-left:0
+      left: 100%;
+      margin-left: 0;
     }
   }
   @keyframes rg-anim5 {
     0% {
-      left:0;
-      margin-left:-1980px
+      left: 0;
+      margin-left: -1980px;
     }
     50% {
-      left:100%;
-      margin-left:0
+      left: 100%;
+      margin-left: 0;
     }
     to {
-      left:100%;
-      margin-left:0
+      left: 100%;
+      margin-left: 0;
     }
   }
-  .rg-wrap-anim4 {
-    position:absolute;
-    top:475px;
-    left:0;
-    z-index:-1;
-    width:1980px;
-    height:460px;
-    margin-left:0;
-    margin-left:-1980px;
-    background-image:url(/default/img/reelsofgods/wind.png);
-    background-repeat:no-repeat;
-    -webkit-animation:12s linear 0ms normal none infinite rg-anim5;
-    animation:12s linear 0ms normal none infinite rg-anim5
-  }
+
   @-webkit-keyframes rg-anim6 {
     0% {
-      background-position:0 208px
+      background-position: 0 208px;
     }
     10% {
-      background-position:0 0
+      background-position: 0 0;
     }
     20% {
-      background-position:0 -208px
+      background-position: 0 -208px;
     }
     30% {
-      background-position:0 -416px
+      background-position: 0 -416px;
     }
     40% {
-      background-position:-1px -624px
+      background-position: -1px -624px;
     }
     50% {
-      background-position:-1px -832px
+      background-position: -1px -832px;
     }
     60% {
-      background-position:0 -1040px
+      background-position: 0 -1040px;
     }
     70% {
-      background-position:0 -1248px
+      background-position: 0 -1248px;
     }
     80% {
-      background-position:-1px -1456px
+      background-position: -1px -1456px;
     }
     90% {
-      background-position:0 -1664px
+      background-position: 0 -1664px;
     }
     to {
-      background-position:0 -1872px
+      background-position: 0 -1872px;
     }
   }
   @keyframes rg-anim6 {
     0% {
-      background-position:0 208px
+      background-position: 0 208px;
     }
     10% {
-      background-position:0 0
+      background-position: 0 0;
     }
     20% {
-      background-position:0 -208px
+      background-position: 0 -208px;
     }
     30% {
-      background-position:0 -416px
+      background-position: 0 -416px;
     }
     40% {
-      background-position:-1px -624px
+      background-position: -1px -624px;
     }
     50% {
-      background-position:-1px -832px
+      background-position: -1px -832px;
     }
     60% {
-      background-position:0 -1040px
+      background-position: 0 -1040px;
     }
     70% {
-      background-position:0 -1248px
+      background-position: 0 -1248px;
     }
     80% {
-      background-position:-1px -1456px
+      background-position: -1px -1456px;
     }
     90% {
-      background-position:0 -1664px
+      background-position: 0 -1664px;
     }
     to {
-      background-position:0 -1872px
+      background-position: 0 -1872px;
     }
   }
-  @-webkit-keyframes rg-anim-hawk-1 {
+  @-webkit-keyframes rg-anim-hawk-wing-right {
     0% {
-      -webkit-transform:scale(1) rotate(9deg);
-      transform:scale(1) rotate(9deg)
+      -webkit-transform: scale(1) rotate(9deg);
+      transform: scale(1) rotate(9deg);
     }
     70% {
-      -webkit-transform:scale(1) rotate(-20deg);
-      transform:scale(1) rotate(-20deg)
+      -webkit-transform: scale(1) rotate(-20deg);
+      transform: scale(1) rotate(-20deg);
     }
     to {
-      -webkit-transform:scale(1) rotate(9deg);
-      transform:scale(1) rotate(9deg)
+      -webkit-transform: scale(1) rotate(9deg);
+      transform: scale(1) rotate(9deg);
     }
   }
-  @keyframes rg-anim-hawk-1 {
+  @keyframes rg-anim-hawk-wing-right {
     0% {
-      -webkit-transform:scale(1) rotate(9deg);
-      transform:scale(1) rotate(9deg)
+      -webkit-transform: scale(1) rotate(9deg);
+      transform: scale(1) rotate(9deg);
     }
     70% {
-      -webkit-transform:scale(1) rotate(-20deg);
-      transform:scale(1) rotate(-20deg)
+      -webkit-transform: scale(1) rotate(-20deg);
+      transform: scale(1) rotate(-20deg);
     }
     to {
-      -webkit-transform:scale(1) rotate(9deg);
-      transform:scale(1) rotate(9deg)
+      -webkit-transform: scale(1) rotate(9deg);
+      transform: scale(1) rotate(9deg);
     }
   }
-  @-webkit-keyframes rg-anim-hawk-3 {
+  @-webkit-keyframes rg-anim-hawk-wing-left {
     0% {
-      -webkit-transform:scale(1) rotate(-20deg);
-      transform:scale(1) rotate(-20deg)
+      -webkit-transform: scale(1) rotate(-20deg);
+      transform: scale(1) rotate(-20deg);
     }
     70% {
-      -webkit-transform:scale(1) rotate(9deg);
-      transform:scale(1) rotate(9deg)
+      -webkit-transform: scale(1) rotate(9deg);
+      transform: scale(1) rotate(9deg);
     }
     to {
-      -webkit-transform:scale(1) rotate(-20deg);
-      transform:scale(1) rotate(-20deg)
+      -webkit-transform: scale(1) rotate(-20deg);
+      transform: scale(1) rotate(-20deg);
     }
   }
-  @keyframes rg-anim-hawk-3 {
+  @keyframes rg-anim-hawk-wing-left {
     0% {
-      -webkit-transform:scale(1) rotate(-20deg);
-      transform:scale(1) rotate(-20deg)
+      -webkit-transform: scale(1) rotate(-20deg);
+      transform: scale(1) rotate(-20deg);
     }
     70% {
-      -webkit-transform:scale(1) rotate(9deg);
-      transform:scale(1) rotate(9deg)
+      -webkit-transform: scale(1) rotate(9deg);
+      transform: scale(1) rotate(9deg);
     }
     to {
-      -webkit-transform:scale(1) rotate(-20deg);
-      transform:scale(1) rotate(-20deg)
+      -webkit-transform: scale(1) rotate(-20deg);
+      transform: scale(1) rotate(-20deg);
     }
   }
-  @-webkit-keyframes rg-anim-hawk-2 {
+  @-webkit-keyframes rg-anim-hawk-body {
     0% {
-      -webkit-transform:scale(1) translateY(2px);
-      transform:scale(1) translateY(2px)
+      -webkit-transform: scale(1) translateY(2px);
+      transform: scale(1) translateY(2px);
     }
     70% {
-      -webkit-transform:scale(1) translateY(-6px);
-      transform:scale(1) translateY(-6px)
+      -webkit-transform: scale(1) translateY(-6px);
+      transform: scale(1) translateY(-6px);
     }
     to {
-      -webkit-transform:scale(1) translateY(2px);
-      transform:scale(1) translateY(2px)
+      -webkit-transform: scale(1) translateY(2px);
+      transform: scale(1) translateY(2px);
     }
   }
-  @keyframes rg-anim-hawk-2 {
+  @keyframes rg-anim-hawk-body {
     0% {
-      -webkit-transform:scale(1) translateY(2px);
-      transform:scale(1) translateY(2px)
+      -webkit-transform: scale(1) translateY(2px);
+      transform: scale(1) translateY(2px);
     }
     70% {
-      -webkit-transform:scale(1) translateY(-6px);
-      transform:scale(1) translateY(-6px)
+      -webkit-transform: scale(1) translateY(-6px);
+      transform: scale(1) translateY(-6px);
     }
     to {
-      -webkit-transform:scale(1) translateY(2px);
-      transform:scale(1) translateY(2px)
+      -webkit-transform: scale(1) translateY(2px);
+      transform: scale(1) translateY(2px);
     }
-  }
-  .rg-wrap-anim5 {
-    position:absolute;
-    top:-6px;
-    left:0;
-    z-index:-1;
-    width:487px;
-    height:191px;
-    margin-left:-325px;
-    direction:ltr;
-    -webkit-transform:scale(0.25);
-    transform:scale(0.25);
-    -webkit-animation:40s linear 0ms normal none infinite rg-anim1;
-    animation:40s linear 0ms normal none infinite rg-anim1
-  }
-  .rg-wrap-anim5-1 {
-    position:absolute;
-    top:101px;
-    left:310px;
-    width:2px;
-    height:2px;
-    -webkit-animation:3s linear 0ms normal none infinite rg-anim-hawk-1;
-    animation:3s linear 0ms normal none infinite rg-anim-hawk-1
-  }
-  .rg-wrap-anim5-1:before {
-    content:'';
-    display:block;
-    position:absolute;
-    top:-102px;
-    left:-310px;
-    width:487px;
-    height:191px;
-    background-image:url(/default/img/reelsofgods/hawk-1.png)
-  }
-  .rg-wrap-anim5-2 {
-    position:absolute;
-    top:0;
-    left:0;
-    width:487px;
-    height:191px;
-    background-image:url(/default/img/reelsofgods/hawk-2.png);
-    background-repeat:no-repeat;
-    -webkit-animation:3s linear 0ms normal none infinite rg-anim-hawk-2;
-    animation:3s linear 0ms normal none infinite rg-anim-hawk-2
-  }
-  .rg-wrap-anim5-3 {
-    position:absolute;
-    top:85px;
-    left:271px;
-    width:2px;
-    height:2px;
-    -webkit-animation:3s linear 0ms normal none infinite rg-anim-hawk-3;
-    animation:3s linear 0ms normal none infinite rg-anim-hawk-3
-  }
-  .rg-wrap-anim5-3:before {
-    content:'';
-    display:block;
-    position:absolute;
-    top:-85px;
-    right:-214px;
-    width:487px;
-    height:191px;
-    background-image:url(/default/img/reelsofgods/hawk-3.png)
   }
 </style>
 
 <div class="ag-desert-block">
-  <div class="ag-format-container">
-    <div class="rg-wrap xgames-container">
-      <div class="rg-wrap-anim1"></div>
-      <div class="rg-wrap-anim2"></div>
-      <div class="rg-wrap-anim3">
-        <div></div>
-      </div>
-      <div class="rg-wrap-anim4"></div>
-      <div class="rg-wrap-anim5">
-        <div class="rg-wrap-anim5-1"></div>
-        <div class="rg-wrap-anim5-2"></div>
-        <div class="rg-wrap-anim5-3"></div>
-      </div>
+  <div class="ag-desert_box">
+    <!--<div class="rg-wrap-anim1"></div>-->
+    <div class="rg-wrap-anim2"></div>
+    <div class="rg-wrap-anim3">
+      <div></div>
     </div>
+    <div class="rg-wrap-anim4"></div>
+    <div class="ag-hawk">
+      <div class="ag-hawk_wing-right"></div>
+      <div class="ag-hawk_body"></div>
+      <div class="ag-hawk_wing-left"></div>
+    </div>
+  </div>
+
+  <div class="ag-format-container">
   </div>
 </div>
 
