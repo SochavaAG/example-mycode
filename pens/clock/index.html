@@ -7,7 +7,7 @@
 <!--<![endif]-->
 <head>
   <meta charset="utf-8" />
-  <title>Case diamond</title>
+  <title>Clock</title>
   <meta name="description" content="Создание адаптивного сайта" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,26 +19,59 @@
 </head>
 
 <body>
-<div class="ag-case-block">
-  <div class="ag-lamps"></div>
+<style>
+  .ag-clock {
+    width: 115px;
+    height: 115px;
+    margin: 100px auto;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/clock/images/clock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    position: relative;
+  }
+  .ag-clock_arow {
+    height: 100%;
+    width: 100%;
+
+    position: relative;
+    left: 0;
+    top: 0;
+
+    -webkit-animation: an-arow 60s linear infinite;
+    animation: an-arow 60s linear infinite;
+  }
+  .ag-clock_arow:after {
+    content: "";
+    height: 37px;
+    width: 2px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 20%, #4a0300 20%, #5b5b5d);
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+  
+  @-webkit-keyframes an-arow {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes an-arow {
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+</style>
 
   <div class="ag-format-container">
-      <div class="ag-case_box ag-case_box__top">
-        <div class="ag-case_item"></div>
-        <div class="ag-case_item"></div>
-        <div class="ag-case_item"></div>
-        <div class="ag-case_item"></div>
-        <div class="ag-case_item"></div>
-      </div>
-      <div class="ag-case_box ag-case_box__bottom">
-        <div class="ag-case_item ag-case_item__diamond"></div>
-        <div class="ag-case_item"></div>
-        <div class="ag-case_item"></div>
-        <div class="ag-case_item ag-case_item__empty"></div>
-        <div class="ag-case_item"></div>
-      </div>
+    <div class="ag-clock">
+      <div class="ag-clock_arow"></div>
+    </div>
   </div>
-</div>
 
 <!--[if lt IE 9]>
 <script src="libs/IE/html5shiv/es5-shim.min.js"></script>

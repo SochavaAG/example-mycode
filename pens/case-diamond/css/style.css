@@ -16,7 +16,25 @@ html, body {
 
   position: relative;
 }
+.ag-lamps {
+  height: 318px;
+  width: 1920px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/case-diamond/images/lamps.png) no-repeat 50% 0;
+
+  position: absolute;
+  top: 5%;
+  left: 50%;
+
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+
+  -webkit-animation: an-illum 4s linear infinite;
+  -moz-animation: an-illum 4s linear infinite;
+  -o-animation: an-illum 4s linear infinite;
+  animation: an-illum 4s linear infinite;
+}
 .ag-case_box {
+  white-space: nowrap;
   text-align: center;
 }
 .ag-case_box__top {
@@ -76,6 +94,51 @@ html, body {
   -moz-animation: an-glare 3s linear infinite;
   -o-animation: an-glare 3s linear infinite;
   animation: an-glare 3s linear infinite;
+}
+
+@-webkit-keyframes an-illum {
+  0% {
+    opacity: .2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .2;
+  }
+}
+@-moz-keyframes an-illum {
+  0% {
+    opacity: .2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .2;
+  }
+}
+@-o-keyframes an-illum {
+  0% {
+    opacity: .2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .2;
+  }
+}
+@keyframes an-illum {
+  0% {
+    opacity: .2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .2;
+  }
 }
 
 @-webkit-keyframes an-diamond-light {
