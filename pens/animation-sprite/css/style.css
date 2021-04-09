@@ -1783,6 +1783,8 @@ body {
   background-repeat: no-repeat;
 
   -webkit-animation: an-sprite-cat 2s steps(14, start) infinite;
+  -moz-animation: an-sprite-cat 2s steps(14, start) infinite;
+  -o-animation: an-sprite-cat 2s steps(14, start) infinite;
   animation: an-sprite-cat 2s steps(14, start) infinite;
 
   image-rendering: -webkit-optimize-contrast;
@@ -1790,6 +1792,22 @@ body {
 }
 
 @-webkit-keyframes an-sprite-cat {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+@-moz-keyframes an-sprite-cat {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+@-o-keyframes an-sprite-cat {
   0% {
     background-position: 0 0;
   }
@@ -1806,6 +1824,56 @@ body {
   }
 }
 /* /cat */
+
+/* girl */
+.ag-girl {
+  width: 42em;
+  height: 21em;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-girl.png);
+  background-size: auto 1500%;
+  background-repeat: no-repeat;
+
+  -webkit-animation: an-sprite-girl 2s steps(14, start) infinite;
+  -moz-animation: an-sprite-girl 2s steps(14, start) infinite;
+  -o-animation: an-sprite-girl 2s steps(14, start) infinite;
+  animation: an-sprite-girl 2s steps(14, start) infinite;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+@-webkit-keyframes an-sprite-girl {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-moz-keyframes an-sprite-girl {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-o-keyframes an-sprite-girl {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@keyframes an-sprite-girl {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+/* /girl */
 
 /* ufo */
 .ag-ufo {

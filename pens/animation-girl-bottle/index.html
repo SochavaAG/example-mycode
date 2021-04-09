@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Animation girl bottle</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .hod-girl {
+    height: 50em;
+    width: 32.3125em;
+
+    position: relative;
+  }
+  .hod-girl::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl-bottle/images/hd-girl.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+  .hod-girl__hand {
+    position: absolute;
+  }
+  .hod-girl__hand::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+  .hod-girl__hand--right {
+    height: 19.625em;
+    width: 12.5em;
+
+    top: 11.875em;
+    left: -7.5em;
+
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+
+    -webkit-transform-origin: 94% 100%;
+    transform-origin: 94% 100%;
+
+    -webkit-animation: an-right-hand-movement 20s ease-in-out infinite;
+    animation: an-right-hand-movement 20s ease-in-out infinite;
+  }
+  .hod-girl__hand--right::before {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl-bottle/images/hd-girl-hand-right.png);
+  }
+  .hod-girl__hand--left {
+    height: 25.875em;
+    width: 7.625em;
+
+    top: 4.75em;
+
+    right: -1.875em;
+    -webkit-transform-origin: 19% 100%;
+    transform-origin: 19% 100%;
+
+    -webkit-animation: an-left-hand-movement 20s ease-in-out infinite;
+    animation: an-left-hand-movement 20s ease-in-out infinite;
+  }
+  .hod-girl__hand--left::before {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl-bottle/images/hd-girl-hand-left.png);
+  }
+  .hod-girl__lips {
+    height: 1.5em;
+    width: 1.9375em;
+
+    position: absolute;
+    top: 11em;
+    left: 12.875em;
+
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+
+    -webkit-animation: an-girl-smiling 20s linear infinite;
+    animation: an-girl-smiling 20s linear infinite;
+  }
+  .hod-girl__lips::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl-bottle/images/hd-girl-lips.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+
+  @-webkit-keyframes an-right-hand-movement {
+    0%, 20%, 100% {
+      -webkit-transform: rotate(10deg);
+      transform: rotate(10deg);
+    }
+    10% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes an-right-hand-movement {
+    0%, 20%, 100% {
+      -webkit-transform: rotate(10deg);
+      transform: rotate(10deg);
+    }
+    10% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+  }
+
+  @-webkit-keyframes an-left-hand-movement {
+    0%, 20%, 40%, 100% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    30% {
+      -webkit-transform: rotate(10deg);
+      transform: rotate(10deg);
+    }
+  }
+  @keyframes an-left-hand-movement {
+    0%, 20%, 40%, 100% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    30% {
+      -webkit-transform: rotate(10deg);
+      transform: rotate(10deg);
+    }
+  }
+
+  @-webkit-keyframes an-girl-smiling {
+    0%, 5%, 10%, 100% {
+      -webkit-transform: rotate(0deg) scale(1);
+      transform: rotate(0deg) scale(1);
+    }
+    2.5%, 7.5% {
+      -webkit-transform: rotate(-2deg) scale(1.08, 1);
+      transform: rotate(-2deg) scale(1.08, 1);
+    }
+  }
+  @keyframes an-girl-smiling {
+    0%, 5%, 10%, 100% {
+      -webkit-transform: rotate(0deg) scale(1);
+      transform: rotate(0deg) scale(1);
+    }
+    2.5%, 7.5% {
+      -webkit-transform: rotate(-2deg) scale(1.08, 1);
+      transform: rotate(-2deg) scale(1.08, 1);
+    }
+  }
+</style>
+
+  <div class="ag-format-container">
+    <div class="hod__girl hod-girl">
+      <div class="hod-girl__lips"></div>
+      <div class="hod-girl__hand hod-girl__hand--right"></div>
+      <div class="hod-girl__hand hod-girl__hand--left"></div>
+    </div>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
