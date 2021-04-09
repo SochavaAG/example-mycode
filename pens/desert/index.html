@@ -23,7 +23,7 @@
   html, body {
     height: 100%;
 
-    overflow: hidden;
+    /*overflow: hidden;*/
   }
   .ag-desert-block {
     height: 100%;
@@ -37,7 +37,7 @@
     z-index: 0;
     /*height:820px;*/
     height: 100%;
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/bg.jpg);
     background-position: 50% -352px;
     background-repeat: no-repeat;
@@ -46,11 +46,11 @@
     width: 923px;
     height: 65px;
     margin-left: 37px;
-    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/dune1.png)
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/dune-1.png)
   }
   .ag-desert_box:after,
   .ag-desert_box:before {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     bottom: 0;
@@ -61,9 +61,9 @@
     width: 359px;
     height: 33px;
     margin-left: -455px;
-    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/dune2.png)
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/dune-2.png)
   }
-  .rg-wrap-anim2 {
+  .aп-bush-1 {
     position: absolute;
     top: 672px;
     left: 50%;
@@ -74,8 +74,8 @@
     background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/bush-shadow.png);
     background-repeat: no-repeat
   }
-  .rg-wrap-anim2:before {
-    content: '';
+  .aп-bush-1:before {
+    content: "";
     position: absolute;
     right: 15px;
     bottom: 4px;
@@ -85,11 +85,11 @@
     background-repeat: no-repeat;
     background-size: contain;
 
-    -webkit-animation: rg-anim2 2s linear -4s normal none infinite;
-    animation: rg-anim2 2s linear -4s normal none infinite;
+    -webkit-animation: an-bush 2s linear -4s normal none infinite;
+    animation: an-bush 2s linear -4s normal none infinite;
   }
 
-  .rg-wrap-anim3 {
+  .aп-bush-2 {
     position: absolute;
     top: 665px;
     left: 0;
@@ -97,39 +97,39 @@
     width: 62px;
     height: 15px;
     margin-left: -150px;
-    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/bush2-shadow.png);
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/bush-2-shadow.png);
 
-    -webkit-animation: rg-anim3 32s linear 6s normal none infinite;
-    animation: rg-anim3 32s linear 6s normal none infinite;
+    -webkit-animation: an-bush-2-shadow 32s linear 6s normal none infinite;
+    animation: an-bush-2-shadow 32s linear 6s normal none infinite;
   }
-  .rg-wrap-anim3 > div {
-    content: '';
+  .aп-bush-2 > div {
+    content: "";
     position: absolute;
     bottom: 1px;
     left: 21px;
     width: 47px;
     height: 47px;
 
-    -webkit-animation: rg-anim4 4s linear 0ms normal none infinite;
-    animation: rg-anim4 4s linear 0ms normal none infinite;
+    -webkit-animation: an-bush-2 4s linear 0ms normal none infinite;
+    animation: an-bush-2 4s linear 0ms normal none infinite;
   }
-  .rg-wrap-anim3 > div:before {
-    content: '';
+  .aп-bush-2 > div:before {
+    content: "";
     position: absolute;
     top: 50%;
     left: 50%;
     width: 47px;
     height: 47px;
     margin: -23px 0 0 -23px;
-    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/bush2.png);
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/bush-2.png);
     background-repeat: no-repeat;
     background-size: contain;
 
-    -webkit-animation: rg-anim4_ 2.5s linear 0ms normal none infinite;
-    animation: rg-anim4_ 2.5s linear 0ms normal none infinite;
+    -webkit-animation: an-bush-2_ 2.5s linear 0ms normal none infinite;
+    animation: an-bush-2_ 2.5s linear 0ms normal none infinite;
   }
 
-  .rg-wrap-anim4 {
+  .ag-wind {
     position: absolute;
     top: 475px;
     left: 0;
@@ -140,8 +140,8 @@
     background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/wind.png);
     background-repeat: no-repeat;
 
-    -webkit-animation: rg-anim5 12s linear 0ms normal none infinite;
-    animation: rg-anim5 12s linear 0ms normal none infinite;
+    -webkit-animation: an-wind 12s linear 0ms normal none infinite;
+    animation: an-wind 12s linear 0ms normal none infinite;
   }
 
   .ag-hawk {
@@ -156,8 +156,8 @@
     -webkit-transform: scale(0.25);
     transform: scale(0.25);
 
-    -webkit-animation: rg-anim1 40s linear 0ms normal none infinite;
-    animation: rg-anim1 40s linear 0ms normal none infinite;
+    -webkit-animation: an-hawk 40s linear 0ms normal none infinite;
+    animation: an-hawk 40s linear 0ms normal none infinite;
   }
   .ag-hawk_wing-right {
     position: absolute;
@@ -166,11 +166,11 @@
     width: 2px;
     height: 2px;
 
-    -webkit-animation: rg-anim-hawk-wing-right 3s linear 0ms normal none infinite;
-    animation: rg-anim-hawk-wing-right 3s linear 0ms normal none infinite;
+    -webkit-animation: an-hawk-wing-right 3s linear 0ms normal none infinite;
+    animation: an-hawk-wing-right 3s linear 0ms normal none infinite;
   }
   .ag-hawk_wing-right:before {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     top: -102px;
@@ -188,8 +188,8 @@
     background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/hawk-body.png);
     background-repeat: no-repeat;
 
-    -webkit-animation: rg-anim-hawk-body 3s linear 0ms normal none infinite;
-    animation: rg-anim-hawk-body 3s linear 0ms normal none infinite;
+    -webkit-animation: an-hawk-body 3s linear 0ms normal none infinite;
+    animation: an-hawk-body 3s linear 0ms normal none infinite;
   }
   .ag-hawk_wing-left {
     position: absolute;
@@ -198,11 +198,11 @@
     width: 2px;
     height: 2px;
 
-    -webkit-animation: rg-anim-hawk-wing-left 3s linear 0ms normal none infinite;
-    animation: rg-anim-hawk-wing-left 3s linear 0ms normal none infinite;
+    -webkit-animation: an-hawk-wing-left 3s linear 0ms normal none infinite;
+    animation: an-hawk-wing-left 3s linear 0ms normal none infinite;
   }
   .ag-hawk_wing-left:before {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     top: -85px;
@@ -212,39 +212,7 @@
     background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/hawk-wing-left.png)
   }
 
-  @-webkit-keyframes rg-anim1 {
-    0% {
-      top:100px;
-      left:0;
-      margin-left:-325px
-    }
-    75% {
-      top:-100px;
-      left:100%;
-      margin-left:0
-    }
-    to {
-      left:100%;
-      margin-left:0
-    }
-  }
-  @keyframes rg-anim1 {
-    0% {
-      top:100px;
-      left:0;
-      margin-left:-325px
-    }
-    75% {
-      top:-100px;
-      left:100%;
-      margin-left:0
-    }
-    to {
-      left:100%;
-      margin-left:0
-    }
-  }
-  @-webkit-keyframes rg-anim2 {
+  @-webkit-keyframes an-bush {
     0% {
       -webkit-transform:scale(1) rotate(-3deg) translate(-1px);
       transform:scale(1) rotate(-3deg) translate(-1px)
@@ -266,7 +234,7 @@
       transform:scale(1) rotate(-3deg) translate(-1px)
     }
   }
-  @keyframes rg-anim2 {
+  @keyframes an-bush {
     0% {
       -webkit-transform:scale(1) rotate(-3deg) translate(-1px);
       transform:scale(1) rotate(-3deg) translate(-1px)
@@ -286,38 +254,10 @@
     to {
       -webkit-transform:scale(1) rotate(-3deg) translate(-1px);
       transform:scale(1) rotate(-3deg) translate(-1px)
-    }
-  }
-  @-webkit-keyframes rg-anim3 {
-    0% {
-      left: 0;
-      margin-left: -150px
-    }
-    70% {
-      left: 100%;
-      margin-left: 150px
-    }
-    to {
-      left: 100%;
-      margin-left: 150px
-    }
-  }
-  @keyframes rg-anim3 {
-    0% {
-      left: 0;
-      margin-left: -150px
-    }
-    70% {
-      left: 100%;
-      margin-left: 150px
-    }
-    to {
-      left: 100%;
-      margin-left: 150px
     }
   }
 
-  @-webkit-keyframes rg-anim4 {
+  @-webkit-keyframes an-bush-2 {
     0% {
       bottom: 2rem;
       -webkit-animation-timing-function: ease-in;
@@ -344,7 +284,7 @@
       animation-timing-function: ease-in;
     }
   }
-  @keyframes rg-anim4 {
+  @keyframes an-bush-2 {
     0% {
       bottom: 2rem;
       -webkit-animation-timing-function: ease-in;
@@ -371,7 +311,7 @@
       animation-timing-function: ease-in;
     }
   }
-  @-webkit-keyframes rg-anim4_ {
+  @-webkit-keyframes an-bush-2_ {
     0% {
       -webkit-transform: scale(1) rotate(0deg);
       transform: scale(1) rotate(0deg);
@@ -381,7 +321,7 @@
       transform: scale(1) rotate(359deg);
     }
   }
-  @keyframes rg-anim4_ {
+  @keyframes an-bush-2_ {
     0% {
       -webkit-transform: scale(1) rotate(0deg);
       transform: scale(1) rotate(0deg);
@@ -391,7 +331,37 @@
       transform: scale(1) rotate(359deg);
     }
   }
-  @-webkit-keyframes rg-anim5 {
+
+  @-webkit-keyframes an-bush-2-shadow {
+    0% {
+      left: 0;
+      margin-left: -150px
+    }
+    70% {
+      left: 100%;
+      margin-left: 150px
+    }
+    to {
+      left: 100%;
+      margin-left: 150px
+    }
+  }
+  @keyframes an-bush-2-shadow {
+    0% {
+      left: 0;
+      margin-left: -150px
+    }
+    70% {
+      left: 100%;
+      margin-left: 150px
+    }
+    to {
+      left: 100%;
+      margin-left: 150px
+    }
+  }
+
+  @-webkit-keyframes an-wind {
     0% {
       left: 0;
       margin-left: -1980px;
@@ -405,7 +375,7 @@
       margin-left: 0;
     }
   }
-  @keyframes rg-anim5 {
+  @keyframes an-wind {
     0% {
       left: 0;
       margin-left: -1980px;
@@ -420,77 +390,40 @@
     }
   }
 
-  @-webkit-keyframes rg-anim6 {
+  @-webkit-keyframes an-hawk {
     0% {
-      background-position: 0 208px;
+      top:100px;
+      left:0;
+      margin-left:-325px
     }
-    10% {
-      background-position: 0 0;
-    }
-    20% {
-      background-position: 0 -208px;
-    }
-    30% {
-      background-position: 0 -416px;
-    }
-    40% {
-      background-position: -1px -624px;
-    }
-    50% {
-      background-position: -1px -832px;
-    }
-    60% {
-      background-position: 0 -1040px;
-    }
-    70% {
-      background-position: 0 -1248px;
-    }
-    80% {
-      background-position: -1px -1456px;
-    }
-    90% {
-      background-position: 0 -1664px;
+    75% {
+      top:-100px;
+      left:100%;
+      margin-left:0
     }
     to {
-      background-position: 0 -1872px;
+      left:100%;
+      margin-left:0
     }
   }
-  @keyframes rg-anim6 {
+  @keyframes an-hawk {
     0% {
-      background-position: 0 208px;
+      top:100px;
+      left:0;
+      margin-left:-325px
     }
-    10% {
-      background-position: 0 0;
-    }
-    20% {
-      background-position: 0 -208px;
-    }
-    30% {
-      background-position: 0 -416px;
-    }
-    40% {
-      background-position: -1px -624px;
-    }
-    50% {
-      background-position: -1px -832px;
-    }
-    60% {
-      background-position: 0 -1040px;
-    }
-    70% {
-      background-position: 0 -1248px;
-    }
-    80% {
-      background-position: -1px -1456px;
-    }
-    90% {
-      background-position: 0 -1664px;
+    75% {
+      top:-100px;
+      left:100%;
+      margin-left:0
     }
     to {
-      background-position: 0 -1872px;
+      left:100%;
+      margin-left:0
     }
   }
-  @-webkit-keyframes rg-anim-hawk-wing-right {
+
+  @-webkit-keyframes an-hawk-wing-right {
     0% {
       -webkit-transform: scale(1) rotate(9deg);
       transform: scale(1) rotate(9deg);
@@ -504,7 +437,7 @@
       transform: scale(1) rotate(9deg);
     }
   }
-  @keyframes rg-anim-hawk-wing-right {
+  @keyframes an-hawk-wing-right {
     0% {
       -webkit-transform: scale(1) rotate(9deg);
       transform: scale(1) rotate(9deg);
@@ -518,35 +451,8 @@
       transform: scale(1) rotate(9deg);
     }
   }
-  @-webkit-keyframes rg-anim-hawk-wing-left {
-    0% {
-      -webkit-transform: scale(1) rotate(-20deg);
-      transform: scale(1) rotate(-20deg);
-    }
-    70% {
-      -webkit-transform: scale(1) rotate(9deg);
-      transform: scale(1) rotate(9deg);
-    }
-    to {
-      -webkit-transform: scale(1) rotate(-20deg);
-      transform: scale(1) rotate(-20deg);
-    }
-  }
-  @keyframes rg-anim-hawk-wing-left {
-    0% {
-      -webkit-transform: scale(1) rotate(-20deg);
-      transform: scale(1) rotate(-20deg);
-    }
-    70% {
-      -webkit-transform: scale(1) rotate(9deg);
-      transform: scale(1) rotate(9deg);
-    }
-    to {
-      -webkit-transform: scale(1) rotate(-20deg);
-      transform: scale(1) rotate(-20deg);
-    }
-  }
-  @-webkit-keyframes rg-anim-hawk-body {
+
+  @-webkit-keyframes an-hawk-body {
     0% {
       -webkit-transform: scale(1) translateY(2px);
       transform: scale(1) translateY(2px);
@@ -560,7 +466,7 @@
       transform: scale(1) translateY(2px);
     }
   }
-  @keyframes rg-anim-hawk-body {
+  @keyframes an-hawk-body {
     0% {
       -webkit-transform: scale(1) translateY(2px);
       transform: scale(1) translateY(2px);
@@ -572,6 +478,35 @@
     to {
       -webkit-transform: scale(1) translateY(2px);
       transform: scale(1) translateY(2px);
+    }
+  }
+
+  @-webkit-keyframes an-hawk-wing-left {
+    0% {
+      -webkit-transform: scale(1) rotate(-20deg);
+      transform: scale(1) rotate(-20deg);
+    }
+    70% {
+      -webkit-transform: scale(1) rotate(9deg);
+      transform: scale(1) rotate(9deg);
+    }
+    to {
+      -webkit-transform: scale(1) rotate(-20deg);
+      transform: scale(1) rotate(-20deg);
+    }
+  }
+  @keyframes an-hawk-wing-left {
+    0% {
+      -webkit-transform: scale(1) rotate(-20deg);
+      transform: scale(1) rotate(-20deg);
+    }
+    70% {
+      -webkit-transform: scale(1) rotate(9deg);
+      transform: scale(1) rotate(9deg);
+    }
+    to {
+      -webkit-transform: scale(1) rotate(-20deg);
+      transform: scale(1) rotate(-20deg);
     }
   }
 </style>
@@ -579,11 +514,9 @@
 <div class="ag-desert-block">
   <div class="ag-desert_box">
     <!--<div class="rg-wrap-anim1"></div>-->
-    <div class="rg-wrap-anim2"></div>
-    <div class="rg-wrap-anim3">
-      <div></div>
-    </div>
-    <div class="rg-wrap-anim4"></div>
+    <div class="aп-bush-1"></div>
+    <div class="aп-bush-2"><div></div></div>
+    <div class="ag-wind"></div>
     <div class="ag-hawk">
       <div class="ag-hawk_wing-right"></div>
       <div class="ag-hawk_body"></div>
