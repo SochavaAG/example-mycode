@@ -20,6 +20,18 @@
 
 <body>
 <style>
+  html, body {
+    height: 100%;
+
+    overflow: hidden;
+  }
+  .ag-girl-block {
+    height: 100%;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl-bottle/images/bg.jpg);
+    background-size: cover;
+
+    position: relative;
+  }
   .hod-girl {
     height: 50em;
     width: 32.3125em;
@@ -190,13 +202,15 @@
   }
 </style>
 
-  <div class="ag-format-container">
-    <div class="hod__girl hod-girl">
-      <div class="hod-girl__lips"></div>
-      <div class="hod-girl__hand hod-girl__hand--right"></div>
-      <div class="hod-girl__hand hod-girl__hand--left"></div>
+    <div class="ag-girl-block">
+      <div class="ag-format-container">
+        <div class="hod__girl hod-girl">
+          <div class="hod-girl__lips"></div>
+          <div class="hod-girl__hand hod-girl__hand--right"></div>
+          <div class="hod-girl__hand hod-girl__hand--left"></div>
+        </div>
+      </div>
     </div>
-  </div>
 
 <!--[if lt IE 9]>
 <script src="libs/IE/html5shiv/es5-shim.min.js"></script>
