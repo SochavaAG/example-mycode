@@ -140,11 +140,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nouislider/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="821">
-              <caret line="281" column="3" lean-forward="false" selection-start-line="281" selection-start-column="3" selection-end-line="281" selection-end-column="3" />
+            <state relative-caret-position="504">
+              <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -167,6 +167,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
               <caret line="2025" column="37" lean-forward="true" selection-start-line="2025" selection-start-column="37" selection-end-line="2025" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nouislider/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="476" column="16" lean-forward="true" selection-start-line="476" selection-start-column="16" selection-end-line="476" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -251,7 +261,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project-1/2021.03.26_FX-22356_news/scheduled-technical-maintenance-march-27-ALL.html" />
         <option value="$USER_HOME$/landing-pages/2021.03.26_landing_great-7-contest/great-7-contest-EN.html" />
         <option value="$PROJECT_DIR$/animation-crystal-sprite/index.html" />
         <option value="$PROJECT_DIR$/animation-crystal-sprite/css/style.css" />
@@ -302,6 +311,7 @@
         <option value="$USER_HOME$/format-2.html" />
         <option value="$PROJECT_DIR$/nouislider/js/main.js" />
         <option value="$PROJECT_DIR$/nouislider/index.html" />
+        <option value="$PROJECT_DIR$/nouislider/css/style.css" />
       </list>
     </option>
   </component>
@@ -516,12 +526,12 @@
       <workItem from="1617733081349" duration="12809000" />
       <workItem from="1617814501093" duration="25661000" />
       <workItem from="1617971390816" duration="564000" />
-      <workItem from="1617973662505" duration="6569000" />
+      <workItem from="1617973662505" duration="6697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="671798000" />
+    <option name="totallyTimeSpent" value="671926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -566,13 +576,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/animation-fog/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-fog/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -914,11 +917,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nouislider/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="281" column="3" lean-forward="false" selection-start-line="281" selection-start-column="3" selection-end-line="281" selection-end-column="3" />
+        <state relative-caret-position="504">
+          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nouislider/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="476" column="16" lean-forward="true" selection-start-line="476" selection-start-column="16" selection-end-line="476" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
