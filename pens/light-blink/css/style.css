@@ -4,6 +4,190 @@
 }
 
 
+body {
+  background: #000;
+}
+.ag-number_list {
+  padding: 150px 0;
+
+  text-align: center;
+}
+.ag-number_item {
+  display: inline-block;
+  margin: 0 50px;
+}
+.ag-number_num {
+  padding-bottom: .2093em;
+
+  font-weight: bold;
+  font-size: 5.375em;
+  color: #FFF;
+
+  z-index: 1;
+
+  -webkit-transition: -webkit-transform 0.4s linear;
+  -moz-transition: -moz-transform 0.4s linear;
+  -o-transition: -o-transform 0.4s linear;
+  transition: transform 0.4s linear, -webkit-transform 0.4s linear, -moz-transform 0.4s linear, -o-transform 0.4s linear;
+}
+.ag-number_light {
+  height: 5em;
+  width: 10.25em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/light-blink/images/target-blue.png) no-repeat center;
+  background-size: cover;
+
+  text-align: center;
+  color: #fffae0;
+
+  image-rendering: -webkit-optimize-contrast;
+
+  position: relative;
+}
+.ag-number_light:before {
+  content: "";
+  height: 24.6875em;
+  width: 24.375em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/light-blink/images/luminescence-blue.png) no-repeat center;
+  background-size: cover;
+
+  opacity: 0;
+
+  position: absolute;
+  top: -370%;
+  left: -64%;
+
+  -webkit-animation: an-luminescence 2s .2s linear infinite;
+  -moz-animation: an-luminescence 2s .2s linear infinite;
+  -o-animation: an-luminescence 2s .2s linear infinite;
+  animation: an-luminescence 2s .2s linear infinite;
+
+  will-change: opacity;
+
+  image-rendering: -webkit-optimize-contrast;
+}
+.ag-number_light:after {
+  content: "";
+  height: 15.5em;
+  width: 12em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/light-blink/images/target-spiral.png) no-repeat center;
+  background-size: cover;
+
+  opacity: 0;
+
+  position: absolute;
+  top: -230%;
+  left: -8%;
+
+  -webkit-animation: an-spiral 2s .4s linear infinite;
+  -moz-animation: an-spiral 2s .4s linear infinite;
+  -o-animation: an-spiral 2s .4s linear infinite;
+  animation: an-spiral 2s .4s linear infinite;
+
+  will-change: opacity, top;
+
+  image-rendering: -webkit-optimize-contrast;
+}
+.ag-number_light-2 {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/light-blink/images/target-red.png)
+}
+.ag-number_light-2:before {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/light-blink/images/luminescence-red.png) no-repeat center;
+  background-size: cover;
+}
+
+@-webkit-keyframes an-luminescence {
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes an-luminescence {
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes an-luminescence {
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes an-luminescence {
+  30% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes an-spiral {
+  40% {
+    opacity: 1;
+  }
+  45% {
+    top: -300%;
+
+    opacity: 1;
+  }
+  100% {
+    top: -380%;
+
+    opacity: 0;
+  }
+}
+@-moz-keyframes an-spiral {
+  40% {
+    opacity: 1;
+  }
+  45% {
+    top: -300%;
+
+    opacity: 1;
+  }
+  100% {
+    top: -380%;
+
+    opacity: 0;
+  }
+}
+@-o-keyframes an-spiral {
+  40% {
+    opacity: 1;
+  }
+  45% {
+    top: -300%;
+
+    opacity: 1;
+  }
+  100% {
+    top: -380%;
+
+    opacity: 0;
+  }
+}
+@keyframes an-spiral {
+  40% {
+    opacity: 1;
+  }
+  45% {
+    top: -300%;
+
+    opacity: 1;
+  }
+  100% {
+    top: -380%;
+
+    opacity: 0;
+  }
+}
 
 
 @media only screen and (max-width: 767px) {

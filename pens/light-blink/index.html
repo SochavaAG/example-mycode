@@ -19,159 +19,17 @@
 </head>
 
 <body>
-<style>
-  .hilo__numbers {
-    display:-webkit-flex;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-justify-content:space-between;
-    -ms-flex-pack:justify;
-    justify-content:space-between;
-    -webkit-align-items:flex-end;
-    -ms-flex-align:end;
-    align-items:flex-end;
-    width:48%;
-    height:12.5em;
-    padding-bottom:.75em;
-  }
-  .hilo__col {
-    display:-webkit-flex;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-flex-direction:column;
-    -ms-flex-direction:column;
-    flex-direction:column;
-    -webkit-align-items:center;
-    -ms-flex-align:center;
-    align-items:center;
-    -webkit-justify-content:space-between;
-    -ms-flex-pack:justify;
-    justify-content:space-between;
-  }
-  .hilo__number {
-    padding-bottom:.2093em;
-
-    font-weight:bold;
-    font-size:5.375em;
-    color:#FFF;
-
-    z-index:1;
-
-    -webkit-transition:-webkit-transform 0.4s linear;
-    -moz-transition: -moz-transform 0.4s linear;
-    -o-transition: -o-transform 0.4s linear;
-    transition:transform 0.4s linear, -webkit-transform 0.4s linear, -moz-transform 0.4s linear, -o-transform 0.4s linear;
-  }
-  .hilo__number.bounce {
-    -webkit-transform:scale(0, 0);
-    transform:scale(0, 0);
-  }
-  .hilo__target {
-    width:10.25em;
-    height:5em;
-    position:relative;
-    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/light-blink/images/target-blue.png) no-repeat center;
-    background-size:cover;
-    text-align:center;
-    color:#fffae0;
-    image-rendering:-webkit-optimize-contrast;
-  }
-  .hilo__target-anim:before {
-    content:'';
-    position:absolute;
-    top:-370%;
-    left:-64%;
-    width:24.375em;
-    height:24.6875em;
-    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/light-blink/images/luminescence-blue.png) no-repeat center;
-    background-size:cover;
-    image-rendering:-webkit-optimize-contrast;
-    opacity:0;
-    -webkit-animation:luminescence 2s .2s linear infinite;
-    animation:luminescence 2s .2s linear infinite;
-    will-change:opacity;
-  }
-  .hilo__target-anim:after {
-    content:'';
-    position:absolute;
-    top:-230%;
-    left:-8%;
-    width:12em;
-    height:15.5em;
-    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/light-blink/images/target-spiral.png) no-repeat center;
-    background-size:cover;
-    image-rendering:-webkit-optimize-contrast;
-    opacity:0;
-    -webkit-animation:spiral 2s .4s linear infinite;
-    animation:spiral 2s .4s linear infinite;
-    will-change:opacity, top;
-  }
-  .hilo__target--red {
-    background-image:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/light-blink/images/target-red.png)
-  }
-  .hilo__target--red:before {
-    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/light-blink/images/luminescence-red.png) no-repeat center;
-    background-size:cover;
-  }
-  @-webkit-keyframes luminescence {
-    30% {
-      opacity:1;
-    }
-    100% {
-      opacity:0;
-    }
-  }
-  @keyframes luminescence {
-    30% {
-      opacity:1;
-    }
-    100% {
-      opacity:0;
-    }
-  }
-  @-webkit-keyframes spiral {
-    40% {
-      opacity:1;
-    }
-    45% {
-      top:-300%;
-
-      opacity:1;
-    }
-    100% {
-      top:-380%;
-
-      opacity:0;
-    }
-  }
-  @keyframes spiral {
-    40% {
-      opacity:1;
-    }
-    45% {
-      top:-300%;
-
-      opacity:1;
-    }
-    100% {
-      top:-380%;
-
-      opacity:0;
-    }
-  }
-</style>
-
   <div class="ag-format-container">
-    <div class="hilo__numbers">
-      <div class="hilo__col">
-        <span class="hilo__number">?</span>
-        <div class="hilo__target hilo__target-anim"></div>
-      </div>
-      <div class="hilo__col">
-        <span class="hilo__number">?</span>
-        <div class="hilo__target hilo__target-anim"></div>
-      </div>
-    </div>
+    <ul class="ag-number_list">
+      <li class="ag-number_item">
+        <span class="ag-number_num">1</span>
+        <div class="ag-number_light ag-number_light-1"></div>
+      </li>
+      <li class="ag-number_item">
+        <span class="ag-number_num">2</span>
+        <div class="ag-number_light ag-number_light-2"></div>
+      </li>
+    </ul>
   </div>
 
 <!--[if lt IE 9]>
