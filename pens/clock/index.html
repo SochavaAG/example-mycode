@@ -20,6 +20,16 @@
 
 <body>
 <style>
+  html, body {
+    height: 100%;
+
+    overflow: hidden;
+  }
+
+  .ag-clock-block {
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/clock/images/clock.png) no-repeat scroll 50% 0;
+    background-size: cover;
+  }
   .ag-clock {
     width: 115px;
     height: 115px;
@@ -52,7 +62,7 @@
     left: 50%;
     top: 50%;
   }
-  
+
   @-webkit-keyframes an-arow {
     100% {
       -webkit-transform: rotate(360deg);
@@ -67,11 +77,13 @@
   }
 </style>
 
+<div class="ag-clock-block">
   <div class="ag-format-container">
     <div class="ag-clock">
       <div class="ag-clock_arow"></div>
     </div>
   </div>
+</div>
 
 <!--[if lt IE 9]>
 <script src="libs/IE/html5shiv/es5-shim.min.js"></script>
