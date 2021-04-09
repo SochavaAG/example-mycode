@@ -1173,6 +1173,40 @@ body {
 }
 /* /barricade-blinker */
 
+/* logo-blink */
+.ag-bottle_logo {
+  width: 62.5em;
+  height: 15.4375em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-flashing/images/sprite-logo-bottle.png) 0 0/100% auto no-repeat;
+
+  -webkit-animation: an-logo-blink 1s steps(2, end) infinite;
+  -moz-animation: an-logo-blink 1s steps(2, end) infinite;
+  -o-animation: an-logo-blink 1s steps(2, end) infinite;
+  animation: an-logo-blink 1s steps(2, end) infinite;
+}
+
+@-webkit-keyframes an-logo-blink {
+  to {
+    background-position: 0 200%;
+  }
+}
+@-moz-keyframes an-logo-blink {
+  to {
+    background-position: 0 200%;
+  }
+}
+@-o-keyframes an-logo-blink {
+  to {
+    background-position: 0 200%;
+  }
+}
+@keyframes an-logo-blink {
+  to {
+    background-position: 0 200%;
+  }
+}
+/* /logo-blink */
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;

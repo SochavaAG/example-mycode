@@ -48,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-flashing/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="88" column="112" lean-forward="false" selection-start-line="88" selection-start-column="94" selection-end-line="88" selection-end-column="112" />
+            <state relative-caret-position="251">
+              <caret line="79" column="10" lean-forward="false" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -61,8 +61,18 @@
       <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-t.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="490" column="1" lean-forward="true" selection-start-line="479" selection-start-column="0" selection-end-line="490" selection-end-column="1" />
+            <state relative-caret-position="495">
+              <caret line="367" column="1" lean-forward="true" selection-start-line="358" selection-start-column="0" selection-end-line="367" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/animation-flashing/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="1179" column="163" lean-forward="false" selection-start-line="1179" selection-start-column="163" selection-end-line="1179" selection-end-column="163" />
               <folding />
             </state>
           </provider>
@@ -72,7 +82,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>flex</find>
       <find>pc_wheel</find>
       <find>.pc_wheel_lamp</find>
       <find>.pc_info_wheel</find>
@@ -102,9 +111,9 @@
       <find>agBody</find>
       <find>ag-locale-site__RTL</find>
       <find>bottle__logo</find>
+      <find>logo-blink</find>
     </findStrings>
     <replaceStrings>
-      <replace>an-sparks</replace>
       <replace>ag-smoke_smoke-2</replace>
       <replace>agToggle</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl/images/</replace>
@@ -134,6 +143,7 @@
       <replace>agRangeValArr</replace>
       <replace>agVolumeValArr</replace>
       <replace>argRangeSlider</replace>
+      <replace>an-logo-blink</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -147,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/animation-crystal-sprite/index.html" />
         <option value="$PROJECT_DIR$/animation-crystal-sprite/css/style.css" />
         <option value="$PROJECT_DIR$/man-with-fire/css/style.css" />
         <option value="$PROJECT_DIR$/man-with-fire/index.html" />
@@ -198,6 +207,7 @@
         <option value="$PROJECT_DIR$/animation-sprite/index.html" />
         <option value="$PROJECT_DIR$/animation-sprite/css/style.css" />
         <option value="$PROJECT_DIR$/animation-flashing/index.html" />
+        <option value="$PROJECT_DIR$/animation-flashing/css/style.css" />
       </list>
     </option>
   </component>
@@ -413,12 +423,12 @@
       <workItem from="1617814501093" duration="25661000" />
       <workItem from="1617971390816" duration="564000" />
       <workItem from="1617973662505" duration="8551000" />
-      <workItem from="1617992942426" duration="343000" />
+      <workItem from="1617992942426" duration="579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="674123000" />
+    <option name="totallyTimeSpent" value="674359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -463,13 +473,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/animation-arrow/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conveyor-mobile/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -787,16 +790,24 @@
     </entry>
     <entry file="file://$USER_HOME$/format-t.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="490" column="1" lean-forward="true" selection-start-line="479" selection-start-column="0" selection-end-line="490" selection-end-column="1" />
+        <state relative-caret-position="495">
+          <caret line="367" column="1" lean-forward="true" selection-start-line="358" selection-start-column="0" selection-end-line="367" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/animation-flashing/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="88" column="112" lean-forward="false" selection-start-line="88" selection-start-column="94" selection-end-line="88" selection-end-column="112" />
+        <state relative-caret-position="251">
+          <caret line="79" column="10" lean-forward="false" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-flashing/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="1179" column="163" lean-forward="false" selection-start-line="1179" selection-start-column="163" selection-end-line="1179" selection-end-column="163" />
           <folding />
         </state>
       </provider>
