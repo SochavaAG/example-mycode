@@ -17,129 +17,149 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="658">
-              <caret line="107" column="25" lean-forward="false" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="1831" column="119" lean-forward="false" selection-start-line="1831" selection-start-column="24" selection-end-line="1831" selection-end-column="119" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/format-t.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="506" column="1" lean-forward="true" selection-start-line="356" selection-start-column="0" selection-end-line="506" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/animation-girl-bottle/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="29" column="10" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="29" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/animation-girl-bottle/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="26" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="192.dcb1988c4e500b3048e7.chunk.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/192.dcb1988c4e500b3048e7.chunk.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cube-spin/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1776">
-              <caret line="199" column="3" lean-forward="false" selection-start-line="199" selection-start-column="3" selection-end-line="199" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cube-spin/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-696">
-              <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buttons/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="25" column="73" lean-forward="false" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-812">
-              <caret line="6574" column="0" lean-forward="false" selection-start-line="6574" selection-start-column="0" selection-end-line="6574" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/case-diamond/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="187" column="108" lean-forward="false" selection-start-line="187" selection-start-column="96" selection-end-line="187" selection-end-column="108" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="658">
+                  <caret line="107" column="25" lean-forward="false" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="563">
+                  <caret line="1831" column="119" lean-forward="false" selection-start-line="1831" selection-start-column="24" selection-end-line="1831" selection-end-column="119" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/format-t.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="269">
+                  <caret line="424" column="14" lean-forward="false" selection-start-line="424" selection-start-column="0" selection-end-line="424" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/animation-girl-bottle/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="696">
+                  <caret line="29" column="10" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="29" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/animation-girl-bottle/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="586">
+                  <caret line="26" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="192.dcb1988c4e500b3048e7.chunk.js" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/Desktop/192.dcb1988c4e500b3048e7.chunk.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cube-spin/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1776">
+                  <caret line="199" column="3" lean-forward="false" selection-start-line="199" selection-start-column="3" selection-end-line="199" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cube-spin/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-696">
+                  <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/buttons/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="490">
+                  <caret line="25" column="73" lean-forward="false" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-812">
+                  <caret line="6574" column="0" lean-forward="false" selection-start-line="6574" selection-start-column="0" selection-end-line="6574" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/case-diamond/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/case-diamond/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-504">
+                  <caret line="216" column="0" lean-forward="true" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/case-diamond/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="341">
+                  <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ag-range-track_list</find>
-      <find>agRangeSlider</find>
-      <find>.noUi-handle</find>
-      <find>js-reward-range</find>
-      <find>agBody</find>
-      <find>ag-locale-site__RTL</find>
-      <find>bottle__logo</find>
-      <find>logo-blink</find>
       <find>garage-stuff__cat</find>
       <find>sprite-cat</find>
       <find>girl</find>
@@ -157,19 +177,21 @@
       <find>startLightAnimation</find>
       <find>rollThem3D</find>
       <find>case</find>
-      <find>--</find>
       <find>sprite-girl</find>
-      <find>sc-content__cases</find>
-      <find>sc-case</find>
       <find>&quot;/default/img/secret_case/</find>
+      <find>sc-case</find>
+      <find>ag-case__coef</find>
+      <find>.sc-case__coef</find>
+      <find>content:'';</find>
+      <find>sc-content__cases</find>
+      <find>ag-case</find>
+      <find>--</find>
+      <find>sc-content__decor</find>
+      <find>ag-case__cell</find>
+      <find>diamond-light</find>
+      <find>glare</find>
     </findStrings>
     <replaceStrings>
-      <replace>__left</replace>
-      <replace>.js-ag-girl_ball__open</replace>
-      <replace>an-coin-shine</replace>
-      <replace>an-open-ball</replace>
-      <replace>.png</replace>
-      <replace>ag-girl_ball__winner</replace>
       <replace>94</replace>
       <replace>ag-base_btn-v96</replace>
       <replace>&gt;</replace>
@@ -191,9 +213,15 @@
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/cube-spin/images/</replace>
       <replace>false</replace>
       <replace>true</replace>
-      <replace>__</replace>
       <replace>an-sprite-girl</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/case-diamond/images/</replace>
+      <replace>ag-case</replace>
+      <replace>content: &quot;&quot;;</replace>
+      <replace>ag-case_box</replace>
+      <replace>__</replace>
+      <replace>ag-case_item</replace>
+      <replace>an-diamond-light</replace>
+      <replace>an-glare</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -207,7 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hero/css/style.css" />
         <option value="$PROJECT_DIR$/aquarium/index.html" />
         <option value="$PROJECT_DIR$/conveyor-mobile/index.html" />
         <option value="$PROJECT_DIR$/conveyor-mobile/css/style.css" />
@@ -258,6 +285,7 @@
         <option value="$PROJECT_DIR$/buttons/css/style.css" />
         <option value="$USER_HOME$/format-t.css" />
         <option value="$PROJECT_DIR$/case-diamond/index.html" />
+        <option value="$PROJECT_DIR$/case-diamond/css/style.css" />
       </list>
     </option>
   </component>
@@ -473,12 +501,12 @@
       <workItem from="1617814501093" duration="25661000" />
       <workItem from="1617971390816" duration="564000" />
       <workItem from="1617973662505" duration="8551000" />
-      <workItem from="1617992942426" duration="5671000" />
+      <workItem from="1617992942426" duration="7976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="679451000" />
+    <option name="totallyTimeSpent" value="681756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -523,7 +551,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/raine/index.html" />
     <entry file="file://$PROJECT_DIR$/raine/css/style.css" />
     <entry file="file://$PROJECT_DIR$/rain/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -862,16 +889,24 @@
     </entry>
     <entry file="file://$USER_HOME$/format-t.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="506" column="1" lean-forward="true" selection-start-line="356" selection-start-column="0" selection-end-line="506" selection-end-column="1" />
+        <state relative-caret-position="269">
+          <caret line="424" column="14" lean-forward="false" selection-start-line="424" selection-start-column="0" selection-end-line="424" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/case-diamond/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="187" column="108" lean-forward="false" selection-start-line="187" selection-start-column="96" selection-end-line="187" selection-end-column="108" />
+        <state relative-caret-position="120">
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case-diamond/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <caret line="216" column="0" lean-forward="true" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
           <folding />
         </state>
       </provider>
