@@ -3,7 +3,281 @@
   margin: 0 auto;
 }
 
+html, body {
+  height: 100%;
 
+  overflow: hidden;
+}
+.ag-girl-block {
+  height: 100%;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl-bottle/images/bg.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  position: relative;
+}
+.ag-girl {
+  height: 50em;
+  width: 32.3125em;
+  margin: 0 auto;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.ag-girl::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl-bottle/images/hd-girl.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+.ag-girl_hand {
+  position: absolute;
+}
+.ag-girl_hand::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+.ag-girl_hand__right {
+  height: 19.625em;
+  width: 12.5em;
+
+  top: 11.875em;
+  left: -7.5em;
+
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
+
+  -webkit-transform-origin: 94% 100%;
+  -moz-transform-origin: 94% 100%;
+  -ms-transform-origin: 94% 100%;
+  -o-transform-origin: 94% 100%;
+  transform-origin: 94% 100%;
+
+  -webkit-animation: an-right-hand-movement 20s ease-in-out infinite;
+  -moz-animation: an-right-hand-movement 20s ease-in-out infinite;
+  -o-animation: an-right-hand-movement 20s ease-in-out infinite;
+  animation: an-right-hand-movement 20s ease-in-out infinite;
+}
+.ag-girl_hand__right::before {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl-bottle/images/hd-girl-hand-right.png);
+}
+.ag-girl_hand__left {
+  height: 25.875em;
+  width: 7.625em;
+
+  top: 4.75em;
+  right: -1.875em;
+
+  -webkit-transform-origin: 19% 100%;
+  -moz-transform-origin: 19% 100%;
+  -ms-transform-origin: 19% 100%;
+  -o-transform-origin: 19% 100%;
+  transform-origin: 19% 100%;
+
+  -webkit-animation: an-left-hand-movement 20s ease-in-out infinite;
+  -moz-animation: an-left-hand-movement 20s ease-in-out infinite;
+  -o-animation: an-left-hand-movement 20s ease-in-out infinite;
+  animation: an-left-hand-movement 20s ease-in-out infinite;
+}
+.ag-girl_hand__left::before {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl-bottle/images/hd-girl-hand-left.png);
+}
+.ag-girl_lips {
+  height: 1.5em;
+  width: 1.9375em;
+
+  position: absolute;
+  top: 11em;
+  left: 12.875em;
+
+  -webkit-transform-origin: 0 50%;
+  -moz-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  -o-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+
+  -webkit-animation: an-girl-smiling 20s linear infinite;
+  -moz-animation: an-girl-smiling 20s linear infinite;
+  -o-animation: an-girl-smiling 20s linear infinite;
+  animation: an-girl-smiling 20s linear infinite;
+}
+.ag-girl_lips::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-girl-bottle/images/hd-girl-lips.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+@-webkit-keyframes an-right-hand-movement {
+  0%, 20%, 100% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  10% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@-moz-keyframes an-right-hand-movement {
+  0%, 20%, 100% {
+    -moz-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  10% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@-o-keyframes an-right-hand-movement {
+  0%, 20%, 100% {
+    -o-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  10% {
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@keyframes an-right-hand-movement {
+  0%, 20%, 100% {
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+  10% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes an-left-hand-movement {
+  0%, 20%, 40%, 100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  30% {
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+}
+@-moz-keyframes an-left-hand-movement {
+  0%, 20%, 40%, 100% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  30% {
+    -moz-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+}
+@-o-keyframes an-left-hand-movement {
+  0%, 20%, 40%, 100% {
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  30% {
+    -o-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+}
+@keyframes an-left-hand-movement {
+  0%, 20%, 40%, 100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  30% {
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    transform: rotate(10deg);
+  }
+}
+
+@-webkit-keyframes an-girl-smiling {
+  0%, 5%, 10%, 100% {
+    -webkit-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+  }
+  2.5%, 7.5% {
+    -webkit-transform: rotate(-2deg) scale(1.08, 1);
+    transform: rotate(-2deg) scale(1.08, 1);
+  }
+}
+@-moz-keyframes an-girl-smiling {
+  0%, 5%, 10%, 100% {
+    -moz-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+  }
+  2.5%, 7.5% {
+    -moz-transform: rotate(-2deg) scale(1.08, 1);
+    transform: rotate(-2deg) scale(1.08, 1);
+  }
+}
+@-o-keyframes an-girl-smiling {
+  0%, 5%, 10%, 100% {
+    -o-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+  }
+  2.5%, 7.5% {
+    -o-transform: rotate(-2deg) scale(1.08, 1);
+    transform: rotate(-2deg) scale(1.08, 1);
+  }
+}
+@keyframes an-girl-smiling {
+  0%, 5%, 10%, 100% {
+    -webkit-transform: rotate(0deg) scale(1);
+    -moz-transform: rotate(0deg) scale(1);
+    -o-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+  }
+  2.5%, 7.5% {
+    -webkit-transform: rotate(-2deg) scale(1.08, 1);
+    -moz-transform: rotate(-2deg) scale(1.08, 1);
+    -o-transform: rotate(-2deg) scale(1.08, 1);
+    transform: rotate(-2deg) scale(1.08, 1);
+  }
+}
 
 
 @media only screen and (max-width: 767px) {

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Cube spin</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .hod-cubes__elem {
+    -webkit-animation:cube-flying 25s ease-in-out infinite;
+    animation:cube-flying 25s ease-in-out infinite;
+  }
+  .hod-cubes__elem:first-of-type {
+    -webkit-animation-duration:20s;
+    animation-duration:20s;
+  }
+  @-webkit-keyframes cube-flying {
+    0%, 20%, 40%, 60%, 80%, 100% {
+      -webkit-transform:translateY(-5%);
+      transform:translateY(-5%);
+    }
+    10%, 30%, 50%, 70%, 90% {
+      -webkit-transform:translateY(10%);
+      transform:translateY(10%);
+    }
+  }
+  @keyframes cube-flying {
+    0%, 20%, 40%, 60%, 80%, 100% {
+      -webkit-transform:translateY(-5%);
+      transform:translateY(-5%);
+    }
+    10%, 30%, 50%, 70%, 90% {
+      -webkit-transform:translateY(10%);
+      transform:translateY(10%);
+    }
+  }
+  .hod-cubes__wrap {
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    position:relative;
+    z-index:1;
+    -webkit-align-items:flex-end;
+    -ms-flex-align:end;
+    align-items:flex-end;
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    padding-bottom:1.5625em;
+    width:100%;
+    height:100%;
+  }
+
+  .hod-cube {
+    position:relative;
+    width:8.125em;
+    height:8.125em;
+    margin:0em 2.5em;
+    -webkit-perspective:31.25em;
+    perspective:31.25em
+  }
+  .hod-cube:last-of-type .hod-cube__body {
+    -webkit-animation-duration:30s;
+    animation-duration:30s;
+    animation-direction:reverse
+  }
+  .hod-cube--size-l {
+    width:6.25em;
+    height:6.25em;
+    margin-bottom:1.875em
+  }
+  .hod-cube--size-l .hod-cube__side {
+    border-radius:1.25em
+  }
+  .hod-cube--size-l .hod-cube__side--1 {
+    -webkit-transform:translateZ(3.0625em);
+    transform:translateZ(3.0625em)
+  }
+  .hod-cube--size-l .hod-cube__side--2 {
+    -webkit-transform:rotateY(90deg) translateZ(3.0625em);
+    transform:rotateY(90deg) translateZ(3.0625em)
+  }
+  .hod-cube--size-l .hod-cube__side--3 {
+    -webkit-transform:rotateX(90deg) translateZ(3.0625em);
+    transform:rotateX(90deg) translateZ(3.0625em)
+  }
+  .hod-cube--size-l .hod-cube__side--4 {
+    -webkit-transform:rotateX(-90deg) translateZ(3.0625em);
+    transform:rotateX(-90deg) translateZ(3.0625em)
+  }
+  .hod-cube--size-l .hod-cube__side--5 {
+    -webkit-transform:rotateY(-90deg) translateZ(3.0625em);
+    transform:rotateY(-90deg) translateZ(3.0625em)
+  }
+  .hod-cube--size-l .hod-cube__side--6 {
+    -webkit-transform:rotateY(180deg) translateZ(3.0625em);
+    transform:rotateY(180deg) translateZ(3.0625em)
+  }
+  .hod-cube--size-l .hod-cube__side--face-1 {
+    -webkit-transform:translateZ(3.125em);
+    transform:translateZ(3.125em)
+  }
+  .hod-cube--size-l .hod-cube__side--face-2 {
+    -webkit-transform:rotateY(90deg) translateZ(3.125em);
+    transform:rotateY(90deg) translateZ(3.125em)
+  }
+  .hod-cube--size-l .hod-cube__side--face-3 {
+    -webkit-transform:rotateX(90deg) translateZ(3.125em);
+    transform:rotateX(90deg) translateZ(3.125em)
+  }
+  .hod-cube--size-l .hod-cube__side--face-4 {
+    -webkit-transform:rotateX(-90deg) translateZ(3.125em);
+    transform:rotateX(-90deg) translateZ(3.125em)
+  }
+  .hod-cube--size-l .hod-cube__side--face-5 {
+    -webkit-transform:rotateY(-90deg) translateZ(3.125em);
+    transform:rotateY(-90deg) translateZ(3.125em)
+  }
+  .hod-cube--size-l .hod-cube__side--face-6 {
+    -webkit-transform:rotateY(180deg) translateZ(3.125em);
+    transform:rotateY(180deg) translateZ(3.125em)
+  }
+  .hod-cube__body {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    -webkit-transform-style:preserve-3d;
+    transform-style:preserve-3d;
+  }
+  @-webkit-keyframes overunder-spin {
+    0% {
+      -webkit-transform:rotateY(45deg) rotateX(45deg) rotateZ(45deg);
+      transform:rotateY(45deg) rotateX(45deg) rotateZ(45deg)
+    }
+    100% {
+      -webkit-transform:rotateY(-315deg) rotateX(45deg) rotateZ(45deg);
+      transform:rotateY(-315deg) rotateX(45deg) rotateZ(45deg)
+    }
+  }
+  @keyframes overunder-spin {
+    0% {
+      -webkit-transform:rotateY(45deg) rotateX(45deg) rotateZ(45deg);
+      transform:rotateY(45deg) rotateX(45deg) rotateZ(45deg)
+    }
+    100% {
+      -webkit-transform:rotateY(-315deg) rotateX(45deg) rotateZ(45deg);
+      transform:rotateY(-315deg) rotateX(45deg) rotateZ(45deg)
+    }
+  }
+  .hod-cube__side {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border-radius:1.625em;
+    background-color:#b9b9bb;
+    -webkit-transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+  }
+  .hod-cube__side--fill {
+    border-radius:0;
+    background-color:transparent
+  }
+  .hod-cube__side--1 {
+    -webkit-transform:translateZ(4em);
+    transform:translateZ(4em)
+  }
+  .hod-cube__side--2 {
+    -webkit-transform:rotateY(90deg) translateZ(4em);
+    transform:rotateY(90deg) translateZ(4em)
+  }
+  .hod-cube__side--3 {
+    -webkit-transform:rotateX(90deg) translateZ(4em);
+    transform:rotateX(90deg) translateZ(4em)
+  }
+  .hod-cube__side--4 {
+    -webkit-transform:rotateX(-90deg) translateZ(4em);
+    transform:rotateX(-90deg) translateZ(4em)
+  }
+  .hod-cube__side--5 {
+    -webkit-transform:rotateY(-90deg) translateZ(4em);
+    transform:rotateY(-90deg) translateZ(4em)
+  }
+  .hod-cube__side--6 {
+    -webkit-transform:rotateY(180deg) translateZ(4em);
+    transform:rotateY(180deg) translateZ(4em)
+  }
+  .hod-cube__side--face {
+    image-rendering:-webkit-optimize-contrast;
+    image-rendering:crisp-edges;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/cube-spin/images/hd-cube-faces.png) no-repeat 50% 0/100% 600%
+  }
+  .hod-cube__side--face-1 {
+    background-position-y:0%
+  }
+  .hod-cube__side--face-2 {
+    background-position-y:20%
+  }
+  .hod-cube__side--face-3 {
+    background-position-y:40%
+  }
+  .hod-cube__side--face-4 {
+    background-position-y:60%
+  }
+  .hod-cube__side--face-5 {
+    background-position-y:80%
+  }
+  .hod-cube__side--face-6 {
+    background-position-y:100%
+  }
+  .hod-cube__side--face-1 {
+    -webkit-transform:translateZ(4.0625em);
+    transform:translateZ(4.0625em);
+  }
+  .hod-cube__side--face-2 {
+    -webkit-transform:rotateY(90deg) translateZ(4.0625em);
+    transform:rotateY(90deg) translateZ(4.0625em)
+  }
+  .hod-cube__side--face-3 {
+    -webkit-transform:rotateX(90deg) translateZ(4.0625em);
+    transform:rotateX(90deg) translateZ(4.0625em)
+  }
+  .hod-cube__side--face-4 {
+    -webkit-transform:rotateX(-90deg) translateZ(4.0625em);
+    transform:rotateX(-90deg) translateZ(4.0625em)
+  }
+  .hod-cube__side--face-5 {
+    -webkit-transform:rotateY(-90deg) translateZ(4.0625em);
+    transform:rotateY(-90deg) translateZ(4.0625em)
+  }
+  .hod-cube__side--face-6 {
+    -webkit-transform:rotateY(180deg) translateZ(4.0625em);
+    transform:rotateY(180deg) translateZ(4.0625em)
+  }
+  .hod-cube__side--x {
+    -webkit-transform:rotateX(90deg);
+    transform:rotateX(90deg)
+  }
+  .hod-cube__side--y {
+    -webkit-transform:rotateY(90deg);
+    transform:rotateY(90deg)
+  }
+  .hod-cube__side--z {
+    -webkit-transform:rotate3d(0, 0, 0, 0deg);
+    transform:rotate3d(0, 0, 0, 0deg)
+  }
+</style>
+
+  <div class="ag-format-container">
+    <div class="hod-cubes__wrap">
+      <div class="hod-cubes__elem hod-cube hod-cube--size-l">
+        <div id="3ddice1" class="hod-cube__body">
+          <div class="hod-cube__side hod-cube__side--1"></div>
+          <div class="hod-cube__side hod-cube__side--face hod-cube__side--face-1"></div>
+          <div class="hod-cube__side hod-cube__side--2"></div>
+          <div class="hod-cube__side hod-cube__side--face hod-cube__side--face-2"></div>
+          <div class="hod-cube__side hod-cube__side--3"></div>
+          <div class="hod-cube__side hod-cube__side--face hod-cube__side--face-3"></div>
+          <div class="hod-cube__side hod-cube__side--4"></div>
+          <div class="hod-cube__side hod-cube__side--face hod-cube__side--face-4"></div>
+          <div class="hod-cube__side hod-cube__side--5"></div>
+          <div class="hod-cube__side hod-cube__side--face hod-cube__side--face-5"></div>
+          <div class="hod-cube__side hod-cube__side--6"></div>
+          <div class="hod-cube__side hod-cube__side--face hod-cube__side--face-6"></div>
+          <div class="hod-cube__side hod-cube__side--fill hod-cube__side--x"></div>
+          <div class="hod-cube__side hod-cube__side--fill hod-cube__side--y"></div>
+          <div class="hod-cube__side hod-cube__side--fill hod-cube__side--z"></div>
+        </div>
+      </div>
+      <div class="hod-cubes__elem hod-cube">
+        <div id="3ddice2" class="hod-cube__body">
+          <div class="hod-cube__side hod-cube__side--1 hod-cube__side--z"></div>
+          <div class="hod-cube__side hod-cube__side--face hod-cube__side--face-1"></div>
+          <div class="hod-cube__side hod-cube__side--2"></div>
+          <div class="hod-cube__side hod-cube__side--face hod-cube__side--face-2"></div>
+          <div class="hod-cube__side hod-cube__side--3"></div>
+          <div class="hod-cube__side hod-cube__side--face hod-cube__side--face-3"></div>
+          <div class="hod-cube__side hod-cube__side--4"></div>
+          <div class="hod-cube__side hod-cube__side--face hod-cube__side--face-4"></div>
+          <div class="hod-cube__side hod-cube__side--5"></div>
+          <div class="hod-cube__side hod-cube__side--face hod-cube__side--face-5"></div>
+          <div class="hod-cube__side hod-cube__side--6"></div>
+          <div class="hod-cube__side hod-cube__side--face hod-cube__side--face-6"></div>
+          <div class="hod-cube__side hod-cube__side--fill hod-cube__side--x"></div>
+          <div class="hod-cube__side hod-cube__side--fill hod-cube__side--y"></div>
+          <div class="hod-cube__side hod-cube__side--fill hod-cube__side--z"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
