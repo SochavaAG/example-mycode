@@ -41,8 +41,8 @@
       <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-t.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="1853" column="67" lean-forward="false" selection-start-line="1853" selection-start-column="24" selection-end-line="1853" selection-end-column="67" />
+            <state relative-caret-position="485">
+              <caret line="506" column="1" lean-forward="true" selection-start-line="356" selection-start-column="0" selection-end-line="506" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -72,7 +72,7 @@
         <entry file="file://$USER_HOME$/Desktop/192.dcb1988c4e500b3048e7.chunk.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+              <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -82,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/cube-spin/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1776">
-              <caret line="199" column="3" lean-forward="true" selection-start-line="199" selection-start-column="3" selection-end-line="199" selection-end-column="3" />
+              <caret line="199" column="3" lean-forward="false" selection-start-line="199" selection-start-column="3" selection-end-line="199" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -108,11 +108,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="-812">
               <caret line="6574" column="0" lean-forward="false" selection-start-line="6574" selection-start-column="0" selection-end-line="6574" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/case-diamond/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="545">
+              <caret line="187" column="108" lean-forward="false" selection-start-line="187" selection-start-column="96" selection-end-line="187" selection-end-column="108" />
               <folding />
             </state>
           </provider>
@@ -122,10 +132,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rangeVal</find>
-      <find>https://cdn.onesignal.com/sdks/OneSignalSDK.js</find>
-      <find>https://cdn.onesignal.com/sdks/OneSignalSDKWorker.js</find>
-      <find>.ag-range_box</find>
       <find>ag-range-track_list</find>
       <find>agRangeSlider</find>
       <find>.noUi-handle</find>
@@ -141,10 +147,8 @@
       <find>hod-girl</find>
       <find>hod-cubes__wrap</find>
       <find>hod-cube</find>
-      <find>--</find>
       <find>hod-cubes__elem</find>
       <find>hod-bets</find>
-      <find>sprite-girl</find>
       <find>hod-cube-</find>
       <find>3ddice2</find>
       <find>&quot;/default/img/games/hotdice/</find>
@@ -152,9 +156,14 @@
       <find>!0</find>
       <find>startLightAnimation</find>
       <find>rollThem3D</find>
+      <find>case</find>
+      <find>--</find>
+      <find>sprite-girl</find>
+      <find>sc-content__cases</find>
+      <find>sc-case</find>
+      <find>&quot;/default/img/secret_case/</find>
     </findStrings>
     <replaceStrings>
-      <replace>agWolf</replace>
       <replace>__left</replace>
       <replace>.js-ag-girl_ball__open</replace>
       <replace>an-coin-shine</replace>
@@ -179,11 +188,12 @@
       <replace>an-logo-blink</replace>
       <replace>an-sprite-cat</replace>
       <replace>ag-girl</replace>
-      <replace>an-sprite-girl</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/cube-spin/images/</replace>
       <replace>false</replace>
-      <replace>__</replace>
       <replace>true</replace>
+      <replace>__</replace>
+      <replace>an-sprite-girl</replace>
+      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/case-diamond/images/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -197,7 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hero/index.html" />
         <option value="$PROJECT_DIR$/hero/css/style.css" />
         <option value="$PROJECT_DIR$/aquarium/index.html" />
         <option value="$PROJECT_DIR$/conveyor-mobile/index.html" />
@@ -243,11 +252,12 @@
         <option value="$PROJECT_DIR$/animation-girl-bottle/index.html" />
         <option value="$PROJECT_DIR$/animation-girl-bottle/css/style.css" />
         <option value="$USER_HOME$/Desktop/192.dcb1988c4e500b3048e7.chunk.js" />
-        <option value="$USER_HOME$/format-t.css" />
         <option value="$PROJECT_DIR$/cube-spin/index.html" />
         <option value="$PROJECT_DIR$/cube-spin/js/main.js" />
         <option value="$PROJECT_DIR$/buttons/index.html" />
         <option value="$PROJECT_DIR$/buttons/css/style.css" />
+        <option value="$USER_HOME$/format-t.css" />
+        <option value="$PROJECT_DIR$/case-diamond/index.html" />
       </list>
     </option>
   </component>
@@ -463,12 +473,12 @@
       <workItem from="1617814501093" duration="25661000" />
       <workItem from="1617971390816" duration="564000" />
       <workItem from="1617973662505" duration="8551000" />
-      <workItem from="1617992942426" duration="4957000" />
+      <workItem from="1617992942426" duration="5671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="678737000" />
+    <option name="totallyTimeSpent" value="679451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -513,7 +523,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/raine/js/main.js" />
     <entry file="file://$PROJECT_DIR$/raine/index.html" />
     <entry file="file://$PROJECT_DIR$/raine/css/style.css" />
     <entry file="file://$PROJECT_DIR$/rain/index.html">
@@ -795,34 +804,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-girl-bottle/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" column="10" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="29" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="1831" column="119" lean-forward="false" selection-start-line="1831" selection-start-column="24" selection-end-line="1831" selection-end-column="119" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="1853" column="67" lean-forward="false" selection-start-line="1853" selection-start-column="24" selection-end-line="1853" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cube-spin/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1776">
-          <caret line="199" column="3" lean-forward="true" selection-start-line="199" selection-start-column="3" selection-end-line="199" selection-end-column="3" />
+          <caret line="199" column="3" lean-forward="false" selection-start-line="199" selection-start-column="3" selection-end-line="199" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -830,7 +815,7 @@
     <entry file="file://$USER_HOME$/Desktop/192.dcb1988c4e500b3048e7.chunk.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -853,8 +838,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="-812">
           <caret line="6574" column="0" lean-forward="false" selection-start-line="6574" selection-start-column="0" selection-end-line="6574" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-girl-bottle/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="29" column="10" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="29" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="1831" column="119" lean-forward="false" selection-start-line="1831" selection-start-column="24" selection-end-line="1831" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-t.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="506" column="1" lean-forward="true" selection-start-line="356" selection-start-column="0" selection-end-line="506" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/case-diamond/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="187" column="108" lean-forward="false" selection-start-line="187" selection-start-column="96" selection-end-line="187" selection-end-column="108" />
           <folding />
         </state>
       </provider>
