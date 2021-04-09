@@ -212,6 +212,44 @@ body {
 }
 /* /arm */
 
+/* lever */
+.ag-lever {
+  height: 23.1875em;
+  width: 6.75em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/lever.png) 100% 0 no-repeat;
+  background-size: 100% auto;
+
+  cursor: pointer;
+}
+.js-ag-lever_avtive {
+  -webkit-animation: an-lever 1s steps(4, end) forwards;
+  -moz-animation: an-lever 1s steps(4, end) forwards;
+  -o-animation: an-lever 1s steps(4, end) forwards;
+  animation: an-lever 1s steps(4, end) forwards;
+}
+
+@-webkit-keyframes an-lever {
+  to {
+    background-position: 100% 100%;
+  }
+}
+@-moz-keyframes an-lever {
+  to {
+    background-position: 100% 100%;
+  }
+}
+@-o-keyframes an-lever {
+  to {
+    background-position: 100% 100%;
+  }
+}
+@keyframes an-lever {
+  to {
+    background-position: 100% 100%;
+  }
+}
+/* /lever */
+
 /* ball */
 .ag-ball {
   display: inline-block;
