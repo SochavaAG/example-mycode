@@ -6603,6 +6603,29 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 }
 /* /button 105 */
 
+/* button 106 */
+.ag-base_btn-v106 {
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+
+  -webkit-box-shadow: 0 0 .9375em .3125em transparent, inset 0 .0625em .125em .1875em #0a3da5, inset 0 1.0625em .125em -.5em rgba(255, 255, 255, 0.8), inset 0 .8125em .8125em .25em #2377ce, inset 0 3.75em 0 0 #409ebd;
+  -moz-box-shadow: 0 0 .9375em .3125em transparent, inset 0 .0625em .125em .1875em #0a3da5, inset 0 1.0625em .125em -.5em rgba(255, 255, 255, 0.8), inset 0 .8125em .8125em .25em #2377ce, inset 0 3.75em 0 0 #409ebd;
+  -o-box-shadow: 0 0 .9375em .3125em transparent, inset 0 .0625em .125em .1875em #0a3da5, inset 0 1.0625em .125em -.5em rgba(255, 255, 255, 0.8), inset 0 .8125em .8125em .25em #2377ce, inset 0 3.75em 0 0 #409ebd;
+  box-shadow: 0 0 .9375em .3125em transparent, inset 0 .0625em .125em .1875em #0a3da5, inset 0 1.0625em .125em -.5em rgba(255, 255, 255, 0.8), inset 0 .8125em .8125em .25em #2377ce, inset 0 3.75em 0 0 #409ebd;
+
+  transition: box-shadow .3s .1s linear;
+}
+.ag-base_btn-v106:hover {
+  will-change: box-shadow;
+
+  -webkit-box-shadow: 0 0 .9375em .3125em #398bac, inset 0 .0625em .125em .1875em #0a3da5, inset 0 1.0625em .125em -.5em rgba(255, 255, 255, 0.8), inset 0 .8125em .8125em .25em #2377ce, inset 0 3.75em 0 0 #409ebd;
+  -moz-box-shadow: 0 0 .9375em .3125em #398bac, inset 0 .0625em .125em .1875em #0a3da5, inset 0 1.0625em .125em -.5em rgba(255, 255, 255, 0.8), inset 0 .8125em .8125em .25em #2377ce, inset 0 3.75em 0 0 #409ebd;
+  -o-box-shadow: 0 0 .9375em .3125em #398bac, inset 0 .0625em .125em .1875em #0a3da5, inset 0 1.0625em .125em -.5em rgba(255, 255, 255, 0.8), inset 0 .8125em .8125em .25em #2377ce, inset 0 3.75em 0 0 #409ebd;
+  box-shadow: 0 0 .9375em .3125em #398bac, inset 0 .0625em .125em .1875em #0a3da5, inset 0 1.0625em .125em -.5em rgba(255, 255, 255, 0.8), inset 0 .8125em .8125em .25em #2377ce, inset 0 3.75em 0 0 #409ebd;
+}
+/* /button 106 */
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;

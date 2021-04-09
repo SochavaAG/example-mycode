@@ -214,8 +214,10 @@ body {
 
 /* lever */
 .ag-lever {
+  display: inline-block;
   height: 23.1875em;
   width: 6.75em;
+  margin: 0 20px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/lever.png) 100% 0 no-repeat;
   background-size: 100% auto;
 
@@ -255,7 +257,6 @@ body {
   display: inline-block;
   height: 100px;
   width: 120px;
-  margin: 0 0 0 100px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/ball.png) no-repeat scroll 0 0;
 
   -webkit-animation: an-ball-rotate 1.5s step-start 0s normal none infinite running;
