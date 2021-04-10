@@ -1052,34 +1052,73 @@ body {
 /* fire-freespins */
 .ag-fire-freespins {
   display: inline-block;
-  width: 23.75em;
-  height: 23.3125em;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/fire-refresh-sprite.png) 0 0/800% 100% no-repeat;
+  height: 18.65em;
+  width: 19em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/fire-freespins.png) 0 0/800% 100% no-repeat;
 
-  -webkit-animation: an-fire-freespins 1.5s steps(59, start) infinite;
-  -moz-animation: an-fire-freespins 1.5s steps(59, start) infinite;
-  -o-animation: an-fire-freespins 1.5s steps(59, start) infinite;
-  animation: an-fire-freespins 1.5s steps(59, start) infinite;
+  -webkit-animation: an-freespins-fire 1s steps(7) infinite;
+  -moz-animation: an-freespins-fire 1s steps(7) infinite;
+  -o-animation: an-freespins-fire 1s steps(7) infinite;
+  animation: an-freespins-fire 1s steps(7) infinite;
 }
 
-@-webkit-keyframes an-fire-freespins {
-  to {
+@-webkit-keyframes an-freespins-fire {
+  0% {
+    background-position-x: 0;
+    opacity: 0;
+  }
+  2% {
+    opacity: 1
+  }
+  100% {
     background-position-x: 100%;
+
+    opacity: 1;
   }
 }
-@-moz-keyframes an-fire-freespins {
-  to {
+@-moz-keyframes an-freespins-fire {
+  0% {
+    background-position-x: 0;
+
+    opacity: 0;
+  }
+  2% {
+    opacity: 1
+  }
+  100% {
     background-position-x: 100%;
+
+    opacity: 1;
   }
 }
-@-o-keyframes an-fire-freespins {
-  to {
+@-o-keyframes an-freespins-fire {
+  0% {
+    background-position-x: 0;
+
+    opacity: 0;
+  }
+  2% {
+    opacity: 1
+  }
+  100% {
     background-position-x: 100%;
+
+    opacity: 1;
   }
 }
-@keyframes an-fire-freespins {
-  to {
+@keyframes an-freespins-fire {
+  0% {
+    background-position-x: 0;
+
+    opacity: 0;
+  }
+  2% {
+    opacity: 1
+  }
+  100% {
     background-position-x: 100%;
+
+    opacity: 1;
   }
 }
 /* /fire-freespins */
