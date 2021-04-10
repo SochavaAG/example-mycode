@@ -21,20 +21,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="161" selection-end-column="6" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="504">
+              <caret line="123" column="32" lean-forward="false" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="271" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2933" selection-end-column="0" />
+            <state relative-caret-position="544">
+              <caret line="2257" column="13" lean-forward="true" selection-start-line="2257" selection-start-column="13" selection-end-line="2257" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -94,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-sprite/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
@@ -108,8 +106,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rg-wrap-anim5-1</find>
-      <find>rg-wrap</find>
       <find>rg-anim</find>
       <find>@-webkit-keyframes</find>
       <find>rg-wrap-anim5</find>
@@ -138,11 +134,10 @@
       <find>changeHeight</find>
       <find>sprite-girl</find>
       <find>changePos</find>
+      <find>forwards</find>
+      <find>granma</find>
     </findStrings>
     <replaceStrings>
-      <replace>an-glare</replace>
-      <replace>content: &quot;&quot;;</replace>
-      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/desert/images/</replace>
       <replace>ag-desert_box</replace>
       <replace>ag-hawk</replace>
       <replace>ag-hawk_body</replace>
@@ -170,6 +165,9 @@
       <replace>an-change-height</replace>
       <replace>an-sprite-girl</replace>
       <replace>an-change-pos</replace>
+      <replace>infinite</replace>
+      <replace>ag-granma</replace>
+      <replace>an-granma</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -449,12 +447,12 @@
       <workItem from="1617814501093" duration="25661000" />
       <workItem from="1617971390816" duration="564000" />
       <workItem from="1617973662505" duration="8551000" />
-      <workItem from="1617992942426" duration="20032000" />
+      <workItem from="1617992942426" duration="21398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="693812000" />
+    <option name="totallyTimeSpent" value="695178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -859,28 +857,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
+    <entry file="file://$PROJECT_DIR$/animation-sprite/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="271" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2933" selection-end-column="0" />
+        <state relative-caret-position="336">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="161" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="504">
+          <caret line="123" column="32" lean-forward="false" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-sprite/js/main.js">
+    <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="544">
+          <caret line="2257" column="13" lean-forward="true" selection-start-line="2257" selection-start-column="13" selection-end-line="2257" selection-end-column="13" />
           <folding />
         </state>
       </provider>

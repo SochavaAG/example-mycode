@@ -1978,6 +1978,285 @@ body {
 }
 /* /sheep-no */
 
+/* granma */
+.ag-granma {
+  display: inline-block;
+  width: 15em;
+  height: 15em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-granma.png) no-repeat;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+
+  will-change: transform, background-position;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+.ag-granma_win {
+  -webkit-animation: an-granma-win 2s steps(8) infinite;
+  -moz-animation: an-granma-win 2s steps(8) infinite;
+  -o-animation: an-granma-win 2s steps(8) infinite;
+  animation: an-granma-win 2s steps(8) infinite;
+}
+.ag-granma_lose {
+  -webkit-animation: an-granma-lose 0.75s steps(3) infinite, an-granma-woe 1.5s steps(7) 1s infinite;
+  -moz-animation: an-granma-lose 0.75s steps(3) infinite, an-granma-woe 1.5s steps(7) 1s infinite;
+  -o-animation: an-granma-lose 0.75s steps(3) infinite, an-granma-woe 1.5s steps(7) 1s infinite;
+  animation: an-granma-lose 0.75s steps(3) infinite, an-granma-woe 1.5s steps(7) 1s infinite;
+}
+.ag-granma_poke {
+  -webkit-animation: an-granma-poke 1s steps(3) infinite;
+  -moz-animation: an-granma-poke 1s steps(3) infinite;
+  -o-animation: an-granma-poke 1s steps(3) infinite;
+  animation: an-granma-poke 1s steps(3) infinite;
+}
+.ag-granma_keks {
+  -webkit-animation: an-granma-keks 0.75s steps(4, start) infinite;
+  -moz-animation: an-granma-keks 0.75s steps(4, start) infinite;
+  -o-animation: an-granma-keks 0.75s steps(4, start) infinite;
+  animation: an-granma-keks 0.75s steps(4, start) infinite;
+}
+.ag-granma_wolf {
+  -webkit-animation: an-granma-wolf 0.75s steps(7, start) infinite;
+  -moz-animation: an-granma-wolf 0.75s steps(7, start) infinite;
+  -o-animation: an-granma-wolf 0.75s steps(7, start) infinite;
+  animation: an-granma-wolf 0.75s steps(7, start) infinite;
+}
+
+@-webkit-keyframes an-granma-open {
+  0% {
+    background-position: 0 20.45455%;
+  }
+  100% {
+    background-position: 0 40.90909%;
+  }
+}
+@-moz-keyframes an-granma-open {
+  0% {
+    background-position: 0 20.45455%;
+  }
+  100% {
+    background-position: 0 40.90909%;
+  }
+}
+@-o-keyframes an-granma-open {
+  0% {
+    background-position: 0 20.45455%;
+  }
+  100% {
+    background-position: 0 40.90909%;
+  }
+}
+@keyframes an-granma-open {
+  0% {
+    background-position: 0 20.45455%;
+  }
+  100% {
+    background-position: 0 40.90909%;
+  }
+}
+
+@-webkit-keyframes an-granma-win {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 18.18182%;
+  }
+}
+@-moz-keyframes an-granma-win {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 18.18182%;
+  }
+}
+@-o-keyframes an-granma-win {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 18.18182%;
+  }
+}
+@keyframes an-granma-win {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 18.18182%;
+  }
+}
+
+@-webkit-keyframes an-granma-lose {
+  0% {
+    background-position: 0 43.18182%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+@-moz-keyframes an-granma-lose {
+  0% {
+    background-position: 0 43.18182%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+@-o-keyframes an-granma-lose {
+  0% {
+    background-position: 0 43.18182%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+@keyframes an-granma-lose {
+  0% {
+    background-position: 0 43.18182%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@-webkit-keyframes an-granma-woe {
+  0% {
+    background-position: 0 52.27273%;
+  }
+  100% {
+    background-position: 0 68.18182%;
+  }
+}
+@-moz-keyframes an-granma-woe {
+  0% {
+    background-position: 0 52.27273%;
+  }
+  100% {
+    background-position: 0 68.18182%;
+  }
+}
+@-o-keyframes an-granma-woe {
+  0% {
+    background-position: 0 52.27273%;
+  }
+  100% {
+    background-position: 0 68.18182%;
+  }
+}
+@keyframes an-granma-woe {
+  0% {
+    background-position: 0 52.27273%;
+  }
+  100% {
+    background-position: 0 68.18182%;
+  }
+}
+
+@-webkit-keyframes an-granma-poke {
+  0% {
+    background-position: 0 70.45455%;
+  }
+  100% {
+    background-position: 0 77.27273%;
+  }
+}
+@-moz-keyframes an-granma-poke {
+  0% {
+    background-position: 0 70.45455%;
+  }
+  100% {
+    background-position: 0 77.27273%;
+  }
+}
+@-o-keyframes an-granma-poke {
+  0% {
+    background-position: 0 70.45455%;
+  }
+  100% {
+    background-position: 0 77.27273%;
+  }
+}
+@keyframes an-granma-poke {
+  0% {
+    background-position: 0 70.45455%;
+  }
+  100% {
+    background-position: 0 77.27273%;
+  }
+}
+
+@-webkit-keyframes an-granma-keks {
+  0% {
+    background-position: 0 90.90909%;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-moz-keyframes an-granma-keks {
+  0% {
+    background-position: 0 90.90909%;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-o-keyframes an-granma-keks {
+  0% {
+    background-position: 0 90.90909%;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@keyframes an-granma-keks {
+  0% {
+    background-position: 0 90.90909%;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+
+@-webkit-keyframes an-granma-wolf {
+  0% {
+    background-position: 0 75%;
+  }
+  100% {
+    background-position: 0 90.90909%;
+  }
+}
+@-moz-keyframes an-granma-wolf {
+  0% {
+    background-position: 0 75%;
+  }
+  100% {
+    background-position: 0 90.90909%;
+  }
+}
+@-o-keyframes an-granma-wolf {
+  0% {
+    background-position: 0 75%;
+  }
+  100% {
+    background-position: 0 90.90909%;
+  }
+}
+@keyframes an-granma-wolf {
+  0% {
+    background-position: 0 75%;
+  }
+  100% {
+    background-position: 0 90.90909%;
+  }
+}
+/* /granma */
+
 /* cat */
 .ag-cat {
   height: 15.25em;
