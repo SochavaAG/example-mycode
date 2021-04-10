@@ -2259,6 +2259,7 @@ body {
 
 /* cat */
 .ag-cat {
+  display: inline-block;
   height: 15.25em;
   width: 10.5em;
   background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-cat.png);
