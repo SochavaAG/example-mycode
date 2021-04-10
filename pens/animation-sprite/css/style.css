@@ -217,7 +217,7 @@ body {
   display: inline-block;
   height: 23.1875em;
   width: 6.75em;
-  margin: 0 20px;
+  margin: 0 0 0 50px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/lever.png) 100% 0 no-repeat;
   background-size: 100% auto;
 
@@ -252,11 +252,176 @@ body {
 }
 /* /lever */
 
+/* lever-2 */
+.ag-lever-2 {
+  display: inline-block;
+  width: 199px;
+  height: 454px;
+  margin: 0 0 0 50px;
+
+  position: relative;
+}
+.ag-lever-2-stick {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-lever.png);
+  background-repeat: no-repeat;
+
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.ag-lever-2.js-ag-lever_avtive .ag-lever-2-stick {
+  -webkit-animation: an-lever-2 0.5s step-start 0ms normal none 1;
+  -moz-animation: an-lever-2 0.5s step-start 0ms normal none 1;
+  -o-animation: an-lever-2 0.5s step-start 0ms normal none 1;
+  animation: an-lever-2 0.5s step-start 0ms normal none 1;
+}
+.ag-lever-2-haft {
+  height: 355px;
+  width: 106px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  background-image: none;
+
+  cursor: pointer;
+
+  outline: none;
+
+  position: absolute;
+  top: -1px;
+  right: -4px;
+}
+.ag-lever-2.js-ag-lever_avtive .ag-lever-2-haft {
+  -webkit-animation: an-change-pos 0.6s 1 linear;
+  -moz-animation: an-change-pos 0.6s 1 linear;
+  -o-animation: an-change-pos 0.6s 1 linear;
+  animation: an-change-pos 0.6s 1 linear;
+}
+
+@-webkit-keyframes an-lever-2 {
+  0% {
+    background-position: 0 0;
+  }
+  16% {
+    background-position: -200px 0;
+  }
+  33% {
+    background-position: -400px 0;
+  }
+  49% {
+    background-position: -600px 0;
+  }
+  66% {
+    background-position: -400px 0;
+  }
+  83% {
+    background-position: -200px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@-moz-keyframes an-lever-2 {
+  0% {
+    background-position: 0 0;
+  }
+  16% {
+    background-position: -200px 0;
+  }
+  33% {
+    background-position: -400px 0;
+  }
+  49% {
+    background-position: -600px 0;
+  }
+  66% {
+    background-position: -400px 0;
+  }
+  83% {
+    background-position: -200px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@-o-keyframes an-lever-2 {
+  0% {
+    background-position: 0 0;
+  }
+  16% {
+    background-position: -200px 0;
+  }
+  33% {
+    background-position: -400px 0;
+  }
+  49% {
+    background-position: -600px 0;
+  }
+  66% {
+    background-position: -400px 0;
+  }
+  83% {
+    background-position: -200px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes an-lever-2 {
+  0% {
+    background-position: 0 0;
+  }
+  16% {
+    background-position: -200px 0;
+  }
+  33% {
+    background-position: -400px 0;
+  }
+  49% {
+    background-position: -600px 0;
+  }
+  66% {
+    background-position: -400px 0;
+  }
+  83% {
+    background-position: -200px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+@-webkit-keyframes an-change-pos {
+  50% {
+    top: 22%;
+  }
+}
+@-moz-keyframes an-change-pos {
+  50% {
+    top: 22%;
+  }
+}
+@-o-keyframes an-change-pos {
+  50% {
+    top: 22%;
+  }
+}
+@keyframes an-change-pos {
+  50% {
+    top: 22%;
+  }
+}
+/* /lever-2 */
+
 /* ball */
 .ag-ball {
   display: inline-block;
   height: 100px;
   width: 120px;
+  margin: 0 0 0 50px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/ball.png) no-repeat scroll 0 0;
 
   -webkit-animation: an-ball-rotate 1.5s step-start 0s normal none infinite running;
