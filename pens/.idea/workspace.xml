@@ -18,21 +18,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="123" column="32" lean-forward="false" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="32" />
+            <state relative-caret-position="646">
+              <caret line="135" column="9" lean-forward="false" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="2257" column="13" lean-forward="true" selection-start-line="2257" selection-start-column="13" selection-end-line="2257" selection-end-column="13" />
+            <state relative-caret-position="472">
+              <caret line="2254" column="37" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3212" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -41,11 +41,9 @@
       <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-t.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="611" column="1" lean-forward="true" selection-start-line="505" selection-start-column="0" selection-end-line="611" selection-end-column="1" />
-              <folding>
-                <element signature="e#33945#34880#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="557">
+              <caret line="186" column="1" lean-forward="true" selection-start-line="178" selection-start-column="0" selection-end-line="186" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,8 +104,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rg-anim</find>
-      <find>@-webkit-keyframes</find>
       <find>rg-wrap-anim5</find>
       <find>ag-hawk-2</find>
       <find>hawk-2</find>
@@ -136,6 +132,8 @@
       <find>changePos</find>
       <find>forwards</find>
       <find>granma</find>
+      <find>/default/img/getbonus/</find>
+      <find>cat</find>
     </findStrings>
     <replaceStrings>
       <replace>ag-desert_box</replace>
@@ -163,11 +161,11 @@
       <replace>ag-lever-2</replace>
       <replace>an-lever-2</replace>
       <replace>an-change-height</replace>
-      <replace>an-sprite-girl</replace>
       <replace>an-change-pos</replace>
       <replace>infinite</replace>
       <replace>ag-granma</replace>
       <replace>an-granma</replace>
+      <replace>an-sprite-girl</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -226,12 +224,12 @@
         <option value="$PROJECT_DIR$/buttons/css/style.css" />
         <option value="$PROJECT_DIR$/light-blink/css/style.css" />
         <option value="$PROJECT_DIR$/light-blink/index.html" />
-        <option value="$USER_HOME$/format-t.css" />
         <option value="$PROJECT_DIR$/desert/index.html" />
         <option value="$PROJECT_DIR$/desert/css/style.css" />
         <option value="$PROJECT_DIR$/animation-sprite/js/main.js" />
-        <option value="$PROJECT_DIR$/animation-sprite/index.html" />
         <option value="$PROJECT_DIR$/animation-sprite/css/style.css" />
+        <option value="$USER_HOME$/format-t.css" />
+        <option value="$PROJECT_DIR$/animation-sprite/index.html" />
       </list>
     </option>
   </component>
@@ -447,12 +445,12 @@
       <workItem from="1617814501093" duration="25661000" />
       <workItem from="1617971390816" duration="564000" />
       <workItem from="1617973662505" duration="8551000" />
-      <workItem from="1617992942426" duration="21398000" />
+      <workItem from="1617992942426" duration="21799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="695178000" />
+    <option name="totallyTimeSpent" value="695579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -847,16 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="611" column="1" lean-forward="true" selection-start-line="505" selection-start-column="0" selection-end-line="611" selection-end-column="1" />
-          <folding>
-            <element signature="e#33945#34880#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-sprite/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -865,18 +853,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
+    <entry file="file://$USER_HOME$/format-t.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="123" column="32" lean-forward="false" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="32" />
+        <state relative-caret-position="557">
+          <caret line="186" column="1" lean-forward="true" selection-start-line="178" selection-start-column="0" selection-end-line="186" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="2257" column="13" lean-forward="true" selection-start-line="2257" selection-start-column="13" selection-end-line="2257" selection-end-column="13" />
+        <state relative-caret-position="472">
+          <caret line="2254" column="37" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="3212" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="135" column="9" lean-forward="false" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
           <folding />
         </state>
       </provider>
