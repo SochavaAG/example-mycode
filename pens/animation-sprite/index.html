@@ -121,82 +121,11 @@
     </div>
 
     <div class="ag-block">
-
-      <style>
-        .g-vase {
-          width:359px;
-          height:318px;
-          position:absolute;
-          bottom:22px;
-          right:16px;
-          z-index:0;
-        }
-        .g-vase-back {
-          background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/vase-back.png) no-repeat;
-          background-size:100% auto
-        }
-        .g-vase-front:after {
-          content:"";
-          display:block;
-          position:absolute;
-          z-index:1;
-          width:100%;
-          height:120%;
-          background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/vase-front.png) no-repeat;
-          background-size:100% 100%
-        }
-        .g-vase-balls {
-          width:320px;
-          height:240px;
-          background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/balls-sprite.png) top;
-          background-size:100% auto;
-          position:absolute;
-          bottom:28px;
-          right:28px
-        }
-        .g-vase-balls {
-          display: inline-block;
-          margin: 0 30px;
-          height: 12em;
-          width: 16em;
-          background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/balls-sprite.png) no-repeat 0 0;
-          background-size: 100% auto;
-
-          vertical-align: top;
-
-        -webkit-animation: an-sprite-balls 2s steps(13) infinite;
-        -moz-animation: an-sprite-balls 2s steps(13) infinite;
-        -o-animation: an-sprite-balls 2s steps(13) infinite;
-        animation: an-sprite-balls 2s steps(13) infinite;
-
-        image-rendering: -webkit-optimize-contrast;
-        image-rendering: crisp-edges;
-        }
-
-        @-webkit-keyframes an-sprite-balls {
-          to {
-            background-position: 0 100%;
-          }
-        }
-        @-moz-keyframes an-sprite-balls {
-          to {
-            background-position: 0 100%;
-          }
-        }
-        @-o-keyframes an-sprite-balls {
-          to {
-            background-position: 0 100%;
-          }
-        }
-        @keyframes an-sprite-balls {
-          to {
-            background-position: 0 100%;
-          }
-        }
-      </style>
-
-      <div class="g-vase g-vase-back"></div>
-      <div class="g-vase-balls"></div>
+      <div class="ag-vase-block">
+      <div class="ag-vase ag-vase-back"></div>
+      <div class="ag-vase ag-vase-front"></div>
+      <div class="ag-vase-balls"></div>
+      </div>
 
       <div class="ag-cat"></div>
 

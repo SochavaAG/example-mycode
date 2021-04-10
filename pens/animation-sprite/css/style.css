@@ -2309,6 +2309,88 @@ body {
 }
 /* /cat */
 
+/* vase balls */
+.ag-vase-block {
+  display: inline-block;
+  width: 359px;
+  height: 318px;
+  margin: 0 30px;
+
+  position: relative;
+}
+.ag-vase {
+  height: 100%;
+  width: 100%;
+
+  z-index: 0;
+  position: absolute;
+  right: 16px;
+  bottom: 22px;
+}
+.ag-vase-back {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/vase-back.png) no-repeat;
+  background-size: 100% auto
+}
+.ag-vase-front:after {
+  content: "";
+  display: block;
+  height: 120%;
+  width: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/vase-front.png) no-repeat;
+  background-size: 100% 100%;
+
+  z-index: 1;
+  position: absolute;
+}
+.ag-vase-balls {
+  height: 240px;
+  width: 320px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/balls-sprite.png) top;
+  background-size: 100% auto;
+
+  position: absolute;
+  bottom: 28px;
+  right: 28px;
+}
+.ag-vase-balls {
+  height: 15em;
+  width: 20em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/balls-sprite.png) no-repeat 0 0;
+  background-size: 100% auto;
+
+  vertical-align: top;
+
+  -webkit-animation: an-sprite-balls 2s steps(13) infinite;
+  -moz-animation: an-sprite-balls 2s steps(13) infinite;
+  -o-animation: an-sprite-balls 2s steps(13) infinite;
+  animation: an-sprite-balls 2s steps(13) infinite;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+@-webkit-keyframes an-sprite-balls {
+  to {
+    background-position: 0 100%;
+  }
+}
+@-moz-keyframes an-sprite-balls {
+  to {
+    background-position: 0 100%;
+  }
+}
+@-o-keyframes an-sprite-balls {
+  to {
+    background-position: 0 100%;
+  }
+}
+@keyframes an-sprite-balls {
+  to {
+    background-position: 0 100%;
+  }
+}
+/* /vase balls */
+
 /* girl */
 .ag-girl {
   width: 42em;
