@@ -707,8 +707,8 @@ body {
 /* romb */
 .ag-romb {
   display: inline-block;
-  height: 110px;
-  width: 110px;
+  height: 100px;
+  width: 100px;
   margin: 0 0 0 50px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/romb.png) no-repeat 0 0;
 
@@ -1048,6 +1048,41 @@ body {
   }
 }
 /* /fire-refresh */
+
+/* fire-freespins */
+.ag-fire-freespins {
+  display: inline-block;
+  width: 23.75em;
+  height: 23.3125em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/fire-refresh-sprite.png) 0 0/800% 100% no-repeat;
+
+  -webkit-animation: an-fire-freespins 1.5s steps(59, start) infinite;
+  -moz-animation: an-fire-freespins 1.5s steps(59, start) infinite;
+  -o-animation: an-fire-freespins 1.5s steps(59, start) infinite;
+  animation: an-fire-freespins 1.5s steps(59, start) infinite;
+}
+
+@-webkit-keyframes an-fire-freespins {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-moz-keyframes an-fire-freespins {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-o-keyframes an-fire-freespins {
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes an-fire-freespins {
+  to {
+    background-position-x: 100%;
+  }
+}
+/* /fire-freespins */
 
 /* bottle */
 .ag-bottle {
