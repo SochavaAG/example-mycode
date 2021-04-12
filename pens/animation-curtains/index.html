@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Animation curtains</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  html, body {
+    height: 100%;
+
+    overflow: hidden;
+  }
+  .ag-curtains-block {
+    height: 100%;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-curtains/images/bg.png) no-repeat 50% 0;
+
+    position: relative;
+  }
+  .ag-curtains {
+    position: absolute;
+    top: -3.4375em;
+    right: 0;
+    width: 36.25em;
+    height: 18.3125em;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-curtains/images/curtains.png) no-repeat 0 0;
+    background-size: 688.6875em 54.9375em;
+
+    -webkit-animation: an-curtainsX 2s steps(19) infinite, an-curtainsY 6s steps(3) infinite;
+    animation: an-curtainsX 2s steps(19) infinite, an-curtainsY 6s steps(3) infinite;
+  }
+  @-webkit-keyframes an-curtainsX {
+    from {
+      background-position-x: 0;
+    }
+    to {
+      background-position-x: -688.6875em;
+    }
+  }
+  @keyframes an-curtainsX {
+    from {
+      background-position-x: 0;
+    }
+    to {
+      background-position-x: -688.6875em;
+    }
+  }
+
+  @-webkit-keyframes an-curtainsY {
+    from {
+      background-position-y: 0;
+    }
+    to {
+      background-position-y: -54.9375em;
+    }
+  }
+  @keyframes an-curtainsY {
+    from {
+      background-position-y: 0;
+    }
+    to {
+      background-position-y: -54.9375em;
+    }
+  }
+</style>
+
+<div class="ag-curtains-block">
+  <div class="ag-format-container">
+    <div class="ag-curtains"></div>
+  </div>
+</div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
