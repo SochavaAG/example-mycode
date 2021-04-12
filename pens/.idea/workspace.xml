@@ -41,8 +41,8 @@
       <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-t.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="63" column="1" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="63" selection-end-column="1" />
+            <state relative-caret-position="528">
+              <caret line="232" column="1" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="232" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -112,17 +112,37 @@
         <entry file="file://$PROJECT_DIR$/mummy/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+              <caret line="17" column="1" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animation-curtains/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animation-curtains/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/animation-curtains/index.html">
+        <entry file="file://$PROJECT_DIR$/paperplane/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            <state relative-caret-position="257">
+              <caret line="149" column="16" lean-forward="false" selection-start-line="149" selection-start-column="6" selection-end-line="149" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -132,7 +152,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rg-anim6</find>
       <find>rg-anim1</find>
       <find>an-hawk</find>
       <find>an-bush-2</find>
@@ -157,14 +176,14 @@
       <find>g-vase</find>
       <find>freespins-fire</find>
       <find>stars</find>
-      <find>ag-base_btn-v107</find>
       <find>shaking</find>
       <find>orb-mummy</find>
-      <find>bokfra__mummy--right</find>
       <find>curtains</find>
+      <find>ag-base_btn-v107</find>
+      <find>bokfra__mummy--right</find>
+      <find>oxo__paperplane--</find>
     </findStrings>
     <replaceStrings>
-      <replace>aп-tumbleweed-1</replace>
       <replace>aп-tumbleweed-2</replace>
       <replace>bush</replace>
       <replace>an-bush</replace>
@@ -194,6 +213,7 @@
       <replace>an-shaking</replace>
       <replace>an-mummy</replace>
       <replace>an-curtains</replace>
+      <replace>ag-paperplane_</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -207,8 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/example-site-1/melbr.ru_kono3/index.html" />
-        <option value="$USER_HOME$/example-site-1/melbr.ru_kono3/css/style.min.css" />
         <option value="$USER_HOME$/example-site-1/betwin441421.top_us_promotions_porsche/js/2.b1c940a04cea51670aef.chunk.js" />
         <option value="$USER_HOME$/example-site-1/betwin441421.top_us_promotions_porsche/js/576.c8ec85b48d007583f1a0.chunk.js" />
         <option value="$USER_HOME$/example-site-1/betwin441421.top_us_promotions_porsche/js/main.js" />
@@ -257,7 +275,9 @@
         <option value="$PROJECT_DIR$/mummy/index.html" />
         <option value="$PROJECT_DIR$/mummy/css/style.css" />
         <option value="$USER_HOME$/format-t.css" />
+        <option value="$PROJECT_DIR$/animation-curtains/css/style.css" />
         <option value="$PROJECT_DIR$/animation-curtains/index.html" />
+        <option value="$PROJECT_DIR$/paperplane/index.html" />
       </list>
     </option>
   </component>
@@ -474,12 +494,12 @@
       <workItem from="1617971390816" duration="564000" />
       <workItem from="1617973662505" duration="8551000" />
       <workItem from="1617992942426" duration="25904000" />
-      <workItem from="1618230916195" duration="3880000" />
+      <workItem from="1618230916195" duration="4550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="703564000" />
+    <option name="totallyTimeSpent" value="704234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -524,20 +544,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/animation-sparks/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="79" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-sparks/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -818,14 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-955">
@@ -853,23 +851,47 @@
     <entry file="file://$PROJECT_DIR$/mummy/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+          <caret line="17" column="1" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
+    <entry file="file://$PROJECT_DIR$/animation-curtains/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="63" column="1" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="63" selection-end-column="1" />
+        <state relative-caret-position="192">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/animation-curtains/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        <state relative-caret-position="216">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="29" column="61" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-t.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="232" column="1" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="232" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paperplane/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="149" column="16" lean-forward="false" selection-start-line="149" selection-start-column="6" selection-end-line="149" selection-end-column="16" />
           <folding />
         </state>
       </provider>

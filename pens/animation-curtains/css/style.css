@@ -4,6 +4,100 @@
 }
 
 
+html, body {
+  height: 100%;
+
+  overflow: hidden;
+}
+.ag-curtains-block {
+  height: 100%;
+  width: 473px;
+  margin: 0 auto;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-curtains/images/bg.png) no-repeat 50% 0;
+
+  position: relative;
+}
+.ag-curtains {
+  width: 36.25em;
+  height: 18.3125em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-curtains/images/curtains.png) no-repeat 0 0;
+  background-size: 688.6875em 54.9375em;
+
+  position: absolute;
+  top: -42px;
+  right: 0;
+
+  -webkit-animation: an-curtainsX 2s steps(19) infinite, an-curtainsY 6s steps(3) infinite;
+  -moz-animation: an-curtainsX 2s steps(19) infinite, an-curtainsY 6s steps(3) infinite;
+  -o-animation: an-curtainsX 2s steps(19) infinite, an-curtainsY 6s steps(3) infinite;
+  animation: an-curtainsX 2s steps(19) infinite, an-curtainsY 6s steps(3) infinite;
+}
+
+@-webkit-keyframes an-curtainsX {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: -688.6875em;
+  }
+}
+@-moz-keyframes an-curtainsX {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: -688.6875em;
+  }
+}
+@-o-keyframes an-curtainsX {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: -688.6875em;
+  }
+}
+@keyframes an-curtainsX {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: -688.6875em;
+  }
+}
+
+@-webkit-keyframes an-curtainsY {
+  from {
+    background-position-y: 0;
+  }
+  to {
+    background-position-y: -54.9375em;
+  }
+}
+@-moz-keyframes an-curtainsY {
+  from {
+    background-position-y: 0;
+  }
+  to {
+    background-position-y: -54.9375em;
+  }
+}
+@-o-keyframes an-curtainsY {
+  from {
+    background-position-y: 0;
+  }
+  to {
+    background-position-y: -54.9375em;
+  }
+}
+@keyframes an-curtainsY {
+  from {
+    background-position-y: 0;
+  }
+  to {
+    background-position-y: -54.9375em;
+  }
+}
 
 
 @media only screen and (max-width: 767px) {
