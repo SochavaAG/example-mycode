@@ -740,6 +740,70 @@ body {
 }
 /* /romb */
 
+/* star */
+.ag-star {
+  height: 92px;
+  width: 90px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/star.png) 0 0 no-repeat;
+
+  -webkit-animation: an-star 0.8s 2.2s steps(30, end) infinite;
+  -moz-animation: an-star 0.8s 2.2s steps(30, end) infinite;
+  -o-animation: an-star 0.8s 2.2s steps(30, end) infinite;
+  animation: an-star 0.8s 2.2s steps(30, end) infinite;
+
+  will-change: opacity;
+}
+
+@-webkit-keyframes an-star {
+  0% {
+    background-position: 0 100%;
+
+    opacity: 1;
+  }
+  100% {
+    background-position: 0 0;
+
+    opacity: 0;
+  }
+}
+@-moz-keyframes an-star {
+  0% {
+    background-position: 0 100%;
+
+    opacity: 1;
+  }
+  100% {
+    background-position: 0 0;
+
+    opacity: 0;
+  }
+}
+@-o-keyframes an-star {
+  0% {
+    background-position: 0 100%;
+
+    opacity: 1;
+  }
+  100% {
+    background-position: 0 0;
+
+    opacity: 0;
+  }
+}
+@keyframes an-star {
+  0% {
+    background-position: 0 100%;
+
+    opacity: 1;
+  }
+  100% {
+    background-position: 0 0;
+
+    opacity: 0;
+  }
+}
+/* /star */
+
 /* bird-flying */
 .ag-bird-flying {
   display: inline-block;
@@ -1454,10 +1518,10 @@ body {
   -o-background-size: 100%;
   background-size: 100%;
 
-  -webkit-animation: an-candle 1.5s steps(11, end);
-  -moz-animation: an-candle 1.5s steps(11, end);
-  -o-animation: an-candle 1.5s steps(11, end);
-  animation: an-candle 1.5s steps(11, end);
+  -webkit-animation: an-candle 1.5s steps(11, end) infinite;
+  -moz-animation: an-candle 1.5s steps(11, end) infinite;
+  -o-animation: an-candle 1.5s steps(11, end) infinite;
+  animation: an-candle 1.5s steps(11, end) infinite;
 }
 
 @-webkit-keyframes an-candle {
