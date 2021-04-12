@@ -19,55 +19,12 @@
 </head>
 
 <body>
-
-<style>
-  .bokfra__mummy--right {
-    right:.3125em;
-    bottom:2.6875em;
-    width:10.75em;
-    height:31.1875em;
-    background:url("/default/img/games/bookofra/mummy-right.png") center top/cover no-repeat;
-    -webkit-animation:shaking 8s 2s infinite;
-    animation:shaking 8s 2s infinite;
-    -webkit-transform-origin:center bottom;
-    transform-origin:center bottom
-  }
-  @-webkit-keyframes shaking {
-    0%,
-    89%,
-    100% {
-      -webkit-transform:rotate(0deg);
-      transform:rotate(0deg)
-    }
-    94% {
-      -webkit-transform:rotate(2deg);
-      transform:rotate(2deg)
-    }
-    99% {
-      -webkit-transform:rotate(-2deg);
-      transform:rotate(-2deg)
-    }
-  }
-  @keyframes shaking {
-    0%,
-    89%,
-    100% {
-      -webkit-transform:rotate(0deg);
-      transform:rotate(0deg)
-    }
-    94% {
-      -webkit-transform:rotate(2deg);
-      transform:rotate(2deg)
-    }
-    99% {
-      -webkit-transform:rotate(-2deg);
-      transform:rotate(-2deg)
-    }
-  }
-</style>
+<div class="ag-mummy-block">
   <div class="ag-format-container">
-
+    <div class="ag-mummy_left"></div>
+    <div class="ag-mummy_right"></div>
   </div>
+</div>
 
 <!--[if lt IE 9]>
 <script src="libs/IE/html5shiv/es5-shim.min.js"></script>

@@ -4,6 +4,153 @@
 }
 
 
+html, body {
+  height: 100%;
+
+  overflow: hidden;
+}
+.ag-mummy-block {
+  height: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mummy/images/bg.jpg) no-repeat 50% 100%;
+  background-size: cover;
+
+  position: relative;
+}
+.ag-mummy_left {
+  width: 10.9375em;
+  height: 29em;
+  margin: 0 0 0 20%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mummy/images/mummy-left.png) no-repeat 0 0;
+  background-size: 300% 100%;
+
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+
+  -webkit-animation: an-mummy 7s 2s steps(2, start) infinite;
+  -moz-animation: an-mummy 7s 2s steps(2, start) infinite;
+  -o-animation: an-mummy 7s 2s steps(2, start) infinite;
+  animation: an-mummy 7s 2s steps(2, start) infinite;
+}
+.ag-mummy_right {
+  height: 31.1875em;
+  width: 10.75em;
+  margin: 0 0 0 -20%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mummy/images/mummy-right.png) no-repeat 0 0;
+  background-size: 100% 100%;
+
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+
+  -webkit-animation: an-shaking 8s 2s infinite;
+  -moz-animation: an-shaking 8s 2s infinite;
+  -o-animation: an-shaking 8s 2s infinite;
+  animation: an-shaking 8s 2s infinite;
+
+  -webkit-transform-origin: center bottom;
+  -moz-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  -o-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+
+@-webkit-keyframes an-mummy {
+  0%, 90% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
+@-moz-keyframes an-mummy {
+  0%, 90% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
+@-o-keyframes an-mummy {
+  0%, 90% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
+@keyframes an-mummy {
+  0%,
+  90% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}
+
+@-webkit-keyframes an-shaking {
+  0%, 89%, 100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  94% {
+    -webkit-transform: rotate(2deg);
+    transform: rotate(2deg);
+  }
+  99% {
+    -webkit-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+  }
+}
+@-moz-keyframes an-shaking {
+  0%, 89%, 100% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  94% {
+    -moz-transform: rotate(2deg);
+    transform: rotate(2deg);
+  }
+  99% {
+    -moz-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+  }
+}
+@-o-keyframes an-shaking {
+  0%, 89%, 100% {
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  94% {
+    -o-transform: rotate(2deg);
+    transform: rotate(2deg);
+  }
+  99% {
+    -o-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+  }
+}
+@keyframes an-shaking {
+  0%, 89%, 100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  94% {
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    transform: rotate(2deg);
+  }
+  99% {
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+    -o-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+  }
+}
 
 
 @media only screen and (max-width: 767px) {
