@@ -742,6 +742,7 @@ body {
 
 /* star */
 .ag-star {
+  display: inline-block;
   height: 92px;
   width: 90px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/star.png) 0 0 no-repeat;
@@ -803,6 +804,96 @@ body {
   }
 }
 /* /star */
+
+/* flame */
+.ag-flame {
+  display: inline-block;
+  height: 4.9375em;
+  width: 4.97656em;
+  margin: 0 0 0 50px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/flame.png) no-repeat scroll 0 100%;
+  background-size: auto 100%;
+
+  opacity: 0;
+
+  -webkit-animation: an-heavy-burns 2s steps(7, start) 5s infinite;
+  -moz-animation: an-heavy-burns 2s steps(7, start) 5s infinite;
+  -o-animation: an-heavy-burns 2s steps(7, start) 5s infinite;
+  animation: an-heavy-burns 2s steps(7, start) 5s infinite;
+}
+
+@-webkit-keyframes an-heavy-burns {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    background-position: 100% 100%;
+  }
+}
+@-moz-keyframes an-heavy-burns {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    background-position: 100% 100%;
+  }
+}
+@-o-keyframes an-heavy-burns {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    background-position: 100% 100%;
+  }
+}
+@keyframes an-heavy-burns {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    background-position: 100% 100%;
+  }
+}
+/* /flame */
+
+/* bang */
+.ag-bang {
+  display: inline-block;
+  height: 2.125em;
+  width: 2.125em;
+  margin: 0 0 0 50px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/bang.png) no-repeat scroll 0 100%;
+  background-size: auto 100%;
+
+  -webkit-animation: an-bang-air 1s steps(24, start) 6.8s forwards;
+  animation: an-bang-air 1s steps(24, start) 6.8s forwards;
+}
+
+@-webkit-keyframes an-bang-air {
+  99.99% {
+    opacity: 1;
+    background-position: 100% 100%;
+  }
+  100% {
+    opacity: 0;
+    background-position: 100% 100%;
+  }
+}
+@keyframes an-bang-air {
+  99.99% {
+    opacity: 1;
+    background-position: 100% 100%;
+  }
+  100% {
+    opacity: 0;
+    background-position: 100% 100%;
+  }
+}
+/* /bang */
 
 /* bird-flying */
 .ag-bird-flying {
@@ -1554,39 +1645,6 @@ body {
   }
 }
 /* /fire-v3 */
-
-/* flame */
-.ag-flame {
-  display: inline-block;
-  height: 4.9375em;
-  width: 4.97656em;
-  margin: 0 0 0 100px;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/flame.png) no-repeat scroll 0 0;
-  background-size: 100%;
-
-  -webkit-animation: command-burns 2s steps(7, start) 7s infinite;
-  animation: command-burns 2s steps(7, start) 7s infinite;
-}
-
-@-webkit-keyframes command-burns {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-    background-position: 100% 100%;
-  }
-}
-@keyframes command-burns {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-    background-position: 100% 100%;
-  }
-}
-/* /flame */
 
 /* electricity v2 */
 .ag-electricity-v2 {
