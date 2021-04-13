@@ -41,8 +41,8 @@
       <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-t.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="657" column="1" lean-forward="true" selection-start-line="245" selection-start-column="0" selection-end-line="657" selection-end-column="1" />
+            <state relative-caret-position="279">
+              <caret line="883" column="1" lean-forward="true" selection-start-line="658" selection-start-column="0" selection-end-line="883" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -71,8 +71,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sea-battle/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="421" column="57" lean-forward="true" selection-start-line="421" selection-start-column="57" selection-end-line="421" selection-end-column="57" />
+            <state relative-caret-position="459">
+              <caret line="598" column="12" lean-forward="true" selection-start-line="598" selection-start-column="12" selection-end-line="598" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -82,7 +82,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>oxo__paperplane--</find>
       <find>ag-base_btn-v107</find>
       <find>bokfra__mummy--right</find>
       <find>،</find>
@@ -109,8 +108,9 @@
       <find>/default/img/games/kamikaze/</find>
       <find>kam-game__header</find>
       <find>ag-flame</find>
-      <find>kam-game__ship</find>
       <find>bang-air</find>
+      <find>kam-game__ship</find>
+      <find>kam-game__aircraft</find>
       <find>&quot;/default/img/games/kamikaze/</find>
     </findStrings>
     <replaceStrings>
@@ -425,12 +425,12 @@
       <workItem from="1617973662505" duration="8551000" />
       <workItem from="1617992942426" duration="25904000" />
       <workItem from="1618230916195" duration="10683000" />
-      <workItem from="1618338054053" duration="4628000" />
+      <workItem from="1618338054053" duration="4993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="714995000" />
+    <option name="totallyTimeSpent" value="715360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -827,14 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="657" column="1" lean-forward="true" selection-start-line="245" selection-start-column="0" selection-end-line="657" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -843,10 +835,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/format-t.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="883" column="1" lean-forward="true" selection-start-line="658" selection-start-column="0" selection-end-line="883" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sea-battle/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="421" column="57" lean-forward="true" selection-start-line="421" selection-start-column="57" selection-end-line="421" selection-end-column="57" />
+        <state relative-caret-position="459">
+          <caret line="598" column="12" lean-forward="true" selection-start-line="598" selection-start-column="12" selection-end-line="598" selection-end-column="12" />
           <folding />
         </state>
       </provider>

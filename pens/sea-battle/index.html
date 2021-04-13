@@ -27,26 +27,14 @@
   }
   .ag-sea-battle {
     height: 100%;
-    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/bg.png) no-repeat scroll 50% 0;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/bg.jpg) no-repeat scroll 50% 0;
     background-size: cover;
   }
 
   .kam-game__header {
-    display:-webkit-flex;
-    display:-ms-flexbox;
-    display:flex;
-    position:relative;
-    -webkit-flex-direction:column;
-    -ms-flex-direction:column;
-    flex-direction:column;
-    -webkit-align-items:center;
-    -ms-flex-align:center;
-    align-items:center;
-    -webkit-justify-content:flex-start;
-    -ms-flex-pack:start;
-    justify-content:flex-start;
-    width:100%;
-    height:9.375em;
+padding: 200px 0 0;
+
+    position: relative;
   }
 
   .kam-game__ship {
@@ -460,6 +448,233 @@
       left:60%;
       -webkit-transform:translate(-50%, -50%) rotateZ(0deg) scale(-1, -1);
       transform:translate(-50%, -50%) rotateZ(0deg) scale(-1, -1)
+    }
+  }
+
+  .kam-game__aircraft {
+    position:absolute;
+    top:50%;
+    left:50%;
+    z-index:1;
+    width:2.8125em;
+    height:1.5625em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/aircraft.png) 100% 100% no-repeat;
+    background-size:100% 100%;
+    -webkit-transform:translate(-50%, -50%) rotateZ(15deg);
+    transform:translate(-50%, -50%) rotateZ(15deg)
+  }
+  .kam-game__aircraft.air-left {
+    top:50%;
+    left:-5%;
+    -webkit-animation:fly-air_1 7s linear forwards;
+    animation:fly-air_1 7s linear forwards
+  }
+  .kam-game__aircraft.air-left::after {
+    content:'';
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:2.125em;
+    height:2.125em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/bang.png) 0 100% no-repeat;
+    background-size:auto 100%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    -webkit-animation:bang-air 1s steps(24, start) 6.8s forwards;
+    animation:bang-air 1s steps(24, start) 6.8s forwards
+  }
+  @-webkit-keyframes bang-air {
+    99.99% {
+      opacity:1;
+      background-position:100% 100%
+    }
+    100% {
+      opacity:0;
+      background-position:100% 100%
+    }
+  }
+  @keyframes bang-air {
+    99.99% {
+      opacity:1;
+      background-position:100% 100%
+    }
+    100% {
+      opacity:0;
+      background-position:100% 100%
+    }
+  }
+  @-webkit-keyframes fly-air_1 {
+    0% {
+      left:-10%;
+      -webkit-transform:translate(-50%, -50%) scaleX(1) rotateZ(15deg);
+      transform:translate(-50%, -50%) scaleX(1) rotateZ(15deg)
+    }
+    49.99% {
+      left:110%;
+      -webkit-transform:translate(-50%, -50%) scaleX(1) rotateZ(15deg);
+      transform:translate(-50%, -50%) scaleX(1) rotateZ(15deg)
+    }
+    50% {
+      left:110%;
+      -webkit-transform:translate(-50%, -50%) scaleX(-1) rotateZ(15deg);
+      transform:translate(-50%, -50%) scaleX(-1) rotateZ(15deg)
+    }
+    70% {
+      left:75%;
+      -webkit-transform:translate(-50%, -50%) scaleX(-1) rotateZ(15deg);
+      transform:translate(-50%, -50%) scaleX(-1) rotateZ(15deg)
+    }
+    99.99% {
+      opacity:1;
+      top:100%;
+      left:62%;
+      -webkit-transform:translate(-50%, -50%) scaleX(-1) rotateZ(35deg);
+      transform:translate(-50%, -50%) scaleX(-1) rotateZ(35deg)
+    }
+    100% {
+      opacity:0;
+      top:100%;
+      left:62%;
+      -webkit-transform:translate(-50%, -50%) scaleX(-1) rotateZ(35deg);
+      transform:translate(-50%, -50%) scaleX(-1) rotateZ(35deg)
+    }
+  }
+  @keyframes fly-air_1 {
+    0% {
+      left:-10%;
+      -webkit-transform:translate(-50%, -50%) scaleX(1) rotateZ(15deg);
+      transform:translate(-50%, -50%) scaleX(1) rotateZ(15deg)
+    }
+    49.99% {
+      left:110%;
+      -webkit-transform:translate(-50%, -50%) scaleX(1) rotateZ(15deg);
+      transform:translate(-50%, -50%) scaleX(1) rotateZ(15deg)
+    }
+    50% {
+      left:110%;
+      -webkit-transform:translate(-50%, -50%) scaleX(-1) rotateZ(15deg);
+      transform:translate(-50%, -50%) scaleX(-1) rotateZ(15deg)
+    }
+    70% {
+      left:75%;
+      -webkit-transform:translate(-50%, -50%) scaleX(-1) rotateZ(15deg);
+      transform:translate(-50%, -50%) scaleX(-1) rotateZ(15deg)
+    }
+    99.99% {
+      opacity:1;
+      top:100%;
+      left:62%;
+      -webkit-transform:translate(-50%, -50%) scaleX(-1) rotateZ(35deg);
+      transform:translate(-50%, -50%) scaleX(-1) rotateZ(35deg)
+    }
+    100% {
+      opacity:0;
+      top:100%;
+      left:62%;
+      -webkit-transform:translate(-50%, -50%) scaleX(-1) rotateZ(35deg);
+      transform:translate(-50%, -50%) scaleX(-1) rotateZ(35deg)
+    }
+  }
+  .kam-game__aircraft.air-right {
+    top:55%;
+    left:105%;
+    -webkit-animation:fly-air_2 7s linear forwards;
+    animation:fly-air_2 7s linear forwards
+  }
+  .kam-game__aircraft.air-right::after {
+    content:'';
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:2.125em;
+    height:2.125em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/bang.png) 0 100% no-repeat;
+    background-size:auto 100%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    -webkit-animation:bang-air 1s steps(24, start) 6.8s forwards;
+    animation:bang-air 1s steps(24, start) 6.8s forwards
+  }
+  @keyframes bang-air {
+    99.99% {
+      opacity:1;
+      background-position:100% 100%
+    }
+    100% {
+      opacity:0;
+      background-position:100% 100%
+    }
+  }
+  @-webkit-keyframes fly-air_2 {
+    0% {
+      left:105%;
+      -webkit-transform:translate(-50%, -50%) scaleX(-1) rotateZ(15deg);
+      transform:translate(-50%, -50%) scaleX(-1) rotateZ(15deg)
+    }
+    49.99% {
+      left:-5%;
+      -webkit-transform:translate(-50%, -50%) scaleX(-1) rotateZ(15deg);
+      transform:translate(-50%, -50%) scaleX(-1) rotateZ(15deg)
+    }
+    50% {
+      left:-5%;
+      -webkit-transform:translate(-50%, -50%) scaleX(1) rotateZ(15deg);
+      transform:translate(-50%, -50%) scaleX(1) rotateZ(15deg)
+    }
+    70% {
+      left:10%;
+      -webkit-transform:translate(-50%, -50%) scaleX(1) rotateZ(15deg);
+      transform:translate(-50%, -50%) scaleX(1) rotateZ(15deg)
+    }
+    99.99% {
+      opacity:1;
+      top:100%;
+      left:31%;
+      -webkit-transform:translate(-50%, -50%) scaleX(1) rotateZ(35deg);
+      transform:translate(-50%, -50%) scaleX(1) rotateZ(35deg)
+    }
+    100% {
+      opacity:0;
+      top:100%;
+      left:31%;
+      -webkit-transform:translate(-50%, -50%) scaleX(1) rotateZ(35deg);
+      transform:translate(-50%, -50%) scaleX(1) rotateZ(35deg)
+    }
+  }
+  @keyframes fly-air_2 {
+    0% {
+      left:105%;
+      -webkit-transform:translate(-50%, -50%) scaleX(-1) rotateZ(15deg);
+      transform:translate(-50%, -50%) scaleX(-1) rotateZ(15deg)
+    }
+    49.99% {
+      left:-5%;
+      -webkit-transform:translate(-50%, -50%) scaleX(-1) rotateZ(15deg);
+      transform:translate(-50%, -50%) scaleX(-1) rotateZ(15deg)
+    }
+    50% {
+      left:-5%;
+      -webkit-transform:translate(-50%, -50%) scaleX(1) rotateZ(15deg);
+      transform:translate(-50%, -50%) scaleX(1) rotateZ(15deg)
+    }
+    70% {
+      left:10%;
+      -webkit-transform:translate(-50%, -50%) scaleX(1) rotateZ(15deg);
+      transform:translate(-50%, -50%) scaleX(1) rotateZ(15deg)
+    }
+    99.99% {
+      opacity:1;
+      top:100%;
+      left:31%;
+      -webkit-transform:translate(-50%, -50%) scaleX(1) rotateZ(35deg);
+      transform:translate(-50%, -50%) scaleX(1) rotateZ(35deg)
+    }
+    100% {
+      opacity:0;
+      top:100%;
+      left:31%;
+      -webkit-transform:translate(-50%, -50%) scaleX(1) rotateZ(35deg);
+      transform:translate(-50%, -50%) scaleX(1) rotateZ(35deg)
     }
   }
 </style>
