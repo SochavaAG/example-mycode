@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Sea battle</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  html, body {
+    height: 100%;
+
+    overflow: hidden;
+  }
+  .ag-sea-battle {
+    height: 100%;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/bg.png) no-repeat scroll 50% 0;
+    background-size: cover;
+  }
+
+  .kam-game__header {
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    position:relative;
+    -webkit-flex-direction:column;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-justify-content:flex-start;
+    -ms-flex-pack:start;
+    justify-content:flex-start;
+    width:100%;
+    height:9.375em;
+  }
+
+  .kam-game__ship {
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%)
+  }
+  .kam-game__ship.command-ship {
+    top:90%;
+    left:30%;
+    width:23.9375em;
+    height:5.0625em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/ship-left.png) 100% 100% no-repeat;
+    background-size:100% 100%;
+    -webkit-transform:translate(-50%, -50%) scaleX(-1);
+    transform:translate(-50%, -50%) scaleX(-1);
+    -webkit-animation:go-command 7s ease-in-out forwards;
+    animation:go-command 7s ease-in-out forwards
+  }
+  .kam-game__ship.command-ship::after {
+    content:'';
+    opacity:0;
+    position:absolute;
+    top:30%;
+    left:70%;
+    width:4.97656em;
+    height:4.9375em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/flame.png) 0 100% no-repeat;
+    background-size:auto 100%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    -webkit-animation:command-burns 2s steps(7, start) 7s infinite;
+    animation:command-burns 2s steps(7, start) 7s infinite
+  }
+  @-webkit-keyframes command-burns {
+    0% {
+      opacity:1
+    }
+    100% {
+      opacity:1;
+      background-position:100% 100%
+    }
+  }
+  @keyframes command-burns {
+    0% {
+      opacity:1
+    }
+    100% {
+      opacity:1;
+      background-position:100% 100%
+    }
+  }
+  .kam-game__ship.command-ship::before {
+    content:'';
+    opacity:0;
+    position:absolute;
+    top:20%;
+    left:71%;
+    width:3.75em;
+    height:3.75em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/smoke.png) 0 100% no-repeat;
+    background-size:auto 100%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    -webkit-animation:smoke-command 3s steps(15, start) 7s infinite;
+    animation:smoke-command 3s steps(15, start) 7s infinite
+  }
+  @-webkit-keyframes smoke-command {
+    0% {
+      opacity:1
+    }
+    100% {
+      opacity:1;
+      background-position:100% 100%
+    }
+  }
+  @keyframes smoke-command {
+    0% {
+      opacity:1
+    }
+    100% {
+      opacity:1;
+      background-position:100% 100%
+    }
+  }
+  @-webkit-keyframes go-command {
+    0% {
+      -webkit-transform:translate(-50%, -50%) rotateZ(0deg) scaleX(-1);
+      transform:translate(-50%, -50%) rotateZ(0deg) scaleX(-1)
+    }
+    50% {
+      -webkit-transform:translate(-50%, -50%) rotateZ(2deg) scaleX(-1);
+      transform:translate(-50%, -50%) rotateZ(2deg) scaleX(-1)
+    }
+    100% {
+      top:100%;
+      left:35%;
+      -webkit-transform:translate(-50%, -50%) rotateZ(0deg) scaleX(-1);
+      transform:translate(-50%, -50%) rotateZ(0deg) scaleX(-1)
+    }
+  }
+  @keyframes go-command {
+    0% {
+      -webkit-transform:translate(-50%, -50%) rotateZ(0deg) scaleX(-1);
+      transform:translate(-50%, -50%) rotateZ(0deg) scaleX(-1)
+    }
+    50% {
+      -webkit-transform:translate(-50%, -50%) rotateZ(2deg) scaleX(-1);
+      transform:translate(-50%, -50%) rotateZ(2deg) scaleX(-1)
+    }
+    100% {
+      top:100%;
+      left:35%;
+      -webkit-transform:translate(-50%, -50%) rotateZ(0deg) scaleX(-1);
+      transform:translate(-50%, -50%) rotateZ(0deg) scaleX(-1)
+    }
+  }
+  .kam-game__ship.command-revert {
+    opacity:0.3;
+    top:125%;
+    left:30%;
+    width:23.9375em;
+    height:5.0625em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/ship-left.png) 100% 100% no-repeat;
+    background-size:100% 100%;
+    -webkit-transform:translate(-50%, -50%) scale(-1, -1);
+    transform:translate(-50%, -50%) scale(-1, -1);
+    -webkit-animation:go-command_rev 7s ease-in-out forwards;
+    animation:go-command_rev 7s ease-in-out forwards
+  }
+  .kam-game__ship.command-revert::after {
+    content:'';
+    opacity:0;
+    position:absolute;
+    top:30%;
+    left:70%;
+    width:4.97656em;
+    height:4.9375em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/flame.png) 0 100% no-repeat;
+    background-size:auto 100%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    -webkit-animation:command-burns 2s steps(7, start) 7s infinite;
+    animation:command-burns 2s steps(7, start) 7s infinite
+  }
+  @keyframes command-burns {
+    0% {
+      opacity:1
+    }
+    100% {
+      opacity:1;
+      background-position:100% 100%
+    }
+  }
+  .kam-game__ship.command-revert::before {
+    content:'';
+    opacity:0;
+    position:absolute;
+    top:20%;
+    left:71%;
+    width:3.75em;
+    height:3.75em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/smoke.png) 0 100% no-repeat;
+    background-size:auto 100%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    -webkit-animation:smoke-command 3s steps(15, start) 7s infinite;
+    animation:smoke-command 3s steps(15, start) 7s infinite
+  }
+  @keyframes smoke-command {
+    0% {
+      opacity:1
+    }
+    100% {
+      opacity:1;
+      background-position:100% 100%
+    }
+  }
+  @-webkit-keyframes go-command_rev {
+    0% {
+      -webkit-transform:translate(-50%, -50%) rotateZ(0deg) scale(-1, -1);
+      transform:translate(-50%, -50%) rotateZ(0deg) scale(-1, -1)
+    }
+    50% {
+      -webkit-transform:translate(-50%, -50%) rotateZ(2deg) scale(-1, -1);
+      transform:translate(-50%, -50%) rotateZ(2deg) scale(-1, -1)
+    }
+    100% {
+      top:135%;
+      left:35%;
+      -webkit-transform:translate(-50%, -50%) rotateZ(0deg) scale(-1, -1);
+      transform:translate(-50%, -50%) rotateZ(0deg) scale(-1, -1)
+    }
+  }
+  @keyframes go-command_rev {
+    0% {
+      -webkit-transform:translate(-50%, -50%) rotateZ(0deg) scale(-1, -1);
+      transform:translate(-50%, -50%) rotateZ(0deg) scale(-1, -1)
+    }
+    50% {
+      -webkit-transform:translate(-50%, -50%) rotateZ(2deg) scale(-1, -1);
+      transform:translate(-50%, -50%) rotateZ(2deg) scale(-1, -1)
+    }
+    100% {
+      top:135%;
+      left:35%;
+      -webkit-transform:translate(-50%, -50%) rotateZ(0deg) scale(-1, -1);
+      transform:translate(-50%, -50%) rotateZ(0deg) scale(-1, -1)
+    }
+  }
+  .kam-game__ship.heavy-cruiser {
+    top:90%;
+    left:70%;
+    width:15.875em;
+    height:4.125em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/ship-right.png) 100% 100% no-repeat;
+    background-size:100% 100%;
+    -webkit-transform:translate(-50%, -50%) scaleX(-1);
+    transform:translate(-50%, -50%) scaleX(-1);
+    -webkit-animation:go-heavy 7s ease-in-out forwards;
+    animation:go-heavy 7s ease-in-out forwards
+  }
+  .kam-game__ship.heavy-cruiser::after {
+    content:'';
+    opacity:0;
+    position:absolute;
+    top:20%;
+    left:35%;
+    width:4.97656em;
+    height:4.9375em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/flame.png) 0 100% no-repeat;
+    background-size:auto 100%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    -webkit-animation:heavy-burns 2s steps(7, start) 7s infinite;
+    animation:heavy-burns 2s steps(7, start) 7s infinite
+  }
+  @-webkit-keyframes heavy-burns {
+    0% {
+      opacity:1
+    }
+    100% {
+      opacity:1;
+      background-position:100% 100%
+    }
+  }
+  @keyframes heavy-burns {
+    0% {
+      opacity:1
+    }
+    100% {
+      opacity:1;
+      background-position:100% 100%
+    }
+  }
+  .kam-game__ship.heavy-cruiser::before {
+    content:'';
+    opacity:0;
+    position:absolute;
+    top:0;
+    left:37%;
+    width:3.75em;
+    height:3.75em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/smoke.png) 0 100% no-repeat;
+    background-size:auto 100%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    -webkit-animation:smoke-heavy 3s steps(15, start) 7s infinite;
+    animation:smoke-heavy 3s steps(15, start) 7s infinite
+  }
+  @-webkit-keyframes smoke-heavy {
+    0% {
+      opacity:1
+    }
+    100% {
+      opacity:1;
+      background-position:100% 100%
+    }
+  }
+  @keyframes smoke-heavy {
+    0% {
+      opacity:1
+    }
+    100% {
+      opacity:1;
+      background-position:100% 100%
+    }
+  }
+  @-webkit-keyframes go-heavy {
+    0% {
+      -webkit-transform:translate(-50%, -50%) rotateZ(0deg) scaleX(-1);
+      transform:translate(-50%, -50%) rotateZ(0deg) scaleX(-1)
+    }
+    50% {
+      -webkit-transform:translate(-50%, -50%) rotateZ(-2deg) scaleX(-1);
+      transform:translate(-50%, -50%) rotateZ(-2deg) scaleX(-1)
+    }
+    100% {
+      top:100%;
+      left:60%;
+      -webkit-transform:translate(-50%, -50%) rotateZ(0deg) scaleX(-1);
+      transform:translate(-50%, -50%) rotateZ(0deg) scaleX(-1)
+    }
+  }
+  @keyframes go-heavy {
+    0% {
+      -webkit-transform:translate(-50%, -50%) rotateZ(0deg) scaleX(-1);
+      transform:translate(-50%, -50%) rotateZ(0deg) scaleX(-1)
+    }
+    50% {
+      -webkit-transform:translate(-50%, -50%) rotateZ(-2deg) scaleX(-1);
+      transform:translate(-50%, -50%) rotateZ(-2deg) scaleX(-1)
+    }
+    100% {
+      top:100%;
+      left:60%;
+      -webkit-transform:translate(-50%, -50%) rotateZ(0deg) scaleX(-1);
+      transform:translate(-50%, -50%) rotateZ(0deg) scaleX(-1)
+    }
+  }
+  .kam-game__ship.heavy-revert {
+    opacity:0.3;
+    top:118%;
+    left:70%;
+    width:15.875em;
+    height:4.125em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/ship-right.png) 100% 100% no-repeat;
+    background-size:100% 100%;
+    -webkit-transform:translate(-50%, -50%) scale(-1, -1);
+    transform:translate(-50%, -50%) scale(-1, -1);
+    -webkit-animation:go-heavy_rev 7s ease-in-out forwards;
+    animation:go-heavy_rev 7s ease-in-out forwards
+  }
+  .kam-game__ship.heavy-revert::after {
+    content:'';
+    opacity:0;
+    position:absolute;
+    top:20%;
+    left:35%;
+    width:4.97656em;
+    height:4.9375em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/flame.png) 0 100% no-repeat;
+    background-size:auto 100%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    -webkit-animation:heavy-burns 2s steps(7, start) 7s infinite;
+    animation:heavy-burns 2s steps(7, start) 7s infinite
+  }
+  @keyframes heavy-burns {
+    0% {
+      opacity:1
+    }
+    100% {
+      opacity:1;
+      background-position:100% 100%
+    }
+  }
+  .kam-game__ship.heavy-revert::before {
+    content:'';
+    opacity:0;
+    position:absolute;
+    top:0;
+    left:37%;
+    width:3.75em;
+    height:3.75em;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/smoke.png) 0 100% no-repeat;
+    background-size:auto 100%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    -webkit-animation:smoke-heavy 3s steps(15, start) 7s infinite;
+    animation:smoke-heavy 3s steps(15, start) 7s infinite
+  }
+  @keyframes smoke-heavy {
+    0% {
+      opacity:1
+    }
+    100% {
+      opacity:1;
+      background-position:100% 100%
+    }
+  }
+  @-webkit-keyframes go-heavy_rev {
+    0% {
+      -webkit-transform:translate(-50%, -50%) rotateZ(0deg) scale(-1, -1);
+      transform:translate(-50%, -50%) rotateZ(0deg) scale(-1, -1)
+    }
+    50% {
+      -webkit-transform:translate(-50%, -50%) rotateZ(-2deg) scale(-1, -1);
+      transform:translate(-50%, -50%) rotateZ(-2deg) scale(-1, -1)
+    }
+    100% {
+      top:128%;
+      left:60%;
+      -webkit-transform:translate(-50%, -50%) rotateZ(0deg) scale(-1, -1);
+      transform:translate(-50%, -50%) rotateZ(0deg) scale(-1, -1)
+    }
+  }
+  @keyframes go-heavy_rev {
+    0% {
+      -webkit-transform:translate(-50%, -50%) rotateZ(0deg) scale(-1, -1);
+      transform:translate(-50%, -50%) rotateZ(0deg) scale(-1, -1)
+    }
+    50% {
+      -webkit-transform:translate(-50%, -50%) rotateZ(-2deg) scale(-1, -1);
+      transform:translate(-50%, -50%) rotateZ(-2deg) scale(-1, -1)
+    }
+    100% {
+      top:128%;
+      left:60%;
+      -webkit-transform:translate(-50%, -50%) rotateZ(0deg) scale(-1, -1);
+      transform:translate(-50%, -50%) rotateZ(0deg) scale(-1, -1)
+    }
+  }
+</style>
+
+
+<div class="ag-sea-battle">
+  <div class="kam-game__header">
+    <div class="kam-game__ship command-ship"></div>
+    <div class="kam-game__ship heavy-cruiser"></div>
+    <div class="kam-game__ship command-revert"></div>
+    <div class="kam-game__ship heavy-revert"></div>
+    <div class="kam-game__aircraft air-left"></div>
+    <div class="kam-game__aircraft air-right"></div>
+  </div>
+
+  <div class="ag-format-container">
+  </div>
+</div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>

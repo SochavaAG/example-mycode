@@ -863,17 +863,39 @@ body {
 /* bang */
 .ag-bang {
   display: inline-block;
-  height: 2.125em;
-  width: 2.125em;
+  height: 64px;
+  width: 64px;
   margin: 0 0 0 50px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/bang.png) no-repeat scroll 0 100%;
   background-size: auto 100%;
 
-  -webkit-animation: an-bang-air 1s steps(24, start) 6.8s forwards;
-  animation: an-bang-air 1s steps(24, start) 6.8s forwards;
+  -webkit-animation: an-bang-air 1s steps(24, start) 3s forwards;
+  -moz-animation: an-bang-air 1s steps(24, start) 3s forwards;
+  -o-animation: an-bang-air 1s steps(24, start) 3s forwards;
+  animation: an-bang-air 1s steps(24, start) 3s forwards;
 }
 
 @-webkit-keyframes an-bang-air {
+  99.99% {
+    opacity: 1;
+    background-position: 100% 100%;
+  }
+  100% {
+    opacity: 0;
+    background-position: 100% 100%;
+  }
+}
+@-moz-keyframes an-bang-air {
+  99.99% {
+    opacity: 1;
+    background-position: 100% 100%;
+  }
+  100% {
+    opacity: 0;
+    background-position: 100% 100%;
+  }
+}
+@-o-keyframes an-bang-air {
   99.99% {
     opacity: 1;
     background-position: 100% 100%;
@@ -894,6 +916,39 @@ body {
   }
 }
 /* /bang */
+
+/* smoke */
+.ag-smoke {
+  display: inline-block;
+  height: 10em;
+  width: 10em;
+  margin: 0 0 0 50px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/smoke.png) no-repeat scroll 0 100%;
+  background-size: auto 100%;
+
+  -webkit-animation: smoke-iowa 3s steps(15, start) infinite;
+  animation: smoke-iowa 3s steps(15, start) infinite;
+}
+
+@-webkit-keyframes smoke-iowa {
+  0% {
+    opacity: 1
+  }
+  100% {
+    opacity: 1;
+    background-position: 100% 100%;
+  }
+}
+@keyframes smoke-iowa {
+  0% {
+    opacity: 1
+  }
+  100% {
+    opacity: 1;
+    background-position: 100% 100%;
+  }
+}
+/* /smoke */
 
 /* bird-flying */
 .ag-bird-flying {
