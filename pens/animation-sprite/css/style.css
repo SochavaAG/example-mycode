@@ -1513,9 +1513,6 @@ body {
   width: 114px;
   margin: 0 0 0 100px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-fair-3.png) no-repeat scroll 0 0;
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
   background-size: 100%;
 
   -webkit-animation: an-candle 1.5s steps(11, end) infinite;
@@ -1556,7 +1553,40 @@ body {
     background-position: 0 100%;
   }
 }
-/* fire-v3 */
+/* /fire-v3 */
+
+/* flame */
+.ag-flame {
+  display: inline-block;
+  height: 4.9375em;
+  width: 4.97656em;
+  margin: 0 0 0 100px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/flame.png) no-repeat scroll 0 0;
+  background-size: 100%;
+
+  -webkit-animation: command-burns 2s steps(7, start) 7s infinite;
+  animation: command-burns 2s steps(7, start) 7s infinite;
+}
+
+@-webkit-keyframes command-burns {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    background-position: 100% 100%;
+  }
+}
+@keyframes command-burns {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    background-position: 100% 100%;
+  }
+}
+/* /flame */
 
 /* electricity v2 */
 .ag-electricity-v2 {
