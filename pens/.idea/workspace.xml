@@ -21,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            <state relative-caret-position="276">
+              <caret line="61" column="97" lean-forward="false" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="97" />
               <folding />
             </state>
           </provider>
@@ -31,8 +31,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-986">
-              <caret line="7052" column="31" lean-forward="false" selection-start-line="7052" selection-start-column="31" selection-end-line="7052" selection-end-column="31" />
+            <state relative-caret-position="255">
+              <caret line="6672" column="35" lean-forward="false" selection-start-line="6672" selection-start-column="35" selection-end-line="6672" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -41,8 +41,8 @@
       <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-t.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="1203" column="1" lean-forward="true" selection-start-line="1148" selection-start-column="0" selection-end-line="1203" selection-end-column="1" />
+            <state relative-caret-position="-561">
+              <caret line="140" column="2" lean-forward="false" selection-start-line="140" selection-start-column="2" selection-end-line="141" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -68,11 +68,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sea-battle/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="834" column="2" lean-forward="false" selection-start-line="834" selection-start-column="2" selection-end-line="834" selection-end-column="2" />
+            <state relative-caret-position="504">
+              <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sea-battle/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="27" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1295" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="luckyday.77d56a865197059ea7b8636e023364bd.js" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Desktop/luckyday.77d56a865197059ea7b8636e023364bd.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="17" column="3" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -82,27 +102,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.oxo__btn--play:disabled</find>
-      <find>.oxo .g-auto</find>
-      <find>box-shadow</find>
-      <find>kam-bet__play</find>
-      <find>.kam-bet__number</find>
-      <find>star</find>
-      <find>ag-fire-v3</find>
-      <find>fire-v3</find>
-      <find>flame</find>
-      <find>kam-game__ship.heavy-cruiser</find>
-      <find>ag-star</find>
-      <find>bang</find>
-      <find>smoke</find>
       <find>/default/img/games/kamikaze/</find>
       <find>kam-game__header</find>
-      <find>ag-flame</find>
-      <find>kam-game__ship</find>
-      <find>kam-game__aircraft</find>
       <find>&quot;/default/img/games/kamikaze/</find>
       <find>aircraft</find>
-      <find>kam-game__runway</find>
       <find>bang-air</find>
       <find>;;</find>
       <find>};</find>
@@ -112,26 +115,25 @@
       <find>fly-air_2</find>
       <find>an-fly-air_</find>
       <find>light</find>
+      <find>kam-game__ship</find>
+      <find>kam-game__aircraft</find>
+      <find>air-left</find>
+      <find>air-right</find>
+      <find>command-ship</find>
+      <find>heavy-cruiser</find>
+      <find>command-revert</find>
+      <find>heavy-revert</find>
+      <find>kam-game__runway</find>
+      <find>background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/</find>
+      <find>kam-game__light</find>
+      <find>xRes-but</find>
+      <find>xRes-butCon</find>
+      <find>annoy-shine</find>
+      <find>ag-flame</find>
+      <find>a73402</find>
+      <find>107</find>
     </findStrings>
     <replaceStrings>
-      <replace>romb</replace>
-      <replace>an-fire-freespins</replace>
-      <replace>ag-vase</replace>
-      <replace>an-freespins-fire</replace>
-      <replace>ag-star</replace>
-      <replace>an-star</replace>
-      <replace>an-candle 1.5s steps(11, end) infinite</replace>
-      <replace>an-shaking</replace>
-      <replace>an-mummy</replace>
-      <replace>an-curtains</replace>
-      <replace>an-paperplane</replace>
-      <replace>ag-paperplane_</replace>
-      <replace>sa-freedom-contest</replace>
-      <replace>،</replace>
-      <replace>109</replace>
-      <replace>flame</replace>
-      <replace>110</replace>
-      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/</replace>
       <replace>;</replace>
       <replace>an-go-command</replace>
       <replace>an-command-burns</replace>
@@ -144,6 +146,24 @@
       <replace>an-fly-air_2</replace>
       <replace>an-fly-air-</replace>
       <replace>an-light</replace>
+      <replace>ag-sea_box</replace>
+      <replace>ag-sea_ship</replace>
+      <replace>ag-sea_aircraft</replace>
+      <replace>ag-sea_aircraft__left</replace>
+      <replace>ag-sea_aircraft__right</replace>
+      <replace>ag-sea_ship__command-ship</replace>
+      <replace>ag-sea_ship__heavy-cruiser</replace>
+      <replace>ag-sea_ship__command-revert</replace>
+      <replace>ag-sea_ship__heavy-revert</replace>
+      <replace>ag-sea_runway</replace>
+      <replace>ag-sea_light</replace>
+      <replace>#a73402</replace>
+      <replace>#df4400</replace>
+      <replace>b53903</replace>
+      <replace>ef4a01</replace>
+      <replace>an-annoy-shine-btn-v113</replace>
+      <replace>110</replace>
+      <replace>an-annoy-shine-btn-v114</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -157,8 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/nouislider/css/style.css" />
-        <option value="$PROJECT_DIR$/nouislider/index.html" />
         <option value="$PROJECT_DIR$/animation-flashing/index.html" />
         <option value="$PROJECT_DIR$/animation-flashing/css/style.css" />
         <option value="$PROJECT_DIR$/animation-girl-bottle/index.html" />
@@ -202,12 +220,14 @@
         <option value="$USER_HOME$/landing-pages/2021.04.12_landing_jf-cup-contest/jf-cup-contest-EN.html" />
         <option value="$USER_HOME$/landing-pages/2021.04.12_landing_sa-freedom-contest/sa-freedom-contest-EN.html" />
         <option value="$USER_HOME$/format-2.html" />
-        <option value="$USER_HOME$/format-t.css" />
-        <option value="$PROJECT_DIR$/buttons/index.html" />
-        <option value="$PROJECT_DIR$/buttons/css/style.css" />
         <option value="$PROJECT_DIR$/animation-sprite/index.html" />
         <option value="$PROJECT_DIR$/animation-sprite/css/style.css" />
         <option value="$PROJECT_DIR$/sea-battle/index.html" />
+        <option value="$PROJECT_DIR$/sea-battle/css/style.css" />
+        <option value="$USER_HOME$/format-t.css" />
+        <option value="$PROJECT_DIR$/buttons/index.html" />
+        <option value="$PROJECT_DIR$/buttons/css/style.css" />
+        <option value="$USER_HOME$/Desktop/luckyday.77d56a865197059ea7b8636e023364bd.js" />
       </list>
     </option>
   </component>
@@ -425,12 +445,12 @@
       <workItem from="1617973662505" duration="8551000" />
       <workItem from="1617992942426" duration="25904000" />
       <workItem from="1618230916195" duration="10683000" />
-      <workItem from="1618338054053" duration="6079000" />
+      <workItem from="1618338054053" duration="11160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="716446000" />
+    <option name="totallyTimeSpent" value="721527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -475,20 +495,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/animation-light/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animation-flashing/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="79" column="10" lean-forward="false" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-flashing/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -803,18 +809,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/index.html">
+    <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        <state relative-caret-position="360">
+          <caret line="925" column="113" lean-forward="false" selection-start-line="925" selection-start-column="18" selection-end-line="925" selection-end-column="113" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+    <entry file="file://$PROJECT_DIR$/sea-battle/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-986">
-          <caret line="7052" column="31" lean-forward="false" selection-start-line="7052" selection-start-column="31" selection-end-line="7052" selection-end-column="31" />
+        <state relative-caret-position="648">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1295" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sea-battle/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-t.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="140" column="2" lean-forward="false" selection-start-line="140" selection-start-column="2" selection-end-line="141" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -827,26 +849,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
+    <entry file="file://$PROJECT_DIR$/buttons/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="1203" column="1" lean-forward="true" selection-start-line="1148" selection-start-column="0" selection-end-line="1203" selection-end-column="1" />
+        <state relative-caret-position="276">
+          <caret line="61" column="97" lean-forward="false" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="97" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
+    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="925" column="113" lean-forward="false" selection-start-line="925" selection-start-column="18" selection-end-line="925" selection-end-column="113" />
+        <state relative-caret-position="255">
+          <caret line="6672" column="35" lean-forward="false" selection-start-line="6672" selection-start-column="35" selection-end-line="6672" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sea-battle/index.html">
+    <entry file="file://$USER_HOME$/Desktop/luckyday.77d56a865197059ea7b8636e023364bd.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="834" column="2" lean-forward="false" selection-start-line="834" selection-start-column="2" selection-end-line="834" selection-end-column="2" />
+        <state relative-caret-position="408">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="3" />
           <folding />
         </state>
       </provider>

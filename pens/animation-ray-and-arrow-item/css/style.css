@@ -1,0 +1,232 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+/* ray */
+.ag-ray-container {
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.ag-ray {
+  height: 10px;
+  width: 100%;
+  background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(50%, rgba(255, 255, 255, 0.1)), to(rgba(0, 0, 0, 0)));
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0) 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0) 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.1) 50%, rgba(0, 0, 0, 0) 100%);
+
+  position: absolute;
+  right: -100px;
+
+  -webkit-transform-origin: 100% 50%;
+  -moz-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  -o-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+}
+.ag-ray-1 {
+  -webkit-transform: perspective(50px) rotateY(30deg);
+  -moz-transform: perspective(50px) rotateY(30deg);
+  -o-transform: perspective(50px) rotateY(30deg);
+  transform: perspective(50px) rotateY(30deg);
+}
+.ag-ray-2 {
+  -webkit-transform: rotate(-10deg) perspective(50px) rotateY(30deg);
+  -moz-transform: rotate(-10deg) perspective(50px) rotateY(30deg);
+  -o-transform: rotate(-10deg) perspective(50px) rotateY(30deg);
+  transform: rotate(-10deg) perspective(50px) rotateY(30deg);
+}
+.ag-ray-3 {
+  -webkit-transform: rotate(-20deg) perspective(50px) rotateY(30deg);
+  -moz-transform: rotate(-20deg) perspective(50px) rotateY(30deg);
+  -o-transform: rotate(-20deg) perspective(50px) rotateY(30deg);
+  transform: rotate(-20deg) perspective(50px) rotateY(30deg);
+}
+.ag-ray-4 {
+  -webkit-transform: rotate(-30deg) perspective(50px) rotateY(30deg);
+  -moz-transform: rotate(-30deg) perspective(50px) rotateY(30deg);
+  -o-transform: rotate(-30deg) perspective(50px) rotateY(30deg);
+  transform: rotate(-30deg) perspective(50px) rotateY(30deg);
+}
+.ag-ray-5 {
+  -webkit-transform: rotate(-40deg) perspective(50px) rotateY(30deg);
+  -moz-transform: rotate(-40deg) perspective(50px) rotateY(30deg);
+  -o-transform: rotate(-40deg) perspective(50px) rotateY(30deg);
+  transform: rotate(-40deg) perspective(50px) rotateY(30deg);
+}
+.ag-ray-6 {
+  -webkit-transform: rotate(-50deg) perspective(50px) rotateY(30deg);
+  -moz-transform: rotate(-50deg) perspective(50px) rotateY(30deg);
+  -o-transform: rotate(-50deg) perspective(50px) rotateY(30deg);
+  transform: rotate(-50deg) perspective(50px) rotateY(30deg);
+}
+.ag-ray-7 {
+  -webkit-transform: rotate(-60deg) perspective(50px) rotateY(30deg);
+  -moz-transform: rotate(-60deg) perspective(50px) rotateY(30deg);
+  -o-transform: rotate(-60deg) perspective(50px) rotateY(30deg);
+  transform: rotate(-60deg) perspective(50px) rotateY(30deg);
+}
+.ag-ray-8 {
+  -webkit-transform: rotate(-70deg) perspective(50px) rotateY(30deg);
+  -moz-transform: rotate(-70deg) perspective(50px) rotateY(30deg);
+  -o-transform: rotate(-70deg) perspective(50px) rotateY(30deg);
+  transform: rotate(-70deg) perspective(50px) rotateY(30deg);
+}
+.ag-ray-9 {
+  -webkit-transform: rotate(-80deg) perspective(50px) rotateY(30deg);
+  -moz-transform: rotate(-80deg) perspective(50px) rotateY(30deg);
+  -o-transform: rotate(-80deg) perspective(50px) rotateY(30deg);
+  transform: rotate(-80deg) perspective(50px) rotateY(30deg);
+}
+.ag-ray-10 {
+  -webkit-transform: rotate(10deg) perspective(50px) rotateY(30deg);
+  -moz-transform: rotate(10deg) perspective(50px) rotateY(30deg);
+  -o-transform: rotate(10deg) perspective(50px) rotateY(30deg);
+  transform: rotate(10deg) perspective(50px) rotateY(30deg);
+}
+.ag-ray-11 {
+  -webkit-transform: rotate(20deg) perspective(50px) rotateY(30deg);
+  -moz-transform: rotate(20deg) perspective(50px) rotateY(30deg);
+  -o-transform: rotate(20deg) perspective(50px) rotateY(30deg);
+  transform: rotate(20deg) perspective(50px) rotateY(30deg);
+}
+.ag-ray-12 {
+  -webkit-transform: rotate(30deg) perspective(50px) rotateY(30deg);
+  -moz-transform: rotate(30deg) perspective(50px) rotateY(30deg);
+  -o-transform: rotate(30deg) perspective(50px) rotateY(30deg);
+  transform: rotate(30deg) perspective(50px) rotateY(30deg);
+}
+.ag-ray-13 {
+  -webkit-transform: rotate(-90deg) perspective(50px) rotateY(30deg);
+  -moz-transform: rotate(-90deg) perspective(50px) rotateY(30deg);
+  -o-transform: rotate(-90deg) perspective(50px) rotateY(30deg);
+  transform: rotate(-90deg) perspective(50px) rotateY(30deg);
+}
+.ag-ray-14 {
+  -webkit-transform: rotate(-100deg) perspective(50px) rotateY(30deg);
+  -moz-transform: rotate(-100deg) perspective(50px) rotateY(30deg);
+  -o-transform: rotate(-100deg) perspective(50px) rotateY(30deg);
+  transform: rotate(-100deg) perspective(50px) rotateY(30deg);
+}
+.ag-ray-15 {
+  -webkit-transform: rotate(-110deg) perspective(50px) rotateY(30deg);
+  -moz-transform: rotate(-110deg) perspective(50px) rotateY(30deg);
+  -o-transform: rotate(-110deg) perspective(50px) rotateY(30deg);
+  transform: rotate(-110deg) perspective(50px) rotateY(30deg);
+}
+/* /ray */
+
+.ag-primary-block {
+  height: 841px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-ray-and-arrow-item/images/bg.jpg) no-repeat scroll 50% 100% #01090D;
+
+  overflow: hidden;
+
+  position: relative;
+}
+
+.ag-step-block {
+  padding: 65px 0 70px;
+}
+.ag-step_title-list {
+  padding: 0 0 100px;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 42px;
+}
+.ag-step_list {
+  padding: 0 0 60px;
+
+  white-space: nowrap;
+  text-align: center;
+}
+.ag-step_item {
+  display: inline-block;
+  width: 270px;
+  margin: 0 30px;
+
+  vertical-align: top;
+
+  position: relative;
+}
+.ag-step_img {
+  height: 77px;
+  width: 77px;
+  margin: 0 auto;
+}
+.ag-step-arrow_img {
+  height: 47px;
+  width: 28px;
+
+  position: absolute;
+  top: 15px;
+  right: -45px;
+
+  -webkit-animation: an-arrow-right 2s ease-out infinite;
+  -moz-animation: an-arrow-right 2s ease-out infinite;
+  -o-animation: an-arrow-right 2s ease-out infinite;
+  animation: an-arrow-right 2s ease-out infinite;
+}
+.ag-step_item:first-child .ag-step-arrow_img {
+  -webkit-animation-delay: 1.4s;
+  -moz-animation-delay: 1.4s;
+  -o-animation-delay: 1.4s;
+  animation-delay: 1.4s;
+}
+.ag-step_item:nth-child(2) .ag-step-arrow_img {
+  -webkit-animation-delay: 1.9s;
+  -moz-animation-delay: 1.9s;
+  -o-animation-delay: 1.9s;
+  animation-delay: 1.9s;
+}
+.ag-step_title-item {
+  line-height: 1.45;
+  padding: 20px 0 0;
+
+  white-space: normal;
+  font-size: 20px;
+}
+.ag-step_btn {
+  margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
