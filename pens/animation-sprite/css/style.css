@@ -2626,6 +2626,60 @@ body {
 }
 /* /cat */
 
+
+/* dice-1 */
+.ag-dice-1 {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/dice-1.png);
+  background-size: 1500% auto;
+  background-repeat: no-repeat;
+
+  -webkit-animation: an-sprite-dice-1 2s steps(50, start) infinite;
+  -moz-animation: an-sprite-dice-1 2s steps(50, start) infinite;
+  -o-animation: an-sprite-dice-1 2s steps(50, start) infinite;
+  animation: an-sprite-dice-1 2s steps(50, start) infinite;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+@-webkit-keyframes an-sprite-dice-1 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+@-moz-keyframes an-sprite-dice-1 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+@-o-keyframes an-sprite-dice-1 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+@keyframes an-sprite-dice-1 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+/* /dice-1 */
+
+
 /* vase balls */
 .ag-vase-block {
   display: inline-block;

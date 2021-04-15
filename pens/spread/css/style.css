@@ -3,63 +3,92 @@
   margin: 0 auto;
 }
 
+body {
+  background-color: #171B1D;
+}
+
+.spreads__box {
+  margin: 50px 0 0;
+  padding: 50px 30px 40%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/spread/images/bg.jpg) no-repeat 50% 100% #232429;
+  background-size: 100% auto;
+}
 
 .spreads__list {
-  margin: 0 -18px;
-  padding: 0 18px;
-  white-space: nowrap;
-  overflow-x: auto;
+  text-align: justify;
+  font-size: 14px;
+  line-height: 0;
+}
+.spreads__list:after {
+  content: "";
+  display: inline-block;
+  height: 0;
+  width: 100%;
+  visibility: hidden;
+  overflow: hidden;
+}
+.spreads__item {
+  display: inline-block;
+  line-height: normal;
+
+  vertical-align: top;
+  text-align: left;
+  font-size: 14px;
 }
 
-.spreads__item {
-   display: inline-block;
-   margin-right: 18px;
-   width: 78px;
-   vertical-align: top;
-}
 .spreads__item-label {
-   font-weight: normal;
-   font-size: 14px;
-   line-height: 150%;
-   color: #A6A8A9;
-   margin-bottom: 12px;
-   text-transform: uppercase;
- }
+  line-height: 1.5;
+  margin-bottom: 12px;
+
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #A6A8A9;
+}
 
 .spreads__item-point {
-   font-weight: normal;
+   line-height: 1.2;
+  
    font-size: 32px;
-   line-height: 120%;
-   letter-spacing: 0.03em;
 }
 .spreads__item-point::before {
    content: attr(data-spread);
-   /*transition: $transition;*/
  }
 
 .spreads__item-point::after {
-   content: '';
+   content: "";
    display: inline-block;
    border: 8px solid transparent;
-   position: relative;
    margin-left: 8px;
-   /*transition: $transition;*/
+
+   position: relative;
 }
 
 .spreads__item-point[data-direction="_up"] {
    color: #33D470;
 }
 .spreads__item-point[data-direction="_up"]::after {
-   top: -8px;
    border-bottom: 8px solid #00C94C;
+
+  top: -8px;
+
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
  }
 
 .spreads__item-point[data-direction="_down"] {
    color: #F64439;
 }
 .spreads__item-point[data-direction="_down"]::after {
-   top: 0;
    border-top: 8px solid #F86961;
+
+   top: 0;
+
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
  }
 
 @media only screen and (max-width: 767px) {
@@ -70,7 +99,9 @@
 }
 
 @media only screen and (max-width: 639px) {
-
+  .spreads__item-point {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 479px) {
