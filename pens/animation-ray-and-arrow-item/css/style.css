@@ -158,8 +158,8 @@ body {
 }
 .ag-step_item {
   display: inline-block;
-  width: 270px;
-  margin: 0 30px;
+  width: 30%;
+  margin: 0 1%;
 
   vertical-align: top;
 
@@ -176,7 +176,7 @@ body {
 
   position: absolute;
   top: 15px;
-  right: -45px;
+  right: -25px;
 
   -webkit-animation: an-arrow-right 2s ease-out infinite;
   -moz-animation: an-arrow-right 2s ease-out infinite;
@@ -322,11 +322,27 @@ body {
   }
 }
 
+@media only screen and (max-width: 979px) {
+  .ag-primary-block {
+    height: auto;
+    padding: 0 0 50%;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-ray-and-arrow-item/images/bg-mobile.png) no-repeat scroll 50% 100% #010B10;
+    background-size: 100% auto;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;
   }
 
+  .ag-step_item {
+    display: block;
+    margin: 0 auto 80px;
+  }
+  .ag-step-arrow_img {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 639px) {
