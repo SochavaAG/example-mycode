@@ -1207,6 +1207,114 @@ body {
 }
 /* /logo-blink */
 
+/* light */
+.ag-light {
+  display: inline-block;
+  height: 128px;
+  width: 314px;
+  margin: 0 50px 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-flashing/images/sprite-jackpot-light.png) no-repeat 0 0;
+
+  -webkit-animation: an-light steps(3) 1s infinite;
+  -moz-animation: an-light steps(3) 1s infinite;
+  -o-animation: an-light steps(3) 1s infinite;
+  animation: an-light steps(3) 1s infinite;
+}
+
+@-webkit-keyframes an-light {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-moz-keyframes an-light {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-o-keyframes an-light {
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes an-light {
+  to {
+    background-position-x: 100%;
+  }
+}
+/* /light */
+
+/* light-line */
+.ag-light-line {
+  display: inline-block;
+  height: 162px;
+  width: 760px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-flashing/images/sprite-row-line.png) no-repeat 0 0;
+
+  -webkit-animation: an-light-line steps(14) 1s infinite;
+  -moz-animation: an-light-line steps(14) 1s infinite;
+  -o-animation: an-light-line steps(14) 1s infinite;
+  animation: an-light-line steps(14) 1s infinite;
+}
+
+@-webkit-keyframes an-light-line {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-moz-keyframes an-light-line {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-o-keyframes an-light-line {
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes an-light-line {
+  to {
+    background-position-x: 100%;
+  }
+}
+/* /light-line */
+
+/* frame */
+.ag-frame {
+  display: inline-block;
+  height: 7.53em;
+  width: 7.56em;
+  margin: 0 50px 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-flashing/images/sprite-game-board.png) no-repeat 0 0;
+  background-size: auto 100%;
+
+  -webkit-animation: an-frame steps(8) 1s infinite;
+  -moz-animation: an-frame steps(8) 1s infinite;
+  -o-animation: an-frame steps(8) 1s infinite;
+  animation: an-frame steps(8) 1s infinite;
+}
+
+@-webkit-keyframes an-frame {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-moz-keyframes an-frame {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-o-keyframes an-frame {
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes an-frame {
+  to {
+    background-position-x: 100%;
+  }
+}
+/* /frame */
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;
