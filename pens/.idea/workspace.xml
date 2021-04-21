@@ -21,18 +21,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="31" />
+            <state relative-caret-position="96">
+              <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160128">
-              <caret line="6672" column="35" lean-forward="false" selection-start-line="6672" selection-start-column="35" selection-end-line="6672" selection-end-column="35" />
+            <state relative-caret-position="388">
+              <caret line="7763" column="17" lean-forward="false" selection-start-line="7763" selection-start-column="17" selection-end-line="7763" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -203,8 +203,8 @@
       <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-t.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-251">
-              <caret line="5743" column="0" lean-forward="false" selection-start-line="5743" selection-start-column="0" selection-end-line="5743" selection-end-column="0" />
+            <state relative-caret-position="448">
+              <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="145" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -220,7 +220,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cross/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -254,9 +254,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>heavy-cruiser</find>
-      <find>command-revert</find>
-      <find>heavy-revert</find>
       <find>kam-game__runway</find>
       <find>background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/</find>
       <find>kam-game__light</find>
@@ -283,6 +280,9 @@
       <find>13.2</find>
       <find>ag-crose</find>
       <find>js-ag-menu-bars_icon-open</find>
+      <find>--corvid-border-radius</find>
+      <find>._1Y5KP ._1WUin</find>
+      <find>._1Y5KP[aria-disabled=&quot;false&quot;]:hover</find>
       <find>js-toggle-3</find>
     </findStrings>
     <replaceStrings>
@@ -329,7 +329,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/case-diamond/index.html" />
         <option value="$PROJECT_DIR$/case-diamond/css/style.css" />
         <option value="$PROJECT_DIR$/clock/css/style.css" />
         <option value="$PROJECT_DIR$/clock/index.html" />
@@ -369,17 +368,18 @@
         <option value="$PROJECT_DIR$/animation-sprite/css/style.css" />
         <option value="$PROJECT_DIR$/sea-battle/index.html" />
         <option value="$PROJECT_DIR$/sea-battle/css/style.css" />
-        <option value="$PROJECT_DIR$/buttons/index.html" />
-        <option value="$PROJECT_DIR$/buttons/css/style.css" />
         <option value="$USER_HOME$/Desktop/luckyday.77d56a865197059ea7b8636e023364bd.js" />
         <option value="$PROJECT_DIR$/mix-length/js/main.js" />
         <option value="$PROJECT_DIR$/mix-length/css/style.css" />
         <option value="$PROJECT_DIR$/mix-length/index.html" />
         <option value="$PROJECT_DIR$/mix-length/js/main-jquery.js" />
-        <option value="$USER_HOME$/format-t.css" />
         <option value="$PROJECT_DIR$/cross/css/style.css" />
         <option value="$PROJECT_DIR$/cross/index.html" />
         <option value="$PROJECT_DIR$/cross/js/main.js" />
+        <option value="$USER_HOME$/example-site-1/www.sippysoft.com/index.html" />
+        <option value="$USER_HOME$/format-t.css" />
+        <option value="$PROJECT_DIR$/buttons/index.html" />
+        <option value="$PROJECT_DIR$/buttons/css/style.css" />
       </list>
     </option>
   </component>
@@ -598,12 +598,12 @@
       <workItem from="1617992942426" duration="25904000" />
       <workItem from="1618230916195" duration="10683000" />
       <workItem from="1618338054053" duration="11160000" />
-      <workItem from="1618988990943" duration="10159000" />
+      <workItem from="1618988990943" duration="11969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="731686000" />
+    <option name="totallyTimeSpent" value="733496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -648,13 +648,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/desert/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mummy/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -861,14 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160128">
-          <caret line="6672" column="35" lean-forward="false" selection-start-line="6672" selection-start-column="35" selection-end-line="6672" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/luckyday.77d56a865197059ea7b8636e023364bd.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -977,14 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-251">
-          <caret line="5743" column="0" lean-forward="false" selection-start-line="5743" selection-start-column="0" selection-end-line="5743" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mix-length/js/main-jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
@@ -1001,18 +978,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cross/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="355" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="384" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site-1/www.sippysoft.com/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9205">
+          <caret line="15971" column="0" lean-forward="true" selection-start-line="15971" selection-start-column="0" selection-end-line="15971" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-t.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="145" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1025,10 +1018,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cross/js/main.js">
+    <entry file="file://$PROJECT_DIR$/buttons/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="11" />
+        <state relative-caret-position="96">
+          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="7763" column="17" lean-forward="false" selection-start-line="7763" selection-start-column="17" selection-end-line="7763" selection-end-column="17" />
           <folding />
         </state>
       </provider>
