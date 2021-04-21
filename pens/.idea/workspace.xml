@@ -21,8 +21,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1464">
-              <caret line="61" column="81" lean-forward="false" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="81" />
+            <state relative-caret-position="336">
+              <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -33,16 +33,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160128">
               <caret line="6672" column="35" lean-forward="false" selection-start-line="6672" selection-start-column="35" selection-end-line="6672" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/format-t.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3360">
-              <caret line="140" column="2" lean-forward="false" selection-start-line="140" selection-start-column="2" selection-end-line="141" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -98,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mix-length/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="264">
+              <caret line="11" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -111,8 +101,150 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mix-length/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="796">
-              <caret line="91" column="1" lean-forward="false" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+            <state relative-caret-position="508">
+              <caret line="85" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mix-length/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pop-up_exit-random-NO-EU-2020.03.13_10-14.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/vazhno_project-1/2020.03.13_popup_NO_EU/pop-up_exit-random-NO-EU-2020.03.13_10-14.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="191" column="36" lean-forward="false" selection-start-line="191" selection-start-column="30" selection-end-line="191" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JS-custom-codes.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/JS-CSS-HTML CUSTOM CODES/JS-custom-codes.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3067">
+              <caret line="2868" column="15" lean-forward="false" selection-start-line="2868" selection-start-column="15" selection-end-line="2868" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-jquery.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mix-length/js/main-jquery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="744">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/main1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="60" column="24" lean-forward="true" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="https _eduzorro.com_wp-content_themes_twentynineteen-child_js_pagination.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/https _eduzorro.com_wp-content_themes_twentynineteen-child_js_pagination.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="https _eduzorro.com_wp-content_themes_twentynineteen-child_js_mes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/https _eduzorro.com_wp-content_themes_twentynineteen-child_js_mes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="https _eduzorro.com_wp-content_themes_twentynineteen-child_js_priority-menu.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/https _eduzorro.com_wp-content_themes_twentynineteen-child_js_priority-menu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3096">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/format-t.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-251">
+              <caret line="5743" column="0" lean-forward="false" selection-start-line="5743" selection-start-column="0" selection-end-line="5743" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cross/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="60" column="34" lean-forward="false" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cross/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animation-sprite/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cross/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="355" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="384" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -122,24 +254,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/default/img/games/kamikaze/</find>
-      <find>kam-game__header</find>
-      <find>&quot;/default/img/games/kamikaze/</find>
-      <find>aircraft</find>
-      <find>bang-air</find>
-      <find>;;</find>
-      <find>};</find>
-      <find>command-burns</find>
-      <find>heavy-burns</find>
-      <find>smoke-heavy</find>
-      <find>fly-air_2</find>
-      <find>an-fly-air_</find>
-      <find>light</find>
-      <find>kam-game__ship</find>
-      <find>kam-game__aircraft</find>
-      <find>air-left</find>
-      <find>air-right</find>
-      <find>command-ship</find>
       <find>heavy-cruiser</find>
       <find>command-revert</find>
       <find>heavy-revert</find>
@@ -152,22 +266,26 @@
       <find>ag-flame</find>
       <find>a73402</find>
       <find>107</find>
+      <find>on('</find>
+      <find>insertAfter</find>
+      <find>on('onkeyup</find>
+      <find>agCount</find>
+      <find>disabled</find>
+      <find>js-comm_count</find>
+      <find>.style-kg14nctd_menu</find>
+      <find>tooggleNav</find>
+      <find>mobile-nav-toggle--active</find>
+      <find>style-kg14nctd_pix</find>
+      <find>mobile-nav-toggle</find>
+      <find>0px)</find>
+      <find>17.6</find>
+      <find>4.4</find>
+      <find>13.2</find>
+      <find>ag-crose</find>
+      <find>js-ag-menu-bars_icon-open</find>
+      <find>js-toggle-3</find>
     </findStrings>
     <replaceStrings>
-      <replace>;</replace>
-      <replace>an-go-command</replace>
-      <replace>an-command-burns</replace>
-      <replace>an-smoke-command</replace>
-      <replace>an-go-heavy</replace>
-      <replace>an-heavy-burns</replace>
-      <replace>an-smoke-heavy</replace>
-      <replace>an-fly-air_1</replace>
-      <replace>an-bang-air</replace>
-      <replace>an-fly-air_2</replace>
-      <replace>an-fly-air-</replace>
-      <replace>an-light</replace>
-      <replace>ag-sea_box</replace>
-      <replace>ag-sea_ship</replace>
       <replace>ag-sea_aircraft</replace>
       <replace>ag-sea_aircraft__left</replace>
       <replace>ag-sea_aircraft__right</replace>
@@ -184,6 +302,20 @@
       <replace>an-annoy-shine-btn-v113</replace>
       <replace>110</replace>
       <replace>an-annoy-shine-btn-v114</replace>
+      <replace>.style-kg14nctd_toggleOpen</replace>
+      <replace>.js-ag-active</replace>
+      <replace>.js-ag-active-2</replace>
+      <replace>ag-close_btn-point</replace>
+      <replace>ag-crose_btn</replace>
+      <replace>0)</replace>
+      <replace>8</replace>
+      <replace>0</replace>
+      <replace>20</replace>
+      <replace>10</replace>
+      <replace>5</replace>
+      <replace>15</replace>
+      <replace>js-ag-active-3</replace>
+      <replace>ag-cross</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -197,11 +329,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/animation-girl-bottle/index.html" />
-        <option value="$PROJECT_DIR$/animation-girl-bottle/css/style.css" />
-        <option value="$USER_HOME$/Desktop/192.dcb1988c4e500b3048e7.chunk.js" />
-        <option value="$PROJECT_DIR$/cube-spin/index.html" />
-        <option value="$PROJECT_DIR$/cube-spin/js/main.js" />
         <option value="$PROJECT_DIR$/case-diamond/index.html" />
         <option value="$PROJECT_DIR$/case-diamond/css/style.css" />
         <option value="$PROJECT_DIR$/clock/css/style.css" />
@@ -242,12 +369,17 @@
         <option value="$PROJECT_DIR$/animation-sprite/css/style.css" />
         <option value="$PROJECT_DIR$/sea-battle/index.html" />
         <option value="$PROJECT_DIR$/sea-battle/css/style.css" />
-        <option value="$USER_HOME$/format-t.css" />
         <option value="$PROJECT_DIR$/buttons/index.html" />
         <option value="$PROJECT_DIR$/buttons/css/style.css" />
         <option value="$USER_HOME$/Desktop/luckyday.77d56a865197059ea7b8636e023364bd.js" />
-        <option value="$PROJECT_DIR$/mix-length/css/style.css" />
         <option value="$PROJECT_DIR$/mix-length/js/main.js" />
+        <option value="$PROJECT_DIR$/mix-length/css/style.css" />
+        <option value="$PROJECT_DIR$/mix-length/index.html" />
+        <option value="$PROJECT_DIR$/mix-length/js/main-jquery.js" />
+        <option value="$USER_HOME$/format-t.css" />
+        <option value="$PROJECT_DIR$/cross/css/style.css" />
+        <option value="$PROJECT_DIR$/cross/index.html" />
+        <option value="$PROJECT_DIR$/cross/js/main.js" />
       </list>
     </option>
   </component>
@@ -466,12 +598,12 @@
       <workItem from="1617992942426" duration="25904000" />
       <workItem from="1618230916195" duration="10683000" />
       <workItem from="1618338054053" duration="11160000" />
-      <workItem from="1618988990943" duration="185000" />
+      <workItem from="1618988990943" duration="10159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="721712000" />
+    <option name="totallyTimeSpent" value="731686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -516,89 +648,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cube-spin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1776">
-          <caret line="199" column="3" lean-forward="false" selection-start-line="199" selection-start-column="3" selection-end-line="199" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/192.dcb1988c4e500b3048e7.chunk.js" />
-    <entry file="file://$PROJECT_DIR$/cube-spin/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-696">
-          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animation-girl-bottle/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" column="10" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="29" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case-diamond/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="2" lean-forward="false" selection-start-line="27" selection-start-column="2" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/75.da74877e90b0ac4599ff.chunk.js" />
-    <entry file="file://$PROJECT_DIR$/light-blink/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/light-blink/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="168" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clock/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case-diamond/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clock/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desert/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="730" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="949" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/desert/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animation-sprite/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -714,13 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/landing-pages/2021.04.12_landing_sa-freedom-contest/sa-freedom-contest-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9360">
-          <caret line="1040" column="9" lean-forward="true" selection-start-line="1040" selection-start-column="9" selection-end-line="1040" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/landing-pages/2021.04.12_landing_jf-cup-contest/jf-cup-contest-HI.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3240">
@@ -807,26 +853,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3360">
-          <caret line="140" column="2" lean-forward="false" selection-start-line="140" selection-start-column="2" selection-end-line="141" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1392">
           <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1464">
-          <caret line="61" column="81" lean-forward="false" selection-start-line="61" selection-start-column="76" selection-end-line="61" selection-end-column="81" />
           <folding />
         </state>
       </provider>
@@ -855,18 +885,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mix-length/css/style.css">
+    <entry file="file://$PROJECT_DIR$/mix-length/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="91" column="1" lean-forward="false" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+        <state relative-caret-position="264">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mix-length/js/main.js">
+    <entry file="file://$USER_HOME$/landing-pages/2021.04.12_landing_sa-freedom-contest/sa-freedom-contest-EN.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="1118">
+          <caret line="1148" column="9" lean-forward="true" selection-start-line="1148" selection-start-column="9" selection-end-line="1148" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2020.03.13_popup_NO_EU/pop-up_exit-random-NO-EU-2020.03.13_10-14.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="191" column="36" lean-forward="false" selection-start-line="191" selection-start-column="30" selection-end-line="191" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mix-length/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="85" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mix-length/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/JS-CSS-HTML CUSTOM CODES/JS-custom-codes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3067">
+          <caret line="2868" column="15" lean-forward="false" selection-start-line="2868" selection-start-column="15" selection-end-line="2868" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/https _eduzorro.com_wp-content_themes_twentynineteen-child_js_priority-menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3096">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-sprite/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/https _eduzorro.com_wp-content_themes_twentynineteen-child_js_mes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/https _eduzorro.com_wp-content_themes_twentynineteen-child_js_pagination.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-t.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-251">
+          <caret line="5743" column="0" lean-forward="false" selection-start-line="5743" selection-start-column="0" selection-end-line="5743" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mix-length/js/main-jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/main1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="60" column="24" lean-forward="true" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="74" column="4" lean-forward="false" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="355" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="384" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="60" column="34" lean-forward="false" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cross/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="11" />
           <folding />
         </state>
       </provider>
