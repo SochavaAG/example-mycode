@@ -1,0 +1,122 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+.ag-comm_form {
+  padding: 50px 0;
+}
+.ag-comm_textarea-wrap {
+  padding: 0 0 15px;
+}
+.ag-comm_textarea {
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid #d3d3d3;
+  background: #FFF;
+
+  outline: none !important;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  font-family: Arial, sans-serif;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.ag-comm_textarea:active,
+.ag-comm_textarea:focus {
+  outline: none;
+}
+.ag-comm_textarea::-moz-focus-inner {
+  border: 0;
+}
+.js-ag-comm_count {
+  font-size: 12px;
+  color: #F00;
+}
+.js-ag-comm_count__success {
+  color: #008000;
+}
+.ag-comm_btn {
+  height: 40px;
+  line-height: 39px;
+  min-width: 150px;
+  margin: 0;
+  padding: 0 25px;
+  border: 1px solid #70bd0e;
+  background-color: #70bd0e;
+
+  cursor: pointer;
+
+  vertical-align: middle;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #FFF;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, .25);
+  -o-box-shadow: 0 3px 5px rgba(0, 0, 0, .25);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .25);
+
+  -webkit-transition: background-color 0.2s ease;
+  -moz-transition: background-color 0.2s ease;
+  -o-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
+}
+.ag-comm_btn:focus {
+  outline: none;
+}
+.ag-comm_btn:not(:disabled):hover {
+  border: 1px solid #a8de15;
+  background-color: #a8de15;
+}
+.ag-comm_btn:disabled {
+  border: 1px solid #bfbcbc;
+  background: #F4F1F1;
+
+  color: #525c69;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
