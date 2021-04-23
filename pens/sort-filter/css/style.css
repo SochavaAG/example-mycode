@@ -22,7 +22,7 @@
 .ag-courses-filter_select select {
   height: 40px;
   border: 1px solid #f0ae00;
-  background: url(../images/arrow.svg) no-repeat scroll calc(100% - 10px) 50% #FFF;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sort-filter/images/arrow.svg) no-repeat scroll calc(100% - 10px) 50% #FFF;
   padding: 5px 30px 5px 10px;
 
   font-size: 17px;
@@ -108,13 +108,13 @@
 
 .gl-star-rating--stars[class*=" s"] > span,
 .glsr-star-empty {
-  background-image: url(../images/star-empty.svg);
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sort-filter/images/star-empty.svg);
 }
 .glsr-field-is-invalid .gl-star-rating--stars[class*=" s"] > span {
-  background-image: url(../images/star-error.svg);
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sort-filter/images/star-error.svg);
 }
 .glsr-star-half {
-  background-image: url(../images/star-half.svg);
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sort-filter/images/star-half.svg);
 }
 .gl-star-rating--stars.s10 > span:first-child,
 .gl-star-rating--stars.s20 > span:nth-child(-1n+2),
@@ -127,7 +127,7 @@
 .gl-star-rating--stars.s90 > span:nth-child(-1n+9),
 .gl-star-rating--stars.s100 > span,
 .glsr-star-full {
-  background-image: url(../images/star-full.svg);
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sort-filter/images/star-full.svg);
 }
 /* /rating */
 

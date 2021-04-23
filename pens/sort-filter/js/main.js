@@ -15,8 +15,8 @@
       reviewsArray.sort(function (a, b) {
         switch (sortValue) {
           case 'rating':
-            a = parseInt($(a).find(".screen-reader-text strong").html());
-            b = parseInt($(b).find(".screen-reader-text strong").html());
+            a = parseInt($(a).find('.screen-reader-text strong').html());
+            b = parseInt($(b).find('.screen-reader-text strong').html());
             break;
           case 'count':
             a = parseInt($(a).find('.js-reviews-count').html());

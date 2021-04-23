@@ -7485,13 +7485,6 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 /* /button 116 */
 
 /* button 117 */
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 100 version
-*/
-
 .ag-base_btn-v117 {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(89, 68, 63, .9)), to(rgba(180, 145, 126, .9)));
   background: -webkit-linear-gradient(bottom, rgba(89, 68, 63, .9), rgba(180, 145, 126, .9));
@@ -7702,13 +7695,6 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 /* /button 119 */
 
 /* button 120 */
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 100 version
-*/
-
 .ag-base_btn-v120 {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#620808), color-stop(#ff4343), to(#620808));
   background-image: -webkit-linear-gradient(bottom, #620808, #ff4343, #620808);
