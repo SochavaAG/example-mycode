@@ -1,0 +1,162 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+/* filter */
+.ag-courses-filter_box {
+  padding: 60px 0;
+}
+.ag-courses-filter_title {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 20px 0 0;
+
+  font-size: 20px;
+  color: #111;
+}
+.ag-courses-filter_select {
+  display: inline-block;
+}
+.ag-courses-filter_select select {
+  height: 40px;
+  border: 1px solid #f0ae00;
+  background: url(../images/arrow.svg) no-repeat scroll calc(100% - 10px) 50% #FFF;
+  padding: 5px 30px 5px 10px;
+
+  font-size: 17px;
+  color: #525c69;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.ag-courses-filter_select select:focus {
+  outline: none;
+}
+/* /filter */
+
+.ag-course-review_box {
+  display: flex;
+
+  padding: 0 0 60px;
+}
+.ag-course-review_center {
+  flex: 0 1 100%;
+
+  margin-left: 60px;
+}
+.ag-course-review_left {
+  flex: 0 0 260px;
+}
+.ag-course-review_img {
+  margin: 0 0 15px;
+}
+.ag-course-review_title a {
+  display: block;
+  padding: 0 0 10px;
+
+  font-weight: 500;
+  font-size: 30px;
+
+  color: #111;
+}
+.ag-course-review_count-wrap {
+  display: inline-block;
+  margin: 10px 0 0;
+  border-bottom: 2px dotted #f0ae00;
+
+  font-size: 17px;
+  color: #111;
+}
+.ag-course-review_count-wrap:hover {
+  border-bottom: 2px dotted #111;
+
+  text-decoration: none;
+}
+.ag-course-review_text {
+  line-height: 1.45;
+
+  font-size: 17px;
+  color: #747474;
+}
+.ag-course-review_link-wrap {
+  text-align: right;
+}
+.ag-course-review_link {
+  line-height: 1.45;
+
+  font-size: 17px;
+  color: #0169ee;
+}
+
+/* rating */
+.screen-reader-text {
+  display: none;
+}
+
+.glsr-star {
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-size: 1.5rem;
+}
+
+.gl-star-rating--stars[class*=" s"] > span,
+.glsr-star-empty {
+  background-image: url(../images/star-empty.svg);
+}
+.glsr-field-is-invalid .gl-star-rating--stars[class*=" s"] > span {
+  background-image: url(../images/star-error.svg);
+}
+.glsr-star-half {
+  background-image: url(../images/star-half.svg);
+}
+.gl-star-rating--stars.s10 > span:first-child,
+.gl-star-rating--stars.s20 > span:nth-child(-1n+2),
+.gl-star-rating--stars.s30 > span:nth-child(-1n+3),
+.gl-star-rating--stars.s40 > span:nth-child(-1n+4),
+.gl-star-rating--stars.s50 > span:nth-child(-1n+5),
+.gl-star-rating--stars.s60 > span:nth-child(-1n+6),
+.gl-star-rating--stars.s70 > span:nth-child(-1n+7),
+.gl-star-rating--stars.s80 > span:nth-child(-1n+8),
+.gl-star-rating--stars.s90 > span:nth-child(-1n+9),
+.gl-star-rating--stars.s100 > span,
+.glsr-star-full {
+  background-image: url(../images/star-full.svg);
+}
+/* /rating */
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

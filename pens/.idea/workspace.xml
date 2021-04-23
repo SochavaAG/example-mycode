@@ -28,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="7763" column="17" lean-forward="false" selection-start-line="7763" selection-start-column="17" selection-end-line="7763" selection-end-column="17" />
+            <state relative-caret-position="1732">
+              <caret line="7755" column="16" lean-forward="false" selection-start-line="7755" selection-start-column="16" selection-end-line="7755" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -193,7 +193,7 @@
       <file leaf-file-name="https _eduzorro.com_wp-content_themes_twentynineteen-child_js_priority-menu.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/https _eduzorro.com_wp-content_themes_twentynineteen-child_js_priority-menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3096">
+            <state relative-caret-position="-4248">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -203,9 +203,12 @@
       <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-t.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="145" selection-end-column="9" />
-              <folding />
+            <state relative-caret-position="-1715">
+              <caret line="2072" column="18" lean-forward="true" selection-start-line="2072" selection-start-column="18" selection-end-line="2072" selection-end-column="18" />
+              <folding>
+                <marker date="1619009952436" expanded="true" signature="47192:47227" ph="{...}" />
+                <marker date="1619009952436" expanded="true" signature="47321:47565" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -250,16 +253,40 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="format-1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/format-1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main-2021.04.21-17.59.css" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/vazhno_project-1/2021.04.20_FX-22723_layout_Simple-page-Responsive/main-2021.04.21-17.59.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="format-2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/format-2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>kam-game__runway</find>
-      <find>background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/sea-battle/images/</find>
-      <find>kam-game__light</find>
-      <find>xRes-but</find>
-      <find>xRes-butCon</find>
-      <find>annoy-shine</find>
       <find>ag-flame</find>
       <find>a73402</find>
       <find>107</find>
@@ -284,9 +311,14 @@
       <find>._1Y5KP ._1WUin</find>
       <find>._1Y5KP[aria-disabled=&quot;false&quot;]:hover</find>
       <find>js-toggle-3</find>
+      <find>ag-article</find>
+      <find>&amp;#160;-</find>
+      <find>1.</find>
+      <find>1.</find>
+      <find>–</find>
+      <find>A Guide to Forex Day Trading</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-sea_aircraft</replace>
       <replace>ag-sea_aircraft__left</replace>
       <replace>ag-sea_aircraft__right</replace>
       <replace>ag-sea_ship__command-ship</replace>
@@ -316,6 +348,7 @@
       <replace>15</replace>
       <replace>js-ag-active-3</replace>
       <replace>ag-cross</replace>
+      <replace>&amp;#160;–</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -329,8 +362,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/case-diamond/css/style.css" />
-        <option value="$PROJECT_DIR$/clock/css/style.css" />
         <option value="$PROJECT_DIR$/clock/index.html" />
         <option value="$USER_HOME$/Desktop/75.da74877e90b0ac4599ff.chunk.js" />
         <option value="$PROJECT_DIR$/light-blink/css/style.css" />
@@ -363,7 +394,6 @@
         <option value="$USER_HOME$/landing-pages/2021.04.12_landing_jf-cup-contest/jf-cup-contest-ZH.html" />
         <option value="$USER_HOME$/landing-pages/2021.04.12_landing_jf-cup-contest/jf-cup-contest-EN.html" />
         <option value="$USER_HOME$/landing-pages/2021.04.12_landing_sa-freedom-contest/sa-freedom-contest-EN.html" />
-        <option value="$USER_HOME$/format-2.html" />
         <option value="$PROJECT_DIR$/animation-sprite/index.html" />
         <option value="$PROJECT_DIR$/animation-sprite/css/style.css" />
         <option value="$PROJECT_DIR$/sea-battle/index.html" />
@@ -377,9 +407,12 @@
         <option value="$PROJECT_DIR$/cross/index.html" />
         <option value="$PROJECT_DIR$/cross/js/main.js" />
         <option value="$USER_HOME$/example-site-1/www.sippysoft.com/index.html" />
-        <option value="$USER_HOME$/format-t.css" />
         <option value="$PROJECT_DIR$/buttons/index.html" />
         <option value="$PROJECT_DIR$/buttons/css/style.css" />
+        <option value="$USER_HOME$/format-t.css" />
+        <option value="$USER_HOME$/format-1.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.04.20_FX-22723_layout_Simple-page-Responsive/main-2021.04.21-17.49.css" />
+        <option value="$USER_HOME$/format-2.html" />
       </list>
     </option>
   </component>
@@ -414,7 +447,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/format-t.css" />
+    <property name="last_opened_file_path" value="$USER_HOME$/format-2.html" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
@@ -598,12 +631,12 @@
       <workItem from="1617992942426" duration="25904000" />
       <workItem from="1618230916195" duration="10683000" />
       <workItem from="1618338054053" duration="11160000" />
-      <workItem from="1618988990943" duration="11969000" />
+      <workItem from="1618988990943" duration="21378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="733496000" />
+    <option name="totallyTimeSpent" value="742905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -648,27 +681,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mummy/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="26" column="6" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mummy/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="1" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animation-curtains/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/paperplane/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="593">
@@ -764,13 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3240">
           <caret line="135" column="71" lean-forward="false" selection-start-line="135" selection-start-column="71" selection-end-line="135" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -928,14 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/https _eduzorro.com_wp-content_themes_twentynineteen-child_js_priority-menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3096">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-sprite/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -1002,14 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="145" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cross/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
@@ -1028,8 +1017,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="7763" column="17" lean-forward="false" selection-start-line="7763" selection-start-column="17" selection-end-line="7763" selection-end-column="17" />
+        <state relative-caret-position="1732">
+          <caret line="7755" column="16" lean-forward="false" selection-start-line="7755" selection-start-column="16" selection-end-line="7755" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/https _eduzorro.com_wp-content_themes_twentynineteen-child_js_priority-menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4248">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-t.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1715">
+          <caret line="2072" column="18" lean-forward="true" selection-start-line="2072" selection-start-column="18" selection-end-line="2072" selection-end-column="18" />
+          <folding>
+            <marker date="1619009952436" expanded="true" signature="47192:47227" ph="{...}" />
+            <marker date="1619009952436" expanded="true" signature="47321:47565" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.04.20_FX-22723_layout_Simple-page-Responsive/main-2021.04.21-17.49.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.04.20_FX-22723_layout_Simple-page-Responsive/main-2021.04.21-17.59.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding />
         </state>
       </provider>

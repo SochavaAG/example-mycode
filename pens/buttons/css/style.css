@@ -7773,10 +7773,18 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
   bottom: 0;
   left: 0;
 
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
   border-radius: 5px;
 
+  -webkit-box-shadow: 1px 1px 0 0 #805300, 3px 3px 0 0 #805300, 5px 5px 0 0 #805300, 7px 7px 0 0 #805300, 9px 9px 0 0 #805300;
+  -moz-box-shadow: 1px 1px 0 0 #805300, 3px 3px 0 0 #805300, 5px 5px 0 0 #805300, 7px 7px 0 0 #805300, 9px 9px 0 0 #805300;
+  -o-box-shadow: 1px 1px 0 0 #805300, 3px 3px 0 0 #805300, 5px 5px 0 0 #805300, 7px 7px 0 0 #805300, 9px 9px 0 0 #805300;
   box-shadow: 1px 1px 0 0 #805300, 3px 3px 0 0 #805300, 5px 5px 0 0 #805300, 7px 7px 0 0 #805300, 9px 9px 0 0 #805300;
 
+  -webkit-transition: all .12s ease;
+  -moz-transition: all .12s ease;
+  -o-transition: all .12s ease;
   transition: all .12s ease;
 }
 .ag-base_btn-v121:hover {
@@ -7785,9 +7793,11 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
   right: -9px;
   bottom: -9px;
 
+  -webkit-box-shadow: 0 0 transparent;
+  -moz-box-shadow: 0 0 transparent;
+  -o-box-shadow: 0 0 transparent;
   box-shadow: 0 0 transparent;
 }
-
 /* /button 121 */
 
 @media only screen and (max-width: 767px) {
