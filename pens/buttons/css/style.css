@@ -7852,26 +7852,233 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 /* /button 124 */
 
 /* button 125 */
+.ag-base_btn-v125-wrap {
+  overflow: hidden;
+}
 .ag-base_btn-v125 {
-  border-left-color: #666948;
-  border-top-color: #93986e;
-  border-right-color: #4b4e37;
-  border-bottom-color: #4b4e37;
-  background: #70764E;
+  border: 4px solid;
+  border-left-color: #85962c;
+  border-top-color: #b5cb3c;
+  border-right-color: #586415;
+  border-bottom-color: #586415;
+
+  background: #90aa03;
+  background: -moz-linear-gradient(top, #90aa03 0%, #7d9016 100%);
+  background: -webkit-linear-gradient(top, #90aa03 0%, #7d9016 100%);
+  background: -o-linear-gradient(top, #90aa03 0%, #7d9016 100%);
+  background: linear-gradient(to bottom, #90aa03 0%, #7d9016 100%);
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+
+  text-shadow: 0 0 5px #758811;
+
+  position: relative;
+}
+.ag-base_btn-v125:before {
+  content: "";
+  width: 35px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-125-hover.png) no-repeat 50% 50%;
+  background-size: auto 100%;
+
+  opacity: .3;
+
+  position: absolute;
+  left: -100px;
+  top: -3px;
+  bottom: -3px;
+
+  -webkit-animation: an-rolling 2s linear infinite;
+  -moz-animation: an-rolling 2s linear infinite;
+  -o-animation: an-rolling 2s linear infinite;
+  animation: an-rolling 2s linear infinite;
 }
 .ag-base_btn-v125:hover {
+  background: #7d9016;
+  background: -moz-linear-gradient(top, #7d9016 0%, #90aa03 100%);
+  background: -webkit-linear-gradient(top, #7d9016 0%, #90aa03 100%);
+  background: -o-linear-gradient(top, #7d9016 0%, #90aa03 100%);
+  background: linear-gradient(to bottom, #7d9016 0%, #90aa03 100%);
+}
 
+@-webkit-keyframes an-rolling {
+  100% {
+    left: 200%;
+  }
+}
+
+@-moz-keyframes an-rolling {
+  100% {
+    left: 200%;
+  }
+}
+@-o-keyframes an-rolling {
+  100% {
+    left: 200%;
+  }
+}
+@keyframes an-rolling {
+  100% {
+    left: 200%;
+  }
 }
 /* /button 125 */
 
 /* button 126 */
+.ag-base_btn-v126-wrap {
+  overflow: hidden;
+}
 .ag-base_btn-v126 {
+  border: 4px solid;
+  border-left-color: #9e6b32;
+  border-top-color: #ba8142;
+  border-right-color: #775224;
+  border-bottom-color: #775224;
 
+  background: #a25a19;
+  background: -moz-linear-gradient(top, #a25a19 0%, #d29e5d 100%);
+  background: -webkit-linear-gradient(top, #a25a19 0%, #d29e5d 100%);
+  background: -o-linear-gradient(top, #a25a19 0%, #d29e5d 100%);
+  background: linear-gradient(to bottom, #a25a19 0%, #d29e5d 100%);
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+
+  text-shadow: 0 0 5px #ae6b2a;
+
+  -webkit-box-shadow: 3px 3px 8px #7e6347;
+  -moz-box-shadow: 3px 3px 8px #7e6347;
+  -o-box-shadow: 3px 3px 8px #7e6347;
+  box-shadow: 3px 3px 8px #7e6347;
+
+  position: relative;
+}
+.ag-base_btn-v126:before {
+  content: "";
+  width: 35px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-125-hover.png) no-repeat 50% 50%;
+  background-size: auto 100%;
+
+  opacity: .3;
+
+  position: absolute;
+  left: -100px;
+  top: -3px;
+  bottom: -3px;
+
+  -webkit-animation: an-rolling 3s linear infinite;
+  -moz-animation: an-rolling 3s linear infinite;
+  -o-animation: an-rolling 3s linear infinite;
+  animation: an-rolling 3s linear infinite;
 }
 .ag-base_btn-v126:hover {
-
+  background: #d29e5d;
+  background: -moz-linear-gradient(top, #d29e5d 0%, #a25a19 100%);
+  background: -webkit-linear-gradient(top, #d29e5d 0%, #a25a19 100%);
+  background: -o-linear-gradient(top, #d29e5d 0%, #a25a19 100%);
+  background: linear-gradient(to bottom, #d29e5d 0%, #a25a19 100%);
 }
 /* /button 126 */
+
+/* button 127 */
+.ag-base_btn-v127-wrap {
+  overflow: hidden;
+}
+.ag-base_btn-v127 {
+  border: 4px solid;
+  border-left-color: #cba13c;
+  border-top-color: #f6d769;
+  border-right-color: #a98219;
+  border-bottom-color: #a98219;
+
+  background: #e9bc55;
+  background: -moz-linear-gradient(top, #e9bc55 0%, #b28e3f 100%);
+  background: -webkit-linear-gradient(top, #e9bc55 0%, #b28e3f 100%);
+  background: -o-linear-gradient(top, #e9bc55 0%, #b28e3f 100%);
+  background: linear-gradient(to bottom, #e9bc55 0%, #b28e3f 100%);
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+
+  text-shadow: 0 0 5px #c29000;
+
+  -webkit-box-shadow: 3px 3px 8px #7e6347;
+  -moz-box-shadow: 3px 3px 8px #7e6347;
+  -o-box-shadow: 3px 3px 8px #7e6347;
+  box-shadow: 3px 3px 8px #7e6347;
+
+  position: relative;
+}
+.ag-base_btn-v127:before {
+  content: "";
+  width: 35px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-125-hover.png) no-repeat 50% 50%;
+  background-size: auto 100%;
+
+  opacity: .3;
+
+  position: absolute;
+  left: -100px;
+  top: -3px;
+  bottom: -3px;
+
+  -webkit-animation: an-rolling 2.5s linear infinite;
+  -moz-animation: an-rolling 2.5s linear infinite;
+  -o-animation: an-rolling 2.5s linear infinite;
+  animation: an-rolling 2.5s linear infinite;
+}
+.ag-base_btn-v127:hover {
+  border-left-color: #dfb80c;
+  border-top-color: #fae32b;
+  border-right-color: #cca102;
+  border-bottom-color: #cca102;
+
+  background: #f4d01c;
+  background: -moz-linear-gradient(top, #f4d01c 0%, #d5ad10 100%);
+  background: -webkit-linear-gradient(top, #f4d01c 0%, #d5ad10 100%);
+  background: -o-linear-gradient(top, #f4d01c 0%, #d5ad10 100%);
+  background: linear-gradient(to bottom, #f4d01c 0%, #d5ad10 100%);
+}
+/* /button 127 */
+
+/* button 128 */
+.ag-base_btn-v128-wrap {
+  overflow: hidden;
+}
+.ag-base_btn-v128 {
+  border: 3px solid #812f06;
+  border-left-color: #af4008;
+  border-top-color: #e88855;
+  background: #cd4c08;
+
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+
+  -webkit-transition: background .2s linear;
+  -moz-transition: background .2s linear;
+  -o-transition: background .2s linear;
+  transition: background .2s linear;
+}
+.ag-base_btn-v128:hover {
+  background: #b43f02;
+}
+/* /button 128 */
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
