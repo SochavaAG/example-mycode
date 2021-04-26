@@ -7851,6 +7851,28 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 }
 /* /button 124 */
 
+/* button 125 */
+.ag-base_btn-v125 {
+  border-left-color: #666948;
+  border-top-color: #93986e;
+  border-right-color: #4b4e37;
+  border-bottom-color: #4b4e37;
+  background: #70764E;
+}
+.ag-base_btn-v125:hover {
+
+}
+/* /button 125 */
+
+/* button 126 */
+.ag-base_btn-v126 {
+
+}
+.ag-base_btn-v126:hover {
+
+}
+/* /button 126 */
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;
