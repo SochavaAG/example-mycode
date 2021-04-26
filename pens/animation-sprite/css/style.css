@@ -950,6 +950,89 @@ body {
 }
 /* /smoke */
 
+/* horse-dust */
+.ag-horse-dust {
+  display: inline-block;
+  height: 195px;
+  width: 450px;
+  margin: 0 0 0 50px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/horse-dust.png) no-repeat 0 100%;
+
+  -webkit-animation: an-horse-dust 1s steps(5, end) infinite;
+  -moz-animation: an-horse-dust 1s steps(5, end) infinite;
+  -o-animation: an-horse-dust 1s steps(5, end) infinite;
+  animation: an-horse-dust 1s steps(5, end) infinite;
+}
+
+@-webkit-keyframes an-horse-dust {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-moz-keyframes an-horse-dust {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-o-keyframes an-horse-dust {
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes an-horse-dust {
+  to {
+    background-position-x: 100%;
+  }
+}
+/* /horse-dust */
+
+/* flags */
+.ag-flags {
+  display: inline-block;
+  height: 17px;
+  width: 24px;
+  margin: 0 0 0 30px;
+
+  -webkit-animation: an-flags .5s steps(3, end) infinite;
+  -moz-animation: an-flags .5s steps(3, end) infinite;
+  -o-animation: an-flags .5s steps(3, end) infinite;
+  animation: an-flags .5s steps(3, end) infinite;
+}
+.ag-flags-1 {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/flags-blue.png) no-repeat 0 100%;
+}
+.ag-flags-2 {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/flags-green.png) no-repeat 0 100%;
+}
+.ag-flags-3 {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/flags-red.png) no-repeat 0 100%;
+}
+.ag-flags-4 {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/flags-yellow.png) no-repeat 0 100%;
+}
+
+@-webkit-keyframes an-flags {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-moz-keyframes an-flags {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-o-keyframes an-flags {
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes an-flags {
+  to {
+    background-position-x: 100%;
+  }
+}
+/* /flags */
+
 /* bird-flying */
 .ag-bird-flying {
   display: inline-block;
@@ -1065,10 +1148,10 @@ body {
   width: 230px;
   margin: 0 0 0 30px;
 
-  -webkit-animation: an-horse 1s steps(4, end) infinite;
-  -moz-animation: an-horse 1s steps(4, end) infinite;
-  -o-animation: an-horse 1s steps(4, end) infinite;
-  animation: an-horse 1s steps(4, end) infinite;
+  -webkit-animation: an-horse .5s steps(4, end) infinite;
+  -moz-animation: an-horse .5s steps(4, end) infinite;
+  -o-animation: an-horse .5s steps(4, end) infinite;
+  animation: an-horse .5s steps(4, end) infinite;
 }
 .ag-horse-1 {
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/horse-blue.png) no-repeat 0 100%;
@@ -1104,53 +1187,6 @@ body {
   }
 }
 /* /horse */
-
-/* flags */
-.ag-flags {
-  display: inline-block;
-  height: 216px;
-  width: 158px;
-  margin: 0 0 0 100px;
-
-  -webkit-animation: an-flags 1s steps(10, end) infinite;
-  -moz-animation: an-flags 1s steps(10, end) infinite;
-  -o-animation: an-flags 1s steps(10, end) infinite;
-  animation: an-flags 1s steps(10, end) infinite;
-}
-.ag-flags-1 {
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/flags-blue.png) no-repeat 0 100%;
-}
-.ag-flags-2 {
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/flags-green.png) no-repeat 0 100%;
-}
-.ag-flags-3 {
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/flags-red.png) no-repeat 0 100%;
-}
-.ag-flags-4 {
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/flags-yellow.png) no-repeat 0 100%;
-}
-
-@-webkit-keyframes an-flags {
-  to {
-    background-position-x: 100%;
-  }
-}
-@-moz-keyframes an-flags {
-  to {
-    background-position-x: 100%;
-  }
-}
-@-o-keyframes an-flags {
-  to {
-    background-position-x: 100%;
-  }
-}
-@keyframes an-flags {
-  to {
-    background-position-x: 100%;
-  }
-}
-/* /flags */
 
 /* shaman-1 */
 .ag-shaman-1 {

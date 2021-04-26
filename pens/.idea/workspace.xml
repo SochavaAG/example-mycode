@@ -41,18 +41,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="68" column="26" lean-forward="false" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="26" />
+            <state relative-caret-position="213">
+              <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="1076" column="123" lean-forward="false" selection-start-line="1076" selection-start-column="123" selection-end-line="1076" selection-end-column="123" />
+            <state relative-caret-position="552">
+              <caret line="962" column="40" lean-forward="false" selection-start-line="962" selection-start-column="40" selection-end-line="962" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -203,8 +203,18 @@
       <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-t.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-39">
-              <caret line="1104" column="9" lean-forward="false" selection-start-line="1104" selection-start-column="1" selection-end-line="1104" selection-end-column="9" />
+            <state relative-caret-position="297">
+              <caret line="1118" column="1" lean-forward="false" selection-start-line="1118" selection-start-column="1" selection-end-line="1118" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/animation-item/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -214,10 +224,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>._1Y5KP ._1WUin</find>
-      <find>._1Y5KP[aria-disabled=&quot;false&quot;]:hover</find>
-      <find>js-toggle-3</find>
-      <find>ag-article</find>
       <find>&amp;#160;-</find>
       <find>1.</find>
       <find>–</find>
@@ -242,13 +248,14 @@
       <find>ag-footer_logo</find>
       <find>dr-horse</find>
       <find>ag-bird-v2</find>
-      <find>ag-bird-flying</find>
       <find>horse-</find>
+      <find>ag-bird-flying</find>
+      <find>an-horse</find>
+      <find>ag-horse</find>
+      <find>horse-dust.png</find>
+      <find>an-flags</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-sea_runway</replace>
-      <replace>ag-sea_light</replace>
-      <replace>#a73402</replace>
       <replace>#df4400</replace>
       <replace>b53903</replace>
       <replace>ef4a01</replace>
@@ -272,10 +279,13 @@
       <replace>&amp;#160;–</replace>
       <replace>&lt;ul class=&quot;js-filtered filter-on ag-courses-tr_list&quot;&gt;</replace>
       <replace>'</replace>
-      <replace>url(/promo/wp-content/plugins/wp-plugin_ag-landing/fonts/</replace>
       <replace>an-horse</replace>
       <replace>flags-</replace>
       <replace>an-flags</replace>
+      <replace>ag-flags</replace>
+      <replace>url(/promo/wp-content/plugins/wp-plugin_ag-landing/fonts/</replace>
+      <replace>an-horse-dust</replace>
+      <replace>Name Item</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -289,7 +299,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/desert/index.html" />
         <option value="$PROJECT_DIR$/desert/css/style.css" />
         <option value="$PROJECT_DIR$/animation-sprite/js/main.js" />
         <option value="$PROJECT_DIR$/mummy/index.html" />
@@ -340,6 +349,7 @@
         <option value="$USER_HOME$/format-t.css" />
         <option value="$PROJECT_DIR$/animation-sprite/index.html" />
         <option value="$PROJECT_DIR$/animation-sprite/css/style.css" />
+        <option value="$PROJECT_DIR$/animation-item/index.html" />
       </list>
     </option>
   </component>
@@ -560,12 +570,12 @@
       <workItem from="1618338054053" duration="11160000" />
       <workItem from="1618988990943" duration="21378000" />
       <workItem from="1619419914739" duration="11825000" />
-      <workItem from="1619443339066" duration="7304000" />
+      <workItem from="1619443339066" duration="9085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="762034000" />
+    <option name="totallyTimeSpent" value="763815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -610,13 +620,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/landing-pages/2021.04.12_landing_jf-cup-contest/jf-cup-contest-FR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3336">
-          <caret line="139" column="67" lean-forward="false" selection-start-line="139" selection-start-column="67" selection-end-line="139" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/landing-pages/2021.04.12_landing_jf-cup-contest/jf-cup-contest-ID.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3336">
@@ -979,26 +982,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
+    <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="1104" column="9" lean-forward="false" selection-start-line="1104" selection-start-column="1" selection-end-line="1104" selection-end-column="9" />
+        <state relative-caret-position="213">
+          <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
+    <entry file="file://$USER_HOME$/format-t.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="68" column="26" lean-forward="false" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="26" />
+        <state relative-caret-position="297">
+          <caret line="1118" column="1" lean-forward="false" selection-start-line="1118" selection-start-column="1" selection-end-line="1118" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="1076" column="123" lean-forward="false" selection-start-line="1076" selection-start-column="123" selection-end-line="1076" selection-end-column="123" />
+        <state relative-caret-position="552">
+          <caret line="962" column="40" lean-forward="false" selection-start-line="962" selection-start-column="40" selection-end-line="962" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-item/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
           <folding />
         </state>
       </provider>
