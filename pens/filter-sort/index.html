@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Filter sort</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="ag-format-container">
+    <div class="ag-courses-filter-block">
+      <div class="ag-courses-filter_title ag-page_title">
+        Offline/online courses
+      </div>
+
+      <div class="ag-courses-filter_box">
+        <ul class="ag-courses-filter_list">
+          <li class="ag-courses-filter_item">
+            <form class="ag-courses-filter_select">
+              <select id="filter-rating-select" class="js-sort">
+                <option value="rating" selected="">Rating</option>
+                <option value="count">Reviews Count</option>
+              </select>
+            </form>
+
+            <div>
+              <form class="ag-form_form" action="#" accept-charset="UTF-8" method="post">
+                <div class="ag-form_input-wrap">
+                  <input type="number" class="ag-form-base_input ag-form_input js-filter" min="0" data-filter="priceMin" placeholder="Min. price">
+                </div>
+              </form>
+            </div>
+          </li>
+          <li class="ag-courses-filter_item">
+            <form class="ag-courses-filter_select">
+              <select id="filter-city-select" class="js-filter" data-filter="city">
+                <option value="all">City</option>
+                <option value="kyiv">Kyiv</option>
+                <option value="lviv">Lviv</option>
+                <option value="odesa">Odessa</option>
+                <option value="kharkiv">Kharkiv</option>
+              </select>
+            </form>
+
+            <div>
+              <form class="ag-form_form" action="#" accept-charset="UTF-8" method="post">
+                <div class="ag-form_input-wrap">
+                  <input type="number" class="ag-form-base_input ag-form_input js-filter" min="0" data-filter="priceMax" placeholder="Max. price">
+                </div>
+              </form>
+            </div>
+          </li>
+          <li class="ag-courses-filter_item">
+            <form class="ag-courses-filter_select">
+              <select id="filter-specialization-select" class="js-filter" data-filter="specialization">
+                <option selected="" value="all">Category</option>
+                <option value="category_1">Category 1</option>
+                <option value="category_2">Category 2</option>
+                <option value="category_3">Category 3</option>
+                <option value="category_4">Category 4</option>
+                <option value="category_5">Category 5</option>
+              </select>
+            </form>
+
+            <div>
+              <form class="ag-form_form" action="#" accept-charset="UTF-8" method="post">
+                <div class="ag-form_input-wrap">
+                  <input class="ag-form-base_input ag-form_input" type="text" name="name" placeholder="Введите текст поиска"/>
+                </div>
+              </form>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+      <div class="js-feedback ag-courses_block-wrap">
+      <div class="ag-courses_block">
+        <div class="ag-courses_thead">
+          <ul class="ag-courses-tr_list">
+            <li class="ag-courses-th_item">Rating</li>
+            <li class="ag-courses-th_item">School name</li>
+            <li class="ag-courses-th_item">About School</li>
+            <li class="ag-courses-th_item">Costs</li>
+            <li class="ag-courses-th_item">Action</li>
+          </ul>
+        </div>
+
+          <div class="js-reviews-list ag-courses_tbody">
+          <ul class="js-filtered ag-courses-tr_list" data-city="all kyiv" data-specialization="all" data-price-min="0" data-price-max="3">
+            <li class="ag-courses-td_item">
+              <div>
+                <div class="glsr-review-rating">
+                  <div class="glsr-star-rating glsr-stars">
+                    <span class="screen-reader-text">Rated <strong>2</strong> out of 5</span>
+                    <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                    <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                    <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                    <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                    <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                  </div>
+                </div>
+
+                <a href="#" class="ag-courses_link-item"><span class="js-reviews-count">58</span> reviews</a>
+              </div>
+            </li>
+            <li class="ag-courses-td_item">
+              <div class="ag-courses-td_name-item">
+                Skillbox
+              </div>
+            </li>
+            <li class="ag-courses-td_item ag-courses-td_text-item">
+              <div>
+                Ipsum dolor sit amet, consectetur adipisicing eniam, quis nostrud...
+              </div>
+            </li>
+            <li class="ag-courses-td_item">
+              <div>
+                Start from $999
+              </div>
+            </li>
+            <li class="ag-courses-td_item">
+              <div>
+                <a href="#">Read more</a>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="js-filtered ag-courses-tr_list" data-city="all" data-specialization="all category_3" data-price-min="3" data-price-max="5">
+            <li class="ag-courses-td_item">
+              <div>
+                <div class="glsr-review-rating">
+                  <div class="glsr-star-rating glsr-stars">
+                    <span class="screen-reader-text">Rated <strong>3</strong> out of 5</span>
+                    <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                    <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                    <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                    <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                    <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                  </div>
+                </div>
+
+                <a href="#" class="ag-courses_link-item"><span class="js-reviews-count">15</span> reviews</a>
+              </div>
+            </li>
+            <li class="ag-courses-td_item">
+              <div class="ag-courses-td_name-item">
+                GeekBrains
+              </div>
+            </li>
+            <li class="ag-courses-td_item ag-courses-td_text-item">
+              <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+              </div>
+            </li>
+            <li class="ag-courses-td_item">
+              <div>
+                Start from $999
+              </div>
+            </li>
+            <li class="ag-courses-td_item">
+              <div>
+                <a href="#">Read more</a>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="js-filtered ag-courses-tr_list" data-city="all kharkiv" data-specialization="all category_2" data-price-min="2" data-price-max="9">
+            <li class="ag-courses-td_item">
+              <div>
+                <div class="glsr-review-rating">
+                  <div class="glsr-star-rating glsr-stars">
+                    <span class="screen-reader-text">Rated <strong>3</strong> out of 5</span>
+                    <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                    <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                    <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                    <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                    <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                  </div>
+                </div>
+
+                <a href="#" class="ag-courses_link-item"><span class="js-reviews-count">112</span> reviews</a>
+              </div>
+            </li>
+            <li class="ag-courses-td_item">
+              <div class="ag-courses-td_name-item">
+                Нетология
+              </div>
+            </li>
+            <li class="ag-courses-td_item ag-courses-td_text-item">
+              <div>
+                Consectetur adipisicing elit eniam, quis nostrud exercitation ullamco...
+              </div>
+            </li>
+            <li class="ag-courses-td_item">
+              <div>
+                Start from $999
+              </div>
+            </li>
+            <li class="ag-courses-td_item">
+              <div>
+                <a href="#">Read more</a>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="js-filtered ag-courses-tr_list" data-city="all lviv" data-specialization="all category_1" data-price-min="0" data-price-max="9">
+            <li class="ag-courses-td_item">
+              <div>
+                <div class="glsr-review-rating">
+                  <div class="glsr-star-rating glsr-stars">
+                    <span class="screen-reader-text">Rated <strong>5</strong> out of 5</span>
+                    <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                    <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                    <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                    <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                    <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                  </div>
+                </div>
+
+                <a href="#" class="ag-courses_link-item"><span class="js-reviews-count">18</span> reviews</a>
+              </div>
+            </li>
+            <li class="ag-courses-td_item">
+              <div class="ag-courses-td_name-item">
+                Alpary
+              </div>
+            </li>
+            <li class="ag-courses-td_item ag-courses-td_text-item">
+              <div>
+                Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo...
+              </div>
+            </li>
+            <li class="ag-courses-td_item">
+              <div>
+                Start from $999
+              </div>
+            </li>
+            <li class="ag-courses-td_item">
+              <div>
+                <a href="#">Read more</a>
+              </div>
+            </li>
+          </ul>
+
+            <ul class="js-filtered ag-courses-tr_list" data-city="all kyiv" data-specialization="all" data-price-min="1" data-price-max="2">
+              <li class="ag-courses-td_item">
+                <div>
+                  <div class="glsr-review-rating">
+                    <div class="glsr-star-rating glsr-stars">
+                      <span class="screen-reader-text">Rated <strong>3</strong> out of 5</span>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                    </div>
+                  </div>
+
+                  <a href="#" class="ag-courses_link-item"><span class="js-reviews-count">58</span> reviews</a>
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div class="ag-courses-td_name-item">
+                  Skillbox
+                </div>
+              </li>
+              <li class="ag-courses-td_item ag-courses-td_text-item">
+                <div>
+                  Ipsum dolor sit amet, consectetur adipisicing eniam, quis nostrud...
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div>
+                  Start from $999
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div>
+                  <a href="#">Read more</a>
+                </div>
+              </li>
+            </ul>
+
+            <ul class="js-filtered ag-courses-tr_list" data-city="all" data-specialization="all category_4" data-price-min="3" data-price-max="5">
+              <li class="ag-courses-td_item">
+                <div>
+                  <div class="glsr-review-rating">
+                    <div class="glsr-star-rating glsr-stars">
+                      <span class="screen-reader-text">Rated <strong>3</strong> out of 5</span>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                    </div>
+                  </div>
+
+                  <a href="#" class="ag-courses_link-item"><span class="js-reviews-count">15</span> reviews</a>
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div class="ag-courses-td_name-item">
+                  GeekBrains
+                </div>
+              </li>
+              <li class="ag-courses-td_item ag-courses-td_text-item">
+                <div>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div>
+                  Start from $999
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div>
+                  <a href="#">Read more</a>
+                </div>
+              </li>
+            </ul>
+
+            <ul class="js-filtered ag-courses-tr_list" data-city="all kharkiv" data-specialization="all category_5" data-price-min="2" data-price-max="10">
+              <li class="ag-courses-td_item">
+                <div>
+                  <div class="glsr-review-rating">
+                    <div class="glsr-star-rating glsr-stars">
+                      <span class="screen-reader-text">Rated <strong>3</strong> out of 5</span>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                    </div>
+                  </div>
+
+                  <a href="#" class="ag-courses_link-item"><span class="js-reviews-count">112</span> reviews</a>
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div class="ag-courses-td_name-item">
+                  Нетология
+                </div>
+              </li>
+              <li class="ag-courses-td_item ag-courses-td_text-item">
+                <div>
+                  Consectetur adipisicing elit eniam, quis nostrud exercitation ullamco...
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div>
+                  Start from $999
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div>
+                  <a href="#">Read more</a>
+                </div>
+              </li>
+            </ul>
+
+            <ul class="js-filtered ag-courses-tr_list" data-city="all lviv" data-specialization="all" data-price-min="4" data-price-max="11">
+              <li class="ag-courses-td_item">
+                <div>
+                  <div class="glsr-review-rating">
+                    <div class="glsr-star-rating glsr-stars">
+                      <span class="screen-reader-text">Rated <strong>1</strong> out of 5</span>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                    </div>
+                  </div>
+
+                  <a href="#" class="ag-courses_link-item"><span class="js-reviews-count">256</span> reviews</a>
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div class="ag-courses-td_name-item">
+                  Alpary
+                </div>
+              </li>
+              <li class="ag-courses-td_item ag-courses-td_text-item">
+                <div>
+                  Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo...
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div>
+                  Start from $999
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div>
+                  <a href="#">Read more</a>
+                </div>
+              </li>
+            </ul>
+
+            <ul class="js-filtered ag-courses-tr_list" data-city="all" data-specialization="all category_3" data-price-min="3" data-price-max="5">
+              <li class="ag-courses-td_item">
+                <div>
+                  <div class="glsr-review-rating">
+                    <div class="glsr-star-rating glsr-stars">
+                      <span class="screen-reader-text">Rated <strong>3</strong> out of 5</span>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                    </div>
+                  </div>
+
+                  <a href="#" class="ag-courses_link-item"><span class="js-reviews-count">15</span> reviews</a>
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div class="ag-courses-td_name-item">
+                  GeekBrains
+                </div>
+              </li>
+              <li class="ag-courses-td_item ag-courses-td_text-item">
+                <div>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div>
+                  Start from $999
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div>
+                  <a href="#">Read more</a>
+                </div>
+              </li>
+            </ul>
+
+            <ul class="js-filtered ag-courses-tr_list" data-city="all kharkiv" data-specialization="category_2" data-price-min="2" data-price-max="9">
+              <li class="ag-courses-td_item">
+                <div>
+                  <div class="glsr-review-rating">
+                    <div class="glsr-star-rating glsr-stars">
+                      <span class="screen-reader-text">Rated <strong>3</strong> out of 5</span>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                    </div>
+                  </div>
+
+                  <a href="#" class="ag-courses_link-item"><span class="js-reviews-count">112</span> reviews</a>
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div class="ag-courses-td_name-item">
+                  Нетология
+                </div>
+              </li>
+              <li class="ag-courses-td_item ag-courses-td_text-item">
+                <div>
+                  Consectetur adipisicing elit eniam, quis nostrud exercitation ullamco...
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div>
+                  Start from $999
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div>
+                  <a href="#">Read more</a>
+                </div>
+              </li>
+            </ul>
+
+            <ul class="js-filtered ag-courses-tr_list" data-city="all lviv" data-specialization="category_1" data-price-min="0" data-price-max="9">
+              <li class="ag-courses-td_item">
+                <div>
+                  <div class="glsr-review-rating">
+                    <div class="glsr-star-rating glsr-stars">
+                      <span class="screen-reader-text">Rated <strong>5</strong> out of 5</span>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                    </div>
+                  </div>
+
+                  <a href="#" class="ag-courses_link-item"><span class="js-reviews-count">18</span> reviews</a>
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div class="ag-courses-td_name-item">
+                  Alpary
+                </div>
+              </li>
+              <li class="ag-courses-td_item ag-courses-td_text-item">
+                <div>
+                  Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo...
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div>
+                  Start from $999
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div>
+                  <a href="#">Read more</a>
+                </div>
+              </li>
+            </ul>
+
+            <ul class="js-filtered ag-courses-tr_list" data-city="all kyiv" data-specialization="all" data-price-min="1" data-price-max="2">
+              <li class="ag-courses-td_item">
+                <div>
+                  <div class="glsr-review-rating">
+                    <div class="glsr-star-rating glsr-stars">
+                      <span class="screen-reader-text">Rated <strong>3</strong> out of 5</span>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                    </div>
+                  </div>
+
+                  <a href="#" class="ag-courses_link-item"><span class="js-reviews-count">58</span> reviews</a>
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div class="ag-courses-td_name-item">
+                  Skillbox
+                </div>
+              </li>
+              <li class="ag-courses-td_item ag-courses-td_text-item">
+                <div>
+                  Ipsum dolor sit amet, consectetur adipisicing eniam, quis nostrud...
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div>
+                  Start from $999
+                </div>
+              </li>
+              <li class="ag-courses-td_item">
+                <div>
+                  <a href="#">Read more</a>
+                </div>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- <section class="offer__main">
+      <div class="container">
+        <div class="offer">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="offer__title">
+                Лучшие онлайн курсы по категории
+                “Лучшие курсы по Веб-Разработке в Украине”
+              </h1>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6">
+              <select class="custom-select custom-select_first custom-select-lg mb-3" id="filter-city-select" onchange="changeCoursesCity()" data-filter="city">
+                <option value="all">Город</option>
+                <option disabled=""></option>
+                <option value="kyiv">Киев</option><option value="lviv">Львов</option><option value="odesa">Одесса</option><option value="kharkiv">Харьков</option>            </select>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6">
+              <form action="">
+                <select name="n1" onchange="changeCoursesCategory()" id="n1" class="custom-select custom-select_first custom-select-lg mb-3">
+                  <option value="front-end">Front-End</option>
+                  <option value="hr-kursy">HR курсы</option>
+                  <option value="it-courses">IT Курсы</option>
+                  <option value="javascript">JavaScript</option>
+                  <option value="ppc">PPC</option>
+                  <option value="python">Python</option>
+                  <option value="seo">SEO</option>
+                  <option value="acting">Актерское мастерство</option>
+                  <option value="animator">Аниматор</option>
+                  <option value="business-trainings">Бизнес-тренинги</option>
+                  <option selected="" value="web-development">Веб-Разработка</option>
+                  <option value="interior-design">Дизайн Интерьера</option>
+                  <option value="internet-marketing">Интернет-маркетинг</option>
+                  <option value="info-business">Инфо Бизнес</option>
+                  <option value="kompyuternye-kursy">Компьютерные курсы</option>
+                  <option value="kouching">Коучинг</option>
+                  <option value="kulinarnye-kursy">Кулинарные курсы</option>
+                  <option value="courses">Курсы</option>
+                  <option value="excel-courses">Курсы Excel</option>
+                  <option value="photoshop">Курсы Photoshop</option>
+                  <option value="smm">Курсы SMM</option>
+                  <option value="sql">Курсы SQL</option>
+                  <option value="english">Курсы Английского Языка</option>
+                  <option value="kursy-buhgalterov">Курсы Бухгалтеров</option>
+                  <option value="web-design">Курсы Веб-Дизайна</option>
+                  <option value="kursy-vozhdeniya">Курсы вождения</option>
+                  <option value="copywriting">Курсы Копирайтинга</option>
+                  <option value="kursy-kosmetologii">Курсы косметологии</option>
+                  <option value="kursy-kroya-i-shitya">Курсы кроя и шитья</option>
+                  <option value="kursy-manikyura">Курсы маникюра</option>
+                  <option value="kursy-massazha">Курсы массажа</option>
+                  <option value="kursy-menedzherov">Курсы Менеджеров</option>
+                  <option value="kursy-oratorskogo-masterstva">Курсы ораторского мастерства</option>
+                  <option value="kursy-parikmahera">Курсы парикмахера</option>
+                  <option value="data-science">Курсы по data science</option>
+                  <option value="saling">Курсы по продажам</option>
+                  <option value="cennie-bumagi">Курсы по ценным бумагам</option>
+                  <option value="kursy-polskogo-yazyka">Курсы польского языка</option>
+                  <option value="kursy-programmista-c">Курсы программиста C++</option>
+                  <option value="kursy-psihologii">Курсы психологии</option>
+                  <option value="kursy-sekretarej">Курсы Секретарей</option>
+                  <option value="kursy-tatuazha">Курсы татуажа</option>
+                  <option value="hr">Курсы управления персоналом</option>
+                  <option value="kursy-floristiki">Курсы флористики</option>
+                  <option value="marketing">Маркетинг</option>
+                  <option value="facebook-advertising">Реклама в фейсбуке</option>
+                  <option value="robo">Робототехника</option>
+                  <option value="testing">Тестирование</option>
+                  <option value="forex">Форекс</option>
+                  <option value="fotovideomotion">Фотовидеоmotion</option>
+                  <option value="fotografiya-videosemka">Фотография видеосъемка</option>
+                  <option value="poshyv-obuvi">Школы обувного мастерства</option>
+                  <option value="yuridicheskie-kursy">Юридические курсы</option>
+                  <option value="programming-language">Языки программирования</option>
+                  <option value="language-courses">Языковые курсы</option>
+                </select>
+              </form>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6">
+              <select class="custom-select custom-select_third custom-select-lg mb-3 js-filter" data-filter="specialization">
+                <option selected="" value="all">Специализация</option>
+                <option disabled=""></option>
+                <option value="Специализация_1">Специализация 1</option><option value="Специализация_2">Специализация 2</option><option value="Специализация_3">Специализация 3</option><option value="Специализация_4">Специализация 4</option><option value="Специализация_5">Специализация 5</option>            </select>
+            </div>
+            <div class="col-lg-4 col-md-4 col-6">
+              <input type="number" class="custom-select custom-select_four price custom-select-lg mb-3  js-filter" data-filter="priceMin" placeholder="Мин. цена">
+            </div>
+            <div class="col-lg-4 col-md-4 col-6">
+              <input type="number" class="custom-select custom-select_four price custom-select-lg mb-3  js-filter" data-filter="priceMax" placeholder="Макс. цена">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="feedback">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="feedback__filter">
+              <p>Сортировать по :</p>
+              <select class="custom-select custom-select_filt custom-select-lg-second mb-4 js-sort">
+                <option selected="" value="rating">Pейтинг</option>
+                <option value="count">Количество отзывов</option>
+              </select>
+            </div>
+            <div class="js-reviews-list js-paginated">
+
+              <div class="feedback__wrapper feedback__wrapper_next js-filtered filter-on" data-city="all kyiv" data-specialization="all " data-price-min="000" data-price-max="000">
+                &lt;!&ndash;                  <p class="number__review number__review_first">&ndash;&gt;&lt;!&ndash;</p>&ndash;&gt;
+                <div class="feedback_left">
+                  <a href="https://eduzorro.com/courses/stepik/">
+                    <div class="review__image" style="background:url('https://eduzorro.com/wp-content/uploads/2021/01/stepik.png') no-repeat; background-size: 75%; background-position: center center;"></div>
+                  </a>
+                  <div class="rating-area">
+                    <div class="glsr-review-rating">
+                      <div class="glsr-star-rating glsr-stars">
+                        <span class="screen-reader-text">Rated <strong>3</strong> out of 5</span>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      </div>
+                    </div>
+
+                    <div class="btn__info">
+                      <p class="feed__subtext">
+                        <span class="js-reviews-count">5</span>
+                        отзывов
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="review__wrapp">
+                  <h3 class="review__title">
+                    <a href="https://eduzorro.com/courses/stepik/"> Школа “Stepik”</a>
+                  </h3>
+                  <p class="review__text">
+                    Известная образовательная платформа Stepik  фактически является  и конструктором
+                    онлайн-курсов. Платформой разрабатываются методики и алгоритмы адаптивного обучения.  Stepik сотрудничает с авторами MOOC, а так же помогает в проведении различных олимпиад и других программ учебной переподготовки.
+                    Цель Stepik — сделать образование открытым и удобным для всех желающих.
+                  </p>
+                  <div class="btn__wrapp">
+                    <a href="https://eduzorro.com/courses/stepik/" class="review__link">
+                      Подробнее
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="feedback__wrapper feedback__wrapper_next js-filtered filter-on" data-city="all " data-specialization="all " data-price-min="37" data-price-max="450">
+                &lt;!&ndash;                  <p class="number__review number__review_first">&ndash;&gt;&lt;!&ndash;</p>&ndash;&gt;
+                <div class="feedback_left">
+                  <a href="https://eduzorro.com/courses/easycodeschool/">
+                    <div class="review__image" style="background:url('https://eduzorro.com/wp-content/uploads/2020/01/Screenshot_12.jpg') no-repeat; background-size: 75%; background-position: center center;"></div>
+                  </a>
+                  <div class="rating-area">
+                    <div class="glsr-review-rating">
+                      <div class="glsr-star-rating glsr-stars">
+                        <span class="screen-reader-text">Rated <strong>3</strong> out of 5</span>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      </div>
+                    </div>
+
+                    <div class="btn__info">
+                      <p class="feed__subtext">
+                        <span class="js-reviews-count">5</span>
+                        отзывов
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="review__wrapp">
+                  <h3 class="review__title">
+                    <a href="https://eduzorro.com/courses/easycodeschool/"> Школа “Easy Code School”</a>
+                  </h3>
+                  <p class="review__text">
+                    Ми спеціалізуємося на фронтенді і всіх його складових. У нас ти зможеш навчитися верстати, вивчити javascript, angular, react і багато іншого. Чому ми не викладаємо інші мови? Тому що на чолі IT школи стоять фронтендщікі, які є експертами своєї галузі. Вони кожен день у своїй роботі застосовують цю технологію, вони вчаться і розвиваються, беруть участь в конференціях і профільних семінарах в якості слухачів і спікерів. Ми не хочемо розпорошуватися на інші області програмування. Ми вчимо тому, що самі вміємо відмінно робити і в цьому наше найголовніша перевага.                    </p>
+                  <div class="btn__wrapp">
+                    <a href="https://eduzorro.com/courses/easycodeschool/" class="review__link">
+                      Подробнее
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="feedback__wrapper feedback__wrapper_next js-filtered filter-on" data-city="all kharkiv" data-specialization="all " data-price-min="250" data-price-max="349">
+                &lt;!&ndash;                  <p class="number__review number__review_first">&ndash;&gt;&lt;!&ndash;</p>&ndash;&gt;
+                <div class="feedback_left">
+                  <a href="https://eduzorro.com/courses/itcloud/">
+                    <div class="review__image" style="background:url('https://eduzorro.com/wp-content/uploads/2020/03/LogoITcloud_B-1.jpg') no-repeat; background-size: 75%; background-position: center center;"></div>
+                  </a>
+                  <div class="rating-area">
+                    <div class="glsr-review-rating">
+                      <div class="glsr-star-rating glsr-stars">
+                        <span class="screen-reader-text">Rated <strong>3</strong> out of 5</span>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      </div>
+                    </div>
+
+                    <div class="btn__info">
+                      <p class="feed__subtext">
+                        <span class="js-reviews-count">4</span>
+                        отзывов
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="review__wrapp">
+                  <h3 class="review__title">
+                    <a href="https://eduzorro.com/courses/itcloud/"> Школа “IT-Cloud”</a>
+                  </h3>
+                  <p class="review__text">
+                    IT Cloud Academy - це унікальний простір навчання та обміну досвідом, що об'єднує студентів та фахівців IT та digital сфер Харкова.                    </p>
+                  <div class="btn__wrapp">
+                    <a href="https://eduzorro.com/courses/itcloud/" class="review__link">
+                      Подробнее
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="feedback__wrapper feedback__wrapper_next js-filtered filter-on" data-city="all lviv" data-specialization="all " data-price-min="0" data-price-max="0">
+                &lt;!&ndash;                  <p class="number__review number__review_first">&ndash;&gt;&lt;!&ndash;</p>&ndash;&gt;
+                <div class="feedback_left">
+                  <a href="https://eduzorro.com/courses/start-it/">
+                    <div class="review__image" style="background:url('https://eduzorro.com/wp-content/uploads/2021/02/start-it.png') no-repeat; background-size: 75%; background-position: center center;"></div>
+                  </a>
+                  <div class="rating-area">
+                    <div class="glsr-review-rating">
+                      <div class="glsr-star-rating glsr-stars">
+                        <span class="screen-reader-text">Rated <strong>3</strong> out of 5</span>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      </div>
+                    </div>
+
+                    <div class="btn__info">
+                      <p class="feed__subtext">
+                        <span class="js-reviews-count">5</span>
+                        отзывов
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="review__wrapp">
+                  <h3 class="review__title">
+                    <a href="https://eduzorro.com/courses/start-it/"> Школа “Start IT”</a>
+                  </h3>
+                  <p class="review__text">
+                    Львівська Академія СТАРТ_ІТ дає Вашій дитині цікаво і пізнавально провести канікули.
+                    Перебування в денному таборі дозволить познайомитися з магічним світом комп'ютерних технологій. Протягом 3-х тижнів під керуванням провідних фахівців ІТ-компаній діти спробують себе в ролі розробника веб-сайту, робота і комп'ютерної гри. Учнів шкіл також очікують цікаві тренінги, презентації командних проектів, вікторини.                    </p>
+                  <div class="btn__wrapp">
+                    <a href="https://eduzorro.com/courses/start-it/" class="review__link">
+                      Подробнее
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="feedback__wrapper feedback__wrapper_next js-filtered filter-on" data-city="all " data-specialization="all " data-price-min="127" data-price-max="166">
+                &lt;!&ndash;                  <p class="number__review number__review_first">&ndash;&gt;&lt;!&ndash;</p>&ndash;&gt;
+                <div class="feedback_left">
+                  <a href="https://eduzorro.com/courses/prog-ua/">
+                    <div class="review__image" style="background:url('https://eduzorro.com/wp-content/uploads/2019/08/Screenshot_28-e1565962709351.png') no-repeat; background-size: 75%; background-position: center center;"></div>
+                  </a>
+                  <div class="rating-area">
+                    <div class="glsr-review-rating">
+                      <div class="glsr-star-rating glsr-stars">
+                        <span class="screen-reader-text">Rated <strong>3</strong> out of 5</span>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      </div>
+                    </div>
+
+                    <div class="btn__info">
+                      <p class="feed__subtext">
+                        <span class="js-reviews-count">36</span>
+                        отзывов
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="review__wrapp">
+                  <h3 class="review__title">
+                    <a href="https://eduzorro.com/courses/prog-ua/"> Школа “Prog Kiev Ua”</a>
+                  </h3>
+                  <p class="review__text">
+                    Більше 7200 людей пройшли навчання у нас                    </p>
+                  <div class="btn__wrapp">
+                    <a href="https://eduzorro.com/courses/prog-ua/" class="review__link">
+                      Подробнее
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="feedback__wrapper feedback__wrapper_next js-filtered filter-on" data-city="all kyiv" data-specialization="all " data-price-min="000" data-price-max="000">
+                &lt;!&ndash;                  <p class="number__review number__review_first">&ndash;&gt;&lt;!&ndash;</p>&ndash;&gt;
+                <div class="feedback_left">
+                  <a href="https://eduzorro.com/courses/shkola-dizajna-i-dekora-etoil/">
+                    <div class="review__image" style="background:url('https://eduzorro.com/wp-content/uploads/2020/12/etoil..jpg') no-repeat; background-size: 75%; background-position: center center;"></div>
+                  </a>
+                  <div class="rating-area">
+                    <div class="glsr-review-rating">
+                      <div class="glsr-star-rating glsr-stars">
+                        <span class="screen-reader-text">Rated <strong>3</strong> out of 5</span>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      </div>
+                    </div>
+
+                    <div class="btn__info">
+                      <p class="feed__subtext">
+                        <span class="js-reviews-count">3</span>
+                        отзывов
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="review__wrapp">
+                  <h3 class="review__title">
+                    <a href="https://eduzorro.com/courses/shkola-dizajna-i-dekora-etoil/"> Школа “Школа дизайна и декора Etoil”</a>
+                  </h3>
+                  <p class="review__text">
+                    Школа практического дизайна "Этоиль" успешно работает с 2005 года. и является одним из лучших частных учебных заведений в Украине! Школа радостно делится всеми знаниями и уже подготовила тысячи талантливых и успешных специалистов в областях дизайна и декора интерьера.
+                    Все тренера школы - это профессиональные дизайнеры, декораторы, художники, флористы, члены Союза Дизайнеров и Художников Украины с многолетним опытом работы В школе разработаны авторские программы и методики обучения. Уникальные мастер классы преподавания от практиков и специалистов,  уже через минимальные сроки обучения позволят Вам стать настоящими профессионалами в области дизайна.
+
+                  </p>
+                  <div class="btn__wrapp">
+                    <a href="https://eduzorro.com/courses/shkola-dizajna-i-dekora-etoil/" class="review__link">
+                      Подробнее
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="feedback__wrapper feedback__wrapper_next js-filtered filter-on" data-city="all " data-specialization="all " data-price-min="545" data-price-max="545">
+                &lt;!&ndash;                  <p class="number__review number__review_first">&ndash;&gt;&lt;!&ndash;</p>&ndash;&gt;
+                <div class="feedback_left">
+                  <a href="https://eduzorro.com/courses/web-academy/">
+                    <div class="review__image" style="background:url('https://eduzorro.com/wp-content/uploads/2019/09/logo_02.png') no-repeat; background-size: 75%; background-position: center center;"></div>
+                  </a>
+                  <div class="rating-area">
+                    <div class="glsr-review-rating">
+                      <div class="glsr-star-rating glsr-stars">
+                        <span class="screen-reader-text">Rated <strong>3</strong> out of 5</span>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      </div>
+                    </div>
+
+                    <div class="btn__info">
+                      <p class="feed__subtext">
+                        <span class="js-reviews-count">13</span>
+                        отзывов
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="review__wrapp">
+                  <h3 class="review__title">
+                    <a href="https://eduzorro.com/courses/web-academy/"> Школа “IT курсы Web Academy”</a>
+                  </h3>
+                  <p class="review__text">
+                    Web Academy — это образовательный проект с лучшими практиками рынка.
+
+                    Учим новому и актуальному в комфортных условиях и удобных форматах.                    </p>
+                  <div class="btn__wrapp">
+                    <a href="https://eduzorro.com/courses/web-academy/" class="review__link">
+                      Подробнее
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="feedback__wrapper feedback__wrapper_next js-filtered filter-on" data-city="all " data-specialization="all " data-price-min="137" data-price-max="477">
+                &lt;!&ndash;                  <p class="number__review number__review_first">&ndash;&gt;&lt;!&ndash;</p>&ndash;&gt;
+                <div class="feedback_left">
+                  <a href="https://eduzorro.com/courses/skillup/">
+                    <div class="review__image" style="background:url('https://eduzorro.com/wp-content/uploads/2019/08/Screenshot_4.png') no-repeat; background-size: 75%; background-position: center center;"></div>
+                  </a>
+                  <div class="rating-area">
+                    <div class="glsr-review-rating">
+                      <div class="glsr-star-rating glsr-stars">
+                        <span class="screen-reader-text">Rated <strong>3</strong> out of 5</span>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      </div>
+                    </div>
+
+                    <div class="btn__info">
+                      <p class="feed__subtext">
+                        <span class="js-reviews-count">47</span>
+                        отзывов
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="review__wrapp">
+                  <h3 class="review__title">
+                    <a href="https://eduzorro.com/courses/skillup/"> Школа “SkillUP”</a>
+                  </h3>
+                  <p class="review__text">
+                    SkillUp - це курси IT, які допомагають розумним людям змінити своє життя і досягти високих результатів. На відміну від інших курсів, SkillUP фінансово гарантує результат!                    </p>
+                  <div class="btn__wrapp">
+                    <a href="https://eduzorro.com/courses/skillup/" class="review__link">
+                      Подробнее
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="feedback__wrapper feedback__wrapper_next js-filtered filter-on" data-city="all lviv" data-specialization="all " data-price-min="0" data-price-max="0">
+                &lt;!&ndash;                  <p class="number__review number__review_first">&ndash;&gt;&lt;!&ndash;</p>&ndash;&gt;
+                <div class="feedback_left">
+                  <a href="https://eduzorro.com/courses/creativeschool/">
+                    <div class="review__image" style="background:url('https://eduzorro.com/wp-content/uploads/2021/02/zagruzheno.jpg') no-repeat; background-size: 75%; background-position: center center;"></div>
+                  </a>
+                  <div class="rating-area">
+                    <div class="glsr-review-rating">
+                      <div class="glsr-star-rating glsr-stars">
+                        <span class="screen-reader-text">Rated <strong>3</strong> out of 5</span>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      </div>
+                    </div>
+
+                    <div class="btn__info">
+                      <p class="feed__subtext">
+                        <span class="js-reviews-count">5</span>
+                        отзывов
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="review__wrapp">
+                  <h3 class="review__title">
+                    <a href="https://eduzorro.com/courses/creativeschool/"> Школа “Creativeschool”</a>
+                  </h3>
+                  <p class="review__text">
+                    Creativeschool является частным учебным заведением с 10-летней историей обучения студентов с базированием на практическое применение знаний. Академия базируется на стратегии направлений дизайн-образования, в котором внедрены все комплексные практические методики и программы для подготовки студентов в креативных индустриях.                    </p>
+                  <div class="btn__wrapp">
+                    <a href="https://eduzorro.com/courses/creativeschool/" class="review__link">
+                      Подробнее
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="feedback__wrapper feedback__wrapper_next js-filtered filter-on" data-city="all kyiv" data-specialization="all " data-price-min="98" data-price-max="366">
+                &lt;!&ndash;                  <p class="number__review number__review_first">&ndash;&gt;&lt;!&ndash;</p>&ndash;&gt;
+                <div class="feedback_left">
+                  <a href="https://eduzorro.com/courses/imt-academy/">
+                    <div class="review__image" style="background:url('https://eduzorro.com/wp-content/uploads/2019/08/Screenshot_14.png') no-repeat; background-size: 75%; background-position: center center;"></div>
+                  </a>
+                  <div class="rating-area">
+                    <div class="glsr-review-rating">
+                      <div class="glsr-star-rating glsr-stars">
+                        <span class="screen-reader-text">Rated <strong>3</strong> out of 5</span>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-full" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                        <div class="glsr-star glsr-star-empty" aria-hidden="true"></div>
+                      </div>
+                    </div>
+
+                    <div class="btn__info">
+                      <p class="feed__subtext">
+                        <span class="js-reviews-count">7</span>
+                        отзывов
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="review__wrapp">
+                  <h3 class="review__title">
+                    <a href="https://eduzorro.com/courses/imt-academy/"> Школа “IMT.academy”</a>
+                  </h3>
+                  <p class="review__text">
+                    Ми не хочемо «навчати заради навчання», тобто заради самого процесу. Ринок перенасичений поверхневими курсами, на які люди приходять заради тусовки. Це Інфобізнес чистої води, нам таке нецікаво.
+
+                    Ми випускаємо професіоналів, щоб розвивати ринки маркетингу та IT України. Відкриваємо філії в регіонах України, в яких особливо гостро не вистачає якісної освіти через невеликих розмірів міста. Зараз активно розширюється філія Академії в Запоріжжі.                    </p>
+                  <div class="btn__wrapp">
+                    <a href="https://eduzorro.com/courses/imt-academy/" class="review__link">
+                      Подробнее
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="category-description">
+              В современном мире почти каждый человек имеет доступ к Интернету, используя его ежедневно. Веб-разработка быстро стала одной из наиболее оплачиваемых специальностей. Но что это веб-разработчик и какие курсы веб-дизайна рекомендованы?
+            </p><h3>Что такое веб-разработка?</h3>
+            Веб-разработка – это создание и поддержка веб-сайтов. Это работа, происходящая за кулисами, чтобы веб-сайт выглядел великолепно, работал быстро и обладал удобным интерфейсом.
+            <h3>Как можно научиться веб-разработке?</h3>
+            Начиная изучать веб-программирование – важно понимать свою цель и не забывать ее, тогда учеба станет более эффективной. Когда нет опыта, решите для начала, что интереснее: бэкенд-разработка либо фронтенд:
+            <ul>
+              <li>фронтенд – то, что видно пользователям, с чем он работает сайте.</li>
+              <li>бэкенд – часть, взаимодействующая с данными, хранящая и обрабатывающая их.</li>
+            </ul>
+            Однако базой знаний является HTML и CSS. И не имеет значения ваш выбор: однозначно потребуется взаимодействие с веб-страницами.
+            <h3>Кому подойдут курсы по веб дизайну?</h3>
+            Получить опыт проектирования и создания сайтов можно:
+            <ul>
+              <li>Самостоятельно или выбрать бесплатные курсы веб дизайна.</li>
+              <li>Онлайн курсы веб дизайна.</li>
+            </ul>
+            Первый вариант
+
+            <strong>Плюсы</strong>:
+            <ul>
+              <li>Почти даром. Книги можно или недорого купить, или скачать. Ну а сам Интернет полон уроками и разными материалами.</li>
+              <li>Расписание составляете самостоятельно. Идеально для тех, кто умеет
+                самоорганизовываться.</li>
+              <li>Интересуетесь последними трендами в своей специальности.</li>
+              <li>Опыт работы. Обучаясь, реально писать несложные проекты. Получаете и практику, и портфолио.</li>
+            </ul>
+            <strong>Минусы</strong>
+            <ul>
+              <li>Сила воли. Учащиеся самостоятельно, часто не находят мотивации и все забрасывают.</li>
+              <li>Хорошие материалы могут быть недоступны.</li>
+              <li>Упускаются важные детали.</li>
+            </ul>
+            <strong>Второй вариант</strong>
+
+            Что дают курсы веб дизайна? Некоторые из достоинств:
+            <ul>
+              <li>Структура курса. Обучение даст четкий график с обязательными домашними заданиями.</li>
+              <li>Обучают опытные мастера.</li>
+              <li>Уделяется много внимания деталям.</li>
+              <li>Получите сертификат.</li>
+            </ul>
+            <strong>Недостатки</strong>
+            <ul>
+              <li>Учителя могут упускать трендовые вещи. Поэтому, выбирая школу, подходите к этому серьезно.</li>
+              <li>Подавляется креативность. Определенные курсы не позволяют ученикам в полной мере раскрыться.</li>
+            </ul>
+            <h3>Как выбрать курсы веб дизайна?</h3>
+            <ul>
+              <li>Определиться с намерениями. Много кто хочет попробовать для себя, что это, однако такой вариант провальный. Успеха добиваются те, кто решил для себя: «Я стану вебдизайнером любой ценой».</li>
+              <li>Срок учебы. Выяснить общее количество часов обучения и практики, а также, сколько стоят курсы веб дизайна.</li>
+              <li>Портфолио преподавателя для оценки его профессионализма.</li>
+              <li>Отзывы ищите не на сайте онлайн-школы, а в сети.</li>
+              <li>Обратная связь. Не важно, какая цена за обучение, важна техническая поддержка курсов, чтобы вы могли все скачать/запустить/просмотреть и т.д.</li>
+              <li>Какой итог курсов веб-дизайна: негативный – когда обещают научить за несколько недель и после сразу много зарабатывать; хороший – когда, закончив курсы, в голове останется план, как рисовать любой сайт пошагово.</li>
+              <li>Бесплатные курсы веб-дизайна.</li>
+              <li>Профессиональных курсов, а главное бесплатных мало</li>
+            </ul>          <p></p>
+
+            <div class="links-cities col-12"><h4>Посмотреть в таких городах:</h4><ul><li><a href="/courses/category/web-development/kyiv/">Киев</a></li><li><a href="/courses/category/web-development/lviv/">Львов</a></li><li><a href="/courses/category/web-development/odesa/">Одесса</a></li><li><a href="/courses/category/web-development/kharkiv/">Харьков</a></li></ul></div>          <nav class="wrap-pagination"><ul id="pagination" class="pagination"><li><span aria-current="page" class="page-numbers page-numbers&#45;&#45;prev">← Предыдущая</span></li><li><span aria-current="page" class="page-numbers current">1</span></li><li><a class="page-numbers" href="https://eduzorro.com/courses/category/web-development/page/2/">2</a></li><li><a class="page-numbers" href="https://eduzorro.com/courses/category/web-development/page/3/">3</a></li><li><a class="next page-numbers" href="https://eduzorro.com/courses/category/web-development/page/2/">Следующая →</a></li></ul></nav>        </div>
+        </div>
+      </div>
+
+    </section>-->
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,203 @@
+a {
+  color: #0169ee;
+}
+
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-form-base_input {
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  margin: 0 0 10px;
+  padding: 0 10px;
+  border: 1px solid #e5e5e5;
+  background: #FFF;
+  font-family: Rubik, sans-serif;
+  font-size: 17px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.ag-courses-filter_title {
+  padding: 0 0 25px;
+
+  font-weight: bold;
+  font-size: 36px;
+}
+.ag-courses-filter_list {
+  padding: 0 0 30px;
+}
+.ag-courses-filter_item {
+  display: inline-block;
+  width: 260px;
+  margin: 0 130px 0 0;
+}
+.ag-courses-filter_item:last-child {
+  margin: 0;
+}
+
+/* filter */
+.ag-courses-filter_select select {
+  height: 60px;
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 5px 30px 5px 10px;
+  border: 1px solid #e5e5e5;
+  background: url(../images/arrow.svg) no-repeat scroll calc(100% - 10px) 50% #FFF;
+
+  font-size: 17px;
+  color: #525c69;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.ag-courses-filter_select select:focus {
+  outline: none;
+}
+select.js-ag-active {
+  border: 1px solid #f0ae00;
+}
+/* /filter */
+
+/* courses */
+.ag-courses_thead,
+.ag-courses_tbody {
+  display: table;
+  width: 100%;
+
+  font-size: 17px;
+}
+.ag-courses-tr_list {
+  display: table-row;
+}
+.ag-courses_tbody .ag-courses-tr_list:hover {
+  background-color: #e7eaee;
+}
+.ag-courses-th_item,
+.ag-courses-td_item {
+  display: table-cell;
+  padding: 30px 80px 30px 0;
+  border-bottom: 1px solid #adadad;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ag-courses-th_item {
+  padding: 20px 80px 20px 0;
+
+  color: #747474;
+}
+.ag-courses-th_item:first-child,
+.ag-courses-td_item:first-child {
+  width: 20%;
+}
+.ag-courses-th_item:nth-child(2),
+.ag-courses-td_item:nth-child(2),
+.ag-courses-th_item:nth-child(4),
+.ag-courses-td_item:nth-child(4) {
+  width: 18%;
+}
+.ag-courses-th_item:nth-child(3),
+.ag-courses-td_item:nth-child(3) {
+  width: 30%;
+}
+.ag-courses-th_item:last-child,
+.ag-courses-td_item:last-child {
+  padding-right: 0;
+}
+.ag-courses-td_text-item {
+  line-height: 1.45;
+  width: 200px;
+}
+.ag-courses-td_name-item {
+  font-size: 20px;
+}
+.ag-courses_link-item {
+  line-height: 1.45;
+
+  font-size: 17px;
+  color: #0169ee;
+}
+/* /courses */
+
+/* rating */
+.screen-reader-text {
+  display: none;
+}
+
+.glsr-star {
+  display: inline-block;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-size: 1.5rem;
+}
+
+.gl-star-rating--stars[class*=" s"] > span,
+.glsr-star-empty {
+  background-image: url(../images/star-empty.svg);
+}
+.glsr-field-is-invalid .gl-star-rating--stars[class*=" s"] > span {
+  background-image: url(../images/star-error.svg);
+}
+.glsr-star-half {
+  background-image: url(../images/star-half.svg);
+}
+.gl-star-rating--stars.s10 > span:first-child,
+.gl-star-rating--stars.s20 > span:nth-child(-1n+2),
+.gl-star-rating--stars.s30 > span:nth-child(-1n+3),
+.gl-star-rating--stars.s40 > span:nth-child(-1n+4),
+.gl-star-rating--stars.s50 > span:nth-child(-1n+5),
+.gl-star-rating--stars.s60 > span:nth-child(-1n+6),
+.gl-star-rating--stars.s70 > span:nth-child(-1n+7),
+.gl-star-rating--stars.s80 > span:nth-child(-1n+8),
+.gl-star-rating--stars.s90 > span:nth-child(-1n+9),
+.gl-star-rating--stars.s100 > span,
+.glsr-star-full {
+  background-image: url(../images/star-full.svg);
+}
+/* /rating */
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
