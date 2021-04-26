@@ -1061,14 +1061,14 @@ body {
 /* horse */
 .ag-horse {
   display: inline-block;
-  height: 216px;
-  width: 158px;
-  margin: 0 0 0 100px;
+  height: 165px;
+  width: 230px;
+  margin: 0 0 0 30px;
 
-  -webkit-animation: an-horse 1s steps(10, end) infinite;
-  -moz-animation: an-horse 1s steps(10, end) infinite;
-  -o-animation: an-horse 1s steps(10, end) infinite;
-  animation: an-horse 1s steps(10, end) infinite;
+  -webkit-animation: an-horse 1s steps(4, end) infinite;
+  -moz-animation: an-horse 1s steps(4, end) infinite;
+  -o-animation: an-horse 1s steps(4, end) infinite;
+  animation: an-horse 1s steps(4, end) infinite;
 }
 .ag-horse-1 {
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/horse-blue.png) no-repeat 0 100%;
