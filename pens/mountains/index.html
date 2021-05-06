@@ -20,31 +20,36 @@
 
 <body>
 <style>
-  .crash-game__mountains {
+  body {
+    background-color: #181C3A;
+  }
+  .ag-mountain {
     width: 100%;
-    opacity: 0.22;
+
+    overflow-x: hidden;
 
     position: absolute;
     left: 0;
-    bottom: 3.3125em;
+    bottom: 0;
   }
-  .crash-game__mountains--game .crash-game__mountain {
-    -webkit-animation-name: mountain-move;
-    -moz-animation-name: mountain-move;
-    -o-animation-name: mountain-move;
-    animation-name: mountain-move;
+  .ag-mountain {
+    -webkit-animation-name: an-mountain-move;
+    -moz-animation-name: an-mountain-move;
+    -o-animation-name: an-mountain-move;
+    animation-name: an-mountain-move;
   }
-  .crash-game__mountain {
+  .ag-mountain {
     height: 7.8125em;
-    width: 72.5em;
-    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mountains/images/mountain-1.svg);
+    width: 100%;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mountains/images/mountain-1.svg) 0 2.5em/contain repeat-x;
 
     position: absolute;
-    left: 51%;
+    left: 50%;
     bottom: 0;
 
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+    
     transition: background-position 0.3s ease-in-out;
 
     -webkit-animation-duration: 5s;
@@ -58,7 +63,7 @@
 
     pointer-events: none;
   }
-  .crash-game__mountain--2 {
+  .ag-mountain-2 {
     height: 9.5625em;
     background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mountains/images/mountain-2.svg);
     background-position-y: 4.375em;
@@ -66,7 +71,7 @@
     -webkit-animation-duration: 9s;
     animation-duration: 9s
   }
-  .crash-game__mountain--3 {
+  .ag-mountain-3 {
     height: 15.3125em;
     background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mountains/images/mountain-3.svg);
     background-position-y: 6.25em;
@@ -74,7 +79,7 @@
     -webkit-animation-duration: 18s;
     animation-duration: 18s;
   }
-  .crash-game__mountain--4 {
+  .ag-mountain-4 {
     height: 18.25em;
     background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mountains/images/mountain-4.svg);
     background-position-y: 8.125em;
@@ -82,7 +87,7 @@
     -webkit-animation-duration: 30s;
     animation-duration: 30s;
   }
-  .crash-game__mountain--5 {
+  .ag-mountain-5 {
     height: 22.25em;
     background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mountains/images/mountain-5.svg);
     background-position-y: 10em;
@@ -91,22 +96,22 @@
     animation-duration: 50s;
   }
 
-  @-webkit-keyframes mountain-move {
+  @-webkit-keyframes an-mountain-move {
     to {
       background-position-x: -43.125em;
     }
   }
-  @-moz-keyframes mountain-move {
+  @-moz-keyframes an-mountain-move {
     to {
       background-position-x: -43.125em;
     }
   }
-  @-o-keyframes mountain-move {
+  @-o-keyframes an-mountain-move {
     to {
       background-position-x: -43.125em;
     }
   }
-  @keyframes mountain-move {
+  @keyframes an-mountain-move {
     to {
       background-position-x: -43.125em;
     }
@@ -114,14 +119,13 @@
 </style>
 
 
-  <div class="ag-format-container">
-    <div class="crash-game__mountains">
-      <div class="crash-game__mountain crash-game__mountain--5"></div>
-      <div class="crash-game__mountain crash-game__mountain--4"></div>
-      <div class="crash-game__mountain crash-game__mountain--3"></div>
-      <div class="crash-game__mountain crash-game__mountain--2"></div>
-      <div class="crash-game__mountain"></div>
-    </div>
+
+  <div class="ag-mountains">
+    <div class="ag-mountain ag-mountain-5"></div>
+    <div class="ag-mountain ag-mountain-4"></div>
+    <div class="ag-mountain ag-mountain-3"></div>
+    <div class="ag-mountain ag-mountain-2"></div>
+    <div class="ag-mountain"></div>
   </div>
 
 <!--[if lt IE 9]>
