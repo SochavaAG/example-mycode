@@ -148,6 +148,41 @@ body {
 }
 /* /crystal */
 
+/* crash */
+.ag-crash {
+  width: 12.5em;
+  height: 12.5em;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/aitplane-crash.png);
+  background-size: 2500% 100%;
+
+  -webkit-animation: an-crash steps(24, start) 2s 1 forwards;
+  -moz-animation: an-crash steps(24, start) 2s 1 forwards;
+  -o-animation: an-crash steps(24, start) 2s 1 forwards;
+  animation: an-crash steps(24, start) 2s 1 forwards;
+}
+
+@-webkit-keyframes an-crash {
+  to {
+    background-position-x:100%
+  }
+}
+@-moz-keyframes an-crash {
+  to {
+    background-position-x:100%
+  }
+}
+@-o-keyframes an-crash {
+  to {
+    background-position-x:100%
+  }
+}
+@keyframes an-crash {
+  to {
+    background-position-x:100%
+  }
+}
+/* /crash */
+
 /* arm */
 .ag-arm {
   display: inline-block;
