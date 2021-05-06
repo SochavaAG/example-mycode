@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Mountains</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .crash-game__mountains {
+    width: 100%;
+    opacity: 0.22;
+
+    position: absolute;
+    left: 0;
+    bottom: 3.3125em;
+  }
+  .crash-game__mountains--game .crash-game__mountain {
+    -webkit-animation-name: mountain-move;
+    -moz-animation-name: mountain-move;
+    -o-animation-name: mountain-move;
+    animation-name: mountain-move;
+  }
+  .crash-game__mountain {
+    height: 7.8125em;
+    width: 72.5em;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mountains/images/mountain-1.svg);
+
+    position: absolute;
+    left: 51%;
+    bottom: 0;
+
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    transition: background-position 0.3s ease-in-out;
+
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+    pointer-events: none;
+  }
+  .crash-game__mountain--2 {
+    height: 9.5625em;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mountains/images/mountain-2.svg);
+    background-position-y: 4.375em;
+
+    -webkit-animation-duration: 9s;
+    animation-duration: 9s
+  }
+  .crash-game__mountain--3 {
+    height: 15.3125em;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mountains/images/mountain-3.svg);
+    background-position-y: 6.25em;
+
+    -webkit-animation-duration: 18s;
+    animation-duration: 18s;
+  }
+  .crash-game__mountain--4 {
+    height: 18.25em;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mountains/images/mountain-4.svg);
+    background-position-y: 8.125em;
+
+    -webkit-animation-duration: 30s;
+    animation-duration: 30s;
+  }
+  .crash-game__mountain--5 {
+    height: 22.25em;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mountains/images/mountain-5.svg);
+    background-position-y: 10em;
+
+    -webkit-animation-duration: 50s;
+    animation-duration: 50s;
+  }
+
+  @-webkit-keyframes mountain-move {
+    to {
+      background-position-x: -43.125em;
+    }
+  }
+  @-moz-keyframes mountain-move {
+    to {
+      background-position-x: -43.125em;
+    }
+  }
+  @-o-keyframes mountain-move {
+    to {
+      background-position-x: -43.125em;
+    }
+  }
+  @keyframes mountain-move {
+    to {
+      background-position-x: -43.125em;
+    }
+  }
+</style>
+
+
+  <div class="ag-format-container">
+    <div class="crash-game__mountains">
+      <div class="crash-game__mountain crash-game__mountain--5"></div>
+      <div class="crash-game__mountain crash-game__mountain--4"></div>
+      <div class="crash-game__mountain crash-game__mountain--3"></div>
+      <div class="crash-game__mountain crash-game__mountain--2"></div>
+      <div class="crash-game__mountain"></div>
+    </div>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>

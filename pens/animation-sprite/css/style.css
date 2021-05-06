@@ -148,10 +148,47 @@ body {
 }
 /* /crystal */
 
+/* airplane */
+.ag-airplane {
+  display: inline-block;
+  height: 6.8125em;
+  width: 10.3125em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/airplane.png) 0 0/4800% 100% no-repeat;
+
+  -webkit-animation: an-airplane steps(47, start) 3s infinite;
+  -moz-animation: an-airplane steps(47, start) 3s infinite;
+  -o-animation: an-airplane steps(47, start) 3s infinite;
+  animation: an-airplane steps(47, start) 3s infinite;
+}
+
+@-webkit-keyframes an-airplane {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-moz-keyframes an-airplane {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-o-keyframes an-airplane {
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes an-airplane {
+  to {
+    background-position-x: 100%;
+  }
+}
+/* /airplane */
+
 /* crash */
 .ag-crash {
-  width: 12.5em;
+  display: inline-block;
   height: 12.5em;
+  width: 12.5em;
+  margin: 0 0 0 50px;
   background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/aitplane-crash.png);
   background-size: 2500% 100%;
 
@@ -163,22 +200,22 @@ body {
 
 @-webkit-keyframes an-crash {
   to {
-    background-position-x:100%
+    background-position-x: 100%;
   }
 }
 @-moz-keyframes an-crash {
   to {
-    background-position-x:100%
+    background-position-x: 100%;
   }
 }
 @-o-keyframes an-crash {
   to {
-    background-position-x:100%
+    background-position-x: 100%;
   }
 }
 @keyframes an-crash {
   to {
-    background-position-x:100%
+    background-position-x: 100%;
   }
 }
 /* /crash */
