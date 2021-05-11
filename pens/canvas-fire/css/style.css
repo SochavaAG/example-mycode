@@ -3,7 +3,41 @@
   margin: 0 auto;
 }
 
+body {
+  background-color: #000;
+}
 
+.gt-cup-block {
+  padding: 200px 0;
+}
+.gt-cup {
+  display: inline-block;
+  height: 113px;
+  width: 153px;
+  margin: 0 0 0 100px;
+
+  position: relative;
+}
+
+.gt-cup::after {
+  content: "";
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/canvas-fire/images/cup.png) no-repeat;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.gt-cup-fire {
+  height: 100%;
+  width: 200%;
+
+  position: absolute;
+  left: -50%;
+  bottom: 100%;
+}
 
 
 @media only screen and (max-width: 767px) {
