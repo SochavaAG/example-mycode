@@ -4030,6 +4030,261 @@ body {
 }
 /* /frame */
 
+/* tvbet */
+.ag-tvbet {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-tvbet.png);
+  background-repeat: no-repeat;
+
+  -webkit-animation: an-sprite-tvbet 2s steps(49, start) infinite;
+  -moz-animation: an-sprite-tvbet 2s steps(49, start) infinite;
+  -o-animation: an-sprite-tvbet 2s steps(49, start) infinite;
+  animation: an-sprite-tvbet 2s steps(49, start) infinite;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+@-webkit-keyframes an-sprite-tvbet {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-moz-keyframes an-sprite-tvbet {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-o-keyframes an-sprite-tvbet {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@keyframes an-sprite-tvbet {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+/* /tvbet */
+
+/* dice */
+.ag-dice {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-dice.png);
+  background-repeat: no-repeat;
+
+  -webkit-animation: an-sprite-dice 2s steps(49, start) infinite;
+  -moz-animation: an-sprite-dice 2s steps(49, start) infinite;
+  -o-animation: an-sprite-dice 2s steps(49, start) infinite;
+  animation: an-sprite-dice 2s steps(49, start) infinite;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+@-webkit-keyframes an-sprite-dice {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-moz-keyframes an-sprite-dice {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-o-keyframes an-sprite-dice {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@keyframes an-sprite-dice {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+/* /dice */
+
+/* roulette */
+.ag-roulette {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-roulette.png);
+  background-repeat: no-repeat;
+
+  -webkit-animation: an-sprite-roulette 2s steps(49, start) infinite;
+  -moz-animation: an-sprite-roulette 2s steps(49, start) infinite;
+  -o-animation: an-sprite-roulette 2s steps(49, start) infinite;
+  animation: an-sprite-roulette 2s steps(49, start) infinite;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+@-webkit-keyframes an-sprite-roulette {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-moz-keyframes an-sprite-roulette {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-o-keyframes an-sprite-roulette {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@keyframes an-sprite-roulette {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+/* /roulette */
+
+/* soldier */
+.ag-soldier {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-soldier.png);
+  background-repeat: no-repeat;
+
+  -webkit-animation: an-sprite-soldier 2s steps(49, start) infinite;
+  -moz-animation: an-sprite-soldier 2s steps(49, start) infinite;
+  -o-animation: an-sprite-soldier 2s steps(49, start) infinite;
+  animation: an-sprite-soldier 2s steps(49, start) infinite;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+@-webkit-keyframes an-sprite-soldier {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-moz-keyframes an-sprite-soldier {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-o-keyframes an-sprite-soldier {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@keyframes an-sprite-soldier {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+/* /soldier */
+
+/* poker */
+.ag-poker {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-poker.png);
+  background-repeat: no-repeat;
+
+  -webkit-animation: an-sprite-poker 2s steps(49, start) infinite;
+  -moz-animation: an-sprite-poker 2s steps(49, start) infinite;
+  -o-animation: an-sprite-poker 2s steps(49, start) infinite;
+  animation: an-sprite-poker 2s steps(49, start) infinite;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+@-webkit-keyframes an-sprite-poker {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-moz-keyframes an-sprite-poker {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-o-keyframes an-sprite-poker {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+@keyframes an-sprite-poker {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 100%;
+  }
+}
+/* /poker */
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;

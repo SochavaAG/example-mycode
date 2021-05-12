@@ -5,7 +5,7 @@ $(document).ready(function() {
     ['hsla(25, 70%, 50%, 1)', 'hsla(35, 70%, 50%, 0.5)', 'hsla(35, 70%, 50%, 0)']
   ];
 
-  $('.gt-cup-fire').each(function(i,item) {
+  $('.js-cup-fire').each(function(i,item) {
     var sprite = document.createElement('canvas');
     var spriteCtx = sprite.getContext('2d');
 
@@ -116,4 +116,5 @@ $(document).ready(function() {
       }
     };
   });
+
 });

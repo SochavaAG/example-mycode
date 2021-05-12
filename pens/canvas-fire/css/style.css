@@ -7,10 +7,10 @@ body {
   background-color: #000;
 }
 
-.gt-cup-block {
+.ag-cup-block {
   padding: 200px 0;
 }
-.gt-cup {
+.ag-cup {
   display: inline-block;
   height: 113px;
   width: 153px;
@@ -19,7 +19,7 @@ body {
   position: relative;
 }
 
-.gt-cup::after {
+.ag-cup::after {
   content: "";
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/canvas-fire/images/cup.png) no-repeat;
 
@@ -30,7 +30,7 @@ body {
   bottom: 0;
 }
 
-.gt-cup-fire {
+.ag-cup-fire {
   height: 100%;
   width: 200%;
 
