@@ -22,41 +22,70 @@
 
 <style>
   .eastern-night__wrap {
-    position:relative;
-    margin:0 auto;
-    overflow:hidden;
-    box-shadow:0em .625em 1.25em #8e2f42;
-    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/starry-sky/images/bg.jpg) center top/auto 100% no-repeat;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0em .625em 1.25em #8e2f42;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/starry-sky/images/bg.jpg) no-repeat scroll 50% 0;
   }
   .eastern-night-clouds__cloud {
-    -webkit-animation:cloudStart linear, cloud linear infinite;
-    animation:cloudStart linear, cloud linear infinite
+    -webkit-animation: cloudStart linear, cloud linear infinite;
+    animation: cloudStart linear, cloud linear infinite;
   }
   .eastern-night-clouds__cloud--1 {
-    -webkit-transform:translateX(20%);
-    transform:translateX(20%);
-    -webkit-animation-duration:160s, 200s;
-    animation-duration:160s, 200s;
-    -webkit-animation-delay:0s, 160s;
-    animation-delay:0s, 160s
+    -webkit-transform: translateX(20%);
+    transform: translateX(20%);
+    -webkit-animation-duration: 160s, 200s;
+    animation-duration: 160s, 200s;
+    -webkit-animation-delay: 0s, 160s;
+    animation-delay: 0s, 160s;
   }
   .eastern-night-clouds__cloud--2 {
-    top:8%;
-    -webkit-transform:translateX(-10%);
-    transform:translateX(-10%);
-    -webkit-animation-duration:230s, 180s;
-    animation-duration:230s, 180s;
-    -webkit-animation-delay:0s, 230s;
-    animation-delay:0s, 230s
+    top: 8%;
+    -webkit-transform: translateX(-10%);
+    transform: translateX(-10%);
+    -webkit-animation-duration: 230s, 180s;
+    animation-duration: 230s, 180s;
+    -webkit-animation-delay: 0s, 230s;
+    animation-delay: 0s, 230s;
   }
   .eastern-night-clouds__cloud--3 {
-    top:30%;
-    -webkit-transform:translateX(60%);
-    transform:translateX(60%);
-    -webkit-animation-duration:60s, 120s;
-    animation-duration:60s, 120s;
-    -webkit-animation-delay:0s, 60s;
-    animation-delay:0s, 60s
+    top: 30%;
+    -webkit-transform: translateX(60%);
+    transform: translateX(60%);
+    -webkit-animation-duration: 60s, 120s;
+    animation-duration: 60s, 120s;
+    -webkit-animation-delay: 0s, 60s;
+    animation-delay: 0s, 60s;
+  }
+  .eastern-night-star::before {
+    content: '';
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 99%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 1px #fff;
+    background: rgba(255, 255, 255, 0.7);
+    -webkit-transform: scaleX(0.6);
+    transform: scaleX(0.6);
+  }
+  .eastern-night-star--reverse {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  @-webkit-keyframes cloudStart {
+    100% {
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+  }
+  @keyframes cloudStart {
+    100% {
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
   }
 </style>
 
@@ -89,7 +118,7 @@
     </picture>
   </div>
 
-  <div class="eastern-night-star eastern-night__star" style=""></div>
+  <div class="eastern-night-star eastern-night__star eastern-night-star--reverse" style=""></div>
 
   <div class="ag-format-container">
 
