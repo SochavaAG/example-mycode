@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Bubbles</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .eastern-night-bubbles {
+    position:relative;
+  }
+
+  .eastern-night-bubbles__part {
+    width: 300%;
+    background-size: 33.33333% 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    -webkit-animation: bubbles 16s linear infinite;
+    animation: bubbles 16s linear infinite;
+  }
+  .eastern-night-bubbles__part--back {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/bubbles/images/bubble-1.png);
+
+    left: -100%;
+
+    -webkit-transform: translateX(33.3333%);
+    transform: translateX(33.3333%);
+  }
+  .eastern-night-bubbles__part--center {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/bubbles/images/bubble-2.png);
+  }
+  .eastern-night-bubbles__part--front1 {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/bubbles/images/bubble-3.png);
+
+    left: 0;
+
+    -webkit-transform: translateX(-33.3333%);
+    transform: translateX(-33.3333%);
+  }
+  .eastern-night-bubbles__part--front2 {
+    width: 400%;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/bubbles/images/bubble-4.png) 0 0/25% 100%;
+
+    left: -75%;
+
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .eastern-night-bubbles__part--front3 {
+    width: 1000%;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/bubbles/images/bubble-5.png) 0 0/10% 100%;
+
+    left: -300%;
+
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  @-webkit-keyframes bubbles {
+    100% {
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+  @keyframes bubbles {
+    100% {
+      -webkit-transform: none;
+      transform: none;
+    }
+  }
+</style>
+
+  <div class="ag-format-container">
+    <div class="eastern-night-sidebar__bubbles eastern-night-bubbles">
+      <div class="eastern-night-bubbles__part eastern-night-bubbles__part--back "></div>
+      <div class="eastern-night-bubbles__part eastern-night-bubbles__part--center "></div>
+      <div class="eastern-night-bubbles__part eastern-night-bubbles__part--front1 "></div>
+      <div class="eastern-night-bubbles__part eastern-night-bubbles__part--front2 "></div>
+      <div class="eastern-night-bubbles__part eastern-night-bubbles__part--front3 "></div>
+    </div>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
