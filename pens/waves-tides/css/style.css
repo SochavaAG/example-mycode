@@ -4,6 +4,95 @@
 }
 
 
+body {
+  background-color: #398CBA;
+}
+
+.ag-land {
+  height: 1000px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/waves-tides/images/land.png) 50% 0 repeat-x;
+
+  position: relative;
+}
+.ag-land:after {
+  content: "";
+  height: 200px;
+  margin: 0 auto;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/waves-tides/images/waves.png) 50% 0 repeat-x;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+
+  -webkit-animation: an-tides-anim 3s infinite;
+  -moz-animation: an-tides-anim 3s infinite;
+  -o-animation: an-tides-anim 3s infinite;
+  animation: an-tides-anim 3s infinite
+}
+
+@-webkit-keyframes an-tides-anim {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-.625em);
+    transform: translateY(-.625em);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-moz-keyframes an-tides-anim {
+  0% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -moz-transform: translateY(-.625em);
+    transform: translateY(-.625em);
+  }
+  100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@-o-keyframes an-tides-anim {
+  0% {
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -o-transform: translateY(-.625em);
+    transform: translateY(-.625em);
+  }
+  100% {
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes an-tides-anim {
+  0% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-.625em);
+    -moz-transform: translateY(-.625em);
+    -o-transform: translateY(-.625em);
+    transform: translateY(-.625em);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
 
 
 @media only screen and (max-width: 767px) {
