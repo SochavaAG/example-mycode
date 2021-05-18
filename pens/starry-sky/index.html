@@ -20,15 +20,81 @@
 
 <body>
 
-<div class="eastern-night-clouds__cloud eastern-night-clouds__cloud--2">
-  <picture class="eastern-night-clouds__pic">
-    <source srcset="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/starry-sky/images/cloud.webp" type="image/webp">
-    <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/starry-sky/images/cloud.png" class="eastern-night-clouds__img eastern-night-clouds__img--2" width="812" height="350" alt="second-cloud" />
-  </picture>
-</div>
+<style>
+  .eastern-night__wrap {
+    position:relative;
+    margin:0 auto;
+    overflow:hidden;
+    box-shadow:0em .625em 1.25em #8e2f42;
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/starry-sky/images/bg.jpg) center top/auto 100% no-repeat;
+  }
+  .eastern-night-clouds__cloud {
+    -webkit-animation:cloudStart linear, cloud linear infinite;
+    animation:cloudStart linear, cloud linear infinite
+  }
+  .eastern-night-clouds__cloud--1 {
+    -webkit-transform:translateX(20%);
+    transform:translateX(20%);
+    -webkit-animation-duration:160s, 200s;
+    animation-duration:160s, 200s;
+    -webkit-animation-delay:0s, 160s;
+    animation-delay:0s, 160s
+  }
+  .eastern-night-clouds__cloud--2 {
+    top:8%;
+    -webkit-transform:translateX(-10%);
+    transform:translateX(-10%);
+    -webkit-animation-duration:230s, 180s;
+    animation-duration:230s, 180s;
+    -webkit-animation-delay:0s, 230s;
+    animation-delay:0s, 230s
+  }
+  .eastern-night-clouds__cloud--3 {
+    top:30%;
+    -webkit-transform:translateX(60%);
+    transform:translateX(60%);
+    -webkit-animation-duration:60s, 120s;
+    animation-duration:60s, 120s;
+    -webkit-animation-delay:0s, 60s;
+    animation-delay:0s, 60s
+  }
+</style>
+
+<div data-status="static" class="eastern-night__wrap">
+  <div class="eastern-night-clouds eastern-night__clouds">
+    <div class="eastern-night-clouds__cloud eastern-night-clouds__cloud--1">
+      <picture class="eastern-night-clouds__pic">
+        <source srcset="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/starry-sky/images/cloud.webp" type="image/webp">
+        <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/starry-sky/images/cloud.png" alt="first-cloud" class="eastern-night-clouds__img eastern-night-clouds__img--1" width="812" height="350">
+      </picture>
+    </div>
+    <div class="eastern-night-clouds__cloud eastern-night-clouds__cloud--2">
+      <picture class="eastern-night-clouds__pic">
+        <source srcset="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/starry-sky/images/cloud.webp" type="image/webp">
+        <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/starry-sky/images/cloud.png" alt="second-cloud" class="eastern-night-clouds__img eastern-night-clouds__img--2" width="812" height="350">
+      </picture>
+    </div>
+    <div class="eastern-night-clouds__cloud eastern-night-clouds__cloud--3">
+      <picture class="eastern-night-clouds__pic">
+        <source srcset="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/starry-sky/images/cloud-2.webp" type="image/webp">
+        <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/starry-sky/images/cloud-2.png" alt="third-cloud" class="eastern-night-clouds__img eastern-night-clouds__img--3" width="405" height="209">
+      </picture>
+    </div>
+  </div>
+
+  <div class="eastern-night-clouds__cloud eastern-night-clouds__cloud--2">
+    <picture class="eastern-night-clouds__pic">
+      <source srcset="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/starry-sky/images/cloud.webp" type="image/webp">
+      <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/starry-sky/images/cloud.png" class="eastern-night-clouds__img eastern-night-clouds__img--2" width="812" height="350" alt="second-cloud"/>
+    </picture>
+  </div>
+
+  <div class="eastern-night-star eastern-night__star" style=""></div>
+
   <div class="ag-format-container">
 
   </div>
+</div>
 
 <!--[if lt IE 9]>
 <script src="libs/IE/html5shiv/es5-shim.min.js"></script>
