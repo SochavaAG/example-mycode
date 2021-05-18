@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Animation Cube</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .ca-cube {
+    position:relative;
+    width:1em;
+    height:1em;
+    -webkit-perspective:12em;
+    perspective:12em;
+    position:absolute;
+    font-size:4.0625em
+  }
+  .ca-cube__body,
+  .ca-cube__side,
+  .ca-cube__face {
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    outline:1px solid transparent
+  }
+  .ca-cube__body {
+    -webkit-transform-style:preserve-3d;
+    transform-style:preserve-3d
+  }
+  .ca-cube__side_1 {
+    -webkit-transform:translateZ(0.5em);
+    transform:translateZ(0.5em)
+  }
+  .ca-cube__side_2 {
+    -webkit-transform:rotateY(90deg) translateZ(0.5em);
+    transform:rotateY(90deg) translateZ(0.5em)
+  }
+  .ca-cube__side_3 {
+    -webkit-transform:rotateX(90deg) translateZ(0.5em);
+    transform:rotateX(90deg) translateZ(0.5em)
+  }
+  .ca-cube__side_4 {
+    -webkit-transform:rotateX(-90deg) translateZ(0.5em);
+    transform:rotateX(-90deg) translateZ(0.5em)
+  }
+  .ca-cube__side_5 {
+    -webkit-transform:rotateY(-90deg) translateZ(0.5em);
+    transform:rotateY(-90deg) translateZ(0.5em)
+  }
+  .ca-cube__side_6 {
+    -webkit-transform:rotateY(180deg) translateZ(0.5em);
+    transform:rotateY(180deg) translateZ(0.5em)
+  }
+  .ca-cube__fill {
+    position:absolute;
+    top:1%;
+    left:1%;
+    height:98%;
+    width:98%
+  }
+  .ca-cube__fill_x {
+    -webkit-transform:rotateX(90deg);
+    transform:rotateX(90deg)
+  }
+  .ca-cube__fill_y {
+    -webkit-transform:rotateY(90deg);
+    transform:rotateY(90deg)
+  }
+  .ca-cube__face {
+    image-rendering:-webkit-optimize-contrast;
+    image-rendering:crisp-edges;
+    background-size:100% auto;
+    background-repeat:no-repeat
+  }
+  .ca-cube__face_1 {
+    -webkit-transform:translateZ(0.51em);
+    transform:translateZ(0.51em);
+    background-position:0 0
+  }
+  .ca-cube__face_2 {
+    -webkit-transform:rotateY(90deg) translateZ(0.51em);
+    transform:rotateY(90deg) translateZ(0.51em);
+    background-position:0 20%
+  }
+  .ca-cube__face_3 {
+    -webkit-transform:rotateX(90deg) translateZ(0.51em);
+    transform:rotateX(90deg) translateZ(0.51em);
+    background-position:0 40%
+  }
+  .ca-cube__face_4 {
+    -webkit-transform:rotateX(-90deg) translateZ(0.51em);
+    transform:rotateX(-90deg) translateZ(0.51em);
+    background-position:0 60%
+  }
+  .ca-cube__face_5 {
+    -webkit-transform:rotateY(-90deg) translateZ(0.51em);
+    transform:rotateY(-90deg) translateZ(0.51em);
+    background-position:0 80%
+  }
+  .ca-cube__face_6 {
+    -webkit-transform:rotateY(180deg) translateZ(0.51em);
+    transform:rotateY(180deg) translateZ(0.51em);
+    background-position:0 100%
+  }
+  .ca-cube__face {
+    background-image:url(/default/img/games/crownanchor/sides.png)
+  }
+  .ca-cube__side,
+  .ca-cube__fill {
+    background:#b9b9b9
+  }
+  .ca-cube__fill {
+    background:#eee
+  }
+  .ca-cube__side {
+    border-radius:.1em
+  }
+  .ca-cube:nth-child(1) {
+    top:.46154em;
+    left:5.38462em
+  }
+  .ca-cube:nth-child(2) {
+    top:.76923em;
+    left:3.84615em
+  }
+  .ca-cube:nth-child(3) {
+    top:.76923em;
+    left:2.30769em
+  }
+  .ca-cube_crown .ca-cube__body {
+    -webkit-transform:rotateX(147deg) rotateY(45deg) rotateZ(3deg);
+    transform:rotateX(147deg) rotateY(45deg) rotateZ(3deg)
+  }
+  .ca-cube_crown .ca-cube__side_6 {
+    background:#8f8f8f
+  }
+  .ca-cube_crown .ca-cube__side_4 {
+    box-shadow:inset -.0625em 0 .0625em rgba(255,255,255,0.7)
+  }
+  .ca-cube_crown .ca-cube__side_2 {
+    box-shadow:inset 0 -.0625em .0625em rgba(255,255,255,0.7)
+  }
+  .ca-cube_anchor .ca-cube__body {
+    -webkit-transform:rotateX(147deg) rotateY(61deg) rotateZ(-87deg);
+    transform:rotateX(147deg) rotateY(61deg) rotateZ(-87deg)
+  }
+  .ca-cube_anchor .ca-cube__side_6 {
+    background:#8f8f8f
+  }
+  .ca-cube_anchor .ca-cube__side_5 {
+    box-shadow:inset 0 -.0625em .0625em rgba(255,255,255,0.7)
+  }
+  .ca-cube_anchor .ca-cube__side_4 {
+    box-shadow:inset .0625em 0 .0625em rgba(255,255,255,0.7)
+  }
+  .ca-cube_diamonds .ca-cube__body {
+    -webkit-transform:rotateX(237deg) rotateY(0deg) rotateZ(-150deg);
+    transform:rotateX(237deg) rotateY(0deg) rotateZ(-150deg)
+  }
+  .ca-cube_diamonds .ca-cube__side_2 {
+    background:#8f8f8f
+  }
+  .ca-cube_diamonds .ca-cube__side_6 {
+    box-shadow:inset 0 -.0625em .0625em rgba(255,255,255,0.7)
+  }
+  .ca-cube_diamonds .ca-cube__side_4 {
+    box-shadow:inset 0 -.0625em .0625em rgba(255,255,255,0.7)
+  }
+  .ca-cube_hearts .ca-cube__body {
+    -webkit-transform:rotateX(149deg) rotateY(125deg) rotateZ(-177deg);
+    transform:rotateX(149deg) rotateY(125deg) rotateZ(-177deg)
+  }
+  .ca-cube_hearts .ca-cube__side_5 {
+    background:#8f8f8f
+  }
+  .ca-cube_hearts .ca-cube__side_3 {
+    box-shadow:inset 0 -.0625em .0625em rgba(255,255,255,0.7)
+  }
+  .ca-cube_hearts .ca-cube__side_1 {
+    box-shadow:inset 0 .0625em .0625em rgba(255,255,255,0.7)
+  }
+  .ca-cube_spades .ca-cube__body {
+    -webkit-transform:rotateX(147deg) rotateY(62deg) rotateZ(93deg);
+    transform:rotateX(147deg) rotateY(62deg) rotateZ(93deg)
+  }
+  .ca-cube_spades .ca-cube__side_6 {
+    background:#8f8f8f
+  }
+  .ca-cube_spades .ca-cube__side_2 {
+    box-shadow:inset 0 .0625em .0625em rgba(255,255,255,0.7)
+  }
+  .ca-cube_spades .ca-cube__side_3 {
+    box-shadow:inset -.0625em 0 .0625em rgba(255,255,255,0.7)
+  }
+  .ca-cube_clubs .ca-cube__body {
+    -webkit-transform:rotateX(57deg) rotateY(0deg) rotateZ(53deg);
+    transform:rotateX(57deg) rotateY(0deg) rotateZ(53deg)
+  }
+  .ca-cube_clubs .ca-cube__side_4 {
+    background:#8f8f8f
+  }
+  .ca-cube_clubs .ca-cube__side_1 {
+    box-shadow:inset -.0625em 0 .0625em rgba(255,255,255,0.7)
+  }
+  .ca-cube_clubs .ca-cube__side_2 {
+    box-shadow:inset .0625em 0 .0625em rgba(255,255,255,0.7)
+  }
+  .ca-cube_waiting {
+    opacity:0.05
+  }
+  .ca-cube_waiting:nth-of-type(1) .ca-cube__body {
+    -webkit-animation:cube-wait 2s linear infinite;
+    animation:cube-wait 2s linear infinite
+  }
+  .ca-cube_waiting:nth-of-type(2) .ca-cube__body {
+    animation:cube-wait 2s linear reverse infinite -.3s
+  }
+  .ca-cube_waiting:nth-of-type(3) .ca-cube__body {
+    -webkit-animation:cube-wait 2s linear infinite -.6s;
+    animation:cube-wait 2s linear infinite -.6s
+  }
+  @-webkit-keyframes cube-wait {
+    100% {
+      -webkit-transform:rotateX(720deg) rotateY(0deg) rotateZ(360deg);
+      transform:rotateX(720deg) rotateY(0deg) rotateZ(360deg)
+    }
+  }
+  @keyframes cube-wait {
+    100% {
+      -webkit-transform:rotateX(720deg) rotateY(0deg) rotateZ(360deg);
+      transform:rotateX(720deg) rotateY(0deg) rotateZ(360deg)
+    }
+  }
+  .ca-cube_rolling {
+    z-index:1;
+    -webkit-animation:cube-fly 0.75s ease-in-out forwards;
+    animation:cube-fly 0.75s ease-in-out forwards
+  }
+  .ca-cube_rolling .ca-cube__body {
+    -webkit-animation:cube-roll 0.7s linear;
+    animation:cube-roll 0.7s linear
+  }
+  @-webkit-keyframes cube-fly {
+    45%,
+    55% {
+      -webkit-transform:translateY(-6.25em);
+      transform:translateY(-6.25em)
+    }
+  }
+  @keyframes cube-fly {
+    45%,
+    55% {
+      -webkit-transform:translateY(-6.25em);
+      transform:translateY(-6.25em)
+    }
+  }
+  @-webkit-keyframes cube-roll {
+    50% {
+      -webkit-transform:rotateX(720deg) rotateY(0deg) rotateZ(360deg);
+      transform:rotateX(720deg) rotateY(0deg) rotateZ(360deg)
+    }
+  }
+  @keyframes cube-roll {
+    50% {
+      -webkit-transform:rotateX(720deg) rotateY(0deg) rotateZ(360deg);
+      transform:rotateX(720deg) rotateY(0deg) rotateZ(360deg)
+    }
+  }
+</style>
+
+  <div class="ag-format-container">
+    <div class="ca-game__cubes">
+      <div class="ca-cube ca-cube_waiting">
+        <div class="ca-cube__body">
+          <div class="ca-cube__side ca-cube__side_1"></div>
+          <div class="ca-cube__side ca-cube__side_2"></div>
+          <div class="ca-cube__side ca-cube__side_3"></div>
+          <div class="ca-cube__side ca-cube__side_4"></div>
+          <div class="ca-cube__side ca-cube__side_5"></div>
+          <div class="ca-cube__side ca-cube__side_6"></div>
+          <div class="ca-cube__face ca-cube__face_1"></div>
+          <div class="ca-cube__face ca-cube__face_2"></div>
+          <div class="ca-cube__face ca-cube__face_3"></div>
+          <div class="ca-cube__face ca-cube__face_4"></div>
+          <div class="ca-cube__face ca-cube__face_5"></div>
+          <div class="ca-cube__face ca-cube__face_6"></div>
+          <div class="ca-cube__fill ca-cube__fill_x"></div>
+          <div class="ca-cube__fill ca-cube__fill_y"></div>
+          <div class="ca-cube__fill ca-cube__fill_z"></div>
+        </div>
+      </div>
+      <div class="ca-cube ca-cube_waiting">
+        <div class="ca-cube__body">
+          <div class="ca-cube__side ca-cube__side_1"></div>
+          <div class="ca-cube__side ca-cube__side_2"></div>
+          <div class="ca-cube__side ca-cube__side_3"></div>
+          <div class="ca-cube__side ca-cube__side_4"></div>
+          <div class="ca-cube__side ca-cube__side_5"></div>
+          <div class="ca-cube__side ca-cube__side_6"></div>
+          <div class="ca-cube__face ca-cube__face_1"></div>
+          <div class="ca-cube__face ca-cube__face_2"></div>
+          <div class="ca-cube__face ca-cube__face_3"></div>
+          <div class="ca-cube__face ca-cube__face_4"></div>
+          <div class="ca-cube__face ca-cube__face_5"></div>
+          <div class="ca-cube__face ca-cube__face_6"></div>
+          <div class="ca-cube__fill ca-cube__fill_x"></div>
+          <div class="ca-cube__fill ca-cube__fill_y"></div>
+          <div class="ca-cube__fill ca-cube__fill_z"></div>
+        </div>
+      </div>
+      <div class="ca-cube ca-cube_waiting">
+        <div class="ca-cube__body">
+          <div class="ca-cube__side ca-cube__side_1"></div>
+          <div class="ca-cube__side ca-cube__side_2"></div>
+          <div class="ca-cube__side ca-cube__side_3"></div>
+          <div class="ca-cube__side ca-cube__side_4"></div>
+          <div class="ca-cube__side ca-cube__side_5"></div>
+          <div class="ca-cube__side ca-cube__side_6"></div>
+          <div class="ca-cube__face ca-cube__face_1"></div>
+          <div class="ca-cube__face ca-cube__face_2"></div>
+          <div class="ca-cube__face ca-cube__face_3"></div>
+          <div class="ca-cube__face ca-cube__face_4"></div>
+          <div class="ca-cube__face ca-cube__face_5"></div>
+          <div class="ca-cube__face ca-cube__face_6"></div>
+          <div class="ca-cube__fill ca-cube__fill_x"></div>
+          <div class="ca-cube__fill ca-cube__fill_y"></div>
+          <div class="ca-cube__fill ca-cube__fill_z"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
