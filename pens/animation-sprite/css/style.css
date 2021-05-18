@@ -3011,16 +3011,15 @@ body {
 /* sword */
 .ag-sword {
   display: inline-block;
-  height: 15.25em;
-  width: 10.5em;
-  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-sword.png);
-  background-size: 1500% auto;
-  background-repeat: no-repeat;
+  height: 364px;
+  width: 204.5px;
+  margin: 0 0 0 50px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-sword.png) no-repeat scroll 0 0;
 
-  -webkit-animation: an-sprite-sword 2s steps(14, start) infinite;
-  -moz-animation: an-sprite-sword 2s steps(14, start) infinite;
-  -o-animation: an-sprite-sword 2s steps(14, start) infinite;
-  animation: an-sprite-sword 2s steps(99, start) infinite;
+  -webkit-animation: an-sprite-sword 3s steps(99, start) infinite;
+  -moz-animation: an-sprite-sword 3s steps(99, start) infinite;
+  -o-animation: an-sprite-sword 3s steps(99, start) infinite;
+  animation: an-sprite-sword 3s steps(99, start) infinite;
 
   image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
