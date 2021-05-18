@@ -4,6 +4,278 @@
 }
 
 
+body {
+  background-color: #468dbe;
+}
+
+.ag-lily {
+  display: inline-block;
+  height: 10em;
+  width: 10em;
+  margin: 50px;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+
+  position: relative;
+}
+.ag-lily:before {
+  content: "";
+  height: 11em;
+  width: 11em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/frog/images/waves.png);
+  background-size: 100% auto;
+
+  position: absolute;
+  top: -.5em;
+  left: -.5em;
+
+  -webkit-transition: opacity 0.3s, visibility 0.3s;
+  -moz-transition: opacity 0.3s, visibility 0.3s;
+  -o-transition: opacity 0.3s, visibility 0.3s;
+  transition: opacity 0.3s, visibility 0.3s;
+
+  -webkit-animation: an-waves-anim 1s steps(5) infinite;
+  -moz-animation: an-waves-anim 1s steps(5) infinite;
+  -o-animation: an-waves-anim 1s steps(5) infinite;
+  animation: an-waves-anim 1s steps(5) infinite;
+
+  pointer-events: none;
+  will-change: opacity, visibility;
+}
+.ag-lily_sink:before {
+  -webkit-animation: an-cell-sink 1s 2s forwards, an-waves-anim 1s steps(5) infinite;
+  -moz-animation: an-cell-sink 1s 2s forwards, an-waves-anim 1s steps(5) infinite;
+  -o-animation: an-cell-sink 1s 2s forwards, an-waves-anim 1s steps(5) infinite;
+  animation: an-cell-sink 1s 2s forwards, an-waves-anim 1s steps(5) infinite;
+}
+.swamp-game__row:nth-of-type(1) .ag-lily:nth-of-type(1) {
+  -webkit-transform: rotate(78deg);
+  -moz-transform: rotate(78deg);
+  -ms-transform: rotate(78deg);
+  -o-transform: rotate(78deg);
+  transform: rotate(78deg);
+}
+.swamp-game__row:nth-of-type(1) .ag-lily:nth-of-type(2) {
+  -webkit-transform: rotate(156deg);
+  -moz-transform: rotate(156deg);
+  -ms-transform: rotate(156deg);
+  -o-transform: rotate(156deg);
+  transform: rotate(156deg);
+}
+.swamp-game__row:nth-of-type(1) .ag-lily:nth-of-type(3) {
+  -webkit-transform: rotate(234deg);
+  -moz-transform: rotate(234deg);
+  -ms-transform: rotate(234deg);
+  -o-transform: rotate(234deg);
+  transform: rotate(234deg);
+}
+.ag-lily_sheet {
+  height: 100%;
+  width: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/frog/images/lillies.png) no-repeat;
+  background-size: 100% auto;
+
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+
+  position: relative;
+}
+.ag-lily_sheet:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/frog/images/lillies.png);
+  background-size: 100% auto;
+
+  visibility: hidden;
+
+  opacity: 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-transition: opacity 0.3s, visibility 0.3s;
+  -moz-transition: opacity 0.3s, visibility 0.3s;
+  -o-transition: opacity 0.3s, visibility 0.3s;
+  transition: opacity 0.3s, visibility 0.3s;
+
+  pointer-events: none;
+  will-change: opacity, visibility;
+}
+.ag-lily_sink .ag-lily_sheet {
+  -webkit-animation: an-lily-sink 1s 2s steps(6) forwards;
+  -moz-animation: an-lily-sink 1s 2s steps(6) forwards;
+  -o-animation: an-lily-sink 1s 2s steps(6) forwards;
+  animation: an-lily-sink 1s 2s steps(6) forwards;
+}
+.ag-lily_frog {
+  height: 9.375em;
+  width: 9.375em;
+  margin-left: -4.6875em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/frog/images/frog.png) 50% 0 no-repeat;
+  background-size: 100% auto;
+
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+.ag-lily_frog__jump {
+  -webkit-animation: an-frog-jump 0.5s 3s steps(1);
+  -moz-animation: an-frog-jump 0.5s 3s steps(1);
+  -o-animation: an-frog-jump 0.5s 3s steps(1);
+  animation: an-frog-jump 0.5s 3s steps(1);
+}
+
+.ag-lily_frog__sink {
+  -webkit-animation: an-frog-sink 1s 2s steps(6) forwards;
+  -moz-animation: an-frog-sink 1s 2s steps(6) forwards;
+  -o-animation: an-frog-sink 1s 2s steps(6) forwards;
+  animation: an-frog-sink 1s 2s steps(6) forwards;
+}
+
+@-webkit-keyframes an-waves-anim {
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-moz-keyframes an-waves-anim {
+  100% {
+    background-position: 0 100%;
+  }
+}
+@-o-keyframes an-waves-anim {
+  100% {
+    background-position: 0 100%;
+  }
+}
+@keyframes an-waves-anim {
+  100% {
+    background-position: 0 100%;
+  }
+}
+
+@-webkit-keyframes an-lily-sink {
+  0% {
+    background-position: 50% 40%;
+  }
+  100% {
+    background-position: 50% 100%;
+  }
+}
+@-moz-keyframes an-lily-sink {
+  0% {
+    background-position: 50% 40%;
+  }
+  100% {
+    background-position: 50% 100%;
+  }
+}
+@-o-keyframes an-lily-sink {
+  0% {
+    background-position: 50% 40%;
+  }
+  100% {
+    background-position: 50% 100%;
+  }
+}
+@keyframes an-lily-sink {
+  0% {
+    background-position: 50% 40%;
+  }
+  100% {
+    background-position: 50% 100%;
+  }
+}
+
+@-webkit-keyframes an-frog-jump {
+  20% {
+    background-position: 50% 12.5%;
+  }
+  80% {
+    background-position: 50% 12.5%;
+  }
+}
+@-moz-keyframes an-frog-jump {
+  20% {
+    background-position: 50% 12.5%;
+  }
+  80% {
+    background-position: 50% 12.5%;
+  }
+}
+@-o-keyframes an-frog-jump {
+  20% {
+    background-position: 50% 12.5%;
+  }
+  80% {
+    background-position: 50% 12.5%;
+  }
+}
+@keyframes an-frog-jump {
+  20% {
+    background-position: 50% 12.5%;
+  }
+  80% {
+    background-position: 50% 12.5%;
+  }
+}
+
+@-webkit-keyframes an-frog-sink {
+  0% {
+    background-position: 50% 25%;
+  }
+  100% {
+    background-position: 50% 100%;
+  }
+}
+@-moz-keyframes an-frog-sink {
+  0% {
+    background-position: 50% 25%;
+  }
+  100% {
+    background-position: 50% 100%;
+  }
+}
+@-o-keyframes an-frog-sink {
+  0% {
+    background-position: 50% 25%;
+  }
+  100% {
+    background-position: 50% 100%;
+  }
+}
+@keyframes an-frog-sink {
+  0% {
+    background-position: 50% 25%;
+  }
+  100% {
+    background-position: 50% 100%;
+  }
+}
+
+@-webkit-keyframes an-cell-sink {
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes an-cell-sink {
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes an-cell-sink {
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes an-cell-sink {
+  100% {
+    opacity: 0;
+  }
+}
 
 
 @media only screen and (max-width: 767px) {
