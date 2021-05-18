@@ -148,12 +148,26 @@ body {
   -o-transform: rotateY(180deg) translateZ(0.51em);
   transform: rotateY(180deg) translateZ(0.51em);
 }
-.ag-cube_face {
+.ag-cube-1 .ag-cube_face {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-cube/images/suits.png);
+}
+.ag-cube-2 .ag-cube_face {
   background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-cube/images/sides.png);
 }
-.ag-cube_side,
-.ag-cube_fill {
+.ag-cube-3 .ag-cube_face {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-cube/images/suits.png);
+}
+.ag-cube-1 .ag-cube_side,
+.ag-cube-1 .ag-cube_fill {
+  background: #e91b20;
+}
+.ag-cube-2 .ag-cube_side,
+.ag-cube-2 .ag-cube_fill {
   background: #e9e6e6;
+}
+.ag-cube-3 .ag-cube_side,
+.ag-cube-3 .ag-cube_fill {
+  background: #3b4c8b;
 }
 .ag-cube_fill {
   background: #eee;
