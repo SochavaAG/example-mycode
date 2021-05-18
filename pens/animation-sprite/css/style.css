@@ -3162,6 +3162,102 @@ body {
 }
 /* /dice-2 */
 
+/* hold-1 */
+.ag-hold-1 {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/hold-1.png);
+  background-position: 50% 0;
+
+  -webkit-animation: an-sprite-hold 1.5s steps(49, end) 2.4s infinite alternate;
+  -moz-animation: an-sprite-hold 1.5s steps(49, end) 2.4s infinite alternate;
+  -o-animation: an-sprite-hold 1.5s steps(49, end) 2.4s infinite alternate;
+  animation: an-sprite-hold 1.5s steps(49, end) 2.4s infinite alternate;
+}
+
+@-webkit-keyframes an-sprite-hold {
+  0% {
+    background-position-y: 0
+  }
+  100% {
+    background-position-y: 100%;
+  }
+}
+@-moz-keyframes an-sprite-hold {
+  0% {
+    background-position-y: 0
+  }
+  100% {
+    background-position-y: 100%;
+  }
+}
+@-o-keyframes an-sprite-hold {
+  0% {
+    background-position-y: 0
+  }
+  100% {
+    background-position-y: 100%;
+  }
+}
+@keyframes an-sprite-hold {
+  0% {
+    background-position-y: 0
+  }
+  100% {
+    background-position-y: 100%;
+  }
+}
+/* /hold-1 */
+
+/* hold-2 */
+.ag-hold-2 {
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/hold-2.png);
+  background-position: 50% 0;
+
+  -webkit-animation: an-sprite-hold 1.5s steps(49, end) 2.4s infinite alternate;
+  -moz-animation: an-sprite-hold 1.5s steps(49, end) 2.4s infinite alternate;
+  -o-animation: an-sprite-hold 1.5s steps(49, end) 2.4s infinite alternate;
+  animation: an-sprite-hold 1.5s steps(49, end) 2.4s infinite alternate;
+}
+
+@-webkit-keyframes an-sprite-hold {
+  0% {
+    background-position-y: 0
+  }
+  100% {
+    background-position-y: 100%;
+  }
+}
+@-moz-keyframes an-sprite-hold {
+  0% {
+    background-position-y: 0
+  }
+  100% {
+    background-position-y: 100%;
+  }
+}
+@-o-keyframes an-sprite-hold {
+  0% {
+    background-position-y: 0
+  }
+  100% {
+    background-position-y: 100%;
+  }
+}
+@keyframes an-sprite-hold {
+  0% {
+    background-position-y: 0
+  }
+  100% {
+    background-position-y: 100%;
+  }
+}
+/* /hold-2 */
+
 /* vase balls */
 .ag-vase-block {
   display: inline-block;
