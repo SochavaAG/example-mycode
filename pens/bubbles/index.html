@@ -19,123 +19,16 @@
 </head>
 
 <body>
-<style>
-  .eastern-night__sidebar {
-    height: 358px;
-    width: 188px;
-
-    position:relative;
-  }
-  .eastern-night-sidebar {
-    padding-top:.9375em;
-    padding-bottom:.125em;
-
-    overflow:hidden;
-
-    border-radius:1.375em;
-    box-shadow:0 0 .4375em rgba(255,255,255,0.4);
-    background-color:#000;
-    background-size:cover
-  }
-  .eastern-night-sidebar::after {
-    content:'';
-    position:absolute;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    border-radius:1.375em;
-    box-shadow:inset 0 .25em .1875em #000;
-    background:linear-gradient(#007cdb 0%, transparent 40%, transparent 60%, #007cdb 100%)
-  }
-  .eastern-night-sidebar__bubbles {
-    position:absolute;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0
-  }
-
-  .eastern-night-sidebar__in {
-    position:relative;
-    z-index:1;
-    height:100%;
-    overflow:hidden
-  }
-  .eastern-night-bubbles__part {
-    width: 300%;
-    background-size: 33.33333% 100%;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-
-    -webkit-animation: bubbles 16s linear infinite;
-    animation: bubbles 16s linear infinite;
-  }
-  .eastern-night-bubbles__part--back {
-    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/bubbles/images/bubble-1.png);
-
-    left: -100%;
-
-    -webkit-transform: translateX(33.3333%);
-    transform: translateX(33.3333%);
-  }
-  .eastern-night-bubbles__part--center {
-    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/bubbles/images/bubble-2.png);
-  }
-  .eastern-night-bubbles__part--front1 {
-    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/bubbles/images/bubble-3.png);
-
-    left: 0;
-
-    -webkit-transform: translateX(-33.3333%);
-    transform: translateX(-33.3333%);
-  }
-  .eastern-night-bubbles__part--front2 {
-    width: 400%;
-    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/bubbles/images/bubble-4.png) 0 0/25% 100%;
-
-    left: -75%;
-
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
-  .eastern-night-bubbles__part--front3 {
-    width: 1000%;
-    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/bubbles/images/bubble-5.png) 0 0/10% 100%;
-
-    left: -300%;
-
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
-
-  @-webkit-keyframes bubbles {
-    100% {
-      -webkit-transform: none;
-      transform: none;
-    }
-  }
-  @keyframes bubbles {
-    100% {
-      -webkit-transform: none;
-      transform: none;
-    }
-  }
-</style>
-
   <div class="ag-format-container">
-    <div class="eastern-night-sidebar eastern-night__sidebar">
-      <div class="eastern-night-sidebar__bubbles eastern-night-bubbles">
-        <div class="eastern-night-bubbles__part eastern-night-bubbles__part--back "></div>
-        <div class="eastern-night-bubbles__part eastern-night-bubbles__part--center "></div>
-        <div class="eastern-night-bubbles__part eastern-night-bubbles__part--front1 "></div>
-        <div class="eastern-night-bubbles__part eastern-night-bubbles__part--front2 "></div>
-        <div class="eastern-night-bubbles__part eastern-night-bubbles__part--front3 "></div>
+    <div class="ag-bubbles-block">
+      <div class="ag-bubbles_box">
+        <div class="ag-bubbles_item ag-bubbles_item__back "></div>
+        <div class="ag-bubbles_item ag-bubbles_item__center "></div>
+        <div class="ag-bubbles_item ag-bubbles_item__front-1 "></div>
+        <div class="ag-bubbles_item ag-bubbles_item__front-2 "></div>
+        <div class="ag-bubbles_item ag-bubbles_item__front-3 "></div>
       </div>
-      <div class="eastern-night-sidebar__in"></div>
+      <div class="ag-bubbles_box__in"></div>
     </div>
   </div>
 
