@@ -41,20 +41,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="293">
+              <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="964" column="113" lean-forward="false" selection-start-line="964" selection-start-column="18" selection-end-line="964" selection-end-column="113" />
+            <state relative-caret-position="264">
+              <caret line="1010" column="32" lean-forward="true" selection-start-line="1010" selection-start-column="32" selection-end-line="1010" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -156,11 +154,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/speedlines/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="28">
+              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -169,8 +167,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/speedlines/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="796">
-              <caret line="105" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+            <state relative-caret-position="388">
+              <caret line="88" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -180,7 +178,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>applend-main__manual-title</find>
       <find>applend-main__manual-descr</find>
       <find>prev</find>
       <find>ag-app-slide-control_title-box</find>
@@ -210,9 +207,9 @@
       <find>descr</find>
       <find>Profilt</find>
       <find>_classCallCheck</find>
+      <find>ag-romb</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-app-slide-control_list</replace>
       <replace>ag-app-slide-control_item</replace>
       <replace>ag-app-slide-control_step</replace>
       <replace>ag-app-slide-control_info</replace>
@@ -240,8 +237,9 @@
       <replace>حاشیه مورد نیاز</replace>
       <replace>حجم</replace>
       <replace>قیمت پیپ</replace>
-      <replace>سود</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/swiper-slide-devices/images/</replace>
+      <replace>سود</replace>
+      <replace>bonus</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -287,8 +285,6 @@
         <option value="$PROJECT_DIR$/filter-sort/index.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.04.26_promo/    ag-landing.css" />
         <option value="$USER_HOME$/format-2.html" />
-        <option value="$PROJECT_DIR$/animation-sprite/index.html" />
-        <option value="$PROJECT_DIR$/animation-sprite/css/style.css" />
         <option value="$PROJECT_DIR$/animation-item/index.html" />
         <option value="$PROJECT_DIR$/animation-item/css/style.css" />
         <option value="$USER_HOME$/format-t.css" />
@@ -306,6 +302,8 @@
         <option value="$PROJECT_DIR$/spidlines/index.html" />
         <option value="$PROJECT_DIR$/speedlines/index.html" />
         <option value="$PROJECT_DIR$/speedlines/css/style.css" />
+        <option value="$PROJECT_DIR$/animation-sprite/index.html" />
+        <option value="$PROJECT_DIR$/animation-sprite/css/style.css" />
       </list>
     </option>
   </component>
@@ -527,12 +525,12 @@
       <workItem from="1618988990943" duration="21378000" />
       <workItem from="1619419914739" duration="11825000" />
       <workItem from="1619443339066" duration="15913000" />
-      <workItem from="1621921350711" duration="19215000" />
+      <workItem from="1621921350711" duration="19991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="789858000" />
+    <option name="totallyTimeSpent" value="790634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -816,16 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mix-length/js/main-jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
@@ -910,26 +898,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="964" column="113" lean-forward="false" selection-start-line="964" selection-start-column="18" selection-end-line="964" selection-end-column="113" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/speedlines/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="105" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+        <state relative-caret-position="388">
+          <caret line="88" column="6" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/speedlines/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="28">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="1010" column="32" lean-forward="true" selection-start-line="1010" selection-start-column="32" selection-end-line="1010" selection-end-column="32" />
           <folding />
         </state>
       </provider>
