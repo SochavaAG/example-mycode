@@ -224,21 +224,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/swiper-slide-devices/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
-              <caret line="62" column="109" lean-forward="false" selection-start-line="62" selection-start-column="109" selection-end-line="62" selection-end-column="109" />
+              <caret line="62" column="117" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="117" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/swiper-slide-devices/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+            <state relative-caret-position="237">
+              <caret line="66" column="131" lean-forward="false" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="131" />
               <folding />
             </state>
           </provider>
@@ -290,7 +290,6 @@
       <find>descr</find>
     </findStrings>
     <replaceStrings>
-      <replace>#ff9c00</replace>
       <replace>#FF9C00</replace>
       <replace>#FFF</replace>
       <replace>.png</replace>
@@ -320,6 +319,7 @@
       <replace>ag-app-slide-carousel_img</replace>
       <replace>#454545</replace>
       <replace>#f2f2f2</replace>
+      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/swiper-slide-devices/images/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -382,8 +382,8 @@
         <option value="$USER_HOME$/format-1.html" />
         <option value="$PROJECT_DIR$/swiper-slide-devices/css/desktop.css" />
         <option value="$PROJECT_DIR$/swiper-slide-devices/js/main.js" />
-        <option value="$PROJECT_DIR$/swiper-slide-devices/index.html" />
         <option value="$PROJECT_DIR$/swiper-slide-devices/css/style.css" />
+        <option value="$PROJECT_DIR$/swiper-slide-devices/index.html" />
       </list>
     </option>
   </component>
@@ -605,12 +605,12 @@
       <workItem from="1618988990943" duration="21378000" />
       <workItem from="1619419914739" duration="11825000" />
       <workItem from="1619443339066" duration="15913000" />
-      <workItem from="1621921350711" duration="15574000" />
+      <workItem from="1621921350711" duration="15661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="786217000" />
+    <option name="totallyTimeSpent" value="786304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -970,14 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/swiper-slide-devices/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/swiper-slide-devices/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -997,7 +989,15 @@
     <entry file="file://$PROJECT_DIR$/swiper-slide-devices/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="62" column="109" lean-forward="false" selection-start-line="62" selection-start-column="109" selection-end-line="62" selection-end-column="109" />
+          <caret line="62" column="117" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper-slide-devices/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="66" column="131" lean-forward="false" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="131" />
           <folding />
         </state>
       </provider>
