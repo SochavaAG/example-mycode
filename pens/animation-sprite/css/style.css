@@ -995,15 +995,15 @@ body {
 /* bonus */
 .ag-bonus {
   display: inline-block;
-  height: 100px;
-  width: 100px;
+  height: 89px;
+  width: 89px;
   margin: 0 0 0 50px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-bonus.png) no-repeat 0 0;
 
   -webkit-animation: an-bonus 1.1s steps(9) infinite;
   -moz-animation: an-bonus 1.1s steps(9) infinite;
   -o-animation: an-bonus 1.1s steps(9) infinite;
-  animation: an-bonus 1.1s steps(9) infinite;
+  animation: an-bonus 1.1s steps(31) infinite;
 }
 
 @-webkit-keyframes an-bonus {
@@ -1026,7 +1026,43 @@ body {
     background-position-y: 100%;
   }
 }
-/* /romb */
+/* /bonus */
+
+/* smoke-1 */
+.ag-smoke-1 {
+  display: inline-block;
+  height: 89px;
+  width: 89px;
+  margin: 0 0 0 50px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-smoke.png) no-repeat 0 0;
+
+  -webkit-animation: an-smoke-1 1.1s steps(9) infinite;
+  -moz-animation: an-smoke-1 1.1s steps(9) infinite;
+  -o-animation: an-smoke-1 1.1s steps(9) infinite;
+  animation: an-smoke-1 1.1s steps(31) infinite;
+}
+
+@-webkit-keyframes an-smoke-1 {
+  to {
+    background-position-y: 100%;
+  }
+}
+@-moz-keyframes an-smoke-1 {
+  to {
+    background-position-y: 100%;
+  }
+}
+@-o-keyframes an-smoke-1 {
+  to {
+    background-position-y: 100%;
+  }
+}
+@keyframes an-smoke-1 {
+  to {
+    background-position-y: 100%;
+  }
+}
+/* /smoke-1 */
 
 /* star */
 .ag-star {

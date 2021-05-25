@@ -38,21 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="26" />
+            <state relative-caret-position="461">
+              <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="1010" column="32" lean-forward="true" selection-start-line="1010" selection-start-column="32" selection-end-line="1010" selection-end-column="32" />
+            <state relative-caret-position="258">
+              <caret line="1058" column="1" lean-forward="true" selection-start-line="1058" selection-start-column="1" selection-end-line="1058" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -178,9 +178,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>applend-main__manual-descr</find>
-      <find>prev</find>
-      <find>ag-app-slide-control_title-box</find>
       <find>ag-app-slide-carousel_box</find>
       <find>swiper-container</find>
       <find>applend__carousel-wrap</find>
@@ -208,9 +205,11 @@
       <find>Profilt</find>
       <find>_classCallCheck</find>
       <find>ag-romb</find>
+      <find>romb</find>
+      <find>ag-smoke</find>
+      <find>bonus</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-app-slide-control_item</replace>
       <replace>ag-app-slide-control_step</replace>
       <replace>ag-app-slide-control_info</replace>
       <replace>ag-app-slide-control-info_title</replace>
@@ -240,6 +239,7 @@
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/swiper-slide-devices/images/</replace>
       <replace>سود</replace>
       <replace>bonus</replace>
+      <replace>smoke-1</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -302,8 +302,8 @@
         <option value="$PROJECT_DIR$/spidlines/index.html" />
         <option value="$PROJECT_DIR$/speedlines/index.html" />
         <option value="$PROJECT_DIR$/speedlines/css/style.css" />
-        <option value="$PROJECT_DIR$/animation-sprite/index.html" />
         <option value="$PROJECT_DIR$/animation-sprite/css/style.css" />
+        <option value="$PROJECT_DIR$/animation-sprite/index.html" />
       </list>
     </option>
   </component>
@@ -525,12 +525,12 @@
       <workItem from="1618988990943" duration="21378000" />
       <workItem from="1619419914739" duration="11825000" />
       <workItem from="1619443339066" duration="15913000" />
-      <workItem from="1621921350711" duration="19991000" />
+      <workItem from="1621921350711" duration="20497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="790634000" />
+    <option name="totallyTimeSpent" value="791140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -914,18 +914,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
+    <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="26" />
+        <state relative-caret-position="258">
+          <caret line="1058" column="1" lean-forward="true" selection-start-line="1058" selection-start-column="1" selection-end-line="1058" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
+    <entry file="file://$PROJECT_DIR$/animation-sprite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="1010" column="32" lean-forward="true" selection-start-line="1010" selection-start-column="32" selection-end-line="1010" selection-end-column="32" />
+        <state relative-caret-position="461">
+          <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
           <folding />
         </state>
       </provider>
