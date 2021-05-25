@@ -220,6 +220,42 @@ body {
 }
 /* /crash */
 
+/* heart */
+.ag-heart {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  margin: 0 50px 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/heart.png) no-repeat 0 50%;
+
+  -webkit-animation: an-heart steps(28, start) 1s infinite;
+  -moz-animation: an-heart steps(28, start) 1s infinite;
+  -o-animation: an-heart steps(28, start) 1s infinite;
+  animation: an-heart steps(28, start) 1s infinite;
+}
+
+@-webkit-keyframes an-heart {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-moz-keyframes an-heart {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-o-keyframes an-heart {
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes an-heart {
+  to {
+    background-position-x: 100%;
+  }
+}
+/* /heart */
+
 /* arm */
 .ag-arm {
   display: inline-block;
@@ -2801,6 +2837,13 @@ body {
   image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
 }
+
+.ag-granma_all {
+  -webkit-animation: an-granma_all 6s steps(44) infinite;
+  -moz-animation: an-granma_all 6s steps(44) infinite;
+  -o-animation: an-granma_all 6s steps(44) infinite;
+  animation: an-granma_all 6s steps(44) infinite;
+}
 .ag-granma_win {
   -webkit-animation: an-granma-win 2s steps(8) infinite;
   -moz-animation: an-granma-win 2s steps(8) infinite;
@@ -2830,6 +2873,27 @@ body {
   -moz-animation: an-granma-wolf 0.75s steps(7, start) infinite;
   -o-animation: an-granma-wolf 0.75s steps(7, start) infinite;
   animation: an-granma-wolf 0.75s steps(7, start) infinite;
+}
+
+@-webkit-keyframes an-granma_all {
+  to {
+    background-position-y: 100%;
+  }
+}
+@-moz-keyframes an-granma_all {
+  to {
+    background-position-y: 100%;
+  }
+}
+@-o-keyframes an-granma_all {
+  to {
+    background-position-y: 100%;
+  }
+}
+@keyframes an-granma_all {
+  to {
+    background-position-y: 100%;
+  }
 }
 
 @-webkit-keyframes an-granma-open {
@@ -3175,10 +3239,10 @@ body {
   margin: 0 0 0 50px;
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-lamp-blik.png) no-repeat scroll 0 0;
 
-  -webkit-animation: an-lamp-blik 3s steps(14, start) infinite;
-  -moz-animation: an-lamp-blik 3s steps(14, start) infinite;
-  -o-animation: an-lamp-blik 3s steps(14, start) infinite;
-  animation: an-lamp-blik 3s steps(14, start) infinite;
+  -webkit-animation: an-lamp-blik 1s steps(13, start) infinite;
+  -moz-animation: an-lamp-blik 1s steps(13, start) infinite;
+  -o-animation: an-lamp-blik 1s steps(13, start) infinite;
+  animation: an-lamp-blik 1s steps(13, start) infinite;
 
   image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
