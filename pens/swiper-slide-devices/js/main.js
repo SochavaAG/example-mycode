@@ -11,33 +11,35 @@ var agApplendMainManualList =
 
 var agSlide = new Swiper('.swiper-container', {
   navigation: {
-    nextEl: '.applend__carousel-arr.next',
-    prevEl: '.applend__carousel-arr.prev'
+    nextEl: '.js-ag-app-slide-carousel_arr__next',
+    prevEl: '.js-ag-app-slide-carousel_arr__prev'
   },
   spaceBetween: 0,
   loop: true,
   loopedSlides: this.slidesLength,
   pagination: {
-    el: '.applend-main__manual-list',
-    bulletClass: 'applend-main__manual-list-item',
-    bulletActiveClass: 'active',
+    el: '.js-ag-app-slide-control_list',
+    bulletClass: 'js-ag-app-slide-control_item',
+    bulletActiveClass: 'js-ag-app-slide-control_item__active',
     clickable: true,
     renderBullet: function (index, className) {
       return '<div class="' + className + '">' +
-        '<div class="applend-main__manual-step">' + (index + 1)  + '</div>' +
-        '<div class="applend-main__manual-item">' +
-        '<div class="applend-main__manual-title">' + agApplendMainManualList[index][0] + '</div>' +
-        '<div class="applend-main__manual-descr">' + agApplendMainManualList[index][1] + '</div>' +
+        '<div class="ag-app-slide-control_step">' + (index + 1)  + '</div>' +
+        '<div class="ag-app-slide-control_info">' +
+        '<div class="ag-app-slide-control-info_title">' + agApplendMainManualList[index][0] + '</div>' +
+        '<div class="ag-app-slide-control-info_descr">' + agApplendMainManualList[index][1] + '</div>' +
         '</div>' +
         '</div>';
     }
   },
   on: {
     slideChange: function () {
-      var agManualItem = $('.applend-main__manual-list-item');
+      var agManualItem = $('.js-ag-app-slide-control_item');
 
-      agManualItem.removeClass('active');
-      agManualItem.eq(this.realIndex).addClass('active');
+      console.log(this.realIndex);
+
+      agManualItem.removeClass('js-ag-app-slide-control_item__active');
+      agManualItem.eq(this.realIndex).addClass('js-ag-app-slide-control_item__active');
     }
   }
 });
