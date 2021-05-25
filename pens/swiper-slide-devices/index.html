@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper Slide Devices</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="plugins/swiper/swiper-4.3.5.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="ag-app-slide-block">
+    <div class="ag-format-container">
+      <div class="ag-app-slide_box">
+          <div class="ag-app-slide_main">
+            <div class="ag-app-slide-carousel_box">
+              <div class="js-ag-app-slide-carousel_arr__prev ag-app-slide-carousel_arr">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+              </div>
+              <div class="js-ag-app-slide-carousel_arr__next ag-app-slide-carousel_arr">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+              </div>
+
+              <div class="swiper-container swiper-container-initialized swiper-container-horizontal">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="slider-item">
+                      <img src="images/img-1.png" class="ag-app-slide-carousel_img" alt="android-1">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider-item">
+                      <img src="images/img-2.png" class="ag-app-slide-carousel_img" alt="android-2">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider-item">
+                      <img src="images/img-3.png" class="ag-app-slide-carousel_img" alt="android-3">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider-item">
+                      <img src="images/img-4.png" class="ag-app-slide-carousel_img" alt="android-4">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider-item">
+                      <img src="images/img-5.png" class="ag-app-slide-carousel_img" alt="android-5">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider-item">
+                      <img src="images/img-6.png" class="ag-app-slide-carousel_img" alt="android-6">
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider-item">
+                      <img src="images/img-7.png" class="ag-app-slide-carousel_img" alt="android-7">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="ag-app-slide-control_box">
+              <h2 class="ag-app-slide-control_title-list">Lorem ipsum dolor sit amet <span class="ag-app-slide-control_title-list__strong">Aenean</span></h2>
+
+              <div class="js-ag-app-slide-control_list"></div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="plugins/swiper/swiper-4.3.5.min.js"></script>
+<!--<script src="js/main.js"></script>-->
+<script>
+  var agApplendMainManualList =
+    [
+      ['Donec', 'Sed consequat, leo eget bibendum sodales.'],
+      ['Integer tincidunt', 'Cras dapibus. Vivamus elementum semper nisi.'],
+      ['Aenean vulputate', 'Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.'],
+      ['Aliquam lorem ante', 'Phasellus viverra nulla ut metus varius laoreet.'],
+      ['Quisque rutrum', 'Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.'],
+      ['Maecenas tempus', 'Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem!'],
+      ['Maecenas!', 'Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt!']
+    ];
+
+  var agSlide = new Swiper('.swiper-container', {
+    navigation: {
+      nextEl: '.js-ag-app-slide-carousel_arr__next',
+      prevEl: '.js-ag-app-slide-carousel_arr__prev'
+    },
+    spaceBetween: 0,
+    loop: true,
+    loopedSlides: this.slidesLength,
+    pagination: {
+      el: '.js-ag-app-slide-control_list',
+      bulletClass: 'js-ag-app-slide-control_item',
+      bulletActiveClass: 'js-ag-app-slide-control_item__active',
+      clickable: true,
+      renderBullet: function (index, className) {
+        return '<div class="' + className + '">' +
+          '<div class="ag-app-slide-control_step">' + (index + 1)  + '</div>' +
+          '<div class="ag-app-slide-control_info">' +
+          '<div class="ag-app-slide-control-info_title">' + agApplendMainManualList[index][0] + '</div>' +
+          '<div class="ag-app-slide-control-info_descr">' + agApplendMainManualList[index][1] + '</div>' +
+          '</div>' +
+          '</div>';
+      }
+    },
+    on: {
+      slideChange: function () {
+        var agManualItem = $('.js-ag-app-slide-control_item');
+
+        console.log(this.realIndex);
+
+        agManualItem.removeClass('js-ag-app-slide-control_item__active');
+        agManualItem.eq(this.realIndex).addClass('js-ag-app-slide-control_item__active');
+      }
+    }
+  });
+</script>
+</body>
+</html>
