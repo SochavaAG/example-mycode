@@ -1,0 +1,133 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+html,
+body {
+  height: 100%;
+}
+.ag-watermelon-block {
+  height: 100%;
+  width: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/singing-watermelon/images/bg.jpg) no-repeat scroll 50% 50%;
+  background-size: cover;
+
+  overflow: hidden;
+
+  position: relative;
+}
+.ag-watermelon_box {
+  height: 450px;
+  width: 800px;
+  margin: 0 auto;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/singing-watermelon/images/watermelon-shadow.png) no-repeat scroll 50% 100%;
+  background-size: 100% auto;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+}
+.ag-watermelon {
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 100px;
+}
+.ag-watermelon-1 {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/singing-watermelon/images/watermelon-1.png) no-repeat scroll 50% 0;
+  background-size: 100% auto;
+
+  z-index: 1;
+}
+.ag-watermelon-2 {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/singing-watermelon/images/watermelon-2.png) no-repeat scroll 50% 0;
+  background-size: 100% auto;
+
+  z-index: 2;
+
+  -webkit-animation: an-singing-watermelon 2s infinite;
+  -moz-animation: an-singing-watermelon 2s infinite;
+  -o-animation: an-singing-watermelon 2s infinite;
+  animation: an-singing-watermelon 2s infinite;
+}
+
+@-webkit-keyframes an-singing-watermelon {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes an-singing-watermelon {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes an-singing-watermelon {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes an-singing-watermelon {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
