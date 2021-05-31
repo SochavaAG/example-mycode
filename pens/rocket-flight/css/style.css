@@ -22,8 +22,11 @@ img {
   -ms-transform-origin: -3000px -3000px;
   -o-transform-origin: -3000px -3000px;
   transform-origin: -3000px -3000px;
+
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
   transform: translateZ(0);
 
   -webkit-animation: an-rocket-first 1.5s cubic-bezier(.13, .53, .25, 1) 0s 1 forwards, an-rocket 2.5s ease-in-out 1.5s infinite alternate;
@@ -47,10 +50,7 @@ img {
 .ag-rocket_rocket {
   height: 445px;
   width: 400px;
-  background: url(images/rocket-in.png) no-repeat scroll 0 0;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket-flight/images/rocket-in.png) no-repeat scroll 0 0;
   background-size: 100% auto;
 
   position: relative;
@@ -59,10 +59,7 @@ img {
   content: "";
   height: 250px;
   width: 250px;
-  background: url(images/rocket-shell.png) no-repeat scroll 0 0;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket-flight/images/rocket-shell.png) no-repeat scroll 0 0;
   background-size: 100% auto;
 
   position: absolute;
@@ -75,10 +72,7 @@ img {
   content: "";
   height: 470px;
   width: 550px;
-  background: url(images/flame.png) no-repeat scroll 0 0;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket-flight/images/flame.png) no-repeat scroll 0 0;
   background-size: 100% auto;
 
   overflow: hidden;
@@ -88,17 +82,14 @@ img {
 
   -webkit-transform: translate(-348px, 248px) rotate(6deg);
   -moz-transform: translate(-348px, 248px) rotate(6deg);
-  -o-transform: translate(-348px, 248px) rotate(6deg);
   -ms-transform: translate(-348px, 248px) rotate(6deg);
+  -o-transform: translate(-348px, 248px) rotate(6deg);
   transform: translate(-348px, 248px) rotate(6deg);
 }
 .ag-rocket_flame-main {
-  height: 194px;
+  height: 184px;
   width: 190px;
-  background: url(images/sprite-flame.png) no-repeat scroll 0 0;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket-flight/images/sprite-flame.png) no-repeat scroll 0 0;
   background-size: 100% auto;
 
   opacity: .5;
@@ -115,10 +106,7 @@ img {
 }
 
 .ag-rocket_flame {
-  background: url(images/flame-small.png) no-repeat scroll 0 0;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket-flight/images/flame-small.png) no-repeat scroll 0 0;
   background-size: 100% auto;
 
   position: absolute;
@@ -132,10 +120,7 @@ img {
   content: "";
   height: 60px;
   width: 60px;
-  background: url(images/flame-small.png) no-repeat scroll 0 0;
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/rocket-flight/images/flame-small.png) no-repeat scroll 0 0;
   background-size: 100% auto;
 
   position: absolute;
@@ -206,30 +191,22 @@ img {
 }
 .ag-star-5 {
   top: 226px;
-  left: -webkit-calc(55% + 50px);
-  left: -moz-calc(55% + 50px);
   left: calc(55% + 50px);
 }
 .ag-star-6 {
   top: 218px;
-  left: -webkit-calc(100% - 142px);
-  left: -moz-calc(100% - 142px);
   left: calc(100% - 142px);
 
   font-size: 100px;
 }
 .ag-star-7 {
   top: 55px;
-  left: -webkit-calc(100% - 400px);
-  left: -moz-calc(100% - 400px);
   left: calc(100% - 400px);
 
   font-size: 50px;
 }
 .ag-star-8 {
   top: 339px;
-  left: -webkit-calc(100% - 72px);
-  left: -moz-calc(100% - 72px);
   left: calc(100% - 72px);
 
   font-size: 40px;
@@ -256,7 +233,6 @@ img {
   0% {
     opacity: 0;
 
-    -webkit-transform: translateZ(0) rotate(0deg);
     -moz-transform: translateZ(0) rotate(0deg);
     transform: translateZ(0) rotate(0deg);
   }
@@ -266,7 +242,6 @@ img {
   to {
     opacity: 1;
 
-    -webkit-transform: translateZ(0) rotate(-12deg);
     -moz-transform: translateZ(0) rotate(-12deg);
     transform: translateZ(0) rotate(-12deg);
   }
@@ -275,7 +250,7 @@ img {
   0% {
     opacity: 0;
 
-    -webkit-transform: translateZ(0) rotate(0deg);
+    -o-transform: translateZ(0) rotate(0deg);
     transform: translateZ(0) rotate(0deg);
   }
   50% {
@@ -284,7 +259,7 @@ img {
   to {
     opacity: 1;
 
-    -webkit-transform: translateZ(0) rotate(-12deg);
+    -o-transform: translateZ(0) rotate(-12deg);
     transform: translateZ(0) rotate(-12deg);
   }
 }
@@ -294,6 +269,7 @@ img {
 
     -webkit-transform: translateZ(0) rotate(0deg);
     -moz-transform: translateZ(0) rotate(0deg);
+    -o-transform: translateZ(0) rotate(0deg);
     transform: translateZ(0) rotate(0deg);
   }
   50% {
@@ -304,6 +280,7 @@ img {
 
     -webkit-transform: translateZ(0) rotate(-12deg);
     -moz-transform: translateZ(0) rotate(-12deg);
+    -o-transform: translateZ(0) rotate(-12deg);
     transform: translateZ(0) rotate(-12deg);
   }
 }
@@ -320,23 +297,21 @@ img {
 }
 @-moz-keyframes an-rocket {
   0% {
-    -webkit-transform: translateZ(0) rotate(-12deg);
     -moz-transform: translateZ(0) rotate(-12deg);
     transform: translateZ(0) rotate(-12deg);
   }
   to {
-    -webkit-transform: translateZ(0) rotate(-12deg);
     -moz-transform: translateZ(0) rotate(-12deg);
     transform: translateZ(0) rotate(-12deg);
   }
 }
 @-o-keyframes an-rocket {
   0% {
-    -webkit-transform: translateZ(0) rotate(-12deg);
+    -o-transform: translateZ(0) rotate(-12deg);
     transform: translateZ(0) rotate(-12deg);
   }
   to {
-    -webkit-transform: translateZ(0) rotate(-12deg);
+    -o-transform: translateZ(0) rotate(-12deg);
     transform: translateZ(0) rotate(-12deg);
   }
 }
@@ -344,11 +319,13 @@ img {
   0% {
     -webkit-transform: translateZ(0) rotate(-12deg);
     -moz-transform: translateZ(0) rotate(-12deg);
+    -o-transform: translateZ(0) rotate(-12deg);
     transform: translateZ(0) rotate(-12deg);
   }
   to {
     -webkit-transform: translateZ(0) rotate(-12deg);
     -moz-transform: translateZ(0) rotate(-12deg);
+    -o-transform: translateZ(0) rotate(-12deg);
     transform: translateZ(0) rotate(-12deg);
   }
 }
@@ -419,16 +396,63 @@ img {
   }
 }
 
-@media (min-width: 768px) and (max-width: 979px) {
-  .ag-format-container {
-    width: 750px;
+@media only screen and (max-width: 979px) {
+  .ag-rocket_box {
+    right: 130%;
   }
 
-}
+  .ag-rocket_rocket {
+    height: 275px;
+    width: 250px;
+  }
+  .ag-rocket_rocket::before {
+    height: 150px;
+    width: 150px;
 
-@media (min-width: 980px) and (max-width: 1161px) {
-  .ag-format-container {
-    width: 960px;
+    top: -31px;
+    left: 137px;
+  }
+  .ag-rocket_rocket::after {
+    height: 340px;
+    width: 400px;
+
+    -webkit-transform: translate(-266px, 153px) rotate(6deg);
+    -moz-transform: translate(-266px, 153px) rotate(6deg);
+    -o-transform: translate(-266px, 153px) rotate(6deg);
+    transform: translate(-266px, 153px) rotate(6deg);
   }
 
+  .ag-rocket_flame-main {
+    height: 115px;
+    width: 120px;
+
+    left: -15px;
+    bottom: 0;
+  }
+
+  .ag-rocket_flame::before,
+  .ag-rocket_flame::after {
+    height: 40px;
+    width: 40px;
+  }
+  .ag-rocket_flame-top-left::before,
+  .ag-rocket_flame-top-left::after {
+    top: -151px;
+    left: -14px;
+  }
+  .ag-rocket_flame-bottom-left::before,
+  .ag-rocket_flame-bottom-left::after {
+    top: -87px;
+    left: -29px;
+  }
+  .ag-rocket_flame-top-right::before,
+  .ag-rocket_flame-top-right::after {
+    top: -73px;
+    left: 85px;
+  }
+  .ag-rocket_flame-bottom-right::before,
+  .ag-rocket_flame-bottom-right::after {
+    top: -13px;
+    left: 71px;
+  }
 }
