@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Canvas Flame</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="ag-format-container">
+    <canvas id="flameCanvas" width="450" height="550"></canvas>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+<script>
+  o = {
+    particle_image: new Image,
+    bg_img: new Image,
+    context: null,
+    particles: [],
+    ticks: 0,
+    max_particles: 50,
+    initFlame: function () {
+      var t = this, e = document.getElementById("flameCanvas"),
+        s = Object(a.a)("/default/img/chest/");
+        
+      this.context = e.getContext("2d"), this.particle_image.src = s + "fireblob.png", this.bg_img.src = s + "bg.jpg", e.width = 450, e.height = 550, setInterval((function () {
+        t.loop()
+      }), 80)
+    },
+    loop: function () {
+      this.ticks % 2 && this.makeParticle(), this.ticks++, this.context.fillStyle = "rgb(0, 0, 0, 0)", this.context.drawImage(this.bg_img, 0, 0, 450, 550);
+      for (var t = 0; t < this.particles.length; t++) {
+        var e = this.particles[t];
+        e.render(this.context), e.update()
+      }
+      for (; this.particles.length > this.max_particles;)this.particles.shift()
+    },
+    makeParticle: function () {
+      var t = new this.ImageParticle(this.particle_image, 210, 280);
+      t.velX = Object(n.j)(-.5, .5), t.velY = 0, t.size = Object(n.j)(.4, .6), t.maxSize = 2, t.alpha = Object(n.j)(.7, 1), t.gravity = -.5, t.drag = 1.1, t.shrink = 1.2, t.fade = .03, t.rotation = Object(n.j)(0, 360), t.spin = Object(n.j)(-5, 5), t.compositeOperation = "lighter", this.particles.push(t)
+    },
+    ImageParticle: function (t, e, s) {
+      this.posX = e, this.posY = s, this.velX = 0, this.velY = 0, this.shrink = 1, this.size = 1, this.maxSize = -1, this.shimmer = !1, this.drag = 1, this.gravity = 0, this.alpha = 1, this.fade = 0, this.spin = 0, this.rotation = 0, this.compositeOperation = "source-over", this.img = t, this.update = function () {
+        this.velX *= this.drag, this.velY *= this.drag, this.velY += this.gravity, this.posX += this.velX, this.posY += this.velY, this.size *= this.shrink, this.maxSize > 0 && this.size > this.maxSize && (this.size = this.maxSize), this.alpha -= this.fade, this.alpha < 0 && (this.alpha = 0), this.rotation += this.spin
+      }, this.render = function (e) {
+        if (this.alpha) {
+          e.save(), e.translate(this.posX, this.posY);
+          var s = this.shimmer ? this.size * Math.random() : this.size;
+          e.scale(s, s), e.rotate(this.rotation * (Math.PI / 180)), e.translate(-.5 * t.width, -.5 * t.width), e.globalAlpha = this.alpha, e.globalCompositeOperation = this.compositeOperation, e.drawImage(t, 0, 0), e.restore()
+        }
+      }
+    }
+  }
+
+  o.initFlame();
+</script>
+</body>
+</html>
