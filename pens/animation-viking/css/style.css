@@ -4,6 +4,70 @@
 }
 
 
+body {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-viking/images/bg.jpg) repeat scroll #919191;
+}
+.ag-viking-block {
+  padding: 50px 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-viking/images/pattern.png) repeat-x scroll 0 0;
+}
+
+.ag-viking {
+  height: 806px;
+  width: 659px;
+  margin: 0 auto;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-viking/images/viking.png);
+
+  position: relative;
+}
+.ag-viking::before {
+  content: "";
+  height: 97px;
+  width: 89px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-viking/images/face.gif);
+
+  position: absolute;
+  top: 63px;
+  left: 261px;
+}
+.ag-viking::after {
+  content: "";
+  height: 133px;
+  width: 161px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-viking/images/lever.gif);
+
+  position: absolute;
+  top: 225px;
+  left: 198px;
+}
+.ag-viking_hand {
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ag-viking_hand::before {
+  content: "";
+  height: 69px;
+  width: 103px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-viking/images/shoulder.gif);
+
+  position: absolute;
+  top: 131px;
+  left: 340px;
+}
+.ag-viking_hand::after {
+  content: "";
+  height: 73px;
+  width: 99px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-viking/images/wrist.gif);
+
+  position: absolute;
+  top: 150px;
+  left: 211px;
+}
 
 
 @media only screen and (max-width: 767px) {
