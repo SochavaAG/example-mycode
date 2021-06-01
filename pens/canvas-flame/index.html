@@ -42,10 +42,10 @@
     max_particles: 50,
     initFlame: function () {
       var t = this, e = document.getElementById("flameCanvas"),
-        s = Object(a.a)("/default/img/chest/");
-        
+        s = "https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/canvas-flame/images/";
+
       this.context = e.getContext("2d"), this.particle_image.src = s + "fireblob.png", this.bg_img.src = s + "bg.jpg", e.width = 450, e.height = 550, setInterval((function () {
-        t.loop()
+        t.loop();
       }), 80)
     },
     loop: function () {
@@ -58,16 +58,18 @@
     },
     makeParticle: function () {
       var t = new this.ImageParticle(this.particle_image, 210, 280);
-      t.velX = Object(n.j)(-.5, .5), t.velY = 0, t.size = Object(n.j)(.4, .6), t.maxSize = 2, t.alpha = Object(n.j)(.7, 1), t.gravity = -.5, t.drag = 1.1, t.shrink = 1.2, t.fade = .03, t.rotation = Object(n.j)(0, 360), t.spin = Object(n.j)(-5, 5), t.compositeOperation = "lighter", this.particles.push(t)
+
+      t.velX = [-.5, .5], t.velY = 0, t.size = [.4, .6], t.maxSize = 2, t.alpha = [.7, 1], t.gravity = -.5, t.drag = 1.1, t.shrink = 1.2,
+        t.fade = .03, t.rotation = [0, 360], t.spin = [-5, 5], t.compositeOperation = "lighter", this.particles.push(t);
     },
     ImageParticle: function (t, e, s) {
       this.posX = e, this.posY = s, this.velX = 0, this.velY = 0, this.shrink = 1, this.size = 1, this.maxSize = -1, this.shimmer = !1, this.drag = 1, this.gravity = 0, this.alpha = 1, this.fade = 0, this.spin = 0, this.rotation = 0, this.compositeOperation = "source-over", this.img = t, this.update = function () {
-        this.velX *= this.drag, this.velY *= this.drag, this.velY += this.gravity, this.posX += this.velX, this.posY += this.velY, this.size *= this.shrink, this.maxSize > 0 && this.size > this.maxSize && (this.size = this.maxSize), this.alpha -= this.fade, this.alpha < 0 && (this.alpha = 0), this.rotation += this.spin
+        this.velX *= this.drag, this.velY *= this.drag, this.velY += this.gravity, this.posX += this.velX, this.posY += this.velY, this.size *= this.shrink, this.maxSize > 0 && this.size > this.maxSize && (this.size = this.maxSize), this.alpha -= this.fade, this.alpha < 0 && (this.alpha = 0), this.rotation += this.spin;
       }, this.render = function (e) {
         if (this.alpha) {
           e.save(), e.translate(this.posX, this.posY);
           var s = this.shimmer ? this.size * Math.random() : this.size;
-          e.scale(s, s), e.rotate(this.rotation * (Math.PI / 180)), e.translate(-.5 * t.width, -.5 * t.width), e.globalAlpha = this.alpha, e.globalCompositeOperation = this.compositeOperation, e.drawImage(t, 0, 0), e.restore()
+          e.scale(s, s), e.rotate(this.rotation * (Math.PI / 180)), e.translate(-.5 * t.width, -.5 * t.width), e.globalAlpha = this.alpha, e.globalCompositeOperation = this.compositeOperation, e.drawImage(t, 0, 0), e.restore();
         }
       }
     }
