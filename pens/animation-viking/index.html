@@ -20,56 +20,77 @@
 
 <body>
 <style>
-  .xChest_viking {
-    background-image:url(/default/img/chest/viking1.png);
-    height:806px;
-    left:445px;
-    position:absolute;
-    top:0;
-    width:659px
+  body {
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-viking/images/bg.jpg) no-repeat scroll #919191;
+
   }
-  .xChest_viking .anim1 {
-    position:absolute;
-    top:63px;
-    left:261px;
-    background-image:url(/default/img/chest/anim1.gif);
-    width:89px;
-    height:97px
+  .ag-viking-block {
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-viking/images/pattern.png) repeat-x scroll 0 0;
   }
-  .xChest_viking .anim2 {
-    background-image:url(/default/img/chest/anim2.gif);
-    height:69px;
-    left:340px;
-    position:absolute;
-    top:131px;
-    width:103px
+
+  .ag-viking {
+    height: 806px;
+    width: 659px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-viking/images/viking.png);
+
+    position: relative;
   }
-  .xChest_viking .anim3 {
-    background-image:url(/default/img/chest/anim3.gif);
-    height:73px;
-    left:211px;
-    position:absolute;
-    top:150px;
-    width:99px
+  .ag-viking::before {
+    content: "";
+    height: 97px;
+    width: 89px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-viking/images/face.gif);
+
+    position: absolute;
+    top: 63px;
+    left: 261px;
   }
-  .xChest_viking .anim4 {
-    background-image:url(/default/img/chest/anim4.gif);
-    height:133px;
-    left:198px;
-    position:absolute;
-    top:225px;
-    width:161px
+  .ag-viking::after {
+    content: "";
+    height: 133px;
+    width: 161px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-viking/images/lever.gif);
+
+    position: absolute;
+    top: 225px;
+    left: 198px;
+  }
+  .ag-viking_hand {
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .ag-viking_hand::before {
+    content: "";
+    height: 69px;
+    width: 103px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-viking/images/shoulder.gif);
+
+    position: absolute;
+    top: 131px;
+    left: 340px;
+  }
+  .ag-viking_hand::after {
+    content: "";
+    height: 73px;
+    width: 99px;
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-viking/images/wrist.gif);
+
+    position: absolute;
+    top: 150px;
+    left: 211px;
   }
 </style>
 
+<div class="ag-viking-block">
   <div class="ag-format-container">
-    <div class="xChest_viking">
-      <div class="anim1"></div>
-      <div class="anim2"></div>
-      <div class="anim3"></div>
-      <div class="anim4"></div>
-      <div class="blick"></div>
+    <div class="ag-viking">
+      <div class="ag-viking_hand"></div>
     </div>
+  </div>
   </div>
 
 <!--[if lt IE 9]>
