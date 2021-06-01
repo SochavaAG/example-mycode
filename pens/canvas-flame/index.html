@@ -54,7 +54,7 @@
         }), 80)
       },
       loop: function () {
-        this.ticks % 2 && this.makeParticle(), this.ticks++, this.context.fillStyle = "rgb(0, 0, 0, 0)", this.context.drawImage(this.bg_img, 0, 0, 450, 550);
+        this.ticks % 2 && this.makeParticle(), this.ticks++, this.context.fillStyle = "rgb(0, 0, 0, 0)", this.context.drawImage(this.bg_img, 0, 0, 250, 350);
         for (var t = 0; t < this.particles.length; t++) {
           var e = this.particles[t];
           e.render(this.context), e.update()
