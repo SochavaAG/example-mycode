@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>SVG Animation Curve</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .invest-section-7 {
+    padding: 100px 0;
+  }
+  .invest-section-steps-dot {
+    height: 20px;
+    width: 20px;
+    background-image: linear-gradient(139deg, #0095ff -25%, #0855c4 332%, #0855c4 0);
+
+    border-radius: 10px;
+
+    -webkit-box-shadow: 0 2px 24px 0 rgba(47, 130, 255, .5);
+    box-shadow: 0 2px 24px 0 rgba(47, 130, 255, .5);
+
+    z-index: 2;
+    position: absolute;
+  }
+  .invest-section-steps-dot-1 {
+    top: -45px;
+    left: 126px;
+  }
+  .invest-section-steps-dot-2 {
+    top: 294px;
+    left: calc(50% - 10px);
+  }
+  .invest-section-steps-dot-3 {
+    top: 747px;
+    left: 215px;
+  }
+  .invest-section-steps-dot-4 {
+    top: 967px;
+    right: 254px;
+  }
+  .invest-section-steps-dot-5 {
+    top: 1497px;
+    left: calc(50% - 10px);
+  }
+  .invest-section-steps-path {
+    position: absolute;
+  }
+  .invest-section-steps-path-1 {
+    height: 174px;
+    top: 153px;
+    /*right: 50%;*/
+    left: 120px;
+  }
+  .invest-section-steps-path-2 {
+    height: 137px;
+    top: 606px;
+    /*right: 50%;*/
+    left: 230px;
+  }
+  .invest-section-steps-path-3 {
+    height: 297px;
+    top: 865px;
+    /*right: 265px;*/
+    left: 230px;
+  }
+  .invest-section-steps-path-4 {
+    height: 140px;
+    top: 1343px;
+    /*right: 248px;*/
+    left: 548px;
+  }
+  .invest-section-steps {
+    position: relative;
+  }
+
+  .invest-section-step {
+    text-align: center;
+  }
+  .invest-section-step-title {
+    font-weight: 900;
+    line-height: 1.14;
+    margin-bottom: .35em;
+  }
+  .invest-section-step-text {
+    color: #000;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+</style>
+
+<div class="invest-section-7">
+  <div class="ag-format-container">
+    <div class="invest-section-steps">
+      <div class="invest-section-steps-dot appeared-text invest-section-steps-dot-1 appeared"></div>
+      <div class="invest-section-steps-dot appeared-text invest-section-steps-dot-2 appeared"></div>
+      <div class="invest-section-steps-dot appeared-text invest-section-steps-dot-3 appeared"></div>
+      <div class="invest-section-steps-dot appeared-text invest-section-steps-dot-4 appeared"></div>
+      <div class="invest-section-steps-dot appeared-text invest-section-steps-dot-5 appeared"></div>
+
+      <div class="path-drawer invest-section-steps-path invest-section-steps-path-1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="440" height="141" viewBox="0 0 440 141" preserveAspectRatio="none" aria-hidden="true" role="img" class="js-icon_invest-path svg-icon_invest-path-1">
+          <defs>
+            <linearGradient id="path-result-1_svg__b" x1="0%" x2="81.095%" y1="44.542%" y2="53.184%">
+              <stop offset="0%" stop-color="#96DAFC" stop-opacity="0"></stop>
+              <stop offset="35.756%" stop-color="#5CC2F6"></stop>
+              <stop offset="100%" stop-color="#0285F0"></stop>
+            </linearGradient>
+            <mask id="path-result-1_svg__a">
+              <path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4" d="M437.703 116.305c-14.904-35.16-37.787-57.107-70.987-66.356-38.082-10.609-80.135 8.566-127.16 36.463-31.268 18.55-129.34 87.008-194.34 28.588C4.782 78.66-.439 32.297 3.677-5.663" vector-effect="non-scaling-stroke" class="path-result-1_svg__drawer-mask" style="will-change: stroke-dashoffset; stroke-dasharray: 631.718px; stroke-dashoffset: 1263.44px; transition: none 0s ease 0s; opacity: 1;"></path>
+            </mask>
+          </defs>
+          <path mask="url(#path-result-1_svg__a)" stroke="url(#path-result-1_svg__b)" stroke-width="4" fill="none" stroke-dasharray="0 11" stroke-linecap="round" d="M437.703 116.305c-14.904-35.16-37.787-57.107-70.987-66.356-38.082-10.609-80.135 8.566-127.16 36.463-31.268 18.55-129.34 87.008-194.34 28.588C4.782 78.66-.439 32.297 3.677-5.663" vector-effect="non-scaling-stroke"></path>
+        </svg>
+      </div>
+
+      <div class="path-drawer invest-section-steps-path invest-section-steps-path-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="357" height="121" viewBox="0 0 357 121" preserveAspectRatio="none" aria-hidden="true" role="img" class="js-icon_invest-path svg-icon_invest-path-2">
+          <defs>
+            <linearGradient id="path-result-2_svg__b" x1="50%" x2="101.871%" y1="55.744%" y2="44.256%">
+              <stop offset="0%" stop-color="#0285F0"></stop>
+              <stop offset="64.244%" stop-color="#5CC2F6"></stop>
+              <stop offset="100%" stop-color="#96DAFC" stop-opacity="0"></stop>
+            </linearGradient>
+            <mask id="path-result-2_svg__a">
+              <path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4" d="M2.815 118.129c57.125-160.086 239.82 1.92 322.752-69.62 13.786-9.39 23.507-27.238 30.248-50.024" vector-effect="non-scaling-stroke" class="path-result-2_svg__drawer-mask" style="will-change: stroke-dashoffset; stroke-dasharray: 418.444px; stroke-dashoffset: 836.888px; transition: none 0s ease 0s; opacity: 1;"></path>
+            </mask>
+          </defs>
+          <path mask="url(#path-result-2_svg__a)" d="M2.815 118.129c57.125-160.086 239.82 1.92 322.752-69.62 13.786-9.39 23.507-27.238 30.248-50.024" stroke="url(#path-result-2_svg__b)" stroke-width="4" fill="none" stroke-dasharray="0 11" stroke-linecap="round" vector-effect="non-scaling-stroke"></path>
+        </svg>
+      </div>
+
+      <div class="path-drawer invest-section-steps-path invest-section-steps-path-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="637" height="302" viewBox="0 0 637 302" preserveAspectRatio="none" aria-hidden="true" role="img" class="js-icon_invest-path svg-icon_invest-path-3">
+          <defs>
+            <linearGradient id="path-result-3_svg__b" x1="2.466%" x2="87.948%" y1="60.26%" y2="40.716%">
+              <stop offset="0%" stop-color="#96DAFC" stop-opacity="0"></stop>
+              <stop offset="35.756%" stop-color="#5CC2F6"></stop>
+              <stop offset="100%" stop-color="#0285F0"></stop>
+            </linearGradient>
+            <mask id="path-result-3_svg__a">
+              <path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4" d="M634.465 83.857C612.009 40.48 575.693 2.986 513.162 2.986c-61.21 0-111.29 22.514-184.43 130.5C260.698 233.93 195.314 299.5 96.499 299.5c-40.502 0-82.5-32.07-93.997-72.597" vector-effect="non-scaling-stroke" class="path-result-3_svg__drawer-mask" style="will-change: stroke-dashoffset; stroke-dasharray: 815.206px; stroke-dashoffset: 1630.41px; transition: none 0s ease 0s; opacity: 1;"></path>
+            </mask>
+          </defs>
+          <path mask="url(#path-result-3_svg__a)" fill="none" stroke-dasharray="0 11" stroke-linecap="round" stroke="url(#path-result-3_svg__b)" stroke-width="4" d="M634.465 83.857C612.009 40.48 575.693 2.986 513.162 2.986c-61.21 0-111.29 22.514-184.43 130.5C260.698 233.93 195.314 299.5 96.499 299.5c-40.502 0-82.5-32.07-93.997-72.597" vector-effect="non-scaling-stroke"></path>
+        </svg>
+      </div>
+
+      <div class="path-drawer invest-section-steps-path invest-section-steps-path-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="365" height="137" viewBox="0 0 365 137" preserveAspectRatio="none" aria-hidden="true" role="img" class="js-icon_invest-path svg-icon_invest-path-4">
+          <defs>
+            <linearGradient id="path-result-4_svg__b" x1="68.683%" x2="103.002%" y1="63.336%" y2="44.225%">
+              <stop offset="0%" stop-color="#0285F0"></stop>
+              <stop offset="64.244%" stop-color="#5CC2F6"></stop>
+              <stop offset="100%" stop-color="#96DAFC" stop-opacity="0"></stop>
+            </linearGradient>
+            <mask id="path-result-4_svg__a">
+              <path fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4" d="M9.484 134.337C-18.92 60.645 42.903-12.594 133.397 38.353c70.192 40.07 118.17 75.065 153.815 82.075 57.61 11.33 98.464-42.004 61.788-125.803" vector-effect="non-scaling-stroke" class="path-result-4_svg__drawer-mask" style="will-change: stroke-dashoffset; stroke-dasharray: 538.705px; stroke-dashoffset: 1077.41px; transition: none 0s ease 0s; opacity: 1;"></path>
+            </mask>
+          </defs>
+          <path mask="url(#path-result-4_svg__a)" stroke="url(#path-result-4_svg__b)" stroke-width="4" fill="none" stroke-dasharray="0 11" stroke-linecap="round" d="M9.484 134.337C-18.92 60.645 42.903-12.594 133.397 38.353c70.192 40.07 118.17 75.065 153.815 82.075 57.61 11.33 98.464-42.004 61.788-125.803" vector-effect="non-scaling-stroke"></path>
+        </svg>
+      </div>
+<!--
+      <div class="invest-section-step">
+        <div class="invest-section-step-wrapper">
+          <div class="invest-section-step-title appeared-text appeared">
+            2017
+          </div>
+          <div class="invest-section-step-text appeared-text appeared">
+            <p>Начали работу над проектом,<br>собрали команду амбициозных<br>профессионалов для воплощения<br>мечты в
+              реальность.</p></div>
+        </div>
+      </div>
+
+      <div class="invest-section-step">
+        <div class="invest-section-step-wrapper">
+          <div class="invest-section-step-title appeared-text appeared">
+            2018
+          </div>
+          <div class="invest-section-step-text appeared-text appeared">
+            <p>Реализовали первую версию беттинг-платформы.<br>Не следуя общепринятым канонам в Букмекерской сфере,<br>создали
+              яркий и многофункциональный сайт с уникальными<br>разделами: oнлайн-игрой “Агар“ и денежными кейсами<br>собственной
+              разработки. На этом этапе<br>уже более 100 тысяч игроков<br>выбирают 1win.</p></div>
+        </div>
+      </div>
+
+      <div class="invest-section-step">
+        <div class="invest-section-step-wrapper">
+          <div class="invest-section-step-title appeared-text appeared">
+            2019
+          </div>
+          <div class="invest-section-step-text appeared-text appeared">
+            <p>1win становится самой быстроразвивающейся<br>Букмекерской Компанией в России и СНГ. Проект<br>масштабируется,
+              привлекая все больше пользователей<br>с каждым днем. Имея нестандартный подход,<br>наша команда усиливает
+              работу над развлекательной<br>составляющей игрового процесса, интегрируя<br>казино и интерактивные игры.
+            </p></div>
+        </div>
+      </div>
+
+      <div class="invest-section-step">
+        <div class="invest-section-step-wrapper">
+          <div class="invest-section-step-title appeared-text appeared">
+            2020
+          </div>
+          <div class="invest-section-step-text appeared-text appeared">
+            <p>1win – это мультиязычная игровая платформа<br>с тысячами лицензированных слотов и сотнями игр<br>с живыми
+              дилерами. В этом году мы сделали настоящий прорыв,<br>начав охватывать международный гэмблинг-рынок.
+              Игроки из 28<br>различных стран с удовольствием проводят время на нашем<br>сайте, просматривая прямые
+              трансляции матчей любимых<br>команд, участвуя в крупных покерных турнирах<br>и борясь за главный приз –
+              многомиллионный<br>джекпот в казино.</p></div>
+        </div>
+      </div>
+
+      <div class="invest-section-step">
+        <div class="invest-section-step-wrapper">
+          <div class="invest-section-step-title appeared-text appeared">
+            2021
+          </div>
+          <div class="invest-section-step-text appeared-text appeared">
+            <p>Мы знаем наверняка: усердная ежедневная работа<br>по достижению целей приводит к неизбежному результату.
+              Мы уверены,<br>что следующий год будет для нас еще одной ступенью на пути к мировому лидерству<br>букмекерского
+              рынка. 1win станет центром привлечения игроков со всего мира,<br>знающих толк в качественном сервисе,
+              поистине влюбленных в спорт<br>и жаждущих новых побед так же, как и мы.</p></div>
+        </div>
+      </div>
+-->
+    </div>
+  </div>
+</div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]>
+<html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]>
+<html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8"/>
+  <title>SVG-example</title>
+  <meta name="description" content="Создание адаптивного сайта"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png"/>
+
+  <link rel="stylesheet" href="../../_common/css/reset.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+<div class="ag-format-container">
+
+  <svg id="svg1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 120 120">
+    <!-- Фон серого цвета -->
+    <rect width="100%" height="100%" fill="#D0D0D0"/>
+    <!-- Путь заполнения линии прогрессбара     -->
+    <circle cx="60" cy="60" r="50" fill="none" stroke="#E1E1E1" stroke-width="8"/>
+    <circle cx="60" cy="60" r="50" transform="rotate(-90 60 60)" fill="none" stroke-dashoffset="314" stroke-dasharray="314" stroke="dodgerblue" stroke-width="8">
+      <!--Анимация  изменение отступа линии stroke-dashoffset от 314 до 0 -->
+      <animate attributeName="stroke-dashoffset" dur="4s" begin="svg1.click" values="314;0"/>
+    </circle>
+    <text id="count" x="50%" y="50%" fill="#717171" text-anchor="middle" dy="7" font-size="20">Click</text>
+  </svg>
+
+  <svg id="svg2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 120 120">
+    <!-- Фон серого цвета -->
+    <rect width="100%" height="100%" fill="#D0D0D0"/>
+    <!-- Путь заполнения линии прогрессбара     -->
+    <circle cx="60" cy="60" r="50" fill="none" stroke="#E1E1E1" stroke-width="8"/>
+    <circle cx="60" cy="60" r="50" transform="rotate(-90 60 60)" fill="none" stroke-dashoffset="314" stroke-dasharray="0, 314" stroke="purple" stroke-width="8">
+      <!-- Анимация изменения длины черты stroke-dasharray от нуля до максимума 314 -->
+      <animate attributeName="stroke-dasharray" dur="4s" begin="svg2.click" values="0,314;314,0" fill="freeze"/>
+    </circle>
+    <text id="count" x="50%" y="50%" fill="#622B80" text-anchor="middle" dy="7" font-size="20">Click</text>
+
+  </svg>
+
+  <svg id="svg3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 120 120">
+    <!-- Фон серого цвета -->
+    <rect width="100%" height="100%" fill="#D0D0D0"/>
+    <!-- Показывает путь заполнения  -->
+    <circle cx="60" cy="60" r="50" fill="none" stroke="#E1E1E1" stroke-width="8"/>
+    <!-- Линия, которая делится с помощью stroke-dasharray на две части -->
+    <circle cx="60" cy="60" r="50" fill="none" stroke-dashoffset="-78.5" stroke-dasharray="0,157 0,157" stroke="orange" stroke-width="8">
+      <!-- Анимация заполнения из одной точки двумя линиями -->
+      <animate attributeName="stroke-dasharray" dur="4s" begin="svg3.click" values="0,157 0,157;0,0,314,0" fill="freeze"/>
+    </circle>
+    <text id="count" x="50%" y="50%" fill="#E49400" text-anchor="middle" dy="7" font-size="20">Click</text>
+
+  </svg>
+
+  <svg id="svg4" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 120 120" version="1.1">
+
+    <!-- Фон серого цвета -->
+    <rect width="100%" height="100%" fill="#D0D0D0"/>
+    <!-- Показывает путь заполнения  -->
+    <path d="M60 6.4 98.1 22.1 113.9 60.3 98.1 98.4 60 114.2 21.9 98.4 6.1 60.3 21.9 22.1Z" fill="none" stroke="#E1E1E1" stroke-width="6"/>
+
+    <path d="M60 6.4 98.1 22.1 113.9 60.3 98.1 98.4 60 114.2 21.9 98.4 6.1 60.3 21.9 22.1Z" fill="none" stroke-dashoffset="-82.5" stroke-dasharray="0,165 0,165" stroke="#E43673" stroke-width="6">
+      <!-- Анимация заполнения из одной точки двумя линиями -->
+      <animate attributeName="stroke-dasharray" dur="4s" begin="svg4.click" values="0,165 0,165;0,0,330,0" fill="freeze"/>
+    </path>
+    <text id="count" x="50%" y="50%" fill="#C12D61" text-anchor="middle" dy="7" font-size="20">Click</text>
+  </svg>
+
+
+  <svg id="svg5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 120 120">
+
+    <!-- Фон серого цвета -->
+    <rect width="100%" height="100%" fill="#F3F3F3"/>
+    <!-- Путь заполнения линии прогрессбара     -->
+    <circle cx="60" cy="60" r="50" fill="none" stroke="#E1E1E1" stroke-width="12"/>
+    <circle cx="60" cy="60" r="50" transform="rotate(-90 60 60)" fill="none" stroke-dashoffset="314" stroke-dasharray="3.14, 3.14" stroke="#A023FF" stroke-width="12">
+      <!-- Анимация вращения с помощью сдвига командой stroke-dashoffset -->
+      <animate attributeName="stroke-dashoffset" dur="6s" begin="svg5.click" values="314;0" fill="freeze"/>
+    </circle>
+    <text id="count" x="50%" y="50%" fill="#622B80" text-anchor="middle" dy="7" font-size="20">Click</text>
+
+  </svg>
+
+
+  <svg id="svg6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 120 120">
+    <defs>
+      <mask id="msk6">
+        <rect width="100%" height="100%" fill="white"/>
+        <circle cx="60" cy="60" r="50" stroke="black" fill="none" stroke-dashoffset="0" stroke-dasharray="314" stroke-width="14">
+          <!-- Анимация сдвига маски реализует открывание прерывистой линии -->
+          <animate attributeName="stroke-dashoffset" dur="6s" begin="svg6.click" values="0;-314;" fill="freeze"/>
+        </circle>
+      </mask>
+    </defs>
+    <!-- Фон серого цвета -->
+    <rect width="100%" height="100%" fill="#F3F3F3"/>
+    <!-- Путь заполнения линии прогрессбара     -->
+    <circle cx="60" cy="60" r="50" fill="none" stroke="#E1E1E1" stroke-width="12"/>
+    <!-- Прерывистая линия заэкранирована маской mask="url(#msk6)" -->
+    <circle cx="60" cy="60" r="50" mask="url(#msk6)" transform="rotate(-90 60 60)" fill="none" stroke-dashoffset="314" stroke-dasharray="3.14, 3.14" stroke="#62169D" stroke-width="12"/>
+
+    <text id="count" x="50%" y="50%" fill="#622B80" text-anchor="middle" dy="7" font-size="20">Click</text>
+
+  </svg>
+
+  <svg id="svg7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 120 120">
+    <defs>
+      <mask id="msk7">
+        <rect width="100%" height="100%" fill="white"/>
+        <circle cx="60" cy="60" r="50" stroke="black" fill="none" stroke-dashoffset="157"
+            stroke-dasharray="157,0 157,0" stroke-width="14">
+          <!-- Анимация сдвига маски реализует открывание прерывистой линии -->
+          <animate attributeName="stroke-dasharray" dur="4s" begin="svg7.click" values="157,0 157,0;0,314,0,0;" fill="freeze"/>
+        </circle>
+      </mask>
+    </defs>
+    <!-- Фон серого цвета -->
+    <rect width="100%" height="100%" fill="#F3F3F3"/>
+    <!-- Путь заполнения линии прогрессбара     -->
+    <circle cx="60" cy="60" r="50" fill="none" stroke="#E1E1E1" stroke-width="14"/>
+    <!-- Прерывистая линия заэкранирована маской mask="url(#msk7)" -->
+    <circle cx="60" cy="60" r="50" mask="url(#msk7)" transform="rotate(-90 60 60)" fill="none" stroke-dashoffset="314" stroke-dasharray="3.14, 3.14" stroke="#62169D" stroke-width="12"/>
+
+    <text id="count" x="50%" y="50%" fill="#622B80" text-anchor="middle" dy="7" font-size="20">Click</text>
+
+  </svg>
+
+</div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>

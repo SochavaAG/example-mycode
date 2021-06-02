@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Line Carousel</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .sa_line {
+    width: 100%;
+    height: 54px;
+    border-top: 1px solid #f3cc66;
+    background-color: #363c3f;
+    overflow: hidden;
+  }
+
+  .sa_wrap {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    list-style: none;
+    width: 9999px;
+    height: 100%;
+  }
+
+  .sa_lb_item {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: default;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 245px;
+    height: 100%;
+    padding: 0 5px 0 15px;
+    color: #f3cc66;
+    border-right: 1px solid #f3cc66;
+    border-bottom: 2px solid transparent;
+    transform: translateX(0px);
+    position: absolute;
+    top: 0;
+    transition: -webkit-transform 1s linear;
+    transition: transform 1s linear;
+  }
+
+  .sa_lb_item:first-child {
+    margin-left: 0;
+  }
+
+  .sa_line_bottom {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-right: 90px;
+    width: calc(100% + 270px);
+    height: 56px;
+    margin-left: -266px;
+  }
+
+  .sa_lb_item:hover {
+    border-bottom: 2px solid #f3cc66;
+  }
+
+  .sa_lb_item_text {
+    margin: auto 0;
+  }
+
+  .sa_lb_item_logo .sportIco_yellow {
+    background-size: 100% 100%;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-right: 12px;
+  }
+</style>
+
+<div class="sa_line">
+  <div class="sa_wrap">
+    <div class="sa_line_bottom">
+     <!-- <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s6"></span></div>
+        <p class="sa_lb_item_text">******123 поставил на волейбол 92.88 ₽, выиграл 153.07 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s2"></span></div>
+        <p class="sa_lb_item_text"></p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s103"></span></div>
+        <p class="sa_lb_item_text">******181 поставил на mortalkombat 34248.40 ₽, выиграл 44009.19 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s85"></span></div>
+        <p class="sa_lb_item_text">******869 поставил на fifa 557.89 ₽, выиграл 1020.94 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s103"></span></div>
+        <p class="sa_lb_item_text">******777 поставил на mortalkombat 207.91 ₽, выиграл 597.74 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s85"></span></div>
+        <p class="sa_lb_item_text">******079 поставил на fifa 6849.68 ₽, выиграл 10904.69 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s85"></span></div>
+        <p class="sa_lb_item_text">******937 поставил на fifa 173.26 ₽, выиграл 334.39 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s6"></span></div>
+        <p class="sa_lb_item_text">******101 поставил на волейбол 928.79 ₽, выиграл 1396.91 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s6"></span></div>
+        <p class="sa_lb_item_text">******123 поставил на волейбол 92.88 ₽, выиграл 153.07 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s103"></span></div>
+        <p class="sa_lb_item_text">******181 поставил на mortalkombat 34248.40 ₽, выиграл 44009.19 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s85"></span></div>
+        <p class="sa_lb_item_text">******079 поставил на fifa 6849.68 ₽, выиграл 10904.69 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s10"></span></div>
+        <p class="sa_lb_item_text">******553 поставил на настольный теннис 30000.00 ₽, выиграл 42600 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s2"></span></div>
+        <p class="sa_lb_item_text">******361 поставил на хоккей 17688.33 ₽, выиграл 20783.79 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s85"></span></div>
+        <p class="sa_lb_item_text">******079 поставил на fifa 1712.42 ₽, выиграл 2945.36 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s3"></span></div>
+        <p class="sa_lb_item_text">******605 поставил на баскетбол 1369.94 ₽, выиграл 2438.49 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s3"></span></div>
+        <p class="sa_lb_item_text">******483 поставил на баскетбол 6000.00 ₽, выиграл 12720 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s146"></span></div>
+        <p class="sa_lb_item_text">******993 поставил на 21 очко 58.36 ₽, выиграл 78.78 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s6"></span></div>
+        <p class="sa_lb_item_text">******101 поставил на волейбол 928.79 ₽, выиграл 1396.91 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s6"></span></div>
+        <p class="sa_lb_item_text">******123 поставил на волейбол 92.88 ₽, выиграл 153.07 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s103"></span></div>
+        <p class="sa_lb_item_text">******181 поставил на mortalkombat 34248.40 ₽, выиграл 44009.19 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s85"></span></div>
+        <p class="sa_lb_item_text">******079 поставил на fifa 6849.68 ₽, выиграл 10904.69 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s10"></span></div>
+        <p class="sa_lb_item_text">******553 поставил на настольный теннис 30000.00 ₽, выиграл 42600 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s2"></span></div>
+        <p class="sa_lb_item_text">******361 поставил на хоккей 17688.33 ₽, выиграл 20783.79 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s85"></span></div>
+        <p class="sa_lb_item_text">******079 поставил на fifa 1712.42 ₽, выиграл 2945.36 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s3"></span></div>
+        <p class="sa_lb_item_text">******605 поставил на баскетбол 1369.94 ₽, выиграл 2438.49 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s3"></span></div>
+        <p class="sa_lb_item_text">******483 поставил на баскетбол 6000.00 ₽, выиграл 12720 ₽</p></div>
+      <div class="sa_lb_item">
+        <div class="sa_lb_item_logo"><span class="sportIco_yellow s146"></span></div>
+        <p class="sa_lb_item_text">******993 поставил на 21 очко 58.36 ₽, выиграл 78.78 ₽</p></div>
+      -->
+    </div>
+  </div>
+</div>
+  <div class="ag-format-container">
+
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
