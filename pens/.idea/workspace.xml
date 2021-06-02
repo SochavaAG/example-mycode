@@ -53,7 +53,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6336">
+            <state relative-caret-position="24">
               <caret line="264" column="113" lean-forward="false" selection-start-line="264" selection-start-column="18" selection-end-line="264" selection-end-column="113" />
               <folding />
             </state>
@@ -109,8 +109,8 @@
       <file leaf-file-name="format-1.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="641">
+              <caret line="91" column="71" lean-forward="false" selection-start-line="91" selection-start-column="71" selection-end-line="91" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -281,26 +281,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/line-carousel/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="108" column="30" lean-forward="false" selection-start-line="108" selection-start-column="30" selection-end-line="108" selection-end-column="30" />
+            <state relative-caret-position="312">
+              <caret line="103" column="110" lean-forward="false" selection-start-line="103" selection-start-column="110" selection-end-line="103" selection-end-column="110" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1622644867166" expanded="true" signature="6157:6183" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/line-carousel/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="120" column="28" lean-forward="true" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
-              <folding>
-                <marker date="1622642222176" expanded="true" signature="2801:2827" ph="..." />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -309,7 +307,27 @@
         <entry file="file://$USER_HOME$/Desktop/border-green.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1944">
-              <caret line="81" column="27" lean-forward="true" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+              <caret line="81" column="27" lean-forward="false" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eventline.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/eventline.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styleNew.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/styleNew.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="2889" column="2" lean-forward="false" selection-start-line="2889" selection-start-column="2" selection-end-line="2889" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -319,17 +337,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ag-smoke</find>
-      <find>bonus</find>
-      <find>smoke-1</find>
-      <find>sword</find>
-      <find>an-sprite-lamp-blik</find>
-      <find>ag-romb</find>
-      <find>sprite-lamp-blik.png</find>
-      <find>granma</find>
-      <find>background-position-y</find>
-      <find>fire-big-3</find>
-      <find>fire-big</find>
       <find>ag-granma</find>
       <find>banner-cabrio</find>
       <find>cabrio-anim-svg</find>
@@ -349,21 +356,19 @@
       <find>,</find>
       <find>alt=&quot;JustForex&quot;</find>
       <find>JustForex</find>
+      <find>s2</find>
+      <find>s103</find>
+      <find>sa_lb_item</find>
+      <find>sa_line</find>
+      <find>js-ag-line_box</find>
+      <find>sa_line_bottom</find>
+      <find>ag-line_box</find>
+      <find>sa_wrap</find>
+      <find>s03</find>
+      <find>sportIco_yellow</find>
+      <find>js-ag-line_item_logo</find>
     </findStrings>
     <replaceStrings>
-      <replace>js-ag-app-slide-control_item__active</replace>
-      <replace>ag-app-slide-carousel_</replace>
-      <replace>ag-app-slide-carousel_img</replace>
-      <replace>#454545</replace>
-      <replace>#f2f2f2</replace>
-      <replace>سپرده گذاری شده</replace>
-      <replace>حاشیه آزاد</replace>
-      <replace>اهرم</replace>
-      <replace>حاشیه مورد نیاز</replace>
-      <replace>حجم</replace>
-      <replace>قیمت پیپ</replace>
-      <replace>bonus</replace>
-      <replace>smoke-1</replace>
       <replace>door</replace>
       <replace>lamp-blik</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/swiper-slide-devices/images/</replace>
@@ -380,7 +385,20 @@
       <replace>[</replace>
       <replace>]</replace>
       <replace>alt=&quot;Justforex&quot;</replace>
+      <replace>s3</replace>
+      <replace>s4</replace>
+      <replace>s5</replace>
+      <replace>s6</replace>
+      <replace>s7</replace>
+      <replace>s8</replace>
+      <replace>s9</replace>
+      <replace>js-ag-line_item</replace>
+      <replace>ag-line-block</replace>
+      <replace>js-ag-line_box</replace>
+      <replace>ag-line_box</replace>
+      <replace>ag-line_box-wrap</replace>
       <replace>Justforex</replace>
+      <replace>js-ag-line_logo-item</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -426,9 +444,6 @@
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-VI.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-ZH.html" />
         <option value="$USER_HOME$/Desktop/border-green.json" />
-        <option value="$PROJECT_DIR$/line-carousel/index.html" />
-        <option value="$USER_HOME$/format-1.html" />
-        <option value="$PROJECT_DIR$/line-carousel/js/main.js" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/compare/012-Change Profile Request Canceled-EN.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-AR.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-BN.html" />
@@ -449,6 +464,9 @@
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-TR.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-VI.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-ZH.html" />
+        <option value="$USER_HOME$/format-1.html" />
+        <option value="$PROJECT_DIR$/line-carousel/js/main.js" />
+        <option value="$PROJECT_DIR$/line-carousel/index.html" />
       </list>
     </option>
   </component>
@@ -672,12 +690,12 @@
       <workItem from="1619443339066" duration="15913000" />
       <workItem from="1621921350711" duration="23207000" />
       <workItem from="1622005385676" duration="10566000" />
-      <workItem from="1622634383461" duration="7767000" />
+      <workItem from="1622634383461" duration="9549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="812183000" />
+    <option name="totallyTimeSpent" value="813965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -722,30 +740,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/009-Verification Completed/9_Verification_Completed-PK.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="467" column="58" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="694" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/009-Verification Completed/9_Verification_Completed-PT.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="656" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="693" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/009-Verification Completed/9_Verification_Completed-RU.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="656" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="693" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/009-Verification Completed/9_Verification_Completed-TH.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -969,25 +963,7 @@
     <entry file="file://$USER_HOME$/Desktop/border-green.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1944">
-          <caret line="81" column="27" lean-forward="true" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/line-carousel/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="108" column="30" lean-forward="false" selection-start-line="108" selection-start-column="30" selection-end-line="108" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="81" column="27" lean-forward="false" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1180,12 +1156,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/eventline.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="91" column="71" lean-forward="false" selection-start-line="91" selection-start-column="71" selection-end-line="91" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/styleNew.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="2889" column="2" lean-forward="false" selection-start-line="2889" selection-start-column="2" selection-end-line="2889" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/line-carousel/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="120" column="28" lean-forward="true" selection-start-line="120" selection-start-column="28" selection-end-line="120" selection-end-column="28" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="264" column="113" lean-forward="false" selection-start-line="264" selection-start-column="18" selection-end-line="264" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/line-carousel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="103" column="110" lean-forward="false" selection-start-line="103" selection-start-column="110" selection-end-line="103" selection-end-column="110" />
           <folding>
-            <marker date="1622642222176" expanded="true" signature="2801:2827" ph="..." />
+            <marker date="1622644867166" expanded="true" signature="6157:6183" ph="..." />
           </folding>
         </state>
       </provider>

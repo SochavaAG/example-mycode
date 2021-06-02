@@ -20,15 +20,14 @@
 
 <body>
 <style>
-  .sa_line {
+  .ag-line-block {
     width: 100%;
     height: 54px;
     border-top: 1px solid #f3cc66;
     background-color: #363c3f;
     overflow: hidden;
   }
-
-  .sa_wrap {
+  .ag-line_box-wrap {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -39,8 +38,22 @@
     width: 9999px;
     height: 100%;
   }
+  .js-ag-line_box {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-right: 90px;
+    width: calc(100% + 270px);
+    height: 56px;
+    margin-left: -266px;
+  }
 
-  .sa_lb_item {
+  .js-ag-line_item {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -63,128 +76,38 @@
     transition: -webkit-transform 1s linear;
     transition: transform 1s linear;
   }
-
-  .sa_lb_item:first-child {
+  .js-ag-line_item:first-child {
     margin-left: 0;
   }
-
-  .sa_line_bottom {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    position: relative;
-    box-sizing: border-box;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding-right: 90px;
-    width: calc(100% + 270px);
-    height: 56px;
-    margin-left: -266px;
-  }
-
-  .sa_lb_item:hover {
+  .js-ag-line_item:hover {
     border-bottom: 2px solid #f3cc66;
   }
 
-  .sa_lb_item_text {
+  .js-ag-line_item_text {
     margin: auto 0;
   }
-
-  .sa_lb_item_logo .sportIco_yellow {
+  .js-ag-line_logo-item {
     background-size: 100% 100%;
     width: 30px;
     height: 30px;
     display: block;
     margin-right: 12px;
   }
+  .js-ag-icons {
+    display: block;
+    height: 30px;
+    width: 30px;
+    margin-right: 12px;
+    background-size: 100% 100%;
+  }
+  .js-ag-icon-1 {
+    background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/line-carousel/images/sprite-sport.png);
+  }
 </style>
 
-<div class="sa_line">
-  <div class="sa_wrap">
-    <div class="sa_line_bottom">
-     <!-- <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s6"></span></div>
-        <p class="sa_lb_item_text">******123 поставил на волейбол 92.88 ₽, выиграл 153.07 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s2"></span></div>
-        <p class="sa_lb_item_text"></p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s103"></span></div>
-        <p class="sa_lb_item_text">******181 поставил на mortalkombat 34248.40 ₽, выиграл 44009.19 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s85"></span></div>
-        <p class="sa_lb_item_text">******869 поставил на fifa 557.89 ₽, выиграл 1020.94 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s103"></span></div>
-        <p class="sa_lb_item_text">******777 поставил на mortalkombat 207.91 ₽, выиграл 597.74 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s85"></span></div>
-        <p class="sa_lb_item_text">******079 поставил на fifa 6849.68 ₽, выиграл 10904.69 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s85"></span></div>
-        <p class="sa_lb_item_text">******937 поставил на fifa 173.26 ₽, выиграл 334.39 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s6"></span></div>
-        <p class="sa_lb_item_text">******101 поставил на волейбол 928.79 ₽, выиграл 1396.91 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s6"></span></div>
-        <p class="sa_lb_item_text">******123 поставил на волейбол 92.88 ₽, выиграл 153.07 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s103"></span></div>
-        <p class="sa_lb_item_text">******181 поставил на mortalkombat 34248.40 ₽, выиграл 44009.19 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s85"></span></div>
-        <p class="sa_lb_item_text">******079 поставил на fifa 6849.68 ₽, выиграл 10904.69 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s10"></span></div>
-        <p class="sa_lb_item_text">******553 поставил на настольный теннис 30000.00 ₽, выиграл 42600 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s2"></span></div>
-        <p class="sa_lb_item_text">******361 поставил на хоккей 17688.33 ₽, выиграл 20783.79 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s85"></span></div>
-        <p class="sa_lb_item_text">******079 поставил на fifa 1712.42 ₽, выиграл 2945.36 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s3"></span></div>
-        <p class="sa_lb_item_text">******605 поставил на баскетбол 1369.94 ₽, выиграл 2438.49 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s3"></span></div>
-        <p class="sa_lb_item_text">******483 поставил на баскетбол 6000.00 ₽, выиграл 12720 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s146"></span></div>
-        <p class="sa_lb_item_text">******993 поставил на 21 очко 58.36 ₽, выиграл 78.78 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s6"></span></div>
-        <p class="sa_lb_item_text">******101 поставил на волейбол 928.79 ₽, выиграл 1396.91 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s6"></span></div>
-        <p class="sa_lb_item_text">******123 поставил на волейбол 92.88 ₽, выиграл 153.07 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s103"></span></div>
-        <p class="sa_lb_item_text">******181 поставил на mortalkombat 34248.40 ₽, выиграл 44009.19 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s85"></span></div>
-        <p class="sa_lb_item_text">******079 поставил на fifa 6849.68 ₽, выиграл 10904.69 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s10"></span></div>
-        <p class="sa_lb_item_text">******553 поставил на настольный теннис 30000.00 ₽, выиграл 42600 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s2"></span></div>
-        <p class="sa_lb_item_text">******361 поставил на хоккей 17688.33 ₽, выиграл 20783.79 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s85"></span></div>
-        <p class="sa_lb_item_text">******079 поставил на fifa 1712.42 ₽, выиграл 2945.36 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s3"></span></div>
-        <p class="sa_lb_item_text">******605 поставил на баскетбол 1369.94 ₽, выиграл 2438.49 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s3"></span></div>
-        <p class="sa_lb_item_text">******483 поставил на баскетбол 6000.00 ₽, выиграл 12720 ₽</p></div>
-      <div class="sa_lb_item">
-        <div class="sa_lb_item_logo"><span class="sportIco_yellow s146"></span></div>
-        <p class="sa_lb_item_text">******993 поставил на 21 очко 58.36 ₽, выиграл 78.78 ₽</p></div>
-      -->
+<div class="ag-line-block">
+  <div class="ag-line_box-wrap">
+    <div class="js-ag-line_box">
     </div>
   </div>
 </div>
@@ -201,5 +124,124 @@
 <script src="js/jquery/jquery-1.11.1.min.js"></script>
 
 <script src="js/main.js"></script>
+<script>
+  (function ($) {
+    $(function () {
+
+      var EventLine = {
+        itemWidth: 266,
+        load_promisse: null,
+        stop: false,
+        events: {
+          res: [
+            {
+              Sport: 1,
+              Text: "Lorem ipsum dolor sit amet consectetuer adipiscing elit"
+            },
+            {
+              Sport: 2,
+              Text: "Aenean commodo ligula eget dolor Aenean massa Cum sociis"
+            },
+            {
+              Sport: 3,
+              Text: "Natoque penatibus et magnis dis parturient montes"
+            },
+            {
+              Sport: 4,
+              Text: "Gascetur ridiculus mus Donec quam felis ultricies nec"
+            },
+            {
+              Sport: 5,
+              Text: "Pellentesque eu pretium quis sem Nulla consequat massa"
+            },
+            {
+              Sport: 6,
+              Text: "Quis enim Donec pede justo fringilla vel aliquet nec"
+            },
+            {
+              Sport: 7,
+              Text: "Vulputate eget arcu In enim justo rhoncus ut imperdiet"
+            },
+            {
+              Sport: 8,
+              Text: "Wvenenatis vitae justo Nullam dictum felis eu pede"
+            },
+            {
+              Sport: 9,
+              Text: "Amollis pretium Integer tincidunt Cras dapibus Vivamus"
+            },
+            {
+              Sport: 10,
+              Text: "Relementum semper nisi Aenean vulputate eleifend tellus"
+            },
+            {
+              Sport: 11,
+              Text: "Ienean leo ligula porttitor eu consequat vitae eleifend ac"
+            },
+            {
+              Sport: 12,
+              Text: "Tenim Aliquam lorem ante dapibus in viverra quis"
+            },
+            {
+              Sport: 13,
+              Text: "Ofeugiat a tellus Phasellus viverra nulla ut metus varius"
+            },
+            {
+              Sport: 14,
+              Text: "Udui Etiam rhoncus Maecenas tempus tellus eget"
+            }
+          ]
+        },
+        start: function () {
+          this.addEvent();
+        },
+        lineToggle: function () {
+          $('.sa_line').toggle();
+        },
+        shift: function () {
+          $('.js-ag-line_item').each(function (i, item) {
+            var $item = $(item),
+              transXRegex = /\.*translateX\((.*)px\)/i,
+              $itemTransform = $item.attr('style'),
+              position = parseInt(transXRegex.exec($itemTransform)[1]);
+
+            $item.css('transform', 'translateX(' + (position + EventLine.itemWidth) + 'px' + ')');
+          });
+        },
+        addEvent: function () {
+          if (this.events && this.events.res && this.events.res.length) {
+            var eventId = Math.max(EventLine.events.res.length - 1),
+              event = EventLine.events.res[eventId];
+
+            this.shift();
+
+            var $item =
+              '<div class="js-ag-line_item" style="transform: translateX(0px)">' +
+              '<div class="js-ag-line_logo-item">' +
+              '<span class="js-ag-icons js-ag-icon-' + event.Sport + '"></span>' +
+              '</div>' +
+              '<p class="js-ag-line_item_text">' + event.Text + '</p>' +
+              '</div>';
+
+            $('.js-ag-line_box').prepend($item);
+
+            delete this.events[this.events.res.length - 1];
+            this.events.res.length--;
+
+            setTimeout(function () {
+              !EventLine.stop && EventLine.addEvent();
+            }, 5000);
+          }
+        }
+      };
+
+      $(window).on('load', function () {
+        EventLine.start();
+      });
+
+
+    });
+  })(jQuery);
+</script>
 </body>
 </html>
