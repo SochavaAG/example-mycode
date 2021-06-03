@@ -180,16 +180,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="format-2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/format-2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loader-car/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -281,14 +271,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/line-carousel/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="103" column="110" lean-forward="false" selection-start-line="103" selection-start-column="110" selection-end-line="103" selection-end-column="110" />
-              <folding>
-                <marker date="1622644867166" expanded="true" signature="6157:6183" ph="..." />
-              </folding>
+            <state relative-caret-position="425">
+              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -296,19 +284,11 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/line-carousel/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="border-green.json" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/border-green.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1944">
-              <caret line="81" column="27" lean-forward="false" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="273">
+              <caret line="68" column="8" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+              <folding>
+                <marker date="1622646118819" expanded="true" signature="2630:2656" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -316,8 +296,8 @@
       <file leaf-file-name="eventline.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/eventline.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="192">
+              <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -333,17 +313,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/line-carousel/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="127" column="16" lean-forward="true" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="format-2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/format-2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ag-granma</find>
-      <find>banner-cabrio</find>
-      <find>cabrio-anim-svg</find>
-      <find>id_calculator_amount_slider</find>
-      <find>mat-form-field-flex</find>
-      <find>consts</find>
-      <find>sum-value</find>
       <find>mat-display-2</find>
       <find>*</find>
       <find>addClass</find>
@@ -354,12 +347,9 @@
       <find>justforex</find>
       <find>}</find>
       <find>,</find>
-      <find>alt=&quot;JustForex&quot;</find>
-      <find>JustForex</find>
       <find>s2</find>
       <find>s103</find>
       <find>sa_lb_item</find>
-      <find>sa_line</find>
       <find>js-ag-line_box</find>
       <find>sa_line_bottom</find>
       <find>ag-line_box</find>
@@ -367,12 +357,18 @@
       <find>s03</find>
       <find>sportIco_yellow</find>
       <find>js-ag-line_item_logo</find>
+      <find>f3cc66</find>
+      <find>70px;</find>
+      <find>70px</find>
+      <find>stop</find>
+      <find>sa_line</find>
+      <find>toggle</find>
+      <find>lineToggle</find>
+      <find>alt=&quot;JustForex&quot;</find>
+      <find>JustForex</find>
+      <find>addEvent</find>
     </findStrings>
     <replaceStrings>
-      <replace>door</replace>
-      <replace>lamp-blik</replace>
-      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/swiper-slide-devices/images/</replace>
-      <replace>granma_all</replace>
       <replace>an-lamp-blik</replace>
       <replace>heart</replace>
       <replace>سود</replace>
@@ -384,7 +380,6 @@
       <replace>https://justforex.asia</replace>
       <replace>[</replace>
       <replace>]</replace>
-      <replace>alt=&quot;Justforex&quot;</replace>
       <replace>s3</replace>
       <replace>s4</replace>
       <replace>s5</replace>
@@ -397,8 +392,13 @@
       <replace>js-ag-line_box</replace>
       <replace>ag-line_box</replace>
       <replace>ag-line_box-wrap</replace>
-      <replace>Justforex</replace>
       <replace>js-ag-line_logo-item</replace>
+      <replace>70px;</replace>
+      <replace>000</replace>
+      <replace>-70px;</replace>
+      <replace>alt=&quot;Justforex&quot;</replace>
+      <replace>Justforex</replace>
+      <replace>30px</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -411,53 +411,13 @@
       <dir>$USER_HOME$/vazhno_project-1/2021.06.02_email/009-Verification Completed</dir>
       <dir>$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed</dir>
       <dir>$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled</dir>
+      <dir>$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled</dir>
+      <dir>$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed</dir>
     </dirStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/009-Verification Completed/9_Verification_Completed-PK.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/009-Verification Completed/9_Verification_Completed-PT.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/009-Verification Completed/9_Verification_Completed-RU.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/009-Verification Completed/9_Verification_Completed-TH.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/009-Verification Completed/9_Verification_Completed-TR.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/009-Verification Completed/9_Verification_Completed-VI.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/009-Verification Completed/9_Verification_Completed-ZH.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/compare/011-Change Profile Request Completed-EN.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-AR.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-BN.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-CN.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-EN.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-ES.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-FA.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-FR.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-HI.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-ID.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-JP.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-KO.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-MS.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-PK.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-PT.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-RU.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-TH.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-TR.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-VI.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-ZH.html" />
-        <option value="$USER_HOME$/Desktop/border-green.json" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/compare/012-Change Profile Request Canceled-EN.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-AR.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-BN.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-CN.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-EN.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-ES.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-FA.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-FR.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-HI.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-ID.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-JP.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-KO.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-MS.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-PK.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-PT.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-RU.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-TH.html" />
@@ -465,8 +425,50 @@
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-VI.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-ZH.html" />
         <option value="$USER_HOME$/format-1.html" />
-        <option value="$PROJECT_DIR$/line-carousel/js/main.js" />
+        <option value="$PROJECT_DIR$/line-carousel/css/style.css" />
         <option value="$PROJECT_DIR$/line-carousel/index.html" />
+        <option value="$PROJECT_DIR$/line-carousel/js/main.js" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/compare/016-Deposit Canceled-EN.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-AR.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-BN.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-CN.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-EN.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-ES.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-FA.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-FR.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-HI.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-ID.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-JP.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-KO.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-MS.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-PK.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-PT.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-RU.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-TH.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-TR.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-VI.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-ZH.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/compare/017-Deposit Completed-EN.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-AR.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-BN.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-CN.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-EN.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-ES.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-FA.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-FR.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-HI.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-ID.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-JP.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-KO.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-MS.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-PK.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-PT.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-RU.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-TH.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-TR.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-VI.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-ZH.html" />
+        <option value="$USER_HOME$/format-2.html" />
       </list>
     </option>
   </component>
@@ -501,7 +503,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled" />
+    <property name="last_opened_file_path" value="$USER_HOME$/format-2.html" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
@@ -690,12 +692,12 @@
       <workItem from="1619443339066" duration="15913000" />
       <workItem from="1621921350711" duration="23207000" />
       <workItem from="1622005385676" duration="10566000" />
-      <workItem from="1622634383461" duration="9549000" />
+      <workItem from="1622634383461" duration="12821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="813965000" />
+    <option name="totallyTimeSpent" value="817237000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -740,406 +742,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/009-Verification Completed/9_Verification_Completed-TH.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="652" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="693" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/009-Verification Completed/9_Verification_Completed-ZH.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="640" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="679" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/009-Verification Completed/9_Verification_Completed-VI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="652" column="36" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="694" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/009-Verification Completed/9_Verification_Completed-TR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="653" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="693" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/compare/011-Change Profile Request Completed-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="692" column="7" lean-forward="false" selection-start-line="692" selection-start-column="7" selection-end-line="692" selection-end-column="7" />
-          <folding>
-            <element signature="e#14457#14463#0" expanded="true" />
-            <element signature="e#33737#33743#1" expanded="true" />
-            <marker date="1622639848569" expanded="true" signature="122:258" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="153:249" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="6269:6281" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="6282:6369" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="6297:6369" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="6347:6359" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="6360:6369" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="10657:10674" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="10921:10942" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="15095:15106" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="15107:15155" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="15134:15155" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="15260:15272" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="15273:15294" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="18743:18827" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="18788:18827" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="18963:19002" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="21451:21490" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="23933:23972" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="26412:26451" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="30026:30037" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="30038:30086" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="30065:30086" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="30191:30203" ph="..." />
-            <marker date="1622639848569" expanded="true" signature="30204:30225" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-AR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="642" column="26" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="705" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-BN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="665" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="702" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-CN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="649" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="687" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="640" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="694" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-ES.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="662" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="703" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-FA.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="669" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="708" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-FR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="663" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="702" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-HI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="659" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="699" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-ID.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="662" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="701" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-JP.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="652" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="692" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-KO.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="635" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="692" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-MS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="661" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="701" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-PK.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="672" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="708" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-PT.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="664" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="701" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-RU.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="661" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="701" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-TH.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="661" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="701" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-ZH.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="649" column="30" lean-forward="true" selection-start-line="649" selection-start-column="30" selection-end-line="649" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-VI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="665" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="702" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/011-Change Profile Request Completed/11_Change_Profile_Request_Completed-TR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="661" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="701" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/border-green.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1944">
-          <caret line="81" column="27" lean-forward="false" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/compare/012-Change Profile Request Canceled-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="694" column="7" lean-forward="false" selection-start-line="694" selection-start-column="7" selection-end-line="694" selection-end-column="7" />
-          <folding>
-            <element signature="e#14581#14587#0" expanded="true" />
-            <element signature="e#33861#33867#1" expanded="true" />
-            <marker date="1622642307696" expanded="true" signature="122:258" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="153:249" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="6269:6281" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="6282:6369" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="6297:6369" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="6347:6359" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="6360:6369" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="10781:10798" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="11045:11066" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="15219:15230" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="15231:15279" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="15258:15279" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="15384:15396" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="15397:15418" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="18867:18951" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="18912:18951" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="19087:19126" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="21575:21614" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="24057:24096" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="26536:26575" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="30150:30161" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="30162:30210" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="30189:30210" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="30315:30327" ph="..." />
-            <marker date="1622642307696" expanded="true" signature="30328:30349" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-AR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="669" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="707" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-BN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="658" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="704" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-CN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="640" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="687" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="646" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="696" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-ES.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="659" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="705" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-FA.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="660" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="710" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-FR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="658" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="704" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-HI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="653" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="701" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-ID.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="657" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="703" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-JP.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="646" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="694" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-KO.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="642" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="694" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-MS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="657" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="703" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-PK.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="658" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="707" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-PT.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="657" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="703" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-RU.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="657" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="703" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-TH.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="655" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="701" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-TR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="653" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="703" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/012-Change Profile Request Canceled/12_Change_Profile_Request_Canceled-ZH.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -1152,14 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="658" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="704" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/eventline.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1180,14 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/line-carousel/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -1196,13 +782,441 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/line-carousel/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="127" column="16" lean-forward="true" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/line-carousel/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="103" column="110" lean-forward="false" selection-start-line="103" selection-start-column="110" selection-end-line="103" selection-end-column="110" />
+        <state relative-caret-position="425">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/eventline.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/compare/016-Deposit Canceled-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="753" column="7" lean-forward="false" selection-start-line="753" selection-start-column="7" selection-end-line="753" selection-end-column="7" />
           <folding>
-            <marker date="1622644867166" expanded="true" signature="6157:6183" ph="..." />
+            <element signature="e#11008#11014#0" expanded="true" />
+            <element signature="e#17231#17237#0" expanded="true" />
+            <element signature="e#36511#36517#1" expanded="true" />
+            <marker date="1622646217271" expanded="true" signature="122:258" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="153:249" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="6269:6281" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="6282:6369" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="6297:6369" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="6347:6359" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="6360:6369" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="11646:11657" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="11658:11706" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="11685:11706" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="11811:11823" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="11824:11845" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="13451:13468" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="13715:13736" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="17869:17880" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="17881:17929" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="17908:17929" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="18034:18046" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="18047:18068" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="21517:21601" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="21562:21601" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="21737:21776" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="24225:24264" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="26707:26746" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="29186:29225" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="32800:32811" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="32812:32860" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="32839:32860" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="32965:32977" ph="..." />
+            <marker date="1622646217271" expanded="true" signature="32978:32999" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-AR.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="697" column="26" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="768" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-BN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="719" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="765" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-CN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="700" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="748" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="709" column="34" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="755" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-ES.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="715" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="764" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-FA.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="721" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="771" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-FR.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="719" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="765" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-HI.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="714" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="762" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-ID.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="718" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="764" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-JP.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="707" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="755" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-KO.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="697" column="26" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="753" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-MS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="718" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="764" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-PK.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="700" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="768" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-PT.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="718" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="764" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-RU.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="718" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="764" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-TH.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="712" column="37" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="762" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-TR.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="714" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="764" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-ZH.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="524" column="50" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="748" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-VI.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="719" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="765" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/border-green.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="81" column="27" lean-forward="false" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/compare/017-Deposit Completed-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="753" column="7" lean-forward="false" selection-start-line="753" selection-start-column="7" selection-end-line="753" selection-end-column="7" />
+          <folding>
+            <element signature="e#10945#10951#0" expanded="true" />
+            <element signature="e#17172#17178#0" expanded="true" />
+            <element signature="e#36452#36458#1" expanded="true" />
+            <marker date="1622647931052" expanded="true" signature="122:258" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="153:249" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="6270:6282" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="6283:6370" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="6298:6370" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="6348:6360" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="6361:6370" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="11583:11594" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="11595:11643" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="11622:11643" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="11748:11760" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="11761:11782" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="13388:13405" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="13652:13673" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="17810:17821" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="17822:17870" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="17849:17870" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="17975:17987" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="17988:18009" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="21458:21542" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="21503:21542" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="21678:21717" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="24166:24205" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="26648:26687" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="29127:29166" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="32741:32752" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="32753:32801" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="32780:32801" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="32906:32918" ph="..." />
+            <marker date="1622647931052" expanded="true" signature="32919:32940" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-AR.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="698" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="768" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-BN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="717" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="763" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-CN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="701" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="748" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="705" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="755" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-ES.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="718" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="764" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-FA.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="721" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="771" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-FR.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="717" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="763" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-HI.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="712" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="760" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-ID.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="716" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="762" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-JP.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="705" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="753" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-KO.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="701" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="753" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-MS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="717" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="763" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-PK.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="701" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="768" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-PT.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="716" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="762" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-RU.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="716" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="762" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-TH.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="716" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="762" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-TR.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="712" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="762" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-ZH.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="524" column="50" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="748" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-VI.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="717" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="763" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/line-carousel/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="68" column="8" lean-forward="true" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+          <folding>
+            <marker date="1622646118819" expanded="true" signature="2630:2656" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>

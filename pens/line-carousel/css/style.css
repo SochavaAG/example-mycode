@@ -1,36 +1,145 @@
-.ag-format-container {
-  width: 1142px;
-  margin: 0 auto;
+.ag-line-block {
+  height: 54px;
+  width: 100%;
+  background-color: #ffa500;
+
+  overflow: hidden;
+}
+.ag-line_box-wrap {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  height: 100%;
+  width: 9999px;
+}
+.js-ag-line_box {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  height: 56px;
+  width: calc(100% + 270px);
+  margin-left: -266px;
+  padding-right: 90px;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  position: relative;
 }
 
+.js-ag-line_item {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 
+  height: 100%;
+  width: 245px;
+  padding: 0 5px 0 15px;
+  border-right: 1px solid #000;
+  border-bottom: 2px solid transparent;
 
+  position: absolute;
+  top: 0;
 
-@media only screen and (max-width: 767px) {
-  .ag-format-container {
-    width: 96%;
-  }
+  color: #000;
 
+  transform: translateX(0px);
+  transition: -webkit-transform 1s linear;
+  transition: transform 1s linear;
+}
+.js-ag-line_item:first-child {
+  margin-left: 0;
 }
 
-@media only screen and (max-width: 639px) {
-
+.js-ag-line_item_text {
+  margin: auto 0;
 }
-
-@media only screen and (max-width: 479px) {
-
+.js-ag-line_logo-item {
+  height: 30px;
+  width: 30px;
+  margin-right: 12px;
 }
-
-@media (min-width: 768px) and (max-width: 979px) {
-  .ag-format-container {
-    width: 750px;
-  }
-
+.js-ag-icons {
+  display: block;
+  height: 30px;
+  width: 30px;
+  margin-right: 12px;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/line-carousel/images/sprite-sport.png);
+  background-repeat: no-repeat;
+  background-size: auto 60px;
 }
-
-@media (min-width: 980px) and (max-width: 1161px) {
-  .ag-format-container {
-    width: 960px;
-  }
-
+.js-ag-icon-1 {
+  background-position: 0 0;
+}
+.js-ag-icon-2 {
+  background-position: -30px 0;
+}
+.js-ag-icon-3 {
+  background-position: -60px 0;
+}
+.js-ag-icon-4 {
+  background-position: -90px 0;
+}
+.js-ag-icon-5 {
+  background-position: -120px 0;
+}
+.js-ag-icon-6 {
+  background-position: -150px 0;
+}
+.js-ag-icon-7 {
+  background-position: -180px 0;
+}
+.js-ag-icon-8 {
+  background-position: -210px 0;
+}
+.js-ag-icon-9 {
+  background-position: -240px 0;
+}
+.js-ag-icon-10 {
+  background-position: -270px 0;
+}
+.js-ag-icon-11 {
+  background-position: 0 -30px;
+}
+.js-ag-icon-12 {
+  background-position: -30px -30px;
+}
+.js-ag-icon-13 {
+  background-position: -60px -30px;
+}
+.js-ag-icon-14 {
+  background-position: -90px -30px;
+}
+.js-ag-icon-15 {
+  background-position: -120px -30px;
+}
+.js-ag-icon-16 {
+  background-position: -150px -30px;
+}
+.js-ag-icon-17 {
+  background-position: -180px -30px;
+}
+.js-ag-icon-18 {
+  background-position: -210px -30px;
+}
+.js-ag-icon-19 {
+  background-position: -240px -30px;
+}
+.js-ag-icon-20 {
+  background-position: -270px -30px;
 }
