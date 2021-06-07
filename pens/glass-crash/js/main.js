@@ -7,7 +7,7 @@
       $('.js-glass-crash_ball').addClass('js-ag-end');
       setInterval(function () {
         $('.js-glass-crash_glass').show();
-      }, 14050);
+      }, 450);
 
     });
 
