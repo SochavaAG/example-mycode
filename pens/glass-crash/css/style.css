@@ -1,0 +1,76 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+body {
+  height: 100vh;
+  width: 100%;
+  min-width: 320px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/glass-crash/images/bg.jpg) no-repeat scroll 50% 0 ;
+
+  overflow-x: hidden;
+}
+.ag-glass-crash_ball {
+  width: 10vh;
+
+  position: absolute;
+  top: 89vh;
+  left: 35vh;
+
+  transition: all .45s cubic-bezier(.43, .1, .98, .61);
+}
+.ag-glass-crash_img {
+  width: 100%;
+}
+.js-ag-end {
+  width: 78vh;
+
+  top: 5vh;
+  left: 10vh;
+
+  transform: rotate(180deg);
+}
+.ag-glass-crash_glass {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/glass-crash/images/glass.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

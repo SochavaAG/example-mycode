@@ -17,7 +17,7 @@ body {
 .ag-line_light {
   height: 24.0625em;
   width: 42.875em;
-  background: url(images/light.png) 50% 50%/100% 100% no-repeat;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-lines/images/light.png) 50% 50%/100% 100% no-repeat;
 
   opacity: 0;
 

@@ -8266,7 +8266,7 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 .ag-base_text-btn-v131:before {
   content: "";
   display: block;
-  background: url(../images/btn-131.png) -10.78125em/auto 100% no-repeat;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-131.png) -10.78125em/auto 100% no-repeat;
 
   z-index: 10;
   position: absolute;

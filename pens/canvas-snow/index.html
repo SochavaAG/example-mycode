@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Canvas Snow</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  html,
+  body,
+  .ag-snow-block {
+    height: 100%;
+  }
+
+  body {
+    background-color: #000;
+  }
+  .ag-snow {
+    height: 100%;
+  }
+
+</style>
+
+    <div class="js-snow-block ag-snow-block">
+      <canvas id="snow" class="ag-snow" width="1990" height="275"></canvas>
+
+      <div class="ag-format-container">
+      </div>
+    </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+
+<script>
+  var canvas = document.getElementById('snow');
+
+  var animFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+
+  var Snow = function Snow(canvas, count) {
+    var ctx = canvas.getContext('2d');
+    var snowflakes = [];
+
+    var add = function add(item) {
+      return snowflakes.push(item(canvas));
+    };
+
+    var update = function update() {
+      return _.forEach(snowflakes, function (el) {
+        return el.update();
+      });
+    };
+
+    var resize = function resize() {
+      ctx.canvas.width = canvas.offsetWidth;
+      ctx.canvas.height = canvas.offsetHeight;
+
+      _.forEach(snowflakes, function (el) {
+        return el.resized();
+      });
+    };
+
+    var draw = function draw() {
+      ctx.clearRect(0, 0, canvas.offsetWidth, canvas.offsetHeight);
+      _.forEach(snowflakes, function (el) {
+        return el.draw();
+      });
+    };
+
+    var events = function events() {
+      window.addEventListener('resize', resize);
+    };
+
+    var loop = function loop() {
+      draw();
+      update();
+      animFrame(loop);
+    };
+
+    var init = function init() {
+
+      times(count, function () {
+        return add(function (canvas) {
+          return new SnowItem(canvas);
+        });
+      });
+
+      events();
+      loop();
+    };
+
+    init(count);
+    resize();
+
+    return {add: add, resize: resize};
+  };
+
+  var defaultOptions = {
+    color: '#fff',
+    radius: [0.5, 2.0],
+    speed: [1, 1],
+    wind: [-0.1, 1.0]
+  };
+
+  var SnowItem = function SnowItem(canvas) {
+    var _ref, _ref2, _ref3;
+
+    var drawFn = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
+    var opts = arguments[2];
+
+    var options = _extends({}, defaultOptions, opts);
+    var radius = options.radius,
+      speed = options.speed,
+      wind = options.wind,
+      color = options.color;
+
+    var params = {
+      color: color,
+      x: random(0, canvas.offsetWidth),
+      y: random(-canvas.offsetHeight, 0),
+      radius: (_ref = this).random.apply(_ref, _toConsumableArray(radius)),
+      speed: (_ref2 = this).random.apply(_ref2, _toConsumableArray(speed)),
+      wind: (_ref3 = this).random.apply(_ref3, _toConsumableArray(wind)),
+      isResized: false
+    };
+    var ctx = canvas.getContext('2d');
+
+    var updateData = function updateData() {
+      params.x = random(0, canvas.offsetWidth);
+      params.y = random(-canvas.offsetHeight, 0);
+    };
+
+    var resized = function resized() {
+      return params.isResized = true;
+    };
+
+    var drawDefault = function drawDefault() {
+      ctx.beginPath();
+      ctx.arc(params.x, params.y, params.radius, 0, 2 * Math.PI);
+      ctx.fillStyle = params.color;
+      ctx.fill();
+      ctx.closePath();
+    };
+
+    var draw = drawFn ? function () {
+        return drawFn(ctx, params);
+      } : drawDefault;
+
+    var translate = function translate() {
+      params.y += params.speed;
+      params.x += params.wind;
+    };
+
+    var onDown = function onDown() {
+      if (params.y < canvas.offsetHeight) return;
+
+      if (params.isResized) {
+        updateData();
+        params.isResized = false;
+      } else {
+        params.y = 0;
+        params.x = random(0, canvas.offsetWidth);
+      }
+    };
+
+    var update = function update() {
+      translate();
+      onDown();
+    };
+
+    return {
+      update: update,
+      resized: resized,
+      draw: draw
+    };
+  };
+
+  if ($('#snow').length) {
+    Snow(canvas, 80);
+  }
+</script>
+</body>
+</html>
