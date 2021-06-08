@@ -28,6 +28,8 @@
 
   body {
     background-color: #000;
+
+    overflow: hidden;
   }
   .ag-snow {
     height: 100%;
@@ -48,11 +50,36 @@
 <script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
 <script src="libs/IE/respond/respond.min.js"></script>
 <![endif]-->
-<script src="js/jquery/jquery-1.11.1.min.js"></script>
+<!--<script src="js/jquery/jquery-1.11.1.min.js"></script>-->
+<script src="js/jquery/jquery-2.1.4.min.js"></script>
 
+<script src="js/underscore-min.js"></script>
 <script src="js/main.js"></script>
 
 <script>
+  var _extends = Object.assign || function (target) {
+      for (var i = 1; i < arguments.length; i++) {
+        var source = arguments[i];
+        for (var key in source) {
+          if (Object.prototype.hasOwnProperty.call(source, key)) {
+            target[key] = source[key];
+          }
+        }
+      }
+      return target;
+    };
+
+  function _toConsumableArray(arr) {
+    if (Array.isArray(arr)) {
+      for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) {
+        arr2[i] = arr[i];
+      }
+      return arr2;
+    } else {
+      return Array.from(arr);
+    }
+  }
+
   var canvas = document.getElementById('snow');
 
   var animFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
@@ -99,7 +126,7 @@
 
     var init = function init() {
 
-      times(count, function () {
+      _.times(count, function () {
         return add(function (canvas) {
           return new SnowItem(canvas);
         });
@@ -136,18 +163,18 @@
 
     var params = {
       color: color,
-      x: random(0, canvas.offsetWidth),
-      y: random(-canvas.offsetHeight, 0),
-      radius: (_ref = this).random.apply(_ref, _toConsumableArray(radius)),
-      speed: (_ref2 = this).random.apply(_ref2, _toConsumableArray(speed)),
-      wind: (_ref3 = this).random.apply(_ref3, _toConsumableArray(wind)),
+      x: _.random(0, canvas.offsetWidth),
+      y: _.random(-canvas.offsetHeight, 0),
+      radius: (_ref = _).random.apply(_ref, _toConsumableArray(radius)),
+      speed: (_ref2 = _).random.apply(_ref2, _toConsumableArray(speed)),
+      wind: (_ref3 = _).random.apply(_ref3, _toConsumableArray(wind)),
       isResized: false
     };
     var ctx = canvas.getContext('2d');
 
     var updateData = function updateData() {
-      params.x = random(0, canvas.offsetWidth);
-      params.y = random(-canvas.offsetHeight, 0);
+      params.x = _.random(0, canvas.offsetWidth);
+      params.y = _.random(-canvas.offsetHeight, 0);
     };
 
     var resized = function resized() {

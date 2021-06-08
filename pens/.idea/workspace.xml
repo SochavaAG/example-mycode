@@ -99,7 +99,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-item/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4584">
+            <state relative-caret-position="676">
               <caret line="191" column="1" lean-forward="false" selection-start-line="191" selection-start-column="1" selection-end-line="191" selection-end-column="1" />
               <folding />
             </state>
@@ -303,16 +303,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styleNew.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/styleNew.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69336">
-              <caret line="2889" column="2" lean-forward="false" selection-start-line="2889" selection-start-column="2" selection-end-line="2889" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/line-carousel/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -326,8 +316,8 @@
       <file leaf-file-name="format-2.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="71" />
+            <state relative-caret-position="216">
+              <caret line="9" column="62" lean-forward="false" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -337,7 +327,7 @@
         <entry file="file://$PROJECT_DIR$/timeline-speakers/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="376">
-              <caret line="107" column="120" lean-forward="true" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="120" />
+              <caret line="107" column="120" lean-forward="false" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="120" />
               <folding />
             </state>
           </provider>
@@ -368,8 +358,8 @@
       <file leaf-file-name="bundle.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/bundle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="4359" column="1" lean-forward="true" selection-start-line="4354" selection-start-column="0" selection-end-line="4359" selection-end-column="1" />
+            <state relative-caret-position="-1332">
+              <caret line="4359" column="1" lean-forward="false" selection-start-line="4354" selection-start-column="0" selection-end-line="4359" selection-end-column="1" />
               <folding>
                 <element signature="e#87330#87507#2" expanded="true" />
                 <element signature="e#88267#88432#2" expanded="true" />
@@ -383,11 +373,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-lines-text/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="109" column="36" lean-forward="false" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+            <state relative-caret-position="253">
+              <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -396,8 +386,82 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-lines-text/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+            <state relative-caret-position="216">
+              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="format.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/format.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="539">
+              <caret line="161" column="6" lean-forward="false" selection-start-line="161" selection-start-column="6" selection-end-line="161" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svg-map-2/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="202" selection-end-column="8" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svg-map-2/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svg-map/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="200" selection-end-column="10" />
+              <folding>
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svg-map/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/canvas-snow/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2931">
+              <caret line="171" column="6" lean-forward="true" selection-start-line="171" selection-start-column="6" selection-end-line="171" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bundle.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/canvas-snow/js/bundle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="711" column="40" lean-forward="true" selection-start-line="711" selection-start-column="40" selection-end-line="711" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -407,14 +471,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>main__watermelon-grad</find>
-      <find>event</find>
-      <find>https://justforex.com</find>
-      <find>justforex</find>
-      <find>}</find>
-      <find>,</find>
-      <find>s2</find>
-      <find>s103</find>
       <find>sa_lb_item</find>
       <find>js-ag-line_box</find>
       <find>sa_line_bottom</find>
@@ -437,10 +493,16 @@
       <find>images/</find>
       <find>-Bold</find>
       <find>.ag-line_light-1</find>
+      <find>p.m</find>
+      <find>pip</find>
+      <find>snow</find>
+      <find>_.</find>
+      <find>_e</find>
+      <find>_extends</find>
+      <find>_toConsumableArray</find>
+      <find>random</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-loader-car</replace>
-      <replace>an-loader-car_text</replace>
       <replace>an-loader-car_img</replace>
       <replace>https://justforex.biz</replace>
       <replace>https://justforex.vip</replace>
@@ -469,6 +531,8 @@
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline-speakers/images/</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline-speakers/fonts/</replace>
       <replace>-Regular</replace>
+      <replace>&amp;#160;p.m</replace>
+      <replace>&amp;#160;pip</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -488,10 +552,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/format-1.html" />
-        <option value="$PROJECT_DIR$/line-carousel/css/style.css" />
-        <option value="$PROJECT_DIR$/line-carousel/index.html" />
-        <option value="$PROJECT_DIR$/line-carousel/js/main.js" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/compare/016-Deposit Canceled-EN.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-AR.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-BN.html" />
@@ -532,13 +592,17 @@
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-TR.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-VI.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/017-Deposit Completed/17_Mt4_Deposit_Completed-ZH.html" />
-        <option value="$USER_HOME$/format-2.html" />
         <option value="$PROJECT_DIR$/timeline-speakers/css/style.css" />
         <option value="$PROJECT_DIR$/timeline-speakers/js/main.js" />
         <option value="$PROJECT_DIR$/timeline-speakers/index.html" />
         <option value="$USER_HOME$/Desktop/bundle.css" />
         <option value="$PROJECT_DIR$/animation-lines-text/index.html" />
         <option value="$PROJECT_DIR$/animation-lines-text/css/style.css" />
+        <option value="$USER_HOME$/format.html" />
+        <option value="$PROJECT_DIR$/svg-map-2/index.html" />
+        <option value="$USER_HOME$/format-2.html" />
+        <option value="$PROJECT_DIR$/canvas-snow/js/bundle.js" />
+        <option value="$PROJECT_DIR$/canvas-snow/index.html" />
       </list>
     </option>
   </component>
@@ -763,12 +827,12 @@
       <workItem from="1621921350711" duration="23207000" />
       <workItem from="1622005385676" duration="10566000" />
       <workItem from="1622634383461" duration="12821000" />
-      <workItem from="1623160019790" duration="2220000" />
+      <workItem from="1623160019790" duration="5969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="819457000" />
+    <option name="totallyTimeSpent" value="823206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -813,36 +877,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/line-carousel/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/eventline.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/compare/016-Deposit Canceled-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="753" column="7" lean-forward="false" selection-start-line="753" selection-start-column="7" selection-end-line="753" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-AR.html" />
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-BN.html" />
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-CN.html" />
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-EN.html" />
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-ES.html" />
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-FA.html" />
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-FR.html" />
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-HI.html" />
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-ID.html" />
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/016-Deposit Canceled/16_Mt4_Deposit_Canceled-JP.html" />
@@ -898,14 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/format-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/timeline-speakers/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -916,8 +942,8 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/bundle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="4359" column="1" lean-forward="true" selection-start-line="4354" selection-start-column="0" selection-end-line="4359" selection-end-column="1" />
+        <state relative-caret-position="-1332">
+          <caret line="4359" column="1" lean-forward="false" selection-start-line="4354" selection-start-column="0" selection-end-line="4359" selection-end-column="1" />
           <folding>
             <element signature="e#87330#87507#2" expanded="true" />
             <element signature="e#88267#88432#2" expanded="true" />
@@ -933,7 +959,7 @@
     <entry file="file://$PROJECT_DIR$/timeline-speakers/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
-          <caret line="107" column="120" lean-forward="true" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="120" />
+          <caret line="107" column="120" lean-forward="false" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="120" />
           <folding />
         </state>
       </provider>
@@ -950,16 +976,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/animation-lines-text/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        <state relative-caret-position="216">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/animation-lines-text/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="109" column="36" lean-forward="false" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+        <state relative-caret-position="253">
+          <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="161" column="6" lean-forward="false" selection-start-line="161" selection-start-column="6" selection-end-line="161" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg-map-2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="202" selection-end-column="8" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg-map-2/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-item/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="191" column="1" lean-forward="false" selection-start-line="191" selection-start-column="1" selection-end-line="191" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg-map/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="200" selection-end-column="10" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svg-map/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="62" lean-forward="false" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="588" column="42" lean-forward="true" selection-start-line="588" selection-start-column="42" selection-end-line="588" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/styleNew.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69336">
+          <caret line="2889" column="2" lean-forward="false" selection-start-line="2889" selection-start-column="2" selection-end-line="2889" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas-snow/js/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="711" column="40" lean-forward="true" selection-start-line="711" selection-start-column="40" selection-end-line="711" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas-snow/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2931">
+          <caret line="171" column="6" lean-forward="true" selection-start-line="171" selection-start-column="6" selection-end-line="171" selection-end-column="6" />
           <folding />
         </state>
       </provider>
