@@ -8,7 +8,7 @@ body {
   height: 100vh;
   width: 100%;
   min-width: 320px;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/glass-crash/images/bg.jpg) no-repeat scroll 50% 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/glass-crash/images/bg.jpg) no-repeat scroll 50% 0 #241718;
   background-size: cover;
 
   overflow-x: hidden;
@@ -20,6 +20,9 @@ body {
   top: 89vh;
   left: 35vh;
 
+  -webkit-transition: all .45s cubic-bezier(.43, .1, .98, .61);
+  -moz-transition: all .45s cubic-bezier(.43, .1, .98, .61);
+  -o-transition: all .45s cubic-bezier(.43, .1, .98, .61);
   transition: all .45s cubic-bezier(.43, .1, .98, .61);
 }
 .ag-glass-crash_img {
@@ -31,6 +34,9 @@ body {
   top: 5vh;
   left: 10vh;
 
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 .ag-glass-crash_glass {
