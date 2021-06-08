@@ -2,8 +2,6 @@
   $(function () {
 
 
-    AOS.init();
-
 
   });
 })(jQuery);
