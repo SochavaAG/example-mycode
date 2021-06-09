@@ -4,6 +4,129 @@
 }
 
 
+body {
+  background-color: #000;
+}
+
+.ag-star {
+  height: 4.0625em;
+  width: 3.75em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-star/images/star.png) no-repeat center;
+  background-size: contain;
+
+  z-index: 1;
+  position: absolute;
+
+  -webkit-animation: an-star 2s 2s linear infinite;
+  -moz-animation: an-star 2s 2s linear infinite;
+  -o-animation: an-star 2s 2s linear infinite;
+  animation: an-star 2s 2s linear infinite;
+
+  image-rendering: optimize-contrast;
+}
+.ag-star-1 {
+  top: 10em;
+  left: 10em;
+
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.ag-star-2 {
+  top: 15%;
+  left: 20%;
+
+  -webkit-animation-delay: 14s;
+  -moz-animation-delay: 14s;
+  -o-animation-delay: 14s;
+  animation-delay: 14s;
+}
+.ag-star-3 {
+  top: 20%;
+  right: 40%;
+
+  -webkit-animation-delay: 10s;
+  -moz-animation-delay: 10s;
+  -o-animation-delay: 10s;
+  animation-delay: 10s;
+}
+.ag-star-4 {
+  top: 50%;
+  right: 10.625em;
+
+  -webkit-animation-delay: 5s;
+  -moz-animation-delay: 5s;
+  -o-animation-delay: 5s;
+  animation-delay: 5s;
+}
+.ag-star-5 {
+  top: 5em;
+  right: 50em;
+}
+
+@-webkit-keyframes an-star {
+  0% {
+    -webkit-transform: scale(1, 1) rotate(0deg);
+    transform: scale(1, 1) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: scale(0.5, 0.5) rotate(180deg);
+    transform: scale(0.5, 0.5) rotate(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) rotate(360deg);
+    transform: scale(1, 1) rotate(360deg);
+  }
+}
+@-moz-keyframes an-star {
+  0% {
+    -moz-transform: scale(1, 1) rotate(0deg);
+    transform: scale(1, 1) rotate(0deg);
+  }
+  50% {
+    -moz-transform: scale(0.5, 0.5) rotate(180deg);
+    transform: scale(0.5, 0.5) rotate(180deg);
+  }
+  100% {
+    -moz-transform: scale(1, 1) rotate(360deg);
+    transform: scale(1, 1) rotate(360deg);
+  }
+}
+@-o-keyframes an-star {
+  0% {
+    -o-transform: scale(1, 1) rotate(0deg);
+    transform: scale(1, 1) rotate(0deg);
+  }
+  50% {
+    -o-transform: scale(0.5, 0.5) rotate(180deg);
+    transform: scale(0.5, 0.5) rotate(180deg);
+  }
+  100% {
+    -o-transform: scale(1, 1) rotate(360deg);
+    transform: scale(1, 1) rotate(360deg);
+  }
+}
+@keyframes an-star {
+  0% {
+    -webkit-transform: scale(1, 1) rotate(0deg);
+    -moz-transform: scale(1, 1) rotate(0deg);
+    -o-transform: scale(1, 1) rotate(0deg);
+    transform: scale(1, 1) rotate(0deg);
+  }
+  50% {
+    -webkit-transform: scale(0.5, 0.5) rotate(180deg);
+    -moz-transform: scale(0.5, 0.5) rotate(180deg);
+    -o-transform: scale(0.5, 0.5) rotate(180deg);
+    transform: scale(0.5, 0.5) rotate(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) rotate(360deg);
+    -moz-transform: scale(1, 1) rotate(360deg);
+    -o-transform: scale(1, 1) rotate(360deg);
+    transform: scale(1, 1) rotate(360deg);
+  }
+}
 
 
 @media only screen and (max-width: 767px) {
