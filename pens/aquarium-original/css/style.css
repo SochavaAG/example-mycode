@@ -1,0 +1,48 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+html, body {
+  height: 100%;
+
+  overflow: hidden;
+}
+/*.aquarium-block {
+  height: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium/images/bg-2.jpg) no-repeat scroll 50% 0 #0068A6;
+  background-size: cover;
+
+  position: relative;
+}*/
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
