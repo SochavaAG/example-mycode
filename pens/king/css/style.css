@@ -1,36 +1,90 @@
-.ag-format-container {
-  width: 1142px;
-  margin: 0 auto;
+html,
+body {
+  height: 100%;
 }
 
+body {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/king/images/bg.jpg) no-repeat 50% 100%;
+  background-size: cover;
+}
+.ag-king {
+  height: 44.5em;
+  width: 35.3125em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/king/images/sprite-king.png) 0 0/400% 200% no-repeat;
 
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.ag-king::before {
+  content: "";
+  height: 22.25em;
+  width: 16.75em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/king/images/king-hand.png) 0 0/contain no-repeat;
 
+  z-index: -1;
+  position: absolute;
+  top: 14.4375em;
+  left: 1.875em;
 
-@media only screen and (max-width: 767px) {
-  .ag-format-container {
-    width: 96%;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+
+  -webkit-transform-origin: 98% 26%;
+  -moz-transform-origin: 98% 26%;
+  -o-transform-origin: 98% 26%;
+  transform-origin: 98% 26%;
+
+  -webkit-animation: king-hand 10s linear infinite;
+  -moz-animation: king-hand 10s linear infinite;
+  -o-animation: king-hand 10s linear infinite;
+  animation: king-hand 10s linear infinite;
+}
+
+@-webkit-keyframes king-hand {
+  0%, 4%, 8%, 12%, 100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
-
-}
-
-@media only screen and (max-width: 639px) {
-
-}
-
-@media only screen and (max-width: 479px) {
-
-}
-
-@media (min-width: 768px) and (max-width: 979px) {
-  .ag-format-container {
-    width: 750px;
+  3%, 7%, 11% {
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
   }
-
 }
-
-@media (min-width: 980px) and (max-width: 1161px) {
-  .ag-format-container {
-    width: 960px;
+@-moz-keyframes king-hand {
+  0%, 4%, 8%, 12%, 100% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
   }
-
+  3%, 7%, 11% {
+    -moz-transform: rotate(7deg);
+    transform: rotate(7deg);
+  }
+}
+@-o-keyframes king-hand {
+  0%, 4%, 8%, 12%, 100% {
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  3%, 7%, 11% {
+    -o-transform: rotate(7deg);
+    transform: rotate(7deg);
+  }
+}
+@keyframes king-hand {
+  0%, 4%, 8%, 12%, 100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  3%, 7%, 11% {
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+    transform: rotate(7deg);
+  }
 }

@@ -19,62 +19,7 @@
 </head>
 
 <body>
-<style>
-  .feast__king {
-    position:absolute;
-    right:0;
-    bottom:-.125em;
-    width:35.3125em;
-    height:44.5em;
-    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/king/images/sprite-king.png) 0 0/400% 200% no-repeat
-  }
-  .feast__king--is-active {
-    background-position-y:100%
-  }
-  .feast__king--chews {
-    background-position-y:100%;
-    -webkit-animation:steps-sprite steps(3, start) 0.3s 4 alternate;
-    animation:steps-sprite steps(3, start) 0.3s 4 alternate
-  }
-  .feast__king--chews::before {
-    content:none
-  }
-  .feast__king--poisoned {
-    background-position:33.33% 0
-  }
-  .feast__king--poisoned::after {
-    content:'';
-    position:absolute;
-    top:13.125em;
-    left:16.5625em;
-    width:7.1875em;
-    height:7.1875em;
-    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/king/images/bubbles-sprite.png) 0 0/1700% 100% no-repeat;
-    -webkit-animation:steps-sprite steps(16, start) 1.2s infinite;
-    animation:steps-sprite steps(16, start) 1.2s infinite
-  }
-  .feast__king::before {
-    content:'';
-    position:absolute;
-    top:14.4375em;
-    left:1.875em;
-    z-index:-1;
-    width:16.75em;
-    height:22.25em;
-    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/king/images/king-hand.png) 0 0/contain no-repeat;
-    -webkit-transform:rotate(0deg);
-    transform:rotate(0deg);
-    -webkit-transform-origin:98% 26%;
-    transform-origin:98% 26%;
-    -webkit-animation:king-hand 10s linear infinite;
-    animation:king-hand 10s linear infinite
-  }
-</style>
-
-
-  <div class="ag-format-container">
-    <div class="feast__king"></div>
-  </div>
+<div class="ag-king"></div>
 
 <!--[if lt IE 9]>
 <script src="libs/IE/html5shiv/es5-shim.min.js"></script>

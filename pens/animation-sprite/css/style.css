@@ -740,6 +740,42 @@ body {
 }
 /* /ball-loader */
 
+/* bubbles */
+.ag-bubbles {
+  display: inline-block;
+  height: 8em;
+  width: 8em;
+  margin: 0 0 0 50px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-bubbles.png) 0 0/1700% 100% no-repeat;
+
+  -webkit-animation: an-bubbles steps(16, start) 2s infinite;
+  -moz-animation: an-bubbles steps(16, start) 2s infinite;
+  -o-animation: an-bubbles steps(16, start) 2s infinite;
+  animation: an-bubbles steps(16, start) 2s infinite;
+}
+
+@-webkit-keyframes an-bubbles {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-moz-keyframes an-bubbles {
+  to {
+    background-position-x: 100%;
+  }
+}
+@-o-keyframes an-bubbles {
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes an-bubbles {
+  to {
+    background-position-x: 100%;
+  }
+}
+/* /bubbles */
+
 /* player-red */
 .ag-player-red {
   display: inline-block;
