@@ -4,6 +4,90 @@
 }
 
 
+ .ag-queen {
+    display: inline-block;
+    height: 42.0625em;
+    width: 32.375em;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/queen/images/sprite-queen.png) 0 0/200% 100% no-repeat;
+  }
+  .ag-queen:hover {
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/queen/images/sprite-queen.png) 100% 0/200% 100% no-repeat;
+  }
+
+  .ag-queen-1 {
+    display: inline-block;
+    height: 42.0625em;
+    width: 32.375em;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/queen/images/sprite-queen.png) 0 0/200% 100% no-repeat;
+
+    position: relative;
+  }
+  .ag-queen-1::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/queen/images/sprite-queen.png) 100% 0/200% 100% no-repeat;
+
+
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    -webkit-animation: an-queen 3s infinite;
+    -moz-animation: an-queen 3s infinite;
+    -o-animation: an-queen 3s infinite;
+    animation: an-queen 3s infinite;
+  }
+
+  .ag-queen-2 {
+    display: inline-block;
+    height: 42.0625em;
+    width: 32.375em;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/queen/images/sprite-queen.png) 0 0/200% 100% no-repeat;
+  }
+  .ag-queen-3 {
+    display: inline-block;
+    height: 42.0625em;
+    width: 32.375em;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/queen/images/sprite-queen.png) 0 0/200% 100% no-repeat;
+  }
+  .js-ag-queen {
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/queen/images/sprite-queen.png) 100% 0/200% 100% no-repeat;
+  }
+
+  @-webkit-keyframes an-queen {
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-moz-keyframes an-queen {
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-o-keyframes an-queen {
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes an-queen {
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 
 @media only screen and (max-width: 767px) {
