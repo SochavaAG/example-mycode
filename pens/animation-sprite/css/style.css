@@ -4316,6 +4316,86 @@ body {
 }
 /* /football */
 
+/* football-2 */
+.ag-football-2_box {
+  padding: 50px;
+  background-color: rgb(164, 231, 255);
+}
+.ag-football-2 {
+  display: inline-block;
+  height: 587px;
+  width: 524px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-football-2.png) no-repeat scroll 0 0;
+  background-position: 0 100%;
+
+  -webkit-animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
+  -moz-animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
+  -o-animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
+  animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
+}
+
+@-webkit-keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+@-moz-keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+@-o-keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+@keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+/* /football-2 */
+
+/* football-3 */
+.ag-football-3_box {
+  padding: 50px;
+  background-color: rgb(164, 231, 255);
+}
+.ag-football-3 {
+  display: inline-block;
+  height: 587px;
+  width: 524px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-sprite/images/sprite-football-3.png) no-repeat scroll 0 0;
+  background-position: 0 100%;
+
+  -webkit-animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
+  -moz-animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
+  -o-animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
+  animation: an-fear-mens-ltr-data 1.5s steps(13) infinite;
+}
+
+@-webkit-keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+@-moz-keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+@-o-keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+@keyframes an-fear-mens-ltr-data {
+  to {
+    background-position: 100% 100%;
+  }
+}
+/* /football-3 */
+
 /* fire-big */
 .ag-fire-big-1 {
   display: inline-block;
