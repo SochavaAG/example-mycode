@@ -16,7 +16,7 @@
           div = document.createElement('div'),
           $newDiv = $(div);
 
-        $newDiv.addClass('js-ag-bubble_item');
+        $newDiv.addClass('js-ag-bubble_item js-ag-bubble_item__dop');
         $newDiv.css({
           left: r1 + '%',
           bottom: 0,
