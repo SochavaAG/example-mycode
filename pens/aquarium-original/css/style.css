@@ -270,7 +270,7 @@ body,
   height: 37px;
   width: 53px;
 
-  top: 761px;
+  top: 361px;
 
   -webkit-animation: an-fish-anim-1 60s linear -10s reverse none infinite running;
   -moz-animation: an-fish-anim-1 60s linear -10s reverse none infinite running;
@@ -293,10 +293,10 @@ body,
 
   left: 100%;
 
-  -webkit-animation: an-fish-anim-31s linear -.4s reverse none infinite running;
-  -moz-animation: an-fish-anim-31s linear -.4s reverse none infinite running;
-  -o-animation: an-fish-anim-31s linear -.4s reverse none infinite running;
-  animation: an-fish-anim-31s linear -.4s reverse none infinite running;
+  -webkit-animation: an-fish-anim-3 1s linear -.4s reverse none infinite running;
+  -moz-animation: an-fish-anim-3 1s linear -.4s reverse none infinite running;
+  -o-animation: an-fish-anim-3 1s linear -.4s reverse none infinite running;
+  animation: an-fish-anim-3 1s linear -.4s reverse none infinite running;
 }
 .ag-fish-3 {
   height: 70px;
@@ -337,10 +337,10 @@ body,
 
   top: 637px;
 
-  -webkit-animation: an-fish-anim-170s linear -30s normal none infinite running;
-  -moz-animation: an-fish-anim-170s linear -30s normal none infinite running;
-  -o-animation: an-fish-anim-170s linear -30s normal none infinite running;
-  animation: an-fish-anim-170s linear -30s normal none infinite running;
+  -webkit-animation: an-fish-anim-1 70s linear -30s normal none infinite running;
+  -moz-animation: an-fish-anim-1 70s linear -30s normal none infinite running;
+  -o-animation: an-fish-anim-1 70s linear -30s normal none infinite running;
+  animation: an-fish-anim-1 70s linear -30s normal none infinite running;
 }
 .ag-fish-4 > div {
   width: 58px;
@@ -349,10 +349,10 @@ body,
 
   right: 0;
 
-  -webkit-animation: an-fish-anim-230s ease -15s normal none infinite running;
-  -moz-animation: an-fish-anim-230s ease -15s normal none infinite running;
-  -o-animation: an-fish-anim-230s ease -15s normal none infinite running;
-  animation: an-fish-anim-230s ease -15s normal none infinite running;
+  -webkit-animation: an-fish-anim-2 30s ease -15s normal none infinite running;
+  -moz-animation: an-fish-anim-2 30s ease -15s normal none infinite running;
+  -o-animation: an-fish-anim-2 30s ease -15s normal none infinite running;
+  animation: an-fish-anim-2 30s ease -15s normal none infinite running;
 }
 .ag-fish-4 > div:before {
   background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium-original/images/fishtail-4.png);
@@ -380,10 +380,10 @@ body,
   width: 85px;
   background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium-original/images/fish-5.png);
 
-  -webkit-animation: an-fish-anim-235s ease -20s normal none infinite running;
-  -moz-animation: an-fish-anim-235s ease -20s normal none infinite running;
-  -o-animation: an-fish-anim-235s ease -20s normal none infinite running;
-  animation: an-fish-anim-235s ease -20s normal none infinite running;
+  -webkit-animation: an-fish-anim-2 35s ease -20s normal none infinite running;
+  -moz-animation: an-fish-anim-2 35s ease -20s normal none infinite running;
+  -o-animation: an-fish-anim-2 35s ease -20s normal none infinite running;
+  animation: an-fish-anim-2 35s ease -20s normal none infinite running;
 }
 .ag-fish-5 > div:before {
   background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/aquarium-original/images/fishtail-5.png);
@@ -420,10 +420,10 @@ body,
   z-index: 0;
   top: 363px;
 
-  -webkit-animation: an-fish-anim-1120s linear -10s normal none infinite running;
-  -moz-animation: an-fish-anim-1120s linear -10s normal none infinite running;
-  -o-animation: an-fish-anim-1120s linear -10s normal none infinite running;
-  animation: an-fish-anim-1120s linear -10s normal none infinite running;
+  -webkit-animation: an-fish-anim-1 120s linear -10s normal none infinite running;
+  -moz-animation: an-fish-anim-1 120s linear -10s normal none infinite running;
+  -o-animation: an-fish-anim-1 120s linear -10s normal none infinite running;
+  animation: an-fish-anim-1 120s linear -10s normal none infinite running;
 }
 .ag-fish-6-2 > div {
   width: 137px;
@@ -438,10 +438,10 @@ body,
   z-index: 0;
   top: 690px;
 
-  -webkit-animation: an-fish-anim-1140s linear -20s normal none infinite running;
-  -moz-animation: an-fish-anim-1140s linear -20s normal none infinite running;
-  -o-animation: an-fish-anim-1140s linear -20s normal none infinite running;
-  animation: an-fish-anim-1140s linear -20s normal none infinite running;
+  -webkit-animation: an-fish-anim-1 140s linear -20s normal none infinite running;
+  -moz-animation: an-fish-anim-1 140s linear -20s normal none infinite running;
+  -o-animation: an-fish-anim-1 140s linear -20s normal none infinite running;
+  animation: an-fish-anim-1 140s linear -20s normal none infinite running;
 }
 .ag-fish-6-3 > div {
   width: 332px;
@@ -485,7 +485,7 @@ body,
 .js-ag-bubble_item__dop {
   margin-bottom: 20px;
 
-  opacity: .2;
+  opacity: .7;
 
   bottom: 100%;
 
@@ -504,7 +504,7 @@ body,
   top: 0;
   right: 0;
   left: 0;
-  bottom: 200px;
+  bottom: 150px;
 }
 
 @-webkit-keyframes an-fish-anim-1 {

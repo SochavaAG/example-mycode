@@ -24,9 +24,9 @@
           x: agRandom(-50, 50),
           width: r2,
           height: (r2 * 0.66),
-          '-webkit-animation': r3 + 'ms linear ' + r4 + 'ms reverse none infinite running PSDN-bubbleOne-anim',
+          /*'-webkit-animation': r3 + 'ms linear ' + r4 + 'ms reverse none infinite running PSDN-bubbleOne-anim',
           '-moz-animation': r3 + 'ms linear ' + r4 + 'ms reverse none infinite running PSDN-bubbleOne-anim',
-          'animation': r3 + 'ms linear ' + r4 + 'ms reverse none infinite running PSDN-bubbleOne-anim',
+          'animation': r3 + 'ms linear ' + r4 + 'ms reverse none infinite running PSDN-bubbleOne-anim',*/
         });
         $('.js-bubble_list').append($newDiv);
         $newDiv.delay(i * agRandom(30, 150)).transition({
