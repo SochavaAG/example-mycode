@@ -22,7 +22,7 @@
         <entry file="file://$USER_HOME$/format-2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="9" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="71" />
+              <caret line="9" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -41,8 +41,8 @@
       <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-t.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="772">
+              <caret line="220" column="1" lean-forward="false" selection-start-line="220" selection-start-column="1" selection-end-line="220" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -51,18 +51,8 @@
       <file leaf-file-name="30-welcome-asia-EN.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/landing-pages/2021.05.27_landing_30-welcome-asia/30-welcome-asia-EN.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="718" column="0" lean-forward="true" selection-start-line="718" selection-start-column="0" selection-end-line="718" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="i-love-justforex-EN.html" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/landing-pages/2021.06.10_landing_i-love-justforex/i-love-justforex-EN.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-258">
-              <caret line="141" column="22" lean-forward="true" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
+            <state relative-caret-position="17232">
+              <caret line="718" column="0" lean-forward="false" selection-start-line="718" selection-start-column="0" selection-end-line="718" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,8 +61,8 @@
       <file leaf-file-name="contact-information-CN.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.10_FX-23387_QQ_contact-information/contact-information-CN.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="263" column="37" lean-forward="true" selection-start-line="263" selection-start-column="37" selection-end-line="263" selection-end-column="37" />
+            <state relative-caret-position="1968">
+              <caret line="263" column="37" lean-forward="false" selection-start-line="263" selection-start-column="37" selection-end-line="263" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#!!top" expanded="false" />
               </folding>
@@ -96,7 +86,7 @@
         <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.10_FX-23387_QQ_contact-information/contact-information-ZH.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -105,7 +95,7 @@
       <file leaf-file-name="messengers-CN.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.10_FX-23387_QQ_contact-information/single-snippet_220/messengers-CN.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="1320">
               <caret line="55" column="93" lean-forward="false" selection-start-line="55" selection-start-column="93" selection-end-line="55" selection-end-column="93" />
               <folding />
             </state>
@@ -115,8 +105,38 @@
       <file leaf-file-name="messengers-ZH.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.10_FX-23387_QQ_contact-information/single-snippet_220/messengers-ZH.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
+            <state relative-caret-position="1320">
               <caret line="55" column="8" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/table-hover/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/table-hover/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="89" lean-forward="false" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="24" column="113" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="113" />
               <folding />
             </state>
           </provider>
@@ -126,7 +146,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>js-ag-line_item_logo</find>
       <find>f3cc66</find>
       <find>70px;</find>
       <find>70px</find>
@@ -156,6 +175,7 @@
       <find>ag-qq-qr-code_btn</find>
       <find>.as-i-love-justforex-page</find>
       <find>sprite-QR.png.</find>
+      <find>ag-account_currencies</find>
     </findStrings>
     <replaceStrings>
       <replace>]</replace>
@@ -213,8 +233,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/070-Indonesian bank transfer created (withdrawal direction for user)/70_Mt4_Indonesian_bank_transfer_created_(withdrawal_direction_for_user)-VI.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/070-Indonesian bank transfer created (withdrawal direction for user)/70_Mt4_Indonesian_bank_transfer_created_(withdrawal_direction_for_user)-ZH.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/compare/079-User Got Promo Code Bonus-EN.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-ZH.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-VI.html" />
@@ -255,7 +273,6 @@
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-CN.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-BN.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-AR.html" />
-        <option value="$USER_HOME$/format-t.css" />
         <option value="$USER_HOME$/format-1.html" />
         <option value="$USER_HOME$/vazhno_project-1/2019.11.08_QQ_button/simple-snippet_qq-buttons-CN.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.10_FX-23387_QQ_contact-information/single-snippet/simple-snippet_qq-buttons-CN.html" />
@@ -264,6 +281,9 @@
         <option value="$USER_HOME$/vazhno_project-1/2021.06.10_FX-23387_QQ_contact-information/single-snippet_220/messengers-ZH.html" />
         <option value="$USER_HOME$/format-2.html" />
         <option value="$USER_HOME$/landing-pages/2021.06.10_landing_i-love-justforex/i-love-justforex-EN.html" />
+        <option value="$USER_HOME$/format-t.css" />
+        <option value="$PROJECT_DIR$/table-hover/index.html" />
+        <option value="$PROJECT_DIR$/table-hover/css/style.css" />
       </list>
     </option>
   </component>
@@ -298,7 +318,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/vazhno_project-1/2021.06.10_FX-23387_QQ_contact-information/single-snippet_220/messengers-ZH.html" />
+    <property name="last_opened_file_path" value="$USER_HOME$/format-t.css" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
@@ -490,21 +510,21 @@
       <workItem from="1622634383461" duration="12821000" />
       <workItem from="1623160019790" duration="5969000" />
       <workItem from="1623310276180" duration="18524000" />
+      <workItem from="1624604841357" duration="1842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="841730000" />
+    <option name="totallyTimeSpent" value="843572000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
+    <frame x="0" y="24" width="1920" height="1015" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16023579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -516,6 +536,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -539,341 +560,46 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-CN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="659" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="679" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="668" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="686" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-ES.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="676" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="695" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-FA.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="678" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="699" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-FR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="674" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="694" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-HI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="671" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="691" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-ID.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="672" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="693" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-JP.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="663" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="684" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-KO.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="664" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="684" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-MS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="672" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="693" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-PK.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="676" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="694" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-PT.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="675" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="693" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-RU.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="675" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="693" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-TH.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="673" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="693" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-ZH.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="661" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="679" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-VI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="673" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="694" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-TR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="673" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="693" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-FA.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-FR.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-HI.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-ID.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-JP.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-KO.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-MS.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-PK.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-PT.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-RU.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-TH.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-ZH.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-VI.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/079-User Got Promo Code Bonus/79_User_Got_Promo_Code_Bonus-TR.html" />
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/compare/083-Promo code bonus has been traded-EN.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="826">
           <caret line="666" column="7" lean-forward="false" selection-start-line="666" selection-start-column="7" selection-end-line="666" selection-end-column="7" />
-          <folding>
-            <element signature="e#12749#12755#0" expanded="true" />
-            <element signature="e#32029#32035#1" expanded="true" />
-            <marker date="1623316303443" expanded="true" signature="122:258" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="153:249" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="6286:6298" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="6299:6386" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="6314:6386" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="6364:6376" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="6377:6386" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="11019:11030" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="11031:11079" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="11058:11079" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="11184:11196" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="11197:11218" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="13387:13398" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="13399:13447" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="13426:13447" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="13552:13564" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="13565:13586" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="17035:17119" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="17080:17119" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="17255:17294" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="19743:19782" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="22225:22264" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="24704:24743" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="28318:28329" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="28330:28378" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="28357:28378" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="28483:28495" ph="..." />
-            <marker date="1623316303443" expanded="true" signature="28496:28517" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-AR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="675" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="692" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-BN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="655" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="674" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-CN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="639" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="659" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="645" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="666" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-ES.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="654" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="675" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-FA.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="675" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="696" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-FR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="652" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="674" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-HI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="652" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="671" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-ID.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="653" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="673" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-JP.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="645" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="664" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-KO.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="643" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="664" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-MS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="652" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="673" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-PK.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="673" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="695" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-PT.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="652" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="673" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-RU.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="652" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="673" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-TH.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="653" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="674" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-ZH.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="638" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="659" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-VI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="653" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="674" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-TR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="653" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="673" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format-t.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-AR.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-BN.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-CN.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-EN.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-ES.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-FA.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-FR.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-HI.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-ID.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-JP.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-KO.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-MS.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-PK.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-PT.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-RU.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-TH.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-ZH.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-VI.html" />
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/083-Promo code bonus has been traded/83_Promo_code_bonus_has_been_traded-TR.html" />
     <entry file="file://$USER_HOME$/format-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -884,25 +610,17 @@
     </entry>
     <entry file="file://$USER_HOME$/landing-pages/2021.05.27_landing_30-welcome-asia/30-welcome-asia-EN.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="718" column="0" lean-forward="true" selection-start-line="718" selection-start-column="0" selection-end-line="718" selection-end-column="0" />
+        <state relative-caret-position="17232">
+          <caret line="718" column="0" lean-forward="false" selection-start-line="718" selection-start-column="0" selection-end-line="718" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.10_FX-23387_QQ_contact-information/single-snippet/simple-snippet_qq-buttons-CN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.10_FX-23387_QQ_contact-information/single-snippet/simple-snippet_qq-buttons-CN.html" />
     <entry file="file://$USER_HOME$/vazhno_project-1/2019.11.08_QQ_button/simple-snippet_qq-buttons-CN.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
           <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,14 +635,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="88" column="33" lean-forward="true" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.10_FX-23387_QQ_contact-information/contact-information-CN.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="263" column="37" lean-forward="true" selection-start-line="263" selection-start-column="37" selection-end-line="263" selection-end-column="37" />
+        <state relative-caret-position="1968">
+          <caret line="263" column="37" lean-forward="false" selection-start-line="263" selection-start-column="37" selection-end-line="263" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#!!top" expanded="false" />
           </folding>
@@ -944,7 +660,7 @@
     </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.10_FX-23387_QQ_contact-information/single-snippet_220/messengers-CN.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="1320">
           <caret line="55" column="93" lean-forward="false" selection-start-line="55" selection-start-column="93" selection-end-line="55" selection-end-column="93" />
           <folding />
         </state>
@@ -952,7 +668,7 @@
     </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.10_FX-23387_QQ_contact-information/single-snippet_220/messengers-ZH.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
+        <state relative-caret-position="1320">
           <caret line="55" column="8" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="95" />
           <folding />
         </state>
@@ -961,7 +677,7 @@
     <entry file="file://$USER_HOME$/format-2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="71" />
+          <caret line="9" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -969,15 +685,40 @@
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.10_FX-23387_QQ_contact-information/contact-information-ZH.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/landing-pages/2021.06.10_landing_i-love-justforex/i-love-justforex-EN.html">
+    <entry file="file://$USER_HOME$/landing-pages/2021.06.10_landing_i-love-justforex/i-love-justforex-EN.html" />
+    <entry file="file://$USER_HOME$/format-t.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-258">
-          <caret line="141" column="22" lean-forward="true" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
+        <state relative-caret-position="772">
+          <caret line="220" column="1" lean-forward="false" selection-start-line="220" selection-start-column="1" selection-end-line="220" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table-hover/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-sprite/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="113" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table-hover/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="89" lean-forward="false" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
           <folding />
         </state>
       </provider>
