@@ -3,7 +3,41 @@
   margin: 0 auto;
 }
 
+.ag-marquee-page {
+  height: 2000px;
+  background-color: #000;
 
+  position: relative;
+}
+
+.ag-marquee-block {
+  padding: 90px 0;
+
+  overflow-x: hidden;
+}
+.ag-marquee_box {
+  display: block;
+
+  white-space: nowrap;
+
+  position: fixed;
+  top: 10%;
+  left: 0;
+}
+.ag-marquee_box:hover {
+  text-decoration: none;
+}
+.ag-marquee_text-item {
+  display: inline-block;
+  margin: 0 15px 0 0;
+
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #EBA800;
+}
+.ag-marquee_text-item:hover {
+  text-decoration: underline;
+}
 
 
 @media only screen and (max-width: 767px) {
