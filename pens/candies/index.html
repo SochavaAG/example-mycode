@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Candies</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  img {
+    max-width: 100%;
+  }
+
+  body {
+    background-color: #FDCBCE;
+  }
+  .ag-candies-block {
+    font-size: 1rem;
+  }
+  .ag-candies_box-wrap {
+    width: 739px;
+    margin: 0 auto;
+
+    font-size: 1rem;
+  }
+  .ag-candies_box {
+    position: relative;
+  }
+  .ag-candies_box.deactive {
+    pointer-events: none;
+  }
+  .ag-candies_item {
+    position: absolute;
+
+    cursor: pointer;
+
+    -webkit-filter: brightness(.8);
+    filter: brightness(.8);
+
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  .ag-candies_item.active {
+    opacity: 0;
+  }
+  .ag-candies_item:hover {
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+  }
+  .ag-candies_item-1 {
+    width: 11.5%;
+
+    top: 17.2%;
+    left: 46.7%;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .ag-candies_item-2 {
+    width: 11.5%;
+
+    top: 18.2%;
+    right: 39.7%;
+
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+  }
+  .ag-candies_item-3 {
+    width: 10.5%;
+
+    top: 30%;
+    left: 53.5%;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .ag-candies_item-4 {
+    width: 11.5%;
+
+    top: 44%;
+    left: 53.9%;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .ag-candies_item-5 {
+    width: 10%;
+
+    top: 59%;
+    left: 54%;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .ag-candies_item-6 {
+    width: 15%;
+
+    left: 54%;
+    bottom: 23.1%;
+
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+  }
+  .ag-candies_item-7 {
+    width: 12%;
+
+    left: 44.3%;
+    bottom: 30.9%;
+
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+  }
+  .ag-candies_item-8 {
+    width: 12%;
+
+    right: 37.1%;
+    bottom: 30.7%;
+
+    -webkit-transform: translate(50%, 50%);
+    -moz-transform: translate(50%, 50%);
+    -ms-transform: translate(50%, 50%);
+    -o-transform: translate(50%, 50%);
+    transform: translate(50%, 50%);
+  }
+  .ag-candies_item-9 {
+    width: 15.5%;
+
+    right: 26.5%;
+    bottom: 41%;
+
+    -webkit-transform: translate(50%, 50%);
+    -moz-transform: translate(50%, 50%);
+    -ms-transform: translate(50%, 50%);
+    -o-transform: translate(50%, 50%);
+    transform: translate(50%, 50%);
+  }
+  .ag-candies_item-10 {
+    width: 11.5%;
+
+    top: 47.5%;
+    right: 18.8%;
+
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+  }
+  .ag-candies_item-11 {
+    width: 15.5%;
+
+    top: 35.7%;
+    right: 16.6%;
+
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+  }
+  .ag-candies_item-12 {
+    width: 12%;
+
+    top: 24.4%;
+    right: 15.7%;
+
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+  }
+  .ag-candies_item-13 {
+    width: 13.5%;
+
+    top: 15.7%;
+    right: 26.3%;
+
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+  }
+  .ag-candies_item-14 {
+    width: 11.5%;
+
+    bottom: 47.5%;
+    right: 36.3%;
+
+    -webkit-transform: translate(50%, 50%);
+    -moz-transform: translate(50%, 50%);
+    -ms-transform: translate(50%, 50%);
+    -o-transform: translate(50%, 50%);
+    transform: translate(50%, 50%);
+  }
+  .ag-candies_item-15 {
+    width: 14%;
+
+    top: 39.7%;
+    right: 32.4%;
+
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+  }
+  .ag-candies_item-16 {
+    width: 15.5%;
+
+    top: 27.5%;
+    right: 31.6%;
+
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+  }
+  .ag-candies_item-17 {
+    width: 16%;
+
+    left: 35%;
+    bottom: 40.9%;
+
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+  }
+  .ag-candies_item-18 {
+    width: 12%;
+
+    bottom: 52%;
+    left: 25.8%;
+
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+  }
+  .ag-candies_item-19 {
+    width: 15%;
+
+    top: 36.4%;
+    left: 23.5%;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .ag-candies_item-20 {
+    width: 12%;
+
+    top: 24.8%;
+    left: 22%;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .ag-candies_item-21 {
+    width: 13.5%;
+
+    top: 15.9%;
+    left: 32.9%;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .ag-candies_item-22 {
+    width: 16%;
+
+    top: 27.4%;
+    left: 38%;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .ag-candies_item-23 {
+    width: 14.5%;
+
+    top: 39.8%;
+    left: 39.1%;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .ag-candies_item-24 {
+    width: 11.5%;
+
+    top: 52%;
+    left: 42.9%;
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .js-ag-candies_item-win {
+    width: 11%;
+
+    position: absolute;
+  }
+  .js-ag-candies_item-win img {
+    -webkit-animation: an-prize .3s ease-in-out both;
+    -moz-animation: an-prize .3s ease-in-out both;
+    -o-animation: an-prize .3s ease-in-out both;
+    animation: an-prize .3s ease-in-out both;
+
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+  }
+
+  @-webkit-keyframes an-prize {
+    to {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  @-moz-keyframes an-prize {
+    to {
+      -moz-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  @-o-keyframes an-prize {
+    to {
+      -o-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  @keyframes an-prize {
+    to {
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+
+  /* diamonds */
+  .ag-diamonds {
+    display: inline-block;
+    height: 69px;
+    width: 85px;
+    margin: 0 0 0 50px;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/diamonds.png) no-repeat 0 0;
+
+    -webkit-animation: an-diamonds 10s steps(49) infinite;
+    -moz-animation: an-diamonds 10s steps(49) infinite;
+    -o-animation: an-diamonds 10s steps(49) infinite;
+    animation: an-diamonds 10s steps(49) infinite;
+  }
+
+  @-webkit-keyframes an-diamonds {
+    to {
+      background-position-x: 100%;
+    }
+  }
+  @-moz-keyframes an-diamonds {
+    to {
+      background-position-x: 100%;
+    }
+  }
+  @-o-keyframes an-diamonds {
+    to {
+      background-position-x: 100%;
+    }
+  }
+  @keyframes an-diamonds {
+    to {
+      background-position-x: 100%;
+    }
+  }
+  /* /diamonds */
+
+  /* heart */
+  .ag-heart {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 0 50px 0 0;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/heart.png) no-repeat 0 50%;
+
+    -webkit-animation: an-heart steps(28, start) 1s infinite;
+    -moz-animation: an-heart steps(28, start) 1s infinite;
+    -o-animation: an-heart steps(28, start) 1s infinite;
+    animation: an-heart steps(28, start) 1s infinite;
+  }
+
+  @-webkit-keyframes an-heart {
+    to {
+      background-position-x: 100%;
+    }
+  }
+  @-moz-keyframes an-heart {
+    to {
+      background-position-x: 100%;
+    }
+  }
+  @-o-keyframes an-heart {
+    to {
+      background-position-x: 100%;
+    }
+  }
+  @keyframes an-heart {
+    to {
+      background-position-x: 100%;
+    }
+  }
+  /* /heart */
+
+  /* lamp-blick */
+  .ag-lamp-blick {
+    display: inline-block;
+    height: 120px;
+    width: 123px;
+    margin: 0 0 0 50px;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/lamp-blick.png) no-repeat scroll 0 0;
+
+    -webkit-animation: an-lamp-blick 1s steps(13, start) infinite;
+    -moz-animation: an-lamp-blick 1s steps(13, start) infinite;
+    -o-animation: an-lamp-blick 1s steps(13, start) infinite;
+    animation: an-lamp-blick 1s steps(13, start) infinite;
+
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+
+  @-webkit-keyframes an-lamp-blick {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  @-moz-keyframes an-lamp-blick {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  @-o-keyframes an-lamp-blick {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  @keyframes an-lamp-blick {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  /* /lamp-blick */
+
+
+  @media only screen and (max-width: 767px) {
+    .ag-format-container {
+      width: 96%;
+    }
+
+    .ag-candies_box-wrap {
+      width: 100%;
+    }
+  }
+</style>
+
+  <div class="ag-format-container">
+    <section class="ag-candies-block">
+      <div class="ag-candies_box-wrap">
+        <div class="ag-candies_box">
+          <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-box.png" alt="">
+          
+          <div class="js-candies_item ag-candies_item ag-candies_item-1">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-1.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-2">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-2.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-3">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-3.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-4">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-4.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-5">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-5.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-6">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-6.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-7">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-7.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-8">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-8.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-9">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-9.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-10">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-10.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-11">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-11.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-12">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-12.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-13">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-13.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-14">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-14.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-15">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-15.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-16">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-16.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-17">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-17.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-18">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-18.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-19">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-19.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-20">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-20.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-21">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-21.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-22">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-22.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-23">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-23.png" class="js-candies_img" alt=""></div>
+          <div class="js-candies_item ag-candies_item ag-candies_item-24">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/candies/images/candies-24.png" class="js-candies_img" alt=""></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
