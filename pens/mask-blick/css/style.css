@@ -4,6 +4,92 @@
 }
 
 
+img {
+  max-width: 100%;
+}
+.ag-sum {
+  width: 42.8125em;
+
+  overflow: hidden;
+
+  z-index: 1;
+  position: relative;
+}
+.ag-sum:before {
+  content: "";
+  display: block;
+  height: 92%;
+  width: 50%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, hsla(0, 0%, 100%, 0)), to(rgba(255, 0, 0, .9)));
+  background: -moz-linear-gradient(left, hsla(0, 0%, 100%, 0) 0, rgba(255, 0, 0, .9));
+  background: linear-gradient(90deg, hsla(0, 0%, 100%, 0) 0, rgba(255, 0, 0, .9));
+
+  opacity: .6;
+
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: -75%;
+
+  -webkit-transform: skewX(-25deg);
+  -moz-transform: skewX(-25deg);
+  -ms-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+
+  -webkit-animation: an-blink 8s infinite;
+  -moz-animation: an-blink 8s infinite;
+  -o-animation: an-blink 8s infinite;
+  animation: an-blink 8s infinite;
+}
+.ag-sum__mask {
+  -webkit-mask-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mask-blick/images/600-mask.png);
+  -webkit-mask-size: 100% 100%;
+}
+
+@-webkit-keyframes an-blink {
+  0% {
+    left: -75%
+  }
+  50% {
+    left: 125%;
+  }
+  to {
+    left: 125%;
+  }
+}
+@-moz-keyframes an-blink {
+  0% {
+    left: -75%;
+  }
+  50% {
+    left: 125%;
+  }
+  to {
+    left: 125%;
+  }
+}
+@-o-keyframes an-blink {
+  0% {
+    left: -75%;
+  }
+  50% {
+    left: 125%;
+  }
+  to {
+    left: 125%;
+  }
+}
+@keyframes an-blink {
+  0% {
+    left: -75%;
+  }
+  50% {
+    left: 125%;
+  }
+  to {
+    left: 125%;
+  }
+}
 
 
 @media only screen and (max-width: 767px) {
