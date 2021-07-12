@@ -142,6 +142,10 @@ body {
     width: 96%;
   }
 
+  .ag-tree-block {
+    padding: 0 0 100%;
+    background-size: 200% auto;
+  }
 }
 
 @media only screen and (max-width: 639px) {
@@ -157,6 +161,10 @@ body {
     width: 750px;
   }
 
+  .ag-tree-block {
+    padding: 0 0 80%;
+    background-size: 150% auto;
+  }
 }
 
 @media (min-width: 980px) and (max-width: 1161px) {
@@ -164,4 +172,8 @@ body {
     width: 960px;
   }
 
+  .ag-tree-block {
+    padding: 0 0 80%;
+    background-size: 150% auto;
+  }
 }
