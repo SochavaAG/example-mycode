@@ -57,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scroll-text/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="576">
@@ -87,18 +87,50 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="promo21.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example-site-1/play.pokerok12.com/promo21.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="538">
+              <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="promo22.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example-site-1/play.pokerok12.com/promo22.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="14" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style-22.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example-site-1/play.pokerok12.com/css/style-22.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="5" column="108" lean-forward="false" selection-start-line="5" selection-start-column="108" selection-end-line="5" selection-end-column="108" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="promo23.html" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/example-site-1/play.pokerok12.com/promo23.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="336" column="96" lean-forward="true" selection-start-line="336" selection-start-column="96" selection-end-line="336" selection-end-column="96" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>سهام</find>
-      <find>Harap dicatat</find>
-      <find>BKIA</find>
-      <find>65</find>
-      <find>benefit</find>
-      <find>ag-rules</find>
-      <find>as-write</find>
-      <find>as-showcase</find>
       <find>take-chance</find>
       <find>i-love-jf</find>
       <find>as-post</find>
@@ -121,11 +153,16 @@
       <find>ag-total_inner</find>
       <find>ag-total_box</find>
       <find>ag-total</find>
+      <find>../img/bg/</find>
+      <find>../img/</find>
+      <find>../img/text/</find>
+      <find>&quot;</find>
+      <find>https://play.pokerok386.com/wp-content/themes/ggru/promo/promo22/img/</find>
+      <find>https://play.pokerok386.com/wp-content/themes/ggru/promo/promo23/img/items/</find>
+      <find>https://play.pokerok386.com/wp-content/themes/ggru/promo/promo23/img/</find>
+      <find>https://play.pokerok386.com/wp-content/themes/ggru/promo/promo23/img/footer/</find>
     </findStrings>
     <replaceStrings>
-      <replace>70px;</replace>
-      <replace>000</replace>
-      <replace>-70px;</replace>
       <replace>30px</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline-speakers/images/</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline-speakers/fonts/</replace>
@@ -153,6 +190,9 @@
       <replace>ag-total_inner</replace>
       <replace>ag-cursive_text</replace>
       <replace>ag-total_box</replace>
+      <replace>'</replace>
+      <replace>images/promo22/</replace>
+      <replace>images/promo23/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -180,9 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project-1/2019.11.08_QQ_button/simple-snippet_qq-buttons-CN.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.10_FX-23387_QQ_contact-information/single-snippet/simple-snippet_qq-buttons-CN.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.10_FX-23387_QQ_contact-information/contact-information-CN.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.10_FX-23387_QQ_contact-information/single-snippet_220/messengers-CN.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.10_FX-23387_QQ_contact-information/single-snippet_220/messengers-ZH.html" />
         <option value="$USER_HOME$/format-2.html" />
@@ -231,6 +268,9 @@
         <option value="$PROJECT_DIR$/scroll-text/js/main.js" />
         <option value="$PROJECT_DIR$/scroll-text/index.html" />
         <option value="$PROJECT_DIR$/scroll-text/css/style.css" />
+        <option value="$USER_HOME$/example-site-1/play.pokerok12.com/promo22.html" />
+        <option value="$USER_HOME$/example-site-1/play.pokerok12.com/css/style-22.min.css" />
+        <option value="$USER_HOME$/example-site-1/play.pokerok12.com/promo23.html" />
       </list>
     </option>
   </component>
@@ -458,12 +498,12 @@
       <workItem from="1623160019790" duration="5969000" />
       <workItem from="1623310276180" duration="18524000" />
       <workItem from="1624604841357" duration="20315000" />
-      <workItem from="1625821197408" duration="483000" />
+      <workItem from="1625821197408" duration="2539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="862528000" />
+    <option name="totallyTimeSpent" value="864584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -508,34 +548,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.25_FX-23564_Shares/snippet-119_Contract Specifications TABLE (Pro)/MAIN_Contract Specifications TABLE (Pro)-BN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.25_FX-23564_Shares/snippet-119_Contract Specifications TABLE (Pro)/MAIN_Contract Specifications TABLE (Pro)-CN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.25_FX-23564_Shares/snippet-119_Contract Specifications TABLE (Pro)/MAIN_Contract Specifications TABLE (Pro)-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.25_FX-23564_Shares/snippet-119_Contract Specifications TABLE (Pro)/MAIN_Contract Specifications TABLE (Pro)-ES.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.25_FX-23564_Shares/snippet-119_Contract Specifications TABLE (Pro)/MAIN_Contract Specifications TABLE (Pro)-FA.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -870,6 +882,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site-1/play.pokerok12.com/promo21.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site-1/play.pokerok12.com/css/style-22.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="5" column="108" lean-forward="false" selection-start-line="5" selection-start-column="108" selection-end-line="5" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site-1/play.pokerok12.com/promo22.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="14" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site-1/play.pokerok12.com/promo23.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="336" column="96" lean-forward="true" selection-start-line="336" selection-start-column="96" selection-end-line="336" selection-end-column="96" />
           <folding />
         </state>
       </provider>
