@@ -1,0 +1,167 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+.ag-tree-block {
+  padding: 0 0 50%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-tree/images/bg.png) no-repeat scroll 50% 0;
+  background-size: 100% auto;
+
+  z-index: 1;
+  position: relative;
+}
+.ag-branch_top-left {
+  height: 314px;
+  width: 554px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-tree/images/branch-top-left.png) no-repeat scroll 0 0;
+
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-animation: an-branch_top-left 5s ease-in-out alternate infinite;
+  -moz-animation: an-branch_top-left 5s ease-in-out alternate infinite;
+  -o-animation: an-branch_top-left 5s ease-in-out alternate infinite;
+  animation: an-branch_top-left 5s ease-in-out alternate infinite;
+}
+.ag-branch_top-right {
+  height: 314px;
+  width: 550px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-tree/images/branch-top-right.png) no-repeat scroll 0 0;
+
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  -webkit-animation: an-branch_top-right 5s ease-in-out alternate infinite;
+  -moz-animation: an-branch_top-right 5s ease-in-out alternate infinite;
+  -o-animation: an-branch_top-right 5s ease-in-out alternate infinite;
+  animation: an-branch_top-right 5s ease-in-out alternate infinite;
+}
+
+@-webkit-keyframes an-branch_top-left {
+  0% {
+    -webkit-transform: skew(0) translate(0);
+    transform: skew(0) translate(0);
+  }
+  to {
+    -webkit-transform: skew(15deg) translate(-5%, -6%);
+    transform: skew(15deg) translate(-5%, -6%);
+  }
+}
+@-moz-keyframes an-branch_top-left {
+  0% {
+    -moz-transform: skew(0) translate(0);
+    transform: skew(0) translate(0);
+  }
+  to {
+    -moz-transform: skew(15deg) translate(-5%, -6%);
+    transform: skew(15deg) translate(-5%, -6%);
+  }
+}
+@-o-keyframes an-branch_top-left {
+  0% {
+    -o-transform: skew(0) translate(0);
+    transform: skew(0) translate(0);
+  }
+  to {
+    -o-transform: skew(15deg) translate(-5%, -6%);
+    transform: skew(15deg) translate(-5%, -6%);
+  }
+}
+@keyframes an-branch_top-left {
+  0% {
+    -webkit-transform: skew(0) translate(0);
+    -moz-transform: skew(0) translate(0);
+    -o-transform: skew(0) translate(0);
+    transform: skew(0) translate(0);
+  }
+  to {
+    -webkit-transform: skew(15deg) translate(-5%, -6%);
+    -moz-transform: skew(15deg) translate(-5%, -6%);
+    -o-transform: skew(15deg) translate(-5%, -6%);
+    transform: skew(15deg) translate(-5%, -6%);
+  }
+}
+
+@-webkit-keyframes an-branch_top-right {
+  0% {
+    -webkit-transform: skew(0) translate(5%, -6%);
+    transform: skew(0) translate(5%, -6%);
+  }
+  to {
+    -webkit-transform: skew(-10deg) translate(0);
+    transform: skew(-10deg) translate(0);
+  }
+}
+@-moz-keyframes an-branch_top-right {
+  0% {
+    -moz-transform: skew(0) translate(5%, -6%);
+    transform: skew(0) translate(5%, -6%);
+  }
+  to {
+    -moz-transform: skew(-10deg) translate(0);
+    transform: skew(-10deg) translate(0);
+  }
+}
+@-o-keyframes an-branch_top-right {
+  0% {
+    -o-transform: skew(0) translate(5%, -6%);
+    transform: skew(0) translate(5%, -6%);
+  }
+  to {
+    -o-transform: skew(-10deg) translate(0);
+    transform: skew(-10deg) translate(0);
+  }
+}
+@keyframes an-branch_top-right {
+  0% {
+    -webkit-transform: skew(0) translate(5%, -6%);
+    -moz-transform: skew(0) translate(5%, -6%);
+    -o-transform: skew(0) translate(5%, -6%);
+    transform: skew(0) translate(5%, -6%);
+  }
+  to {
+    -webkit-transform: skew(-10deg) translate(0);
+    -moz-transform: skew(-10deg) translate(0);
+    -o-transform: skew(-10deg) translate(0);
+    transform: skew(-10deg) translate(0);
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
