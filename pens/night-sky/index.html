@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Night Sky</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .sky {
+    height:87%;
+    z-index:-5
+  }
+  .clouds,
+  .sky,
+  .stars,
+  .twinkling {
+    width:100%;
+    position:absolute;
+    left:0;
+    top:0
+  }
+  .clouds,
+  .stars,
+  .twinkling {
+    right:0;
+    bottom:0;
+    height:100%;
+    display:block
+  }
+  .stars {
+    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/stars.png) repeat top;
+  }
+  .twinkling {
+    background:transparent url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/twinkling.png) repeat top;
+
+    -webkit-animation:h 200s linear infinite;
+    -moz-animation:h 200s linear infinite;
+    animation:h 200s linear infinite
+  }
+  .clouds {
+    background:transparent url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/clouds.png) repeat top;
+    z-index:2;
+    -webkit-animation:i 200s linear infinite;
+    -moz-animation:i 200s linear infinite;
+    animation:i 200s linear infinite
+  }
+  .moon {
+    width:14.4em;
+    left:-moz-calc(50% + 28.1em);
+    left:calc(50% + 28.1em);
+    top:4.5em;
+    z-index:1
+  }
+  .moon,
+  .palm {
+    position:absolute
+  }
+  .palm {
+    z-index:3
+  }
+  .palm-1 {
+    left:-moz-calc(50% - 80em);
+    left:calc(50% - 80em);
+    top:0;
+    width:34em
+  }
+  .palm-2 {
+    right:-moz-calc(50% - 80em);
+    right:calc(50% - 80em);
+    top:0;
+    width:29em
+  }
+</style>
+
+<div class="sky">
+  <div class="palm palm-1"><img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/palm-1.png"></div>
+  <div class="palm palm-2"><img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/palm-2.png"></div>
+  <div class="stars"></div>
+  <div class="twinkling"></div>
+  <div class="clouds"></div>
+  <div class="moon"><img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/moon.png"></div>
+  <div class="ag-format-container">
+
+  </div>
+</div>
+
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
