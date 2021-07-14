@@ -57,6 +57,7 @@ img {
 }
 .ag-night-sky_clouds {
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/clouds.png) repeat-x 0 0;
+  background-size: cover;
 
   z-index: 2;
 
