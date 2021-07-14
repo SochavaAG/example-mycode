@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Animation Waves</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  body {
+    background-color: #000B56;
+  }
+
+  .ag-wave-block {
+    padding: 0 0 45%;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-waves/images/beach.png) repeat-x scroll 0 0;
+    background-size: 100% auto;
+
+    overflow: hidden;
+
+    position: relative;
+  }
+  .ag-wave_list {
+    white-space: nowrap;
+    font-size: 0;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .ag-wave_item {
+    display: inline-block;
+    width: 200%;
+    padding: 0 0 50%;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-waves/images/wave-1.png) repeat-x scroll 0 100%;
+    background-size: 25% auto;
+
+    vertical-align: bottom;
+
+    -webkit-animation: an-waves-1 20s linear infinite;
+    -moz-animation: an-waves-1 20s linear infinite;
+    -o-animation: an-waves-1 20s linear infinite;
+    animation: an-waves-1 20s linear infinite;
+  }
+  .ag-wave_box-item:nth-child(2) .ag-wave_item {
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-waves/images/wave-1.png) repeat-x scroll 50% 100%;
+    background-size: 25% auto;
+
+    -webkit-animation: an-waves-2 22s linear infinite;
+    -moz-animation: an-waves-2 22s linear infinite;
+    -o-animation: an-waves-2 22s linear infinite;
+    animation: an-waves-2 22s linear infinite;
+  }
+
+  @-webkit-keyframes an-waves-1 {
+    0% {
+      -webkit-transform: translateX(0) translateY(0);
+      transform: translateX(0) translateY(0);
+    }
+    25% {
+      -webkit-transform: translateX(-25%) translateY(-5%);
+      transform: translateX(-25%) translateY(-5%);
+    }
+    75% {
+      -webkit-transform: translateX(-75%) translateY(5%);
+      transform: translateX(-75%) translateY(5%);
+    }
+    100% {
+      -webkit-transform: translateX(-100%) translateY(0);
+      transform: translateX(-100%) translateY(0);
+    }
+  }
+  @-moz-keyframes an-waves-1 {
+    0% {
+      -moz-transform: translateX(0) translateY(0);
+      transform: translateX(0) translateY(0);
+    }
+    25% {
+      -moz-transform: translateX(-25%) translateY(-5%);
+      transform: translateX(-25%) translateY(-5%);
+    }
+    75% {
+      -moz-transform: translateX(-75%) translateY(5%);
+      transform: translateX(-75%) translateY(5%);
+    }
+    100% {
+      -moz-transform: translateX(-100%) translateY(0);
+      transform: translateX(-100%) translateY(0);
+    }
+  }
+  @-o-keyframes an-waves-1 {
+    0% {
+      -o-transform: translateX(0) translateY(0);
+      transform: translateX(0) translateY(0);
+    }
+    25% {
+      -o-transform: translateX(-25%) translateY(-5%);
+      transform: translateX(-25%) translateY(-5%);
+    }
+    75% {
+      -o-transform: translateX(-75%) translateY(5%);
+      transform: translateX(-75%) translateY(5%);
+    }
+    100% {
+      -o-transform: translateX(-100%) translateY(0);
+      transform: translateX(-100%) translateY(0);
+    }
+  }
+  @keyframes an-waves-1 {
+    0% {
+      -webkit-transform: translateX(0) translateY(0);
+      -moz-transform: translateX(0) translateY(0);
+      -o-transform: translateX(0) translateY(0);
+      transform: translateX(0) translateY(0);
+    }
+    25% {
+      -webkit-transform: translateX(-25%) translateY(-5%);
+      -moz-transform: translateX(-25%) translateY(-5%);
+      -o-transform: translateX(-25%) translateY(-5%);
+      transform: translateX(-25%) translateY(-5%);
+    }
+    75% {
+      -webkit-transform: translateX(-75%) translateY(5%);
+      -moz-transform: translateX(-75%) translateY(5%);
+      -o-transform: translateX(-75%) translateY(5%);
+      transform: translateX(-75%) translateY(5%);
+    }
+    100% {
+      -webkit-transform: translateX(-100%) translateY(0);
+      -moz-transform: translateX(-100%) translateY(0);
+      -o-transform: translateX(-100%) translateY(0);
+      transform: translateX(-100%) translateY(0);
+    }
+  }
+
+  @-webkit-keyframes an-waves-2 {
+    0% {
+      -webkit-transform: translateX(0) translateY(0);
+      transform: translateX(0) translateY(0);
+    }
+    25% {
+      -webkit-transform: translateX(-25%) translateY(5%);
+      transform: translateX(-25%) translateY(5%);
+    }
+    75% {
+      -webkit-transform: translateX(-75%) translateY(-5%);
+      transform: translateX(-75%) translateY(-5%);
+    }
+    100% {
+      -webkit-transform: translateX(-100%) translateY(0);
+      transform: translateX(-100%) translateY(0);
+    }
+  }
+  @-moz-keyframes an-waves-2 {
+    0% {
+      -moz-transform: translateX(0) translateY(0);
+      transform: translateX(0) translateY(0);
+    }
+    25% {
+      -moz-transform: translateX(-25%) translateY(5%);
+      transform: translateX(-25%) translateY(5%);
+    }
+    75% {
+      -moz-transform: translateX(-75%) translateY(-5%);
+      transform: translateX(-75%) translateY(-5%);
+    }
+    100% {
+      -moz-transform: translateX(-100%) translateY(0);
+      transform: translateX(-100%) translateY(0);
+    }
+  }
+  @-o-keyframes an-waves-2 {
+    0% {
+      -o-transform: translateX(0) translateY(0);
+      transform: translateX(0) translateY(0);
+    }
+    25% {
+      -o-transform: translateX(-25%) translateY(5%);
+      transform: translateX(-25%) translateY(5%);
+    }
+    75% {
+      -o-transform: translateX(-75%) translateY(-5%);
+      transform: translateX(-75%) translateY(-5%);
+    }
+    100% {
+      -o-transform: translateX(-100%) translateY(0);
+      transform: translateX(-100%) translateY(0);
+    }
+  }
+  @keyframes an-waves-2 {
+    0% {
+      -webkit-transform: translateX(0) translateY(0);
+      -moz-transform: translateX(0) translateY(0);
+      -o-transform: translateX(0) translateY(0);
+      transform: translateX(0) translateY(0);
+    }
+    25% {
+      -webkit-transform: translateX(-25%) translateY(5%);
+      -moz-transform: translateX(-25%) translateY(5%);
+      -o-transform: translateX(-25%) translateY(5%);
+      transform: translateX(-25%) translateY(5%);
+    }
+    75% {
+      -webkit-transform: translateX(-75%) translateY(-5%);
+      -moz-transform: translateX(-75%) translateY(-5%);
+      -o-transform: translateX(-75%) translateY(-5%);
+      transform: translateX(-75%) translateY(-5%);
+    }
+    100% {
+      -webkit-transform: translateX(-100%) translateY(0);
+      -moz-transform: translateX(-100%) translateY(0);
+      -o-transform: translateX(-100%) translateY(0);
+      transform: translateX(-100%) translateY(0);
+    }
+  }
+</style>
+
+<div class="ag-wave-block">
+  <ul class="ag-wave_box-list">
+    <li class="ag-wave_box-item">
+      <ul class="ag-wave_list">
+        <li class="ag-wave_item"></li>
+        <li class="ag-wave_item"></li>
+      </ul>
+    </li>
+    <li class="ag-wave_box-item">
+      <ul class="ag-wave_list">
+        <li class="ag-wave_item"></li>
+        <li class="ag-wave_item"></li>
+      </ul>
+    </li>
+  </ul>
+
+  <div class="ag-format-container">
+
+  </div>
+</div>
+
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
