@@ -19,6 +19,49 @@
 </head>
 
 <body>
+<style>
+  .leaves {
+    position:absolute;
+    opacity:0
+  }
+  .leaves--1 {
+    top:17em;
+    left:8em;
+    width:8em;
+    opacity:1
+  }
+  .leaves--1 img {
+    -webkit-animation:m 3s ease-in-out infinite .5s alternate;
+    -moz-animation:m 3s ease-in-out infinite .5s alternate;
+    animation:m 3s ease-in-out infinite .5s alternate
+  }
+  .leaves--2 {
+    top:17em;
+    right:8em;
+    width:10em;
+    opacity:1;
+    top:10em;
+    right:-1em
+  }
+  .leaves--2 img {
+    -webkit-animation:m 2.8s ease-in-out infinite alternate;
+    -moz-animation:m 2.8s ease-in-out infinite alternate;
+    animation:m 2.8s ease-in-out infinite alternate
+  }
+  .leaves--3 {
+    top:16em;
+    left:55em;
+    width:8em;
+    z-index:-5;
+    opacity:1
+  }
+  .leaves--3 img {
+    -webkit-animation:m 3.3s ease-in-out infinite 2s alternate;
+    -moz-animation:m 3.3s ease-in-out infinite 2s alternate;
+    animation:m 3.3s ease-in-out infinite 2s alternate
+  }
+</style>
+
   <div class="ag-format-container">
     <div class="ag-line-block">
       <div class="ag-line_light ag-line_light-1"></div>

@@ -1,0 +1,365 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+html,
+body,
+.js-ag-autumn-block {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+}
+
+.js-ag-leaves-block {
+  height: 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/greensock-leaves/images/bg.jpg) no-repeat scroll 50% 0;
+  background-size: cover;
+
+  position: relative;
+}
+.js-ag-sheet {
+  position: absolute;
+}
+.js-ag-anim .js-ag-sheet img {
+  opacity: 1;
+}
+.js-ag-sheet img {
+  opacity: 0;
+
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+.js-ag-sheet-1 {
+  width: 8em;
+
+  opacity: 1;
+
+  top: 17em;
+  left: 15%;
+}
+.js-ag-sheet-1 img {
+  -webkit-animation: an-sheet 3s ease-in-out infinite .5s alternate;
+  -moz-animation: an-sheet 3s ease-in-out infinite .5s alternate;
+  -o-animation: an-sheet 3s ease-in-out infinite .5s alternate;
+  animation: an-sheet 3s ease-in-out infinite .5s alternate;
+}
+.js-ag-sheet-2 {
+  width: 10em;
+
+  opacity: 1;
+
+  top: 7em;
+  right: 10%;
+}
+.js-ag-sheet-2 img {
+  -webkit-animation: an-sheet 2s ease-in-out infinite alternate;
+  -moz-animation: an-sheet 2s ease-in-out infinite alternate;
+  -o-animation: an-sheet 2s ease-in-out infinite alternate;
+  animation: an-sheet 2s ease-in-out infinite alternate;
+}
+.js-ag-sheet-3 {
+  width: 8em;
+
+  opacity: 1;
+
+  top: 16em;
+  left: 55%;
+}
+.js-ag-sheet-3 img {
+  -webkit-animation: an-sheet 3.3s ease-in-out infinite 5s alternate;
+  -moz-animation: an-sheet 3.3s ease-in-out infinite 5s alternate;
+  -o-animation: an-sheet 3.3s ease-in-out infinite 5s alternate;
+  animation: an-sheet 3.3s ease-in-out infinite 5s alternate;
+}
+.js-ag-sheet-4 {
+  width: 10em;
+
+  opacity: 1;
+
+  top: 5em;
+  right: 70%;
+}
+.js-ag-sheet-4 img {
+  -webkit-animation: an-sheet 2.8s ease-in-out infinite alternate;
+  -moz-animation: an-sheet 2.8s ease-in-out infinite alternate;
+  -o-animation: an-sheet 2.8s ease-in-out infinite alternate;
+  animation: an-sheet 2.8s ease-in-out infinite alternate;
+}
+.js-ag-sheet-5 {
+  width: 8em;
+
+  opacity: 1;
+
+  top: 1em;
+  left: 35%;
+}
+.js-ag-sheet-5 img {
+  -webkit-animation: an-sheet 5.3s ease-in-out infinite 2s alternate;
+  -moz-animation: an-sheet 5.3s ease-in-out infinite 2s alternate;
+  -o-animation: an-sheet 5.3s ease-in-out infinite 2s alternate;
+  animation: an-sheet 5.3s ease-in-out infinite 2s alternate;
+}
+
+@-webkit-keyframes an-sheet {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(2em);
+    transform: translateX(2em);
+  }
+}
+@-moz-keyframes an-sheet {
+  0% {
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    -moz-transform: translateX(2em);
+    transform: translateX(2em);
+  }
+}
+@-o-keyframes an-sheet {
+  0% {
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    -o-transform: translateX(2em);
+    transform: translateX(2em);
+  }
+}
+@keyframes an-sheet {
+  0% {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(2em);
+    -moz-transform: translateX(2em);
+    -o-transform: translateX(2em);
+    transform: translateX(2em);
+  }
+}
+
+.js-ag-anim .js-ag-branch img {
+  opacity: 1;
+}
+.js-ag-branch {
+  position: absolute;
+}
+.js-ag-branch img {
+  opacity: 0;
+
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+.js-ag-branch-3 {
+  width: 19em;
+
+  left: -1em;
+  top: 0;
+}
+.js-ag-branch-3 img {
+  -webkit-transform-origin: 0 50%;
+  -moz-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  -o-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+
+  -webkit-animation: j 5s ease-in-out infinite alternate;
+  -moz-animation: j 5s ease-in-out infinite alternate;
+  -o-animation: j 5s ease-in-out infinite alternate;
+  animation: j 5s ease-in-out infinite alternate;
+}
+.js-ag-branch-4 {
+  left: -1em;
+  top: 24em;
+  width: 7em;
+}
+.js-ag-branch-4 img {
+  -webkit-transform-origin: 0 50%;
+  -moz-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  -o-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+
+  -webkit-animation: k 5s ease-in-out 3s infinite alternate;
+  -moz-animation: k 5s ease-in-out 3s infinite alternate;
+  -o-animation: k 5s ease-in-out 3s infinite alternate;
+  animation: k 5s ease-in-out 3s infinite alternate;
+}
+.js-ag-branch-5 {
+  width: 34em;
+
+  top: 0;
+  right: -1em;
+
+  will-change: transform;
+}
+.js-ag-branch-5 img {
+  -webkit-transform-origin: 100% 50%;
+  -moz-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  -o-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+
+  -webkit-animation: an-branch-1 5s ease-in-out 3s infinite alternate;
+  -moz-animation: an-branch-1 5s ease-in-out 3s infinite alternate;
+  -o-animation: an-branch-1 5s ease-in-out 3s infinite alternate;
+  animation: an-branch-1 5s ease-in-out 3s infinite alternate;
+}
+.js-ag-branch-6 {
+  top: 0;
+  right: -1em;
+  width: 25.7em;
+
+  will-change: transform;
+}
+.js-ag-branch-6 img {
+  -webkit-transform-origin: 100% 50%;
+  -moz-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  -o-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+
+  -webkit-animation: an-branch-2 5s ease-in-out 0s infinite alternate;
+  -moz-animation: an-branch-2 5s ease-in-out 0s infinite alternate;
+  -o-animation: an-branch-2 5s ease-in-out 0s infinite alternate;
+  animation: an-branch-2 5s ease-in-out 0s infinite alternate;
+}
+
+@-webkit-keyframes an-branch-1 {
+  0% {
+    -webkit-transform: none;
+    transform: none;
+  }
+  to {
+    -webkit-transform: skewY(5deg) rotate(3deg);
+    transform: skewY(5deg) rotate(3deg);
+  }
+}
+@-moz-keyframes an-branch-1 {
+  0% {
+    -moz-transform: none;
+    transform: none;
+  }
+  to {
+    -moz-transform: skewY(5deg) rotate(3deg);
+    transform: skewY(5deg) rotate(3deg);
+  }
+}
+@-o-keyframes an-branch-1 {
+  0% {
+    -o-transform: none;
+    transform: none;
+  }
+  to {
+    -o-transform: skewY(5deg) rotate(3deg);
+    transform: skewY(5deg) rotate(3deg);
+  }
+}
+@keyframes an-branch-1 {
+  0% {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+  to {
+    -webkit-transform: skewY(5deg) rotate(3deg);
+    -moz-transform: skewY(5deg) rotate(3deg);
+    -o-transform: skewY(5deg) rotate(3deg);
+    transform: skewY(5deg) rotate(3deg);
+  }
+}
+
+@-webkit-keyframes an-branch-2 {
+  0% {
+    -webkit-transform: none;
+    transform: none;
+  }
+  to {
+    -webkit-transform: skewX(5deg) rotate(-3deg);
+    transform: skewX(5deg) rotate(-3deg);
+  }
+}
+@-moz-keyframes an-branch-2 {
+  0% {
+    -moz-transform: none;
+    transform: none
+  }
+  to {
+    -moz-transform: skewX(5deg) rotate(-3deg);
+    transform: skewX(5deg) rotate(-3deg);
+  }
+}
+@-o-keyframes an-branch-2 {
+  0% {
+    -o-transform: none;
+    transform: none
+  }
+  to {
+    -o-transform: skewX(5deg) rotate(-3deg);
+    transform: skewX(5deg) rotate(-3deg);
+  }
+}
+@keyframes an-branch-2 {
+  0% {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+  to {
+    -webkit-transform: skewX(5deg) rotate(-3deg);
+    -moz-transform: skewX(5deg) rotate(-3deg);
+    -o-transform: skewX(5deg) rotate(-3deg);
+    transform: skewX(5deg) rotate(-3deg);
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
