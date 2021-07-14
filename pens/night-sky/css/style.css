@@ -4,6 +4,166 @@
 }
 
 
+html,
+body,
+.ag-night-sky-block {
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.ag-night-sky-block {
+  background-color: #000354;
+
+  z-index: 1;
+  position: relative;
+}
+.ag-night-sky_sky {
+  height: 87%;
+
+  z-index: -5;
+}
+.ag-night-sky_clouds,
+.ag-night-sky_sky,
+.ag-night-sky_stars,
+.ag-night-sky_twinkling {
+  width: 100%;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.ag-night-sky_clouds,
+.ag-night-sky_stars,
+.ag-night-sky_twinkling {
+  display: block;
+  height: 100%;
+
+  right: 0;
+  bottom: 0;
+}
+.ag-night-sky_stars {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/stars.png) repeat 0 0;
+}
+.ag-night-sky_twinkling {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/twinkling.png) repeat 0 0;
+
+  -webkit-animation: an-twinkling 200s linear infinite;
+  -moz-animation: an-twinkling 200s linear infinite;
+  -o-animation: an-twinkling 200s linear infinite;
+  animation: an-twinkling 200s linear infinite;
+}
+.ag-night-sky_clouds {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/clouds.png) repeat-x 0 0;
+
+  z-index: 2;
+
+  -webkit-animation: an-clouds 200s linear infinite;
+  -moz-animation: an-clouds 200s linear infinite;
+  -o-animation: an-clouds 200s linear infinite;
+  animation: an-clouds 200s linear infinite;
+}
+.ag-night-sky_moon {
+  height: 14.4em;
+  width: 14.4em;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/moon.png) no-repeat scroll 0 0;
+  background-size: 100% 100%;
+
+  z-index: 1;
+  top: 4.5em;
+  right: 30%;
+}
+.ag-night-sky_moon,
+.ag-night-sky_palm {
+  position: absolute;
+}
+.ag-night-sky_palm {
+  height: 60em;
+  width: 29em;
+
+  z-index: 3;
+  top: 0;
+}
+.ag-night-sky_palm-1 {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/palm-1.png) no-repeat scroll 0 0;
+  background-size: cover;
+
+  left: 0;
+}
+.ag-night-sky_palm-2 {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/palm-2.png) no-repeat scroll 0 0;
+  background-size: cover;
+
+  right: 0;
+}
+
+@-webkit-keyframes an-twinkling {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+@-moz-keyframes an-twinkling {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+@-o-keyframes an-twinkling {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+@keyframes an-twinkling {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+@-webkit-keyframes an-clouds {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+@-moz-keyframes an-clouds {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+@-o-keyframes an-clouds {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
+@keyframes an-clouds {
+  0% {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 10000px 0;
+  }
+}
 
 
 @media only screen and (max-width: 767px) {
@@ -11,6 +171,9 @@
     width: 96%;
   }
 
+  .ag-night-sky_palm-2 {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 639px) {

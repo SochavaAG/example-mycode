@@ -19,80 +19,15 @@
 </head>
 
 <body>
-<style>
-  .sky {
-    height:87%;
-    z-index:-5
-  }
-  .clouds,
-  .sky,
-  .stars,
-  .twinkling {
-    width:100%;
-    position:absolute;
-    left:0;
-    top:0
-  }
-  .clouds,
-  .stars,
-  .twinkling {
-    right:0;
-    bottom:0;
-    height:100%;
-    display:block
-  }
-  .stars {
-    background:url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/stars.png) repeat top;
-  }
-  .twinkling {
-    background:transparent url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/twinkling.png) repeat top;
-
-    -webkit-animation:h 200s linear infinite;
-    -moz-animation:h 200s linear infinite;
-    animation:h 200s linear infinite
-  }
-  .clouds {
-    background:transparent url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/clouds.png) repeat top;
-    z-index:2;
-    -webkit-animation:i 200s linear infinite;
-    -moz-animation:i 200s linear infinite;
-    animation:i 200s linear infinite
-  }
-  .moon {
-    width:14.4em;
-    left:-moz-calc(50% + 28.1em);
-    left:calc(50% + 28.1em);
-    top:4.5em;
-    z-index:1
-  }
-  .moon,
-  .palm {
-    position:absolute
-  }
-  .palm {
-    z-index:3
-  }
-  .palm-1 {
-    left:-moz-calc(50% - 80em);
-    left:calc(50% - 80em);
-    top:0;
-    width:34em
-  }
-  .palm-2 {
-    right:-moz-calc(50% - 80em);
-    right:calc(50% - 80em);
-    top:0;
-    width:29em
-  }
-</style>
-
-<div class="sky">
-  <div class="palm palm-1"><img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/palm-1.png"></div>
-  <div class="palm palm-2"><img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/palm-2.png"></div>
-  <div class="stars"></div>
-  <div class="twinkling"></div>
-  <div class="clouds"></div>
-  <div class="moon"><img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/night-sky/images/moon.png"></div>
+<div class="ag-night-sky-block">
+  <div class="ag-night-sky_sky">
+    <div class="ag-night-sky_palm ag-night-sky_palm-1"></div>
+    <div class="ag-night-sky_palm ag-night-sky_palm-2"></div>
+    <div class="ag-night-sky_stars"></div>
+    <div class="ag-night-sky_twinkling"></div>
+    <div class="ag-night-sky_clouds"></div>
+    <div class="ag-night-sky_moon"></div>
+  </div>
   <div class="ag-format-container">
 
   </div>
