@@ -89,6 +89,7 @@ body {
 }
 .ag-line_light-1__rtl {
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-lines-2/images/light-rtl.png) no-repeat 50% 50%;
+  background-size: 100% auto;
 
   top: -12em;
   right: -6em;
@@ -100,6 +101,7 @@ body {
 }
 .ag-line_light-2__rtl {
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-lines-2/images/light-rtl.png) no-repeat 50% 50%;
+  background-size: 100% auto;
 
   left: -6em;
   bottom: -5em;
@@ -110,11 +112,11 @@ body {
   animation: mvsl-light-slide-2-rtl 5s ease-in-out 5s infinite normal;
 }
 .ag-line_text-2 {
-  color: #F8FF13;
+  color: #fe2eff;
 
-  -webkit-text-stroke-color: #F8FF13;
+  -webkit-text-stroke-color: #ff16df;
 
-  text-shadow: 2px 2px 30px rgba(185, 174, 8, 0.4);
+  text-shadow: 2px 2px 30px rgba(185, 17, 171, 0.4);
 }
 
 @-webkit-keyframes mvsl-light-slide-1-ltr {
