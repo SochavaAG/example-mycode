@@ -88,6 +88,8 @@ body {
   position: relative;
 }
 .ag-line_light-1__rtl {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-lines-2/images/light-rtl.png) no-repeat 50% 50%;
+
   top: -12em;
   right: -6em;
 
@@ -97,6 +99,8 @@ body {
   animation: mvsl-light-slide-1-rtl 5s ease-in-out 5s infinite normal;
 }
 .ag-line_light-2__rtl {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-lines-2/images/light-rtl.png) no-repeat 50% 50%;
+
   left: -6em;
   bottom: -5em;
 
