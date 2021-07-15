@@ -8678,6 +8678,39 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 }
 /* /button 139 */
 
+/* button 140 */
+.ag-base_btn-v140 {
+  height: 2.4em;
+  width: 4.08em;
+  margin: 0 0.2em;
+  padding: 0;
+
+  font-size: 1.25em;
+  font-weight: 600;
+
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-140.png), -webkit-linear-gradient(bottom, #6e2302 73%, #ffe261);
+  background-position: 50% 50%, 0 0;
+  background-repeat: no-repeat;
+  background-size: cover, 100% 150%;
+
+  image-rendering: -webkit-optimize-contrast;
+
+  -webkit-border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  border-radius: 0.2em;
+
+  -webkit-transition: background-position .3s;
+  -moz-transition: background-position .3s;
+  -o-transition: background-position .3s;
+  transition: background-position .3s;
+
+  will-change: background-position;
+}
+.ag-base_btn-v140:hover {
+  background-position: 50% 50%, 0 100%;
+}
+/* /button 139 */
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;
