@@ -1,0 +1,4599 @@
+@-webkit-keyframes no-movement-cloud {
+  100% {
+    -webkit-transform: none;
+    transform: none
+  }
+}
+@keyframes no-movement-cloud {
+  100% {
+    -webkit-transform: none;
+    transform: none
+  }
+}
+@-webkit-keyframes flashingGlow {
+  50% {
+    opacity: 1
+  }
+}
+@keyframes flashingGlow {
+  50% {
+    opacity: 1
+  }
+}
+@-webkit-keyframes move-forward {
+  from {
+    -webkit-transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(1)
+  }
+  to {
+    -webkit-transform: translate(2.5em, -10.3125em) scale(0.19);
+    transform: translate(2.5em, -10.3125em) scale(0.19)
+  }
+}
+@keyframes move-forward {
+  from {
+    -webkit-transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(1)
+  }
+  to {
+    -webkit-transform: translate(2.5em, -10.3125em) scale(0.19);
+    transform: translate(2.5em, -10.3125em) scale(0.19)
+  }
+}
+@-webkit-keyframes move-left {
+  from {
+    -webkit-transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(1)
+  }
+  to {
+    -webkit-transform: translate(-16.875em, -9.375em) scale(0.19);
+    transform: translate(-16.875em, -9.375em) scale(0.19)
+  }
+}
+@keyframes move-left {
+  from {
+    -webkit-transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(1)
+  }
+  to {
+    -webkit-transform: translate(-16.875em, -9.375em) scale(0.19);
+    transform: translate(-16.875em, -9.375em) scale(0.19)
+  }
+}
+@-webkit-keyframes move-left-bg1 {
+  from {
+    background-position: 0 0
+  }
+  to {
+    background-position: 0 50%
+  }
+}
+@keyframes move-left-bg1 {
+  from {
+    background-position: 0 0
+  }
+  to {
+    background-position: 0 50%
+  }
+}
+@-webkit-keyframes move-left-bg2 {
+  from {
+    background-position: 0 50%
+  }
+  to {
+    background-position: 22% 50%
+  }
+}
+@keyframes move-left-bg2 {
+  from {
+    background-position: 0 50%
+  }
+  to {
+    background-position: 22% 50%
+  }
+}
+@-webkit-keyframes move-right {
+  from {
+    -webkit-transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(1)
+  }
+  to {
+    -webkit-transform: translate(15.9375em, -9.6875em) scale(0.19);
+    transform: translate(15.9375em, -9.6875em) scale(0.19)
+  }
+}
+@keyframes move-right {
+  from {
+    -webkit-transform: translate(0, 0) scale(1);
+    transform: translate(0, 0) scale(1)
+  }
+  to {
+    -webkit-transform: translate(15.9375em, -9.6875em) scale(0.19);
+    transform: translate(15.9375em, -9.6875em) scale(0.19)
+  }
+}
+@-webkit-keyframes move-right-bg1 {
+  from {
+    background-position: 0 0
+  }
+  to {
+    background-position: 0 100%
+  }
+}
+@keyframes move-right-bg1 {
+  from {
+    background-position: 0 0
+  }
+  to {
+    background-position: 0 100%
+  }
+}
+@-webkit-keyframes opacityHalf1 {
+  50% {
+    opacity: 0
+  }
+}
+@keyframes opacityHalf1 {
+  50% {
+    opacity: 0
+  }
+}
+@-webkit-keyframes move-right-bg2 {
+  from {
+    background-position: 0 100%
+  }
+  to {
+    background-position: 22% 100%
+  }
+}
+@keyframes move-right-bg2 {
+  from {
+    background-position: 0 100%
+  }
+  to {
+    background-position: 22% 100%
+  }
+}
+@-webkit-keyframes from-back {
+  from {
+    -webkit-transform: translate(6.25em, 9.6875em);
+    transform: translate(6.25em, 9.6875em)
+  }
+  to {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0)
+  }
+}
+@keyframes from-back {
+  from {
+    -webkit-transform: translate(6.25em, 9.6875em);
+    transform: translate(6.25em, 9.6875em)
+  }
+  to {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0)
+  }
+}
+@keyframes opacityHalf1 {
+  0%, 100% {
+    opacity: 0
+  }
+  50% {
+    opacity: 1
+  }
+}
+@-webkit-keyframes transHalfNone {
+  50% {
+    -webkit-transform: none;
+    transform: none
+  }
+}
+@keyframes transHalfNone {
+  50% {
+    -webkit-transform: none;
+    transform: none
+  }
+}
+@-webkit-keyframes zoom-logo {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0)
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+}
+@keyframes zoom-logo {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0)
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+}
+@-webkit-keyframes transNone {
+  100% {
+    -webkit-transform: none;
+    transform: none
+  }
+}
+@keyframes transNone {
+  100% {
+    -webkit-transform: none;
+    transform: none
+  }
+}
+@-webkit-keyframes pulse {
+  0%, 100% {
+    opacity: 0
+  }
+  50% {
+    opacity: 1
+  }
+}
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0
+  }
+  50% {
+    opacity: 1
+  }
+}
+@-webkit-keyframes gone1 {
+  from {
+    -webkit-transform: translateZ(0) scale(0.5) rotate(0.01deg);
+    transform: translateZ(0) scale(0.5) rotate(0.01deg)
+  }
+  to {
+    -webkit-transform: translateZ(0) scale(1) rotate(0deg);
+    transform: translateZ(0) scale(1) rotate(0deg)
+  }
+}
+@keyframes gone1 {
+  from {
+    -webkit-transform: translateZ(0) scale(0.5) rotate(0.01deg);
+    transform: translateZ(0) scale(0.5) rotate(0.01deg)
+  }
+  to {
+    -webkit-transform: translateZ(0) scale(1) rotate(0deg);
+    transform: translateZ(0) scale(1) rotate(0deg)
+  }
+}
+@-webkit-keyframes gone2 {
+  from {
+    -webkit-transform: translateY(15%);
+    transform: translateY(15%)
+  }
+  to {
+    -webkit-transform: translateY(-2%);
+    transform: translateY(-2%)
+  }
+}
+@keyframes gone2 {
+  from {
+    -webkit-transform: translateY(15%);
+    transform: translateY(15%)
+  }
+  to {
+    -webkit-transform: translateY(-2%);
+    transform: translateY(-2%)
+  }
+}
+@font-face {
+  font-family: 'Aerobrush';
+  font-weight: normal;
+  font-style: normal;
+  src: url("/default/fonts/Aerobrush/Aerobrush.woff2") format("woff2"), url("/default/fonts/Aerobrush/Aerobrush.woff") format("woff");
+  font-display: swap
+}
+.elcam {
+  position: relative;
+  width: 100%;
+  height: 54.1875em;
+  overflow: hidden;
+  font-size: 0.833vw
+}
+.elcam * {
+  box-sizing: border-box
+}
+.elcam button, .elcam input {
+  outline: none;
+  border: none
+}
+.elcam__screens {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  direction: ltr
+}
+.elcam__hud {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0
+}
+.elcam-controls {
+  position: absolute;
+  z-index: 1
+}
+.elcam-controls__frame {
+  position: absolute;
+  top: 42.8125em;
+  left: 50%;
+  width: 80.625em;
+  height: 34.375em;
+  margin-left: -40.3125em;
+  background: url("/default/img/games/elcamino/frame/signs-frame.png") no-repeat center top;
+  background-size: 100% auto
+}
+.elcam-controls__sign {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 9.375em;
+  left: 50%;
+  z-index: -1;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: .625em;
+  width: 10.75em;
+  min-height: 4.5em;
+  margin-left: 25em;
+  border-radius: .75em;
+  box-shadow: 0 0 1px 0 #212121;
+  background: #f5c905;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.2;
+  color: #000
+}
+.elcam-controls__sign::after, .elcam-controls__sign::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  width: .5625em;
+  height: 1.625em;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAaCAYAAABhJqYYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQwIDc5LjE2MDQ1MSwgMjAxNy8wNS8wNi0wMTowODoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTggKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OEFEMzRBRjk5RThBMTFFQUJFOTU4NTU4QzcwNUM5QTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OEFEMzRBRkE5RThBMTFFQUJFOTU4NTU4QzcwNUM5QTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4QUQzNEFGNzlFOEExMUVBQkU5NTg1NThDNzA1QzlBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4QUQzNEFGODlFOEExMUVBQkU5NTg1NThDNzA1QzlBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlyOpnAAAAIqSURBVHjaZFJLrtNAEOz5eewEhISQuAELFogdbLkWe86B2HAfrgCrt3l6JE7izK+p7kkih2fZnvG4urq6ug0z0+cP775++fT+21wcxRdvKG5fUmqeaPCUTgf68f3nx6fHh1+WcA2BQ6uJxkg0RSbvWfdcj+RsxpmJglMwkaGGDMY4SqkC4Oh4XPSc2JBkv4Hlw3tPrRIYI8CG4jBQKQ14g9so2MvLWQsOQ9b1RLU2GuJIDQQ1L9R5r8x4Gki4MVkJNBasIsdTFvY7Ga3rFpCAdQ/dOeeOu8i4aRaNcYgosNCynMgB4H3oRa5lCJswCFD2IURI62C3CtACCwoyEgc20UqmUG2JCieq8r1mFieWc1ZPRc52s9FVsvFzGUZ9ds6Rd7ALrggohEGLvgO3xno4okC1DEHitbqD4DufRWsGSJ5Su78SMM9zJ7oDMymLaLRYE/yN6GAcR/htb24oWDWyrA2NgH3IVEuh4Aft6rMC5QrwVAapIYjV0qLrderUZ0ntnVNWE5qkIBeMBhP0m3W7exFW51hYgncKkAxS8L0b1PWKA5tpUq/FQjmzK5/9deNc3zZhgowqBSOg6RSYNRjV46+7jGllvsx0JsDvma/VSnzjLiefEw3oaOb/ZgNpvGgTKTJUwXcHLAruTeldUeb94fTncbd/eD1Mo2NG6zZRggtTOszzrpSyaASrPmO20/QWDXk1jnE01kdRilk5p5T2u79Pv1ur5Z8AAwDDiRrQPKOnKgAAAABJRU5ErkJggg==") center/100%
+}
+.elcam-controls__sign::before {
+  left: 29%
+}
+.elcam-controls__sign::after {
+  right: 29%
+}
+.elcam-controls__caution {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  word-wrap: anywhere
+}
+.elcam-controls__caution::after {
+  content: '';
+  position: absolute;
+  top: .125em;
+  right: .125em;
+  bottom: .125em;
+  left: .125em;
+  border: .125em solid #fff;
+  border-radius: .625em
+}
+.elcam-controls__shad {
+  position: absolute;
+  top: 100%;
+  left: 1.25em;
+  width: 13.3125em;
+  height: 2.4375em;
+  margin-top: 1.375em;
+  background: url("/default/img/games/elcamino/frame/sign-border-shad.png") center/100% no-repeat
+}
+.elcam-controls__top {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 47.625em;
+  margin: .625em auto 0em
+}
+.elcam-controls__btn {
+  position: relative;
+  cursor: pointer;
+  width: 13em;
+  height: 10.25em;
+  overflow: visible;
+  outline: none;
+  border: none;
+  border-radius: 1.25em;
+  text-align: center;
+  font-family: "Roboto Condensed", "Roboto Local", "Sans-serif";
+  font-size: 1em;
+  color: #000;
+  transition: 0.2s linear
+}
+.elcam-screens__view--choose .elcam-controls__btn {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: .9375em 0em;
+  height: auto;
+  min-height: 10.9375em
+}
+.elcam-screens__view--choose-border .elcam-controls__btn {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+.elcam-controls__btn:hover {
+  box-shadow: 0 0 1.25em 0 #3b3b3b;
+  -webkit-transform: translateZ(0) scale(1.05);
+  transform: translateZ(0) scale(1.05)
+}
+.elcam-controls__btn:disabled {
+  cursor: default;
+  box-shadow: none;
+  -webkit-transform: none;
+  transform: none;
+  pointer-events: none
+}
+.elcam-controls__btn::before {
+  content: '';
+  position: absolute;
+  top: .5em;
+  right: .5em;
+  bottom: .5em;
+  left: .5em;
+  border: .125em solid #fff;
+  border-radius: .875em
+}
+.elcam-controls__btn--green {
+  background: linear-gradient(to right, #478049 0%, #336b36 100%)
+}
+.elcam-controls__btn--green:hover {
+  background: linear-gradient(to right, #315e33 0%, #234d26 100%)
+}
+.elcam-controls__btn--green:disabled {
+  background: linear-gradient(to right, #478049 0%, #336b36 100%)
+}
+.elcam-controls__btn--blue {
+  background: linear-gradient(to right, #1d95f7 0%, #1064f4 100%)
+}
+.elcam-controls__btn--blue:hover {
+  background: linear-gradient(to right, #0b78d0 0%, #004bcc 100%)
+}
+.elcam-controls__btn--blue:disabled {
+  background: linear-gradient(to right, #1d95f7 0%, #1064f4 100%)
+}
+.elcam-controls__btn--orange {
+  background: linear-gradient(to right, #fe9634 0%, #db5b00 100%)
+}
+.elcam-controls__btn--orange:hover {
+  background: linear-gradient(to right, #f56600 0%, #db5b00 100%)
+}
+.elcam-controls__btn--orange:disabled {
+  background: linear-gradient(to right, #fe9634 0%, #db5b00 100%)
+}
+.elcam-controls__btn--orange .elcam-controls__lvl {
+  box-shadow: 0em .25em .8125em #262626
+}
+.elcam-controls__btn--is-blocked {
+  cursor: default;
+  pointer-events: none
+}
+.elcam-controls__stop {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 13em;
+  height: 12.0625em;
+  background: url("/default/img/games/elcamino/frame/stop-sign.png") no-repeat center;
+  background-size: contain
+}
+.elcam-controls__txt {
+  display: block;
+  box-sizing: border-box;
+  padding: .5em .625em;
+  min-width: 7.5em;
+  margin-bottom: -.625em;
+  border-radius: .3125em;
+  box-shadow: 0em -.125em .25em rgba(77, 77, 77, 0.5);
+  background-color: #fff;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", "Roboto Local", "Sans-serif";
+  font-weight: 700;
+  color: #000;
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg)
+}
+.elcam-controls__lvl {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  position: relative;
+  padding: .375em .3125em .3125em;
+  width: 7.5em;
+  margin: -.6875em auto 0em;
+  border-radius: .3125em;
+  box-shadow: 0em .25em .8125em #254b1b;
+  background-color: #fff;
+  text-transform: uppercase
+}
+.elcam-controls__type {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  padding: 0em .625em;
+  margin-top: .16667em;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #fff
+}
+.elcam-controls__coef {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  position: relative;
+  padding: .375em .625em .3125em;
+  width: 7.5em;
+  margin: .3125em auto 0em;
+  border-radius: 3.125em;
+  background: #fff;
+  text-transform: uppercase
+}
+.elcam-controls__svg {
+  width: 4.32937em;
+  height: 5.5575em;
+  margin: -.25em auto 0em;
+  fill: #fff
+}
+.elcam-controls__svg--mid {
+  width: 2.80563em;
+  height: 5.555em
+}
+/*.elcam-screens__view {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}*/
+/*.elcam-view {
+  opacity: 0;
+  overflow: hidden;
+  transition: 1s opacity
+}
+.elcam-view--is-active {
+  opacity: 1
+}
+.elcam-view__landscape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 4s 0s linear
+}
+.elcam-view__landscape.elcam-view__landscape--transition {
+  opacity: 0;
+  background: radial-gradient(#ea946c, #68272f);
+  transition-delay: 4s
+}
+.elcam-view__landscape.elcam-view__landscape--transition.elcam-view__landscape--is-toggle {
+  opacity: 1;
+  transition-delay: 0s
+}
+.elcam-view__landscape.elcam-view__landscape--night {
+  opacity: 0;
+  background: radial-gradient(#003e70, #002d57)
+}
+.elcam-view__landscape.elcam-view__landscape--night.elcam-view__landscape--is-toggle {
+  opacity: 1;
+  transition-delay: 4s
+}*/
+.elcam-view__controls {
+  position: absolute;
+  right: 0;
+  bottom: -52.5%;
+  left: -50%;
+  width: 200%;
+  height: 218%;
+  -webkit-transform: translateZ(0) scale(0.5) rotate(0.01deg);
+  transform: translateZ(0) scale(0.5) rotate(0.01deg);
+  will-change: transform
+}
+.elcam-view__controls--two {
+  -webkit-transform: translateZ(0) scale(0.2) rotate(0.01deg);
+  transform: translateZ(0) scale(0.2) rotate(0.01deg)
+}
+.elcam-view--is-gone .elcam-view__controls {
+  -webkit-animation: gone1 1.5s forwards ease-out;
+  animation: gone1 1.5s forwards ease-out
+}
+.elcam-view__header {
+  position: relative;
+  z-index: 2;
+  margin: 1.5em auto 0em
+}
+.elcam-view__logo {
+  position: relative;
+  left: .5625em;
+  width: 27.8125em;
+  margin: auto
+}
+/*.elcam-view__car {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  width: 40em;
+  height: 20em;
+  margin-left: -21.875em
+}*/
+/*.elcam-landscape {
+  z-index: 0;
+  height: 100%
+}
+.elcam-landscape--sand {
+  background: radial-gradient(#ebcd60, #b8661e)
+}
+@media (prefers-reduced-motion: reduce) {
+  .elcam-screens .elcam-landscape--sand * {
+    -webkit-animation: none;
+    animation: none
+  }
+}*/
+.elcam-landscape--city {
+  background: url("/default/img/games/elcamino/city/asphalt.jpg") center
+}
+/*.elcam-landscape__top {
+  position: relative;
+  height: 45%;
+  overflow: hidden
+}
+.elcam-landscape--village .elcam-landscape__top {
+  height: 47%
+}
+.elcam-landscape__sky {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%
+}
+.elcam-landscape--sand .elcam-landscape__sky {
+  width: 187.5em;
+  background: url("/default/img/games/elcamino/static/sky-all.png") 0 0/100% 300% no-repeat;
+  -webkit-transform: translateX(-10%) rotate(0.01deg);
+  transform: translateX(-10%) rotate(0.01deg)
+}
+.elcam-landscape--sand.elcam-view__landscape--is-active .elcam-landscape__sky {
+  -webkit-transform: none;
+  transform: none;
+  transition: -webkit-transform 32s linear;
+  transition: transform 32s linear;
+  transition: transform 32s linear, -webkit-transform 32s linear
+}
+.elcam-view__landscape--transition .elcam-landscape__sky {
+  background-position-y: 100%
+}
+.elcam-view__landscape--transition.elcam-view__landscape--is-active .elcam-landscape__sky {
+  transition: -webkit-transform 32s linear;
+  transition: transform 32s linear;
+  transition: transform 32s linear, -webkit-transform 32s linear
+}
+.elcam-view__landscape--night .elcam-landscape__sky {
+  top: -62.5em;
+  left: -31.25em;
+  width: 250em;
+  height: 250em;
+  background: url("/default/img/games/elcamino/static/sky.jpg");
+  background-size: cover;
+  -webkit-transform: rotate(-30deg) translateY(2%);
+  transform: rotate(-30deg) translateY(2%)
+}
+.elcam-view__landscape--night .elcam-landscape__sky::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url("/default/img/games/elcamino/static/stars.png") center;
+  transition: opacity 1.6s 0s linear, visibility 1.6s 0s linear
+}
+.elcam-view__landscape--night.elcam-view__landscape--is-active .elcam-landscape__sky {
+  -webkit-transform: none;
+  transform: none;
+  transition: opacity 8s linear, visibility 8s linear, -webkit-transform 32s linear;
+  transition: opacity 8s linear, visibility 8s linear, transform 32s linear;
+  transition: opacity 8s linear, visibility 8s linear, transform 32s linear, -webkit-transform 32s linear
+}
+.elcam-view__landscape--night.elcam-view__landscape--is-active .elcam-landscape__sky::after {
+  transition-delay: 2.66667s
+}
+.elcam-landscape--village .elcam-landscape__sky {
+  width: 100%;
+  background: url("/default/img/games/elcamino/village/bg.jpg") center/auto 100%
+}
+.elcam-landscape--city .elcam-landscape__sky {
+  width: 100%;
+  background-color: #e6f8ff
+}
+@media (prefers-reduced-motion: reduce) {
+  .elcam-screens .elcam-landscape--sand .elcam-landscape__sky {
+    -webkit-transform: none;
+    transform: none
+  }
+}*/
+/*.elcam-landscape__sun, .elcam-landscape__moon {
+  position: absolute;
+  background-size: 100% 100%
+}
+@media (prefers-reduced-motion: reduce) {
+  .elcam-screens .elcam-landscape--sand .elcam-landscape__sun, .elcam-screens .elcam-landscape--sand .elcam-landscape__moon {
+    -webkit-transform: none;
+    transform: none
+  }
+}*/
+/*.elcam-landscape__sun {
+  bottom: 0;
+  left: 30%;
+  width: 71.875em;
+  height: 71.875em;
+  background-image: url("/default/img/games/elcamino/static/sun.png");
+  -webkit-transform: translate(-10%, 100%);
+  transform: translate(-10%, 100%)
+}
+.elcam-view__landscape--night .elcam-landscape__sun {
+  opacity: 0
+}
+.elcam-view__landscape--is-active .elcam-landscape__sun {
+  -webkit-transform: translate(-10%, -100%);
+  transform: translate(-10%, -100%);
+  transition: -webkit-transform 17s linear;
+  transition: transform 17s linear;
+  transition: transform 17s linear, -webkit-transform 17s linear
+}*/
+/*.elcam-landscape__moon {
+  top: 0;
+  left: 60%;
+  width: 11.625em;
+  height: 11.625em;
+  border-radius: 50%;
+  background-image: url("/default/img/games/elcamino/static/moon.png");
+  -webkit-transform: translate3d(0%, 100%, 0);
+  transform: translate3d(0%, 100%, 0)
+}
+.elcam-landscape__moon::after {
+  content: '';
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  left: 1px;
+  border-radius: 50%;
+  box-shadow: 0em 0em 4.75em 1.25em rgba(255, 255, 255, 0.76)
+}
+.elcam-view__landscape--is-active .elcam-landscape__moon {
+  opacity: 1;
+  -webkit-transform: translate3d(400%, -100%, 0);
+  transform: translate3d(400%, -100%, 0);
+  transition: bottom 32s linear, left 32s linear, -webkit-transform 32s linear;
+  transition: transform 32s linear, bottom 32s linear, left 32s linear;
+  transition: transform 32s linear, bottom 32s linear, left 32s linear, -webkit-transform 32s linear
+}
+.elcam-view__landscape--day .elcam-landscape__moon, .elcam-view__landscape--transition .elcam-landscape__moon {
+  opacity: 0
+}*/
+/*.elcam-landscape__clouds {
+  position: absolute;
+  width: 100%;
+  height: 15em
+}
+.elcam-landscape--village .elcam-landscape__clouds {
+  height: 26.25em
+}
+.elcam-landscape--city .elcam-landscape__clouds {
+  height: 100%
+}*/
+.elcam-landscape__build {
+  position: absolute;
+  left: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain
+}
+.elcam-landscape--city .elcam-landscape__build--one {
+  bottom: 100%;
+  width: 12.875em;
+  height: 36.4375em;
+  margin-bottom: -5.625em;
+  margin-left: -18.875em;
+  background-image: url("/default/img/games/elcamino/city/build1.png")
+}
+.elcam-landscape--city .elcam-landscape__build--two {
+  bottom: 100%;
+  width: 8.75em;
+  height: 34.5em;
+  margin-bottom: -4.3125em;
+  margin-left: 4.75em;
+  background-image: url("/default/img/games/elcamino/city/build2.png")
+}
+.elcam-landscape--city .elcam-landscape__build--tree {
+  top: -23.125em;
+  width: 25.375em;
+  height: 29.25em;
+  margin-left: -48.125em;
+  background-image: url("/default/img/games/elcamino/city/build3.png")
+}
+.elcam-landscape--city .elcam-landscape__build--four {
+  top: -20.9375em;
+  width: 27.5em;
+  height: 27.375em;
+  margin-left: 23.4375em;
+  background-image: url("/default/img/games/elcamino/city/build4.png")
+}
+.elcam-landscape--city .elcam-landscape__build--five {
+  top: -23.4375em;
+  width: 35.9375em;
+  height: 36.8125em;
+  margin-left: -73.125em;
+  background-image: url("/default/img/games/elcamino/city/build5.png")
+}
+.elcam-landscape--city .elcam-landscape__build--six {
+  top: -25em;
+  width: 34.4375em;
+  height: 40.125em;
+  margin-left: 39.375em;
+  background-image: url("/default/img/games/elcamino/city/build6.png")
+}
+.elcam-landscape--village .elcam-landscape__build--one {
+  bottom: 100%;
+  width: 8.125em;
+  height: 10.3125em;
+  margin-bottom: -4.8125em;
+  margin-left: -14.6875em;
+  background-image: url("/default/img/games/elcamino/village/build1.png")
+}
+.elcam-landscape--village .elcam-landscape__build--two {
+  bottom: 100%;
+  width: 10.3125em;
+  height: 13.875em;
+  margin-bottom: -5em;
+  margin-left: 5.9375em;
+  background-image: url("/default/img/games/elcamino/village/build2.png")
+}
+.elcam-landscape--village .elcam-landscape__build--tree {
+  bottom: 100%;
+  width: 22.75em;
+  height: 12.375em;
+  margin-bottom: -7.1875em;
+  margin-left: -42.5em;
+  background-image: url("/default/img/games/elcamino/village/build3.png")
+}
+.elcam-landscape--village .elcam-landscape__build--four {
+  bottom: 100%;
+  width: 11.5em;
+  height: 10.125em;
+  margin-bottom: -5.625em;
+  margin-left: 22.5em;
+  background-image: url("/default/img/games/elcamino/village/build4.png")
+}
+.elcam-landscape--village .elcam-landscape__build--five {
+  bottom: 100%;
+  width: 64.625em;
+  height: 47.625em;
+  margin-bottom: -27.5em;
+  margin-left: -98.125em;
+  background-image: url("/default/img/games/elcamino/village/build5.png")
+}
+.elcam-landscape--village .elcam-landscape__build--six {
+  bottom: 100%;
+  width: 32.5625em;
+  height: 24.5625em;
+  margin-bottom: -13.75em;
+  margin-left: 29.0625em;
+  background-image: url("/default/img/games/elcamino/village/build6.png")
+}
+.elcam-landscape--village .elcam-landscape__build--seven {
+  bottom: 100%;
+  width: 33.875em;
+  height: 53.75em;
+  margin-bottom: -27.5em;
+  margin-left: -76.875em;
+  background-image: url("/default/img/games/elcamino/village/build7.png")
+}
+.elcam-landscape--village .elcam-landscape__build--eight {
+  bottom: 100%;
+  width: 22.25em;
+  height: 29.3125em;
+  margin-bottom: -21.875em;
+  margin-left: 43.125em;
+  background-image: url("/default/img/games/elcamino/village/build8.png")
+}
+/*.elcam-landscape__cloud {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 60%;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  -webkit-transform: translateX(-100%) rotate(0.01deg);
+  transform: translateX(-100%) rotate(0.01deg)
+}
+.elcam-landscape__cloud--one {
+  -webkit-animation: no-movement-cloud 180s linear infinite;
+  animation: no-movement-cloud 180s linear infinite
+}
+.elcam-landscape--sand .elcam-landscape__cloud--one {
+  background: url("/default/img/games/elcamino/static/cloud1.png") 100% 0/auto 300% no-repeat
+}
+.elcam-landscape--village .elcam-landscape__cloud--one {
+  background-image: url("/default/img/games/elcamino/village/cloud1.png")
+}
+.elcam-landscape--city .elcam-landscape__cloud--one {
+  background-image: url("/default/img/games/elcamino/city/cloud1.png")
+}
+.elcam-view__landscape--day .elcam-landscape__cloud--one, .elcam-view__landscape--night .elcam-landscape__cloud--one, .elcam-view__landscape--transition .elcam-landscape__cloud--one {
+  background: url("/default/img/games/elcamino/static/cloud1.png") 100% 0/auto 300% no-repeat
+}
+.elcam-view__landscape--night .elcam-landscape__cloud--one {
+  background-position-y: 50%
+}
+.elcam-view__landscape--transition .elcam-landscape__cloud--one {
+  background-position-y: 100%
+}*/
+/*.elcam-landscape__cloud--two {
+  -webkit-animation: no-movement-cloud 200s 140s linear infinite;
+  animation: no-movement-cloud 200s 140s linear infinite
+}
+.elcam-landscape--sand .elcam-landscape__cloud--two {
+  background: url("/default/img/games/elcamino/static/cloud1.png") 100% 0/auto 300% no-repeat
+}
+.elcam-landscape--village .elcam-landscape__cloud--two {
+  background-image: url("/default/img/games/elcamino/village/cloud2.png")
+}
+.elcam-landscape--city .elcam-landscape__cloud--two {
+  background-image: url("/default/img/games/elcamino/city/cloud2.png")
+}
+.elcam-view__landscape--day .elcam-landscape__cloud--two, .elcam-view__landscape--night .elcam-landscape__cloud--two, .elcam-view__landscape--transition .elcam-landscape__cloud--two {
+  background: url("/default/img/games/elcamino/static/cloud2.png") 100% 0/auto 300% no-repeat
+}
+.elcam-view__landscape--night .elcam-landscape__cloud--two {
+  background-position-y: 50%
+}
+.elcam-view__landscape--transition .elcam-landscape__cloud--two {
+  background-position-y: 100%
+}*/
+/*.elcam-landscape__cloud--two.elcam-landscape__cloud--once {
+  left: 50%;
+  -webkit-transform: translate(-100%) rotate(0.01deg);
+  transform: translate(-100%) rotate(0.01deg);
+  -webkit-animation-duration: 100s;
+  animation-duration: 100s;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards
+}
+.elcam-landscape__cloud--three {
+  -webkit-animation: no-movement-cloud 240s 120s linear infinite;
+  animation: no-movement-cloud 240s 120s linear infinite
+}
+.elcam-landscape--sand .elcam-landscape__cloud--three {
+  background: url("/default/img/games/elcamino/static/cloud1.png") 100% 0/auto 300% no-repeat
+}
+.elcam-landscape--village .elcam-landscape__cloud--three {
+  background-image: url("/default/img/games/elcamino/village/cloud3.png")
+}
+.elcam-landscape--city .elcam-landscape__cloud--three {
+  background-image: url("/default/img/games/elcamino/city/cloud2.png")
+}
+.elcam-view__landscape--day .elcam-landscape__cloud--three, .elcam-view__landscape--night .elcam-landscape__cloud--three, .elcam-view__landscape--transition .elcam-landscape__cloud--three {
+  background: url("/default/img/games/elcamino/static/cloud3.png") 100% 0/auto 300% no-repeat
+}
+.elcam-view__landscape--night .elcam-landscape__cloud--three {
+  background-position-y: 50%
+}
+.elcam-view__landscape--transition .elcam-landscape__cloud--three {
+  background-position-y: 100%
+}*/
+/*.elcam-landscape__cloud--three.elcam-landscape__cloud--once {
+  left: 50%;
+  -webkit-transform: translate(-60%) rotate(0.01deg);
+  transform: translate(-60%) rotate(0.01deg);
+  -webkit-animation-duration: 90s;
+  animation-duration: 90s;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards
+}
+.elcam-landscape__cloud--once {
+  width: 100%;
+  -webkit-transform: none;
+  transform: none
+}
+.elcam-landscape__bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%
+}
+.elcam-landscape__bottom--stones::before {
+  content: '';
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  width: 64.5em;
+  height: 14.0625em;
+  background: url("/default/img/games/elcamino/village/road-stones.png") center/100% no-repeat;
+  -webkit-transform: translateX(-45%);
+  transform: translateX(-45%)
+}
+.elcam-landscape__lanterns {
+  position: absolute;
+  left: 50%;
+  background: url("/default/img/games/elcamino/city/lanterns.png") center/contain no-repeat
+}
+.elcam-landscape__lanterns--front {
+  top: -19.1875em;
+  width: 56.625em;
+  height: 30.5em;
+  margin-left: -28.5625em
+}
+.elcam-landscape__lanterns--front::before {
+  image-rendering: optimize-contrast;
+  image-rendering: crisp-edges;
+  content: '';
+  position: absolute;
+  top: 12.5em;
+  left: 18.375em;
+  width: 20.125em;
+  height: 10.9375em;
+  background: url("/default/img/games/elcamino/city/lanterns.png") center/contain no-repeat
+}
+.elcam-landscape__lanterns--back {
+  image-rendering: optimize-contrast;
+  image-rendering: crisp-edges;
+  top: -4em;
+  width: 12.5em;
+  height: 6.75em;
+  margin-left: -6.375em;
+  -webkit-transform: translateY(15%);
+  transform: translateY(15%);
+  transition: -webkit-transform 1.5s ease-out;
+  transition: transform 1.5s ease-out;
+  transition: transform 1.5s ease-out, -webkit-transform 1.5s ease-out;
+  will-change: transform
+}
+.elcam-view--is-gone .elcam-landscape__lanterns--back {
+  -webkit-animation: gone2 1.5s ease-out forwards;
+  animation: gone2 1.5s ease-out forwards
+}
+.elcam-landscape__road {
+  position: absolute;
+  top: -2em;
+  left: 0;
+  width: 100%;
+  height: 29.8125em;
+  background: url("/default/img/games/elcamino/static/road.png") center 0/auto 300% no-repeat
+}
+.elcam-view__landscape--night .elcam-landscape__road {
+  background-position-y: 50%
+}
+.elcam-view__landscape--transition .elcam-landscape__road {
+  background-position-y: 100%
+}
+.elcam-landscape__road--village {
+  background-image: url("/default/img/games/elcamino/village/road.png"), url("/default/img/games/elcamino/village/grass.jpg");
+  background-position: center bottom, center bottom;
+  background-size: auto 100%, auto 100%
+}
+.elcam-landscape__scale--turns .elcam-landscape__road {
+  background: none
+}
+.elcam-landscape__scale--turns .elcam-landscape__road::before {
+  content: '';
+  position: absolute;
+  bottom: 13em;
+  width: 100%;
+  height: 12.1875em;
+  will-change: transform;
+  background: url("/default/img/games/elcamino/road/turns.png") center/auto 100% no-repeat
+}
+.elcam-view--is-gone .elcam-landscape__scale--turns .elcam-landscape__road::before {
+  -webkit-transform: none;
+  transform: none
+}
+.elcam-landscape__scale--village .elcam-landscape__road::before {
+  background-image: url("/default/img/games/elcamino/village/turns.png")
+}*/
+/*.elcam-landscape__scale {
+  position: absolute;
+  right: 0;
+  bottom: -52.5%;
+  left: -50%;
+  z-index: 0;
+  width: 200%;
+  height: 218%;
+  will-change: transform;
+  -webkit-transform: translateZ(0) scale(0.5) rotate(0.01deg);
+  transform: translateZ(0) scale(0.5) rotate(0.01deg)
+}
+.elcam-screens__view--start .elcam-landscape__scale {
+  transition: -webkit-transform 1.5s ease-in;
+  transition: transform 1.5s ease-in;
+  transition: transform 1.5s ease-in, -webkit-transform 1.5s ease-in
+}
+.elcam-view--is-gone .elcam-landscape__scale {
+  -webkit-animation: gone1 1.5s forwards ease-out;
+  animation: gone1 1.5s forwards ease-out
+}
+.elcam-landscape__scale--mountains {
+  -webkit-transform: translateZ(0) scale(0.9) rotate(0.01deg);
+  transform: translateZ(0) scale(0.9) rotate(0.01deg)
+}*/
+/*.elcam-landscape__scale--turns, .elcam-landscape__scale--lights {
+  margin-bottom: .75em
+}
+.elcam-landscape__scale--village {
+  -webkit-transform: translateZ(0) scale(0.7) rotate(0.01deg);
+  transform: translateZ(0) scale(0.7) rotate(0.01deg)
+}
+.elcam-landscape__scale--border {
+  -webkit-transform: translateZ(0) scale(0.3) rotate(0.01deg);
+  transform: translateZ(0) scale(0.3) rotate(0.01deg)
+}
+.elcam-landscape__place {
+  position: absolute;
+  bottom: 96%;
+  left: 0;
+  width: 100%;
+  height: 31.1875em;
+  background: url("/default/img/games/elcamino/city/back.png") center/auto 100% no-repeat
+}
+.elcam-landscape__border {
+  position: absolute;
+  top: 49.375em;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  height: 18.375em;
+  background: url("/default/img/games/elcamino/border/border-stop.png") center/auto 100% no-repeat
+}
+.elcam-landscape__border--village {
+  background-image: url("/default/img/games/elcamino/border/border-stop2.png")
+}
+.elcam-landscape__border--city {
+  background-image: url("/default/img/games/elcamino/border/border-stop3.png")
+}
+.elcam-landscape__sign {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 7.85714em;
+  height: 3em;
+  margin-bottom: 4.42857em;
+  margin-left: 16.42857em;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", "Roboto Local", "Sans-serif";
+  font-size: .875em;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1;
+  color: #000
+}
+.elcam-landscape__sign--weak, .elcam-landscape__sign--strong {
+  font-size: 1em;
+  width: 10.75em;
+  bottom: auto;
+  top: 0;
+  text-align: center;
+  min-height: 3.375em;
+  margin-left: 0;
+  border-radius: .625em;
+  background-image: linear-gradient(to bottom, #e9b301 0%, #fccd31 100%);
+  border: .125em solid #fff;
+  padding: .125em;
+  height: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+.elcam-landscape__sign--strong {
+  left: 53%
+}*/
+/*.elcam-landscape__dirt {
+  position: absolute;
+  right: 0;
+  bottom: 15%;
+  left: 0;
+  height: 100%
+}
+.elcam-landscape__line {
+  position: absolute;
+  top: 1.5625em;
+  left: 50%;
+  width: 2.375em;
+  height: 30.9375em;
+  margin-left: -1.125em;
+  background: url("/default/img/games/elcamino/static/road-line.png") no-repeat;
+  background-size: contain
+}
+.elcam-landscape__mountains {
+  position: absolute;
+  bottom: 98.5%
+}
+.elcam-landscape__mountains::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: 8s linear
+}
+.elcam-landscape__mountains--left {
+  right: 53.2%;
+  bottom: 95.2%;
+  width: 60.6875em;
+  height: 13.9375em
+}
+.elcam-landscape__mountains--left::before {
+  background: url("/default/img/games/elcamino/static/mountian-left.png") 0 0/100% 300% no-repeat
+}
+.elcam-view__landscape--transition .elcam-landscape__mountains--left::before {
+  background-position-y: calc(100% - em(2,$fz))
+}
+.elcam-view__landscape--night .elcam-landscape__mountains--left::before {
+  background-position-y: 50%
+}
+.elcam-landscape__mountains--center {
+  bottom: 96.7%;
+  left: 50%;
+  width: 128.875em;
+  height: 10.9375em;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+.elcam-landscape__mountains--center::before {
+  background: url("/default/img/games/elcamino/static/mountians-back.png") 0 0/auto 300% no-repeat
+}
+.elcam-view__landscape--transition .elcam-landscape__mountains--center::before {
+  background-position-y: calc(100% - em(2,$fz))
+}
+.elcam-view__landscape--night .elcam-landscape__mountains--center::before {
+  background-position-y: 50%
+}
+.elcam-landscape__mountains--right {
+  bottom: 96.2%;
+  left: 52.5%;
+  width: 73.5em;
+  height: 18.6875em
+}
+.elcam-landscape__mountains--right::before {
+  background: url("/default/img/games/elcamino/static/mountian-right.png") 0 0/100% 300% no-repeat
+}
+.elcam-view__landscape--transition .elcam-landscape__mountains--right::before {
+  background-position-y: calc(100% - em(2,$fz))
+}
+.elcam-view__landscape--night .elcam-landscape__mountains--right::before {
+  background-position-y: 50%
+}
+.elcam-landscape__rock {
+  position: absolute;
+  left: 50%;
+  background-size: contain
+}
+.elcam-landscape__rock--one {
+  top: -2.5em;
+  width: 16.625em;
+  height: 8.8125em;
+  margin-left: -40em;
+  background: url("/default/img/games/elcamino/static/rock1.png") 0 0/auto 300% no-repeat
+}
+.elcam-view__landscape--night .elcam-landscape__rock--one {
+  background-position-y: 50%
+}
+.elcam-view__landscape--transition .elcam-landscape__rock--one {
+  background-position-y: 100%
+}
+.elcam-screens__view--start .elcam-landscape__rock--one {
+  top: -2.1875em;
+  margin-left: -33.125em
+}
+.elcam-landscape__rock--two {
+  top: -9.375em;
+  width: 33.6875em;
+  height: 17.5em;
+  margin-left: 23.125em;
+  background: url("/default/img/games/elcamino/static/rock2.png") 0 0/auto 300% no-repeat
+}
+.elcam-view__landscape--night .elcam-landscape__rock--two {
+  background-position-y: 50%
+}
+.elcam-view__landscape--transition .elcam-landscape__rock--two {
+  background-position-y: 100%
+}
+.elcam-landscape__rock--three {
+  bottom: 46.875em;
+  width: 29.0625em;
+  height: 22.8125em;
+  margin-left: -57.5em;
+  background: url("/default/img/games/elcamino/static/rock3.png") 0 0/auto 300% no-repeat
+}
+.elcam-view__landscape--night .elcam-landscape__rock--three {
+  background-position-y: 50%
+}
+.elcam-view__landscape--transition .elcam-landscape__rock--three {
+  background-position-y: 100%
+}
+.elcam-landscape__rock--four {
+  top: 0;
+  width: 26.9375em;
+  height: 14.0625em;
+  margin-left: 33.75em;
+  background: url("/default/img/games/elcamino/static/rock4.png") 0 0/auto 300% no-repeat
+}
+.elcam-view__landscape--night .elcam-landscape__rock--four {
+  background-position-y: 50%
+}
+.elcam-view__landscape--transition .elcam-landscape__rock--four {
+  background-position-y: 100%
+}
+.elcam-landscape__rock--five {
+  right: 50%;
+  bottom: 17.5em;
+  left: auto;
+  width: 80.125em;
+  height: 84.5em;
+  margin-right: 83.125em;
+  background: url("/default/img/games/elcamino/static/rock5.png") 0 0/auto 300% no-repeat
+}
+.elcam-view__landscape--night .elcam-landscape__rock--five {
+  background-position-y: 50%
+}
+.elcam-view__landscape--transition .elcam-landscape__rock--five {
+  background-position-y: 100%
+}
+.elcam-landscape__rock--six {
+  bottom: 25em;
+  width: 80.125em;
+  height: 84.5em;
+  margin-left: 89.375em;
+  background: url("/default/img/games/elcamino/static/rock5.png") 0 0/auto 300% no-repeat;
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg)
+}
+.elcam-view__landscape--night .elcam-landscape__rock--six {
+  background-position-y: 50%
+}
+.elcam-view__landscape--transition .elcam-landscape__rock--six {
+  background-position-y: 100%
+}
+.elcam-landscape__rock--seven {
+  right: 50%;
+  bottom: 37.5em;
+  left: auto;
+  width: 50em;
+  height: 26em;
+  margin-right: 53.125em;
+  background: url("/default/img/games/elcamino/static/rock2.png") 0 0/auto 300% no-repeat;
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg)
+}
+.elcam-view__landscape--night .elcam-landscape__rock--seven {
+  background-position-y: 50%
+}
+.elcam-view__landscape--transition .elcam-landscape__rock--seven {
+  background-position-y: 100%
+}
+.elcam-landscape__rock--eight {
+  bottom: 34.375em;
+  width: 43.75em;
+  height: 34.3125em;
+  margin-left: 53.125em;
+  background: url("/default/img/games/elcamino/static/rock3.png") 0 0/auto 300% no-repeat;
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg)
+}
+.elcam-view__landscape--night .elcam-landscape__rock--eight {
+  background-position-y: 50%
+}
+.elcam-view__landscape--transition .elcam-landscape__rock--eight {
+  background-position-y: 100%
+}*/
+/*.elcam-dirt {
+  background: url("/default/img/games/elcamino/static/dirt.png") center 0/125% 300% no-repeat
+}
+.elcam-view__landscape--transition .elcam-dirt {
+  background-position-y: 100%
+}
+.elcam-view__landscape--night .elcam-dirt {
+  background-position-y: 50%
+}*/
+.elcam-logo {
+  text-align: center;
+  font-weight: 900;
+  color: #2b2c2b;
+  transition: color 4s 0s linear
+}
+.elcam-logo--is-night {
+  color: #fff
+}
+.elcam-logo__texture {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 4.375em;
+  left: 50%;
+  -webkit-flex-wrap: no-wrap;
+  -ms-flex-wrap: no-wrap;
+  flex-wrap: no-wrap;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+.elcam-logo .elcam-logo__syllable {
+  font-family: "Aerobrush", "Roboto", "Roboto Local", "Sans-serif" !important;
+  font-size: 7.5em;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: .075em
+}
+.elcam-logo .elcam-logo__syllable:first-child {
+  min-width: 1.41667em
+}
+.elcam-logo__triangle {
+  position: absolute;
+  top: 1.375em;
+  left: 1.875em;
+  width: 24.3125em;
+  height: 21.375em;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  transition: fill 4s 0s linear, -webkit-transform 1s ease-out;
+  transition: fill 4s 0s linear, transform 1s ease-out;
+  transition: fill 4s 0s linear, transform 1s ease-out, -webkit-transform 1s ease-out;
+  -webkit-animation: zoom-logo 1s 1s forwards;
+  animation: zoom-logo 1s 1s forwards;
+  fill: #2b2c2b
+}
+.elcam-logo--is-night .elcam-logo__triangle {
+  transition-delay: 4s;
+  fill: #fff
+}
+.elcam-logo__paragraph {
+  margin: 0;
+  line-height: 0.89;
+  letter-spacing: 1.0625em
+}
+.elcam-logo__text--top {
+  display: block;
+  margin-bottom: -.03333em;
+  margin-left: -.16667em;
+  font-size: 3.75em;
+  letter-spacing: .03333em
+}
+.elcam-logo__text--bottom {
+  font-size: 1.25em
+}
+.elcam-logo__name {
+  margin: .14286em 0em 0em;
+  text-transform: uppercase;
+  font-size: 8.75em;
+  line-height: 0.95;
+  color: #c3c5ba;
+  transition: color 4s 0s linear
+}
+.elcam-logo--is-night .elcam-logo__name {
+  color: #2e81e5;
+  transition-delay: 4s
+}
+.elcam-logo__title {
+  position: relative;
+  box-sizing: border-box;
+  padding: .3125em .625em;
+  height: 4.625em;
+  margin: .125em 0em 0em;
+  background-color: #383838;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  -webkit-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+  transition: 1s 0s linear;
+  transition-property: background, color
+}
+.elcam-logo--is-night .elcam-logo__title {
+  background-color: #fff;
+  color: #00204d;
+  transition-delay: 4s
+}
+.elcam-logo__title::before {
+  content: '';
+  position: absolute;
+  top: -.5625em;
+  right: -.5625em;
+  bottom: -.5625em;
+  left: -.5625em;
+  border: .20833em solid #383838;
+  transition: border 1s 0s linear
+}
+.elcam-view__logo--night .elcam-logo__title::before {
+  border-color: #fff;
+  transition-delay: 4s
+}
+.elcam-logo__caption {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  -webkit-transform: skew(20deg);
+  transform: skew(20deg);
+  transition: 1s 0s linear;
+  transition-property: opacity, -webkit-transform;
+  transition-property: opacity, transform;
+  transition-property: opacity, transform, -webkit-transform
+}
+.elcam-logo__caption--day {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0
+}
+.elcam-logo__caption--night {
+  opacity: 0;
+  -webkit-transform: scale(0.8) skew(20deg);
+  transform: scale(0.8) skew(20deg)
+}
+.elcam-logo--is-night .elcam-logo__caption--day {
+  opacity: 0;
+  -webkit-transform: scale(0.8) skew(20deg);
+  transform: scale(0.8) skew(20deg);
+  transition-delay: 4s
+}
+.elcam-logo--is-night .elcam-logo__caption--night {
+  opacity: 1;
+  -webkit-transform: skew(20deg);
+  transform: skew(20deg);
+  transition-delay: 4s
+}
+.elcam-logo__border {
+  position: absolute;
+  top: .5625em;
+  width: 1.75em;
+  height: 3.25em;
+  background-color: #c3c5ba;
+  transition: background 1s 0s linear
+}
+.elcam-logo--is-night .elcam-logo__border {
+  background-color: #00204d;
+  transition-delay: 4s
+}
+.elcam-logo__border::before {
+  content: '';
+  position: absolute;
+  left: -.3125em;
+  box-sizing: border-box;
+  width: 2.375em;
+  height: 2.75em;
+  transition: border 1s 0s linear
+}
+.elcam-logo--is-night .elcam-logo__border::before {
+  border-color: #fff;
+  transition-delay: 4s
+}
+.elcam-logo__border--left {
+  right: 100%
+}
+.elcam-logo__border--left::before {
+  bottom: -.3125em;
+  border-bottom: .3125em solid #383838;
+  border-left: .3125em solid #383838
+}
+.elcam-logo__border--right {
+  left: 100%
+}
+.elcam-logo__border--right::before {
+  top: -.3125em;
+  border-top: .3125em solid #383838;
+  border-right: .3125em solid #383838
+}
+.elcam-logo__content {
+  width: 94%;
+  margin: 0 auto;
+  font-size: 1.5em
+}
+[lang='br'] .elcam-logo__content, [lang='el'] .elcam-logo__content, [lang='fr'] .elcam-logo__content, [lang='ms'] .elcam-logo__content, [lang='ro'] .elcam-logo__content, [lang='al'] .elcam-logo__content, [lang='bs'] .elcam-logo__content, [lang='bg'] .elcam-logo__content, [lang='de'] .elcam-logo__content, [lang='es'] .elcam-logo__content, [lang='hu'] .elcam-logo__content, [lang='hy'] .elcam-logo__content, [lang='id'] .elcam-logo__content, [lang='it'] .elcam-logo__content, [lang='km'] .elcam-logo__content, [lang='mk'] .elcam-logo__content, [lang='ne'] .elcam-logo__content, [lang='pt'] .elcam-logo__content, [lang='ms'] .elcam-logo__content, [lang='sl'] .elcam-logo__content, [lang='tl'] .elcam-logo__content {
+  font-size: 1.25em
+}
+[lang='sr'] .elcam-logo__content {
+  font-size: 1.125em
+}
+[lang='kz'] .elcam-logo__content, [lang='tj'] .elcam-logo__content, [lang='lv'] .elcam-logo__content, [lang='pl'] .elcam-logo__content, [lang='ro'] .elcam-logo__content, [lang='km'] .elcam-logo__content {
+  font-size: .9375em
+}
+.elcam-hud {
+  z-index: 2;
+  padding-bottom: 1.25em;
+  -webkit-transform: translateY(0) translateZ(0);
+  transform: translateY(0) translateZ(0);
+  transition-delay: 0.5s;
+  transition-duration: 0.5s;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  transition-timing-function: linear;
+  will-change: transform
+}
+.elcam-hud--is-road {
+  padding-bottom: 0
+}
+.elcam-hud--is-road .elcam-hud__footer--start {
+  display: none
+}
+.elcam-hud__footer--road {
+  display: none;
+  position: relative;
+  z-index: 1;
+  height: 11.25em
+}
+.elcam-hud--is-road .elcam-hud__footer--road {
+  display: block
+}
+.elcam-hud--is-hide, .elcam-view--is-gone .elcam-hud {
+  -webkit-transform: translateY(78%) translateZ(0);
+  transform: translateY(78%) translateZ(0)
+}
+.elcam-hud::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  height: 14.625em;
+  background: url("/default/img/games/elcamino/torpedo/torpedo-start.png") center center/auto 100% no-repeat
+}
+.elcam-hud--is-road::before {
+  background: url("/default/img/games/elcamino/torpedo/torpedo-choose.png") center center/auto 100% no-repeat
+}
+.elcam-hud::after {
+  content: '';
+  position: absolute;
+  top: 7.5em;
+  right: .9375em;
+  z-index: 1;
+  width: 17.375em;
+  height: 4.5em;
+  background: url("/default/img/games/elcamino/torpedo/logo.png") no-repeat;
+  background-size: contain
+}
+.elcam-hud__wrapper {
+  position: relative;
+  width: 82.5em;
+  margin: auto
+}
+.elcam-hud__header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 0;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-right: .625em;
+  width: 67.5em;
+  margin: 0 auto 3.375em;
+  direction: ltr;
+  text-align: center
+}
+.elcam-hud--is-road .elcam-hud__header {
+  margin-bottom: 1.125em
+}
+.elcam-hud__box {
+  position: relative;
+  width: 28.75em;
+  height: 6.25em
+}
+.elcam-hud__box::before, .elcam-hud__box::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2.5em;
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.elcam-hud__box::before {
+  right: 100%;
+  margin-right: -1px;
+  background-image: url("/default/img/games/elcamino/torpedo/top-left-border.png")
+}
+.elcam-hud__box::after {
+  left: 100%;
+  margin-left: -1px;
+  background-image: url("/default/img/games/elcamino/torpedo/top-right-border.png")
+}
+.elcam-box {
+  background: url("/default/img/games/elcamino/torpedo/top-bg.png") center/100% 100% repeat-x;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", "Roboto Local", "Sans-serif";
+  font-weight: 700;
+  font-style: normal;
+  image-rendering: optimize-contrast;
+  image-rendering: crisp-edges
+}
+.elcam-box--bet, .elcam-box--coef {
+  -webkit-flex-basis: 16.875em;
+  -ms-flex-preferred-size: 16.875em;
+  flex-basis: 16.875em;
+  height: 4.6875em;
+  margin-top: 1em
+}
+.elcam-box--bet::before, .elcam-box--bet::after, .elcam-box--coef::before, .elcam-box--coef::after {
+  width: 1.875em
+}
+.elcam-box--appeal {
+  z-index: 2;
+  margin: 0em .9375em
+}
+.elcam-box__inner {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: .625em;
+  height: 5em
+}
+.elcam-box__inner::before {
+  content: '';
+  opacity: 0;
+  position: absolute;
+  top: -.625em;
+  left: -3.3125em;
+  z-index: 1;
+  width: 35.4375em;
+  height: 7.9375em;
+  background: url("/default/img/games/elcamino/torpedo/hint-glare.png") center no-repeat;
+  background-size: 100% 100%
+}
+.elcam-box--coef .elcam-box__inner::before {
+  right: -3.3125em;
+  left: auto
+}
+.elcam-box__inner--is-glow::before {
+  -webkit-animation: flashingGlow 1s 3 linear;
+  animation: flashingGlow 1s 3 linear
+}
+.elcam-box--bet .elcam-box__inner, .elcam-box--coef .elcam-box__inner {
+  padding: .5em;
+  height: 3.75em
+}
+.elcam-box__inner--main {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative
+}
+.elcam-box__content {
+  position: relative;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  height: 2.75em;
+  margin-left: -1.5625em;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-style: normal
+}
+.elcam-box--coef .elcam-box__content {
+  position: relative;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: .3125em;
+  height: 100%;
+  margin: 0;
+  overflow: visible
+}
+.elcam-box__content::before {
+  content: '';
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0
+}
+.elcam-box--coef .elcam-box__content::before {
+  content: '';
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: -.125em;
+  left: 0;
+  z-index: 1;
+  margin-right: -1.5625em;
+  background-size: 100% 100%;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg)
+}
+.elcam-box__content--is-up::before {
+  background: url("/default/img/games/elcamino/torpedo/sum-add-bg.png") 0 0/100% 100% no-repeat
+}
+.elcam-box__content--is-down::before {
+  background: url("/default/img/games/elcamino/torpedo/sum-rem-bg.png") 0 0/100% 100% no-repeat
+}
+.elcam-box__content--is-change::before {
+  -webkit-animation: pulse 1s 3 ease-in-out forwards;
+  animation: pulse 1s 3 ease-in-out forwards
+}
+.elcam-box__stage {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 100%
+}
+.elcam-box__val {
+  position: relative;
+  z-index: 1;
+  font-size: inherit;
+  color: #fff
+}
+.elcam-hud:not(.elcam-hud--is-road) .elcam-box--coef .elcam-box__val {
+  display: none
+}
+.elcam-box__txt {
+  position: relative;
+  z-index: 1;
+  font-size: 1.5em;
+  color: #fff
+}
+.elcam-footer__row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 56.375em;
+  margin-top: 1.25em;
+  margin-right: auto
+}
+.elcam-footer__cell--btns {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: .125em 1px;
+  width: 36.375em;
+  border: 1px solid #8f9194;
+  border-radius: 3.125em;
+  background: #2b2c2b
+}
+.elcam-footer__cell--control {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 17.25em;
+  border-radius: 3.125em;
+  overflow: hidden
+}
+.elcam-footer__group--inner {
+  padding: .125em 1px;
+  border: 1px solid #8f9194;
+  border-radius: 3.125em;
+  background: #2f2834
+}
+.elcam-footer__btn {
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 0;
+  width: 5.75em;
+  height: 2.5em;
+  margin: 0em .1875em;
+  outline: none;
+  border: none;
+  background: none;
+  font-size: inherit;
+  font-style: italic;
+  color: #fff
+}
+.elcam-footer__btn--rules {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 0;
+  width: 9.125em;
+  min-width: 3.5em;
+  height: 2.875em;
+  min-height: 2.875em;
+  margin: 0;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  border-radius: 3.125em;
+  background-image: conic-gradient(#9c9ea0, #606366, #9c9ea0, #606366, #9c9ea0);
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Roboto", "Roboto Local", "Sans-serif";
+  font-size: inherit;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  transition: 0.3s linear
+}
+.elcam-footer__btn--rules:hover {
+  background: conic-gradient(#646668, #393b3c, #646668, #393b3c, #646668)
+}
+.elcam-footer__btn--run {
+  position: relative;
+  cursor: pointer;
+  padding: 1.0625em .625em 1em;
+  width: 100%;
+  height: 3.5em;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  border-radius: 3.125em;
+  background: linear-gradient(to bottom, #a7df5d 0%, #2d4125 100%);
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", "Roboto Local", "Sans-serif";
+  font-size: inherit;
+  font-weight: 900;
+  font-style: italic;
+  color: #fff
+}
+.elcam-footer__btn--run::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  background: url("/default/img/games/elcamino/torpedo/sparkle.png") center/100% no-repeat;
+  -webkit-transform: translate(-1000%);
+  transform: translate(-1000%);
+  transition: opacity 0.2s linear
+}
+.elcam-footer__btn--run:hover {
+  background: linear-gradient(to bottom, #8ad043 10%, #21321a 30%)
+}
+.elcam-footer__btn--run:hover::before {
+  background: conic-gradient(#7fa706, #3b5020, #7fa706, #3b5020, #7fa706)
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .elcam-footer__btn--run:hover::before {
+    background: linear-gradient(to left, #3b5020 0%, #7fa706 49%, #7fa706 51%, #3b5020 100%)
+  }
+}
+@supports (-ms-accelerator:true) or (-ms-ime-align:auto) {
+  .elcam-footer__btn--run:hover::before {
+    background: linear-gradient(to left, #3b5020 0%, #7fa706 49%, #7fa706 51%, #3b5020 100%)
+  }
+}
+@-moz-document url-prefix() {
+  .elcam-footer__btn--run:hover::before {
+    background: linear-gradient(to left, #3b5020 0%, #7fa706 49%, #7fa706 51%, #3b5020 100%)
+  }
+}
+.elcam-footer__btn--run:hover::after {
+  opacity: 0
+}
+.elcam-footer__btn--run:disabled {
+  cursor: default;
+  background: linear-gradient(to bottom, #646668 0%, #393b3c 100%)
+}
+.elcam-footer__btn--run:disabled::before {
+  background: conic-gradient(#646668, #393b3c, #646668, #393b3c, #646668)
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .elcam-footer__btn--run:disabled::before {
+    background: linear-gradient(to left, #393b3c 0%, #646668 49%, #646668 51%, #393b3c 100%)
+  }
+}
+@supports (-ms-accelerator:true) or (-ms-ime-align:auto) {
+  .elcam-footer__btn--run:disabled::before {
+    background: linear-gradient(to left, #393b3c 0%, #646668 49%, #646668 51%, #393b3c 100%)
+  }
+}
+@-moz-document url-prefix() {
+  .elcam-footer__btn--run:disabled::before {
+    background: linear-gradient(to left, #393b3c 0%, #646668 49%, #646668 51%, #393b3c 100%)
+  }
+}
+.elcam-footer__btn--run:disabled::after {
+  content: none
+}
+.elcam-footer__btn--run:disabled__txt {
+  position: relative;
+  z-index: 1;
+  font-size: 1.125em
+}
+.elcam-footer__btn--run::before {
+  content: '';
+  position: absolute;
+  top: .3125em;
+  right: .3125em;
+  bottom: .3125em;
+  left: .3125em;
+  border-radius: 3.125em;
+  background: conic-gradient(#94c011, #6c923a, #94c011, #6c923a, #94c011)
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .elcam-footer__btn--run::before {
+    background: linear-gradient(to left, #6c923a 0%, #94c011 49%, #94c011 51%, #6c923a 100%)
+  }
+}
+@supports (-ms-accelerator:true) or (-ms-ime-align:auto) {
+  .elcam-footer__btn--run::before {
+    background: linear-gradient(to left, #6c923a 0%, #94c011 49%, #94c011 51%, #6c923a 100%)
+  }
+}
+@-moz-document url-prefix() {
+  .elcam-footer__btn--run::before {
+    background: linear-gradient(to left, #6c923a 0%, #94c011 49%, #94c011 51%, #6c923a 100%)
+  }
+}
+.elcam-footer__val {
+  display: block;
+  position: relative;
+  z-index: 1;
+  line-height: 1
+}
+.elcam-footer__btn--rules .elcam-footer__val {
+  font-size: 1.125em;
+  font-style: italic
+}
+.elcam-footer__btn--run .elcam-footer__val, .elcam-footer__btn--rules .elcam-footer__val {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  width: 91%;
+  margin: 0 auto;
+  font-size: 1.1875em
+}
+.elcam-footer__turns {
+  position: absolute;
+  top: 1.4375em;
+  left: 10.375em;
+  width: 14.875em;
+  direction: ltr
+}
+.elcam-footer__tachometer {
+  position: absolute;
+  top: 5.4375em;
+  left: 3.75em;
+  width: 6.5625em;
+  height: 4em;
+  transition: -webkit-transform 1.5s ease-out;
+  transition: transform 1.5s ease-out;
+  transition: transform 1.5s ease-out, -webkit-transform 1.5s ease-out
+}
+.elcam-footer__tachometer--is-run {
+  -webkit-transform: rotate(100deg);
+  transform: rotate(100deg)
+}
+.elcam-footer__tachometer::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/default/img/games/elcamino/torpedo/tachometer-arr.png") no-repeat;
+  background-size: contain;
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+  -webkit-animation: transHalfNone 5s ease-in-out infinite;
+  animation: transHalfNone 5s ease-in-out infinite
+}
+.elcam-footer__speedometer {
+  position: absolute;
+  top: 5em;
+  left: 15em;
+  width: 6.75em;
+  height: 4.25em;
+  transition: -webkit-transform 1.5s ease-out;
+  transition: transform 1.5s ease-out;
+  transition: transform 1.5s ease-out, -webkit-transform 1.5s ease-out
+}
+.elcam-footer__speedometer--is-run {
+  -webkit-transform: rotate(100deg);
+  transform: rotate(100deg)
+}
+.elcam-footer__speedometer::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 4em;
+  height: 2.75em;
+  background: url("/default/img/games/elcamino/torpedo/speedometer-arr.png") no-repeat;
+  background-size: contain
+}
+.elcam-footer__icon {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 5em;
+  height: 5em;
+  margin: auto;
+  border-radius: 50%
+}
+.elcam-footer__icon--warning {
+  top: 4.0625em;
+  left: 41.5em
+}
+.elcam-footer__icon--warning .elcam-footer__svg {
+  width: 2em
+}
+.elcam-footer__svg {
+  fill: #352735;
+  stroke-width: 0
+}
+.elcam-footer__radio {
+  position: absolute;
+  right: 17.5em;
+  bottom: 1.5625em;
+  width: 14.3125em;
+  height: 6.75em
+}
+.elcam-radio {
+  box-sizing: content-box;
+  padding-top: 1.0625em;
+  background: url("/default/img/games/elcamino/torpedo/radio-bg.png") no-repeat;
+  background-size: contain;
+  text-align: center
+}
+.elcam-radio__prog {
+  width: 11.25em;
+  height: .6875em;
+  margin: auto;
+  background: url("/default/img/games/elcamino/torpedo/radio-prog.png") no-repeat;
+  background-size: contain
+}
+.elcam-radio__drag {
+  position: relative;
+  width: .3125em;
+  height: .75em;
+  background-color: #f20707;
+  transition: left 0.5s
+}
+.elcam-radio__drag--is-one {
+  left: 20%
+}
+.elcam-radio__drag--is-two {
+  left: 50%
+}
+.elcam-radio__drag--is-three {
+  left: 75%
+}
+.elcam-radio__hint {
+  position: relative;
+  padding: .25em 0em;
+  width: 13.75em;
+  margin: .91667em auto .58333em;
+  border-top: 1px solid #574253;
+  border-bottom: 1px solid #574253;
+  box-shadow: inset 0em 0em .83333em #000;
+  background-color: #1a0d2b;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: .75em;
+  font-style: normal
+}
+.elcam-radio__hint::before, .elcam-radio__hint::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: 1px;
+  background: #3d293d
+}
+.elcam-radio__hint::before {
+  top: 0
+}
+.elcam-radio__hint::after {
+  bottom: 0
+}
+.elcam-radio__list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none
+}
+.elcam-radio__btn {
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: inherit
+}
+.elcam-radio__btn--rule {
+  cursor: pointer;
+  max-width: 100%;
+  margin-top: 1.875em
+}
+.elcam-radio__btn--wave {
+  display: block;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: .14286em 0 1px;
+  width: 3.85714em;
+  margin: 0em .35714em;
+  outline: none;
+  text-align: center;
+  font-size: .875em;
+  font-style: normal;
+  color: #fff;
+  transition: 0.2s linear
+}
+.elcam-radio__btn--wave.elcam-radio__btn--is-active {
+  cursor: default
+}
+.elcam-radio__btn--wave, .elcam-radio__btn--wave:disabled:hover {
+  border: 1px solid #3d323e;
+  border-right-color: #2a2334;
+  border-bottom-color: #201a2d;
+  box-shadow: .21429em .21429em .28571em #0c0619;
+  background: linear-gradient(to bottom, #342235 0%, #291731 100%)
+}
+.elcam-radio__btn--wave:disabled {
+  cursor: default
+}
+.elcam-radio__btn--wave:hover, .elcam-radio__btn--wave.elcam-radio__btn--is-active, .elcam-radio__btn--wave.elcam-radio__btn--is-active:disabled:hover {
+  border-color: #d82222;
+  border-right-color: #b90909;
+  border-bottom-color: #b40808;
+  box-shadow: .07143em .07143em .21429em #000;
+  background: linear-gradient(to bottom, #d82222 0%, #7f0606 100%)
+}
+.elcam-radio__btn--is-radio-on, .elcam-radio__btn--is-radio-off {
+  position: absolute;
+  top: .625em;
+  cursor: pointer;
+  padding: 0;
+  width: 4.625em;
+  height: 4.625em;
+  outline: none;
+  border: none;
+  background: url("/default/img/games/elcamino/torpedo/radio-btn.png") no-repeat center;
+  background-size: contain;
+  font-size: inherit
+}
+.elcam-radio__btn--is-radio-on:disabled, .elcam-radio__btn--is-radio-off:disabled {
+  cursor: default
+}
+.elcam-radio__btn--is-radio-on:disabled .elcam-radio__icon, .elcam-radio__btn--is-radio-off:disabled .elcam-radio__icon {
+  fill: #645457
+}
+.elcam-radio__btn--is-radio-on:hover .elcam-radio__icon, .elcam-radio__btn--is-radio-off:hover .elcam-radio__icon {
+  fill: #d56e07
+}
+.elcam-radio__btn--is-radio-on {
+  left: -3.375em
+}
+.elcam-radio__btn--is-radio-off {
+  right: -3.375em
+}
+.elcam-radio__icon {
+  width: 2em;
+  height: 2.125em;
+  margin-top: .5em;
+  transition: fill 0.2s linear;
+  fill: #fff
+}
+.xgames-stage .elcam-radio__icon {
+  display: inline-block
+}
+.elcam-radio__val {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: "Roboto", "Roboto Local", "Sans-serif";
+  line-height: 1;
+  color: #fff
+}
+.elcam-radio__btn--rule .elcam-radio__val {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%
+}
+.elcam-radio__val:hover {
+  text-decoration: none
+}
+.elcam-radio__txt {
+  display: inline-block;
+  padding: 0em .1875em;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1;
+  white-space: nowrap;
+  color: #fff
+}
+.elcam-turns {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between
+}
+.elcam-turns__item {
+  opacity: 1;
+  width: 2.5em;
+  height: 2.5em
+}
+.elcam-turns__item--is-on {
+  background: url("/default/img/games/elcamino/torpedo/turn-signal.png") no-repeat left center;
+  background-size: 200% 100%;
+  -webkit-animation: opacityHalf1 1s steps(1) infinite;
+  animation: opacityHalf1 1s steps(1) infinite
+}
+.elcam-turns__item--right {
+  background-position: right center
+}
+.elcam-sound {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding: .125em 1px;
+  border: 1px solid #8f9194;
+  border-radius: 3.125em;
+  background: #2f2834
+}
+.elcam-sound__btn {
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Roboto", "Roboto Local", "Sans-serif";
+  font-size: inherit;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  transition: 0.3s linear
+}
+.elcam-sound__btn--on, .elcam-sound__btn--off, .elcam-sound__btn--switcher {
+  padding: .8125em 1.375em;
+  min-width: 3.5em;
+  min-height: 2.875em;
+  margin: 0;
+  border-radius: 3.125em;
+  background: none
+}
+.elcam-sound__btn:disabled {
+  cursor: default
+}
+.elcam-sound__btn:disabled .elcam-sound__icon, .elcam-sound__btn:hover .elcam-sound__icon {
+  fill: #fff
+}
+.elcam-sound__btn--switcher {
+  position: absolute;
+  background-image: conic-gradient(#9c9ea0, #606366, #9c9ea0, #606366, #9c9ea0);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s
+}
+.elcam-sound--off .elcam-sound__btn--switcher {
+  -webkit-transform: translateX(1px);
+  transform: translateX(1px)
+}
+.elcam-sound__icon {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+  margin: auto;
+  transition: fill 0.2s;
+  fill: dimgray
+}
+.elcam-sound__btn--active .elcam-sound__icon {
+  fill: #fff
+}
+/*.elcam-car--is-back {
+  -webkit-animation: 1.2s ease-out from-back forwards;
+  animation: 1.2s ease-out from-back forwards
+}
+.elcam-car--is-forward {
+  -webkit-animation: move-forward 3.5s cubic-bezier(0.57, 0.1, 0.37, 0.92) forwards;
+  animation: move-forward 3.5s cubic-bezier(0.57, 0.1, 0.37, 0.92) forwards
+}
+.elcam-car--is-left {
+  -webkit-animation: move-left 3.5s cubic-bezier(0.57, 0.1, 0.37, 0.92) forwards;
+  animation: move-left 3.5s cubic-bezier(0.57, 0.1, 0.37, 0.92) forwards
+}
+.elcam-car--is-left .elcam-car__truck {
+  background-position: 0 0;
+  -webkit-animation: move-left-bg1 0.1s steps(2, start) forwards, move-left-bg2 0.1s 0.1s steps(2, start) forwards;
+  animation: move-left-bg1 0.1s steps(2, start) forwards, move-left-bg2 0.1s 0.1s steps(2, start) forwards
+}
+.elcam-car--is-right {
+  -webkit-animation: move-right 3.5s cubic-bezier(0.57, 0.1, 0.37, 0.92) forwards;
+  animation: move-right 3.5s cubic-bezier(0.57, 0.1, 0.37, 0.92) forwards
+}
+.elcam-car--is-right .elcam-car__truck {
+  background-position: 0 0;
+  -webkit-animation: move-right-bg1 0.2s steps(4, start) forwards, move-right-bg2 0.2s 0.2s steps(2, start) forwards;
+  animation: move-right-bg1 0.2s steps(4, start) forwards, move-right-bg2 0.2s 0.2s steps(2, start) forwards
+}
+.elcam-car__wrap {
+  position: absolute;
+  top: 10.5625em;
+  left: 74.5%;
+  width: 40em;
+  height: 20em;
+  -webkit-transform: translate(-49%, -91%);
+  transform: translate(-49%, -91%);
+  pointer-events: none
+}
+.elcam-car__truck {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background: url("/default/img/games/elcamino/car/sprite.png") no-repeat 11.11111% top;
+  background-size: auto 500%
+}
+.elcam-car__light {
+  opacity: 0;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: opacity 0.1s 4s linear
+}
+.elcam-car--is-lights-on .elcam-car__light {
+  opacity: 1
+}
+.elcam-car__light--front {
+  top: 5em;
+  left: 7.8125em;
+  width: 25em;
+  height: 14.375em;
+  background-image: url("/default/img/games/elcamino/car/front-light.png")
+}
+.elcam-car__light--back {
+  top: 12.25em;
+  left: 12.6875em;
+  z-index: 2;
+  width: 19.5em;
+  height: 4.8125em;
+  background-image: url("/default/img/games/elcamino/car/back-light.png")
+}*/
+.elcam-popup {
+  position: relative;
+  font-size: 0.834vw
+}
+.elcam-popup * {
+  box-sizing: border-box
+}
+.elcam-popup button, .elcam-popup input {
+  outline: none
+}
+.elcam-popup--start {
+  width: 94.625em;
+  height: 45.625em
+}
+.elcam-popup--chance {
+  width: 84.375em;
+  height: auto
+}
+.elcam-popup--belay {
+  width: 78.625em
+}
+.elcam-popup--win, .elcam-popup--lose {
+  width: 100.75em;
+  height: 46.25em
+}
+.elcam-popup--start, .elcam-popup--chance {
+  margin: 6.25em auto
+}
+.elcam-popup--obstacle {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0em .625em;
+  width: 25.0625em;
+  margin: auto;
+  direction: ltr
+}
+.elcam-popup--obstacle::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 29.9375em;
+  height: 45.0625em;
+  background: url("/default/img/games/elcamino/slider/back-cards.png") center/100% no-repeat;
+  left: -2.5em
+}
+.elcam-popup__keys {
+  position: absolute;
+  right: -3.125em;
+  bottom: -1.75em;
+  z-index: 1;
+  width: 8.9375em;
+  height: 8.9375em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain
+}
+.elcam-popup__clue, .elcam-popup__hook {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+.elcam-popup__logo {
+  position: absolute;
+  top: -8.125em;
+  z-index: 1;
+  width: 22.5em;
+  height: 22.5em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
+  left: -7.5em
+}
+.elcam-popup__mark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+.elcam-popup--rules {
+  padding: 2.5em 2.5em 4.0625em 4.375em;
+  width: 51.25em;
+  background: #fff url("/default/img/games/elcamino/modal/rules-bg.png") center/100% 100%;
+  text-align: left;
+  font-family: "Roboto Condensed", "Roboto Local", "Sans-serif";
+  color: #1f1614
+}
+.elcam-popup--info {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  padding: .625em .625em 0em .625em;
+  margin: 3.125em auto;
+  background-color: #fff;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center
+}
+.elcam-popup--safe {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 21.25em;
+  width: 51.25em;
+  min-height: 27.5em;
+  background-image: url("/default/img/games/elcamino/modal/bg1.png")
+}
+.elcam-popup--final {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 19.375em;
+  width: 51.25em;
+  min-height: 27.5em;
+  background-image: url("/default/img/games/elcamino/modal/bg2.png")
+}
+.elcam-popup--final::before {
+  content: '';
+  position: absolute;
+  top: -1.875em;
+  left: -1.875em;
+  width: 54.1875em;
+  height: 20.0625em;
+  background: url("/default/img/games/elcamino/modal/win-top.png") center/100% no-repeat;
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1)
+}
+.elcam-popup--final::after {
+  content: '';
+  position: absolute;
+  bottom: -1.875em;
+  left: -2.5em;
+  z-index: -1;
+  width: 55.3125em;
+  height: 6.5em;
+  background: url("/default/img/games/elcamino/modal/win-bot.png") center/100% no-repeat
+}
+.elcam-popup__finding {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", "Roboto Local", "Sans-serif";
+  font-size: 2.875em;
+  font-weight: 700;
+  color: #000
+}
+.elcam-popup__tell {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", "Roboto Local", "Sans-serif";
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #000
+}
+.elcam-popup__prize {
+  display: block;
+  margin: 0em 0em .21739em;
+  font-size: 2.875em;
+  font-weight: 700;
+  color: #197cf5
+}
+.elcam-popup__panel {
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  margin-bottom: -1.5625em
+}
+.elcam-popup__headline {
+  margin: .69231em 0em;
+  font-family: "ChalkboardSE-Bold", "Roboto", "Roboto Local", "Sans-serif";
+  font-size: 1.625em;
+  color: #000
+}
+.elcam-popup__value {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 700;
+  color: #fff
+}
+.elcam-popup__bar {
+  margin: .75em 0em;
+  font-family: "Roboto Condensed", "Roboto Local", "Sans-serif";
+  font-size: 1em;
+  line-height: 1.5;
+  color: #424242
+}
+.elcam-popup__describe {
+  font-weight: 700;
+  color: #0095ff
+}
+.elcam-popup__footer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+.elcam-popup--safe .elcam-popup__btn--green, .elcam-popup--safe .elcam-popup__btn--gray, .elcam-popup--final .elcam-popup__btn--green, .elcam-popup--final .elcam-popup__btn--gray {
+  position: relative;
+  cursor: pointer;
+  padding: 1.25em 1.375em 1em;
+  min-height: 3.75em;
+  margin: 0em .625em;
+  outline: none;
+  border: none;
+  border-radius: 3.125em;
+  font-size: inherit
+}
+.elcam-popup--safe .elcam-popup__btn--green, .elcam-popup--safe .elcam-popup__btn--gray {
+  min-width: 13.75em
+}
+.elcam-popup--final .elcam-popup__btn--green, .elcam-popup--final .elcam-popup__btn--gray {
+  min-width: 15.3125em
+}
+.elcam-popup__btn:disabled {
+  cursor: default;
+  background: linear-gradient(to bottom, #646668 0%, #393b3c 100%)
+}
+.elcam-popup__btn:disabled::before {
+  background: conic-gradient(#646668, #393b3c, #646668, #393b3c, #646668)
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .elcam-popup__btn:disabled::before {
+    background: linear-gradient(to left, #393b3c 0%, #646668 49%, #646668 51%, #393b3c 100%)
+  }
+}
+@supports (-ms-accelerator:true) or (-ms-ime-align:auto) {
+  .elcam-popup__btn:disabled::before {
+    background: linear-gradient(to left, #393b3c 0%, #646668 49%, #646668 51%, #393b3c 100%)
+  }
+}
+@-moz-document url-prefix() {
+  .elcam-popup__btn:disabled::before {
+    background: linear-gradient(to left, #393b3c 0%, #646668 49%, #646668 51%, #393b3c 100%)
+  }
+}
+.elcam-popup__btn:disabled::after {
+  content: none
+}
+.elcam-popup__btn--green {
+  background: linear-gradient(to bottom, #a7df5d 0%, #2d4125 100%);
+  font-family: "Roboto Condensed", "Roboto Local", "Sans-serif"
+}
+.elcam-popup__btn--green::before {
+  content: '';
+  position: absolute;
+  top: .3125em;
+  right: .3125em;
+  bottom: .3125em;
+  left: .3125em;
+  border-radius: 3.125em;
+  background: conic-gradient(#94c011, #6c923a, #94c011, #6c923a, #94c011)
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .elcam-popup__btn--green::before {
+    background: linear-gradient(to left, #6c923a 0%, #94c011 49%, #94c011 51%, #6c923a 100%)
+  }
+}
+@supports (-ms-accelerator:true) or (-ms-ime-align:auto) {
+  .elcam-popup__btn--green::before {
+    background: linear-gradient(to left, #6c923a 0%, #94c011 49%, #94c011 51%, #6c923a 100%)
+  }
+}
+@-moz-document url-prefix() {
+  .elcam-popup__btn--green::before {
+    background: linear-gradient(to left, #6c923a 0%, #94c011 49%, #94c011 51%, #6c923a 100%)
+  }
+}
+.elcam-popup__btn--green:hover {
+  background: linear-gradient(to bottom, #8ad043 10%, #21321a 30%)
+}
+.elcam-popup__btn--green:hover::before {
+  background: conic-gradient(#7fa706, #3b5020, #7fa706, #3b5020, #7fa706)
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .elcam-popup__btn--green:hover::before {
+    background: linear-gradient(to left, #3b5020 0%, #7fa706 49%, #7fa706 51%, #3b5020 100%)
+  }
+}
+@supports (-ms-accelerator:true) or (-ms-ime-align:auto) {
+  .elcam-popup__btn--green:hover::before {
+    background: linear-gradient(to left, #3b5020 0%, #7fa706 49%, #7fa706 51%, #3b5020 100%)
+  }
+}
+@-moz-document url-prefix() {
+  .elcam-popup__btn--green:hover::before {
+    background: linear-gradient(to left, #3b5020 0%, #7fa706 49%, #7fa706 51%, #3b5020 100%)
+  }
+}
+.elcam-popup__btn--green:hover::after {
+  opacity: 0
+}
+.elcam-popup__btn--blue {
+  background: linear-gradient(to bottom, #bde1ff 0%, #063d6a 100%);
+  font-family: "Roboto Condensed", "Roboto Local", "Sans-serif"
+}
+.elcam-popup__btn--blue::before {
+  content: '';
+  position: absolute;
+  top: .3125em;
+  right: .3125em;
+  bottom: .3125em;
+  left: .3125em;
+  border-radius: 3.125em;
+  background: conic-gradient(#42e9ff, #0091ff, #42e9ff, #0091ff, #42e9ff)
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .elcam-popup__btn--blue::before {
+    background: linear-gradient(to left, #0091ff 0%, #42e9ff 49%, #42e9ff 51%, #0091ff 100%)
+  }
+}
+@supports (-ms-accelerator:true) or (-ms-ime-align:auto) {
+  .elcam-popup__btn--blue::before {
+    background: linear-gradient(to left, #0091ff 0%, #42e9ff 49%, #42e9ff 51%, #0091ff 100%)
+  }
+}
+@-moz-document url-prefix() {
+  .elcam-popup__btn--blue::before {
+    background: linear-gradient(to left, #0091ff 0%, #42e9ff 49%, #42e9ff 51%, #0091ff 100%)
+  }
+}
+.elcam-popup__btn--blue:hover {
+  background: linear-gradient(to bottom, #bde1ff 10%, #063d6a 30%)
+}
+.elcam-popup__btn--blue:hover::before {
+  background: conic-gradient(#15b6cb, #055fa3, #15b6cb, #055fa3, #15b6cb)
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .elcam-popup__btn--blue:hover::before {
+    background: linear-gradient(to left, #055fa3 0%, #15b6cb 49%, #15b6cb 51%, #055fa3 100%)
+  }
+}
+@supports (-ms-accelerator:true) or (-ms-ime-align:auto) {
+  .elcam-popup__btn--blue:hover::before {
+    background: linear-gradient(to left, #055fa3 0%, #15b6cb 49%, #15b6cb 51%, #055fa3 100%)
+  }
+}
+@-moz-document url-prefix() {
+  .elcam-popup__btn--blue:hover::before {
+    background: linear-gradient(to left, #055fa3 0%, #15b6cb 49%, #15b6cb 51%, #055fa3 100%)
+  }
+}
+.elcam-popup__btn--blue:hover::after {
+  opacity: 0
+}
+.elcam-popup__btn--gray {
+  background: linear-gradient(to bottom, #fff 0%, #2a333c 100%);
+  font-family: "Roboto Condensed", "Roboto Local", "Sans-serif"
+}
+.elcam-popup__btn--gray::before {
+  content: '';
+  position: absolute;
+  top: .3125em;
+  right: .3125em;
+  bottom: .3125em;
+  left: .3125em;
+  border-radius: 3.125em;
+  background: conic-gradient(#9c9ea0, #606366, #9c9ea0, #606366, #9c9ea0)
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .elcam-popup__btn--gray::before {
+    background: linear-gradient(to left, #606366 0%, #9c9ea0 49%, #9c9ea0 51%, #606366 100%)
+  }
+}
+@-moz-document url-prefix() {
+  .elcam-popup__btn--gray::before {
+    background: linear-gradient(to left, #606366 0%, #9c9ea0 49%, #9c9ea0 51%, #606366 100%)
+  }
+}
+@supports (-ms-accelerator:true) or (-ms-ime-align:auto) {
+  .elcam-popup__btn--gray::before {
+    background: linear-gradient(to left, #606366 0%, #9c9ea0 49%, #9c9ea0 51%, #606366 100%)
+  }
+}
+.elcam-popup__btn--gray:hover {
+  background: linear-gradient(to bottom, #fff 10%, #2a333c 30%)
+}
+.elcam-popup__btn--gray:hover::before {
+  background: conic-gradient(#646668, #393b3c, #646668, #393b3c, #646668)
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .elcam-popup__btn--gray:hover::before {
+    background: linear-gradient(to left, #393b3c 0%, #646668 49%, #646668 51%, #393b3c 100%)
+  }
+}
+@-moz-document url-prefix() {
+  .elcam-popup__btn--gray:hover::before {
+    background: linear-gradient(to left, #393b3c 0%, #646668 49%, #646668 51%, #393b3c 100%)
+  }
+}
+@supports (-ms-accelerator:true) or (-ms-ime-align:auto) {
+  .elcam-popup__btn--gray:hover::before {
+    background: linear-gradient(to left, #393b3c 0%, #646668 49%, #646668 51%, #393b3c 100%)
+  }
+}
+.elcam-popup__btn--gray:hover::after {
+  opacity: 0
+}
+.elcam-popup__top {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: -5em;
+  right: 50%;
+  z-index: 1;
+  box-sizing: border-box;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: .83333em 2.77778em;
+  width: 90%;
+  min-height: 5.38889em;
+  background: url("/default/img/games/elcamino/comics/txt-bg.png") center/100% 100% no-repeat;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", "Roboto Local", "Sans-serif";
+  font-size: 1.125em;
+  font-style: normal;
+  color: #1f1614;
+  -webkit-transform: translateX(50%) translateZ(0);
+  transform: translateX(50%) translateZ(0)
+}
+.elcam-popup__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  background-color: #fff
+}
+.elcam-popup--chance .elcam-popup__inner {
+  height: 45.8125em
+}
+.elcam-popup__sign {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 54%;
+  left: 35%;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: .28571em;
+  width: 10em;
+  min-height: 3em;
+  border-radius: .71429em;
+  background-image: linear-gradient(to bottom, #e9b301 0%, #fccd31 100%);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: .875em;
+  font-weight: 900;
+  font-style: normal;
+  color: #030303;
+  border: 1px solid #fff;
+  word-wrap: anywhere
+}
+[lang='ka'] .elcam-popup__sign, [lang='km'] .elcam-popup__sign {
+  left: 32%;
+  width: 16em;
+  font-size: .625em
+}
+.elcam-popup__wonder {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0em .25em;
+  width: 4.375em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-transform: translate3d(-5.5em, 1.75em, 0) skewY(-24deg) scale(1, 1);
+  transform: translate3d(-5.5em, 1.75em, 0) skewY(-24deg) scale(1, 1)
+}
+.elcam-popup__score {
+  display: block;
+  font-size: .4375em;
+  font-weight: 700;
+  line-height: 1.6
+}
+.elcam-popup__slide {
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+.elcam-popup--start .elcam-popup__slide--1 {
+  top: 0;
+  left: 0;
+  width: 16.0625em;
+  height: 12.25em
+}
+.elcam-popup--start .elcam-popup__slide--2 {
+  top: 0;
+  left: 16em;
+  width: 24.125em;
+  height: 12.25em
+}
+.elcam-popup--start .elcam-popup__slide--3 {
+  top: 0;
+  left: 36.6875em;
+  width: 30.8125em;
+  height: 12.25em
+}
+.elcam-popup--start .elcam-popup__slide--4 {
+  top: 0;
+  left: 64.125em;
+  width: 30.5em;
+  height: 12.1875em
+}
+.elcam-popup--start .elcam-popup__slide--5 {
+  top: 12em;
+  left: 0;
+  width: 32.9375em;
+  height: 15.8125em
+}
+.elcam-popup--start .elcam-popup__slide--6 {
+  top: 12em;
+  left: 32.9375em;
+  width: 16.5625em;
+  height: 15.8125em
+}
+.elcam-popup--start .elcam-popup__slide--7 {
+  top: 12em;
+  left: 49.375em;
+  width: 21.125em;
+  height: 15.8125em
+}
+.elcam-popup--start .elcam-popup__slide--8 {
+  top: 12em;
+  left: 70.3125em;
+  width: 24.25em;
+  height: 15.8125em
+}
+.elcam-popup--start .elcam-popup__slide--9 {
+  top: 27.625em;
+  left: 0;
+  width: 41.0625em;
+  height: 18em
+}
+.elcam-popup--start .elcam-popup__slide--10 {
+  top: 27.625em;
+  left: 35.375em;
+  width: 59.1875em;
+  height: 18em
+}
+.elcam-popup--chance .elcam-popup__slide--1 {
+  top: 0;
+  left: 0;
+  width: 39.0625em;
+  height: 13.5em
+}
+.elcam-popup--chance .elcam-popup__slide--2 {
+  top: 0;
+  left: 32.875em;
+  width: 32.5em;
+  height: 13.4375em
+}
+.elcam-popup--chance .elcam-popup__slide--3 {
+  top: 0;
+  left: 64.75em;
+  width: 13.8125em;
+  height: 13.5em
+}
+.elcam-popup--chance .elcam-popup__slide--4 {
+  top: 13.5em;
+  left: 0;
+  width: 18.9375em;
+  height: 32.1875em
+}
+.elcam-popup--chance .elcam-popup__slide--5 {
+  top: 13.5em;
+  left: 18.125em;
+  width: 18.75em;
+  height: 15.25em
+}
+.elcam-popup--chance .elcam-popup__slide--6 {
+  top: 13.5em;
+  left: 31.375em;
+  width: 20.5em;
+  height: 15.3125em
+}
+.elcam-popup--chance .elcam-popup__slide--7 {
+  top: 13.375em;
+  left: 51.0625em;
+  width: 15em;
+  height: 15.3125em
+}
+.elcam-popup--chance .elcam-popup__slide--8 {
+  top: 28.375em;
+  left: 18.1875em;
+  width: 26.9375em;
+  height: 17.375em
+}
+.elcam-popup--chance .elcam-popup__slide--10 {
+  top: 13.375em;
+  left: 65.8125em;
+  width: 12.75em;
+  height: 26.9375em
+}
+.elcam-popup--chance .elcam-popup__slide--11 {
+  top: 30.8125em;
+  left: 65.875em;
+  width: 12.625em;
+  height: 15em
+}
+.elcam-popup--chance .elcam-popup__slide--9, .elcam-popup--chance .elcam-popup__slide--12 {
+  top: 28.375em;
+  left: 42em;
+  width: 24em;
+  height: 17.375em
+}
+.elcam-popup--chance .elcam-popup__slide--13 {
+  top: 0;
+  left: 65.1875em;
+  width: 19.125em;
+  height: 45.8125em
+}
+.elcam-popup--win .elcam-popup__slide--1, .elcam-popup--lose .elcam-popup__slide--1 {
+  top: 0;
+  left: 0;
+  width: 28.1875em;
+  height: 14.5em
+}
+.elcam-popup--win .elcam-popup__slide--2, .elcam-popup--lose .elcam-popup__slide--2 {
+  top: 0;
+  left: 27.5em;
+  width: 32.1875em;
+  height: 14.5em
+}
+.elcam-popup--win .elcam-popup__slide--3, .elcam-popup--lose .elcam-popup__slide--3 {
+  top: 0;
+  left: 54.3125em;
+  width: 20.5em;
+  height: 14.5em
+}
+.elcam-popup--win .elcam-popup__slide--4 {
+  top: 0;
+  left: 68.75em;
+  width: 20.875em;
+  height: 14.5em
+}
+.elcam-popup--win .elcam-popup__slide--5 {
+  top: 0;
+  left: 83.6875em;
+  width: 17.0625em;
+  height: 14.5em
+}
+.elcam-popup--win .elcam-popup__slide--6 {
+  top: 13.75em;
+  left: 0;
+  width: 45em;
+  height: 15.875em
+}
+.elcam-popup--win .elcam-popup__slide--7 {
+  top: 13.75em;
+  left: 43.25em;
+  width: 57.5em;
+  height: 15.875em
+}
+.elcam-popup--win .elcam-popup__slide--8 {
+  top: 28.625em;
+  left: 0;
+  width: 70.0625em;
+  height: 17.5625em
+}
+.elcam-popup--win .elcam-popup__slide--9 {
+  top: 28.625em;
+  left: 53.625em;
+  width: 47.1875em;
+  height: 17.5625em
+}
+.elcam-popup--lose .elcam-popup__slide--4 {
+  top: 0;
+  left: 68.75em;
+  width: 32em;
+  height: 14.5em
+}
+.elcam-popup--lose .elcam-popup__slide--5 {
+  top: 13.75em;
+  left: 0;
+  width: 32.4375em;
+  height: 15.875em
+}
+.elcam-popup--lose .elcam-popup__slide--6 {
+  top: 13.75em;
+  left: 31.25em;
+  width: 42.875em;
+  height: 15.875em
+}
+.elcam-popup--lose .elcam-popup__slide--7 {
+  top: 13.75em;
+  left: 72.1875em;
+  width: 28.4375em;
+  height: 15.875em
+}
+.elcam-popup--lose .elcam-popup__slide--8 {
+  top: 28.625em;
+  left: 0;
+  width: 65.625em;
+  height: 17.5625em
+}
+.elcam-popup--lose .elcam-popup__slide--9 {
+  top: 28.625em;
+  left: 64.375em;
+  width: 36.125em;
+  height: 17.5625em
+}
+.elcam-popup__clip, .elcam-popup__picture {
+  position: absolute;
+  top: 0;
+  left: 0
+}
+.elcam-popup__svg, .elcam-popup__clip, .elcam-popup__picture {
+  width: 100%;
+  height: 100%
+}
+.elcam-popup__clip {
+  object-fit: fill
+}
+.elcam-popup__paper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition-delay: 0.2s;
+  transition-timing-function: linear
+}
+.elcam-popup__paper--1-1 {
+  background: url("/default/img/games/elcamino/comics/screen4/bg.png") 0 0/100% 100% no-repeat
+}
+.elcam-popup--win .elcam-popup__paper--1-1, .elcam-popup--lose .elcam-popup__paper--1-1 {
+  background: url("/default/img/games/elcamino/popup/all/screen1/bg.jpg") 0 0/100% 100% no-repeat
+}
+.elcam-popup__paper--1-2 {
+  background: url("/default/img/games/elcamino/comics/screen4/el1.png") 0 0/100% 100% no-repeat
+}
+.elcam-popup--win .elcam-popup__paper--1-2, .elcam-popup--lose .elcam-popup__paper--1-2 {
+  background: url("/default/img/games/elcamino/popup/all/screen1/el1.png") 0 0/100% 100% no-repeat
+}
+.elcam-popup__paper--2-1 {
+  background: url("/default/img/games/elcamino/popup/all/screen2/bg.png") 0 0/100% 100% no-repeat
+}
+.elcam-popup__paper--2-2 {
+  background: url("/default/img/games/elcamino/popup/all/screen2/el1.png") 0 0/100% 100% no-repeat
+}
+.elcam-popup--win .elcam-popup__slide--show .elcam-popup__paper--2-2, .elcam-popup--lose .elcam-popup__slide--show .elcam-popup__paper--2-2 {
+  -webkit-transform: translate3d(12%, 5%, 0) rotate(0.01deg) skew(15deg);
+  transform: translate3d(12%, 5%, 0) rotate(0.01deg) skew(15deg)
+}
+.elcam-popup__paper--4-1 {
+  background: url("/default/img/games/elcamino/comics/screen4/bg.png") 0 0/100% 100% no-repeat
+}
+.elcam-popup__paper--4-2 {
+  background: url("/default/img/games/elcamino/comics/screen4/el1.png") 0 0/100% 100% no-repeat
+}
+.elcam-popup__paper--6-1 {
+  background: url("/default/img/games/elcamino/comics2/screen6/bg.png") 0 0/100% 100% no-repeat
+}
+.elcam-popup__paper--6-2 {
+  left: 4%;
+  background: url("/default/img/games/elcamino/comics2/screen6/el1.png") 0 0/100% 100% no-repeat
+}
+.elcam-popup--win .elcam-popup__paper--7-1 {
+  background: url("/default/img/games/elcamino/popup/win/screen7/bg.png") 0 0/100% 100% no-repeat
+}
+.elcam-popup--win .elcam-popup__paper--7-2 {
+  background: url("/default/img/games/elcamino/popup/win/screen7/el2.png") 0 0/100% 100% no-repeat
+}
+.elcam-popup--win .elcam-popup__paper--7-3 {
+  background: url("/default/img/games/elcamino/popup/win/screen7/el3.png") 0 0/100% 100% no-repeat
+}
+.elcam-popup--win .elcam-popup__paper--7-4 {
+  background: url("/default/img/games/elcamino/popup/win/screen7/el1.png") 0 0/100% 100% no-repeat
+}
+.elcam-popup__paper--8-1 {
+  background: url("/default/img/games/elcamino/comics/screen8/bg.jpg") 0 0/100% 100% no-repeat
+}
+.elcam-popup--win .elcam-popup__paper--8-1 {
+  background: url("/default/img/games/elcamino/popup/win/screen8/bg.png") 0 0/100% 100% no-repeat
+}
+.elcam-popup__paper--8-2 {
+  background: url("/default/img/games/elcamino/comics/screen8/el1.png") 0 0/100% 100% no-repeat
+}
+.elcam-popup--win .elcam-popup__paper--8-2 {
+  background: url("/default/img/games/elcamino/popup/win/screen8/el1.png") 0 0/100% 100% no-repeat
+}
+.elcam-popup--win .elcam-popup__slide--show .elcam-popup__paper--8-2 {
+  -webkit-transform: translate3d(-3%, -3%, 0) scale(1) rotate(0.01deg);
+  transform: translate3d(-3%, -3%, 0) scale(1) rotate(0.01deg)
+}
+.elcam-popup--win .elcam-popup__paper--8-3 {
+  background: url("/default/img/games/elcamino/popup/win/screen8/el2.png") 0 0/100% 100% no-repeat
+}
+.elcam-popup--win .elcam-popup__slide--show .elcam-popup__paper--8-3 {
+  -webkit-transform: translate3d(-3%, -3%, 0) scale(1) rotate(0.01deg);
+  transform: translate3d(-3%, -3%, 0) scale(1) rotate(0.01deg)
+}
+.elcam-popup__paper--10-1 {
+  background: url("/default/img/games/elcamino/comics/screen10/bg.png") 0 0/100% 100% no-repeat
+}
+.elcam-popup__paper--10-2 {
+  background: url("/default/img/games/elcamino/comics/screen10/el1.png") 0 0/100% 100% no-repeat;
+  -webkit-transform: translate3d(-5%, 20%, 0) rotate(0.01deg);
+  transform: translate3d(-5%, 20%, 0) rotate(0.01deg)
+}
+.elcam-popup__paper--anim-tl {
+  -webkit-transform: translate3d(5%, 0, 0) rotate(0.01deg);
+  transform: translate3d(5%, 0, 0) rotate(0.01deg);
+  transition-duration: 4s
+}
+.elcam-popup__paper--anim-fl {
+  -webkit-transform: translate3d(100%, 0, 0) rotate(0.01deg);
+  transform: translate3d(100%, 0, 0) rotate(0.01deg);
+  transition-duration: 2s
+}
+.elcam-popup__paper--anim-sctr {
+  -webkit-transform: scale(1.1) rotate(0.01deg);
+  transform: scale(1.1) rotate(0.01deg)
+}
+.elcam-popup__paper--anim-rt2 {
+  -webkit-transform: translate3d(-10%, 15%, 0) rotate(0.01deg);
+  transform: translate3d(-10%, 15%, 0) rotate(0.01deg);
+  transition-duration: 3s
+}
+.elcam-popup__paper--anim-lt {
+  -webkit-transform: translate3d(21%, 14%, 0) rotate(0.01deg) skew(15deg);
+  transform: translate3d(21%, 14%, 0) rotate(0.01deg) skew(15deg);
+  transition-duration: 3s;
+  transition-timing-function: ease-out
+}
+.elcam-popup__paper--anim-f {
+  opacity: 0;
+  transition-duration: 3s
+}
+.elcam-popup__paper--anim-r {
+  -webkit-transform: translate3d(-10%, 0, 0) rotate(0.01deg);
+  transform: translate3d(-10%, 0, 0) rotate(0.01deg);
+  transition-duration: 3s;
+  transition-timing-function: ease-out
+}
+.elcam-popup__paper--anim-rs {
+  -webkit-transform: translate3d(-2%, 0, 0) rotate(0.01deg);
+  transform: translate3d(-2%, 0, 0) rotate(0.01deg);
+  transition-duration: 3.6s
+}
+.elcam-popup__paper--anim-sct {
+  -webkit-transform: translate3d(-5%, -5%, 0) scale(1.1) rotate(0.01deg);
+  transform: translate3d(-5%, -5%, 0) scale(1.1) rotate(0.01deg);
+  transition-duration: 3.6s
+}
+.elcam-popup__slide--show .elcam-popup__txt, .elcam-popup__slide--show .elcam-popup__paper {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none
+}
+.elcam-popup__txt--easing-out, .elcam-popup__paper--easing-out {
+  transition-timing-function: ease-out
+}
+.elcam-popup__txt--easing-in, .elcam-popup__paper--easing-in {
+  transition-timing-function: ease-in
+}
+.elcam-popup__txt--easing-steps, .elcam-popup__paper--easing-steps {
+  transition-timing-function: steps(3)
+}
+.elcam-popup__txt--dur-2, .elcam-popup__paper--dur-2 {
+  transition-duration: 0.2s
+}
+.elcam-popup__txt--dur-4, .elcam-popup__paper--dur-4 {
+  transition-duration: 0.4s
+}
+.elcam-popup__txt--dur-6, .elcam-popup__paper--dur-6 {
+  transition-duration: 0.6s
+}
+.elcam-popup__txt--dur-8, .elcam-popup__paper--dur-8 {
+  transition-duration: 0.6s
+}
+.elcam-popup__txt--dur-10, .elcam-popup__paper--dur-10 {
+  transition-duration: 1s
+}
+.elcam-popup__txt--dur-12, .elcam-popup__paper--dur-12 {
+  transition-duration: 1.2s
+}
+.elcam-popup__txt--dur-15, .elcam-popup__paper--dur-15 {
+  transition-duration: 1.5s
+}
+.elcam-popup__txt--dur-16, .elcam-popup__paper--dur-16 {
+  transition-duration: 1.6s
+}
+.elcam-popup__txt--dur-20, .elcam-popup__paper--dur-20 {
+  transition-duration: 2s
+}
+.elcam-popup__txt--dur-22, .elcam-popup__paper--dur-22 {
+  transition-duration: 2.2s
+}
+.elcam-popup__txt--dur-30, .elcam-popup__paper--dur-30 {
+  transition-duration: 3s
+}
+.elcam-popup__txt--dur-32, .elcam-popup__paper--dur-32 {
+  transition-duration: 3.2s
+}
+.elcam-popup__txt--dur-34, .elcam-popup__paper--dur-34 {
+  transition-duration: 3.4s
+}
+.elcam-popup__txt--dur-36, .elcam-popup__paper--dur-36 {
+  transition-duration: 3.6s
+}
+.elcam-popup__txt--dur-40, .elcam-popup__paper--dur-40 {
+  transition-duration: 4s
+}
+.elcam-popup__txt--dur-44, .elcam-popup__paper--dur-44 {
+  transition-duration: 4s
+}
+.elcam-popup__txt--dur-60, .elcam-popup__paper--dur-60 {
+  transition-duration: 6s
+}
+.elcam-popup__txt--delay-2, .elcam-popup__paper--delay-2 {
+  transition-delay: 0.4s
+}
+.elcam-popup__txt--delay-4, .elcam-popup__paper--delay-4 {
+  transition-delay: 0.6s
+}
+.elcam-popup__txt--delay-6, .elcam-popup__paper--delay-6 {
+  transition-delay: 0.8s
+}
+.elcam-popup__txt--delay-8, .elcam-popup__paper--delay-8 {
+  transition-delay: 0.8s
+}
+.elcam-popup__txt--delay-10, .elcam-popup__paper--delay-10 {
+  transition-delay: 1.2s
+}
+.elcam-popup__txt--delay-16, .elcam-popup__paper--delay-16 {
+  transition-delay: 1.8s
+}
+.elcam-popup__txt--delay-20, .elcam-popup__paper--delay-20 {
+  transition-delay: 2.2s
+}
+.elcam-popup__deep {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden
+}
+.elcam-popup__deep--1-1 {
+  -webkit-transform: translate3d(3%, -6%, 0) rotate(0.01deg);
+  transform: translate3d(3%, -6%, 0) rotate(0.01deg)
+}
+.elcam-popup__deep--2-1 {
+  -webkit-transform: translate3d(-8.3%, -5.6%, 0) rotate(0.01deg) skew(-15deg);
+  transform: translate3d(-8.3%, -5.6%, 0) rotate(0.01deg) skew(-15deg)
+}
+.elcam-popup__deep--4-1 {
+  -webkit-transform: translate3d(-5%, 0, 0);
+  transform: translate3d(-5%, 0, 0)
+}
+.elcam-popup__deep--6-1 {
+  -webkit-transform: translate3d(-4%, 0, 0) rotate(0.01deg);
+  transform: translate3d(-4%, 0, 0) rotate(0.01deg)
+}
+.elcam-popup__deep--8-1 {
+  border-radius: 1.4375em;
+  -webkit-transform: translate3d(3%, 6%, 0) rotate(0.01deg);
+  transform: translate3d(3%, 6%, 0) rotate(0.01deg)
+}
+.elcam-popup__deep--10-1 {
+  -webkit-transform: translate3d(0, -5%, 0) rotate(0deg);
+  transform: translate3d(0, -5%, 0) rotate(0deg)
+}
+.elcam-popup__txt {
+  position: absolute;
+  box-sizing: border-box;
+  padding: .71429em .42857em;
+  width: 17.42857em;
+  max-width: 60%;
+  border: .28571em solid #1d1b1b;
+  box-shadow: inset 0 0 0 1px #4d4c4d;
+  background-color: #b4b5b7;
+  text-align: center;
+  font-family: "ChalkboardSE-Bold", "Roboto", "Roboto Local", "Sans-serif";
+  font-size: .875em;
+  font-weight: 700;
+  color: #1d1b1b
+}
+.elcam-popup__txt--rt {
+  top: 4%;
+  right: 8%
+}
+.elcam-popup__txt--br {
+  right: 8%;
+  bottom: 4%
+}
+.elcam-popup__txt--br2 {
+  right: 6%;
+  bottom: 3%
+}
+.elcam-popup__txt--bl {
+  bottom: 8%;
+  left: 8%
+}
+.elcam-popup__txt--lt {
+  top: 10%;
+  left: 8%
+}
+.elcam-popup__txt--gt {
+  top: 10%;
+  right: 20%;
+  left: auto
+}
+.elcam-popup__txt--br2 {
+  right: 16%;
+  bottom: 4%
+}
+.elcam-popup__txt--sm {
+  top: 7%;
+  left: 3%;
+  width: 10.58824em;
+  font-size: 1.0625em;
+  border: .23529em solid #1d1b1b;
+  box-shadow: inset 0 0 0 1px #4d4c4d;
+  background-color: #b4b5b7;
+  font-weight: 700;
+  color: #1d1b1b
+}
+.elcam-popup__txt--anim-lf {
+  opacity: 0;
+  -webkit-transform: translate3d(10%, 0, 0) rotate(0.01deg);
+  transform: translate3d(10%, 0, 0) rotate(0.01deg)
+}
+.elcam-popup__txt--anim-rf {
+  opacity: 0;
+  -webkit-transform: translate3d(-10%, 0, 0) rotate(0.01deg);
+  transform: translate3d(-10%, 0, 0) rotate(0.01deg)
+}
+.elcam-popup__clause {
+  margin: 0;
+  line-height: 1;
+  width: 100%;
+  word-wrap: anywhere
+}
+.elcam-popup__btn--lock, .elcam-popup__btn--close {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: -1.25em;
+  width: 3.75em;
+  height: 3.75em;
+  margin: 0em .3125em;
+  right: -2em
+}
+.elcam-popup__btn--lock {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 3.75em;
+  height: 3.75em;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  background: #000;
+  font-size: inherit
+}
+.elcam-popup__btn--lock:hover .elcam-popup__svg {
+  fill: #197cf5
+}
+.elcam-popup__svg--close {
+  position: relative;
+  cursor: pointer;
+  width: .9375em;
+  height: 1.4375em;
+  transition: fill 0.2s linear;
+  fill-rule: evenodd;
+  fill: #fff
+}
+.elcam-popup__body {
+  max-height: 24.375em;
+  text-align: left;
+  padding-right: 1.25em
+}
+.elcam-popup__title {
+  margin: 0em 0em 1.25em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #197cf5
+}
+.elcam-popup__title--big {
+  text-align: center;
+  font-size: 1.5em
+}
+.elcam-popup__title--small {
+  font-size: 1.25em
+}
+.elcam-popup__list {
+  padding-left: 0.625em;
+  line-height: 1.5;
+  counter-reset: list
+}
+.elcam-popup__list--sub {
+  list-style: none;
+  padding-left: 1.875em
+}
+.elcam-popup__item {
+  list-style: none
+}
+.elcam-popup__item:not(.elcam-popup__list--sub) {
+  margin: .75em 0em 0em
+}
+.elcam-popup__item:not(.elcam-popup__list--sub)::before {
+  content: counter(list) ")";
+  display: inline-block;
+  font-weight: 700;
+  color: #197cf5;
+  counter-increment: list;
+  margin-right: .3125em
+}
+.elcam-popup__item.elcam-popup__item--sub::before {
+  content: '*';
+  display: inline-block;
+  font-weight: 700;
+  color: #197cf5;
+  margin-right: .3125em
+}
+.elcam-popup__slogan {
+  margin: 0em 0em .83333em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #197cf5
+}
+.elcam-popup__place {
+  position: relative;
+  padding-bottom: 3.25em
+}
+.elcam-popup__place::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 25.0625em;
+  height: 99%;
+  background: url("/default/img/games/elcamino/slider/slider-mask.png") center top/100% 100% no-repeat;
+  pointer-events: none;
+  left: -.625em
+}
+.elcam-popup__speckled {
+  position: absolute;
+  bottom: 1.375em;
+  left: 0;
+  width: 100%
+}
+.elcam-popup__result {
+  display: block;
+  position: relative;
+  padding: .125em .20833em .58333em;
+  width: 12.29167em;
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: center;
+  font-family: "ChalkboardSE-Bold", "Roboto", "Roboto Local", "Sans-serif";
+  font-size: 1.5em;
+  color: #fff
+}
+.elcam-popup__result--is-fail {
+  text-shadow: 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .125em #d62427, 0 0 .20833em #750002, 0 0 .20833em #750002, 0 0 .20833em #750002, 0 0 .20833em #750002, 0 0 .20833em #750002, 0 0 .20833em #750002, 0 0 .20833em #750002, 0 0 .20833em #750002
+}
+.elcam-popup__result--is-good {
+  text-shadow: 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .125em #466b00, 0 0 .20833em #8bd600, 0 0 .20833em #8bd600, 0 0 .20833em #8bd600, 0 0 .20833em #8bd600, 0 0 .20833em #8bd600, 0 0 .20833em #8bd600, 0 0 .20833em #8bd600, 0 0 .20833em #8bd600
+}
+.elcam-speckled {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 2;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center
+}
+.elcam-speckled__btn {
+  font-size: inherit
+}
+.elcam-speckled__btn--dotted {
+  position: relative;
+  padding: 0;
+  width: 1.125em;
+  height: 1.125em;
+  margin: 0em .125em;
+  outline: none;
+  border: .125em solid transparent;
+  border-radius: 50%;
+  background: none;
+  font-size: inherit;
+  transition: 0.2s linear
+}
+.elcam-speckled__btn--dotted::before {
+  content: '';
+  position: absolute;
+  top: .125em;
+  right: .125em;
+  bottom: .125em;
+  left: .125em;
+  border-radius: 50%;
+  background-color: #fff
+}
+.elcam-speckled__btn--dotted:hover {
+  border-color: #fff
+}
+.elcam-speckled__btn--is-active {
+  border-color: #f9a82f
+}
+.elcam-speckled__btn--is-active::before {
+  background-color: #f9a82f
+}
+.elcam-carousel {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 100%;
+  height: 37.3125em;
+  margin: 0 auto;
+  overflow: hidden
+}
+.elcam-carousel__elements {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 0;
+  width: 300%;
+  transition: left 600ms;
+  will-change: left
+}
+.elcam-carousel__element {
+  position: relative;
+  width: 23.8125em;
+  height: 38.125em;
+  overflow: hidden
+}
+.elcam-carousel__description {
+  position: relative;
+  padding: 0em 4.0625em;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff
+}
+.elcam-carousel__description::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 100%;
+  left: 0;
+  height: 1.25em;
+  margin-bottom: -1px;
+  background: url("/default/img/games/elcamino/slider/text-bg.png") center/100% no-repeat
+}
+.elcam-carousel__txt {
+  margin: 0em 0em .28571em;
+  font-family: "ChalkboardSE-Bold", "Roboto", "Roboto Local", "Sans-serif";
+  font-size: .875em;
+  color: #000;
+  width: 100%;
+  word-wrap: anywhere
+}
+[lang='hy'] .elcam-carousel__txt {
+  font-size: .6875em
+}
+.elcam-carousel__txt:last-child {
+  margin-bottom: 0
+}
+.elcam-carousel__picture, .elcam-carousel__clip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+.elcam-carousel__bg, .elcam-carousel__part {
+  position: absolute;
+  top: 0;
+  left: -1.5625em;
+  width: 26.875em;
+  height: 43.625em;
+  will-change: transform
+}
+.elcam-carousel__bg--is-one, .elcam-carousel__part--is-one {
+  top: -2.1875em;
+  left: -1.875em
+}
+.elcam-carousel__bg--is-seven, .elcam-carousel__part--is-seven {
+  left: -2.625em
+}
+.elcam-carousel__bg--is-two, .elcam-carousel__part--is-two {
+  top: -2.8125em
+}
+.elcam-carousel__bg--is-six, .elcam-carousel__part--is-six {
+  top: -.4375em
+}
+.elcam-carousel__bg--is-eight, .elcam-carousel__part--is-eight {
+  top: -.625em
+}
+.elcam-carousel__bg--is-twenty-one, .elcam-carousel__part--is-twenty-one {
+  top: -.8125em;
+  left: -1.875em
+}
+.elcam-carousel__bg--is-eleven, .elcam-carousel__part--is-eleven {
+  top: -2.1875em;
+  left: -3em
+}
+.elcam-carousel__bg--is-twelve, .elcam-carousel__part--is-twelve {
+  top: .9375em;
+  left: -2.8125em
+}
+.elcam-carousel__bg--is-fourteen, .elcam-carousel__part--is-fourteen {
+  top: -2.1875em
+}
+.elcam-carousel__bg--is-sevent, .elcam-carousel__part--is-sevent {
+  left: -2.0625em
+}
+.elcam-carousel__bg--is-nineteen, .elcam-carousel__part--is-nineteen {
+  top: -1.5625em;
+  left: -2.375em
+}
+.elcam-carousel__bg--is-eighteen, .elcam-carousel__part--is-eighteen {
+  top: -1.5625em;
+  left: -3.4375em
+}
+.elcam-carousel__bg--is-sixteen, .elcam-carousel__part--is-sixteen {
+  left: -2.625em
+}
+.elcam-carousel__bg--is-sevent-deck, .elcam-carousel__part--is-sevent-deck {
+  left: -2.0625em
+}
+.elcam-carousel__bg--is-seventeen, .elcam-carousel__part--is-seventeen {
+  left: -3.3125em
+}
+.elcam-carousel__bg--is-twenty, .elcam-carousel__part--is-twenty {
+  left: -1.9375em
+}
+.elcam-carousel__part {
+  transition-delay: .2s;
+  transition-timing-function: linear
+}
+.elcam-carousel__element--is-move .elcam-carousel__part {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none
+}
+.elcam-carousel__part--easing-out {
+  transition-timing-function: ease-out
+}
+.elcam-carousel__part--easing-in {
+  transition-timing-function: ease-in
+}
+.elcam-carousel__part--easing-steps {
+  transition-timing-function: steps(3)
+}
+.elcam-carousel__part--anim-f {
+  opacity: 0
+}
+.elcam-carousel__part--anim-ft {
+  -webkit-transform: translate3d(0, 100%, 0) rotate(0.01deg);
+  transform: translate3d(0, 100%, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-fr {
+  -webkit-transform: translate3d(-100%, 0, 0) rotate(0.01deg);
+  transform: translate3d(-100%, 0, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-fb {
+  -webkit-transform: translate3d(0, -100%, 0) rotate(0.01deg);
+  transform: translate3d(0, -100%, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-fl {
+  -webkit-transform: translate3d(100%, 0, 0) rotate(0.01deg);
+  transform: translate3d(100%, 0, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-tf {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 10%, 0) rotate(0.01deg);
+  transform: translate3d(0, 10%, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-rf {
+  opacity: 0;
+  -webkit-transform: translate3d(-10%, 0, 0) rotate(0.01deg);
+  transform: translate3d(-10%, 0, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-rs {
+  -webkit-transform: translate3d(-2%, 0, 0) rotate(0.01deg);
+  transform: translate3d(-2%, 0, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-b {
+  -webkit-transform: translate3d(0, -10%, 0) rotate(0.01deg);
+  transform: translate3d(0, -10%, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-t {
+  -webkit-transform: translate3d(0, 10%, 0) rotate(0.01deg);
+  transform: translate3d(0, 10%, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-trl {
+  -webkit-transform: translate3d(-2%, 8%, 0) rotate(0.01deg);
+  transform: translate3d(-2%, 8%, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-bll {
+  -webkit-transform: translate3d(2%, -8%, 0) rotate(0.01deg);
+  transform: translate3d(2%, -8%, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-l {
+  -webkit-transform: translate3d(10%, 0, 0) rotate(0.01deg);
+  transform: translate3d(10%, 0, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-r {
+  -webkit-transform: translate3d(-10%, 0, 0) rotate(0.01deg);
+  transform: translate3d(-10%, 0, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-lf {
+  opacity: 0;
+  -webkit-transform: translate3d(10%, 0, 0) rotate(0.01deg);
+  transform: translate3d(10%, 0, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-lfl {
+  opacity: 0;
+  -webkit-transform: translate3d(2%, 0, 0) rotate(0.01deg);
+  transform: translate3d(2%, 0, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-bf {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 10%, 0) rotate(0.01deg);
+  transform: translate3d(0, 10%, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-bf-5 {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 5%, 0) rotate(0.01deg);
+  transform: translate3d(0, 5%, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-lt {
+  -webkit-transform: translate3d(10%, 10%, 0) rotate(0.01deg);
+  transform: translate3d(10%, 10%, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-rt {
+  -webkit-transform: translate3d(-10%, 10%, 0) rotate(0.01deg);
+  transform: translate3d(-10%, 10%, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-rt2 {
+  -webkit-transform: translate3d(-10%, 15%, 0) rotate(0.01deg);
+  transform: translate3d(-10%, 15%, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-rt20 {
+  -webkit-transform: translate3d(-20%, 20%, 0) rotate(0.01deg);
+  transform: translate3d(-20%, 20%, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-rb {
+  -webkit-transform: translate3d(-10%, -10%, 0) rotate(0.01deg);
+  transform: translate3d(-10%, -10%, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-translate-6 {
+  -webkit-transform: translate3d(-10%, -4%, 0) rotate(0.01deg);
+  transform: translate3d(-10%, -4%, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-sct {
+  -webkit-transform: translate3d(-5%, -5%, 0) scale(1.1) rotate(0.01deg);
+  transform: translate3d(-5%, -5%, 0) scale(1.1) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-sc {
+  -webkit-transform: translate3d(0%, 0%, 0) scale(1.1) rotate(0.01deg);
+  transform: translate3d(0%, 0%, 0) scale(1.1) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-scr {
+  -webkit-transform: translate3d(0%, 0%, 0) scale(0.9) rotate(0.01deg);
+  transform: translate3d(0%, 0%, 0) scale(0.9) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-tr {
+  -webkit-transform: translate3d(-5%, 0, 0) rotate(0.01deg);
+  transform: translate3d(-5%, 0, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-tl {
+  -webkit-transform: translate3d(5%, 0, 0) rotate(0.01deg);
+  transform: translate3d(5%, 0, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-tb {
+  -webkit-transform: translate3d(0, 5%, 0) rotate(0.01deg);
+  transform: translate3d(0, 5%, 0) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-scale {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transform-origin: center;
+  transform-origin: center
+}
+.elcam-carousel__part--anim-translate-7 {
+  -webkit-transform: translate(0%, -5%) scale(0.8) rotate(0.01deg);
+  transform: translate(0%, -5%) scale(0.8) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-translate-5 {
+  -webkit-transform: translate(0%, -5%) scale(0.9) rotate(0.01deg);
+  transform: translate(0%, -5%) scale(0.9) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-translate-3 {
+  -webkit-transform: translate(-15%, 3%) scale(1) rotate(0.01deg);
+  transform: translate(-15%, 3%) scale(1) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-translate-8 {
+  -webkit-transform: translate(-13%, -5%) scale(0.8) rotate(0.01deg);
+  transform: translate(-13%, -5%) scale(0.8) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-translate-9 {
+  -webkit-transform: translate(5%, 10%) scale(1) rotate(0.01deg);
+  transform: translate(5%, 10%) scale(1) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-translate-4 {
+  -webkit-transform: translate(-20%, -5%) scale(1) rotate(0.01deg);
+  transform: translate(-20%, -5%) scale(1) rotate(0.01deg)
+}
+.elcam-carousel__part--anim-translate-1 {
+  -webkit-transform: rotate(-85deg) translate(-10%, -15%);
+  transform: rotate(-85deg) translate(-10%, -15%)
+}
+.elcam-carousel__part--anim-translate-2 {
+  -webkit-transform: translate(0%, 5%) scale(1.1) rotate(0.01deg);
+  transform: translate(0%, 5%) scale(1.1) rotate(0.01deg)
+}
+.elcam-carousel__part--dur-2 {
+  transition-duration: 0.2s
+}
+.elcam-carousel__part--dur-4 {
+  transition-duration: 0.4s
+}
+.elcam-carousel__part--dur-6 {
+  transition-duration: 0.6s
+}
+.elcam-carousel__part--dur-8 {
+  transition-duration: 0.6s
+}
+.elcam-carousel__part--dur-10 {
+  transition-duration: 1s
+}
+.elcam-carousel__part--dur-12 {
+  transition-duration: 1.2s
+}
+.elcam-carousel__part--dur-15 {
+  transition-duration: 1.5s
+}
+.elcam-carousel__part--dur-16 {
+  transition-duration: 1.6s
+}
+.elcam-carousel__part--dur-20 {
+  transition-duration: 2s
+}
+.elcam-carousel__part--dur-22 {
+  transition-duration: 2.2s
+}
+.elcam-carousel__part--dur-30 {
+  transition-duration: 3s
+}
+.elcam-carousel__part--dur-32 {
+  transition-duration: 3.2s
+}
+.elcam-carousel__part--dur-34 {
+  transition-duration: 3.4s
+}
+.elcam-carousel__part--dur-36 {
+  transition-duration: 3.6s
+}
+.elcam-carousel__part--dur-40 {
+  transition-duration: 4s
+}
+.elcam-carousel__part--dur-44 {
+  transition-duration: 4s
+}
+.elcam-carousel__part--dur-60 {
+  transition-duration: 6s
+}
+.elcam-carousel__part--delay-2 {
+  transition-delay: .4s
+}
+.elcam-carousel__part--delay-4 {
+  transition-delay: .6s
+}
+.elcam-carousel__part--delay-6 {
+  transition-delay: .8s
+}
+.elcam-carousel__part--delay-8 {
+  transition-delay: .8s
+}
+.elcam-carousel__part--delay-10 {
+  transition-delay: 1.2s
+}
+.elcam-carousel__part--delay-16 {
+  transition-delay: 1.8s
+}
+.elcam-carousel__part--delay-20 {
+  transition-delay: 2.2s
+}
+.elcam-carousel__part--sign {
+  position: absolute;
+  top: 17em;
+  right: 2.35em;
+  left: auto;
+  width: 20%;
+  height: auto;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: 600;
+  font-style: normal;
+  color: #000
+}
+.elcam-carousel__part--text {
+  box-sizing: content-box;
+  padding: 1em;
+  width: 12.66667em;
+  height: auto;
+  border: 1px solid #000;
+  background: #878787;
+  text-align: center;
+  font-size: .9375em;
+  font-style: italic;
+  color: #fff;
+  word-wrap: anywhere
+}
+.elcam-carousel__part--bl {
+  top: auto;
+  bottom: 30%;
+  left: 16%;
+  padding: .27778em .55556em .38889em;
+  width: auto;
+  border-width: .11111em;
+  border-radius: .16667em;
+  background-color: #b8b8b8;
+  font-size: 1.125em;
+  font-style: normal;
+  color: #000
+}
+.elcam-carousel__part--cop-1 {
+  top: 5.3125em;
+  right: 2.8125em;
+  left: auto
+}
+.elcam-carousel__part--cop-2 {
+  top: auto;
+  bottom: 10.625em;
+  left: 3.75em
+}
+.elcam-carousel__part--cop-3 {
+  top: 10em;
+  right: 3.125em;
+  left: auto;
+  padding: .3125em .375em .4375em
+}
+.elcam-btn-close {
+  z-index: 1;
+  cursor: pointer;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  overflow: hidden;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  background: #000;
+  font-size: inherit;
+  color: #fff
+}
+.elcam-btn-close__svg {
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  fill: #000
+}
+.elcam-btn-close__circle--one {
+  fill: #000
+}
+.elcam-btn-close__circle--two {
+  stroke: #fff;
+  stroke-width: 10
+}
+.elcam-btn-close__line {
+  stroke: #fff;
+  stroke-width: 7
+}
+#modals-container {
+  position: relative;
+  z-index: 10102
+}
+.elcam-disabled {
+  pointer-events: none
+}
+.elcam-buttons {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 36.375em
+}
+.elcam-buttons__btn {
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 0;
+  min-width: 5.625em;
+  height: 2.5em;
+  margin: 0em .1875em;
+  outline: none;
+  border: none;
+  background: none;
+  font-size: inherit;
+  font-style: italic;
+  color: #fff
+}
+.elcam-buttons__btn--bet {
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1
+}
+.elcam-buttons__btn--bet::before {
+  content: '';
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: .3125em;
+  background: linear-gradient(to bottom, #8ebc10 0%, #8ebc10 100%);
+  transition: 0.2s linear
+}
+.elcam-buttons__btn--bet:first-of-type {
+  margin-left: 0
+}
+.elcam-buttons__btn--bet:first-of-type::before {
+  border-top-left-radius: 1.25em;
+  border-bottom-left-radius: 1.25em
+}
+.elcam-buttons__btn--bet:last-of-type {
+  margin-right: 0
+}
+.elcam-buttons__btn--bet:last-of-type::before {
+  border-top-right-radius: 1.25em;
+  border-bottom-right-radius: 1.25em
+}
+.elcam-buttons__btn--bet + .elcam-buttons__btn--bet::after {
+  content: '';
+  position: absolute;
+  top: .3125em;
+  bottom: .3125em;
+  width: .125em;
+  margin: 0em .125em;
+  background: #c9c9c9;
+  right: 100%
+}
+.elcam-buttons__btn--bet:hover::before {
+  opacity: 1
+}
+.elcam-buttons__btn--clear {
+  border-radius: .3125em 3.125em 3.125em .3125em;
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  width: 4.625em;
+  height: 2.875em;
+  margin: 0;
+  outline: none;
+  border: none;
+  background-image: conic-gradient(#9c9ea0, #606366, #9c9ea0, #606366, #9c9ea0);
+  font-size: inherit;
+  transition: 0.2s linear
+}
+.elcam-buttons__btn--clear:hover {
+  background: conic-gradient(#646668, #393b3c, #646668, #393b3c, #646668)
+}
+.elcam-buttons__btn--clear::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url("/default/img/games/elcamino/torpedo/reset.png") center/100% no-repeat;
+  font-size: .75em
+}
+.elcam-buttons__val {
+  display: block;
+  position: relative;
+  z-index: 1
+}
+.elcam-buttons .main-multiselect {
+  position: relative;
+  z-index: 1;
+  min-width: 12.8125em;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: inherit;
+  font-weight: 700
+}
+.elcam-buttons .main-multiselect .multiselect {
+  min-height: auto;
+  font-size: inherit
+}
+.elcam-buttons .main-multiselect .multiselect__tags {
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  min-height: auto;
+  border: none;
+  background: none;
+  font-size: inherit
+}
+.elcam-buttons .main-multiselect .multiselect__single {
+  cursor: pointer;
+  padding: .8125em 1.25em;
+  min-height: auto;
+  margin: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 3.125em;
+  background-image: conic-gradient(#9c9ea0, #606366, #9c9ea0, #606366, #9c9ea0);
+  text-shadow: .0625em .125em 0em rgba(20, 21, 20, 0.4);
+  font-size: inherit;
+  line-height: 1.2;
+  white-space: nowrap;
+  color: #fff;
+  padding-right: 3.125em;
+  border-top-right-radius: .625em;
+  border-bottom-right-radius: .625em
+}
+@supports not (background-image: conic-gradient(#9c9ea0, #606366, #9c9ea0, #606366, #9c9ea0)) {
+  .elcam-buttons .main-multiselect .multiselect__single {
+    background-color: #606366;
+    background-image: none
+  }
+}
+.elcam-buttons .main-multiselect .multiselect__single:hover {
+  background-image: conic-gradient(#646668, #393b3c, #646668, #393b3c, #646668)
+}
+.elcam-buttons .main-multiselect .multiselect__single::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 1em;
+  height: .5625em;
+  margin: auto;
+  margin-top: -.3125em;
+  background: url("/default/img/games/elcamino/torpedo/arr.png") center/100% no-repeat;
+  right: 1.25em
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .elcam-buttons .main-multiselect .multiselect__single {
+    background-image: linear-gradient(to left, #606366 0%, #9c9ea0 49%, #9c9ea0 51%, #606366 100%)
+  }
+  .elcam-buttons .main-multiselect .multiselect__single:hover {
+    background-image: linear-gradient(to left, #393b3c 0%, #646668 49%, #646668 51%, #393b3c 100%)
+  }
+}
+@supports (-ms-accelerator:true) or (-ms-ime-align:auto) {
+  .elcam-buttons .main-multiselect .multiselect__single {
+    background-image: linear-gradient(to left, #606366 0%, #9c9ea0 49%, #9c9ea0 51%, #606366 100%)
+  }
+  .elcam-buttons .main-multiselect .multiselect__single:hover {
+    background-image: linear-gradient(to left, #393b3c 0%, #646668 49%, #646668 51%, #393b3c 100%)
+  }
+}
+@-moz-document url-prefix() {
+  .elcam-buttons .main-multiselect .multiselect__single {
+    background-image: linear-gradient(to left, #606366 0%, #9c9ea0 49%, #9c9ea0 51%, #606366 100%)
+  }
+  .elcam-buttons .main-multiselect .multiselect__single:hover {
+    background-image: linear-gradient(to left, #393b3c 0%, #646668 49%, #646668 51%, #393b3c 100%)
+  }
+}
+.elcam-buttons .main-multiselect .multiselect__select {
+  display: none
+}
+.elcam-buttons .main-multiselect .multiselect--active .multiselect__single::before {
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg)
+}
+.elcam-buttons .main-multiselect .multiselect__content {
+  width: 100%
+}
+.elcam-buttons .main-multiselect .multiselect__content-wrapper {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: -.125em;
+  overflow: visible;
+  border: none;
+  background-color: #1e2429
+}
+.elcam-buttons .main-multiselect .multiselect--above .multiselect__content-wrapper {
+  overflow: hidden;
+  border: none
+}
+.elcam-buttons .main-multiselect .multiselect__option {
+  padding: .75em 1.125em .625em;
+  min-height: auto;
+  overflow: hidden;
+  background: #3d2f46;
+  text-transform: inherit;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #fff
+}
+.elcam-buttons .main-multiselect .multiselect__option:hover {
+  background: #6ea1aa
+}
+.elcam-buttons .main-multiselect .multiselect__option--highlight {
+  background: #da843e
+}
+.elcam-buttons .main-multiselect .multiselect.multiselect--disabled {
+  background: transparent
+}
+.elcam-buttons .main-multiselect .multiselect.multiselect--disabled .multiselect__select, .elcam-buttons .main-multiselect .multiselect.multiselect--disabled .multiselect__current {
+  background: transparent
+}
+.elcam-buttons__iwrap {
+  position: relative;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
+  flex: 1 1;
+  margin-right: .625em;
+  margin-left: .625em;
+  text-transform: uppercase
+}
+.elcam-buttons__input {
+  box-sizing: border-box;
+  padding: .4em .5em;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  outline: none;
+  border: none;
+  background: none;
+  text-align: left;
+  font-size: 1.25em;
+  font-style: italic;
+  color: #fff
+}
+.elcam-buttons__input::-webkit-input-placeholder {
+  color: #fff
+}
+.elcam-buttons__input::-moz-placeholder {
+  color: #fff
+}
+.elcam-buttons__input:-ms-input-placeholder {
+  color: #fff
+}
+.elcam-buttons__input::placeholder {
+  color: #fff
+}

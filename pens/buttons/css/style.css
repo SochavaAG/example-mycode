@@ -8680,15 +8680,12 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 
 /* button 140 */
 .ag-base_btn-v140 {
-  height: 2.4em;
-  width: 4.08em;
-  margin: 0 0.2em;
-  padding: 0;
+  background: #6e2302;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-140.png), -moz-linear-gradient(top,  #ffe261 0%, #6e2302 27%);
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-140.png), -webkit-linear-gradient(top,  #ffe261 0%,#6e2302 27%);
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-140.png), linear-gradient(to bottom,  #ffe261 0%,#6e2302 27%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe261', endColorstr='#6e2302',GradientType=0 );
 
-  font-size: 1.25em;
-  font-weight: 600;
-
-  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/buttons/images/btn-140.png), -webkit-linear-gradient(bottom, #6e2302 73%, #ffe261);
   background-position: 50% 50%, 0 0;
   background-repeat: no-repeat;
   background-size: cover, 100% 150%;

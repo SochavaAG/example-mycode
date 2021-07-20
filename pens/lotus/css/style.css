@@ -1,0 +1,63 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-lotus-block {
+  position: relative;
+}
+.ag-lotus_box {
+  height: 232px;
+  width: 436px;
+  margin: 0 0 0 -230px;
+
+  z-index: 100;
+  position: absolute;
+  top: 206px;
+  left: 50%;
+}
+.ag-lotus_sheets {
+  height: 80px;
+  width: 99px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/lotus/images/sheets.png) no-repeat scroll 0 0;
+
+  z-index: 5;
+  position: absolute;
+}
+.ag-lotus_sheet-1 {
+  top: 90px;
+  left: 65px;
+}
+.ag-lotus_sheet-2 {
+  top: 63px;
+  left: 268px;
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

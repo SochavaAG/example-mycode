@@ -1,0 +1,1345 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Change Night Daytime</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style-1.css" />
+</head>
+
+<body>
+<style>
+  .elcam-screens__view {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+  }
+  .elcam-view {
+    opacity: 0;
+
+    overflow: hidden;
+
+    transition: 1s opacity
+  }
+  .elcam-view--is-active {
+    opacity: 1
+  }
+  .elcam-view__landscape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 4s 0s linear
+  }
+  .elcam-view__landscape.elcam-view__landscape--transition {
+    opacity: 0;
+    background: radial-gradient(#ea946c, #68272f);
+    transition-delay: 4s
+  }
+  .elcam-view__landscape.elcam-view__landscape--transition.elcam-view__landscape--is-toggle {
+    opacity: 1;
+    transition-delay: 0s
+  }
+  .elcam-view__landscape.elcam-view__landscape--night {
+    opacity: 0;
+    background: radial-gradient(#003e70, #002d57)
+  }
+  .elcam-view__landscape.elcam-view__landscape--night.elcam-view__landscape--is-toggle {
+    opacity: 1;
+    transition-delay: 4s
+  }
+
+  .elcam-view__car {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    width: 40em;
+    height: 20em;
+    margin-left: -21.875em
+  }
+
+  .elcam-landscape {
+    z-index: 0;
+    height: 100%
+  }
+  .elcam-landscape--sand {
+    background: radial-gradient(#ebcd60, #b8661e)
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .elcam-screens .elcam-landscape--sand * {
+      -webkit-animation: none;
+      animation: none
+    }
+  }
+  /*.elcam-landscape--city {
+    background: url(images/asphalt.jpg) center
+  }*/
+  .elcam-landscape__top {
+    position: relative;
+    height: 45%;
+    overflow: hidden
+  }
+  .elcam-landscape--village .elcam-landscape__top {
+    height: 47%
+  }
+  .elcam-landscape__sky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%
+  }
+  .elcam-landscape--sand .elcam-landscape__sky {
+    width: 187.5em;
+    background: url(images/sky-all.png) 0 0/100% 300% no-repeat;
+    -webkit-transform: translateX(-10%) rotate(0.01deg);
+    transform: translateX(-10%) rotate(0.01deg)
+  }
+  .elcam-landscape--sand.elcam-view__landscape--is-active .elcam-landscape__sky {
+    -webkit-transform: none;
+    transform: none;
+    transition: -webkit-transform 32s linear;
+    transition: transform 32s linear;
+    transition: transform 32s linear, -webkit-transform 32s linear
+  }
+  .elcam-view__landscape--transition .elcam-landscape__sky {
+    background-position-y: 100%
+  }
+  .elcam-view__landscape--transition.elcam-view__landscape--is-active .elcam-landscape__sky {
+    transition: -webkit-transform 32s linear;
+    transition: transform 32s linear;
+    transition: transform 32s linear, -webkit-transform 32s linear
+  }
+  .elcam-view__landscape--night .elcam-landscape__sky {
+    top: -62.5em;
+    left: -31.25em;
+    width: 250em;
+    height: 250em;
+    background: url(images/sky.jpg);
+    background-size: cover;
+    -webkit-transform: rotate(-30deg) translateY(2%);
+    transform: rotate(-30deg) translateY(2%)
+  }
+  .elcam-view__landscape--night .elcam-landscape__sky::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(images/stars.png) center;
+    transition: opacity 1.6s 0s linear, visibility 1.6s 0s linear
+  }
+  .elcam-view__landscape--night.elcam-view__landscape--is-active .elcam-landscape__sky {
+    -webkit-transform: none;
+    transform: none;
+    transition: opacity 8s linear, visibility 8s linear, -webkit-transform 32s linear;
+    transition: opacity 8s linear, visibility 8s linear, transform 32s linear;
+    transition: opacity 8s linear, visibility 8s linear, transform 32s linear, -webkit-transform 32s linear
+  }
+  .elcam-view__landscape--night.elcam-view__landscape--is-active .elcam-landscape__sky::after {
+    transition-delay: 2.66667s
+  }
+  .elcam-landscape--village .elcam-landscape__sky {
+    width: 100%;
+    background: url(images/bg.jpg) center/auto 100%
+  }
+  .elcam-landscape--city .elcam-landscape__sky {
+    width: 100%;
+    background-color: #e6f8ff
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .elcam-screens .elcam-landscape--sand .elcam-landscape__sky {
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  .elcam-landscape__sun,
+  .elcam-landscape__moon {
+    position: absolute;
+    background-size: 100% 100%
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .elcam-screens .elcam-landscape--sand .elcam-landscape__sun,
+    .elcam-screens .elcam-landscape--sand .elcam-landscape__moon {
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  .elcam-landscape__sun {
+    bottom: 0;
+    left: 30%;
+    width: 71.875em;
+    height: 71.875em;
+    background-image: url(images/sun.png);
+    -webkit-transform: translate(-10%, 100%);
+    transform: translate(-10%, 100%)
+  }
+  .elcam-view__landscape--night .elcam-landscape__sun {
+    opacity: 0
+  }
+  .elcam-view__landscape--is-active .elcam-landscape__sun {
+    -webkit-transform: translate(-10%, -100%);
+    transform: translate(-10%, -100%);
+    transition: -webkit-transform 17s linear;
+    transition: transform 17s linear;
+    transition: transform 17s linear, -webkit-transform 17s linear
+  }
+
+  .elcam-landscape__moon {
+    top: 0;
+    left: 60%;
+    width: 11.625em;
+    height: 11.625em;
+    border-radius: 50%;
+    background-image: url(images/moon.png);
+    -webkit-transform: translate3d(0%, 100%, 0);
+    transform: translate3d(0%, 100%, 0)
+  }
+  .elcam-landscape__moon::after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+    border-radius: 50%;
+    box-shadow: 0 0 4.75em 1.25em rgba(255, 255, 255, 0.76)
+  }
+  .elcam-view__landscape--is-active .elcam-landscape__moon {
+    opacity: 1;
+    -webkit-transform: translate3d(400%, -100%, 0);
+    transform: translate3d(400%, -100%, 0);
+    transition: bottom 32s linear, left 32s linear, -webkit-transform 32s linear;
+    transition: transform 32s linear, bottom 32s linear, left 32s linear;
+    transition: transform 32s linear, bottom 32s linear, left 32s linear, -webkit-transform 32s linear
+  }
+  .elcam-view__landscape--day .elcam-landscape__moon,
+  .elcam-view__landscape--transition .elcam-landscape__moon {
+    opacity: 0
+  }
+
+  .elcam-landscape__clouds {
+    position: absolute;
+    width: 100%;
+    height: 15em
+  }
+  .elcam-landscape--village .elcam-landscape__clouds {
+    height: 26.25em
+  }
+  .elcam-landscape--city .elcam-landscape__clouds {
+    height: 100%
+  }
+/*  .elcam-landscape__build {
+    position: absolute;
+    left: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain
+  }
+  .elcam-landscape--city .elcam-landscape__build--one {
+    bottom: 100%;
+    width: 12.875em;
+    height: 36.4375em;
+    margin-bottom: -5.625em;
+    margin-left: -18.875em;
+    background-image: url(images/build1.png)
+  }
+  .elcam-landscape--city .elcam-landscape__build--two {
+    bottom: 100%;
+    width: 8.75em;
+    height: 34.5em;
+    margin-bottom: -4.3125em;
+    margin-left: 4.75em;
+    background-image: url(images/build2.png)
+  }
+  .elcam-landscape--city .elcam-landscape__build--tree {
+    top: -23.125em;
+    width: 25.375em;
+    height: 29.25em;
+    margin-left: -48.125em;
+    background-image: url(images/build3.png)
+  }
+  .elcam-landscape--city .elcam-landscape__build--four {
+    top: -20.9375em;
+    width: 27.5em;
+    height: 27.375em;
+    margin-left: 23.4375em;
+    background-image: url(images/build4.png)
+  }
+  .elcam-landscape--city .elcam-landscape__build--five {
+    top: -23.4375em;
+    width: 35.9375em;
+    height: 36.8125em;
+    margin-left: -73.125em;
+    background-image: url(images/build5.png)
+  }
+  .elcam-landscape--city .elcam-landscape__build--six {
+    top: -25em;
+    width: 34.4375em;
+    height: 40.125em;
+    margin-left: 39.375em;
+    background-image: url(images/build6.png)
+  }
+  .elcam-landscape--village .elcam-landscape__build--one {
+    bottom: 100%;
+    width: 8.125em;
+    height: 10.3125em;
+    margin-bottom: -4.8125em;
+    margin-left: -14.6875em;
+    background-image: url(images/build-1.png)
+  }
+  .elcam-landscape--village .elcam-landscape__build--two {
+    bottom: 100%;
+    width: 10.3125em;
+    height: 13.875em;
+    margin-bottom: -5em;
+    margin-left: 5.9375em;
+    background-image: url(images/build-2.png)
+  }
+  .elcam-landscape--village .elcam-landscape__build--tree {
+    bottom: 100%;
+    width: 22.75em;
+    height: 12.375em;
+    margin-bottom: -7.1875em;
+    margin-left: -42.5em;
+    background-image: url(images/build-3.png)
+  }
+  .elcam-landscape--village .elcam-landscape__build--four {
+    bottom: 100%;
+    width: 11.5em;
+    height: 10.125em;
+    margin-bottom: -5.625em;
+    margin-left: 22.5em;
+    background-image: url(images/build-4.png)
+  }
+  .elcam-landscape--village .elcam-landscape__build--five {
+    bottom: 100%;
+    width: 64.625em;
+    height: 47.625em;
+    margin-bottom: -27.5em;
+    margin-left: -98.125em;
+    background-image: url(images/build-5.png)
+  }
+  .elcam-landscape--village .elcam-landscape__build--six {
+    bottom: 100%;
+    width: 32.5625em;
+    height: 24.5625em;
+    margin-bottom: -13.75em;
+    margin-left: 29.0625em;
+    background-image: url(images/build-6.png)
+  }
+  .elcam-landscape--village .elcam-landscape__build--seven {
+    bottom: 100%;
+    width: 33.875em;
+    height: 53.75em;
+    margin-bottom: -27.5em;
+    margin-left: -76.875em;
+    background-image: url(images/build-7.png)
+  }
+  .elcam-landscape--village .elcam-landscape__build--eight {
+    bottom: 100%;
+    width: 22.25em;
+    height: 29.3125em;
+    margin-bottom: -21.875em;
+    margin-left: 43.125em;
+    background-image: url(images/build-8.png)
+  }*/
+  .elcam-landscape__cloud {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 60%;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    -webkit-transform: translateX(-100%) rotate(0.01deg);
+    transform: translateX(-100%) rotate(0.01deg)
+  }
+  .elcam-landscape__cloud--one {
+    -webkit-animation: no-movement-cloud 180s linear infinite;
+    animation: no-movement-cloud 180s linear infinite
+  }
+  .elcam-landscape--sand .elcam-landscape__cloud--one {
+    background: url(images/cloud1.png) 100% 0/auto 300% no-repeat
+  }
+  .elcam-landscape--village .elcam-landscape__cloud--one {
+    background-image: url(images/village-cloud-1.png)
+  }
+  .elcam-landscape--city .elcam-landscape__cloud--one {
+    background-image: url(images/city-cloud-1.png)
+  }
+  .elcam-view__landscape--day .elcam-landscape__cloud--one,
+  .elcam-view__landscape--night .elcam-landscape__cloud--one,
+  .elcam-view__landscape--transition .elcam-landscape__cloud--one {
+    background: url(images/cloud1.png) 100% 0/auto 300% no-repeat
+  }
+  .elcam-view__landscape--night .elcam-landscape__cloud--one {
+    background-position-y: 50%
+  }
+  .elcam-view__landscape--transition .elcam-landscape__cloud--one {
+    background-position-y: 100%
+  }
+  .elcam-landscape__cloud--two {
+    -webkit-animation: no-movement-cloud 200s 140s linear infinite;
+    animation: no-movement-cloud 200s 140s linear infinite
+  }
+  .elcam-landscape--sand .elcam-landscape__cloud--two {
+    background: url(images/cloud1.png) 100% 0/auto 300% no-repeat
+  }
+  .elcam-landscape--village .elcam-landscape__cloud--two {
+    background-image: url(images/village-cloud-2.png)
+  }
+  .elcam-landscape--city .elcam-landscape__cloud--two {
+    background-image: url(images/city-cloud-2.png)
+  }
+  .elcam-view__landscape--day .elcam-landscape__cloud--two,
+  .elcam-view__landscape--night .elcam-landscape__cloud--two,
+  .elcam-view__landscape--transition .elcam-landscape__cloud--two {
+    background: url(images/cloud2.png) 100% 0/auto 300% no-repeat
+  }
+  .elcam-view__landscape--night .elcam-landscape__cloud--two {
+    background-position-y: 50%
+  }
+  .elcam-view__landscape--transition .elcam-landscape__cloud--two {
+    background-position-y: 100%
+  }
+  .elcam-landscape__cloud--two.elcam-landscape__cloud--once {
+    left: 50%;
+    -webkit-transform: translate(-100%) rotate(0.01deg);
+    transform: translate(-100%) rotate(0.01deg);
+
+    -webkit-animation-duration: 100s;
+    animation-duration: 100s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .elcam-landscape__cloud--three {
+    -webkit-animation: no-movement-cloud 240s 120s linear infinite;
+    animation: no-movement-cloud 240s 120s linear infinite
+  }
+  .elcam-landscape--sand .elcam-landscape__cloud--three {
+    background: url(images/cloud1.png) 100% 0/auto 300% no-repeat
+  }
+  .elcam-landscape--village .elcam-landscape__cloud--three {
+    background-image: url(images/cloud3.png)
+  }
+  .elcam-landscape--city .elcam-landscape__cloud--three {
+    background-image: url(images/cloud2.png)
+  }
+  .elcam-view__landscape--day .elcam-landscape__cloud--three,
+  .elcam-view__landscape--night .elcam-landscape__cloud--three,
+  .elcam-view__landscape--transition .elcam-landscape__cloud--three {
+    background: url(images/cloud3.png) 100% 0/auto 300% no-repeat
+  }
+  .elcam-view__landscape--night .elcam-landscape__cloud--three {
+    background-position-y: 50%
+  }
+  .elcam-view__landscape--transition .elcam-landscape__cloud--three {
+    background-position-y: 100%
+  }
+  .elcam-landscape__cloud--three.elcam-landscape__cloud--once {
+    left: 50%;
+    -webkit-transform: translate(-60%) rotate(0.01deg);
+    transform: translate(-60%) rotate(0.01deg);
+
+    -webkit-animation-duration: 90s;
+    animation-duration: 90s;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards
+  }
+  .elcam-landscape__cloud--once {
+    width: 100%;
+    -webkit-transform: none;
+    transform: none
+  }
+  .elcam-landscape__bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 49%
+  }
+ /*.elcam-landscape__bottom--stones::before {
+    content: '';
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 64.5em;
+    height: 14.0625em;
+    background: url(images/road-stones.png) center/100% no-repeat;
+    -webkit-transform: translateX(-45%);
+    transform: translateX(-45%)
+  }*/
+ /*
+  .elcam-landscape__lanterns {
+    position: absolute;
+    left: 50%;
+    background: url(images/lanterns.png) center/contain no-repeat
+  }
+  .elcam-landscape__lanterns--front {
+    top: -19.1875em;
+    width: 56.625em;
+    height: 30.5em;
+    margin-left: -28.5625em
+  }
+  .elcam-landscape__lanterns--front::before {
+    image-rendering: optimize-contrast;
+    image-rendering: crisp-edges;
+    content: '';
+    position: absolute;
+    top: 12.5em;
+    left: 18.375em;
+    width: 20.125em;
+    height: 10.9375em;
+    background: url(images/lanterns.png) center/contain no-repeat
+  }
+  .elcam-landscape__lanterns--back {
+    image-rendering: optimize-contrast;
+    image-rendering: crisp-edges;
+    top: -4em;
+    width: 12.5em;
+    height: 6.75em;
+    margin-left: -6.375em;
+    -webkit-transform: translateY(15%);
+    transform: translateY(15%);
+    transition: -webkit-transform 1.5s ease-out;
+    transition: transform 1.5s ease-out;
+    transition: transform 1.5s ease-out, -webkit-transform 1.5s ease-out;
+    will-change: transform
+  }
+  .elcam-view--is-gone .elcam-landscape__lanterns--back {
+    -webkit-animation: gone2 1.5s ease-out forwards;
+    animation: gone2 1.5s ease-out forwards
+  }*/
+  .elcam-landscape__road {
+    position: absolute;
+    top: -2em;
+    left: 0;
+    width: 100%;
+    height: 36em;
+    background: url(images/road.png) center 0/auto 300% no-repeat
+  }
+  .elcam-view__landscape--night .elcam-landscape__road {
+    background-position-y: 50%
+  }
+  .elcam-view__landscape--transition .elcam-landscape__road {
+    background-position-y: 100%
+  }
+ /* .elcam-landscape__road--village {
+    background-image: url(images/village-road.png), url(images/grass.jpg);
+    background-position: center bottom, center bottom;
+    background-size: auto 100%, auto 100%
+  }*/
+  .elcam-landscape__scale--turns .elcam-landscape__road {
+    background: none
+  }
+  .elcam-landscape__scale--turns .elcam-landscape__road::before {
+    content: '';
+    position: absolute;
+    bottom: 13em;
+    width: 100%;
+    height: 12.1875em;
+    will-change: transform;
+    background: url(images/turns.png) center/auto 100% no-repeat
+  }
+  .elcam-view--is-gone .elcam-landscape__scale--turns .elcam-landscape__road::before {
+    -webkit-transform: none;
+    transform: none
+  }
+  .elcam-landscape__scale--village .elcam-landscape__road::before {
+    background-image: url(images/village-turns.png)
+  }
+
+  .elcam-landscape__scale {
+    position: absolute;
+    right: 0;
+    bottom: -52.5%;
+    left: -50%;
+    z-index: 0;
+    width: 200%;
+    height: 218%;
+    will-change: transform;
+    -webkit-transform: translateZ(0) scale(0.5) rotate(0.01deg);
+    transform: translateZ(0) scale(0.5) rotate(0.01deg)
+  }
+  .elcam-screens__view--start .elcam-landscape__scale {
+    transition: -webkit-transform 1.5s ease-in;
+    transition: transform 1.5s ease-in;
+    transition: transform 1.5s ease-in, -webkit-transform 1.5s ease-in
+  }
+  .elcam-view--is-gone .elcam-landscape__scale {
+    -webkit-animation: gone1 1.5s forwards ease-out;
+    animation: gone1 1.5s forwards ease-out
+  }
+  .elcam-landscape__scale--mountains {
+    -webkit-transform: translateZ(0) scale(0.9) rotate(0.01deg);
+    transform: translateZ(0) scale(0.9) rotate(0.01deg)
+  }
+  /*.elcam-landscape__scale--turns, .elcam-landscape__scale--lights {
+    margin-bottom: .75em
+  }
+  .elcam-landscape__scale--village {
+    -webkit-transform: translateZ(0) scale(0.7) rotate(0.01deg);
+    transform: translateZ(0) scale(0.7) rotate(0.01deg)
+  }
+  .elcam-landscape__scale--border {
+    -webkit-transform: translateZ(0) scale(0.3) rotate(0.01deg);
+    transform: translateZ(0) scale(0.3) rotate(0.01deg)
+  }
+  .elcam-landscape__place {
+    position: absolute;
+    bottom: 96%;
+    left: 0;
+    width: 100%;
+    height: 31.1875em;
+    background: url(images/back.png) center/auto 100% no-repeat
+  }
+  .elcam-landscape__border {
+    position: absolute;
+    top: 49.375em;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    height: 18.375em;
+    background: url(images/border-stop.png) center/auto 100% no-repeat
+  }
+  .elcam-landscape__border--village {
+    background-image: url(images/border-stop2.png)
+  }
+  .elcam-landscape__border--city {
+    background-image: url(images/border-stop3.png)
+  }
+  .elcam-landscape__sign {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 7.85714em;
+    height: 3em;
+    margin-bottom: 4.42857em;
+    margin-left: 16.42857em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", "Roboto Local", "Sans-serif";
+    font-size: .875em;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1;
+    color: #000
+  }
+  .elcam-landscape__sign--weak, .elcam-landscape__sign--strong {
+    font-size: 1em;
+    width: 10.75em;
+    bottom: auto;
+    top: 0;
+    text-align: center;
+    min-height: 3.375em;
+    margin-left: 0;
+    border-radius: .625em;
+    background-image: linear-gradient(to bottom, #e9b301 0%, #fccd31 100%);
+    border: .125em solid #fff;
+    padding: .125em;
+    height: auto;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center
+  }
+  .elcam-landscape__sign--strong {
+    left: 53%
+  }*/
+
+  .elcam-landscape__dirt {
+    position: absolute;
+    right: 0;
+    bottom: 15%;
+    left: 0;
+    height: 100%
+  }
+  .elcam-landscape__line {
+    position: absolute;
+    top: 1.5625em;
+    left: 50%;
+    width: 2.375em;
+    height: 30.9375em;
+    margin-left: -1.125em;
+    background: url(images/road-line.png) no-repeat;
+    background-size: contain
+  }
+  .elcam-landscape__mountains {
+    position: absolute;
+    bottom: 98.5%
+  }
+  .elcam-landscape__mountains::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: 8s linear
+  }
+  .elcam-landscape__mountains--left {
+    right: 53.2%;
+    bottom: 95.2%;
+    width: 60.6875em;
+    height: 13.9375em
+  }
+  .elcam-landscape__mountains--left::before {
+    background: url(images/mountian-left.png) 0 0/100% 300% no-repeat
+  }
+  .elcam-view__landscape--transition .elcam-landscape__mountains--left::before {
+    background-position-y: calc(100% - em(2,$fz))
+  }
+  .elcam-view__landscape--night .elcam-landscape__mountains--left::before {
+    background-position-y: 50%
+  }
+  .elcam-landscape__mountains--center {
+    bottom: 96.7%;
+    left: 50%;
+    width: 128.875em;
+    height: 10.9375em;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+  }
+  .elcam-landscape__mountains--center::before {
+    background: url(images/mountians-back.png) 0 0/auto 300% no-repeat
+  }
+  .elcam-view__landscape--transition .elcam-landscape__mountains--center::before {
+    background-position-y: calc(100% - em(2,$fz))
+  }
+  .elcam-view__landscape--night .elcam-landscape__mountains--center::before {
+    background-position-y: 50%
+  }
+  .elcam-landscape__mountains--right {
+    bottom: 96.2%;
+    left: 52.5%;
+    width: 73.5em;
+    height: 18.6875em
+  }
+  .elcam-landscape__mountains--right::before {
+    background: url(images/mountian-right.png) 0 0/100% 300% no-repeat
+  }
+  .elcam-view__landscape--transition .elcam-landscape__mountains--right::before {
+    background-position-y: calc(100% - em(2,$fz))
+  }
+  .elcam-view__landscape--night .elcam-landscape__mountains--right::before {
+    background-position-y: 50%
+  }
+  .elcam-landscape__rock {
+    position: absolute;
+    left: 50%;
+    background-size: contain
+  }
+  .elcam-landscape__rock--one {
+    top: -2.5em;
+    width: 16.625em;
+    height: 8.8125em;
+    margin-left: -40em;
+    background: url(images/rock1.png) 0 0/auto 300% no-repeat
+  }
+  .elcam-view__landscape--night .elcam-landscape__rock--one {
+    background-position-y: 50%
+  }
+  .elcam-view__landscape--transition .elcam-landscape__rock--one {
+    background-position-y: 100%
+  }
+  .elcam-screens__view--start .elcam-landscape__rock--one {
+    top: -2.1875em;
+    margin-left: -33.125em
+  }
+  .elcam-landscape__rock--two {
+    top: -9.375em;
+    width: 33.6875em;
+    height: 17.5em;
+    margin-left: 23.125em;
+    background: url(images/rock2.png) 0 0/auto 300% no-repeat
+  }
+  .elcam-view__landscape--night .elcam-landscape__rock--two {
+    background-position-y: 50%
+  }
+  .elcam-view__landscape--transition .elcam-landscape__rock--two {
+    background-position-y: 100%
+  }
+  .elcam-landscape__rock--three {
+    top: -10em;
+    width: 29.0625em;
+    height: 22.8125em;
+    margin-left: -57.5em;
+    background: url(images/rock3.png) 0 0/auto 300% no-repeat
+  }
+  .elcam-view__landscape--night .elcam-landscape__rock--three {
+    background-position-y: 50%
+  }
+  .elcam-view__landscape--transition .elcam-landscape__rock--three {
+    background-position-y: 100%
+  }
+  .elcam-landscape__rock--four {
+    top: 0;
+    width: 26.9375em;
+    height: 14.0625em;
+    margin-left: 33.75em;
+    background: url(images/rock4.png) 0 0/auto 300% no-repeat
+  }
+  .elcam-view__landscape--night .elcam-landscape__rock--four {
+    background-position-y: 50%
+  }
+  .elcam-view__landscape--transition .elcam-landscape__rock--four {
+    background-position-y: 100%
+  }
+  .elcam-landscape__rock--five {
+    right: 50%;
+    bottom: 17.5em;
+    left: auto;
+    width: 80.125em;
+    height: 84.5em;
+    margin-right: 83.125em;
+    background: url(images/rock5.png) 0 0/auto 300% no-repeat
+  }
+  .elcam-view__landscape--night .elcam-landscape__rock--five {
+    background-position-y: 50%
+  }
+  .elcam-view__landscape--transition .elcam-landscape__rock--five {
+    background-position-y: 100%
+  }
+  .elcam-landscape__rock--six {
+    bottom: 25em;
+    width: 80.125em;
+    height: 84.5em;
+    margin-left: 89.375em;
+    background: url(images/rock5.png) 0 0/auto 300% no-repeat;
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg)
+  }
+  .elcam-view__landscape--night .elcam-landscape__rock--six {
+    background-position-y: 50%
+  }
+  .elcam-view__landscape--transition .elcam-landscape__rock--six {
+    background-position-y: 100%
+  }
+  .elcam-landscape__rock--seven {
+    right: 50%;
+    top: -9.5em;
+    left: auto;
+    width: 50em;
+    height: 26em;
+    margin-right: 53.125em;
+    background: url(images/rock2.png) 0 0/auto 300% no-repeat;
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg)
+  }
+  .elcam-view__landscape--night .elcam-landscape__rock--seven {
+    background-position-y: 50%
+  }
+  .elcam-view__landscape--transition .elcam-landscape__rock--seven {
+    background-position-y: 100%
+  }
+  .elcam-landscape__rock--eight {
+    top: -21em;
+    width: 43.75em;
+    height: 34.3125em;
+    margin-left: 60em;
+    background: url(images/rock3.png) 0 0/auto 300% no-repeat;
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg)
+  }
+  .elcam-view__landscape--night .elcam-landscape__rock--eight {
+    background-position-y: 50%
+  }
+  .elcam-view__landscape--transition .elcam-landscape__rock--eight {
+    background-position-y: 100%
+  }
+
+
+  .elcam-dirt {
+    background: url(images/dirt.png) center 0/125% 300% no-repeat
+  }
+  .elcam-view__landscape--transition .elcam-dirt {
+    background-position-y: 100%
+  }
+  .elcam-view__landscape--night .elcam-dirt {
+    background-position-y: 50%
+  }
+
+
+  .elcam-car--is-back {
+    -webkit-animation: from-back 1.2s ease-out forwards;
+    animation: from-back 1.2s ease-out forwards;
+  }
+  .elcam-car--is-forward {
+    -webkit-animation: move-forward 3.5s cubic-bezier(0.57, 0.1, 0.37, 0.92) forwards;
+    animation: move-forward 3.5s cubic-bezier(0.57, 0.1, 0.37, 0.92) forwards
+  }
+  .elcam-car--is-left {
+    -webkit-animation: move-left 3.5s cubic-bezier(0.57, 0.1, 0.37, 0.92) forwards;
+    animation: move-left 3.5s cubic-bezier(0.57, 0.1, 0.37, 0.92) forwards
+  }
+  .elcam-car--is-left .elcam-car__truck {
+    background-position: 0 0;
+    -webkit-animation: move-left-bg1 0.1s steps(2, start) forwards, move-left-bg2 0.1s 0.1s steps(2, start) forwards;
+    animation: move-left-bg1 0.1s steps(2, start) forwards, move-left-bg2 0.1s 0.1s steps(2, start) forwards
+  }
+  .elcam-car--is-right {
+    -webkit-animation: move-right 3.5s cubic-bezier(0.57, 0.1, 0.37, 0.92) forwards;
+    animation: move-right 3.5s cubic-bezier(0.57, 0.1, 0.37, 0.92) forwards
+  }
+  .elcam-car--is-right .elcam-car__truck {
+    background-position: 0 0;
+    -webkit-animation: move-right-bg1 0.2s steps(4, start) forwards, move-right-bg2 0.2s 0.2s steps(2, start) forwards;
+    animation: move-right-bg1 0.2s steps(4, start) forwards, move-right-bg2 0.2s 0.2s steps(2, start) forwards
+  }
+  .elcam-car__wrap {
+    position: absolute;
+    top: 10.5625em;
+    left: 74.5%;
+    width: 40em;
+    height: 20em;
+    -webkit-transform: translate(-49%, -91%);
+    transform: translate(-49%, -91%);
+    pointer-events: none
+  }
+  .elcam-car__truck {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background: url(images/sprite.png) no-repeat 11.11111% top;
+    background-size: auto 500%
+  }
+  .elcam-car__light {
+    opacity: 0;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: opacity 0.1s 4s linear
+  }
+  .elcam-car--is-lights-on .elcam-car__light {
+    opacity: 1
+  }
+  .elcam-car__light--front {
+    top: 5em;
+    left: 7.8125em;
+    width: 25em;
+    height: 14.375em;
+    background-image: url(images/front-light.png)
+  }
+  .elcam-car__light--back {
+    top: 12.25em;
+    left: 12.6875em;
+    z-index: 2;
+    width: 19.5em;
+    height: 4.8125em;
+    background-image: url(images/back-light.png)
+  }
+
+  @-webkit-keyframes gone1 {
+    from {
+      -webkit-transform: translateZ(0) scale(0.5) rotate(0.01deg);
+      transform: translateZ(0) scale(0.5) rotate(0.01deg)
+    }
+    to {
+      -webkit-transform: translateZ(0) scale(1) rotate(0deg);
+      transform: translateZ(0) scale(1) rotate(0deg)
+    }
+  }
+  @keyframes gone1 {
+    from {
+      -webkit-transform: translateZ(0) scale(0.5) rotate(0.01deg);
+      transform: translateZ(0) scale(0.5) rotate(0.01deg)
+    }
+    to {
+      -webkit-transform: translateZ(0) scale(1) rotate(0deg);
+      transform: translateZ(0) scale(1) rotate(0deg)
+    }
+  }
+
+  @-webkit-keyframes gone2 {
+    from {
+      -webkit-transform: translateY(15%);
+      transform: translateY(15%)
+    }
+    to {
+      -webkit-transform: translateY(-2%);
+      transform: translateY(-2%)
+    }
+  }
+  @keyframes gone2 {
+    from {
+      -webkit-transform: translateY(15%);
+      transform: translateY(15%)
+    }
+    to {
+      -webkit-transform: translateY(-2%);
+      transform: translateY(-2%)
+    }
+  }
+
+  @-webkit-keyframes no-movement-cloud {
+    100% {
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+  @keyframes no-movement-cloud {
+    100% {
+      -webkit-transform: none;
+      transform: none
+    }
+  }
+
+  @-webkit-keyframes from-back {
+    from {
+      -webkit-transform: translate(6.25em, 9.6875em);
+      transform: translate(6.25em, 9.6875em)
+    }
+    to {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0)
+    }
+  }
+  @keyframes from-back {
+    from {
+      -webkit-transform: translate(6.25em, 9.6875em);
+      transform: translate(6.25em, 9.6875em)
+    }
+    to {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0)
+    }
+  }
+
+  @-webkit-keyframes move-forward {
+    from {
+      -webkit-transform: translate(0, 0) scale(1);
+      transform: translate(0, 0) scale(1)
+    }
+    to {
+      -webkit-transform: translate(2.5em, -10.3125em) scale(0.19);
+      transform: translate(2.5em, -10.3125em) scale(0.19)
+    }
+  }
+  @keyframes move-forward {
+    from {
+      -webkit-transform: translate(0, 0) scale(1);
+      transform: translate(0, 0) scale(1)
+    }
+    to {
+      -webkit-transform: translate(2.5em, -10.3125em) scale(0.19);
+      transform: translate(2.5em, -10.3125em) scale(0.19)
+    }
+  }
+
+  @-webkit-keyframes move-left {
+    from {
+      -webkit-transform: translate(0, 0) scale(1);
+      transform: translate(0, 0) scale(1)
+    }
+    to {
+      -webkit-transform: translate(-16.875em, -9.375em) scale(0.19);
+      transform: translate(-16.875em, -9.375em) scale(0.19)
+    }
+  }
+  @keyframes move-left {
+    from {
+      -webkit-transform: translate(0, 0) scale(1);
+      transform: translate(0, 0) scale(1)
+    }
+    to {
+      -webkit-transform: translate(-16.875em, -9.375em) scale(0.19);
+      transform: translate(-16.875em, -9.375em) scale(0.19)
+    }
+  }
+
+  @-webkit-keyframes move-left-bg1 {
+    from {
+      background-position: 0 0
+    }
+    to {
+      background-position: 0 50%
+    }
+  }
+  @keyframes move-left-bg1 {
+    from {
+      background-position: 0 0
+    }
+    to {
+      background-position: 0 50%
+    }
+  }
+  @-webkit-keyframes move-left-bg2 {
+    from {
+      background-position: 0 50%
+    }
+    to {
+      background-position: 22% 50%
+    }
+  }
+  @keyframes move-left-bg2 {
+    from {
+      background-position: 0 50%
+    }
+    to {
+      background-position: 22% 50%
+    }
+  }
+
+  @-webkit-keyframes move-right {
+    from {
+      -webkit-transform: translate(0, 0) scale(1);
+      transform: translate(0, 0) scale(1)
+    }
+    to {
+      -webkit-transform: translate(15.9375em, -9.6875em) scale(0.19);
+      transform: translate(15.9375em, -9.6875em) scale(0.19)
+    }
+  }
+  @keyframes move-right {
+    from {
+      -webkit-transform: translate(0, 0) scale(1);
+      transform: translate(0, 0) scale(1)
+    }
+    to {
+      -webkit-transform: translate(15.9375em, -9.6875em) scale(0.19);
+      transform: translate(15.9375em, -9.6875em) scale(0.19)
+    }
+  }
+
+  @-webkit-keyframes move-right-bg1 {
+    from {
+      background-position: 0 0
+    }
+    to {
+      background-position: 0 100%
+    }
+  }
+  @keyframes move-right-bg1 {
+    from {
+      background-position: 0 0
+    }
+    to {
+      background-position: 0 100%
+    }
+  }
+  @-webkit-keyframes move-right-bg2 {
+    from {
+      background-position: 0 100%
+    }
+    to {
+      background-position: 22% 100%
+    }
+  }
+  @keyframes move-right-bg2 {
+    from {
+      background-position: 0 100%
+    }
+    to {
+      background-position: 22% 100%
+    }
+  }
+</style>
+
+
+<div class="elcam-view__landscape--is-active"></div>
+<div class="elcam-view__landscape--is-toggle"></div>
+
+<div class="elcam-view elcam-view--start elcam-screens__view elcam-screens__view--start elcam-view--is-active">
+  <div class="js-day elcam-landscape elcam-landscape--sand elcam-view__landscape elcam-view__landscape--day">
+    <div class="elcam-landscape__scale">
+      <div class="elcam-landscape__bottom">
+        <div class="elcam-dirt elcam-landscape__dirt"></div>
+      </div>
+    </div>
+    <div class="elcam-landscape__bottom">
+      <div class="elcam-landscape__road"></div>
+    </div>
+    <div class="elcam-landscape__scale">
+      <div class="elcam-landscape__bottom">
+        <div class="elcam-landscape__line"></div>
+      </div>
+    </div>
+    <div class="elcam-landscape__top">
+      <div class="elcam-landscape__sky"></div>
+      <div class="elcam-landscape__sun"></div>
+      <div class="elcam-landscape__moon"></div>
+      <div class="elcam-landscape__clouds">
+        <div class="elcam-landscape__cloud elcam-landscape__cloud--one"></div>
+        <div class="elcam-landscape__cloud elcam-landscape__cloud--two"></div>
+        <div class="elcam-landscape__cloud elcam-landscape__cloud--three"></div>
+        <div class="elcam-landscape__cloud elcam-landscape__cloud--two elcam-landscape__cloud--once"></div>
+        <div class="elcam-landscape__cloud elcam-landscape__cloud--three elcam-landscape__cloud--once"></div>
+      </div>
+    </div>
+    <div class="elcam-landscape__scale elcam-landscape__scale--mountains">
+      <div class="elcam-landscape__bottom">
+        <div class="elcam-landscape__mountains elcam-landscape__mountains--center"></div>
+        <div class="elcam-landscape__mountains elcam-landscape__mountains--left"></div>
+        <div class="elcam-landscape__mountains elcam-landscape__mountains--right"></div>
+      </div>
+    </div>
+    <div class="elcam-landscape__scale">
+      <div class="elcam-landscape__bottom">
+        <div class="elcam-landscape__rock elcam-landscape__rock--one"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--two"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--three"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--four"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--five"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--six"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--seven"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--eight"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="js-change elcam-landscape elcam-landscape--sand elcam-view__landscape elcam-view__landscape--transition">
+    <div class="elcam-landscape__scale">
+      <div class="elcam-landscape__bottom">
+        <div class="elcam-dirt elcam-landscape__dirt"></div>
+      </div>
+    </div>
+    <div class="elcam-landscape__bottom">
+      <div class="elcam-landscape__road"></div>
+    </div>
+    <div class="elcam-landscape__scale">
+      <div class="elcam-landscape__bottom">
+        <div class="elcam-landscape__line"></div>
+      </div>
+    </div>
+    <div class="elcam-landscape__top">
+      <div class="elcam-landscape__sky"></div>
+      <div class="elcam-landscape__sun"></div>
+      <div class="elcam-landscape__moon"></div>
+      <div class="elcam-landscape__clouds">
+        <div class="elcam-landscape__cloud elcam-landscape__cloud--one"></div>
+        <div class="elcam-landscape__cloud elcam-landscape__cloud--two"></div>
+        <div class="elcam-landscape__cloud elcam-landscape__cloud--three"></div>
+        <div class="elcam-landscape__cloud elcam-landscape__cloud--two elcam-landscape__cloud--once"></div>
+        <div class="elcam-landscape__cloud elcam-landscape__cloud--three elcam-landscape__cloud--once"></div>
+      </div>
+    </div>
+    <div class="elcam-landscape__scale elcam-landscape__scale--mountains">
+      <div class="elcam-landscape__bottom">
+        <div class="elcam-landscape__mountains elcam-landscape__mountains--center"></div>
+        <div class="elcam-landscape__mountains elcam-landscape__mountains--left"></div>
+        <div class="elcam-landscape__mountains elcam-landscape__mountains--right"></div>
+      </div>
+    </div>
+    <div class="elcam-landscape__scale">
+      <div class="elcam-landscape__bottom">
+        <div class="elcam-landscape__rock elcam-landscape__rock--one"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--two"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--three"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--four"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--five"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--six"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--seven"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--eight"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="js-night elcam-landscape elcam-landscape--sand elcam-view__landscape elcam-view__landscape--night">
+    <div class="elcam-landscape__scale">
+      <div class="elcam-landscape__bottom">
+        <div class="elcam-dirt elcam-landscape__dirt"></div>
+      </div>
+    </div>
+    <div class="elcam-landscape__bottom">
+      <div class="elcam-landscape__road"></div>
+    </div>
+    <div class="elcam-landscape__scale">
+      <div class="elcam-landscape__bottom">
+        <div class="elcam-landscape__line"></div>
+      </div>
+    </div>
+    <div class="elcam-landscape__top">
+      <div class="elcam-landscape__sky"></div>
+      <div class="elcam-landscape__sun"></div>
+      <div class="elcam-landscape__moon"></div>
+      <div class="elcam-landscape__clouds">
+        <div class="elcam-landscape__cloud elcam-landscape__cloud--one"></div>
+        <div class="elcam-landscape__cloud elcam-landscape__cloud--two"></div>
+        <div class="elcam-landscape__cloud elcam-landscape__cloud--three"></div>
+        <div class="elcam-landscape__cloud elcam-landscape__cloud--two elcam-landscape__cloud--once"></div>
+        <div class="elcam-landscape__cloud elcam-landscape__cloud--three elcam-landscape__cloud--once"></div>
+      </div>
+    </div>
+    <div class="elcam-landscape__scale elcam-landscape__scale--mountains">
+      <div class="elcam-landscape__bottom">
+        <div class="elcam-landscape__mountains elcam-landscape__mountains--center"></div>
+        <div class="elcam-landscape__mountains elcam-landscape__mountains--left"></div>
+        <div class="elcam-landscape__mountains elcam-landscape__mountains--right"></div>
+      </div>
+    </div>
+    <div class="elcam-landscape__scale">
+      <div class="elcam-landscape__bottom">
+        <div class="elcam-landscape__rock elcam-landscape__rock--one"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--two"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--three"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--four"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--five"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--six"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--seven"></div>
+        <div class="elcam-landscape__rock elcam-landscape__rock--eight"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="js-car elcam-car elcam-view__car">
+    <div class="elcam-car__wrap">
+      <div class="elcam-car__truck"></div>
+      <div class="elcam-car__light elcam-car__light--front"></div>
+      <div class="elcam-car__light elcam-car__light--back"></div>
+    </div>
+  </div>
+</div>
+
+  <div class="ag-format-container">
+
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
