@@ -76,6 +76,11 @@ body {
   -ms-transform-origin: 100% 100%;
   -o-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
+
+  -webkit-animation: an-sheet-1 5s linear infinite;
+  -moz-animation: an-sheet-1 5s linear infinite;
+  -o-animation: an-sheet-1 5s linear infinite;
+  animation: an-sheet-1 5s linear infinite;
 }
 .ag-lotus_sheet-2 {
   margin: 0 -82px 0 0;
@@ -89,6 +94,11 @@ body {
   -ms-transform-origin: 100% 100%;
   -o-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
+
+  -webkit-animation: an-sheet-2 5s linear infinite;
+  -moz-animation: an-sheet-2 5s linear infinite;
+  -o-animation: an-sheet-2 5s linear infinite;
+  animation: an-sheet-2 5s linear infinite;
 }
 .ag-lotus_sheet-3 {
   margin: 0 -50px 0 0;
@@ -102,6 +112,11 @@ body {
   -ms-transform-origin: 100% 100%;
   -o-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
+
+  -webkit-animation: an-sheet-3 5s linear infinite;
+  -moz-animation: an-sheet-3 5s linear infinite;
+  -o-animation: an-sheet-3 5s linear infinite;
+  animation: an-sheet-3 5s linear infinite;
 }
 .ag-lotus_sheet-4 {
   margin: 0 -32px 0 0;
@@ -115,6 +130,11 @@ body {
   -ms-transform-origin: 100% 100%;
   -o-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
+
+  -webkit-animation: an-sheet-4 5s linear infinite;
+  -moz-animation: an-sheet-4 5s linear infinite;
+  -o-animation: an-sheet-4 5s linear infinite;
+  animation: an-sheet-4 5s linear infinite;
 }
 .ag-lotus_sheet-5 {
   margin: 0 0 0 -88px;
@@ -128,6 +148,11 @@ body {
   -ms-transform-origin: 0 0;
   -o-transform-origin: 0 0;
   transform-origin: 0 0;
+
+  -webkit-animation: an-sheet-5 5s linear infinite;
+  -moz-animation: an-sheet-5 5s linear infinite;
+  -o-animation: an-sheet-5 5s linear infinite;
+  animation: an-sheet-5 5s linear infinite;
 }
 .ag-lotus_sheet-6 {
   margin: 0 0 0 -53px;
@@ -141,6 +166,11 @@ body {
   -ms-transform-origin: 0 0;
   -o-transform-origin: 0 0;
   transform-origin: 0 0;
+
+  -webkit-animation: an-sheet-6 5s linear infinite;
+  -moz-animation: an-sheet-6 5s linear infinite;
+  -o-animation: an-sheet-6 5s linear infinite;
+  animation: an-sheet-6 5s linear infinite;
 }
 .ag-lotus_sheet-7 {
   margin: 0 0 0 -120px;
@@ -154,6 +184,11 @@ body {
   -ms-transform-origin: 0 0;
   -o-transform-origin: 0 0;
   transform-origin: 0 0;
+
+  -webkit-animation: an-sheet-7 5s linear infinite;
+  -moz-animation: an-sheet-7 5s linear infinite;
+  -o-animation: an-sheet-7 5s linear infinite;
+  animation: an-sheet-7 5s linear infinite;
 }
 .ag-lotus_sheet-8 {
   margin: 0 0 0 -50px;
@@ -167,6 +202,11 @@ body {
   -ms-transform-origin: 0 0;
   -o-transform-origin: 0 0;
   transform-origin: 0 0;
+
+  -webkit-animation: an-sheet-8 5s linear infinite;
+  -moz-animation: an-sheet-8 5s linear infinite;
+  -o-animation: an-sheet-8 5s linear infinite;
+  animation: an-sheet-8 5s linear infinite;
 }
 .ag-lotus_sheet-9 {
   height: 655px;
@@ -182,6 +222,11 @@ body {
   -ms-transform-origin: 50% 50%;
   -o-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
+
+  -webkit-animation: an-sheet-center 5s linear infinite;
+  -moz-animation: an-sheet-center 5s linear infinite;
+  -o-animation: an-sheet-center 5s linear infinite;
+  animation: an-sheet-center 5s linear infinite;
 }
 
 @-webkit-keyframes an-sheet-1 {
@@ -657,6 +702,20 @@ body {
     width: 145px;
     margin: 0 0 0 -82px;
     background-position: -789px -208px;
+  }
+  .ag-lotus_sheet-1,
+  .ag-lotus_sheet-2,
+  .ag-lotus_sheet-3,
+  .ag-lotus_sheet-4,
+  .ag-lotus_sheet-5,
+  .ag-lotus_sheet-6,
+  .ag-lotus_sheet-7,
+  .ag-lotus_sheet-8,
+  .ag-lotus_sheet-9 {
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
   }
 }
 

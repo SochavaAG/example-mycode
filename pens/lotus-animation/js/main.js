@@ -1,7 +1,7 @@
 (function ($) {
   $(function () {
 
-   var $window = $(window),
+   /*var $window = $(window),
       displayWidth = $(window).width();
 
     if (displayWidth > '768') {
@@ -30,7 +30,7 @@
 
         agSheet9.css('transform', 'rotate(' + event.clientY / 1500 + 'deg)');
       });
-    }
+    }*/
 
   });
 })(jQuery);
