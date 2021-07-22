@@ -184,409 +184,76 @@ body {
   transform-origin: 50% 50%;
 }
 
-@-webkit-keyframes an-sheet-1 {
-  0%, 40%, 100% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -webkit-transform: rotate(.78deg);
-    transform: rotate(.78deg);
-  }
-}
-@-moz-keyframes an-sheet-1 {
-  0%, 40%, 100% {;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -moz-transform: rotate(.78deg);
-    transform: rotate(.78deg);
-  }
-}
-@-o-keyframes an-sheet-1 {
-  0%, 40%, 100% {
-    -o-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {;
-    -o-transform: rotate(.78deg);
-    transform: rotate(.78deg);
-  }
-}
-@keyframes an-sheet-1 {
-  0%, 40%, 100% {
-    -webkit-transform: rotate(0);
-    -moz-transform: rotate(0);
-    -o-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -webkit-transform: rotate(.78deg);
-    -moz-transform: rotate(.78deg);
-    -o-transform: rotate(.78deg);
-    transform: rotate(.78deg);
-  }
-}
 
-@-webkit-keyframes an-sheet-2 {
-  0%, 40%, 100% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
+@media only screen and (max-width: 1199px) {
+  /* lotus */
+  .ag-lotus_box {
+    height: 520px;
+    width: 920px;
   }
-  30% {
-    -webkit-transform: rotate(1.36deg);
-    transform: rotate(1.36deg);
+  .ag-lotus_sheets {
+    background-size: auto 805px;
   }
-}
-@-moz-keyframes an-sheet-2 {
-  0%, 40%, 100% {;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
+  .ag-lotus_sheet-1,
+  .ag-lotus_sheet-6 {
+    height: 294px;
+    width: 420px;
   }
-  30% {
-    -moz-transform: rotate(1.36deg);
-    transform: rotate(1.36deg);
+  .ag-lotus_sheet-2,
+  .ag-lotus_sheet-7 {
+    height: 231px;
+    width: 478px;
   }
-}
-@-o-keyframes an-sheet-2 {
-  0%, 40%, 100% {
-    -o-transform: rotate(0);
-    transform: rotate(0);
+  .ag-lotus_sheet-3,
+  .ag-lotus_sheet-5 {
+    height: 464px;
+    width: 246px;
   }
-  30% {;
-    -o-transform: rotate(1.36deg);
-    transform: rotate(1.36deg);
+  .ag-lotus_sheet-4,
+  .ag-lotus_sheet-8 {
+    height: 382px;
+    width: 338px;
   }
-}
-@keyframes an-sheet-2 {
-  0%, 40%, 100% {
-    -webkit-transform: rotate(0);
-    -moz-transform: rotate(0);
-    -o-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -webkit-transform: rotate(1.36deg);
-    -moz-transform: rotate(1.36deg);
-    -o-transform: rotate(1.36deg);
-    transform: rotate(1.36deg);
-  }
-}
 
-@-webkit-keyframes an-sheet-3 {
-  0%, 40%, 100% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
+  .ag-lotus_sheet-1 {
+    margin: 0 -38px 0 0;
+    background-position: 0 0;
   }
-  30% {
-    -webkit-transform: rotate(.46deg);
-    transform: rotate(.46deg);
+  .ag-lotus_sheet-2 {
+    margin: 0 -90px 0 0;
+    background-position: -423px 0;
   }
-}
-@-moz-keyframes an-sheet-3 {
-  0%, 40%, 100% {;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
+  .ag-lotus_sheet-3 {
+    margin: 0 -57px 0 0;
+    background-position: 0 -315px;
   }
-  30% {
-    -moz-transform: rotate(.46deg);
-    transform: rotate(.46deg);
+  .ag-lotus_sheet-4 {
+    margin: 0 -38px 0 0;
+    background-position: -251px -315px;
   }
-}
-@-o-keyframes an-sheet-3 {
-  0%, 40%, 100% {
-    -o-transform: rotate(0);
-    transform: rotate(0);
+  .ag-lotus_sheet-5 {
+    margin: 0 0 0 -57px;
+    background-position: -594px -315px;
   }
-  30% {;
-    -o-transform: rotate(.46deg);
-    transform: rotate(.46deg);
+  .ag-lotus_sheet-6 {
+    margin: 0 0 0 -40px;
+    background-position: -906px 0;
   }
-}
-@keyframes an-sheet-3 {
-  0%, 40%, 100% {
-    -webkit-transform: rotate(0);
-    -moz-transform: rotate(0);
-    -o-transform: rotate(0);
-    transform: rotate(0);
+  .ag-lotus_sheet-7 {
+    margin: 0 0 0 -90px;
+    background-position: -1331px 0;
   }
-  30% {
-    -webkit-transform: rotate(.46deg);
-    -moz-transform: rotate(.46deg);
-    -o-transform: rotate(.46deg);
-    transform: rotate(.46deg);
+  .ag-lotus_sheet-8 {
+    margin: 0 0 0 -38px;
+    background-position: -844px -315px;
   }
-}
-
-@-webkit-keyframes an-sheet-4 {
-  0%, 40%, 100% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
+  .ag-lotus_sheet-9 {
+    height: 492px;
+    width: 218px;
+    margin: 0 0 0 -109px;
+    background-position: -1189px -315px;
   }
-  30% {
-    -webkit-transform: rotate(.55deg);
-    transform: rotate(.55deg);
-  }
-}
-@-moz-keyframes an-sheet-4 {
-  0%, 40%, 100% {;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -moz-transform: rotate(.55deg);
-    transform: rotate(.55deg);
-  }
-}
-@-o-keyframes an-sheet-4 {
-  0%, 40%, 100% {
-    -o-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {;
-    -o-transform: rotate(.55deg);
-    transform: rotate(.55deg);
-  }
-}
-@keyframes an-sheet-4 {
-  0%, 40%, 100% {
-    -webkit-transform: rotate(0);
-    -moz-transform: rotate(0);
-    -o-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -webkit-transform: rotate(.55deg);
-    -moz-transform: rotate(.55deg);
-    -o-transform: rotate(.55deg);
-    transform: rotate(.55deg);
-  }
-}
-
-@-webkit-keyframes an-sheet-5 {
-  0%, 40%, 100% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -webkit-transform: rotate(-.78deg);
-    transform: rotate(-.78deg);
-  }
-}
-@-moz-keyframes an-sheet-5 {
-  0%, 40%, 100% {;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -moz-transform: rotate(-.78deg);
-    transform: rotate(-.78deg);
-  }
-}
-@-o-keyframes an-sheet-5 {
-  0%, 40%, 100% {
-    -o-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {;
-    -o-transform: rotate(-.78deg);
-    transform: rotate(-.78deg);
-  }
-}
-@keyframes an-sheet-5 {
-  0%, 40%, 100% {
-    -webkit-transform: rotate(0);
-    -moz-transform: rotate(0);
-    -o-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -webkit-transform: rotate(-.78deg);
-    -moz-transform: rotate(-.78deg);
-    -o-transform: rotate(-.78deg);
-    transform: rotate(-.78deg);
-  }
-}
-
-@-webkit-keyframes an-sheet-6 {
-  0%, 40%, 100% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -webkit-transform: rotate(-1.36deg);
-    transform: rotate(-1.36deg);
-  }
-}
-@-moz-keyframes an-sheet-6 {
-  0%, 40%, 100% {;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -moz-transform: rotate(-1.36deg);
-    transform: rotate(-1.36deg);
-  }
-}
-@-o-keyframes an-sheet-6 {
-  0%, 40%, 100% {
-    -o-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {;
-    -o-transform: rotate(-1.36deg);
-    transform: rotate(-1.36deg);
-  }
-}
-@keyframes an-sheet-6 {
-  0%, 40%, 100% {
-    -webkit-transform: rotate(0);
-    -moz-transform: rotate(0);
-    -o-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -webkit-transform: rotate(-1.36deg);
-    -moz-transform: rotate(-1.36deg);
-    -o-transform: rotate(-1.36deg);
-    transform: rotate(-1.36deg);
-  }
-}
-
-@-webkit-keyframes an-sheet-7 {
-  0%, 40%, 100% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -webkit-transform: rotate(-.46deg);
-    transform: rotate(-.46deg);
-  }
-}
-@-moz-keyframes an-sheet-7 {
-  0%, 40%, 100% {;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -moz-transform: rotate(-.46deg);
-    transform: rotate(-.46deg);
-  }
-}
-@-o-keyframes an-sheet-7 {
-  0%, 40%, 100% {
-    -o-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {;
-    -o-transform: rotate(-.46deg);
-    transform: rotate(-.46deg);
-  }
-}
-@keyframes an-sheet-7 {
-  0%, 40%, 100% {
-    -webkit-transform: rotate(0);
-    -moz-transform: rotate(0);
-    -o-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -webkit-transform: rotate(-.46deg);
-    -moz-transform: rotate(-.46deg);
-    -o-transform: rotate(-.46deg);
-    transform: rotate(-.46deg);
-  }
-}
-
-@-webkit-keyframes an-sheet-8 {
-  0%, 40%, 100% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -webkit-transform: rotate(-.55deg);
-    transform: rotate(-.55deg);
-  }
-}
-@-moz-keyframes an-sheet-8 {
-  0%, 40%, 100% {;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -moz-transform: rotate(-.55deg);
-    transform: rotate(-.55deg);
-  }
-}
-@-o-keyframes an-sheet-8 {
-  0%, 40%, 100% {
-    -o-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {;
-    -o-transform: rotate(-.55deg);
-    transform: rotate(-.55deg);
-  }
-}
-@keyframes an-sheet-8 {
-  0%, 40%, 100% {
-    -webkit-transform: rotate(0);
-    -moz-transform: rotate(0);
-    -o-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -webkit-transform: rotate(-.55deg);
-    -moz-transform: rotate(-.55deg);
-    -o-transform: rotate(-.55deg);
-    transform: rotate(-.55deg);
-  }
-}
-
-@-webkit-keyframes an-sheet-center {
-  0%, 40%, 100% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -webkit-transform: rotate(.36deg);
-    transform: rotate(.36deg);
-  }
-}
-@-moz-keyframes an-sheet-center {
-  0%, 40%, 100% {;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -moz-transform: rotate(.36deg);
-    transform: rotate(.36deg);
-  }
-}
-@-o-keyframes an-sheet-center {
-  0%, 40%, 100% {
-    -o-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {;
-    -o-transform: rotate(.36deg);
-    transform: rotate(.36deg);
-  }
-}
-@keyframes an-sheet-center {
-  0%, 40%, 100% {
-    -webkit-transform: rotate(0);
-    -moz-transform: rotate(0);
-    -o-transform: rotate(0);
-    transform: rotate(0);
-  }
-  30% {
-    -webkit-transform: rotate(.36deg);
-    -moz-transform: rotate(.36deg);
-    -o-transform: rotate(.36deg);
-    transform: rotate(.36deg);
-  }
+  /* /lotus */
 }
 
 @media only screen and (max-width: 1161px) {
@@ -644,7 +311,7 @@ body {
     margin: 0 0 0 -27px;
     background-position: -601px 0;
   }
-  .ag-lotus_sheet-7 {;
+  .ag-lotus_sheet-7 {
     margin: 0 0 0 -60px;
     background-position: -883px 0;
   }
@@ -730,7 +397,7 @@ body {
     margin: 0 0 0 -18px;
     background-position: -405px 0;
   }
-  .ag-lotus_sheet-7 {;
+  .ag-lotus_sheet-7 {
     margin: 0 0 0 -40px;
     background-position: -594px 0;
   }
