@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Animation King Man</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .king-move__man {
+    height: 44.06em;
+    width: 27.18em;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-king-man/images/body.png) no-repeat 50% 50%;
+    background-size: cover;
+
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .king-move__man::before {
+    content: "";
+    height: 21.75em;
+    width: 12.14em;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-king-man/images/head.png) no-repeat 50% 50%;
+    background-size: cover;
+
+    z-index: 3;
+    position: absolute;
+    top: -12em;
+    left: 6em;
+  }
+  .king-move__man::after {
+    content: "";
+    height: 30.66em;
+    width: 36.375em;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-king-man/images/hand.png) no-repeat 50% 50%;
+    background-size: cover;
+
+    z-index: 2;
+    position: absolute;
+    top: -10.3em;
+    left: -10.5em;
+
+    -webkit-animation: king-move-hand 8s linear infinite;
+    -moz-animation: king-move-hand 8s linear infinite;
+    -o-animation: king-move-hand 8s linear infinite;
+    animation: king-move-hand 8s linear infinite;
+  }
+
+  @-webkit-keyframes king-move-hand {
+    0%, 10%, 50%, 100% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    5% {
+      -webkit-transform: rotate(5deg);
+      transform: rotate(5deg);
+    }
+  }
+  @-moz-keyframes king-move-hand {
+    0%, 10%, 50%, 100% {
+      -moz-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    5% {
+      -moz-transform: rotate(5deg);
+      transform: rotate(5deg);
+    }
+  }
+  @-o-keyframes king-move-hand {
+    0%, 10%, 50%, 100% {
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    5% {
+      -o-transform: rotate(5deg);
+      transform: rotate(5deg);
+    }
+  }
+  @keyframes king-move-hand {
+    0%, 10%, 50%, 100% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    5% {
+      -webkit-transform: rotate(5deg);
+      -moz-transform: rotate(5deg);
+      -o-transform: rotate(5deg);
+      transform: rotate(5deg);
+    }
+  }
+</style>
+
+  <div class="ag-format-container">
+    <div class="king-move__man">
+      <span class="king-move__sleeve"></span>
+    </div>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
