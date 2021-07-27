@@ -20,7 +20,7 @@
 
 <body>
 <style>
-  .king-move__man {
+  .ag-king-man {
     height: 44.06em;
     width: 27.18em;
     background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-king-man/images/body.png) no-repeat 50% 50%;
@@ -37,7 +37,7 @@
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
   }
-  .king-move__man::before {
+  .ag-king-man::before {
     content: "";
     height: 21.75em;
     width: 12.14em;
@@ -49,7 +49,7 @@
     top: -12em;
     left: 6em;
   }
-  .king-move__man::after {
+  .ag-king-man::after {
     content: "";
     height: 30.66em;
     width: 36.375em;
@@ -61,13 +61,24 @@
     top: -10.3em;
     left: -10.5em;
 
-    -webkit-animation: king-move-hand 8s linear infinite;
-    -moz-animation: king-move-hand 8s linear infinite;
-    -o-animation: king-move-hand 8s linear infinite;
-    animation: king-move-hand 8s linear infinite;
+    -webkit-animation: an-king-move-hand 8s linear infinite;
+    -moz-animation: an-king-move-hand 8s linear infinite;
+    -o-animation: an-king-move-hand 8s linear infinite;
+    animation: an-king-move-hand 8s linear infinite;
+  }
+  .king-move__sleeve {
+    position: absolute;
+    top: 3.625em;
+    left: -.3125em;
+    z-index: 0;
+    width: 9.0625em;
+    height: 7.125em;
+    background: center/100% 100% no-repeat url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-king-man/images/sleeve.png);
+    -webkit-animation: an-king-sleeve 8s linear infinite;
+    animation: an-king-sleeve 8s linear infinite
   }
 
-  @-webkit-keyframes king-move-hand {
+  @-webkit-keyframes an-king-move-hand {
     0%, 10%, 50%, 100% {
       -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
@@ -77,7 +88,7 @@
       transform: rotate(5deg);
     }
   }
-  @-moz-keyframes king-move-hand {
+  @-moz-keyframes an-king-move-hand {
     0%, 10%, 50%, 100% {
       -moz-transform: rotate(0deg);
       transform: rotate(0deg);
@@ -87,7 +98,7 @@
       transform: rotate(5deg);
     }
   }
-  @-o-keyframes king-move-hand {
+  @-o-keyframes an-king-move-hand {
     0%, 10%, 50%, 100% {
       -o-transform: rotate(0deg);
       transform: rotate(0deg);
@@ -97,7 +108,7 @@
       transform: rotate(5deg);
     }
   }
-  @keyframes king-move-hand {
+  @keyframes an-king-move-hand {
     0%, 10%, 50%, 100% {
       -webkit-transform: rotate(0deg);
       -moz-transform: rotate(0deg);
@@ -109,12 +120,33 @@
       -moz-transform: rotate(5deg);
       -o-transform: rotate(5deg);
       transform: rotate(5deg);
+    }
+  }
+
+  @-webkit-keyframes an-king-sleeve {
+    0%, 10%, 50%, 100% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0)
+    }
+    5% {
+      -webkit-transform: translate(10%, -10%);
+      transform: translate(10%, -10%)
+    }
+  }
+  @keyframes an-king-sleeve {
+    0%, 10%, 50%, 100% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0)
+    }
+    5% {
+      -webkit-transform: translate(10%, -10%);
+      transform: translate(10%, -10%)
     }
   }
 </style>
 
   <div class="ag-format-container">
-    <div class="king-move__man">
+    <div class="ag-king-man">
       <span class="king-move__sleeve"></span>
     </div>
   </div>
