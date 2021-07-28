@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Mousemove Lamp</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  html,
+  body,
+  .ag-neon-block {
+    height: 100%;
+  }
+  .ag-neon-block {
+    background-color: #000;
+
+    overflow: hidden;
+
+    position: relative;
+  }
+  .ag-neon_img__girl {
+    height: 636px;
+    width: 322px;
+
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mousemove-lamp/images/girl.png) no-repeat scroll 50% 0;
+    background-size: cover;
+
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  .ag-neon_img-box__front {
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .ag-neon_img__front,
+  .ag-neon_img__back {
+    height: 500px;
+    width: 500px;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mousemove-lamp/images/neon.png) no-repeat scroll 50% 0;
+    background-size: cover;
+
+    position: absolute;
+    left: 50%;
+  }
+  .ag-neon_img__front:first-child {
+    margin: 0 0 0 -400px;
+
+    bottom: 15%;
+
+    -webkit-transform-origin: 50% 50% 0;
+    -moz-transform-origin: 50% 50% 0;
+    -ms-transform-origin: 50% 50% 0;
+    -o-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+  }
+  .ag-neon_img__front:last-child {
+    margin: 0 0 0 -100px;
+
+    bottom: 20%;
+
+    -webkit-transform-origin: 50% 50% 0;
+    -moz-transform-origin: 50% 50% 0;
+    -ms-transform-origin: 50% 50% 0;
+    -o-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+  }
+  .ag-neon_img-box__back {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    -webkit-transform-origin: 50% 100% 0;
+    -moz-transform-origin: 50% 100% 0;
+    -ms-transform-origin: 50% 100% 0;
+    -o-transform-origin: 50% 100% 0;
+    transform-origin: 50% 100% 0;
+  }
+  .ag-neon_img__back:first-child {
+    margin: 0 0 0 -400px;
+
+    bottom: -10%;
+
+    -webkit-transform-origin: 50% 50% 0;
+    -moz-transform-origin: 50% 50% 0;
+    -ms-transform-origin: 50% 50% 0;
+    -o-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+  }
+  .ag-neon_img__back:last-child {
+    margin: 0 0 0 -100px;
+
+    bottom: -5%;
+
+    -webkit-transform-origin: 50% 50% 0;
+    -moz-transform-origin: 50% 50% 0;
+    -ms-transform-origin: 50% 50% 0;
+    -o-transform-origin: 50% 50% 0;
+    transform-origin: 50% 50% 0;
+  }
+</style>
+
+
+<div class="ag-neon-block">
+    <div class="js-neon_img-box__front ag-neon_img-box__front">
+      <div class="js-neon_img-1 ag-neon_img__front"></div>
+      <div class="js-neon_img-2 ag-neon_img__front"></div>
+    </div>
+
+    <div class="ag-neon_img__girl"></div>
+
+    <div class="js-neon_img-box__back ag-neon_img-box__back">
+      <div class="js-neon_img-3 ag-neon_img__back"></div>
+      <div class="js-neon_img-4 ag-neon_img__back"></div>
+    </div>
+</div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
