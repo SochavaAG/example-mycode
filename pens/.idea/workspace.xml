@@ -31,10 +31,9 @@
       <file leaf-file-name="i-love-jf-results-EN.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/landing-pages/2021.06.25_landing_i-love-justforex-results/i-love-jf-results-EN.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="204" column="36" lean-forward="true" selection-start-line="204" selection-start-column="36" selection-end-line="204" selection-end-column="36" />
+            <state relative-caret-position="16127">
+              <caret line="3627" column="9" lean-forward="true" selection-start-line="3627" selection-start-column="9" selection-end-line="3627" selection-end-column="9" />
               <folding>
-                <element signature="n#div#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#script#0;n#!!top" expanded="false" />
               </folding>
@@ -55,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mousemove-lamp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+            <state relative-caret-position="216">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -85,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mousemove-lamp/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="21" column="73" lean-forward="false" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
+            <state relative-caret-position="672">
+              <caret line="28" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -98,8 +97,30 @@
       <file leaf-file-name="swing-EN.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/landing-pages/2021.07.23_landing_swing/swing-EN.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="166" column="4" lean-forward="false" selection-start-line="166" selection-start-column="4" selection-end-line="170" selection-end-column="34" />
+            <state relative-caret-position="716">
+              <caret line="1525" column="13" lean-forward="true" selection-start-line="1489" selection-start-column="8" selection-end-line="1525" selection-end-column="13" />
+              <folding>
+                <element signature="n#script#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="documentation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/vazhno_project-1/2021.07.27_FX-24073_documentation/documentation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2332">
+              <caret line="288" column="93" lean-forward="true" selection-start-line="288" selection-start-column="93" selection-end-line="288" selection-end-column="93" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mousemove-lamp/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="89" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,7 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ag-primary_subtitle</find>
       <find>as-story</find>
       <find>font-family</find>
       <find>ag-benefit</find>
@@ -139,6 +159,7 @@
       <find>MainWrapper_levitation__3RetF</find>
       <find>MainWrapper_ambassador__steyn__G6TGy</find>
       <find>MainWrapper_ambassador__3uH1Q</find>
+      <find>images/</find>
     </findStrings>
     <replaceStrings>
       <replace>https://justforex.com/trading/promotions/120-bonus/?utm_source=facebook&amp;amp;utm_medium=CPC&amp;amp;utm_campaign=FB_za_sa</replace>
@@ -198,8 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/table-hover/css/style.css" />
-        <option value="$PROJECT_DIR$/table-hover/index.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.25_FX-23564_Shares/snippet-117_MT Account Types Details/MT5 Account Types Details-EN.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.25_FX-23564_Shares/snippet-117_MT Account Types Details/MT5 Account Types Details-AR.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.25_FX-23564_Shares/snippet-117_MT Account Types Details/MT5 Account Types Details-BN.html" />
@@ -248,6 +267,8 @@
         <option value="$USER_HOME$/Desktop/index-561ce120295c36344a0c.js" />
         <option value="$PROJECT_DIR$/mousemove-lamp/js/main.js" />
         <option value="$USER_HOME$/Desktop/justmarkets.eu/justmarkets.eu/index.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.07.27_FX-24073_documentation/documentation.html" />
+        <option value="$PROJECT_DIR$/mousemove-lamp/css/style.css" />
         <option value="$PROJECT_DIR$/mousemove-lamp/index.html" />
       </list>
     </option>
@@ -477,12 +498,12 @@
       <workItem from="1623310276180" duration="18524000" />
       <workItem from="1624604841357" duration="20315000" />
       <workItem from="1625821197408" duration="2539000" />
-      <workItem from="1627449142998" duration="9784000" />
+      <workItem from="1627449142998" duration="13687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="874368000" />
+    <option name="totallyTimeSpent" value="878271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -527,20 +548,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.25_FX-23564_Shares/snippet-119_Contract Specifications TABLE (Pro)/MAIN_Contract Specifications TABLE (Pro)-PT.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.25_FX-23564_Shares/snippet-119_Contract Specifications TABLE (Pro)/MAIN_Contract Specifications TABLE (Pro)-RU.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.25_FX-23564_Shares/snippet-119_Contract Specifications TABLE (Pro)/MAIN_Contract Specifications TABLE (Pro)-TH.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -835,14 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mousemove-lamp/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="73" lean-forward="false" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/justmarkets.eu/justmarkets.eu/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -877,10 +876,9 @@
     </entry>
     <entry file="file://$USER_HOME$/landing-pages/2021.06.25_landing_i-love-justforex-results/i-love-jf-results-EN.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="204" column="36" lean-forward="true" selection-start-line="204" selection-start-column="36" selection-end-line="204" selection-end-column="36" />
+        <state relative-caret-position="16127">
+          <caret line="3627" column="9" lean-forward="true" selection-start-line="3627" selection-start-column="9" selection-end-line="3627" selection-end-column="9" />
           <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#script#0;n#!!top" expanded="false" />
           </folding>
@@ -889,16 +887,42 @@
     </entry>
     <entry file="file://$USER_HOME$/landing-pages/2021.07.23_landing_swing/swing-EN.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="166" column="4" lean-forward="false" selection-start-line="166" selection-start-column="4" selection-end-line="170" selection-end-column="34" />
+        <state relative-caret-position="716">
+          <caret line="1525" column="13" lean-forward="true" selection-start-line="1489" selection-start-column="8" selection-end-line="1525" selection-end-column="13" />
+          <folding>
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.07.27_FX-24073_documentation/documentation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2332">
+          <caret line="288" column="93" lean-forward="true" selection-start-line="288" selection-start-column="93" selection-end-line="288" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mousemove-lamp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="89" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mousemove-lamp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="67" column="23" lean-forward="true" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        <state relative-caret-position="216">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mousemove-lamp/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="11" />
           <folding />
         </state>
       </provider>

@@ -4,6 +4,112 @@
 }
 
 
+html,
+body,
+.ag-neon-block {
+  height: 100%;
+}
+.ag-neon-block {
+  background-color: #000;
+
+  overflow: hidden;
+
+  position: relative;
+}
+.ag-neon_img__girl {
+  height: 636px;
+  width: 322px;
+
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mousemove-lamp/images/girl.png) no-repeat scroll 50% 0;
+  background-size: cover;
+
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.ag-neon_img-box__front {
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.ag-neon_img__front,
+.ag-neon_img__back {
+  height: 500px;
+  width: 500px;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mousemove-lamp/images/neon.png) no-repeat scroll 50% 0;
+  background-size: cover;
+
+  position: absolute;
+  left: 50%;
+}
+.ag-neon_img__front:first-child {
+  margin: 0 0 0 -400px;
+
+  bottom: 15%;
+
+  -webkit-transform-origin: 50% 50% 0;
+  -moz-transform-origin: 50% 50% 0;
+  -ms-transform-origin: 50% 50% 0;
+  -o-transform-origin: 50% 50% 0;
+  transform-origin: 50% 50% 0;
+}
+.ag-neon_img__front:last-child {
+  margin: 0 0 0 -100px;
+
+  bottom: 20%;
+
+  -webkit-transform-origin: 50% 50% 0;
+  -moz-transform-origin: 50% 50% 0;
+  -ms-transform-origin: 50% 50% 0;
+  -o-transform-origin: 50% 50% 0;
+  transform-origin: 50% 50% 0;
+}
+.ag-neon_img-box__back {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  -webkit-transform-origin: 50% 100% 0;
+  -moz-transform-origin: 50% 100% 0;
+  -ms-transform-origin: 50% 100% 0;
+  -o-transform-origin: 50% 100% 0;
+  transform-origin: 50% 100% 0;
+}
+.ag-neon_img__back:first-child {
+  margin: 0 0 0 -400px;
+
+  bottom: -10%;
+
+  -webkit-transform-origin: 50% 50% 0;
+  -moz-transform-origin: 50% 50% 0;
+  -ms-transform-origin: 50% 50% 0;
+  -o-transform-origin: 50% 50% 0;
+  transform-origin: 50% 50% 0;
+}
+.ag-neon_img__back:last-child {
+  margin: 0 0 0 -100px;
+
+  bottom: -5%;
+
+  -webkit-transform-origin: 50% 50% 0;
+  -moz-transform-origin: 50% 50% 0;
+  -ms-transform-origin: 50% 50% 0;
+  -o-transform-origin: 50% 50% 0;
+  transform-origin: 50% 50% 0;
+}
 
 
 @media only screen and (max-width: 767px) {
