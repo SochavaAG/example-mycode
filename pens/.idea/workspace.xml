@@ -28,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="i-love-jf-results-EN.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="i-love-jf-results-EN.html" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/landing-pages/2021.06.25_landing_i-love-justforex-results/i-love-jf-results-EN.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16127">
-              <caret line="3627" column="9" lean-forward="true" selection-start-line="3627" selection-start-column="9" selection-end-line="3627" selection-end-column="9" />
+            <state relative-caret-position="2783">
+              <caret line="3372" column="19" lean-forward="true" selection-start-line="3372" selection-start-column="19" selection-end-line="3372" selection-end-column="19" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#script#0;n#!!top" expanded="false" />
@@ -84,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mousemove-lamp/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="28" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="11" />
+            <state relative-caret-position="576">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -109,8 +109,8 @@
       <file leaf-file-name="documentation.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/vazhno_project-1/2021.07.27_FX-24073_documentation/documentation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2332">
-              <caret line="288" column="93" lean-forward="true" selection-start-line="288" selection-start-column="93" selection-end-line="288" selection-end-column="93" />
+            <state relative-caret-position="1124">
+              <caret line="396" column="12" lean-forward="true" selection-start-line="396" selection-start-column="12" selection-end-line="396" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -154,12 +154,12 @@
       <find>clientX</find>
       <find>MainWrapper_ambassador__neons-front__YVXCA</find>
       <find>MainWrapper_ambassador__neons-back__2Fv7C</find>
-      <find>agSheet</find>
       <find>ag-neon_img-box__front</find>
       <find>MainWrapper_levitation__3RetF</find>
       <find>MainWrapper_ambassador__steyn__G6TGy</find>
       <find>MainWrapper_ambassador__3uH1Q</find>
       <find>images/</find>
+      <find>agSheet</find>
     </findStrings>
     <replaceStrings>
       <replace>https://justforex.com/trading/promotions/120-bonus/?utm_source=facebook&amp;amp;utm_medium=CPC&amp;amp;utm_campaign=FB_za_sa</replace>
@@ -187,11 +187,11 @@
       <replace>images/promo23/</replace>
       <replace>js-neon_img-</replace>
       <replace>ag-neon_img-box__back</replace>
-      <replace>agNeon</replace>
       <replace>images/neon.png</replace>
       <replace>ag-neon_img-box__front</replace>
       <replace>translateX(-50%);</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/mousemove-lamp/images/</replace>
+      <replace>agNeon</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -498,12 +498,12 @@
       <workItem from="1623310276180" duration="18524000" />
       <workItem from="1624604841357" duration="20315000" />
       <workItem from="1625821197408" duration="2539000" />
-      <workItem from="1627449142998" duration="13687000" />
+      <workItem from="1627449142998" duration="15801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="878271000" />
+    <option name="totallyTimeSpent" value="880385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -866,25 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/format-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/landing-pages/2021.06.25_landing_i-love-justforex-results/i-love-jf-results-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16127">
-          <caret line="3627" column="9" lean-forward="true" selection-start-line="3627" selection-start-column="9" selection-end-line="3627" selection-end-column="9" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/landing-pages/2021.07.23_landing_swing/swing-EN.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="716">
@@ -892,14 +873,6 @@
           <folding>
             <element signature="n#script#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.07.27_FX-24073_documentation/documentation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2332">
-          <caret line="288" column="93" lean-forward="true" selection-start-line="288" selection-start-column="93" selection-end-line="288" selection-end-column="93" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -921,9 +894,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mousemove-lamp/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="28" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="11" />
+        <state relative-caret-position="576">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.07.27_FX-24073_documentation/documentation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1124">
+          <caret line="396" column="12" lean-forward="true" selection-start-line="396" selection-start-column="12" selection-end-line="396" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/landing-pages/2021.06.25_landing_i-love-justforex-results/i-love-jf-results-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2783">
+          <caret line="3372" column="19" lean-forward="true" selection-start-line="3372" selection-start-column="19" selection-end-line="3372" selection-end-column="19" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
