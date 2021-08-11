@@ -13,5 +13,9 @@
       $(this).toggleClass('js-ag-active-3');
     });
 
+    $('.js-toggle-4').on('click', function () {
+      $(this).toggleClass('js-ag-active-4');
+    });
+
   });
 })(jQuery);

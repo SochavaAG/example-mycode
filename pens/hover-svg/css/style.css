@@ -1,0 +1,102 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+body {
+  background-color: #000;
+}
+.ag-svg_img {
+  display: table;
+  margin: 50px auto;
+}
+svg {
+  height: 100px;
+  width: 100px;
+
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+svg .cls-1 {
+  fill: none;
+
+  stroke: #FFF;
+  stroke-miterlimit: 10;
+  stroke-width: 2;
+
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+svg .cls-2 {
+  fill: none;
+
+  stroke: #ff1923;
+  stroke-miterlimit: 10;
+  stroke-width: 2;
+
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+svg path.cls-2 {
+  stroke-dasharray: 0, 54;
+}
+svg line.cls-2 {
+  stroke-dasharray: 0, 50;
+}
+svg circle.cls-2 {
+  stroke-dasharray: 0, 160;
+}
+.ag-svg_img:hover svg .cls-1 {
+  opacity: 0;
+
+  -webkit-transition-delay: .3s;
+  -moz-transition-delay: .3s;
+  -o-transition-delay: .3s;
+  transition-delay: .3s;
+}
+.ag-svg_img:hover svg path.cls-2 {
+  stroke-dasharray: 54, 54;
+}
+.ag-svg_img:hover svg line.cls-2 {
+  stroke-dasharray: 50, 50;
+}
+.ag-svg_img:hover svg circle.cls-2 {
+  stroke-dasharray: 160, 160;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
