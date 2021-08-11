@@ -94,5 +94,21 @@
         });
     /* /button 48 */
 
+    /* button 141 */
+    var btnAll = document.querySelectorAll('.js-base_btn-v141');
+
+    btnAll.forEach(function (item) {
+      item.addEventListener('mouseenter', function () {
+        if (!this.classList.contains('js-ag-base_btn-v141__anim')){
+          this.classList.add('js-ag-base_btn-v141__anim');
+          var _self = this;
+          setTimeout(function () {
+            _self.classList.remove('js-ag-base_btn-v141__anim');
+          }, 500)
+        }
+      });
+    });
+    /* /button 141 */
+
   });
 })(jQuery);

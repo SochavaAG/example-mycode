@@ -9,23 +9,23 @@
         item.addEventListener('mouseenter', function () {
           var video = this.querySelector('video');
 
-          if(!item.classList.contains('active')){
+          if(!item.classList.contains('js-active')){
 
-            item.classList.add('active');
+            item.classList.add('js-active');
 
             video.play();
             video.loop = false;
 
             video.addEventListener('ended', function () {
-              item.classList.remove('active');
-              item.classList.remove('video_end');
-              item.classList.remove('video_pause');
+              item.classList.remove('js-active');
+              item.classList.remove('js-video-end');
+              item.classList.remove('js-video-pause');
             });
 
             video.addEventListener('timeupdate', function () {
-              if((video.currentTime >= 2) && !item.classList.contains('video_end')) {
+              if((video.currentTime >= 2) && !item.classList.contains('js-video-end')) {
                 video.pause();
-                item.classList.add('video_pause');
+                item.classList.add('js-video-pause');
               }
             });
           }
@@ -34,12 +34,12 @@
         item.addEventListener('mouseleave', function () {
           var video = this.querySelector('video');
 
-          if(item.classList.contains('active')) {
-            if(item.classList.contains('video_pause')){
-              item.classList.add('video_end');
+          if(item.classList.contains('js-active')) {
+            if(item.classList.contains('js-video-pause')){
+              item.classList.add('js-video-end');
               video.play()
             } else {
-              item.classList.add('video_end');
+              item.classList.add('js-video-end');
             }
           }
 

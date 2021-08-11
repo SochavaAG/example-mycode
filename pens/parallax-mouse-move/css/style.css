@@ -1,0 +1,85 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+.ag-parallax_item {
+  height: 180px;
+  max-width: 800px;
+  width: 100%;
+  margin: 30px auto;
+
+  overflow: hidden;
+
+  -webkit-clip-path: polygon(100% 0, 100% calc(100% - 65px), calc(100% - 65px) 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 0, 100% -moz-calc(100% - 65px), -moz-calc(100% - 65px) 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 0, 100% calc(100% - 65px), calc(100% - 65px) 100%, 0 100%, 0 0);
+
+  -webkit-transition: all .4s linear;
+  -moz-transition: all .4s linear;
+  -o-transition: all .4s linear;
+  transition: all .4s linear;
+
+  position: relative;
+}
+.ag-parallax_box {
+  -webkit-transition: all .4s ease-out;
+  -moz-transition: all .4s ease-out;
+  -o-transition: all .4s ease-out;
+  transition: all .4s ease-out;
+
+  z-index: 1;
+  position: relative;
+}
+.ag-parallax_img-box {
+  height: 180px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  will-change: transform;
+}
+.ag-parallax_img-box img {
+  display: block;
+  height: 100%;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
