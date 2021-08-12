@@ -95,9 +95,9 @@
     /* /button 48 */
 
     /* button 141 */
-    var btnAll = document.querySelectorAll('.js-base_btn-v141');
+    var agBtnAll141 = document.querySelectorAll('.js-base_btn-v141');
 
-    btnAll.forEach(function (item) {
+    agBtnAll141.forEach(function (item) {
       item.addEventListener('mouseenter', function () {
         if (!this.classList.contains('js-ag-base_btn-v141__anim')){
           this.classList.add('js-ag-base_btn-v141__anim');
@@ -109,6 +109,22 @@
       });
     });
     /* /button 141 */
+
+    /* button 142 */
+    var agBtnAll142 = document.querySelectorAll('.js-base_btn-v142');
+
+    agBtnAll142.forEach(function (item) {
+      item.addEventListener('mouseenter', function () {
+        if (!this.classList.contains('js-ag-base_btn-v142__anim')){
+          this.classList.add('js-ag-base_btn-v142__anim');
+          var _self = this;
+          setTimeout(function () {
+            _self.classList.remove('js-ag-base_btn-v142__anim');
+          }, 500)
+        }
+      });
+    });
+    /* /button 142 */
 
   });
 })(jQuery);

@@ -2,22 +2,24 @@
   $(function () {
 
 
-    function mouseMoveX(selector, spedX) {
-      const sel = document.querySelectorAll(selector);
+    function agMouseMoveX(argSelector, argSpedX) {
+      const agSelector = document.querySelectorAll(argSelector);
 
-      sel.forEach( function (item) {
-        var itemWidth = item.clientWidth;
+      agSelector.forEach( function (item) {
+        var agItemWidth = item.clientWidth;
         item.addEventListener('mousemove', function (event) {
-          var trX = event.clientX - itemWidth;
-          const trans = item.children;
-          for (var i = 0; i < trans.length; i++) {
-            trans[i].style.transform = 'translateX(' + trX / (spedX * (trans.length - i)) + 'px)  rotate(0.01deg)';
+          var agTransX = event.clientX - agItemWidth;
+
+          const agTranslateX = item.children;
+
+          for (var i = 0; i < agTranslateX.length; i++) {
+            agTranslateX[i].style.transform = 'translateX(' + agTransX / (argSpedX * (agTranslateX.length - i)) + 'px)  rotate(0.01deg)';
           }
         })
       });
     }
 
-    mouseMoveX('.js-parallax_box', -75);
+    agMouseMoveX('.js-parallax_box', -75);
 
 
   });
