@@ -139,8 +139,8 @@
       <file leaf-file-name="c4xzm.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/c4xzm.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77304">
-              <caret line="3221" column="0" lean-forward="false" selection-start-line="3221" selection-start-column="0" selection-end-line="3221" selection-end-column="0" />
+            <state relative-caret-position="168">
+              <caret line="3597" column="13" lean-forward="false" selection-start-line="3597" selection-start-column="1" selection-end-line="3597" selection-end-column="13" />
               <folding>
                 <element signature="e#26714#26845#2" expanded="true" />
                 <element signature="e#26863#26994#2" expanded="true" />
@@ -194,9 +194,37 @@
       <file leaf-file-name="wpo-minify-footer-91a8291c.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/wpo-minify-footer-91a8291c.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4032">
-              <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="174">
+              <caret line="1177" column="0" lean-forward="false" selection-start-line="1177" selection-start-column="0" selection-end-line="1381" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!block;n#Slider#0" expanded="false" />
+                <element signature="e#42269#42373#0" expanded="false" />
+                <element signature="e#42421#42554#0" expanded="false" />
+                <element signature="e#42603#42898#0" expanded="false" />
+                <element signature="e#42956#43695#0" expanded="false" />
+                <element signature="e#43753#44496#0" expanded="false" />
+                <element signature="e#44549#44861#0" expanded="false" />
+                <element signature="e#44917#45211#0" expanded="false" />
+                <element signature="e#45267#45578#0" expanded="false" />
+                <element signature="e#45621#45940#0" expanded="false" />
+                <element signature="e#45983#46301#0" expanded="false" />
+                <element signature="e#46348#46601#0" expanded="false" />
+                <element signature="n#!!block;n#SliderPage#0" expanded="false" />
+                <element signature="e#47438#47638#0" expanded="false" />
+                <element signature="e#47697#47920#0" expanded="false" />
+                <element signature="e#47979#48204#0" expanded="false" />
+                <element signature="e#48250#48349#0" expanded="false" />
+                <element signature="e#48395#48494#0" expanded="false" />
+                <element signature="e#48548#48671#0" expanded="false" />
+                <element signature="e#48721#48769#0" expanded="false" />
+                <element signature="n#!!block;n#transformElementView#0" expanded="false" />
+                <element signature="n#!!block;n#transformElementViewM#0" expanded="false" />
+                <element signature="n#!!block;n#SliderSwipe#0" expanded="false" />
+                <element signature="e#55299#55365#0" expanded="false" />
+                <element signature="n#!!block;n#Cursor#0" expanded="false" />
+                <element signature="n#!!block;n#CursorView#0" expanded="false" />
+                <element signature="n#!!block;n#cursorCapture#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -204,8 +232,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/canvas-grid/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="136" />
+            <state relative-caret-position="514">
+              <caret line="33" column="98" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -237,10 +265,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/item-svg-video/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="74" selection-end-column="8" />
+            <state relative-caret-position="596">
+              <caret line="86" column="7" lean-forward="false" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
               <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#1885#1890#0" expanded="true" />
               </folding>
             </state>
@@ -299,11 +326,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/range-years-noUi/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+            <state relative-caret-position="286">
+              <caret line="28" column="73" lean-forward="false" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -323,7 +350,7 @@
         <entry file="file://$PROJECT_DIR$/range-years-noUi/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-61">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="11" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -355,8 +382,42 @@
         <entry file="file://$PROJECT_DIR$/range-years-noUi/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="226">
-              <caret line="62" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+              <caret line="62" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parallax-mouse-move/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="610">
+              <caret line="92" column="7" lean-forward="false" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/horizontal-slider-carousel/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="208" column="31" lean-forward="false" selection-start-line="208" selection-start-column="31" selection-end-line="208" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/horizontal-slider-carousel/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="244" column="0" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+              <folding>
+                <element signature="e#3913#5197#0" expanded="false" />
+                <element signature="e#5243#5822#0" expanded="false" />
+                <element signature="e#5884#6634#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -365,19 +426,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>item</find>
-      <find>.item</find>
-      <find>.section_2 .item</find>
-      <find>#fff</find>
-      <find>video_</find>
-      <find>all_cases</find>
-      <find>.all_cases svg</find>
-      <find>.btn_line--right</find>
-      <find>@key</find>
-      <find>to {</find>
-      <find>btn--anim</find>
-      <find>-moz-</find>
-      <find>btn_line:before</find>
       <find>2.5</find>
       <find>.case_video .preload_img</find>
       <find>mouseMoveX</find>
@@ -393,8 +441,21 @@
       <find>question</find>
       <find>btn-trap</find>
       <find>arrDirection</find>
-      <find>userSlider</find>
       <find>arrayRandElement</find>
+      <find>userSlider</find>
+      <find>slider_box</find>
+      <find>let</find>
+      <find>Slider(</find>
+      <find>SliderSwipe</find>
+      <find>banSlides</find>
+      <find>photo_container</find>
+      <find>banSliderBoxWidth</find>
+      <find>.photo</find>
+      <find>progress_container</find>
+      <find>.progress_container</find>
+      <find>answer_inner</find>
+      <find>inSel</find>
+      <find>selector</find>
     </findStrings>
     <replaceStrings>
       <replace>images/promo23/</replace>
@@ -425,8 +486,8 @@
       <replace>ag-parallax_img-box</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/parallax-mouse-move/images/</replace>
       <replace>142</replace>
-      <replace>var</replace>
       <replace>fnArrayRandElement</replace>
+      <replace>var</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -454,8 +515,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.25_FX-23564_Shares/trading-account/trading-account-HI.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.06.25_FX-23564_Shares/trading-account/trading-account-ID.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.25_FX-23564_Shares/trading-account/trading-account-KO.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.25_FX-23564_Shares/trading-account/trading-account-MS.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.06.25_FX-23564_Shares/trading-account/trading-account-PT.html" />
@@ -485,14 +544,12 @@
         <option value="$PROJECT_DIR$/cross/js/main.js" />
         <option value="$PROJECT_DIR$/cross/index.html" />
         <option value="$PROJECT_DIR$/cross/css/style.css" />
-        <option value="$USER_HOME$/Desktop/wpo-minify-footer-91a8291c.min.js" />
         <option value="$PROJECT_DIR$/canvas-grid/js/main.js" />
         <option value="$PROJECT_DIR$/canvas-grid/index.html" />
         <option value="$PROJECT_DIR$/canvas-grid/css/style.css" />
         <option value="$PROJECT_DIR$/item-svg-video/css/style.css" />
         <option value="$PROJECT_DIR$/item-svg-video/index.html" />
         <option value="$PROJECT_DIR$/item-svg-video/js/main.js" />
-        <option value="$USER_HOME$/Desktop/c4xzm.css" />
         <option value="$PROJECT_DIR$/parallax-mouse-move/css/style.css" />
         <option value="$PROJECT_DIR$/parallax-mouse-move/index.html" />
         <option value="$PROJECT_DIR$/parallax-mouse-move/js/main.js" />
@@ -505,6 +562,10 @@
         <option value="$PROJECT_DIR$/range-years-noUi/js/main.js" />
         <option value="$PROJECT_DIR$/range-years-noUi/css/style.css" />
         <option value="$PROJECT_DIR$/range-years-noUi/index.html" />
+        <option value="$USER_HOME$/Desktop/wpo-minify-footer-91a8291c.min.js" />
+        <option value="$PROJECT_DIR$/horizontal-slider-carousel/js/main.js" />
+        <option value="$USER_HOME$/Desktop/c4xzm.css" />
+        <option value="$PROJECT_DIR$/horizontal-slider-carousel/index.html" />
       </list>
     </option>
   </component>
@@ -735,12 +796,12 @@
       <workItem from="1625821197408" duration="2539000" />
       <workItem from="1627449142998" duration="15801000" />
       <workItem from="1628680210508" duration="14367000" />
-      <workItem from="1628750885756" duration="3671000" />
+      <workItem from="1628750885756" duration="8386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="898423000" />
+    <option name="totallyTimeSpent" value="903138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -780,25 +841,11 @@
           <line>1313</line>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.02_email/_007-Successful Registration/7_Successful_Registration-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.25_FX-23564_Shares/revenue-for-instruments/revenue-for-instruments-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="448" column="12" lean-forward="true" selection-start-line="448" selection-start-column="12" selection-end-line="448" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.06.25_FX-23564_Shares/trading-account/trading-account-ZH.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
@@ -1016,46 +1063,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/canvas-grid/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="136" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/item-svg-video/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3384">
           <caret line="141" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-svg-video/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/wpo-minify-footer-91a8291c.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4032">
-          <caret line="168" column="0" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/c4xzm.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77304">
-          <caret line="3221" column="0" lean-forward="false" selection-start-line="3221" selection-start-column="0" selection-end-line="3221" selection-end-column="0" />
-          <folding>
-            <element signature="e#26714#26845#2" expanded="true" />
-            <element signature="e#26863#26994#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1071,13 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="19" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parallax-mouse-move/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1122,17 +1127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/item-svg-video/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="74" selection-end-column="8" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#1885#1890#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/_trap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1584">
@@ -1170,7 +1164,7 @@
     <entry file="file://$PROJECT_DIR$/range-years-noUi/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-61">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="11" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1178,16 +1172,117 @@
     <entry file="file://$PROJECT_DIR$/range-years-noUi/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
-          <caret line="62" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <caret line="62" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item-svg-video/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="86" column="7" lean-forward="false" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+          <folding>
+            <element signature="e#1885#1890#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas-grid/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="33" column="98" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="98" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/range-years-noUi/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+        <state relative-caret-position="286">
+          <caret line="28" column="73" lean-forward="false" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="73" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item-svg-video/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parallax-mouse-move/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="92" column="7" lean-forward="false" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/wpo-minify-footer-91a8291c.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="1177" column="0" lean-forward="false" selection-start-line="1177" selection-start-column="0" selection-end-line="1381" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#Slider#0" expanded="false" />
+            <element signature="e#42269#42373#0" expanded="false" />
+            <element signature="e#42421#42554#0" expanded="false" />
+            <element signature="e#42603#42898#0" expanded="false" />
+            <element signature="e#42956#43695#0" expanded="false" />
+            <element signature="e#43753#44496#0" expanded="false" />
+            <element signature="e#44549#44861#0" expanded="false" />
+            <element signature="e#44917#45211#0" expanded="false" />
+            <element signature="e#45267#45578#0" expanded="false" />
+            <element signature="e#45621#45940#0" expanded="false" />
+            <element signature="e#45983#46301#0" expanded="false" />
+            <element signature="e#46348#46601#0" expanded="false" />
+            <element signature="n#!!block;n#SliderPage#0" expanded="false" />
+            <element signature="e#47438#47638#0" expanded="false" />
+            <element signature="e#47697#47920#0" expanded="false" />
+            <element signature="e#47979#48204#0" expanded="false" />
+            <element signature="e#48250#48349#0" expanded="false" />
+            <element signature="e#48395#48494#0" expanded="false" />
+            <element signature="e#48548#48671#0" expanded="false" />
+            <element signature="e#48721#48769#0" expanded="false" />
+            <element signature="n#!!block;n#transformElementView#0" expanded="false" />
+            <element signature="n#!!block;n#transformElementViewM#0" expanded="false" />
+            <element signature="n#!!block;n#SliderSwipe#0" expanded="false" />
+            <element signature="e#55299#55365#0" expanded="false" />
+            <element signature="n#!!block;n#Cursor#0" expanded="false" />
+            <element signature="n#!!block;n#CursorView#0" expanded="false" />
+            <element signature="n#!!block;n#cursorCapture#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/c4xzm.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="3597" column="13" lean-forward="false" selection-start-line="3597" selection-start-column="1" selection-end-line="3597" selection-end-column="13" />
+          <folding>
+            <element signature="e#26714#26845#2" expanded="true" />
+            <element signature="e#26863#26994#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontal-slider-carousel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="208" column="31" lean-forward="false" selection-start-line="208" selection-start-column="31" selection-end-line="208" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/horizontal-slider-carousel/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="244" column="0" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+          <folding>
+            <element signature="e#3913#5197#0" expanded="false" />
+            <element signature="e#5243#5822#0" expanded="false" />
+            <element signature="e#5884#6634#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
