@@ -7,11 +7,13 @@
 body {
   background-color: #000;
 }
-.ag-svg_img {
+.ag-svg_img-box {
   display: table;
   margin: 50px auto;
 }
-svg {
+
+/* svg 1 */
+.ag-svg_img-1 {
   height: 100px;
   width: 100px;
 
@@ -20,7 +22,7 @@ svg {
   -o-transition: all .3s ease;
   transition: all .3s ease;
 }
-svg .cls-1 {
+.svg-cls-1-1 {
   fill: none;
 
   stroke: #FFF;
@@ -32,7 +34,15 @@ svg .cls-1 {
   -o-transition: all .2s ease;
   transition: all .2s ease;
 }
-svg .cls-2 {
+.ag-svg_img-1:hover .svg-cls-1-1 {
+  opacity: 0;
+
+  -webkit-transition-delay: .3s;
+  -moz-transition-delay: .3s;
+  -o-transition-delay: .3s;
+  transition-delay: .3s;
+}
+.svg-cls-1-2 {
   fill: none;
 
   stroke: #ff1923;
@@ -44,32 +54,156 @@ svg .cls-2 {
   -o-transition: all .5s ease;
   transition: all .5s ease;
 }
-svg path.cls-2 {
+.svg-cls-1-2__path {
   stroke-dasharray: 0, 54;
 }
-svg line.cls-2 {
-  stroke-dasharray: 0, 50;
-}
-svg circle.cls-2 {
-  stroke-dasharray: 0, 160;
-}
-.ag-svg_img:hover svg .cls-1 {
-  opacity: 0;
-
-  -webkit-transition-delay: .3s;
-  -moz-transition-delay: .3s;
-  -o-transition-delay: .3s;
-  transition-delay: .3s;
-}
-.ag-svg_img:hover svg path.cls-2 {
+.ag-svg_img-1:hover .svg-cls-1-2__path {
   stroke-dasharray: 54, 54;
 }
-.ag-svg_img:hover svg line.cls-2 {
+.svg-cls-1-2__line {
+  stroke-dasharray: 0, 50;
+}
+.ag-svg_img-1:hover .svg-cls-1-2__line {
   stroke-dasharray: 50, 50;
 }
-.ag-svg_img:hover svg circle.cls-2 {
+.svg-cls-1-2__circle {
+  stroke-dasharray: 0, 160;
+}
+.ag-svg_img-1:hover .svg-cls-1-2__circle {
   stroke-dasharray: 160, 160;
 }
+/* /svg 1 */
+
+/* svg 2 */
+.ag-svg_img-2 {
+  width: 100px;
+  height: 100px;
+}
+.ag-svg_img-2 .svg-cls-2-1 {
+  fill: none;
+  stroke: #FFF;
+
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.ag-svg_img-2 .svg-cls-2-1:last-child {
+  stroke: #ff1923;
+  stroke-dasharray: 0, 126;
+}
+.ag-svg_img-2 .svg-cls-2-3 {
+  fill: none;
+
+  stroke: #ff1923;
+  stroke-dasharray: 0, 50;
+
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.ag-svg_img-2 .svg-cls-2-2 {
+  fill: #ff1923;
+
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.ag-svg_img-2:hover .svg-cls-2-1:last-child {
+  stroke-dasharray: 126, 126;
+}
+.ag-svg_img-2:hover .svg-cls-2-3 {
+  stroke-dasharray: 40, 40;
+}
+.ag-svg_img-2:hover .svg-cls-2-2 {
+  fill: #FFF;
+}
+/* /svg 2 */
+
+/* svg 3 */
+.ag-svg_img-3 {
+  width: 100px;
+  height: 100px;
+}
+.svg-cls-3-1 {
+  fill: transparent;
+  stroke: #FFF;
+  stroke-miterlimit: 10;
+
+  -webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  -ms-transform-origin: center;
+  -o-transform-origin: center;
+  transform-origin: center;
+
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.svg-cls-3-2 {
+  fill: transparent;
+
+  stroke: #ff1923;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 0, 101;
+
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+
+  -webkit-transform-origin: center;
+  -moz-transform-origin: center;
+  -ms-transform-origin: center;
+  -o-transform-origin: center;
+  transform-origin: center;
+
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+
+  -webkit-transition-delay: .2s;
+  -moz-transition-delay: .2s;
+  -o-transition-delay: .2s;
+  transition-delay: .2s;
+}
+.ag-svg_img-3:hover .svg-cls-3-2 {
+  stroke-dasharray: 101, 101;
+
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.svg-cls-3-3 {
+  fill: #ff1923;
+
+  opacity: 0;
+
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.ag-svg_img-3:hover .svg-cls-3-3 {
+  opacity: 1;
+
+  -webkit-transition-delay: .4s;
+  -moz-transition-delay: .4s;
+  -o-transition-delay: .4s;
+  transition-delay: .4s;
+}
+/* /svg 3 */
 
 
 @media only screen and (max-width: 767px) {
