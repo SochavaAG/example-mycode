@@ -6,12 +6,12 @@
 
 @font-face {
   font-family: clickable;
-  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black.eot);
-  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black/clickable-black.eot#1623678414) format('embedded-opentype'),
-  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black/clickable-black.woff2) format('woff2'),
-  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black/clickable-black.woff) format('woff'),
-  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black/clickable-black.ttf) format('truetype'),
-  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black/clickable-black.svg#clickable-black) format('svg');
+  src: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black.eot);
+  src: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black.eot#1623678414) format('embedded-opentype'),
+  url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black.woff2) format('woff2'),
+  url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black.woff) format('woff'),
+  url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black.ttf) format('truetype'),
+  url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black.svg#clickable-black) format('svg');
   font-weight: 900;
   font-style: normal;
 }
@@ -48,6 +48,8 @@
   text-align: center;
   line-height: normal;
   font-size: 14px;
+
+  width: 30%;
 
   vertical-align: top;
 }
@@ -90,6 +92,7 @@
   }
   .ag-count_item {
     display: block;
+    width: auto;
     margin: 0 auto 60px;
   }
 }
