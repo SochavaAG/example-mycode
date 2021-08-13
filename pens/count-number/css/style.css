@@ -1,0 +1,115 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+@font-face {
+  font-family: clickable;
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black.eot);
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black/clickable-black.eot#1623678414) format('embedded-opentype'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black/clickable-black.woff2) format('woff2'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black/clickable-black.woff) format('woff'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black/clickable-black.ttf) format('truetype'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black/clickable-black.svg#clickable-black) format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+.ag-page {
+  padding: 50px 0;
+  background-color: #000;
+
+  position: relative;
+}
+.ag-text {
+  padding: 0 0 1500px;
+
+  text-align: center;
+  font-size: 125px;
+  color: #FFF;
+}
+.ag-count_list {
+  text-align: justify;
+  font-size: 14px;
+  line-height: 0;
+  font-size: 1px;
+}
+.ag-count_list:after {
+  content: "";
+  display: inline-block;
+  height: 0;
+  width: 100%;
+  visibility: hidden;
+  overflow: hidden;
+}
+.ag-count_item {
+  display: inline-block;
+  text-align: center;
+  line-height: normal;
+  font-size: 14px;
+
+  vertical-align: top;
+}
+.ag-count_title-item {
+  padding: 0 0 20px;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FFF;
+}
+.ag-count_num {
+  font-family: clickable, sans-serif;
+  font-weight: 900;
+  font-size: 56px;
+  color: #7058ff;
+}
+
+
+@media only screen and (max-width: 979px) {
+  .ag-text {
+    font-size: 60px;
+  }
+
+  .ag-count_num {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+  .ag-count_list {
+    text-align: center;
+  }
+  .ag-count_item {
+    display: block;
+    margin: 0 auto 60px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .ag-text {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
