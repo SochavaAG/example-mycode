@@ -15,240 +15,79 @@
   <link rel="shortcut icon" href="../../_common/images/favicon.png" />
 
   <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <!--<link rel="stylesheet" href="css/c4xzm.css" />-->
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-<style>
-  .photo_block {
-    margin-top: 100px
-  }
-  .photo_container {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 55px;
-    cursor: none;
-    position: relative
-  }
-  .photo_box {
-    -ms-flex-negative: 1;
-    flex-shrink: 1
-  }
-  .photo_box:last-child .photo_img {
-    margin-right: 0
-  }
-  .photo_box:hover .photo_img {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0)
-  }
-  .photo_img {
-    margin-right: 40px;
-    -webkit-transition: all .2s ease;
-    -moz-transition: all .2s ease;
-    transition: all .2s ease;
-    -webkit-transform-origin: left;
-    -moz-transform-origin: left;
-    -ms-transform-origin: left;
-    transform-origin: left;
-    -webkit-transform: scale(.95);
-    -moz-transform: scale(.95);
-    -ms-transform: scale(.95);
-    transform: scale(.95);
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    width: 570px
-  }
-  .photo_img, .photo_img img {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -ms-touch-action: pan-y;
-    touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent
-  }
-  .photo_img img {
-    max-width: 100%;
-    pointer-events: none
-  }
-
-  .progress_container {
-    background: #373737
-  }
-  .progress {
-    width: 25%;
-    height: 1px;
-    background: #ff1923
-  }
-  .cursor {
-    width: 140px;
-    height: 140px;
-    position: fixed;
-    z-index: 10;
-    left: 0;
-    top: 0;
-    pointer-events: none;
-    text-align: center;
-    line-height: 140px;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: all 0s linear;
-    -moz-transition: all 0s linear;
-    transition: all 0s linear;
-    -webkit-transition-delay: 0s;
-    -moz-transition-delay: 0s;
-    transition-delay: 0s
-  }
-  .cursor:before {
-    content: "";
-    left: 50%;
-    top: 50%;
-    position: absolute;
-    width: 0;
-    height: 0;
-    border: 1px solid #ff1923;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    -webkit-transition: all .2s ease;
-    -moz-transition: all .2s ease;
-    transition: all .2s ease
-  }
-  .cursor.cursor--front:before {
-    content: none;
-    display: none
-  }
-  .cursor.cursor--back {
-    -webkit-transition: all .1s ease;
-    -moz-transition: all .1s ease;
-    transition: all .1s ease
-  }
-  .cursor.active {
-    -webkit-transition-delay: 0s;
-    -moz-transition-delay: 0s;
-    transition-delay: 0s;
-    opacity: 1;
-    visibility: visible
-  }
-  .cursor.active span {
-    opacity: 1
-  }
-  .cursor.active:before {
-    width: 100%;
-    height: 100%
-  }
-  .cursor span {
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
-    pointer-events: none;
-    position: relative;
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #fff;
-    -webkit-transition: all .2s ease;
-    -moz-transition: all .2s ease;
-    transition: all .2s ease;
-    -webkit-transition-delay: .2s;
-    -moz-transition-delay: .2s;
-    transition-delay: .2s;
-    opacity: 0;
-    cursor: none
-  }
-</style>
-
   <div class="ag-format-container">
-    <div class="photo_block">
-      <div class="photo_container slider_box">
-        <div class="photo_box">
-          <div class="photo_img">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-1.jpg" alt="">
+    <div class="js-photo-block ag-photo-block">
+      <div class="js-photo_container ag-photo_list">
+        <div class="ag-photo_item">
+          <div class="ag-photo_img-box">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-1.jpg" class="ag-photo_img" alt="" />
           </div>
         </div>
-        <div class="photo_box">
-          <div class="photo_img">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-2.jpg" alt="">
+        <div class="ag-photo_item">
+          <div class="ag-photo_img-box">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-2.jpg" class="ag-photo_img" alt="" />
           </div>
         </div>
-        <div class="photo_box">
-          <div class="photo_img">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-3.jpg" alt="">
+        <div class="ag-photo_item">
+          <div class="ag-photo_img-box">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-3.jpg" class="ag-photo_img" alt="" />
           </div>
         </div>
-        <div class="photo_box slide--active">
-          <div class="photo_img">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-4.jpg" alt="">
+        <div class="ag-photo_item">
+          <div class="ag-photo_img-box">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-4.jpg" class="ag-photo_img" alt="" />
           </div>
         </div>
-        <div class="photo_box">
-          <div class="photo_img">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-5.jpg" alt="">
+        <div class="ag-photo_item">
+          <div class="ag-photo_img-box">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-5.jpg" class="ag-photo_img" alt="" />
           </div>
         </div>
-        <div class="photo_box">
-          <div class="photo_img">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-6.jpg" alt="">
+        <div class="ag-photo_item">
+          <div class="ag-photo_img-box">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-6.jpg" class="ag-photo_img" alt="" />
           </div>
         </div>
-        <div class="photo_box">
-          <div class="photo_img">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-7.jpg" alt="">
+        <div class="ag-photo_item">
+          <div class="ag-photo_img-box">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-7.jpg" class="ag-photo_img" alt="" />
           </div>
         </div>
-        <div class="photo_box">
-          <div class="photo_img">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-8.jpg" alt="">
+        <div class="ag-photo_item">
+          <div class="ag-photo_img-box">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-8.jpg" class="ag-photo_img" alt="" />
           </div>
         </div>
-        <div class="photo_box">
-          <div class="photo_img">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-9.jpg" alt="">
+        <div class="ag-photo_item">
+          <div class="ag-photo_img-box">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-9.jpg" class="ag-photo_img" alt="" />
           </div>
         </div>
-        <div class="photo_box">
-          <div class="photo_img">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-10.jpg" alt="">
+        <div class="ag-photo_item">
+          <div class="ag-photo_img-box">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-10.jpg" class="ag-photo_img" alt="" />
           </div>
         </div>
-        <div class="photo_box">
-          <div class="photo_img">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-11.jpg" alt="">
+        <div class="ag-photo_item">
+          <div class="ag-photo_img-box">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-11.jpg" class="ag-photo_img" alt="" />
           </div>
         </div>
-        <div class="photo_box">
-          <div class="photo_img">
-            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-12.jpg" alt="">
+        <div class="ag-photo_item">
+          <div class="ag-photo_img-box">
+            <img src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/img-12.jpg" class="ag-photo_img" alt="" />
           </div>
         </div>
       </div>
-    <!--  <div class="progress_container">
-        <div class="progress"></div>
-      </div>-->
-    <!--  <ul class="slider_dots">
-        <li class=""></li>
-        <li class=""></li>
-        <li class=""></li>
-        <li class="slide&#45;&#45;active"></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>-->
+    </div>
+
+    <div class="js-ag-cursor">
+      <span class="ag-cursor_text">move</span>
     </div>
   </div>
 
@@ -260,6 +99,7 @@
 <![endif]-->
 <script src="js/jquery/jquery-1.11.1.min.js"></script>
 
+<!--<script src="js/wpo-minify-footer-91a8291c.min.js"></script>-->
 <script src="js/main.js"></script>
 </body>
 </html>
