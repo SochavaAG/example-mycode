@@ -14,7 +14,7 @@ body {
 }
 
 .ag-projector-block {
-  background: url(https://bitbucket.org/SochavaAG/example-site-0/raw/6d1332a79a649bab28eabfa6ccf3bc186a963f29/0_pen/animation-projector/images/bg.png) no-repeat scroll 50% 100% #00242F;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-projector/images/bg.png) no-repeat scroll 50% 100% #00242F;
   background-size: cover;
 
   position: relative;
@@ -25,7 +25,7 @@ body {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
-  background: url(https://bitbucket.org/SochavaAG/example-site-0/raw/6d1332a79a649bab28eabfa6ccf3bc186a963f29/0_pen/animation-projector/images/rock.png) no-repeat scroll 50% 100%;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-projector/images/rock.png) no-repeat scroll 50% 100%;
   background-size: 100% auto;
 
   z-index: 10;

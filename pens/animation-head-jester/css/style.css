@@ -13,7 +13,7 @@
 .ag-head-jester_crown {
   height: 21.4rem;
   width: 22.4rem;
-  background: url(https://bitbucket.org/SochavaAG/example-site-0/raw/8e6c974fe1a3a038772d285a35dfe664ef1287e0/0_pen/animation-head-jester/images/crown.png) no-repeat scroll 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-head-jester/images/crown.png) no-repeat scroll 0 0;
   background-size: 100% auto;
 
   -webkit-transform-origin: center center;
@@ -26,7 +26,7 @@
 .ag-head-jester_crown-wing-left {
   height: 9.9rem;
   width: 15.6rem;
-  background: url(https://bitbucket.org/SochavaAG/example-site-0/raw/8e6c974fe1a3a038772d285a35dfe664ef1287e0/0_pen/animation-head-jester/images/crown-wing-left.png) no-repeat scroll 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-head-jester/images/crown-wing-left.png) no-repeat scroll 0 0;
   background-size: 100% auto;
 
   position: absolute;
@@ -56,7 +56,7 @@
 .ag-head-jester_crown-wing-right {
   height: 9.9rem;
   width: 15.6rem;
-  background: url(https://bitbucket.org/SochavaAG/example-site-0/raw/8e6c974fe1a3a038772d285a35dfe664ef1287e0/0_pen/animation-head-jester/images/crown-wing-right.png) no-repeat scroll 0 0;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-head-jester/images/crown-wing-right.png) no-repeat scroll 0 0;
   background-size: 100% auto;
 
   position: absolute;

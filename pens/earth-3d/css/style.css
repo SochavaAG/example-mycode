@@ -11,7 +11,7 @@ body {
   height: 420px;
   width: 420px;
   margin: 50px auto;
-  background: url(https://bitbucket.org/SochavaAG/example-site-0/raw/6a21322091d446ef6c3c7a83f920611de0954465/0_pen/earth-3d/images/earth.png) 0 0 repeat;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/earth-3d/images/earth.png) 0 0 repeat;
   background-size: 840px;
 
   color: #355899;
