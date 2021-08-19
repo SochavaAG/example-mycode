@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Slider Vertical</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../0_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../0_common/css/reset.css" />
+  <!--<link rel="stylesheet" href="css/c4xzm.css" />-->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Montserrat,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.2;
+    color: #fff;
+    background: #000;
+  }
+
+  .top_section {
+    padding-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+    background: #000
+  }
+  .line_bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1920px;
+    height: 300vw;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-transform: rotate(45deg) translateX(-65%);
+    -moz-transform: rotate(45deg) translateX(-65%);
+    -ms-transform: rotate(45deg) translateX(-65%);
+    transform: rotate(45deg) translateX(-65%)
+  }
+  .line_bg_line {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between
+  }
+  .line_bg_line span {
+    width: 1px;
+    height: 15%;
+    background: #191919
+  }
+  .line_bg_line span:nth-child(2) {
+    height: 12px;
+    background: #ff1923;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin: 12px 0
+  }
+  .line_bg_line span:last-child {
+    height: 85%
+  }
+
+  .second_wrap, .wrap {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+    z-index: 1
+  }
+  .wrap {
+    max-width: 2160px
+  }
+  .second_wrap {
+    max-width: 1520px
+  }
+
+  .slider_top {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding-top: 65px;
+    z-index: 2;
+    pointer-events: none
+  }
+  .slider_top .product_title {
+    padding-bottom: 0;
+    min-height: auto
+  }
+  .slider_title {
+    pointer-events: none
+  }
+  .slider_title .slider_box {
+    height: 154px;
+    position: relative;
+    overflow: hidden
+  }
+  .slider_arr_slide, .slider_title__slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+    opacity: 0;
+    -webkit-transform: translateY(-200%);
+    -moz-transform: translateY(-200%);
+    -ms-transform: translateY(-200%);
+    transform: translateY(-200%)
+  }
+  .slider_arr_slide.slide--prev, .slider_title__slide.slide--prev {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%)
+  }
+  .slider_arr_slide.slide--active, .slider_title__slide.slide--active {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0)
+  }
+  .slider_arr_slide.slide--next, .slider_title__slide.slide--next {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%)
+  }
+  .slider_arr_slide.slide--next + .slider_title__slide, .slider_title__slide.slide--next + .slider_title__slide {
+    -webkit-transform: translateY(200%);
+    -moz-transform: translateY(200%);
+    -ms-transform: translateY(200%);
+    transform: translateY(200%)
+  }
+  .slider_arr {
+    pointer-events: none
+  }
+  .slider_arr .slider_box {
+    height: 30px;
+    position: relative;
+    overflow: hidden
+  }
+  .slider_arr .slider_arrow {
+    position: relative;
+    z-index: 2
+  }
+  .slider_arr_up {
+    margin-bottom: 30px
+  }
+  .slider_arr_down {
+    margin-top: 30px
+  }
+  .slider_box__page, .slider_page {
+    position: relative
+  }
+  .slider_page__slide {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+  }
+  .slider_page__slide.slide--active {
+    opacity: 1;
+    visibility: visible;
+    position: relative
+  }
+  .section_title {
+    padding-top: 145px;
+    position: relative
+  }
+  .section_title_bg {
+    position: absolute;
+    top: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    right: 51%;
+    -webkit-box-align: end;
+    -moz-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    height: 640px;
+    width: 49%
+  }
+  .section_title_bg img {
+    width: 100%;
+    position: relative
+  }
+  .title_img_bg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: end;
+    -moz-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end
+  }
+  .title_img_logo {
+    position: absolute;
+    left: 6%;
+    top: 50%;
+    width: 25%;
+    -webkit-transform: translateY(-49%);
+    -moz-transform: translateY(-49%);
+    -ms-transform: translateY(-49%);
+    transform: translateY(-49%)
+  }
+  .title_img_logo img {
+    width: 100%
+  }
+  .slider_page__slide:first-child .title_img_logo {
+    left: 4%
+  }
+  .slider_page__slide:nth-child(2) .title_img_logo {
+    left: 8%;
+    -webkit-transform: translateY(-46%);
+    -moz-transform: translateY(-46%);
+    -ms-transform: translateY(-46%);
+    transform: translateY(-46%)
+  }
+  .product_title {
+    position: relative;
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    min-height: 581px
+  }
+  .product_title__left {
+    position: relative;
+    width: 45%
+  }
+  .product_title__left h1 .fl {
+    white-space: nowrap;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex
+  }
+  .product_title__left h1 .red_touch {
+    margin-left: 10px
+  }
+  .title_arrow {
+    cursor: none;
+    font-size: 24px;
+    pointer-events: visible
+  }
+  .title_arrow h4 {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-text-stroke: 1px #777;
+    stroke: 1px #777
+  }
+  .title_arrow:hover h4 {
+    -webkit-text-stroke: 1px #fff;
+    stroke: 1px #fff
+  }
+  .title_arrow:hover .title_line_horizontal {
+    background: #ff1923
+  }
+  .title_arrow:hover .title_arrow__img .cls-1 {
+    fill: #ff1923
+  }
+  .title_arrow__img {
+    width: 15px;
+    display: none
+  }
+  .title_arrow__img svg {
+    display: block
+  }
+  .title_arrow__img .cls-1 {
+    fill: #fff;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+  }
+  .cursor-arrow {
+    width: 15px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    visibility: hidden
+  }
+  .cursor-arrow:before {
+    content: none;
+    display: none
+  }
+  .cursor-arrow img {
+    -webkit-transform: translate(-25%, 50%);
+    -moz-transform: translate(-25%, 50%);
+    -ms-transform: translate(-25%, 50%);
+    transform: translate(-25%, 50%);
+    max-width: 100%
+  }
+  .cursor-arrow.active {
+    opacity: 1;
+    visibility: visible
+  }
+  .cursor-down img {
+    -webkit-transform: translate(25%, 50%) rotate(.5turn);
+    -moz-transform: translate(25%, 50%) rotate(.5turn);
+    -ms-transform: translate(25%, 50%) rotate(.5turn);
+    transform: translate(25%, 50%) rotate(.5turn)
+  }
+  .title_arrow--up {
+    padding-top: 80px;
+    margin-bottom: 50px
+  }
+  .title_arrow--down {
+    margin-top: 50px;
+    padding-bottom: 80px
+  }
+  .title_line_horizontal {
+    height: 1px;
+    background: #777;
+    width: 65%;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+  }
+  .slider_page__slide.slide--active .title_img_logo img {
+    -webkit-animation: .5s f ease-in-out backwards;
+    -moz-animation: .5s f ease-in-out backwards;
+    animation: .5s f ease-in-out backwards
+  }
+  .slider_page__slide.slide--active .title_number span {
+    -webkit-animation: .5s d ease-in-out backwards;
+    -moz-animation: .5s d ease-in-out backwards;
+    animation: .5s d ease-in-out backwards
+  }
+  .slider_page__slide.slide--active .product_title__right h2 {
+    -webkit-animation: .5s d ease-in-out backwards;
+    -moz-animation: .5s d ease-in-out backwards;
+    animation: .5s d ease-in-out backwards;
+    -webkit-animation-delay: .2s;
+    -moz-animation-delay: .2s;
+    animation-delay: .2s
+  }
+  .slider_page__slide.slide--active .btn-req {
+    -webkit-animation: .5s d ease-in-out backwards;
+    -moz-animation: .5s d ease-in-out backwards;
+    animation: .5s d ease-in-out backwards;
+    -webkit-animation-delay: .3s;
+    -moz-animation-delay: .3s;
+    animation-delay: .3s
+  }
+  .slider_page__slide.slide--active .product_slider h2,
+  .slider_page__slide.slide--active .proposition_section h2 {
+    opacity: 1;
+    visibility: visible;
+    -webkit-animation: .75s e cubic-bezier(.6, .2, .1, 1) backwards;
+    -moz-animation: .75s e cubic-bezier(.6, .2, .1, 1) backwards;
+    animation: .75s e cubic-bezier(.6, .2, .1, 1) backwards
+  }
+  .slider_page__slide.slide--active .prop_list li {
+    -webkit-animation: .5s d ease-in-out backwards;
+    -moz-animation: .5s d ease-in-out backwards;
+    animation: .5s d ease-in-out backwards;
+    -webkit-animation-delay: .2s;
+    -moz-animation-delay: .2s;
+    animation-delay: .2s
+  }
+  .slider_page__slide.slide--active .prop_list li:nth-child(2) {
+    -webkit-animation-delay: .3s;
+    -moz-animation-delay: .3s;
+    animation-delay: .3s
+  }
+  .slider_page__slide.slide--active .prop_list li:nth-child(3) {
+    -webkit-animation-delay: .4s;
+    -moz-animation-delay: .4s;
+    animation-delay: .4s
+  }
+  .slider_page__slide.slide--active .prop_list li:nth-child(4) {
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    animation-delay: .5s
+  }
+  .slider_page__slide.slide--active .prop_list li:nth-child(5) {
+    -webkit-animation-delay: .6s;
+    -moz-animation-delay: .6s;
+    animation-delay: .6s
+  }
+  .slider_page__slide.slide--active .prop_list li:nth-child(6) {
+    -webkit-animation-delay: .7s;
+    -moz-animation-delay: .7s;
+    animation-delay: .7s
+  }
+  .slider_page__slide.slide--active .prop_list li:nth-child(7) {
+    -webkit-animation-delay: .8s;
+    -moz-animation-delay: .8s;
+    animation-delay: .8s
+  }
+  .slider_page__slide.slide--active .prop_list li:nth-child(8) {
+    -webkit-animation-delay: .9s;
+    -moz-animation-delay: .9s;
+    animation-delay: .9s
+  }
+  .slider_page__slide.slide--active .prop_list li:nth-child(9) {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s
+  }
+  .slider_page__slide.slide--active .prop_list li:nth-child(10) {
+    -webkit-animation-delay: 1.1s;
+    -moz-animation-delay: 1.1s;
+    animation-delay: 1.1s
+  }
+  .product_title__right {
+    width: 42%;
+    position: relative
+  }
+  .product_title__right h2 {
+    text-transform: uppercase;
+    margin-bottom: 56px
+  }
+  .product_title__right h2 span span {
+    white-space: nowrap
+  }
+  .product_title__right h2 .red_touch {
+    margin-left: 0
+  }
+  .title_number {
+    font-size: 80px;
+    position: relative;
+    color: transparent;
+    -webkit-text-stroke: 1px #777;
+    stroke: 1px #777;
+    margin-top: -5%;
+    margin-bottom: 13px
+  }
+  .title_number span {
+    display: inline-block
+  }
+  .btn-req {
+    width: 296px;
+    height: 74px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    margin: 0
+  }
+  .btn-req svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease
+  }
+  .btn-req svg .cls-1 {
+    fill: #ff1923;
+    opacity: 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease
+  }
+  .btn-req svg .cls-2 {
+    fill: transparent;
+    stroke: #ff1923;
+    stroke-miterlimit: 10;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease
+  }
+  .btn-req .btn_text {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform-origin: 0 100% 0;
+    -moz-transform-origin: 0 100% 0;
+    -ms-transform-origin: 0 100% 0;
+    transform-origin: 0 100% 0
+  }
+  .product_slider {
+    position: relative;
+    padding: 100px 0 90px;
+    display: none
+  }
+  .product_slider h2 {
+    margin-bottom: 75px
+  }
+  .slider_product {
+    overflow: visible;
+    height: auto;
+    position: relative;
+    padding-bottom: 40px
+  }
+  .slider_product .slider_box {
+    position: relative;
+    width: 100%;
+    height: 100%
+  }
+  .slider_product .slide {
+    position: absolute;
+    top: 0;
+    left: auto;
+    -webkit-transform: translateX(0) scale(.1);
+    -moz-transform: translateX(0) scale(.1);
+    -ms-transform: translateX(0) scale(.1);
+    transform: translateX(0) scale(.1);
+    will-change: transform;
+    -webkit-transition: all .75s ease;
+    -moz-transition: all .75s ease;
+    transition: all .75s ease;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden
+  }
+  .slider_product .slide, .slider_product .slide img {
+    width: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent
+  }
+  .slider_product .slide img {
+    display: block;
+    pointer-events: none
+  }
+  .slider_product .slide:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    transition: all .4s ease
+  }
+  .slider_product .slide:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0)
+  }
+  .slider_product .slide:hover:after {
+    background: 0 0
+  }
+  .slider_product .slide--active {
+    z-index: 1;
+    opacity: 1;
+    visibility: visible;
+    cursor: none
+  }
+  .slider_product .slide--active, .slider_product .slide--next, .slider_product .slide--prev {
+    opacity: 1;
+    visibility: visible
+  }
+  .slider_product .slide--next, .slider_product .slide--prev {
+    z-index: 1;
+    cursor: pointer;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%)
+  }
+  .slider_product .slide--prev {
+    -webkit-transform: translateX(-100%) scale(.7);
+    -moz-transform: translateX(-100%) scale(.7);
+    -ms-transform: translateX(-100%) scale(.7);
+    transform: translateX(-100%) scale(.7)
+  }
+  .slider_product .slide--next {
+    -webkit-transform: translateX(100%) scale(.7);
+    -moz-transform: translateX(100%) scale(.7);
+    -ms-transform: translateX(100%) scale(.7);
+    transform: translateX(100%) scale(.7)
+  }
+  .slider_product .slide--active {
+    -webkit-transform: translateX(0) scale(1);
+    -moz-transform: translateX(0) scale(1);
+    -ms-transform: translateX(0) scale(1);
+    transform: translateX(0) scale(1);
+    z-index: 2;
+    position: relative
+  }
+  .slider_product .slide--active:after {
+    background: 0 0
+  }
+  .slider_product .slider_dots {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0
+  }
+  .slider_product .slider_dots li {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    background: #777;
+    height: 1px;
+    position: relative
+  }
+  .slider_product .slider_dots li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    top: 0;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    transition: all .2s ease;
+    background: #ff1923;
+    opacity: 0;
+    visibility: hidden
+  }
+  .slider_product .slider_dots li.slide--active:before {
+    opacity: 1;
+    visibility: visible
+  }
+
+  .progress_container {
+    background: #373737
+  }
+  .progress {
+    width: 25%;
+    height: 1px;
+    background: #ff1923
+  }
+  .cursor {
+    width: 140px;
+    height: 140px;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    text-align: center;
+    line-height: 140px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0s linear;
+    -moz-transition: all 0s linear;
+    transition: all 0s linear;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    transition-delay: 0s
+  }
+  .cursor:before {
+    content: "";
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 1px solid #ff1923;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    transition: all .2s ease
+  }
+  .cursor.cursor--front:before {
+    content: none;
+    display: none
+  }
+  .cursor.cursor--back {
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    transition: all .1s ease
+  }
+  .cursor.active {
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    transition-delay: 0s;
+    opacity: 1;
+    visibility: visible
+  }
+  .cursor.active span {
+    opacity: 1
+  }
+  .cursor.active:before {
+    width: 100%;
+    height: 100%
+  }
+  .cursor span {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    position: relative;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-transition-delay: .2s;
+    -moz-transition-delay: .2s;
+    transition-delay: .2s;
+    opacity: 0;
+    cursor: none
+  }
+
+  .btn_line {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    height: 1px;
+    width: 64px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 2;
+    pointer-events: none
+  }
+  .btn_line:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    display: inline-block
+  }
+  .btn_line--s {
+    width: 54px
+  }
+  .btn_line--right {
+    left: auto;
+    right: 0;
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%)
+  }
+  .btn .btn_text {
+    -webkit-transform-origin: 0 100% 0;
+    -moz-transform-origin: 0 100% 0;
+    -ms-transform-origin: 0 100% 0;
+    transform-origin: 0 100% 0
+  }
+  .btn--anim .btn_text {
+    -webkit-animation: a ease-in-out .4s;
+    -moz-animation: a ease-in-out .4s;
+    animation: a ease-in-out .4s
+  }
+  .btn--anim .btn_line:before {
+    -webkit-transform-origin: top;
+    -moz-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    -webkit-animation: b ease .4s;
+    -moz-animation: b ease .4s;
+    animation: b ease .4s
+  }
+
+  .reval {
+    -webkit-transform: translateX(-500px) scale(.9);
+    -moz-transform: translateX(-500px) scale(.9);
+    -ms-transform: translateX(-500px) scale(.9);
+    transform: translateX(-500px) scale(.9);
+    opacity: 0;
+    -webkit-transition: all .75s cubic-bezier(.6, .2, .1, 1);
+    -moz-transition: all .75s cubic-bezier(.6, .2, .1, 1);
+    transition: all .75s cubic-bezier(.6, .2, .1, 1);
+    visibility: hidden;
+    position: relative;
+    z-index: 2
+  }
+  .reval--anim {
+    -webkit-transform: translateX(0) scale(1);
+    -moz-transform: translateX(0) scale(1);
+    -ms-transform: translateX(0) scale(1);
+    transform: translateX(0) scale(1);
+    visibility: visible;
+    opacity: 1
+  }
+</style>
+
+  <div class="ag-format-container">
+    <div class="slider_top">
+      <div class="wrap">
+        <div class="second_wrap">
+          <div class="product_title">
+            <div class="product_title__left">
+              <div class="title_arrow title_arrow--up">
+                <div class="title_arrow__img">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.52 58.27">
+                    <path class="cls-1" d="M13.17,58.27a1.42,1.42,0,0,1-1.36-1.47V5.85L2.31,22A1.28,1.28,0,0,1,.4,22a1.57,1.57,0,0,1,0-2.09L11.91.91a1.5,1.5,0,0,1,.28-.46h0a1.3,1.3,0,0,1,1-.43,1.42,1.42,0,0,1,1.35,1.47V56.8A1.42,1.42,0,0,1,13.17,58.27Z"></path>
+                  </svg>
+                </div>
+                <div class="slider_arr slider_arr_up">
+                  <div class="slider_box">
+                    <div class="slider_arr_slide">
+                      <h4 class="clickable_font_stroke_1 clickable_font">
+                        Веб разработка
+                      </h4>
+                    </div>
+                    <div class="slider_arr_slide">
+                      <h4 class="clickable_font_stroke_1 clickable_font">
+                        брендИНГ &amp; айдентика
+                      </h4>
+                    </div>
+                    <div class="slider_arr_slide">
+                      <h4 class="clickable_font_stroke_1 clickable_font">
+                        Промо материалы
+                      </h4>
+                    </div>
+                    <div class="slider_arr_slide slide--prev">
+                      <h4 class="clickable_font_stroke_1 clickable_font">
+                        Веб разработка
+                      </h4>
+                    </div>
+                    <div class="slider_arr_slide slide--active">
+                      <h4 class="clickable_font_stroke_1 clickable_font">
+                        брендИНГ &amp; айдентика
+                      </h4>
+                    </div>
+                    <div class="slider_arr_slide slide--next">
+                      <h4 class="clickable_font_stroke_1 clickable_font">
+                        Промо материалы
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="title_line_horizontal"></div>
+              </div>
+
+              <div class="slider_title">
+                <div class="slider_box">
+                  <div class="slider_title__slide">
+                    <h2 class="clickable_font reval fz64 reval--anim">
+                      <span class="fl">брендИНГ &amp; айдентика<span class="red_touch">.</span></span>
+                    </h2>
+                  </div>
+                  <div class="slider_title__slide">
+                    <h2 class="clickable_font reval fz64 reval--anim">
+                      <span class="fl">Промо материалы<span class="red_touch">.</span></span>
+                    </h2>
+                  </div>
+                  <div class="slider_title__slide">
+                    <h2 class="clickable_font reval fz64 reval--anim">
+                      <span class="fl">Веб разработка<span class="red_touch">.</span></span>
+                  </h2>
+                  </div>
+                  <div class="slider_title__slide slide--prev"><h2 class="clickable_font reval fz64 reval--anim">
+                      <span class="fl">брендИНГ &amp; айдентика<span class="red_touch">.</span></span>
+                  </h2>
+                  </div>
+                  <div class="slider_title__slide slide--active">
+                    <h2 class="clickable_font reval fz64 reval--anim">
+                      <span class="fl">Промо материалы<span class="red_touch">.</span></span>
+                    </h2>
+                  </div>
+                  <div class="slider_title__slide slide--next">
+                    <h2 class="clickable_font reval fz64 reval--anim">
+                      <span class="fl">Веб разработка<span class="red_touch">.</span></span>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="title_arrow title_arrow--down">
+                <div class="title_arrow__img">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.52 58.27">
+                    <path class="cls-1" d="M13.17,58.27a1.42,1.42,0,0,1-1.36-1.47V5.85L2.31,22A1.28,1.28,0,0,1,.4,22a1.57,1.57,0,0,1,0-2.09L11.91.91a1.5,1.5,0,0,1,.28-.46h0a1.3,1.3,0,0,1,1-.43,1.42,1.42,0,0,1,1.35,1.47V56.8A1.42,1.42,0,0,1,13.17,58.27Z"></path>
+                  </svg>
+                </div>
+                <div class="title_line_horizontal"></div>
+                <div class="slider_arr slider_arr_down">
+                  <div class="slider_box">
+                    <div class="slider_arr_slide">
+                      <h4 class="clickable_font_stroke_1 clickable_font">
+                        Промо
+                      материалы
+                      </h4>
+                    </div>
+                    <div class="slider_arr_slide">
+                      <h4 class="clickable_font_stroke_1 clickable_font">
+                        Веб разработка
+                      </h4>
+                    </div>
+                    <div class="slider_arr_slide">
+                      <h4 class="clickable_font_stroke_1 clickable_font">
+                        брендИНГ &amp; айдентика
+                      </h4>
+                    </div>
+                    <div class="slider_arr_slide slide--prev">
+                      <h4 class="clickable_font_stroke_1 clickable_font">
+                        Промо материалы
+                      </h4>
+                    </div>
+                    <div class="slider_arr_slide slide--active">
+                      <h4 class="clickable_font_stroke_1 clickable_font">
+                        Веб разработка
+                      </h4>
+                    </div>
+                    <div class="slider_arr_slide slide--next">
+                      <h4 class="clickable_font_stroke_1 clickable_font">
+                      брендИНГ &amp; айдентика
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider_page">
+      <div class="slider_box slider_box__page">
+        <div class="slider_page__slide">
+          <section class="top_section">
+            <div class="line_bg">
+              <div class="line_bg_line">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="line_bg_line">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="line_bg_line">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+
+            <section class="section_title">
+              <div class="section_title_bg">
+                <picture class="title_img_bg">
+                  <source srcset="images/product-bg.png">
+                  <img src="images/product-bg.png" alt="">
+                </picture>
+                <picture class="title_img_logo">
+                  <img src="images/brand.png" alt="">
+                </picture>
+              </div>
+
+              <div class="wrap">
+                <div class="second_wrap">
+                  <div class="product_title">
+                    <div class="product_title__left"></div>
+                    <div class="product_title__right">
+                      <div class="title_number clickable_font clickable_font_stroke_1">
+                        <span>01</span>
+                      </div>
+
+                      <h2 class="clickable_font fz32">
+                        <span>Создание <span class="red_color">уникального<br></span>визуала для вашего бренда</span>
+                        <span class="red_touch clickable_font">.</span>
+                      </h2>
+
+                      <a href="https://www.google.com/" class="btn btn-req btn-pop">
+                        <svg viewBox="0 0 225 56" xmlns="http://www.w3.org/2000/svg">
+                          <polygon class="cls-1" points="215.5 43.5 203.83 55.5 0.5 55.5 0.5 0.5 224.5 0.5 224.5 34.67 215.5 43.5"></polygon>
+                          <polygon class="cls-2" points="215.5 43.5 203.83 55.5 0.5 55.5 0.5 0.5 224.5 0.5 224.5 34.67 215.5 43.5"></polygon>
+                        </svg>
+                        <span class="btn_text">Оставить заявку</span>
+                        <span class="btn_line"></span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </div>
+
+        <div class="slider_page__slide">
+          <section class="top_section">
+            <div class="line_bg">
+              <div class="line_bg_line">
+                <span></span>
+                <span></span>
+                <span></span></div>
+              <div class="line_bg_line">
+                <span></span>
+                <span></span>
+                <span></span></div>
+              <div class="line_bg_line">
+                <span></span>
+                <span></span>
+                <span></span></div>
+            </div>
+            <section class="section_title">
+              <div class="section_title_bg">
+                <picture class="title_img_bg">
+                  <source srcset="https://clickable.agency/wp-content/uploads/2020/07/product_bg.png">
+                  <img src="https://clickable.agency/wp-content/uploads/2020/07/product_bg.png" alt="">
+                </picture>
+                <picture class="title_img_logo">
+                  <img src="https://clickable.agency/wp-content/uploads/2020/07/promo.png" alt="">
+                </picture>
+              </div>
+              <div class="wrap">
+                <div class="second_wrap">
+                  <div class="product_title">
+                    <div class="product_title__left"></div>
+                    <div class="product_title__right">
+                      <div class="title_number clickable_font clickable_font_stroke_1"><span>02</span></div>
+                      <h2 class="clickable_font fz32">
+                        <span>МЫ СОЗДАЕМ ПРОМО МАТЕРИАЛЫ ПОД <span class="red_color">требования </span> ЛЮБЫХ РЕКЛАМНЫХ ПЛОЩАДОК </span>
+                        <span class="red_touch clickable_font">.</span></h2>
+                      <a href="https://www.google.com/" class="btn btn-req btn-pop">
+                        <svg viewBox="0 0 225 56" xmlns="http://www.w3.org/2000/svg">
+                          <polygon class="cls-1" points="215.5 43.5 203.83 55.5 0.5 55.5 0.5 0.5 224.5 0.5 224.5 34.67 215.5 43.5"></polygon>
+                          <polygon class="cls-2" points="215.5 43.5 203.83 55.5 0.5 55.5 0.5 0.5 224.5 0.5 224.5 34.67 215.5 43.5"></polygon>
+                        </svg>
+                        <span class="btn_text">Оставить заявку</span>
+                        <span class="btn_line"></span>
+                      </a></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </div>
+
+        <div class="slider_page__slide">
+          <section class="top_section">
+            <div class="line_bg">
+              <div class="line_bg_line">
+                <span></span>
+                <span></span>
+                <span></span></div>
+              <div class="line_bg_line">
+                <span></span>
+                <span></span>
+                <span></span></div>
+              <div class="line_bg_line">
+                <span></span>
+                <span></span>
+                <span></span></div>
+            </div>
+            <section class="section_title">
+              <div class="section_title_bg">
+                <picture class="title_img_bg">
+                  <source srcset="https://clickable.agency/wp-content/uploads/2020/07/product_bg.png">
+                  <img src="https://clickable.agency/wp-content/uploads/2020/07/product_bg.png" alt="">
+                </picture>
+                <picture class="title_img_logo">
+                  <img src="https://clickable.agency/wp-content/uploads/2020/07/web.png" alt="">
+                </picture>
+              </div>
+              <div class="wrap">
+                <div class="second_wrap">
+                  <div class="product_title">
+                    <div class="product_title__left"></div>
+                    <div class="product_title__right">
+                      <div class="title_number clickable_font clickable_font_stroke_1"><span>03</span></div>
+                      <h2 class="clickable_font fz32">
+                        <span>Представления <span class="red_color">бренда и сервисов </span>в сети</span>
+                        <span class="red_touch clickable_font">.</span></h2>
+                      <a href="https://www.google.com/" class="btn btn-req btn-pop">
+                        <svg viewBox="0 0 225 56" xmlns="http://www.w3.org/2000/svg">
+                          <polygon class="cls-1" points="215.5 43.5 203.83 55.5 0.5 55.5 0.5 0.5 224.5 0.5 224.5 34.67 215.5 43.5"></polygon>
+                          <polygon class="cls-2" points="215.5 43.5 203.83 55.5 0.5 55.5 0.5 0.5 224.5 0.5 224.5 34.67 215.5 43.5"></polygon>
+                        </svg>
+                        <span class="btn_text">Оставить заявку</span>
+                        <span class="btn_line"></span>
+                      </a></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <div class="cursor cursor-arrow cursor-up">
+      <img src="images/arrow.svg" alt="">
+    </div>
+
+    <div class="cursor cursor-arrow cursor-down">
+      <img src="images/arrow.svg" alt="">
+    </div>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>

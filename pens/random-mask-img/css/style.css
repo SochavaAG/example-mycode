@@ -1,0 +1,127 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+body {
+  background-color: #000;
+}
+.ag-joker_box {
+  -ms-flex-item-align: center;
+  align-self: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  width: 77%;
+  margin-bottom: 30px;
+
+  position: relative;
+}
+.ag-joker_img-box {
+  position: relative;
+}
+.ag-joker_mask {
+  width: 100%;
+
+  position: absolute;
+  left: 50%;
+  top: 0;
+
+  opacity: 0;
+
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  transition: all .2s ease;
+}
+.js-ag-joker_mask__active {
+  opacity: 1;
+}
+.ag-joker_mask svg {
+  max-width: 100%;
+}
+.ag-joker_mask .cls-1 {
+  fill: #ff1923;
+}
+.ag-joker_mask-1 {
+  width: 102%;
+
+  -webkit-transform: translate(-40%, -8%);
+  -moz-transform: translate(-40%, -8%);
+  -ms-transform: translate(-40%, -8%);
+  -o-transform: translate(-40%, -8%);
+  transform: translate(-40%, -8%);
+}
+.ag-joker_mask-2 {
+  width: 145%;
+
+  -webkit-transform: translate(-36%, -7%);
+  -moz-transform: translate(-36%, -7%);
+  -ms-transform: translate(-36%, -7%);
+  -o-transform: translate(-36%, -7%);
+  transform: translate(-36%, -7%);
+}
+.ag-joker_mask-3 {
+  width: 134%;
+
+  -webkit-transform: translate(-51%, 5%);
+  -moz-transform: translate(-51%, 5%);
+  -ms-transform: translate(-51%, 5%);
+  -o-transform: translate(-51%, 5%);
+  transform: translate(-51%, 5%);
+}
+.ag-joker_mask-4 {
+  width: 134%;
+
+  -webkit-transform: translate(-42%, -5%);
+  -moz-transform: translate(-42%, -5%);
+  -ms-transform: translate(-42%, -5%);
+  -o-transform: translate(-42%, -5%);
+  transform: translate(-42%, -5%);
+}
+.ag-joker_mask-5 {
+  width: 55%;
+
+  -webkit-transform: translate(-44%, -6%);
+  -moz-transform: translate(-44%, -6%);
+  -ms-transform: translate(-44%, -6%);
+  -o-transform: translate(-44%, -6%);
+  transform: translate(-44%, -6%);
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

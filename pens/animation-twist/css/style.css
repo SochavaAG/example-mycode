@@ -1,0 +1,94 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+.ag-twist_box {
+  height: 4rem;
+  width: 31.2rem;
+  margin: 50px auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff0e30), to(#ce0041));
+  background: -webkit-linear-gradient(top, #ff0e30, #ce0041);
+  background: -moz-linear-gradient(top, #ff0e30, #ce0041);
+  background: -o-linear-gradient(top, #ff0e30, #ce0041);
+  background: linear-gradient(180deg, #ff0e30, #ce0041);
+
+  -webkit-border-radius: 4rem;
+  -moz-border-radius: 4rem;
+  border-radius: 4rem;
+
+  position: relative;
+}
+.ag-twist {
+  height: 100%;
+  width: 100%;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAABQCAMAAACpg44GAAABHVBMVEUAAAD/xAD/4gD/uwH/5gD/tgH/4wD/6wD/0AD/6QD/ygH/zgD/5gD/6AD/ugH/1QD/zgD/uQH/6AD/zgD/0AD/1AD/vwH/3wD/vgH/6QD/xwH/twH/3wD/0gD/twH/3gD/tQH/1gD/3gD/xAH/twH/3AD/wAH/tgH/5AD/wwH/vgH/5wD/2gD/vAH/tgH/6AD/xQH/yAH/tQH/5wD/6wD/twH/3gD/1gD/xQH/tAH/4QD/wAH/twH/2wD/tAH/twH/vAH/vgH/wAH/wgH/xAH/yAH/tQH/ygH/zAH/uQH/zwD/ugH/0gD/1AD/1gD/xgH/2wD/3QD/4QD/2AD/4wD/2gD/3wD/zgH/6AD/0QD/5gD/5QD/5wD/6gD/6wBWL/zGAAAAPnRSTlMAEBAwMO/vgIBA79/Pv59gYEAgIO/fz8+/n4CAgEAg38+/n4+Pj2BgUO/v7+/f39/Pn59wYFAwz6+vr3BwcKa6KXAAAAIfSURBVGjezdPpUhpREIbhPgM4jIBsyr6DiLtxy86uGBUEjIaY5f4vIyn/TFWiwJzT3XOeK/jqrW5AZFmnpmk2rBjoxzhNB3/bQqYXdGKlf/3n0NQmpBWavSytxcRYaPaqXRNcd7I7myfo8i0aoZ+LnICLvIdPi6XBNd6Vp2WEDOBl7/uxnCDvQnvf12VJLGTZZwuCBIZ9tgowM5JTZ3LA68PUqQZwyk0dW4kBn/NHCUlgYxQfZfCdYWUixwIejYmkogEcjOJE1iZw2BzLOwd6+bGCJNBLjlV8BmrhByV7BtAy9h7UUP9J7l5VHCjF75WVgVJlpC4PdPIjBG+BTnmEIQxU8kMUG0ClPMRBlTA8HOqdcOMWix8ohG/RrAv4S9+ANAkj3xFRJAxcY/LjB7xGtS70DoifMPINGXbCwBU2P27AK3SrQu+AuAkjAwKICUVgQCEDWDKDZ9omFKsXNN5gBbygEtc7IFbC6h0djITxO0IpUPeuTykKqqJ9Ukeg6qhPqw5q6j1i2wJUiO0etSqoqPboeUBetMsgAfISXQ4fQVamy2KnAHI8HSYpkCISHS5ZkLHW4SPzyfU2o33h/AB32pwcn6HYb/OqgTOJG25bzh7kht+Zk31fXODz6L3PwcK1lkt8S92hKLXc8wkW8hy03HQsYL7spcsO5h5itHTpvtqrEQvvm1rwZV+ceJZqasNXK/zTbuvY19RLKRuFZ38A9o8CJGdsntoAAAAASUVORK5CYII=) 0 0/8rem;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-border-radius: inherit;
+  -moz-border-radius: inherit;
+  border-radius: inherit;
+
+  -webkit-animation: an-twist 10s linear infinite;
+  -moz-animation: an-twist 10s infinite linear;
+  -o-animation: an-twist 10s infinite linear;
+  animation: an-twist 10s linear infinite;
+}
+
+@-webkit-keyframes an-twist {
+  to {
+    background-position: 100% 0;
+  }
+}
+@-moz-keyframes an-twist {
+  to {
+    background-position: 100% 0;
+  }
+}
+@-o-keyframes an-twist {
+  to {
+    background-position: 100% 0;
+  }
+}
+@keyframes an-twist {
+  to {
+    background-position: 100% 0;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+  .ag-twist_box {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

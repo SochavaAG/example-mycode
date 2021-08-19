@@ -1,0 +1,261 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #110a42;
+}
+
+.ag-earth {
+  height: 420px;
+  width: 420px;
+  margin: 50px auto;
+  background: url(https://bitbucket.org/SochavaAG/example-site-0/raw/6a21322091d446ef6c3c7a83f920611de0954465/0_pen/earth-3d/images/earth.png) 0 0 repeat;
+  background-size: 840px;
+
+  color: #355899;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-box-shadow: inset 20px 0 80px 6px #355899;
+  -moz-box-shadow: inset 20px 0 80px 6px #355899;
+  -o-box-shadow: inset 20px 0 80px 6px #355899;
+  box-shadow: inset 20px 0 80px 6px #355899;
+
+  -webkit-animation: an-earth 8s linear infinite;
+  -moz-animation: an-earth 8s linear infinite;
+  -o-animation: an-earth 8s linear infinite;
+  animation: an-earth 8s linear infinite;
+
+  -webkit-transition: -webkit-transform .2s linear;
+  -moz-transition: -moz-transform .2s linear;
+  -o-transition: -o-transform .2s linear;
+  transition: transform .2s linear, -webkit-transform .2s linear, -moz-transform .2s linear, -o-transform .2s linear;
+
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+.ag-earth:after,
+.ag-earth:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.ag-earth:before {
+  background: rgb(58, 132, 223);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(58, 132, 223, 1) 0%, rgba(53, 88, 153, 1) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(58, 132, 223, 1) 0%, rgba(53, 88, 153, 1) 100%);
+  background: radial-gradient(ellipse at center, rgba(58, 132, 223, 1) 0%, rgba(53, 88, 153, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3a84df', endColorstr='#355899', GradientType=1);
+
+  opacity: .2;
+}
+.ag-earth:after {
+  -webkit-box-shadow: inset -80px 15px 80px 10px rgba(39, 65, 114, .9);
+  -moz-box-shadow: inset -80px 15px 80px 10px rgba(39, 65, 114, .9);
+  -o-box-shadow: inset -80px 15px 80px 10px rgba(39, 65, 114, .9);
+  box-shadow: inset -80px 15px 80px 10px rgba(39, 65, 114, .9);
+}
+
+@-webkit-keyframes an-earth {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 840px 0;
+  }
+}
+@-moz-keyframes an-earth {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 840px 0;
+  }
+}
+@-o-keyframes an-earth {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 840px 0;
+  }
+}
+@keyframes an-earth {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 840px 0;
+  }
+}
+
+@-webkit-keyframes an-earth-1 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 700px 0;
+  }
+}
+@-moz-keyframes an-earth-1 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 700px 0;
+  }
+}
+
+@-o-keyframes an-earth-1 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 700px 0;
+  }
+}
+
+@keyframes an-earth-1 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 700px 0;
+  }
+}
+
+@-webkit-keyframes an-earth-2 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 600px 0;
+  }
+}
+@-moz-keyframes an-earth-2 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 600px 0;
+  }
+}
+@-o-keyframes an-earth-2 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 600px 0;
+  }
+}
+@keyframes an-earth-2 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 600px 0;
+  }
+}
+
+@-webkit-keyframes an-earth-3 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 500px 0;
+  }
+}
+@-moz-keyframes an-earth-3 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 500px 0;
+  }
+}
+@-o-keyframes an-earth-3 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 500px 0;
+  }
+}
+@keyframes an-earth-3 {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 500px 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+  .ag-earth {
+    height: 250px;
+    width: 250px;
+    background-size: 500px;
+
+    -webkit-animation: an-earth-3 8s linear infinite;
+    -moz-animation: an-earth-3 8s linear infinite;
+    -o-animation: an-earth-3 8s linear infinite;
+    animation: an-earth-3 8s linear infinite;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+  .ag-earth {
+    width: 300px;
+    height: 300px;
+    background-size: 600px;
+
+    -webkit-animation: an-earth-1 8s linear infinite;
+    -moz-animation: an-earth-1 8s linear infinite;
+    -o-animation: an-earth-1 8s linear infinite;
+    animation: an-earth-1 8s linear infinite;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+  .ag-earth {
+    height: 350px;
+    width: 350px;
+    background-size: 700px;
+
+    -webkit-animation: an-earth-2 8s linear infinite;
+    -moz-animation: an-earth-2 8s linear infinite;
+    -o-animation: an-earth-2 8s linear infinite;
+    animation: an-earth-2 8s linear infinite;
+  }
+}

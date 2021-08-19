@@ -1,0 +1,48 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+@font-face {
+  font-family: clickable;
+  src: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black.eot);
+  src: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black.eot#1623678414) format('embedded-opentype'),
+  url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black.woff2) format('woff2'),
+  url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black.woff) format('woff'),
+  url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black.ttf) format('truetype'),
+  url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_fonts/clickable-black/clickable-black.svg#clickable-black) format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
