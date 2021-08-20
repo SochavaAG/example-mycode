@@ -32,6 +32,10 @@
       fullpage_api.moveTo('js-wheel_page-anchor-0', 0);
     });
 
+    $(document).on('click', '#js-move-to-slide', function() {
+      fullpage_api.moveTo('js-wheel_page-anchor-2', 1);
+    });
+
 
   });
 })(jQuery);

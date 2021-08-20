@@ -45,11 +45,21 @@
 }
 
 .ag-section_title {
+  padding: 0 0 30px;
+
   text-align: center;
   font-size: 80px;
   color: #FFF;
+}
+.ag-section_text {
+  cursor: pointer;
 
-  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: #FFF;
+}
+.ag-section_text:hover {
+  color: #1fc685;
 }
 #section-0 {
   background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/scroll-wheel-control/images/bg-5.jpg);
