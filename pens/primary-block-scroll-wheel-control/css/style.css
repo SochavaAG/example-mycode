@@ -280,6 +280,33 @@
   background-color: #1fc685;
 }
 
+.ag-btn-up {
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  background-color: #FFF;
+
+  cursor: pointer;
+
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.ag-btn-up:hover {
+  background-color: #1fc685;
+
+  color: #FFF;
+}
+
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
