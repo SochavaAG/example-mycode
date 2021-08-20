@@ -6,35 +6,40 @@
 
 @font-face {
   font-family: Acrom;
-  src: url(fonts/acrom-light/acrom-light.woff2) format('woff2'), url(fonts/acrom-light/acrom-light.woff) format('woff');
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/scroll-wheel-control/fonts/acrom-light/acrom-light.woff2) format('woff2'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/scroll-wheel-control/fonts/acrom-light/acrom-light.woff) format('woff');
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
   font-family: Acrom;
-  src: url(fonts/acrom-regular/acrom-regular.woff2) format('woff2'), url(fonts/acrom-regular/acrom-regular.woff) format('woff');
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/scroll-wheel-control/fonts/acrom-regular/acrom-regular.woff2) format('woff2'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/scroll-wheel-control/fonts/acrom-regular/acrom-regular.woff) format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: Acrom;
-  src: url(fonts/acrom-medium/acrom-medium.woff2) format('woff2'), url(fonts/acrom-medium/acrom-medium.woff) format('woff');
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/scroll-wheel-control/fonts/acrom-medium/acrom-medium.woff2) format('woff2'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/scroll-wheel-control/fonts/acrom-medium/acrom-medium.woff) format('woff');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: Acrom;
-  src: url(fonts/acrom-bold/acrom-bold.woff2) format('woff2'), url(fonts/acrom-bold/acrom-bold.woff) format('woff');
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/scroll-wheel-control/fonts/acrom-bold/acrom-bold.woff2) format('woff2'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/scroll-wheel-control/fonts/acrom-bold/acrom-bold.woff) format('woff');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: Acrom;
-  src: url(fonts/acrom-extrabold/acrom-extrabold.woff2) format('woff2'), url(fonts/acrom-extrabold/acrom-extrabold.woff) format('woff');
+  src: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/scroll-wheel-control/fonts/acrom-extrabold/acrom-extrabold.woff2) format('woff2'),
+  url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/scroll-wheel-control/fonts/acrom-extrabold/acrom-extrabold.woff) format('woff');
   font-weight: 900;
   font-style: normal;
 }
@@ -147,6 +152,11 @@
 
   position: absolute;
 }
+.ag-wheel_page-name a,
+.ag-wheel_page-name a:hover {
+  text-decoration: none;
+  color: #FFF;
+}
 .js-ag-active {
   cursor: default;
 
@@ -159,7 +169,7 @@
 }
 .ag-wheel_page-name:nth-child(2) {
   top: 561px;
-  left: 760px;
+  left: 761px;
 
   -webkit-transform: rotate(22.5deg);
   -moz-transform: rotate(22.5deg);
@@ -168,8 +178,8 @@
   transform: rotate(22.5deg);
 }
 .ag-wheel_page-name:nth-child(3) {
-  top: 717px;
-  left: 655px;
+  top: 718px;
+  left: 657px;
 
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -178,8 +188,8 @@
   transform: rotate(45deg);
 }
 .ag-wheel_page-name:nth-child(4) {
-  top: 821px;
-  left: 498px;
+  top: 823px;
+  left: 501px;
 
   -webkit-transform: rotate(67.5deg);
   -moz-transform: rotate(67.5deg);
@@ -188,8 +198,8 @@
   transform: rotate(67.5deg);
 }
 .ag-wheel_page-name:nth-child(5) {
-  top: 857px;
-  left: 313px;
+  top: 860px;
+  left: 316px;
 
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -198,8 +208,8 @@
   transform: rotate(90deg);
 }
 .ag-wheel_page-name:nth-child(6) {
-  top: 819px;
-  left: 130px;
+  top: 824px;
+  left: 133px;
 
   -webkit-transform: rotate(112.5deg);
   -moz-transform: rotate(112.5deg);
@@ -208,8 +218,8 @@
   transform: rotate(112.5deg);
 }
 .ag-wheel_page-name:nth-child(7) {
-  top: 713px;
-  left: -24px;
+  top: 719px;
+  left: -21px;
 
   -webkit-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
@@ -218,8 +228,8 @@
   transform: rotate(135deg);
 }
 .ag-wheel_page-name:nth-child(8) {
-  top: 558px;
-  left: -129px;
+  top: 564px;
+  left: -128px;
 
   -webkit-transform: rotate(157deg);
   -moz-transform: rotate(157deg);
