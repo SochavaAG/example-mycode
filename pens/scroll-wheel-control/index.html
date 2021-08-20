@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Scroll Wheel Control</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+
+  <link rel="stylesheet" type="text/css" href="plugins/fullpage/fullpage.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!--[if IE]>
+  <script type="text/javascript">
+    var console = { log: function() {} };
+  </script>
+  <![endif]-->
+</head>
+
+<body>
+<div id="js-fullpage">
+  <div class="section " id="section-1"><div class="ag-section_title">Section 1</div></div>
+  <div class="section" id="section-2">
+    <div class="slide" id="slide-1"><div class="ag-section_title">Section 2, Slide 1</div></div>
+    <div class="slide" id="slide-2"><div class="ag-section_title">Section 2, Slide 2</div></div>
+  </div>
+  <div class="section" id="section-3"><div class="ag-section_title">Section 3</div></div>
+  <div class="section" id="section-4"><div class="ag-section_title">Section 4</div></div>
+  <div class="section" id="section-5"><div class="ag-section_title">Section 5</div></div>
+  <div class="section" id="section-6"><div class="ag-section_title">Section 6</div></div>
+  <div class="section" id="section-7"><div class="ag-section_title">Section 7</div></div>
+  <div class="section" id="section-8"><div class="ag-section_title">Section 8</div></div>
+</div>
+
+<div class="ag-wheel-block">
+  <ul id="js-wheel" class="ag-wheel_list">
+    <li id="js-wheel_page-name-1" class="js-wheel_page-name ag-wheel_page-name js-ag-active" onclick="myFullpage.moveTo(1)">
+      <span class="ag-wheel-page_num">01</span>
+      <div class="ag-wheel-page_name">Section 1</div>
+    </li>
+    <li id="js-wheel_page-name-2" class="js-wheel_page-name ag-wheel_page-name" onclick="myFullpage.moveTo(2)">
+      <span class="ag-wheel-page_num">02</span>
+      <div class="ag-wheel-page_name">Section 2</div>
+    </li>
+    <li id="js-wheel_page-name-3" class="js-wheel_page-name ag-wheel_page-name" onclick="myFullpage.moveTo(3)">
+      <span class="ag-wheel-page_num">03</span>
+      <div class="ag-wheel-page_name">Section 3</div>
+    </li>
+    <li id="js-wheel_page-name-4" class="js-wheel_page-name ag-wheel_page-name" onclick="myFullpage.moveTo(4)">
+      <span class="ag-wheel-page_num">04</span>
+      <div class="ag-wheel-page_name">Section 4</div>
+    </li>
+    <li id="js-wheel_page-name-5" class="js-wheel_page-name ag-wheel_page-name" onclick="myFullpage.moveTo(5)">
+      <span class="ag-wheel-page_num">05</span>
+      <div class="ag-wheel-page_name">Section 5</div>
+    </li>
+    <li id="js-wheel_page-name-6" class="js-wheel_page-name ag-wheel_page-name" onclick="myFullpage.moveTo(6)">
+      <span class="ag-wheel-page_num">06</span>
+      <div class="ag-wheel-page_name">Section 6</div>
+    </li>
+    <li id="js-wheel_page-name-7" class="js-wheel_page-name ag-wheel_page-name" onclick="myFullpage.moveTo(7)">
+      <span class="ag-wheel-page_num">07</span>
+      <div class="ag-wheel-page_name">Section 7</div>
+    </li>
+    <li id="js-wheel_page-name-8" class="js-wheel_page-name ag-wheel_page-name" onclick="myFullpage.moveTo(8)">
+      <span class="ag-wheel-page_num">08</span>
+      <div class="ag-wheel-page_name">Section 8</div>
+    </li>
+  </ul>
+</div>
+
+
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script type="text/javascript" src="plugins/fullpage/fullpage.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

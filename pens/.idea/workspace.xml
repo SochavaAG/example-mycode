@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/canvas-sphere-bubble/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="216">
+              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -51,8 +51,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/canvas-sphere-bubble/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="81" column="17" lean-forward="false" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+            <state relative-caret-position="248">
+              <caret line="76" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="103" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -61,8 +61,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="3088" column="80" lean-forward="true" selection-start-line="3088" selection-start-column="80" selection-end-line="3088" selection-end-column="80" />
+            <state relative-caret-position="-3763">
+              <caret line="6159" column="26" lean-forward="false" selection-start-line="6159" selection-start-column="26" selection-end-line="6159" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -71,8 +71,82 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="199" column="0" lean-forward="false" selection-start-line="199" selection-start-column="0" selection-end-line="202" selection-end-column="9" />
+            <state relative-caret-position="173">
+              <caret line="149" column="45" lean-forward="false" selection-start-line="149" selection-start-column="35" selection-end-line="149" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wheel-scroll/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="566" column="0" lean-forward="false" selection-start-line="566" selection-start-column="0" selection-end-line="566" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wheel-scroll/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="47" column="32" lean-forward="false" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lottie.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animation-wave-svg/js/lottie.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1783">
+              <caret line="3922" column="0" lean-forward="false" selection-start-line="3922" selection-start-column="0" selection-end-line="3922" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fullpage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/fullPage.js-master/src/fullpage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="backgrounds.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wheel-scroll/backgrounds.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="241" column="17" lean-forward="false" selection-start-line="241" selection-start-column="17" selection-end-line="241" selection-end-column="17" />
+              <folding>
+                <marker date="1629388727906" expanded="true" signature="1903:1957" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="8613" column="0" lean-forward="false" selection-start-line="8613" selection-start-column="0" selection-end-line="8613" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="format-2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/format-2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -82,20 +156,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>photo_container</find>
-      <find>swipe</find>
-      <find>SliderSwipe</find>
-      <find>https://bitbucket.org/SochavaAG/example-site-0/raw/6d1332a79a649bab28eabfa6ccf3bc186a963f29/0_pen/</find>
-      <find>https://bitbucket.org/SochavaAG/example-site-0/raw/8e6c974fe1a3a038772d285a35dfe664ef1287e0/0_pen/</find>
-      <find>svg-sprite-all.svg</find>
-      <find>svg-string-</find>
-      <find>svg-string-company-all-</find>
-      <find>svg-footer-company.svg</find>
-      <find>svg-f2-all-</find>
-      <find>/uploads/footer/svg/</find>
-      <find>6264H68.1182V47.6264Z</find>
-      <find>fill=&quot;red&quot;</find>
-      <find>fill=&quot;black&quot;</find>
       <find>&lt;path</find>
       <find>svg-f3-en-5</find>
       <find>svg-f2-all.svg</find>
@@ -109,15 +169,25 @@
       <find>F(</find>
       <find>D(</find>
       <find>!0</find>
-      <find>!1</find>
       <find>function _(</find>
       <find>b</find>
+      <find>touchSwipe</find>
+      <find>!1</find>
+      <find>myFullpage</find>
+      <find>wheel-container</find>
+      <find>.wheel</find>
+      <find>wheel-page</find>
+      <find>wheel</find>
+      <find>#wheel</find>
+      <find>imgs/bg</find>
+      <find>'</find>
+      <find>'/fonts/acrom_</find>
+      <find>-webfont</find>
+      <find>style=&quot;height: 540px;&quot;</find>
+      <find>page-name</find>
+      <find>Acrom</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-parallax_box</replace>
-      <replace>ag-parallax_img-box</replace>
-      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/parallax-mouse-move/images/</replace>
-      <replace>142</replace>
       <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/1_images/images/</replace>
       <replace>ag-svg_img-2</replace>
       <replace>svg-cls-3-3 svg-cls-3-3__circle</replace>
@@ -144,6 +214,10 @@
       <replace>true</replace>
       <replace>var</replace>
       <replace>false</replace>
+      <replace>content: &quot;&quot;;</replace>
+      <replace>'</replace>
+      <replace>fonts/acrom-</replace>
+      <replace>images/bg-</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -171,10 +245,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cross/js/main.js" />
-        <option value="$PROJECT_DIR$/cross/index.html" />
-        <option value="$PROJECT_DIR$/cross/css/style.css" />
-        <option value="$PROJECT_DIR$/canvas-grid/js/main.js" />
         <option value="$PROJECT_DIR$/canvas-grid/index.html" />
         <option value="$PROJECT_DIR$/canvas-grid/css/style.css" />
         <option value="$PROJECT_DIR$/item-svg-video/css/style.css" />
@@ -202,7 +272,6 @@
         <option value="$PROJECT_DIR$/scroll-item-animation/css/style.css" />
         <option value="$PROJECT_DIR$/scroll-item-animation/index.html" />
         <option value="$PROJECT_DIR$/scroll-item-animation/js/main.js" />
-        <option value="$USER_HOME$/format-2.html" />
         <option value="$PROJECT_DIR$/horizontal-slider-carousel/js/wpo-minify-footer-91a8291c.min.js" />
         <option value="$PROJECT_DIR$/horizontal-slider-carousel/index.html" />
         <option value="$USER_HOME$/Desktop/wpo-minify-footer-91a8291c.min.js" />
@@ -218,10 +287,15 @@
         <option value="$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/images/string-sprite-svg_prod/svg-group-1.svg" />
         <option value="$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/news.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/style.css" />
-        <option value="$USER_HOME$/Desktop/main.js" />
         <option value="$USER_HOME$/Desktop/index.js" />
         <option value="$PROJECT_DIR$/canvas-sphere-bubble/js/main.js" />
         <option value="$PROJECT_DIR$/canvas-sphere-bubble/index.html" />
+        <option value="$PROJECT_DIR$/wheel-scroll/index.html" />
+        <option value="$USER_HOME$/Desktop/main.js" />
+        <option value="$PROJECT_DIR$/wheel-scroll/js/main.js" />
+        <option value="$USER_HOME$/Desktop/styles.css" />
+        <option value="$PROJECT_DIR$/wheel-scroll/backgrounds.html" />
+        <option value="$USER_HOME$/format-2.html" />
       </list>
     </option>
   </component>
@@ -256,7 +330,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/format-1.html" />
+    <property name="last_opened_file_path" value="$USER_HOME$/format-2.html" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
@@ -453,12 +527,12 @@
       <workItem from="1627449142998" duration="15801000" />
       <workItem from="1628680210508" duration="14367000" />
       <workItem from="1628750885756" duration="18307000" />
-      <workItem from="1629356423171" duration="15691000" />
+      <workItem from="1629356423171" duration="20254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="928750000" />
+    <option name="totallyTimeSpent" value="933313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -503,73 +577,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/auto-text-write/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="24" column="106" lean-forward="false" selection-start-line="24" selection-start-column="106" selection-end-line="24" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/c4xzm.css" />
-    <entry file="file://$PROJECT_DIR$/auto-text-write/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scroll-item-animation/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scroll-item-animation/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="70" lean-forward="true" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scroll-item-animation/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="42" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/format-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/horizontal-slider-carousel/js/wpo-minify-footer-91a8291c.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="716" column="36" lean-forward="true" selection-start-line="716" selection-start-column="36" selection-end-line="716" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/horizontal-slider-carousel/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2496">
-          <caret line="104" column="7" lean-forward="false" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/wpo-minify-footer-91a8291c.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28200">
-          <caret line="1175" column="20" lean-forward="false" selection-start-line="1175" selection-start-column="9" selection-end-line="1175" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/horizontal-slider-carousel/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="584">
@@ -900,34 +907,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="199" column="0" lean-forward="false" selection-start-line="199" selection-start-column="0" selection-end-line="202" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="3088" column="80" lean-forward="true" selection-start-line="3088" selection-start-column="80" selection-end-line="3088" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/canvas-sphere-bubble/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="81" column="17" lean-forward="false" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+        <state relative-caret-position="248">
+          <caret line="76" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="103" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/canvas-sphere-bubble/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="216">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/fullPage.js-master/dist/fullpage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="350" column="46" lean-forward="true" selection-start-line="350" selection-start-column="46" selection-end-line="350" selection-end-column="46" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="149" column="45" lean-forward="false" selection-start-line="149" selection-start-column="35" selection-end-line="149" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3763">
+          <caret line="6159" column="26" lean-forward="false" selection-start-line="6159" selection-start-column="26" selection-end-line="6159" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/fullPage.js-master/examples/examples.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/fullPage.js-master/examples/backgrounds.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="157" column="7" lean-forward="false" selection-start-line="157" selection-start-column="7" selection-end-line="157" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1624451368000" expanded="true" signature="1872:1926" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wheel-scroll/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="47" column="32" lean-forward="false" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/fullPage.js-master/src/fullpage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-wave-svg/js/lottie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1783">
+          <caret line="3922" column="0" lean-forward="false" selection-start-line="3922" selection-start-column="0" selection-end-line="3922" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wheel-scroll/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="566" column="0" lean-forward="false" selection-start-line="566" selection-start-column="0" selection-end-line="566" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="8613" column="0" lean-forward="false" selection-start-line="8613" selection-start-column="0" selection-end-line="8613" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wheel-scroll/backgrounds.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="241" column="17" lean-forward="false" selection-start-line="241" selection-start-column="17" selection-end-line="241" selection-end-column="17" />
+          <folding>
+            <marker date="1629388727906" expanded="true" signature="1903:1957" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="73" />
           <folding />
         </state>
       </provider>
