@@ -9,7 +9,7 @@
       responsiveWidth: 0,
       responsiveHeight: 0,
       responsiveSlides: false,
-      anchors: ['js-wheel_page-anchor-1', 'js-wheel_page-anchor-2', 'js-wheel_page-anchor-3', 'js-wheel_page-anchor-4', 'js-wheel_page-anchor-5', 'js-wheel_page-anchor-6', 'js-wheel_page-anchor-7', 'js-wheel_page-anchor-8'],
+      anchors: ['js-wheel_page-anchor-0', 'js-wheel_page-anchor-1', 'js-wheel_page-anchor-2', 'js-wheel_page-anchor-3', 'js-wheel_page-anchor-4', 'js-wheel_page-anchor-5', 'js-wheel_page-anchor-6', 'js-wheel_page-anchor-7', 'js-wheel_page-anchor-8'],
 
       onLeave: function (e, t) {
         var agWheel = $('#js-wheel');
@@ -21,8 +21,6 @@
         if (0 === t.index) {
           agWheel.addClass('js-ag-hide');
           agWheel.css("transform", "rotate(22.5deg)");
-
-          //agWheel.css('transform', 'rotate(0deg)');
         }else{
           agWheel.removeClass('js-ag-hide');
           agWheel.css('transform', 'rotate(-' + 22.5 * (t.index - 1) + 'deg)');

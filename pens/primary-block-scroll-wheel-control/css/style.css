@@ -171,7 +171,8 @@
   text-decoration: none;
   color: #FFF;
 }
-.js-ag-active a {
+.js-ag-active a,
+.js-ag-active a:hover {
   cursor: default;
 
   color: #1fc685;
@@ -275,6 +276,8 @@
   height: 13px;
   width: 13px;
   margin: -3px 0 0 -3px;
+
+  background-color: #1fc685;
 }
 
 
