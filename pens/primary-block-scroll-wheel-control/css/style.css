@@ -51,6 +51,10 @@
 
   font-family: Arial, sans-serif;
 }
+#section-0 {
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/scroll-wheel-control/images/bg-5.jpg);
+  background-size: cover;
+}
 #section-1 {
   background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/scroll-wheel-control/images/bg-1.jpg);
   background-size: cover;
@@ -138,12 +142,22 @@
   -o-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 
+  -webkit-transform: rotate(22.5deg);
+  -moz-transform: rotate(22.5deg);
+  -ms-transform: rotate(22.5deg);
+  -o-transform: rotate(22.5deg);
+  transform: rotate(22.5deg);
+
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   transition: all 1s ease;
 
   position: relative;
+}
+.js-ag-hide {
+  opacity: 0;
+  visibility: hidden;
 }
 .ag-wheel_page-name {
   cursor: pointer;
@@ -155,12 +169,12 @@
 .ag-wheel_page-name a,
 .ag-wheel_page-name a:hover {
   text-decoration: none;
-  color: #C0C0C0;
+  color: #FFF;
 }
 .js-ag-active a {
   cursor: default;
 
-  color: #FFF;
+  color: #1fc685;
 }
 
 .ag-wheel_page-name:first-child {
@@ -168,8 +182,8 @@
   left: 797px;
 }
 .ag-wheel_page-name:nth-child(2) {
-  top: 561px;
-  left: 761px;
+  top: 542px;
+  left: 765px;
 
   -webkit-transform: rotate(22.5deg);
   -moz-transform: rotate(22.5deg);
@@ -178,8 +192,8 @@
   transform: rotate(22.5deg);
 }
 .ag-wheel_page-name:nth-child(3) {
-  top: 718px;
-  left: 657px;
+  top: 682px;
+  left: 672px;
 
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -188,8 +202,8 @@
   transform: rotate(45deg);
 }
 .ag-wheel_page-name:nth-child(4) {
-  top: 823px;
-  left: 501px;
+  top: 776px;
+  left: 533px;
 
   -webkit-transform: rotate(67.5deg);
   -moz-transform: rotate(67.5deg);
@@ -198,8 +212,8 @@
   transform: rotate(67.5deg);
 }
 .ag-wheel_page-name:nth-child(5) {
-  top: 860px;
-  left: 316px;
+  top: 810px;
+  left: 367px;
 
   -webkit-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
@@ -208,8 +222,8 @@
   transform: rotate(90deg);
 }
 .ag-wheel_page-name:nth-child(6) {
-  top: 824px;
-  left: 133px;
+  top: 777px;
+  left: 203px;
 
   -webkit-transform: rotate(112.5deg);
   -moz-transform: rotate(112.5deg);
@@ -218,8 +232,8 @@
   transform: rotate(112.5deg);
 }
 .ag-wheel_page-name:nth-child(7) {
-  top: 719px;
-  left: -21px;
+  top: 683px;
+  left: 65px;
 
   -webkit-transform: rotate(135deg);
   -moz-transform: rotate(135deg);
@@ -228,8 +242,8 @@
   transform: rotate(135deg);
 }
 .ag-wheel_page-name:nth-child(8) {
-  top: 564px;
-  left: -128px;
+  top: 544px;
+  left: -31px;
 
   -webkit-transform: rotate(157deg);
   -moz-transform: rotate(157deg);
@@ -239,8 +253,7 @@
 }
 
 .ag-wheel-page_num {
-  float: left;
-  padding: 0 15px;
+  padding: 0 0 0 15px;
 
   position: relative;
 }
@@ -262,10 +275,6 @@
   height: 13px;
   width: 13px;
   margin: -3px 0 0 -3px;
-}
-.ag-wheel-page_name {
-  white-space: nowrap;
-  font-size: 36px;
 }
 
 
