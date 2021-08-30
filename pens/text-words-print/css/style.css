@@ -1,0 +1,152 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+.ag-text_title-box {
+  margin: 50px 0;
+
+  text-transform: uppercase;
+  font-size: 72px;
+}
+.ag-text_title {
+  display: inline-block;
+
+  vertical-align: top;
+  font-weight: bold;
+}
+.ag-text_word-box {
+  display: inline-block;
+}
+.ag-text_word-wrap {
+  display: inline-block;
+
+  position: relative;
+}
+.ag-text_word-wrap:after {
+  content: "";
+  height: 90%;
+  width: 5px;
+  background-color: #0a3da5;
+
+  position: absolute;
+  top: 50%;
+  right: 0;
+
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  -webkit-animation: el-blink 0.7s ease-in infinite;
+  -moz-animation: el-blink 0.7s ease-in infinite;
+  -o-animation: el-blink 0.7s ease-in infinite;
+  animation: el-blink 0.7s ease-in infinite;
+}
+.ag-text_word {
+  display: inline-block;
+
+  white-space: nowrap;
+  vertical-align: top;
+  color: #0a3da5;
+}
+
+.js-ag-is-visible {
+  opacity: 1;
+}
+.js-ag-is-hidden {
+  display: none;
+
+  opacity: 0;
+}
+
+@-webkit-keyframes el-blink {
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  0%{
+    opacity: 1;
+  }
+}
+@-moz-keyframes el-blink {
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  0%{
+    opacity: 1;
+  }
+}
+@-o-keyframes el-blink {
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  0%{
+    opacity: 1;
+  }
+}
+@keyframes el-blink {
+  0%{
+    opacity: 1;
+  }
+  50%{
+    opacity: 0;
+  }
+  0%{
+    opacity: 1;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+  .ag-text_title-box {
+    font-size: 30px;
+  }
+  .ag-text_word-wrap:after {
+    width: 2px;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  .ag-text_title-box {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+  .ag-text_title-box {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+  .ag-text_title-box {
+    font-size: 50px;
+  }
+}

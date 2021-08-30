@@ -51,28 +51,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/canvas-sphere-bubble/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1824">
-              <caret line="76" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="103" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147816">
-              <caret line="6159" column="26" lean-forward="false" selection-start-line="6159" selection-start-column="26" selection-end-line="6159" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3576">
-              <caret line="149" column="45" lean-forward="false" selection-start-line="149" selection-start-column="35" selection-end-line="149" selection-end-column="45" />
+            <state relative-caret-position="122">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -121,22 +101,100 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vertical-text/index.html">
+        <entry file="file://$PROJECT_DIR$/tabs-cascade/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="22" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="362">
+              <caret line="155" column="5" lean-forward="false" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vertical-text/css/style.css">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="44" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+            <state relative-caret-position="269">
+              <caret line="157" column="8" lean-forward="false" selection-start-line="157" selection-start-column="8" selection-end-line="157" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="3598" column="101" lean-forward="false" selection-start-line="3598" selection-start-column="101" selection-end-line="3598" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JS-simple-code.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/JS-CSS-HTML CUSTOM CODES/JS-simple-code.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="117" column="11" lean-forward="false" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JS-custom-codes.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/JS-CSS-HTML CUSTOM CODES/JS-custom-codes.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="136" column="4" lean-forward="false" selection-start-line="136" selection-start-column="4" selection-end-line="140" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lottie-player.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/lottie-player.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8131">
+              <caret line="6209" column="30" lean-forward="false" selection-start-line="6209" selection-start-column="18" selection-end-line="6209" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="headline.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/headline.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="1015" column="10" lean-forward="true" selection-start-line="1015" selection-start-column="10" selection-end-line="1015" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text-words-print/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="44" column="34" lean-forward="false" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text-words-print/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="32" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/text-words-print/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="766">
+              <caret line="54" column="46" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -146,68 +204,68 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>canvasOne</find>
-      <find>let</find>
-      <find>getElementById</find>
-      <find>n</find>
-      <find>fillRect</find>
-      <find>S</find>
+      <find>switchAdvantage</find>
+      <find>matrix</find>
       <find>F(</find>
-      <find>D(</find>
-      <find>!0</find>
-      <find>function _(</find>
-      <find>b</find>
-      <find>touchSwipe</find>
-      <find>!1</find>
-      <find>myFullpage</find>
-      <find>wheel-container</find>
-      <find>.wheel</find>
-      <find>wheel-page</find>
-      <find>wheel</find>
-      <find>#wheel</find>
-      <find>imgs/bg</find>
-      <find>'</find>
-      <find>'/fonts/acrom_</find>
-      <find>-webfont</find>
-      <find>style=&quot;height: 540px;&quot;</find>
-      <find>page-name</find>
-      <find>Acrom</find>
-      <find>menu-flex</find>
-      <find>menu-item</find>
-      <find>menu-link</find>
-      <find>#fff</find>
+      <find>transform</find>
+      <find>transform =</find>
+      <find>initHeadline</find>
+      <find>animateHeadline</find>
+      <find>revealDuration</find>
+      <find>section#el-header .el-inner-components</find>
+      <find>var.</find>
+      <find>.el-top-panel</find>
+      <find>el-dynamic</find>
+      <find>ag-text_word</find>
+      <find>$word</find>
+      <find>takeNext</find>
+      <find>ag-text_word-wrap</find>
+      <find>duration</find>
+      <find>revealagDuration</find>
+      <find>click</find>
+      <find>newWidth</find>
+      <find>spanWrapper</find>
+      <find>animationDelay</find>
+      <find>headline</find>
+      <find>switchWord</find>
+      <find>showWord</find>
+      <find>hideWord</find>
+      <find>revealAnimationDelay</find>
+      <find>is-visible</find>
+      <find>is-hidden</find>
+      <find>ag-text_word-box</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-gallery_img-box</replace>
-      <replace>.jpg&quot; class=&quot;ag-gallery_img&quot; alt=&quot;&quot; /&gt;</replace>
-      <replace>&quot;</replace>
-      <replace>&lt;div class=&quot;js-gallery_img-box ag-gallery_img-box&quot;</replace>
-      <replace>coefficient</replace>
-      <replace>/1_images/</replace>
-      <replace>fnArrayRandElement</replace>
-      <replace>https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/</replace>
-      <replace>svg-f2-all.svg</replace>
-      <replace>#svg-f2-all-</replace>
-      <replace>svg-f2-all-</replace>
-      <replace>#svg-f3-en-</replace>
-      <replace>svg-f3-en.svg</replace>
-      <replace>svg-f3-en-</replace>
-      <replace>svg-f1-all.svg</replace>
-      <replace>fnXYZ</replace>
-      <replace>fnF(</replace>
-      <replace>fnD(</replace>
-      <replace>true</replace>
-      <replace>var</replace>
-      <replace>false</replace>
-      <replace>content: &quot;&quot;;</replace>
-      <replace>'</replace>
-      <replace>fonts/acrom-</replace>
-      <replace>images/bg-</replace>
       <replace>&lt;a href=&quot;#&quot; class=&quot;menu-link&quot;&gt;</replace>
       <replace>ag-vertical_list</replace>
       <replace>ag-vertical_item</replace>
       <replace>ag-vertical_link</replace>
       <replace>#FFF</replace>
+      <replace>.</replace>
+      <replace>ag-text_title</replace>
+      <replace>ag-text_word</replace>
+      <replace>ag-text_word-box</replace>
+      <replace>ag-text_word-wrap</replace>
+      <replace>fnTakeNext</replace>
+      <replace>fnHideWord</replace>
+      <replace>agNextWord</replace>
+      <replace>fnAnimateHeadline</replace>
+      <replace>argHeadlines</replace>
+      <replace>agDuration</replace>
+      <replace>agRevealDuration</replace>
+      <replace>agNewWidth</replace>
+      <replace>agSpanWrapper</replace>
+      <replace>agHeadline</replace>
+      <replace>js-text_word-wrap</replace>
+      <replace>argWord</replace>
+      <replace>argOldWord</replace>
+      <replace>argWordNew</replace>
+      <replace>argWordOld</replace>
+      <replace>fnSwitchWord</replace>
+      <replace>fnShowWord</replace>
+      <replace>var</replace>
+      <replace>js-ag-is-visible</replace>
+      <replace>js-ag-is-hidden</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -235,12 +293,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/item-svg-video/css/style.css" />
-        <option value="$PROJECT_DIR$/item-svg-video/index.html" />
-        <option value="$PROJECT_DIR$/item-svg-video/js/main.js" />
-        <option value="$PROJECT_DIR$/parallax-mouse-move/css/style.css" />
-        <option value="$PROJECT_DIR$/parallax-mouse-move/index.html" />
-        <option value="$PROJECT_DIR$/parallax-mouse-move/js/main.js" />
         <option value="$PROJECT_DIR$/buttons/index.html" />
         <option value="$PROJECT_DIR$/buttons/js/main.js" />
         <option value="$PROJECT_DIR$/buttons/css/style.css" />
@@ -275,7 +327,6 @@
         <option value="$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/images/string-sprite-svg_prod/svg-group-1.svg" />
         <option value="$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/news.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/style.css" />
-        <option value="$USER_HOME$/Desktop/index.js" />
         <option value="$PROJECT_DIR$/canvas-sphere-bubble/js/main.js" />
         <option value="$PROJECT_DIR$/canvas-sphere-bubble/index.html" />
         <option value="$PROJECT_DIR$/wheel-scroll/index.html" />
@@ -286,6 +337,13 @@
         <option value="$USER_HOME$/format-2.html" />
         <option value="$PROJECT_DIR$/vertical-text/index.html" />
         <option value="$PROJECT_DIR$/vertical-text/css/style.css" />
+        <option value="$USER_HOME$/Desktop/index.js" />
+        <option value="$PROJECT_DIR$/tabs-cascade/index.html" />
+        <option value="$USER_HOME$/Desktop/lottie-player.js" />
+        <option value="$USER_HOME$/Desktop/headline.js" />
+        <option value="$PROJECT_DIR$/text-words-print/css/style.css" />
+        <option value="$PROJECT_DIR$/text-words-print/index.html" />
+        <option value="$PROJECT_DIR$/text-words-print/js/main.js" />
       </list>
     </option>
   </component>
@@ -320,12 +378,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/format-2.html" />
+    <property name="last_opened_file_path" value="$USER_HOME$/JS-CSS-HTML CUSTOM CODES/JS-custom-codes.html" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pens/text-words-print/index.html">
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -443,6 +504,14 @@
       <envs />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -518,12 +587,12 @@
       <workItem from="1628680210508" duration="14367000" />
       <workItem from="1628750885756" duration="18307000" />
       <workItem from="1629356423171" duration="20254000" />
-      <workItem from="1630056679389" duration="1400000" />
+      <workItem from="1630056679389" duration="13962000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="934713000" />
+    <option name="totallyTimeSpent" value="947275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -534,19 +603,19 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Key Promoter" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,56 +637,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lotus/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random-mask-img/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animation-projector/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="27" column="89" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random-mask-img/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2288">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animation-head-jester/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1309">
-          <caret line="66" column="34" lean-forward="true" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/images/string-sprite-svg_prod/svg-f2-all.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="25" column="2" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/images/new-svg/svg-sprite-all.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/images/string-sprite-svg_prod/svg-group.svg" />
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/images/string-sprite-svg/svg-footer-company.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -803,14 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/canvas-sphere-bubble/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1824">
-          <caret line="76" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="103" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/canvas-sphere-bubble/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -823,22 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
           <caret line="350" column="46" lean-forward="true" selection-start-line="350" selection-start-column="46" selection-end-line="350" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3576">
-          <caret line="149" column="45" lean-forward="false" selection-start-line="149" selection-start-column="35" selection-end-line="149" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147816">
-          <caret line="6159" column="26" lean-forward="false" selection-start-line="6159" selection-start-column="26" selection-end-line="6159" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -905,8 +900,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vertical-text/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="44" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+        <state relative-caret-position="172">
+          <caret line="44" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canvas-sphere-bubble/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="3598" column="101" lean-forward="false" selection-start-line="3598" selection-start-column="101" selection-end-line="3598" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="157" column="8" lean-forward="false" selection-start-line="157" selection-start-column="8" selection-end-line="157" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/JS-CSS-HTML CUSTOM CODES/JS-simple-code.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="117" column="11" lean-forward="false" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tabs-cascade/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="155" column="5" lean-forward="false" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/lottie-player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8131">
+          <caret line="6209" column="30" lean-forward="false" selection-start-line="6209" selection-start-column="18" selection-end-line="6209" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/JS-CSS-HTML CUSTOM CODES/JS-custom-codes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="136" column="4" lean-forward="false" selection-start-line="136" selection-start-column="4" selection-end-line="140" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/headline.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="1015" column="10" lean-forward="true" selection-start-line="1015" selection-start-column="10" selection-end-line="1015" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-words-print/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-words-print/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="44" column="34" lean-forward="false" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text-words-print/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="54" column="46" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="11" />
           <folding />
         </state>
       </provider>

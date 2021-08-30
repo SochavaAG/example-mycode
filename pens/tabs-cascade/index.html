@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Tabs Cascade</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .level-cards {
+    min-height: 400px;
+    position: relative;
+  }
+  .level-cards .card-1,
+  .level-cards .card-2,
+  .level-cards .card-3,
+  .level-cards .card {
+    width: 90%;
+    padding: 38px 40px;
+  }
+  .level-cards .card-1,
+  .level-cards .card-2,
+  .level-cards .card-3,
+  .level-cards .card {
+    background-color: #000;
+    border: 1px solid #1D1D1D;
+  }
+  .level-cards .card {
+    cursor: pointer;
+    transition: all .5s;
+    position: absolute;
+  }
+  .level-cards .card:nth-child(1) {
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0.0001, 0, 0, 1, 0, 13, 0, 0, 1);
+    z-index: 3;
+  }
+  .level-cards .card:nth-child(1) {
+    color: white;
+  }
+  .level-cards .card:nth-child(2) {
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0.0001, 0, 0, 1, 0, 93, 80, 0, 1);
+    z-index: 2;
+  }
+  .level-cards .card:nth-child(2) {
+    color: rgba(255, 255, 255, 0.66);
+  }
+  .level-cards .card:nth-child(2) .card-content, .level-cards .card:nth-child(2) .card-description {
+    opacity: .8;
+  }
+  .level-cards .card:nth-child(3) {
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0.0001, 0, 0, 1, 0, 173, 160, 0, 1);
+    z-index: 1;
+  }
+  .level-cards .card:nth-child(3) {
+    color: rgba(255, 255, 255, 0.33);
+  }
+  .level-cards .card:hover {
+    border: 1px solid #d1d1d1;
+    color: black;
+  }
+</style>
+
+  <div class="ag-format-container">
+    <div class="section-container">
+      <div class="block-title">
+        Engagement Model
+      </div>
+      <div class="row level-cards-container">
+        <div class="level-cards col-xl-7">
+          <div class="js-card_item card-1 card active" onclick="switchCurrentLevelCard(0)" data-card="0">
+            <div class="card-content">Lorem ipsum</div>
+            <div class="card-description">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+              ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            </div>
+          </div>
+
+          <div class="js-card_item card-2 card" onclick="switchCurrentLevelCard(1)" data-card="1">
+            <div class="card-content">Donec pede</div>
+            <div class="card-description">
+              Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet
+              a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+              Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+            </div>
+          </div>
+
+          <div class="js-card_item card-3 card" onclick="switchCurrentLevelCard(2)" data-card="2">
+            <div class="card-content">Aenean leo ligula</div>
+            <div class="card-description">
+              Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
+              viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+              imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.
+            </div>
+          </div>
+        </div>
+        <div class=" col-xl-5 col-12 navigation-label">
+          <ul class="advantages-list portfolio-tabs">
+            <li class="nav-link active" onclick="switchAdvantage(0)" data-advantage="0"><span>Lorem ipsum</span></li>
+            <li class="nav-link" onclick="switchAdvantage(1)" data-advantage="1"><span>Donec pede</span></li>
+            <li class="nav-link" onclick="switchAdvantage(2)" data-advantage="2"><span>Aenean leo ligula</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/main.js"></script>
+
+<script>
+  var agCardItem = $('.js-card_item'),
+  l = [];
+
+  console.log(agCardItem.eq(0));
+  console.log(agCardItem.length);
+
+
+
+
+
+  agCardItem.on('click', function (e) {
+    e.preventDefault();
+
+    for (var i = 1; i < agCardItem.length; i++) {
+      console.log(agCardItem.eq(i));
+
+
+      agCardItem.eq(i).classList.contains("active") && agCardItem.eq(i).removeClass("active");
+
+      if (i < agCardItem.length) {
+        l.push(a.item(i));
+      }else{
+        l.push(a.item(i - agCardItem.length));
+      }
+    }
+  });
+
+    //t < agCardItem.length ? l.push(a.item(t)) : l.push(a.item(t - agCardItem.length));
+
+  //window.switchCurrentLevelCard && window.switchCurrentLevelCard(window.currentCardNumber);
+/*
+  var o = window.switchCurrentLevelCard = function (e) {
+    e = parseInt(e), window.currentCardNumber = e;
+    var t, n = document.querySelector(".advantages-list").children, a = document.querySelectorAll(".card"), l = [];
+    for (var t = e; t < a.length + e; t++)n.item(t - e).classList.contains("active") && n.item(t - e).classList.remove("active"), t < a.length ? l.push(a.item(t)) : l.push(a.item(t - a.length));
+    /!*for (var e = 0; e < a.length; e++)a.item(e).classList.contains("active") && a.item(e).classList.remove("active");
+    document.querySelector('[data-card="' + e + '"]').classList.add("active"), 0 != l.length && document.querySelector('[data-advantage="' + l[0].getAttribute("data-card") + '"]').classList.add("active"), t = "dark" == $("html").attr("data-theme") ? "255, 255, 255," : "0, 0, 0,", l.forEach((e, n) = > {e.style.transform = "matrix3d(1, 0, 0, 0.0000, 0, 1, 0, 0.0001, 0, 0, 1, 0, " + (80 * n + 13) + ", " + (80 * n + 2) + ", 0, 1)", e.style.color = "rgba(" + t + (1 - n / a.length) + ")", e.style.zIndex = a.length - n
+  })*!/
+  };
+
+  window.switchAdvantage = function (e) {
+    var t = document.querySelector(".advantages-list").children[parseInt(e)];
+    o(t.getAttribute("data-advantage"));
+  };*/
+</script>
+</body>
+</html>
