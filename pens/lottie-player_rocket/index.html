@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Lottie Player Rocket</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .main {
+    box-sizing: border-box;
+    display: inline-grid;
+    grid-auto-columns: auto;
+    grid-template-rows: auto;
+    position: relative;
+    height: inherit;
+    width: inherit;
+  }
+
+  .main.controls {
+    grid-template-rows: 1fr var(--lottie-player-toolbar-height);
+  }
+
+  .animation {
+    overflow: hidden;
+    height: calc(1fr - var(--lottie-player-toolbar-height));
+  }
+
+  .toolbar {
+    display: grid;
+    grid-template-columns: 32px 32px 1fr 32px;
+    align-items: center;
+    justify-items: center;
+    background-color: var(--lottie-player-toolbar-background-color);
+    margin: 0 5px;
+  }
+
+  .toolbar button {
+    cursor: pointer;
+    fill: var(--lottie-player-toolbar-icon-color);
+    display: flex;
+    background: none;
+    border: 0;
+    padding: 0;
+    outline: none;
+    height: 100%;
+  }
+
+  .toolbar button:hover {
+    fill: var(--lottie-player-toolbar-icon-hover-color);
+  }
+
+  .toolbar button.active {
+    fill: var(--lottie-player-toolbar-icon-active-color);
+  }
+
+  .toolbar button svg {
+  }
+
+  .toolbar button.disabled svg {
+    display: none;
+  }
+
+  .seeker {
+    -webkit-appearance: none;
+    width: 95%;
+    outline: none;
+  }
+
+  .seeker::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    background: var(--lottie-player-seeker-track-color);
+    border-radius: 3px;
+  }
+  .seeker::-webkit-slider-thumb {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: var(--lottie-player-seeker-thumb-color);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -5px;
+  }
+  .seeker:focus::-webkit-slider-runnable-track {
+    background: #999;
+  }
+  .seeker::-moz-range-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    background: var(--lottie-player-seeker-track-color);
+    border-radius: 3px;
+  }
+  .seeker::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: var(--lottie-player-seeker-thumb-color);
+    cursor: pointer;
+  }
+  .seeker::-ms-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  .seeker::-ms-fill-lower {
+    background: var(--lottie-player-seeker-track-color);
+    border-radius: 3px;
+  }
+  .seeker::-ms-fill-upper {
+    background: var(--lottie-player-seeker-track-color);
+    border-radius: 3px;
+  }
+  .seeker::-ms-thumb {
+    border: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: var(--lottie-player-seeker-thumb-color);
+    cursor: pointer;
+  }
+  .seeker:focus::-ms-fill-lower {
+    background: var(--lottie-player-seeker-track-color);
+  }
+  .seeker:focus::-ms-fill-upper {
+    background: var(--lottie-player-seeker-track-color);
+  }
+
+  .error {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+  }
+</style>
+
+  <div class="ag-format-container">
+
+  </div>
+
+  <div class="el-illustration-part">
+    <lottie-player src="https://appsidedev.com/wp-content/themes/elinsTemplate/assets/img/illustration/rocket.json" renderer="svg" background="transparent" speed="1" style="width: 100%; height: 100%" loop="" autoplay=""></lottie-player>
+   <!-- &lt;!&ndash;        <lottie-player src="&ndash;&gt;&lt;!&ndash;/assets/img/illustration/cloud.json"  renderer="svg" background="transparent"  speed="1"  style="width: 100%; height: 100%"  loop  autoplay></lottie-player>&ndash;&gt;
+    <div class="el-bt-part">
+
+      <svg viewBox="0 44 1535.9625 476.20001" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <style>
+          svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+          }
+          .large-tw, .large-2-tw, .small-tw {
+            opacity: 0;
+          }
+          .large-tw {
+            animation: large 11s linear infinite;
+          }
+          .large-2-tw {
+            animation: large-2 11s linear infinite;
+          }
+          .small-tw {
+            animation: small 11s linear infinite;
+          }
+
+          #g32 .large-tw, #g32 .large-2-tw, #g32 .small-tw {
+            animation-delay: 13.9s;
+          }
+          #g36 .large-tw, #g36 .large-2-tw, #g36 .small-tw {
+            animation-delay: 6.3s;
+          }
+          #g48 .large-tw, #g48 .large-2-tw, #g48 .small-tw  {
+            animation-delay: 17.6s;
+          }
+          #g152 .large-tw, #g152 .large-2-tw, #g152 .small-tw  {
+            animation-delay: 11.11s;
+          }
+          #g156 .large-tw, #g156 .large-2-tw, #g156 .small-tw  {
+            animation-delay: 14.3s;
+          }
+          #g84 .large-tw, #g84 .large-2-tw, #g84 .small-tw  {
+            animation-delay: 9.7s;
+          }
+          #g100 .large-tw, #g100 .large-2-tw, #g100 .small-tw  {
+            animation-delay: 3.33s;
+          }
+          #g104 .large-tw, #g104 .large-2-tw, #g104 .small-tw  {
+            animation-delay: 15.8s;
+          }
+          #g108 .large-tw, #g108 .large-2-tw, #g108 .small-tw  {
+            animation-delay: 5.5s;
+          }
+          #g44 .large-tw, #g44 .large-2-tw, #g44 .small-tw  {
+            animation-delay: 2.8s;
+          }
+          #g116 .large-tw, #g116 .large-2-tw, #g116 .small-tw  {
+            animation-delay: 24.8s;
+          }
+          #g160 .large-tw, #g160 .large-2-tw, #g160 .small-tw  {
+            animation-delay: 20.35s;
+          }
+          .gcloud1, .gcloud2, .gcloud3 {
+            transform: translate(0, 0);
+          }
+          .gcloud1 {
+            animation: firstThirdCloud 100s linear infinite;
+          }
+          .gcloud2 {
+            animation: secondCloud 70s linear infinite;
+          }
+          .gcloud3 {
+            animation: firstThirdCloud 50s linear infinite;
+          }
+          @keyframes firstThirdCloud {
+            100% {
+              transform: translate(1280px, 0);
+            }
+          }
+          @keyframes secondCloud {
+            100% {
+              transform: translate(1195px, 0);
+            }
+          }
+          @keyframes large {
+            0% {
+              opacity: 0;
+              transform: rotate(0deg) scale(0);
+            }
+            16.667% {
+              opacity: 1;
+            }
+            33.333% {
+              opacity: 0;
+              transform: rotate(360deg) scale(1.5);
+            }
+            100% {
+              opacity: 0;
+              transform: rotate(0deg) scale(0);
+            }
+          }
+          @keyframes large-2 {
+            0% {
+              opacity: 0;
+              transform: rotate(45deg) scale(0);
+            }
+            16.667% {
+              opacity: 1;
+            }
+            33.333% {
+              opacity: 0;
+              transform: rotate(405deg) scale(1.1);
+            }
+            100% {
+              opacity: 0;
+              transform: rotate(45deg) scale(0);
+            }
+          }
+          @keyframes small {
+            0% {
+              opacity: 0;
+              transform: rotate(0deg) scale(0);
+            }
+            16.667% {
+              opacity: 1;
+            }
+            33.333% {
+              opacity: 0;
+              transform: rotate(-360deg) scale(1.5);
+            }
+            100% {
+              opacity: 0;
+              transform: rotate(0deg) scale(0);
+            }
+          }
+          @keyframes clouds {
+            100% {
+              transform: translate(100%,0);
+            }
+          }
+          @keyframes smoke_size{
+            0% {
+              transform:scale(0);
+              opacity: 0;
+            }
+            20% {
+              transform:scale(.25);
+              opacity: 0;
+            }
+            40% {
+              transform:scale(.50);
+              opacity: 1;
+            }
+            60% {
+              transform:scale(0.75);
+            }
+            80% {
+              transform:scale(1);
+            }
+            90% {
+              transform:scale(1);
+              opacity: 1;
+            }
+            100% {
+              transform:scale(1);
+              opacity: 0;
+            }
+          }
+          @keyframes smokeLines{
+            0% {
+              stroke-dashoffset: 61;
+            }
+            80% {
+              stroke-dashoffset:0;
+            }
+            90% {
+              stroke-dashoffset:0;
+              opacity: 1;
+            }
+            100% {
+              stroke-dashoffset:61;
+              opacity: 0;
+            }
+          }
+          @keyframes flicker {
+            0% {
+              transform: scale(1, 1);
+            }
+            20% {
+              transform:scale(1, 1.075);
+            }
+            40% {
+              transform:scale(1, 1.15);
+            }
+            60% {
+              transform:scale(1, 1.225);
+            }
+            80% {
+              transform:scale(1, 1.4);
+            }
+            90% {
+              transform:scale(1, 1.15);
+            }
+            100% {
+              transform:scale(1, 1);
+            }
+          }
+        </style>
+        <defs>
+          <mask id="entire" x="0" y="0" width="3000" height="300" maskUnits="userSpaceOnUse">
+            <rect x="0" y="0" width="3000" height="300" fill="#fff"></rect>
+          </mask>
+          <clipPath clipPathUnits="userSpaceOnUse" id="smokeClipPath">
+            <path d="m 0,102.891 56.888,0 L 56.888,0 0,0 0,102.891 Z"></path>
+          </clipPath>
+          <clipPath clipPathUnits="userSpaceOnUse" id="rocketClipPath">
+            <path d="m 0,233.5 100.756,0 0,-233.5 L 0,0 0,233.5 Z"></path>
+          </clipPath>
+          <clipPath clipPathUnits="userSpaceOnUse" id="forSkyAndStars"><path d="m 0,0 1280,0 0,500.164 -1280,0 L 0,0 Z" id="path17"></path></clipPath>
+          <linearGradient x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,500.16406,500.16406,0,640,1.5e-6)" spreadMethod="pad" id="linearGradient24">
+            <stop style="stop-opacity:1;stop-color:#331556" offset="0" id="stop26"></stop>
+            <stop style="stop-opacity:1;stop-color:#000010" offset="1" id="stop28"></stop>
+          </linearGradient>
+          <clipPath clipPathUnits="userSpaceOnUse" id="clipPath16">
+            <path d="m 0,380.96 1228.768,0 0,-380.96 L 0,0 0,380.96 Z" id="path18"></path>
+          </clipPath>
+          <clipPath clipPathUnits="userSpaceOnUse" id="clipPath24">
+            <path d="m -0.502548,344.385 1229.772548,0 0,-307.8097 -1229.772548,0 0,307.8097 z" id="path26"></path>
+          </clipPath>
+          <clipPath clipPathUnits="userSpaceOnUse" id="clipPath-cloud">
+            <path d="M0,0 h1280 v171 h-1280"></path>
+          </clipPath>
+          <symbol id="twinkle" viewBox="0 0 100 100">
+            <g class="group" opacity="1">
+              <g class="large-tw">
+                <path class="tw" id="large" d="M41.25,40 L42.5,10 L43.75,40 L45, 41.25 L75,42.5 L45,43.75 L43.75,45 L42.5,75 L41.25,45 L40,43.75 L10,42.5 L40,41.25z " fill="white"></path>
+              </g>
+              <g class="large-2-tw" transform="rotate(45)">
+                <use xlink:href="#large"></use>
+              </g>
+              <g class="small-tw">
+                <path class="tw" id="small" d="M41.25,40 L42.5,25 L43.75,40 L45,41.25 L60,42.5 L45,43.75 L43.75,45 L42.5,60 L41.25,45 L40,43.75 L25,42.5 L40,41.25z" fill="white"></path>
+              </g>
+            </g>
+          </symbol>
+          <path id="rocketPath" d="M100,-50 c0,155 150,275 650,340" fill="none" stroke="red"></path>
+        </defs>
+        <g mask="url(#entire)" id="g10" transform="matrix(1.25,0,0,-1.25,0,476.2)">
+
+          <circle cx="760" cy="290" r="0" fill="none" stroke="#ddd" stroke-width="1.5" stroke-opacity="0.8"></circle>
+          <g id="rocketWithSmoke" transform="translate(100, 200) rotate(-90) scale(0, 0)">
+            <g id="smoke" transform="translate(70, 120) rotate(-171) scale(1.5, 1.5)">
+              <path class="cloud_fill" transform="scale(0)" fill="#D1D3D4" d="M57.931,164.945c-2.796-4.957-5.221-11.877-5.912-21.398H34.786c0,0,0.744,10.699-2.532,20.777 c-2.25-1.5-4.97-2.391-7.916-2.391c-7.676,0-13.894,5.959-13.894,13.312c0,4.365,2.221,8.205,5.603,10.631 c0.158,4.963,4.746,8.877,10.295,8.748c1.294-0.023,2.507-0.293,3.638-0.709c0.966,3.938,4.675,6.826,9.035,6.732 c2.783-0.064,5.209-1.354,6.827-3.293c1.6,1.061,3.55,1.693,5.665,1.646c3.639-0.082,6.716-2.104,8.239-4.969 c1.283,1.061,2.894,1.709,4.67,1.674c2.15-0.051,4.043-1.088,5.326-2.67c0.961,0.381,2.016,0.59,3.117,0.562 c4.236-0.094,7.589-3.41,7.488-7.424c-0.035-1.553-0.598-2.973-1.512-4.133c2.819-2.438,4.629-5.928,4.629-9.855 C83.466,171.238,76.781,151.058,57.931,164.945z" style="animation: 0.25s ease 0s infinite normal forwards running smoke_size;"></path>
+            </g>
+            <g id="rocket">
+              <g id="largeFlame" transform="translate(31.3272,45.0683)">
+                <path d="M 0,0 C 0,18.508 8.529,33.512 19.051,33.512 29.572,33.512 38.102,18.508 38.102,0 38.102,-18.509 19.051,-45.068 19.051,-45.068 19.051,-45.068 0,-18.509 0,0" style="fill:#f7931e;fill-opacity:1;fill-rule:nonzero;stroke:none;animation: 0.25s ease 0s infinite normal forwards running flicker;" id="path22"></path>
+              </g>
+              <g id="smallFlame" transform="translate(39.0567,58.666)">
+                <path d="m 0,0 c 0,10.998 5.068,19.914 11.321,19.914 6.253,0 11.322,-8.916 11.322,-19.914 0,-10.999 -11.322,-31.471 -11.322,-31.471 C 11.321,-31.471 0,-10.999 0,0" style="fill:#fff6a2;fill-opacity:1;fill-rule:nonzero;stroke:none;animation: 0.25s ease 0s infinite normal forwards running flicker;" id="path26"></path>
+              </g>
+              <g transform="translate(72.9834,119.8349)">
+                <path d="M 0,0 C 0.13,1.254 1.034,2.29 2.263,2.581 3.486,2.871 4.766,2.357 5.445,1.296 l 18.157,-28.385 c 2.729,-4.286 4.17,-9.236 4.17,-14.319 l 0,-31.62 c 0,-1.253 -0.787,-2.371 -1.967,-2.792 -0.325,-0.115 -0.662,-0.172 -0.997,-0.172 -0.871,0 -1.718,0.385 -2.293,1.087 l -26.05,31.837 c -0.497,0.611 -0.733,1.396 -0.654,2.179 L 0,0 Z" style="fill:#4a2365;fill-opacity:1;fill-rule:nonzero;stroke:none"></path>
+              </g>
+              <g transform="translate(27.7725,119.8349)">
+                <path d="M 0,0 C -0.13,1.254 -1.036,2.29 -2.263,2.581 -3.487,2.871 -4.766,2.357 -5.445,1.296 l -18.157,-28.385 c -2.729,-4.286 -4.17,-9.236 -4.17,-14.319 l 0,-31.62 c 0,-1.253 0.787,-2.371 1.967,-2.792 0.325,-0.115 0.662,-0.172 0.995,-0.172 0.872,0 1.72,0.385 2.295,1.087 l 26.049,31.837 c 0.498,0.611 0.733,1.396 0.653,2.179 L 0,0 Z" style="fill:#662d91;fill-opacity:1;fill-rule:nonzero;stroke:none"></path>
+              </g>
+              <g transform="translate(51.9024,233.0771)">
+                <path d="m 0,0 c -0.937,0.563 -2.112,0.563 -3.049,0 -1.268,-0.762 -31.072,-19.101 -31.072,-58.845 0,-16.049 3.986,-58.747 9.277,-99.319 0.767,-5.888 5.817,-10.326 11.74,-10.326 l 23.159,0 c 5.924,0 10.973,4.438 11.74,10.326 5.291,40.572 9.277,83.27 9.277,99.319 C 31.072,-19.101 1.269,-0.762 0,0" style="fill:#cccccc;fill-opacity:1;fill-rule:nonzero;stroke:none"></path>
+              </g>
+              <g transform="translate(50.3779,64.5869)">
+                <path d="m 0,0 -11.579,0 c -5.924,0 -10.974,4.438 -11.74,10.326 -5.291,40.572 -9.278,83.271 -9.278,99.32 0,39.744 29.804,58.083 31.073,58.844 0.466,0.281 0.992,0.421 1.518,0.423 L 0,168.913 0,0 Z" style="fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"></path>
+              </g>
+              <g transform="translate(68.1572,171.2676)">
+                <path d="m 0,0 c 0,-9.819 -7.96,-17.779 -17.779,-17.779 -9.82,0 -17.781,7.96 -17.781,17.779 0,9.819 7.961,17.781 17.781,17.781 C -7.96,17.781 0,9.819 0,0" style="fill:#53dcff;fill-opacity:1;fill-rule:nonzero;stroke:none"></path>
+              </g>
+              <g transform="translate(50.3779,43.8428)">
+                <path d="m 0,0 c -1.639,0 -2.963,1.327 -2.963,2.962 l 0,71.122 c 0,1.638 1.324,2.963 2.963,2.963 1.639,0 2.963,-1.325 2.963,-2.963 l 0,-71.122 C 2.963,1.327 1.639,0 0,0" style="fill:#4a2365;fill-opacity:1;fill-rule:nonzero;stroke:none"></path>
+              </g>
+              <g transform="translate(48.8535,233.0771)">
+                <path d="m 0,0 c -0.849,-0.509 -14.439,-8.887 -23.363,-26.248 l 49.775,0 C 17.487,-8.887 3.897,-0.509 3.049,0 2.112,0.563 0.937,0.563 0,0" style="fill:#4a2365;fill-opacity:1;fill-rule:nonzero;stroke:none"></path>
+              </g>
+              <g transform="translate(50.3779,233.5)">
+                <path d="M 0,0 C -0.528,0 -1.057,-0.142 -1.524,-0.423 -2.373,-0.932 -15.964,-9.31 -24.888,-26.671 L 0,-26.671 0,0 Z" style="fill:#662d91;fill-opacity:1;fill-rule:nonzero;stroke:none"></path>
+              </g>
+              <g transform="translate(68.1572,171.2676)">
+                <path d="m 0,0 c 0,9.819 -7.96,17.781 -17.779,17.781 l 0,-35.56 C -7.96,-17.779 0,-9.819 0,0" style="fill:#b3f4ff;fill-opacity:1;fill-rule:nonzero;stroke:none"></path>
+              </g>
+              <g transform="translate(50.3779,186.0849)">
+                <path d="m 0,0 c -8.17,0 -14.817,-6.647 -14.817,-14.817 0,-8.17 6.647,-14.817 14.817,-14.817 8.17,0 14.817,6.647 14.817,14.817 C 14.817,-6.647 8.17,0 0,0 m 0,-35.562 c -11.437,0 -20.744,9.306 -20.744,20.745 0,11.438 9.307,20.744 20.744,20.744 11.437,0 20.744,-9.306 20.744,-20.744 0,-11.439 -9.307,-20.745 -20.744,-20.745" style="fill:#662d91;fill-opacity:1;fill-rule:nonzero;stroke:none"></path>
+              </g>
+            </g>
+            <animateMotion xlink:href="#rocketWithSmoke" id="launch" rotate="auto" dur="6s" begin="5s" repeatCount="1">
+              <mpath xlink:href="#rocketPath"></mpath>
+            </animateMotion>
+            <animateTransform xlink:href="#rocketWithSmoke" attributeType="XML" attributeName="transform" type="scale" begin="5s" from=".5" to=".05" dur="6s" keySplines="0.06,0.29,0.07,1;0.06,0.29,0.07,1;0.06,0.29,0.07,1" keyTimes="0;0.25;0.4;1" values=".5;.45;0.35;.01" repeatCount="indefinite"></animateTransform>
+            <animateTransform xlink:href="#rocketWithSmoke" attributeType="XML" attributeName="transform" type="rotate" begin="5s" from="-90" to="-90" dur="6s" repeatCount="indefinite" additive="sum"></animateTransform>
+          </g>
+          <circle id="splash" cx="760" cy="290" r="0" fill="none" stroke="#ddd" stroke-width="1.5" stroke-opacity="0.8"></circle>
+          <animate xlink:href="#splash" id="splashed" attributeName="r" values="0;35" keySplines=".17 .67 .53 1" keyTimes="0;1" calcMode="spline" begin="11s" dur="0.8s" repeatCount="1"></animate>
+          <animate xlink:href="#splash" attributeName="opacity" values="0.8;0" keySplines=".17 .67 .53 1" keyTimes="0;1" calcMode="spline" begin="11s" dur="0.8s" repeatCount="1"></animate>
+          <g id="clouds" clip-path="url(#clipPath-cloud)">
+            <g class="gcloud1">
+              <path transform="translate(1280,81.5826)" d="m 0,0 c -13.957,-3.002 -26.279,-10.396 -35.448,-20.673 -3.159,0.494 -6.395,0.755 -9.693,0.755 -0.703,0 -1.401,-0.024 -2.098,-0.048 -12.106,13.184 -29.479,21.452 -48.788,21.452 -19.651,0 -37.293,-8.566 -49.421,-22.159 -3.159,0.494 -6.395,0.755 -9.693,0.755 -0.047,0 -0.094,-0.003 -0.142,-0.003 -0.048,0 -0.096,0.003 -0.144,0.003 -3.297,0 -6.533,-0.261 -9.692,-0.755 -12.128,13.593 -29.771,22.159 -49.421,22.159 -13.917,0 -26.824,-4.301 -37.483,-11.635 -7.977,3.379 -16.748,5.25 -25.956,5.25 -5.125,0 -10.111,-0.589 -14.902,-1.689 -9.406,5.137 -20.185,8.074 -31.659,8.074 -13.917,0 -26.824,-4.301 -37.483,-11.635 -7.977,3.379 -16.748,5.25 -25.956,5.25 -13.121,0 -25.345,-3.812 -35.656,-10.366 -8.548,3.994 -18.078,6.237 -28.136,6.237 -8.411,0 -16.448,-1.576 -23.854,-4.425 -11.411,9.334 -25.988,14.939 -41.881,14.939 -10.441,0 -20.305,-2.438 -29.087,-6.745 -8.943,-1.411 -17.397,-4.295 -25.106,-8.394 -11.134,8.375 -24.977,13.341 -39.982,13.341 -5.931,0 -11.676,-0.79 -17.149,-2.247 -0.972,0.045 -1.948,0.075 -2.933,0.075 -2.903,0 -5.756,-0.215 -8.553,-0.601 -13.589,10.473 -30.61,16.708 -49.092,16.708 -16.378,0 -31.608,-4.899 -44.321,-13.3 -3.984,0.749 -8.087,1.163 -12.29,1.163 -3.311,0 -6.566,-0.244 -9.746,-0.715 -12.574,8.129 -27.555,12.852 -43.643,12.852 -21.572,0 -41.162,-8.484 -55.617,-22.298 -6.92,2.437 -14.357,3.776 -22.111,3.776 -17.01,0 -32.523,-6.389 -44.293,-16.886 -5.008,1.209 -10.232,1.867 -15.613,1.867 -12.499,0 -24.189,-3.451 -34.183,-9.442 -7.096,2.954 -14.879,4.591 -23.045,4.591 -5.307,0 -10.45,-0.696 -15.35,-1.989 -14.474,13.925 -34.142,22.488 -55.813,22.488 -13.64,0 -26.487,-3.396 -37.746,-9.383 -11.134,8.375 -24.976,13.341 -39.981,13.341 -9.108,0 -17.786,-1.834 -25.693,-5.144 -14.034,11.898 -32.194,19.079 -52.034,19.079 -21.572,0 -41.162,-8.484 -55.617,-22.298 -1.7032,-0.1723253 -2.5023,-0.3117788 -3.7468,-0.478605 L -1280,-135.406 c 3.721,1.084 7.308,2.479 10.729,4.162 13.469,-10.143 30.224,-16.157 48.384,-16.157 19.84,0 38,7.18 52.034,19.079 7.907,-3.311 16.585,-5.145 25.693,-5.145 4.343,0 8.582,0.43 12.692,1.224 14.646,-20.034 38.319,-33.051 65.035,-33.051 21.671,0 41.339,8.564 55.813,22.489 4.9,-1.294 10.043,-1.99 15.35,-1.99 6.897,0 13.515,1.179 19.683,3.32 10.69,-7.313 23.615,-11.598 37.545,-11.598 15.776,0 30.262,5.499 41.67,14.669 6.924,-2.439 14.365,-3.78 22.123,-3.78 11.007,0 21.378,2.691 30.522,7.424 12.507,-8 27.371,-12.641 43.319,-12.641 13.802,0 26.786,3.482 38.138,9.602 8.23,0.721 16.027,2.947 23.125,6.388 0.283,-0.071 0.571,-0.127 0.855,-0.195 12.032,-8.918 26.637,-14.553 42.499,-15.602 13.861,-11.304 31.556,-18.086 50.838,-18.086 21.274,0 40.607,8.268 55.001,21.744 14.393,-13.477 33.724,-21.744 54.999,-21.744 21.67,0 41.338,8.564 55.811,22.489 4.901,-1.294 10.044,-1.99 15.351,-1.99 6.64,0 13.017,1.102 18.986,3.094 0.291,0.035 0.582,0.072 0.872,0.111 10.656,-7.242 23.515,-11.483 37.371,-11.483 15.775,0 30.26,5.499 41.669,14.669 6.923,-2.439 14.365,-3.78 22.122,-3.78 13.123,0 25.346,3.812 35.657,10.366 2.363,-1.104 4.808,-2.06 7.312,-2.885 9.647,-6.146 21.09,-9.721 33.375,-9.721 15.148,0 29.027,5.414 39.82,14.408 3.6,-0.609 7.294,-0.944 11.067,-0.944 6.105,0 12.011,0.843 17.624,2.39 11.014,-9.855 25.549,-15.854 41.489,-15.854 0.048,0 0.096,0.004 0.144,0.004 0.048,0 0.095,-0.004 0.142,-0.004 15.942,0 30.477,5.999 41.49,15.854 5.613,-1.547 11.518,-2.39 17.624,-2.39 3.775,0 7.47,0.332 11.073,0.939 10.792,-8.991 24.669,-14.403 39.813,-14.403 15.942,0 30.477,5.999 41.49,15.854 1.203,-0.331 2.422,-0.624 3.651,-0.89 z" style="fill:#e3f2ff;fill-opacity:1;fill-rule:nonzero;stroke:none" class="cloud1"></path>
+              <path transform="translate(1,81.5826)" d="M -0.2507837,-9.153605 C -14.47378,-11.09162 -22.155517,-12.871567 -35.448,-20.673 c -3.159,0.494 -6.395,0.755 -9.693,0.755 -0.703,0 -1.401,-0.024 -2.098,-0.048 -12.106,13.184 -29.479,21.452 -48.788,21.452 -19.651,0 -37.293,-8.566 -49.421,-22.159 -3.159,0.494 -6.395,0.755 -9.693,0.755 -0.047,0 -0.094,-0.003 -0.142,-0.003 -0.048,0 -0.096,0.003 -0.144,0.003 -3.297,0 -6.533,-0.261 -9.692,-0.755 -12.128,13.593 -29.771,22.159 -49.421,22.159 -13.917,0 -26.824,-4.301 -37.483,-11.635 -7.977,3.379 -16.748,5.25 -25.956,5.25 -5.125,0 -10.111,-0.589 -14.902,-1.689 -9.406,5.137 -20.185,8.074 -31.659,8.074 -13.917,0 -26.824,-4.301 -37.483,-11.635 -7.977,3.379 -16.748,5.25 -25.956,5.25 -13.121,0 -25.345,-3.812 -35.656,-10.366 -8.548,3.994 -18.078,6.237 -28.136,6.237 -8.411,0 -16.448,-1.576 -23.854,-4.425 -11.411,9.334 -25.988,14.939 -41.881,14.939 -10.441,0 -20.305,-2.438 -29.087,-6.745 -8.943,-1.411 -17.397,-4.295 -25.106,-8.394 -11.134,8.375 -24.977,13.341 -39.982,13.341 -5.931,0 -11.676,-0.79 -17.149,-2.247 -0.972,0.045 -1.948,0.075 -2.933,0.075 -2.903,0 -5.756,-0.215 -8.553,-0.601 -13.589,10.473 -30.61,16.708 -49.092,16.708 -16.378,0 -31.608,-4.899 -44.321,-13.3 -3.984,0.749 -8.087,1.163 -12.29,1.163 -3.311,0 -6.566,-0.244 -9.746,-0.715 -12.574,8.129 -27.555,12.852 -43.643,12.852 -21.572,0 -41.162,-8.484 -55.617,-22.298 -6.92,2.437 -14.357,3.776 -22.111,3.776 -17.01,0 -32.523,-6.389 -44.293,-16.886 -5.008,1.209 -10.232,1.867 -15.613,1.867 -12.499,0 -24.189,-3.451 -34.183,-9.442 -7.096,2.954 -14.879,4.591 -23.045,4.591 -5.307,0 -10.45,-0.696 -15.35,-1.989 -14.474,13.925 -34.142,22.488 -55.813,22.488 -13.64,0 -26.487,-3.396 -37.746,-9.383 -11.134,8.375 -24.976,13.341 -39.981,13.341 -9.108,0 -17.786,-1.834 -25.693,-5.144 -14.034,11.898 -32.194,19.079 -52.034,19.079 -21.572,0 -41.162,-8.484 -55.617,-22.298 -1.149,0.404 -2.318,0.768 -3.496,1.111 l 0,-127.842 c 3.721,1.084 7.308,2.479 10.729,4.162 13.469,-10.143 30.224,-16.157 48.384,-16.157 19.84,0 38,7.18 52.034,19.079 7.907,-3.311 16.585,-5.145 25.693,-5.145 4.343,0 8.582,0.43 12.692,1.224 14.646,-20.034 38.319,-33.051 65.035,-33.051 21.671,0 41.339,8.564 55.813,22.489 4.9,-1.294 10.043,-1.99 15.35,-1.99 6.897,0 13.515,1.179 19.683,3.32 10.69,-7.313 23.615,-11.598 37.545,-11.598 15.776,0 30.262,5.499 41.67,14.669 6.924,-2.439 14.365,-3.78 22.123,-3.78 11.007,0 21.378,2.691 30.522,7.424 12.507,-8 27.371,-12.641 43.319,-12.641 13.802,0 26.786,3.482 38.138,9.602 8.23,0.721 16.027,2.947 23.125,6.388 0.283,-0.071 0.571,-0.127 0.855,-0.195 12.032,-8.918 26.637,-14.553 42.499,-15.602 13.861,-11.304 31.556,-18.086 50.838,-18.086 21.274,0 40.607,8.268 55.001,21.744 14.393,-13.477 33.724,-21.744 54.999,-21.744 21.67,0 41.338,8.564 55.811,22.489 4.901,-1.294 10.044,-1.99 15.351,-1.99 6.64,0 13.017,1.102 18.986,3.094 0.291,0.035 0.582,0.072 0.872,0.111 10.656,-7.242 23.515,-11.483 37.371,-11.483 15.775,0 30.26,5.499 41.669,14.669 6.923,-2.439 14.365,-3.78 22.122,-3.78 13.123,0 25.346,3.812 35.657,10.366 2.363,-1.104 4.808,-2.06 7.312,-2.885 9.647,-6.146 21.09,-9.721 33.375,-9.721 15.148,0 29.027,5.414 39.82,14.408 3.6,-0.609 7.294,-0.944 11.067,-0.944 6.105,0 12.011,0.843 17.624,2.39 11.014,-9.855 25.549,-15.854 41.489,-15.854 0.048,0 0.096,0.004 0.144,0.004 0.048,0 0.095,-0.004 0.142,-0.004 15.942,0 30.477,5.999 41.49,15.854 5.613,-1.547 11.518,-2.39 17.624,-2.39 3.775,0 7.47,0.332 11.073,0.939 10.792,-8.991 24.669,-14.403 39.813,-14.403 15.942,0 30.477,5.999 41.49,15.854 1.203,-0.331 2.422,-0.624 3.651,-0.89 z" style="fill:#e3f2ff;fill-opacity:1;fill-rule:nonzero;stroke:none" class="cloud1" id="path8"></path>
+            </g>
+            <g class="gcloud2">
+              <path transform="translate(1195,65.525)" d="m 0,0 c -18.811,0 -36.316,-5.569 -50.972,-15.142 -16.949,10.172 -36.786,16.025 -57.993,16.025 -23.174,0 -44.713,-6.988 -62.635,-18.966 -13.652,7.821 -29.468,12.294 -46.33,12.294 -11.871,0 -23.222,-2.221 -33.668,-6.263 -15.557,11.61 -34.856,18.484 -55.761,18.484 -18.641,0 -36.004,-5.468 -50.578,-14.883 -11.83,5.424 -24.987,8.451 -38.852,8.451 -12.904,0 -25.196,-2.619 -36.375,-7.354 -14.944,10.282 -33.046,16.306 -52.558,16.306 -27.961,0 -53.033,-12.362 -70.052,-31.918 -6.098,1.253 -12.413,1.911 -18.881,1.911 -17.522,0 -33.912,-4.832 -47.921,-13.23 -9.947,4.14 -20.859,6.431 -32.306,6.431 -10.443,0 -20.44,-1.91 -29.667,-5.387 -13.03,7.738 -28.243,12.186 -44.497,12.186 -3.641,0 -7.228,-0.226 -10.752,-0.659 -20.446,28.85 -54.098,47.681 -92.149,47.681 -38.052,0 -71.703,-18.831 -92.15,-47.681 -3.523,0.433 -7.111,0.659 -10.753,0.659 -5.244,0 -10.379,-0.463 -15.37,-1.349 -15.81,15.925 -37.718,25.79 -61.933,25.79 -12.601,0 -24.576,-2.676 -35.395,-7.482 -13.891,8.283 -30.126,13.048 -47.475,13.048 -46.203,0 -84.516,-33.753 -91.643,-77.944 l 0,-29.786 c 6.344,-39.336 37.397,-70.395 76.729,-76.747 l 29.786,0 c 11.751,1.894 22.766,5.984 32.603,11.85 10.819,-4.806 22.794,-7.482 35.395,-7.482 5.245,0 10.381,0.464 15.37,1.35 1.99,-2.005 4.078,-3.913 6.254,-5.718 l 486.383,0 c 0.159,0.181 0.32,0.359 0.476,0.542 1.047,-0.205 2.108,-0.372 3.166,-0.542 l 29.679,0 c 7.117,1.15 13.966,3.103 20.444,5.772 2.992,-2.102 6.119,-4.026 9.356,-5.772 l 88.47,0 c 2.166,1.168 4.285,2.41 6.344,3.739 3.085,-1.414 6.263,-2.661 9.518,-3.739 l 58.652,0 c 1.465,0.485 2.918,0.997 4.35,1.551 0.711,-0.531 1.438,-1.041 2.165,-1.551 l 315.784,0 c 29.221,15.767 49.076,46.66 49.076,82.191 C 93.334,-41.787 51.547,0 0,0" style="fill:#f8fbff;fill-opacity:1;fill-rule:nonzero;stroke:none" class="cloud2"></path>
+              <path transform="translate(0,65.525)" d="m 0,0 c -18.811,0 -36.316,-5.569 -50.972,-15.142 -16.949,10.172 -36.786,16.025 -57.993,16.025 -23.174,0 -44.713,-6.988 -62.635,-18.966 -13.652,7.821 -29.468,12.294 -46.33,12.294 -11.871,0 -23.222,-2.221 -33.668,-6.263 -15.557,11.61 -34.856,18.484 -55.761,18.484 -18.641,0 -36.004,-5.468 -50.578,-14.883 -11.83,5.424 -24.987,8.451 -38.852,8.451 -12.904,0 -25.196,-2.619 -36.375,-7.354 -14.944,10.282 -33.046,16.306 -52.558,16.306 -27.961,0 -53.033,-12.362 -70.052,-31.918 -6.098,1.253 -12.413,1.911 -18.881,1.911 -17.522,0 -33.912,-4.832 -47.921,-13.23 -9.947,4.14 -20.859,6.431 -32.306,6.431 -10.443,0 -20.44,-1.91 -29.667,-5.387 -13.03,7.738 -28.243,12.186 -44.497,12.186 -3.641,0 -7.228,-0.226 -10.752,-0.659 -20.446,28.85 -54.098,47.681 -92.149,47.681 -38.052,0 -71.703,-18.831 -92.15,-47.681 -3.523,0.433 -7.111,0.659 -10.753,0.659 -5.244,0 -10.379,-0.463 -15.37,-1.349 -15.81,15.925 -37.718,25.79 -61.933,25.79 -12.601,0 -24.576,-2.676 -35.395,-7.482 -13.891,8.283
+
+          -30.126,13.048 -47.475,13.048 -46.203,0 -84.516,-33.753 -91.643,-77.944 l 0,-29.786 c 6.344,-39.336 37.397,-70.395 76.729,-76.747 l 29.786,0 c 11.751,1.894 22.766,5.984 32.603,11.85 10.819,-4.806 22.794,-7.482 35.395,-7.482 5.245,0 10.381,0.464 15.37,1.35 1.99,-2.005 4.078,-3.913 6.254,-5.718 l 486.383,0 c 0.159,0.181 0.32,0.359 0.476,0.542 1.047,-0.205 2.108,-0.372 3.166,-0.542 l 29.679,0 c 7.117,1.15 13.966,3.103 20.444,5.772 2.992,-2.102 6.119,-4.026 9.356,-5.772 l 88.47,0 c 2.166,1.168 4.285,2.41 6.344,3.739 3.085,-1.414 6.263,-2.661 9.518,-3.739 l 58.652,0 c 1.465,0.485 2.918,0.997 4.35,1.551 0.711,-0.531 1.438,-1.041 2.165,-1.551 l 315.784,0 c 29.221,15.767 49.076,46.66 49.076,82.191 C 93.334,-41.787 51.547,0 0,0" style="fill:#f8fbff;fill-opacity:1;fill-rule:nonzero;stroke:none" class="cloud2"></path>
+            </g>
+            <g class="gcloud3">
+              <path transform="translate(0,0)" d="m 1.664,52.4565 c -6.675,1.465 -10.715027,3.341245 -21.384,6.081 -6.619112,1.699765 -13.605,2.243 -20.72,2.243 -26.382,0 -50.282,-10.62 -67.666,-27.815 -17.383,17.195 -41.283,27.815 -67.667,27.815 -20.924,0 -40.288,-6.682 -56.078,-18.025 -13.364,7.79 -28.902,12.256 -45.485,12.256 -26.064,0 -49.551,-11.027 -66.058,-28.667 -7.763,2.17 -15.947,3.334 -24.403,3.334 -15.027,0 -29.195,-3.669 -41.666,-10.152 -12.472,6.483 -26.64,10.152 -41.667,10.152 -21.857,0 -41.904,-7.752 -57.541,-20.656 -13.52,8.614 -29.573,13.607 -46.792,13.607 -6.248,0 -12.341,-0.663 -18.217,-1.912 -17.135,15.406 -39.8,24.784 -64.656,24.784 -10.755,0 -21.099,-1.758 -30.763,-4.996 -20.276,34.782 -57.975,58.161 -101.14,58.161 -36.104,0 -68.383,-16.358 -89.844,-42.061 -5.646,1.024 -11.46,1.563 -17.4,1.563 -23.161,0 -44.416,-8.142 -61.071,-21.715 -17.327,10.144 -37.491,15.964 -59.018,15.964 -17.715,0 -34.507,-3.945 -49.556,-10.992 -12.959,6.445 -27.565,10.076 -43.022,10.076 -25.183,0 -48.117,-9.624 -65.329,-25.392 -8.307,2.323 -17.063,3.569 -26.112,3.569 -9.729,0 -19.12,-1.442 -27.978,-4.114 -17.277,16.089 -40.444,25.937 -65.914,25.937 -0.955,0 -1.906,-0.017 -2.853,-0.045 l 0,-54.285 1280,1 z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" class="cloud3"></path>
+              <path transform="translate(1280,55.2945)" d="m 0,0 c -6.675,1.465 -10.605,4.243 -20.72,4.243 -6.675,1.465 -13.605,2.243 -20.72,2.243 -26.382,0 -50.282,-10.62 -67.666,-27.815 -17.383,17.195 -41.283,27.815 -67.667,27.815 -20.924,0 -40.288,-6.682 -56.078,-18.025 -13.364,7.79 -28.902,12.256 -45.485,12.256 -26.064,0 -49.551,-11.027 -66.058,-28.667 -7.763,2.17 -15.947,3.334 -24.403,3.334 -15.027,0 -29.195,-3.669 -41.666,-10.152 -12.472,6.483 -26.64,10.152 -41.667,10.152 -21.857,0 -41.904,-7.752 -57.541,-20.656 -13.52,8.614 -29.573,13.607 -46.792,13.607 -6.248,0 -12.341,-0.663 -18.217,-1.912 -17.135,15.406 -39.8,24.784 -64.656,24.784 -10.755,0 -21.099,-1.758 -30.763,-4.996 -20.276,34.782 -57.975,58.161 -101.14,58.161 -36.104,0 -68.383,-16.358 -89.844,-42.061 -5.646,1.024 -11.46,1.563 -17.4,1.563 -23.161,0 -44.416,-8.142 -61.071,-21.715 -17.327,10.144 -37.491,15.964 -59.018,15.964 -17.715,0 -34.507,-3.945 -49.556,-10.992 -12.959,6.445 -27.565,10.076 -43.022,10.076 -25.183,0 -48.117,-9.624 -65.329,-25.392 -8.307,2.323 -17.063,3.569 -26.112,3.569 -9.729,0 -19.12,-1.442 -27.978,-4.114 -17.277,16.089 -40.444,25.937 -65.914,25.937 -0.955,0 -1.906,-0.017 -2.853,-0.045 l 0,-54.285 1280,0 L 0,0 Z" style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" class="cloud3"></path>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>-->
+  </div>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="js/lottie-player.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

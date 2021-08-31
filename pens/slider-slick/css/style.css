@@ -147,6 +147,7 @@
 .ag-vacancy_btn:hover {
   background: #191F3D;
 
+  text-decoration: none;
   color: #FFF;
 }
 .js-ag-vacancy_arrow {
