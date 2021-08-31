@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Tabs App Store</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="../../_common/images/favicon.png" />
+
+  <link rel="stylesheet" href="../../_common/css/reset.css" />
+
+  <link rel="stylesheet" href="https://raw.githack.com/SochavaAG/example-mycode/master/pens/slider-slick/plugins/slick/slick.css" />
+  <link rel="stylesheet" href="https://raw.githack.com/SochavaAG/example-mycode/master/pens/slider-slick/plugins/slick/slick-theme.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .el-title-section {
+    font-weight: 900;
+    font-size: 30px;
+  }
+  #el-apps{
+    min-height: 100vh;
+    padding:  150px 0;
+    position: relative;
+  }
+  #el-apps::after{
+    content: "";
+    position: absolute;
+    width: 1990px;
+    height: 1377px;
+    left: -30%;
+    top: -30%;
+    z-index: -1;
+    background: radial-gradient(50% 50% at 50% 50%, #D3D5F6 0%, rgba(196, 196, 196, 0) 100%);
+  }
+  #el-apps .el-col-l{
+    float: left;
+    width: 350px;
+  }
+  #el-apps .el-title-section{
+    margin-bottom:  60px;
+  }
+  #el-apps .el-title-section h4{
+    font-size: var(--secondary-size-title);
+    line-height: 64px;
+    color: var(--main-color_text);
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+  .el-col-wrap {
+    overflow: hidden;
+  }
+  #el-apps .el-col-r{
+    padding-left:  6%;
+ /*
+    width:  calc(100% - 455px);
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-end;
+    flex-flow: wrap row;*/
+  }
+  #el-apps .el-cat-tabs{
+    margin-bottom:  40px;
+  }
+  #el-apps .el-cat-tabs .el-tab{
+    display: inline-block;
+    margin-right:  15px;
+    padding:  10px 15px;
+
+    cursor: pointer;
+
+    opacity: .7;
+
+    border-radius: 11px;
+
+    transition: background 0.3s ease-out, opacity 0.3s ease-out;
+  }
+  #el-apps .el-cat-tabs .el-tab:hover{
+    opacity: 1;
+  }
+  #el-apps .el-cat-tabs .el-tab:last-child{
+    margin-right:  0;
+  }
+  #el-apps .el-cat-tabs .el-tab.el-active{
+    background: rgba(255, 255, 255, 0.4);
+    opacity: 1;
+  }
+  #el-apps .el-cat-tabs .el-tab .el-icon{
+    margin-right: 15px;
+    width: 32px;
+    height: 32px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    position: relative;
+    top: 3px;
+  }
+  #el-apps .el-cat-tabs .el-tab .el-icon::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height:  5px;
+    bottom: -13px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: scale(0, 1);
+    background: #9498EB;
+  }
+  #el-apps .el-cat-tabs .el-tab.el-active .el-icon::after{
+    opacity: 1;
+    transform: scale(1, 1);
+    visibility: visible;
+  }
+  #el-apps .el-cat-tabs .el-tab .el-icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  #el-apps .el-cat-tabs .el-tab .el-label{
+    font-size: 20px;
+    color: #191F3D;
+    font-weight: 500;
+  }
+  #el-apps .el-icon-apps .el-tab-apps{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-start;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    transform-origin: center;
+    transform: scale(0.7);
+  }
+  #el-apps .el-icon-apps .el-tab-apps.el-active{
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    transform: scale(1);
+  }
+  #el-apps .el-icon-apps .el-app{
+    display: inline-block;
+    height: 103px;
+    width: 103px;
+    margin: 0 15px 15px 0;
+  }
+  #el-apps .el-icon-apps .el-app:nth-child(3n) {
+    margin-right: 0;
+  }
+  #el-apps .el-icon-apps .el-app .el-icon{
+    height: 88px;
+    width: 88px;
+    margin: 7px auto 0;
+    background-color: #EEE;
+
+
+    overflow: hidden;
+
+    border-radius: 20px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.0);
+
+    transform: scale(0.8);
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  #el-apps .el-icon-apps .el-app:not(.el-active){
+    cursor: pointer;
+  }
+  #el-apps .el-icon-apps .el-app:not(.el-active) .el-icon{
+    box-shadow:  0px 0px 15px rgba(0, 0, 0, 0);
+    opacity: 0.5;
+  }
+  #el-apps .el-icon-apps .el-app:not(.el-active):hover .el-icon{
+    box-shadow:  0px 5px 15px rgba(0, 0, 0, 0.05);
+    opacity: 1;
+  }
+
+
+  #el-apps .el-icon-apps .el-app.el-active:hover .el-icon,
+  #el-apps .el-icon-apps .el-app.el-active .el-icon{
+    transform: scale(1);
+  }
+  #el-apps .el-icon-apps .el-app:hover .el-icon{
+    transform: scale(0.9);
+  }
+  #el-apps .el-icon-apps .el-app .el-icon img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+  }
+  #el-apps .el-icon-apps .el-app.el-active{
+    background: #000;
+    background: linear-gradient(221.96deg, rgba(183, 171, 255, 0.3) 4.78%, rgba(103, 255, 255, 0.3) 100%);
+    border-radius: 25px;
+  }
+
+
+  .el-drop-widget__apps{
+    position: absolute;
+    background: #f8f8f8;
+    border-radius: 25px;
+    padding: 25px;
+    right: 10%;
+    min-height: 200px;
+    box-shadow: 5px 5px 50px #00000005;
+    max-width: 90%;
+    width: auto;
+    z-index: 50;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: visibility 0.4s ease-in-out, opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+  }
+  .el-drop-widget__apps::after{
+    content: "";
+    position: absolute;
+    bottom: -27px;
+    right: 97px;
+    border: 18px solid transparent;
+    border-top: 23px solid #f8f8f8;
+  }
+  #el-apps.el-drop-apps .el-drop-widget__apps{
+    opacity: 1;
+    transform: translateY(20px);
+    visibility: visible;
+  }
+  #el-apps .el-drop-widget__apps  .el-app{
+    width: 70px;
+    height: 70px;
+  }
+  #el-apps .el-drop-widget__apps  .el-app .el-icon{
+    transform: scale(1);
+    width: 60px;
+    height: 60px;
+  }
+
+
+
+  #el-apps .el-app.el-more-btn{
+    /*display: none;*/
+    opacity: 1;
+    position: relative;
+  }
+
+
+
+
+
+  #el-apps .el-app.el-more-btn .el-icon{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    box-shadow: none !important;
+    background: linear-gradient(221.96deg, rgba(183, 171, 255, 0.3) 4.78%, rgba(103, 255, 255, 0.3) 100%);
+    opacity: 1 !important;
+    position: relative;
+  }
+  #el-apps .el-app.el-more-btn .el-count-apps{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    padding: 6px 13px;
+    border-radius: 47px;
+    display: inline-block;
+    background: linear-gradient(221.96deg, rgba(183, 171, 255, 0.3) 4.78%, rgba(103, 255, 255, 0.3) 100%);
+    backdrop-filter: blur(5px);
+    border: 3px solid #9498eb;
+    font-size: 17px;
+    font-weight: 900;
+    z-index: 20;
+    color: #9498eb;
+    box-shadow: 3px 3px 20px #00000021;
+  }
+  #el-apps .el-app.el-more-btn .el-icon::before,
+  #el-apps .el-app.el-more-btn .el-icon::after{
+    content: "";
+    position: absolute;
+    z-index: 10;
+    width: 6px;
+    height: 35px;
+    border-radius: 10px;
+    background: rgb(229 230 249);
+    transform-origin: center;
+    transition: 0.3s ease;
+  }
+  #el-apps .el-app.el-more-btn .el-icon::after{
+    transform: rotate(90deg);
+  }
+
+
+  #el-apps.el-drop-apps .el-app.el-more-btn .el-icon::after{
+    transform: rotate(45deg);
+  }
+  #el-apps.el-drop-apps .el-app.el-more-btn .el-icon::before{
+    transform: rotate(-45deg);
+  }
+
+
+  #el-apps .el-app.el-more-btn .el-icon span{
+    width: 28px;
+    height: 28px;
+    background: #000;
+    border-radius: 9px;
+    margin: 2px;
+    opacity: 0.7;
+    transform: scale(2.5);
+    filter: blur(3px);
+    transition: 0.3s ease-in-out;
+  }
+  #el-apps .el-app.el-more-btn .el-icon:hover span{
+    transform: scale(3);
+    opacity: 0.8;
+    filter: blur(5px);
+  }
+  #el-apps .el-app.el-more-btn:hover .el-icon{
+    transform: scale(0.8);
+    box-shadow: none !important;
+  }
+  #el-apps .el-app.el-more-btn .el-icon span:nth-child(1){
+    background: #77bfff73;
+  }
+  #el-apps .el-app.el-more-btn .el-icon span:nth-child(2){
+    background: #ffc27773;
+  }
+  #el-apps .el-app.el-more-btn .el-icon span:nth-child(3){
+    background: #ff77e873;
+  }
+  #el-apps .el-app.el-more-btn .el-icon span:nth-child(4){
+    background: #ff777773;
+  }
+
+  #el-apps .el-marketplace-link{
+    display: flex;
+    padding-top:  40px;
+    flex-flow: wrap row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    padding-left:  10px;
+  }
+  #el-apps .el-marketplace-link .el-label{
+    margin-right:  15px;
+    font-size: 20px;
+    color: #191F3D;
+    font-weight: 400;
+  }
+  #el-apps .el-marketplace-link .el-links-wrap{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+  }
+
+  #el-apps .el-marketplace-link .el-links-wrap .el-ic-link{
+    margin-left:  20px;
+  }
+  #el-apps .el-marketplace-link .el-links-wrap .el-ic-link a{
+    text-decoration: none;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: wrap row;
+    padding:  12px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 1px solid rgba(25, 31, 61, 0.1);
+    transition: 0.3s;
+  }
+  #el-apps .el-marketplace-link .el-links-wrap .el-ic-link a:hover{
+    border: 1px solid rgba(25, 31, 61, 0.2);
+  }
+
+
+
+  #el-apps .el-phone-mock{
+    width: 200px;
+
+    opacity: 0.7;
+
+    z-index: -10;
+    position: absolute;
+    top:  55px;
+    left: 40px;
+
+    transform: scale(1.1) rotate(-10deg) translateX(-25px);
+  }
+  #el-apps .el-phone-mock .el-phone img {
+    width: 100%;
+
+    filter: drop-shadow(30px 30px 40px #eaeaea);
+  }
+
+  #el-apps .el-bg-app{
+    height: calc(100% - 36px);
+    width: calc(100% - 32px);
+    background-color: #d2d2d2;
+
+    overflow: hidden;
+
+    z-index: 10;
+    position: absolute;
+    top: 14px;
+    left: 50%;
+    border-radius: 18px;
+
+    transform: translateX(-50%);
+  }
+  #el-apps .el-bg-app .slick-track,
+  #el-apps .el-bg-app .slick-list{
+    height: 100%;
+  }
+  #el-apps .el-bg-app img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  #el-apps .el-app-description {
+    min-height: 510px;
+    padding: 0 0 0 200px;
+
+    position: relative;
+  }
+  #el-apps .el-name-app{
+    animation: title-app-animation 0.4s ease-in-out forwards;
+  }
+  #el-apps .el-name-app {
+    margin-bottom:  40px;
+
+    font-weight: 900;
+    font-size: 30px;
+
+    text-shadow: 5px 5px 20px #dadada;
+  }
+  @keyframes title-app-animation {
+    0%{
+      opacity: 0;
+      filter: blur(4px);
+    }
+    100%{
+      opacity: 1;
+      filter: blur(0px);
+    }
+  }
+
+  #el-apps .el-app-details{
+    display: none;
+    flex-flow: wrap row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    margin-bottom:  20px;
+  }
+
+  #el-apps .el-app-details > div:not(:last-child){
+    margin-right:  25px;
+  }
+  #el-apps .el-app-details .el-app-icon{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 11px;
+    animation: icon-app-animation 0.4s ease-in-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+
+    filter: blur(4px);
+    transform: scale(0.6);
+  }
+
+  @keyframes icon-app-animation {
+    0%{
+      opacity: 0;
+      filter: blur(4px);
+      transform: scale(0.6);
+    }
+    100%{
+      opacity: 1;
+      filter: blur(0px);
+      transform: scale(1);
+    }
+  }
+
+  #el-apps .el-app-details .el-app-icon img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+  }
+
+  #el-apps .el-platform-app{
+    width: 50px;
+    height: 50px;
+    padding:  9px;
+    overflow: hidden;
+    border-radius: 11px;
+    border: 1px solid rgba(25, 31, 61, 0.1);
+  }
+  #el-apps .el-platform-app img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  #el-apps .el-subtitle-desk{
+    color: #191F3D;
+    display: none;
+    font-weight: 600;
+    margin-bottom:  20px;
+    padding-top:  20px;
+  }
+
+  #el-apps  .el-full-desk p,
+  #el-apps  .el-full-desk{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31px;
+    margin-bottom:  30px;
+    color: rgba(25, 31, 61, 0.71);
+  }
+  #el-apps  .el-full-desk{
+    animation: deskr-app-animation 0.4s ease-in-out forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
+    filter: blur(4px);
+    transform: translateY(10px);
+  }
+
+  @keyframes deskr-app-animation {
+    0%{
+      opacity: 0;
+      filter: blur(4px);
+      transform: translateY(10px);
+    }
+    100%{
+      opacity: 1;
+      filter: blur(0px);
+      transform: translateY(0px);
+    }
+  }
+
+  #el-apps  .el-app-link{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    animation: link-app-animation 0.4s ease-in-out forwards;
+    animation-delay: 0.3s;
+    opacity: 0;
+    filter: blur(4px);
+    transform: translateY(10px);
+  }
+
+  @keyframes link-app-animation {
+    0%{
+      opacity: 0;
+      filter: blur(4px);
+      transform: translateY(10px);
+    }
+    100%{
+      opacity: 1;
+      filter: blur(0px);
+      transform: translateY(0px);
+    }
+  }
+
+  .el-wrap-link-app{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-flow: wrap row;
+  }
+
+  #el-apps  .el-app-link a{
+    text-decoration: none;
+    margin-right:  25px;
+  }
+
+  p.el-empty-apps{
+    font-size: 18px;
+    color: #333;
+  }
+
+
+  @media(max-width: 1600px){
+    #el-apps .el-cat-tabs .el-tab .el-label {
+      font-size: 18px;
+    }
+    #el-apps .el-cat-tabs .el-tab{
+      margin-right:  11px;
+    }
+    #el-apps .el-title-section {
+      margin-bottom: 40px;
+    }
+    #el-apps .el-cat-tabs .el-tab .el-icon {
+      width: 28px;
+      height: 27px;
+      margin-top: 12px;
+      margin-bottom: 13px;
+      top: 3px;
+    }
+    #el-apps .el-icon-apps .el-app {
+      width: 83px;
+      height: 83px;
+    }
+
+    #el-apps .el-icon-apps .el-app .el-icon{
+      width: 67px;
+      height: 67px;
+    }
+    #el-apps .el-col-l {
+      width: 380px;
+    }
+
+    #el-apps .el-col-r{
+      width: calc(100% - 380px);
+    }
+
+    #el-apps .el-marketplace-link .el-label{
+      font-size: 18px;
+    }
+    #el-apps .el-marketplace-link .el-links-wrap .el-ic-link {
+      margin-left: 15px;
+    }
+    #el-apps .el-phone-mock{
+      transform: scale(0.9) rotate(-17deg);
+    }
+
+    #el-apps .el-name-app {
+      font-weight: 900;
+      font-size: 35px;
+      margin-bottom: 30px;
+    }
+
+    #el-apps .el-app-details{
+      margin-bottom:  10px;
+    }
+
+    #el-apps .el-full-desk p, #el-apps .el-full-desk {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      margin-bottom: 30px;
+    }
+
+    #el-apps::after{
+      width:  1000px;
+    }
+
+
+  }
+
+  @media(max-width: 1200px){
+    #el-apps .el-col-r{
+      position: relative;
+    }
+
+    #el-apps .el-phone-mock{
+      position: absolute;
+      right: 0;
+      opacity: 0.3;
+      top: initial;
+      bottom: 0;
+    }
+    .el-pazzle-part.el-pazzle-part-2 {
+      right: 10%;
+      top: 11%;
+    }
+    .el-pazzle-part {
+      position: absolute;
+      z-index: -11;
+    }
+  }
+
+  @media(max-width: 768px){
+    #el-apps .el-col-l{
+      width: 100%;
+      margin-bottom:  60px;
+    }
+    #el-apps .el-col-r{
+      width:  100%;
+      padding-left:  0;
+      padding-right:  40% ;
+    }
+    #el-apps::after {
+      width: 90%;
+      height: 977px;
+    }
+    #el-apps .el-phone-mock {
+      transform: scale(0.9) rotate(11deg);
+      right:  20px;
+    }
+    #el-apps .el-app.el-more-btn .el-count-apps{
+      font-size: 16px;
+      padding: 2px 9px;
+    }
+  }
+
+  @media(max-width: 480px){
+    #el-apps{
+      padding:  50px 0;
+      min-height: 10px;
+    }
+    #el-apps .el-phone-mock{
+      opacity: 0.2;
+    }
+    #el-apps .el-col-r{
+      padding-right:  0;
+    }
+    #el-apps .el-marketplace-link .el-label{
+      width: 100%;
+      margin-bottom:  20px;
+    }
+    #el-apps .el-marketplace-link .el-links-wrap{
+      width: 100%;
+    }
+    #el-apps .el-marketplace-link .el-links-wrap .el-ic-link:first-child{
+      margin-left:  0;
+    }
+    #el-apps .el-marketplace-link{
+      padding-left:  0;
+    }
+
+    #el-apps .el-cat-tabs{
+      flex-flow: nowrap row;
+      overflow: hidden;
+      overflow-x: auto;
+      justify-content: flex-start;
+    }
+
+    #el-apps .el-cat-tabs .el-tab{
+      flex-flow: nowrap row;
+    }
+
+    #el-apps .el-cat-tabs .el-tab .el-label {
+      white-space: nowrap;
+    }
+  }
+</style>
+
+  <div class="ag-format-container">
+
+  </div>
+
+  <section id="el-apps" class="el-activate-screen el-active-screen">
+    <div class="ag-format-container">
+        <div class="el-col el-col-l">
+          <div class="el-title-section">
+            Наши Проекты
+          </div>
+          <div class="el-apps">
+            <div class="el-cat-tabs">
+              <div class="el-tab el-cp el-active">
+                <div class="el-label">Keys</div>
+              </div>
+              <div class="el-tab el-cp">
+                <div class="el-label">Men</div>
+              </div>
+            </div>
+
+            <div class="el-icon-apps">
+              <ul class="el-tab-apps el-active">
+                <li class="el-app el-active">
+                  <div class="el-icon">
+                    <img src="images/logo-1.png" alt="">
+                  </div>
+                </li>
+                <li class="el-app">
+                  <div class="el-icon">
+                    <img src="images/logo-2.png" alt="">
+                  </div>
+                </li>
+                <li class="el-app">
+                  <div class="el-icon">
+                    <img src="images/logo-3.png" alt="">
+                  </div>
+                </li>
+                <li class="el-app">
+                  <div class="el-icon">
+                    <img src="images/logo-4.png" alt="">
+                  </div>
+                </li>
+                <li class="el-app">
+                  <div class="el-icon">
+                    <img src="images/logo-5.png" alt="">
+                  </div>
+                </li>
+                <li class="el-app">
+                  <div class="el-icon">
+                    <img src="images/logo-6.png" alt="">
+                  </div>
+                </li>
+                <li class="el-app">
+                  <div class="el-icon">
+                    <img src="images/logo-7.png" alt="">
+                  </div>
+                </li>
+                <li class="el-app">
+                  <div class="el-icon">
+                    <img src="images/logo-8.png" alt="">
+                  </div>
+                </li>
+                <li class="el-app">
+                  <div class="el-icon">
+                    <img src="images/logo-9.png" alt="">
+                  </div>
+                </li>
+              </ul>
+
+              <ul class="el-tab-apps">
+                <li class="el-app el-active">
+                  <div class="el-icon">
+                    <img src="images/ico-1.png" alt="">
+                  </div>
+                </li>
+                <li class="el-app">
+                  <div class="el-icon">
+                    <img src="images/ico-2.png" alt="">
+                  </div>
+                </li>
+                <li class="el-app">
+                  <div class="el-icon">
+                    <img src="images/ico-3.png" alt="">
+                  </div>
+                </li>
+                <li class="el-app">
+                  <div class="el-icon">
+                    <img src="images/ico-4.png" alt="">
+                  </div>
+                </li>
+                <li class="el-app">
+                  <div class="el-icon">
+                    <img src="images/ico-5.png" alt="">
+                  </div>
+                </li>
+                <li class="el-app">
+                  <div class="el-icon">
+                    <img src="images/ico-6.png" alt="">
+                  </div>
+                </li>
+                <li class="el-app">
+                  <div class="el-icon">
+                    <img src="images/ico-7.png" alt="">
+                  </div>
+                </li>
+                <li class="el-app">
+                  <div class="el-icon">
+                    <img src="images/ico-8.png" alt="">
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!--<div class="el-marketplace-link">
+              <div class="el-label">
+                Все наши проекты в:
+              </div>
+              <div class="el-links-wrap">
+                <div class="el-ic-link">
+                  <a href="#" target="_blank">
+                    <img src="images/google-play.png" alt="" />
+                  </a>
+                </div>
+                <div class="el-ic-link">
+                  <a href="#" target="_blank">
+                    <img src="images/app-store.png" alt="" />
+                  </a>
+                </div>
+              </div>
+            </div>-->
+          </div>
+        </div>
+
+        <div class="el-col-wrap">
+          <div class="el-col el-col-r">
+            <div class="el-app-description">
+              <div class="el-phone-mock">
+                <div class="el-phone">
+                  <img src="images/phone.png" alt="" />
+                </div>
+                <div class="el-bg-app slick-initialized slick-slider">
+                  <div class="slick-list draggable">
+                    <div class="slick-track">
+                      <img src="images/caveman.png" class="slick-slide" alt="Caveman" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="el-name-app">
+                Cool Wallpapers For Background
+              </div>
+              <div class="el-app-details">
+                <div class="el-app-icon">
+                  <img src="images/ico-1.png" alt="" />
+                </div>
+              </div>
+              <div class="el-about-app">
+                <div class="el-subtitle-desk">О продукте</div>
+                <div class="el-full-desk">Широкий выбор из бесчисленного множества стильных обоев, которые подойдут для
+                  любого случая!
+                </div>
+              </div>
+              <div class="el-wrap-link-app">
+                <div class="el-app-link">
+                  <a href="#" target="_blank">
+                    <img src="images/app-store-btn.png" alt="App Store" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+<!--[if lt IE 9]>
+<script src="libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="js/jquery/jquery-1.11.1.min.js"></script>
+
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/slider-slick/plugins/slick/slick.min.js"></script>
+
+<script src="js/main.js"></script>
+<script>
+  (function ($) {
+    $(document).ready(function () {
+
+      class Projects {
+
+        constructor() {
+          this.section = $('#el-apps');
+        }
+
+        selectTab() {
+          var $this = this;
+          var tabBtn = this.section.find('.el-apps .el-cat-tabs');
+
+          tabBtn.find('.el-tab').bind('click', function () {
+            var activeIndex = $(this).index();
+
+            $this.selectContent(activeIndex);
+
+            $(this).addClass('el-active');
+            $(this).siblings().removeClass('el-active');
+          });
+        }
+
+        /*dropMoreApps() {
+          var $this = this;
+
+          $this.section.find('.el-app.el-more-btn').bind('click', function () {
+            $this.section.toggleClass('el-drop-apps');
+
+            // Off Widget More Apps
+            if (!$this.section.hasClass('el-drop-apps') && $('#el-apps .el-drop-widget__apps .el-app.el-active').length > 0) {
+              $('#el-apps .el-tab-apps > .el-app').removeClass('el-active');
+            }
+
+            if (!$('#el-apps .el-drop-widget__apps .el-app.el-active').length > 0) {
+              $('#el-apps .el-drop-widget__apps .el-app').removeClass('el-active');
+            }
+
+            $('.el-drop-widget__apps').css({ bottom: $('#el-apps .el-app.el-more-btn').height() + 50 });
+          });
+
+        }*/
+
+        selectContent(index) {
+          var $this = this;
+
+          $this.section.find('.el-icon-apps .el-tab-apps').removeClass('el-active');
+          $this.section.find('.el-icon-apps .el-tab-apps').eq(index).addClass('el-active');
+
+          $this.section.find('.el-icon-apps .el-tab-apps').eq(index).find('.el-app').eq(0).trigger('click');
+        }
+
+
+
+
+
+       /* changeActiveIconApp(el, index) {
+          el.addClass('el-active');
+
+          if (el.parent().hasClass('el-tab-apps')) {
+            $('#el-apps .el-drop-widget__apps > .el-app').removeClass('el-active');
+          }
+
+          if (el.parent().hasClass('el-drop-widget__apps')) {
+            $('#el-apps .el-tab-apps > .el-app').removeClass('el-active');
+          }
+
+          el.siblings().removeClass('el-active');
+          //el.siblings().removeClass('el-active');
+        }*/
+
+
+
+
+/*
+        changeActiveContentApp(data) {
+          var $this = this;
+          var newContent = "";
+          var btnApp = {};
+
+          newContent += '<div class="el-name-app"><h5>' + data.name + '</h5></div>';
+          newContent += '<div class="el-app-details"><div class="el-app-icon"><img src="' + data.thumb + '" alt=""></div></div>';
+          newContent += '<div class="el-about-app"><div class="el-subtitle-desk">О продукте</div><div class="el-full-desk">' + data.description + '</div></div>';
+
+          if (data.platform) {
+            newContent += '<div class="el-wrap-link-app">';
+
+            $.each(data.platform, function (a, b) {
+              if (data.platform[a].select_marketplace === 'playmarket') {
+                btnApp.img = "https://appsidedev.com/wp-content/uploads/2021/05/google-play-badge-logo-png-transparent-1.png";
+              } else if (data.platform[a]['select_marketplace'] === 'aplstore') {
+                btnApp.img = "https://appsidedev.com/wp-content/uploads/2021/05/5847e95fcef1014c0b5e4822-1-e1620822436242.png";
+              }
+
+              newContent += '<div class="el-app-link"><a target="_blank" href="' + data.platform[a]['set_link'] + '"><img src="' + btnApp.img + '" alt=""></a></div>';
+            });
+
+            newContent += '</div>';
+          }
+
+          $this.section.find('.el-app-description').html(newContent);
+        }
+
+        changeActiveMockupApp(data) {
+          var $this = this;
+          var gallery = data.gallery;
+
+          if (!gallery) return false;
+
+          $this.section.find('.el-phone-mock .el-bg-app').slick('unslick');
+          $this.section.find('.el-phone-mock .el-bg-app').html(' ');
+
+          var newGallery = "";
+
+          $.each(gallery, function (a, b) {
+            newGallery += '<img src="' + b.url + '" />';
+          });
+
+          $this.section.find('.el-phone-mock .el-bg-app').html(newGallery);
+
+          $this.section.find('.el-bg-app').slick({
+            arrows: false,
+            dots: false,
+            fade: true,
+            cssEase: 'linear',
+            autoplay: 1,
+            slidesToShow: 1,
+            //centerMode: true,
+            rows: 0
+          });
+        }
+*/
+        selectApp() {
+          var $this = this;
+
+          $this.section.find('[data-app]').bind('click', function () {
+            alert(123);
+
+            //if($(this).hasClass('el-active')) return false;
+
+
+            //$this.changeActiveIconApp($(this), $(this).index());
+
+
+            /*$this.changeActiveContentApp($(this).data('app'));
+            $this.changeActiveMockupApp($(this).data('app'));*/
+          });
+        }
+        /*
+
+        initSlider() {
+          var $this = this;
+
+          $this.section.find('.el-bg-app').slick({
+            arrows: false,
+            dots: false,
+            fade: true,
+            cssEase: 'linear',
+            autoplay: 1,
+            slidesToShow: 1,
+            //centerMode: true,
+            rows: 0
+          })
+        }*/
+
+        init() {
+          var $this = this;
+          $this.selectTab();
+          $this.selectApp();
+          /*$this.initSlider();
+          $this.dropMoreApps();*/
+        }
+      }
+
+      var projects = new Projects();
+      projects.init();
+
+
+    });
+  })(jQuery);
+</script>
+</body>
+</html>
