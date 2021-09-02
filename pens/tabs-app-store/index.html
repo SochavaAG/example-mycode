@@ -166,7 +166,6 @@
     margin: 7px auto 0;
     background-color: #EEE;
 
-
     overflow: hidden;
 
     border-radius: 20px;
@@ -1031,7 +1030,7 @@
           var newContent = "";
           var btnApp = {};
 
-          newContent += '<div class="el-name-app"><h5>' + data.name + '</h5></div>';
+          newContent += '<div class="el-name-app">' + data.name + '</div>';
           newContent += '<div class="el-app-details"><div class="el-app-icon"><img src="' + data.thumb + '" alt=""></div></div>';
           newContent += '<div class="el-about-app"><div class="el-subtitle-desk">О продукте</div><div class="el-full-desk">' + data.description + '</div></div>';
 
@@ -1086,8 +1085,19 @@
         selectApp() {
           var $this = this;
 
+        /*  var scene={};
+          $.getJSON('https://raw.githack.com/SochavaAG/example-mycode/master/pens/tabs-app-store/js/items.json', function(data) {
+            scene=data;
+          });*/
+
           $this.section.find('[data-app]').bind('click', function () {
             alert(123);
+
+            var scene={};
+
+            $.getJSON('https://raw.githack.com/SochavaAG/example-mycode/master/pens/tabs-app-store/js/items.json', function(data) {
+              scene = data;
+            });
 
             //if($(this).hasClass('el-active')) return false;
 
