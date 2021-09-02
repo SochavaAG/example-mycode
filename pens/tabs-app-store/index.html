@@ -784,47 +784,47 @@
 
             <div class="el-icon-apps">
               <ul class="el-tab-apps el-active">
-                <li class="el-app el-active">
+                <li class="js-app_item js-app_item-1-1 el-app el-active">
                   <div class="el-icon">
                     <img src="images/logo-1.png" alt="">
                   </div>
                 </li>
-                <li class="el-app">
+                <li class="js-app_item js-app_item-1-2 el-app">
                   <div class="el-icon">
                     <img src="images/logo-2.png" alt="">
                   </div>
                 </li>
-                <li class="el-app">
+                <li class="js-app_item js-app_item-1-3 el-app">
                   <div class="el-icon">
                     <img src="images/logo-3.png" alt="">
                   </div>
                 </li>
-                <li class="el-app">
+                <li class="js-app_item js-app_item-1-4 el-app">
                   <div class="el-icon">
                     <img src="images/logo-4.png" alt="">
                   </div>
                 </li>
-                <li class="el-app">
+                <li class="js-app_item js-app_item-1-5 el-app">
                   <div class="el-icon">
                     <img src="images/logo-5.png" alt="">
                   </div>
                 </li>
-                <li class="el-app">
+                <li class="js-app_item js-app_item-1-6 el-app">
                   <div class="el-icon">
                     <img src="images/logo-6.png" alt="">
                   </div>
                 </li>
-                <li class="el-app">
+                <li class="js-app_item js-app_item-1-7 el-app">
                   <div class="el-icon">
                     <img src="images/logo-7.png" alt="">
                   </div>
                 </li>
-                <li class="el-app">
+                <li class="js-app_item js-app_item-1-8 el-app">
                   <div class="el-icon">
                     <img src="images/logo-8.png" alt="">
                   </div>
                 </li>
-                <li class="el-app">
+                <li class="js-app_item js-app_item-1-9 el-app">
                   <div class="el-icon">
                     <img src="images/logo-9.png" alt="">
                   </div>
@@ -832,42 +832,42 @@
               </ul>
 
               <ul class="el-tab-apps">
-                <li class="el-app el-active">
+                <li class="el-app js-app_item-2-1 el-active">
                   <div class="el-icon">
                     <img src="images/ico-1.png" alt="">
                   </div>
                 </li>
-                <li class="el-app">
+                <li class="el-app js-app_item-2-2">
                   <div class="el-icon">
                     <img src="images/ico-2.png" alt="">
                   </div>
                 </li>
-                <li class="el-app">
+                <li class="el-app js-app_item-2-3">
                   <div class="el-icon">
                     <img src="images/ico-3.png" alt="">
                   </div>
                 </li>
-                <li class="el-app">
+                <li class="el-app js-app_item-2-4">
                   <div class="el-icon">
                     <img src="images/ico-4.png" alt="">
                   </div>
                 </li>
-                <li class="el-app">
+                <li class="el-app js-app_item-2-5">
                   <div class="el-icon">
                     <img src="images/ico-5.png" alt="">
                   </div>
                 </li>
-                <li class="el-app">
+                <li class="el-app js-app_item-2-6">
                   <div class="el-icon">
                     <img src="images/ico-6.png" alt="">
                   </div>
                 </li>
-                <li class="el-app">
+                <li class="el-app js-app_item-2-7">
                   <div class="el-icon">
                     <img src="images/ico-7.png" alt="">
                   </div>
                 </li>
-                <li class="el-app">
+                <li class="el-app js-app_item-2-8">
                   <div class="el-icon">
                     <img src="images/ico-8.png" alt="">
                   </div>
@@ -1024,7 +1024,7 @@
 
 
 
-/*
+
         changeActiveContentApp(data) {
           var $this = this;
           var newContent = "";
@@ -1081,29 +1081,30 @@
             rows: 0
           });
         }
-*/
+
         selectApp() {
           var $this = this;
 
-        /*  var scene={};
-          $.getJSON('https://raw.githack.com/SochavaAG/example-mycode/master/pens/tabs-app-store/js/items.json', function(data) {
-            scene=data;
-          });*/
-
-          $this.section.find('[data-app]').bind('click', function () {
-            alert(123);
-
-            var scene={};
-
-            $.getJSON('https://raw.githack.com/SochavaAG/example-mycode/master/pens/tabs-app-store/js/items.json', function(data) {
-              scene = data;
-            });
-
+          $this.section.find('.js-app_item').bind('click', function () {
             //if($(this).hasClass('el-active')) return false;
 
 
             //$this.changeActiveIconApp($(this), $(this).index());
 
+
+            alert(123);
+
+            var scene = {};
+
+            $.getJSON('https://raw.githack.com/SochavaAG/example-mycode/master/pens/tabs-app-store/js/items-new.json', function(data) {
+              scene = data;
+
+              console.log(scene['item-1-1']['gallery']);
+              console.log(scene['item-1-1']['description']);
+
+              $this.changeActiveContentApp(scene['item-1-1']);
+              $this.changeActiveMockupApp(scene['item-1-1']);
+            });
 
             /*$this.changeActiveContentApp($(this).data('app'));
             $this.changeActiveMockupApp($(this).data('app'));*/
