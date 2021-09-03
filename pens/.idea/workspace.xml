@@ -205,11 +205,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tabs-app-store/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="456">
+              <caret line="19" column="136" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="136" />
               <folding />
             </state>
           </provider>
@@ -273,11 +273,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tabs-app-store/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="236">
-              <caret line="439" column="20" lean-forward="false" selection-start-line="439" selection-start-column="20" selection-end-line="439" selection-end-column="20" />
+              <caret line="439" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="500" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tabs-app-store/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="148" column="11" lean-forward="false" selection-start-line="148" selection-start-column="11" selection-end-line="148" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -287,7 +297,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>el-about-app</find>
       <find>changeActiveMockupApp</find>
       <find>js-apps-tabs_tab</find>
       <find>js-apps_descr</find>
@@ -315,11 +324,11 @@
       <find>js-apps-subtabs-block</find>
       <find>icon-app-animation</find>
       <find>an-apps-info_descr</find>
-      <find>.ag-apps-subtabs_icon</find>
       <find>ag-apps-tabs_tabs</find>
+      <find>.ag-apps-subtabs_icon</find>
+      <find>images/</find>
     </findStrings>
     <replaceStrings>
-      <replace>js-apps-tabs_tabs</replace>
       <replace>ag-apps-tabs_tabs</replace>
       <replace>js-ag-active</replace>
       <replace>js-ag-apps-subtabs-block</replace>
@@ -349,6 +358,7 @@
       <replace>an-apps-info_name</replace>
       <replace>an-apps-info_descr</replace>
       <replace>an-apps-show</replace>
+      <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/tabs-app-store/images/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -376,7 +386,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/range-years-noUi/css/style.css" />
         <option value="$PROJECT_DIR$/range-years-noUi/index.html" />
         <option value="$PROJECT_DIR$/hover-svg/index.html" />
         <option value="$PROJECT_DIR$/hover-svg/css/style.css" />
@@ -425,8 +434,9 @@
         <option value="$USER_HOME$/format-2.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.09.03_riddle/riddle.html" />
         <option value="$PROJECT_DIR$/tabs-app-store/js/items-new.json" />
-        <option value="$PROJECT_DIR$/tabs-app-store/index.html" />
         <option value="$PROJECT_DIR$/tabs-app-store/css/style.css" />
+        <option value="$PROJECT_DIR$/tabs-app-store/js/main.js" />
+        <option value="$PROJECT_DIR$/tabs-app-store/index.html" />
       </list>
     </option>
   </component>
@@ -671,12 +681,12 @@
       <workItem from="1628750885756" duration="18307000" />
       <workItem from="1629356423171" duration="20254000" />
       <workItem from="1630056679389" duration="13962000" />
-      <workItem from="1630656440481" duration="21535000" />
+      <workItem from="1630656440481" duration="21902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="968810000" />
+    <option name="totallyTimeSpent" value="969177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -721,13 +731,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/simple-snippet_footer-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="67" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/style.css" />
     <entry file="file://$USER_HOME$/landing-pages/2021.05.27_landing_30-welcome-asia/30-welcome-asia-EN.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1081,18 +1084,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tabs-app-store/index.html">
+    <entry file="file://$PROJECT_DIR$/tabs-app-store/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="236">
+          <caret line="439" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="500" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tabs-app-store/css/style.css">
+    <entry file="file://$PROJECT_DIR$/tabs-app-store/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="439" column="20" lean-forward="false" selection-start-line="439" selection-start-column="20" selection-end-line="439" selection-end-column="20" />
+        <state relative-caret-position="736">
+          <caret line="148" column="11" lean-forward="false" selection-start-line="148" selection-start-column="11" selection-end-line="148" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tabs-app-store/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="136" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="136" />
           <folding />
         </state>
       </provider>
