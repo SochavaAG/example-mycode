@@ -19,9 +19,21 @@
 </head>
 
 <body>
+<style>
+  #el-header {
+    min-height: 1000px;
+    padding: 30% 0 0;
+  }
+</style>
+
   <div class="ag-format-container">
-    <lottie-player data-offset="300" mode="normal" style="width: 100%" background="transparent"></lottie-player>
   </div>
+
+<section id="el-header">
+  <div class="el-square">
+    <lottie-player></lottie-player>
+  </div>
+</section>
 
 <!--[if lt IE 9]>
 <script src="libs/IE/html5shiv/es5-shim.min.js"></script>
@@ -31,7 +43,36 @@
 <![endif]-->
 <script src="js/jquery/jquery-1.11.1.min.js"></script>
 
-  <script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/scroll-puzzle-lottie-player/js/lottie-player.js"></script>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/scroll-puzzle-lottie-player/js/lottie-player.js"></script>
 <script src="js/main.js"></script>
+<script>
+  (function ($) {
+    $(function () {
+
+
+      var player = $('lottie-player')[0];
+      player.load("https://raw.githack.com/SochavaAG/example-mycode/master/pens/scroll-puzzle-lottie-player/js/pzl.json");
+
+      var sWindow = $(window).scrollTop();
+
+      startAnimation(sWindow);
+
+      function startAnimation(argTop) {
+        var agSquare = $('.el-square');
+
+        $(window).bind('scroll load', function () {
+          var argTop = argTop || $(window).scrollTop(),
+                offsetTop = 70,
+                timeVideo = 38,
+                newPercentStart = parseInt((argTop / (agSquare.offset().top - offsetTop)) * timeVideo);
+
+          player.seek(newPercentStart);
+        });
+      }
+
+
+    });
+  })(jQuery);
+</script>
 </body>
 </html>
