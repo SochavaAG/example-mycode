@@ -407,7 +407,7 @@
         <entry file="file://$PROJECT_DIR$/scroll-puzzle-lottie-player/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="35" column="74" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="74" />
+              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -446,8 +446,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scroll-items/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="926">
-              <caret line="62" column="40" lean-forward="false" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+            <state relative-caret-position="158">
+              <caret line="66" column="89" lean-forward="false" selection-start-line="66" selection-start-column="89" selection-end-line="66" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -482,11 +482,11 @@
       <find>.ag-benefits_item</find>
       <find>.ag-benefits_icon-3</find>
       <find>el-header</find>
-      <find>el-square</find>
       <find>https://appsidedev.com/wp-content/themes/elinsTemplate/assets/img/feature/</find>
       <find>.svg</find>
       <find>https://appsidedev.com/wp-content/uploads//2021/02/</find>
       <find>https:\/\/appsidedev.com\/wp-content\/uploads\/2021\/02\/</find>
+      <find>el-square</find>
     </findStrings>
     <replaceStrings>
       <replace>ag-benefits_icon-2</replace>
@@ -516,9 +516,9 @@
       <replace>.ag-zulu-faq_text-item</replace>
       <replace>&quot;ag-zulu-faq_text-item&quot;</replace>
       <replace>js-puzzle</replace>
-      <replace>js-square</replace>
       <replace>images/</replace>
       <replace>images\/</replace>
+      <replace>js-square</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -843,12 +843,12 @@
       <workItem from="1630056679389" duration="13962000" />
       <workItem from="1630656440481" duration="21965000" />
       <workItem from="1630911906095" duration="22470000" />
-      <workItem from="1631084493131" duration="3585000" />
+      <workItem from="1631084493131" duration="3820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="995295000" />
+    <option name="totallyTimeSpent" value="995530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -1270,14 +1270,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scroll-puzzle-lottie-player/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="35" column="74" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../zagotovka/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="556">
@@ -1302,10 +1294,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scroll-puzzle-lottie-player/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scroll-items/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="926">
-          <caret line="62" column="40" lean-forward="false" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+        <state relative-caret-position="158">
+          <caret line="66" column="89" lean-forward="false" selection-start-line="66" selection-start-column="89" selection-end-line="66" selection-end-column="89" />
           <folding />
         </state>
       </provider>
