@@ -19,81 +19,363 @@
 </head>
 
 <body>
-  <div class="ag-format-container">
+<style>
+  .ag-primary-block {
+    height: 100vh;
+    line-height: 100vh;
 
-  </div>
+    text-align: center;
+    font-size: 80px;
+  }
+  .ag-feature-block {
+    padding: 0 0 50px;
 
-  <section id="el-feature" class="el-activate-screen el-active-screen">
-    <div class="el-box">
-      <div class="el-wrap-column">
-        <div class="el-column-title">
-          <div class="el-title">
-            Nullam dictum
+    opacity: .3;
+
+    overflow: hidden;
+
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
+    transform: translateY(50px);
+
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+  }
+  .ag-feature-block.js-ag-active {
+    opacity: 1;
+
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .ag-feature_title-box {
+    float: left;
+    width: 35%;
+    padding: 0 50px 20px 0;
+
+    font-weight: bold;
+    font-size: 46px;
+    color: #191F3D;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -webkit-transform: translateY(60px);
+    -moz-transform: translateY(60px);
+    -ms-transform: translateY(60px);
+    -o-transform: translateY(60px);
+    transform: translateY(60px);
+
+    -webkit-transition: 1s ease-in;
+    -moz-transition: 1s ease-in;
+    -o-transition: 1s ease-in;
+    transition: 1s ease-in;
+  }
+  .ag-feature_title-box.js-ag-active {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .ag-feature_col__wrap {
+    overflow: hidden;
+  }
+  .ag-feature_list {
+    padding: 10px 0;
+
+    font-size: 0;
+  }
+  .ag-feature_item {
+    display: inline-block;
+    width: 50%;
+    padding: 0 40px 50px 0;
+
+    opacity: 0;
+
+    vertical-align: top;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -webkit-transform: translateY(40px);
+    -moz-transform: translateY(40px);
+    -ms-transform: translateY(40px);
+    -o-transform: translateY(40px);
+    transform: translateY(40px);
+
+    -webkit-animation: an-show .7s ease-in-out forwards;
+    -moz-animation: an-show .7s ease-in-out forwards;
+    -o-animation: an-show .7s ease-in-out forwards;
+    animation: an-show .7s ease-in-out forwards;
+  }
+  .ag-feature_title {
+    display: table-cell;
+    height: 50px;
+    padding: 0 0 20px 65px;
+
+    vertical-align: middle;
+    font-size: 22px;
+    color: #191F3D;
+
+    position: relative;
+  }
+  .ag-feature_title:before {
+    content: "";
+    height: 50px;
+    width: 50px;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .ag-feature_title-1:before {
+    background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/icon-54-8.svg) no-repeat scroll 0 0;
+    background-size: cover;
+  }
+  .ag-feature_title-2:before {
+    background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/icon-54-9.svg) no-repeat scroll 0 0;
+    background-size: cover;
+  }
+  .ag-feature_title-3:before {
+    background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/icon-54-10.svg) no-repeat scroll 0 0;
+    background-size: cover;
+  }
+  .ag-feature_title-4:before {
+    background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/icon-54-11.svg) no-repeat scroll 0 0;
+    background-size: cover;
+  }
+  .ag-feature_text {
+    line-height: 1.45;
+
+    font-size: 16px;
+    color: #191F3D;
+  }
+
+  @-webkit-keyframes an-show {
+    0% {
+      opacity: 0;
+
+      -webkit-transform: translateY(40px);
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  @-moz-keyframes an-show {
+    0% {
+      opacity: 0;
+
+      -moz-transform: translateY(40px);
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+
+      -moz-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  @-o-keyframes an-show {
+    0% {
+      opacity: 0;
+
+      -o-transform: translateY(40px);
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+
+      -o-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  @keyframes an-show {
+    0% {
+      opacity: 0;
+
+      -webkit-transform: translateY(40px);
+      -moz-transform: translateY(40px);
+      -o-transform: translateY(40px);
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+
+      -webkit-transform: translateY(0);
+      -moz-transform: translateY(0);
+      -o-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+</style>
+
+
+<section class="ag-primary-block">
+  ↓ Scroll Down ↓
+</section>
+
+<section class="js-feature-block ag-feature-block">
+  <div class="ag-format-container clearfix">
+      <div class="ag-feature_title-box">
+        Nullam dictum
+      </div>
+    <div class="ag-feature_col__wrap">
+      <div class="ag-feature_list">
+        <div class="ag-feature_item">
+          <div class="ag-feature_title ag-feature_title-1">
+            Lorem
+          </div>
+          <div class="ag-feature_text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+            massa.
           </div>
         </div>
-        <div class="el-column-info">
-          <div class="el-feature-wrap">
-            <div class="el-item">
-              <div class="el-row-title">
-                <div class="el-ic-title">
-                  <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/icon-54-8.svg" alt=""/>
-                </div>
-                <div class="el-f-title">
-                  Lorem
-                </div>
-              </div>
-              <div class="el-excerpt">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-                massa.
-              </div>
+        <div class="ag-feature_item">
+          <div class="ag-feature_title ag-feature_title-2">
+            Maecenas
+          </div>
+          <div class="ag-feature_text">
+            Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque
+            sed ipsum.
+          </div>
+        </div>
+        <div class="ag-feature_item">
+          <div class="ag-feature_title ag-feature_title-3">
+            Nam quam nunc
+          </div>
+          <div class="ag-feature_text">
+            Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
+            tempus. Phasellus viverra nulla ut metus varius laoreet.
+          </div>
+        </div>
+        <div class="ag-feature_item">
+          <div class="el-row-title">
+            <div class="ag-feature_title ag-feature_title-4">
+              Aenean vulputate
             </div>
-            <div class="el-item">
-              <div class="el-row-title">
-                <div class="el-ic-title">
-                  <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/icon-54-9.svg" alt=""/>
-                </div>
-                <div class="el-f-title">
-                  Maecenas
-                </div>
-              </div>
-              <div class="el-excerpt">
-                Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque
-                sed ipsum.
-              </div>
-            </div>
-            <div class="el-item">
-              <div class="el-row-title">
-                <div class="el-ic-title">
-                  <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/icon-54-10.svg" alt=""/>
-                </div>
-                <div class="el-f-title">
-                  Nam quam nunc
-                </div>
-              </div>
-              <div class="el-excerpt">
-                Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
-                tempus. Phasellus viverra nulla ut metus varius laoreet.
-              </div>
-            </div>
-            <div class="el-item">
-              <div class="el-row-title">
-                <div class="el-ic-title">
-                  <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/icon-54-11.svg" alt=""/>
-                </div>
-                <div class="el-f-title">
-                  Aenean vulputate
-                </div>
-              </div>
-              <div class="el-excerpt">
-                Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
-                Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-              </div>
+            <div class="ag-feature_text">
+              Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+              Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+<section class="js-feature-block ag-feature-block">
+  <div class="ag-format-container clearfix">
+    <div class="ag-feature_title-box">
+      Nullam dictum
+    </div>
+    <div class="ag-feature_col__wrap">
+      <div class="ag-feature_list">
+        <div class="ag-feature_item">
+          <div class="ag-feature_title ag-feature_title-1">
+            Lorem
+          </div>
+          <div class="ag-feature_text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+            massa.
+          </div>
+        </div>
+        <div class="ag-feature_item">
+          <div class="ag-feature_title ag-feature_title-2">
+            Maecenas
+          </div>
+          <div class="ag-feature_text">
+            Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque
+            sed ipsum.
+          </div>
+        </div>
+        <div class="ag-feature_item">
+          <div class="ag-feature_title ag-feature_title-3">
+            Nam quam nunc
+          </div>
+          <div class="ag-feature_text">
+            Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
+            tempus. Phasellus viverra nulla ut metus varius laoreet.
+          </div>
+        </div>
+        <div class="ag-feature_item">
+          <div class="el-row-title">
+            <div class="ag-feature_title ag-feature_title-4">
+              Aenean vulputate
+            </div>
+            <div class="ag-feature_text">
+              Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+              Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="js-feature-block ag-feature-block">
+  <div class="ag-format-container clearfix">
+    <div class="ag-feature_title-box">
+      Nullam dictum
+    </div>
+    <div class="ag-feature_col__wrap">
+      <div class="ag-feature_list">
+        <div class="ag-feature_item">
+          <div class="ag-feature_title ag-feature_title-1">
+            Lorem
+          </div>
+          <div class="ag-feature_text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+            massa.
+          </div>
+        </div>
+        <div class="ag-feature_item">
+          <div class="ag-feature_title ag-feature_title-2">
+            Maecenas
+          </div>
+          <div class="ag-feature_text">
+            Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque
+            sed ipsum.
+          </div>
+        </div>
+        <div class="ag-feature_item">
+          <div class="ag-feature_title ag-feature_title-3">
+            Nam quam nunc
+          </div>
+          <div class="ag-feature_text">
+            Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt
+            tempus. Phasellus viverra nulla ut metus varius laoreet.
+          </div>
+        </div>
+        <div class="ag-feature_item">
+          <div class="el-row-title">
+            <div class="ag-feature_title ag-feature_title-4">
+              Aenean vulputate
+            </div>
+            <div class="ag-feature_text">
+              Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.
+              Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!--[if lt IE 9]>
 <script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/html5shiv/es5-shim.min.js"></script>
