@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="74px" viewBox="0 0 90 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon_parking-car</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="264" height="325"></rect>
+        <filter x="-4.9%" y="-3.4%" width="109.8%" height="108.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_homepage_mcparking" transform="translate(-525.000000, -1042.000000)">
+            <g id="Group-5" transform="translate(438.000000, 1007.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="icon_parking-car" transform="translate(81.000000, 20.000000)" fill-rule="nonzero">
+                    <g id="Group" transform="translate(6.000000, 15.000000)">
+                        <rect id="Rectangle" fill="#0153B8" x="13" y="26" width="3" height="48" rx="1.5"></rect>
+                        <rect id="Rectangle" stroke="#0153B8" stroke-width="3" x="1.5" y="1.5" width="26" height="26" rx="5"></rect>
+                        <rect id="Rectangle" stroke="#0153B8" stroke-width="3" x="7.5" y="72.5" width="13" height="1" rx="0.5"></rect>
+                    </g>
+                    <path d="M78.5660045,48.5 L43.4339955,48.5 C42.7098949,48.5 42.023186,48.7229753 41.452518,49.1149096 C40.8818499,49.5068438 40.4272228,50.0677372 40.1672859,50.7435732 L36.2857476,60.8355728 L32.5,64.8284271 L32.5,78 C32.5,78.9664983 32.8917508,79.8414983 33.5251263,80.4748737 C34.1585017,81.1082492 35.0335017,81.5 36,81.5 L86,81.5 C86.9664983,81.5 87.8414983,81.1082492 88.4748737,80.4748737 C89.1082492,79.8414983 89.5,78.9664983 89.5,78 L89.3535534,64.4748737 L85.7142524,60.8355728 L81.8327141,50.7435732 C81.5727772,50.0677372 81.1181501,49.5068438 80.547482,49.1149096 C79.976814,48.7229753 79.2901051,48.5 78.5660045,48.5 Z" id="Rectangle" stroke="#0153B8" stroke-width="3"></path>
+                    <path d="M42.5,81.5 L34.5,81.5 L35,87.5 L42.5,87 L42.5,81.5 Z" id="Rectangle" stroke="#0153B8" stroke-width="3" fill="#FFFFFF"></path>
+                    <path d="M87.5,81.5 L79.5,81.5 L80,87.5 L87.5,87 L87.5,81.5 Z" id="Rectangle" stroke="#0153B8" stroke-width="3" fill="#FFFFFF"></path>
+                    <rect id="Rectangle" fill="#0153B8" x="36" y="59" width="30" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle" fill="#0153B8" x="74" y="59" width="12" height="3" rx="1.5"></rect>
+                    <rect id="Rectangle" fill="#0153B8" x="68" y="59" width="4" height="3" rx="1.5"></rect>
+                    <path d="M71,76.5 L52,76.5 C51.0335017,76.5 50.1585017,76.8917508 49.5251263,77.5251263 C48.8917508,78.1585017 48.5,79.0335017 48.5,80 L48.5,81.5 L74.5,81.5 L74.5,80 C74.5,79.0335017 74.1082492,78.1585017 73.4748737,77.5251263 C72.8414983,76.8917508 71.9664983,76.5 71,76.5 Z" id="Rectangle" stroke="#0153B8" stroke-width="3"></path>
+                    <path d="M74,66.5 L48.5,67 L48.5,69 C48.5,69.6903559 48.779822,70.3153559 49.232233,70.767767 C49.6846441,71.220178 50.3096441,71.5 51,71.5 L72,71.5 C72.6903559,71.5 73.3153559,71.220178 73.767767,70.767767 C74.220178,70.3153559 74.5,69.6903559 74.5,69 L74,66.5 Z" id="Rectangle" stroke="#0153B8" stroke-width="3"></path>
+                    <rect id="Rectangle" stroke="#0153B8" stroke-width="3" x="37.5" y="66.5" width="6" height="5" rx="2.5"></rect>
+                    <rect id="Rectangle" stroke="#0153B8" stroke-width="3" x="27.5" y="58.5" width="7" height="5" rx="2.5"></rect>
+                    <rect id="Rectangle" stroke="#0153B8" stroke-width="3" x="87.5" y="58.5" width="7" height="5" rx="2.5"></rect>
+                    <rect id="Rectangle" stroke="#0153B8" stroke-width="3" x="78.5" y="66.5" width="6" height="5" rx="2.5"></rect>
+                    <g id="Group-3" transform="translate(15.000000, 23.000000)" stroke="#0153B8" stroke-width="3">
+                        <rect id="Rectangle" x="1.5" y="1.5" width="1" height="10" rx="0.5"></rect>
+                        <path d="M6.5,1.5 L1.5,1.5 L1.5,8.5 L6.5,8.5 C7.32842712,8.5 8.07842712,8.16421356 8.62132034,7.62132034 C9.16421356,7.07842712 9.5,6.32842712 9.5,5.5 L9.5,4.5 C9.5,3.67157288 9.16421356,2.92157288 8.62132034,2.37867966 C8.07842712,1.83578644 7.32842712,1.5 6.5,1.5 Z" id="Rectangle"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

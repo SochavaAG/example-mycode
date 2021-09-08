@@ -443,21 +443,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scroll-items/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="77" column="99" lean-forward="true" selection-start-line="77" selection-start-column="99" selection-end-line="77" selection-end-column="99" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/example-site-1/appsidedev.com (JS object)/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="2170" column="0" lean-forward="false" selection-start-line="2170" selection-start-column="0" selection-end-line="2170" selection-end-column="0" />
+            <state relative-caret-position="926">
+              <caret line="62" column="40" lean-forward="false" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -605,8 +595,8 @@
         <option value="$PROJECT_DIR$/scroll-puzzle-lottie-player/css/style.css" />
         <option value="$PROJECT_DIR$/../zagotovka/index.html" />
         <option value="$PROJECT_DIR$/scroll-item/index.html" />
-        <option value="$PROJECT_DIR$/scroll-items/index.html" />
         <option value="$USER_HOME$/example-site-1/appsidedev.com (JS object)/index.html" />
+        <option value="$PROJECT_DIR$/scroll-items/index.html" />
       </list>
     </option>
   </component>
@@ -853,12 +843,12 @@
       <workItem from="1630056679389" duration="13962000" />
       <workItem from="1630656440481" duration="21965000" />
       <workItem from="1630911906095" duration="22470000" />
-      <workItem from="1631084493131" duration="2106000" />
+      <workItem from="1631084493131" duration="3585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="993816000" />
+    <option name="totallyTimeSpent" value="995295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -1304,18 +1294,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scroll-items/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="77" column="99" lean-forward="true" selection-start-line="77" selection-start-column="99" selection-end-line="77" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/example-site-1/appsidedev.com (JS object)/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="2170" column="0" lean-forward="false" selection-start-line="2170" selection-start-column="0" selection-end-line="2170" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scroll-items/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="926">
+          <caret line="62" column="40" lean-forward="false" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
           <folding />
         </state>
       </provider>
