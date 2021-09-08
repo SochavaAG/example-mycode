@@ -4,6 +4,10 @@
 }
 
 
+#js-puzzle {
+  min-height: 1000px;
+  padding: 30% 0 0;
+}
 
 
 @media only screen and (max-width: 767px) {

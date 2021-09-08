@@ -19,18 +19,8 @@
 </head>
 
 <body>
-<style>
-  #el-header {
-    min-height: 1000px;
-    padding: 30% 0 0;
-  }
-</style>
-
-  <div class="ag-format-container">
-  </div>
-
-<section id="el-header">
-  <div class="el-square">
+<section id="js-puzzle">
+  <div id="js-square">
     <lottie-player></lottie-player>
   </div>
 </section>
@@ -45,34 +35,5 @@
 
 <script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/scroll-puzzle-lottie-player/js/lottie-player.js"></script>
 <script src="js/main.js"></script>
-<script>
-  (function ($) {
-    $(function () {
-
-
-      var player = $('lottie-player')[0];
-      player.load("https://raw.githack.com/SochavaAG/example-mycode/master/pens/scroll-puzzle-lottie-player/js/pzl.json");
-
-      var sWindow = $(window).scrollTop();
-
-      startAnimation(sWindow);
-
-      function startAnimation(argTop) {
-        var agSquare = $('.el-square');
-
-        $(window).bind('scroll load', function () {
-          var argTop = argTop || $(window).scrollTop(),
-                offsetTop = 70,
-                timeVideo = 38,
-                newPercentStart = parseInt((argTop / (agSquare.offset().top - offsetTop)) * timeVideo);
-
-          player.seek(newPercentStart);
-        });
-      }
-
-
-    });
-  })(jQuery);
-</script>
 </body>
 </html>
