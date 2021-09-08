@@ -406,8 +406,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scroll-puzzle-lottie-player/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="35" column="121" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="121" />
+            <state relative-caret-position="437">
+              <caret line="35" column="74" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -446,8 +446,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../zagotovka/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="484">
+              <caret line="31" column="115" lean-forward="false" selection-start-line="31" selection-start-column="115" selection-end-line="31" selection-end-column="115" />
               <folding />
             </state>
           </provider>
@@ -546,7 +546,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scroll-item-animation/js/main.js" />
         <option value="$PROJECT_DIR$/horizontal-slider-carousel/js/wpo-minify-footer-91a8291c.min.js" />
         <option value="$PROJECT_DIR$/horizontal-slider-carousel/index.html" />
         <option value="$USER_HOME$/Desktop/wpo-minify-footer-91a8291c.min.js" />
@@ -597,6 +596,7 @@
         <option value="$PROJECT_DIR$/scroll-puzzle-lottie-player/js/main.js" />
         <option value="$PROJECT_DIR$/scroll-puzzle-lottie-player/index.html" />
         <option value="$PROJECT_DIR$/scroll-puzzle-lottie-player/css/style.css" />
+        <option value="$PROJECT_DIR$/../zagotovka/index.html" />
       </list>
     </option>
   </component>
@@ -843,12 +843,12 @@
       <workItem from="1630056679389" duration="13962000" />
       <workItem from="1630656440481" duration="21965000" />
       <workItem from="1630911906095" duration="22470000" />
-      <workItem from="1631084493131" duration="1107000" />
+      <workItem from="1631084493131" duration="1418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="992817000" />
+    <option name="totallyTimeSpent" value="993128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -1286,14 +1286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scroll-puzzle-lottie-player/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="35" column="121" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="121" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scroll-item/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1302,10 +1294,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scroll-puzzle-lottie-player/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" column="74" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../zagotovka/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="484">
+          <caret line="31" column="115" lean-forward="false" selection-start-line="31" selection-start-column="115" selection-end-line="31" selection-end-column="115" />
           <folding />
         </state>
       </provider>
