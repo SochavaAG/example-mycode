@@ -434,20 +434,30 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scroll-item/index.html">
+        <entry file="file://$PROJECT_DIR$/../zagotovka/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="556">
+              <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scroll-items/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="77" column="99" lean-forward="true" selection-start-line="77" selection-start-column="99" selection-end-line="77" selection-end-column="99" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../zagotovka/index.html">
+        <entry file="file://$USER_HOME$/example-site-1/appsidedev.com (JS object)/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="31" column="115" lean-forward="false" selection-start-line="31" selection-start-column="115" selection-end-line="31" selection-end-column="115" />
+            <state relative-caret-position="241">
+              <caret line="2170" column="0" lean-forward="false" selection-start-line="2170" selection-start-column="0" selection-end-line="2170" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -457,10 +467,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ag-primary</find>
-      <find>ag-primary__description</find>
-      <find>ag-primary__title</find>
-      <find>as-mobile-apps</find>
       <find>as-mobile-apps__inner__list__item</find>
       <find>as-mobile-apps__inner__title</find>
       <find>as-mobile-apps__inner__links</find>
@@ -487,10 +493,12 @@
       <find>.ag-benefits_icon-3</find>
       <find>el-header</find>
       <find>el-square</find>
+      <find>https://appsidedev.com/wp-content/themes/elinsTemplate/assets/img/feature/</find>
+      <find>.svg</find>
+      <find>https://appsidedev.com/wp-content/uploads//2021/02/</find>
+      <find>https:\/\/appsidedev.com\/wp-content\/uploads\/2021\/02\/</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-benefits_title-item</replace>
-      <replace>ag-benefits_text-item</replace>
       <replace>ag-benefits_icon-2</replace>
       <replace>ag-benefits_icon-1</replace>
       <replace>ag-benefits_icon-3</replace>
@@ -519,6 +527,8 @@
       <replace>&quot;ag-zulu-faq_text-item&quot;</replace>
       <replace>js-puzzle</replace>
       <replace>js-square</replace>
+      <replace>images/</replace>
+      <replace>images\/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -546,9 +556,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/horizontal-slider-carousel/js/wpo-minify-footer-91a8291c.min.js" />
-        <option value="$PROJECT_DIR$/horizontal-slider-carousel/index.html" />
-        <option value="$USER_HOME$/Desktop/wpo-minify-footer-91a8291c.min.js" />
         <option value="$PROJECT_DIR$/horizontal-slider-carousel/js/main.js" />
         <option value="$PROJECT_DIR$/earth-3d/css/style.css" />
         <option value="$PROJECT_DIR$/animation-projector/css/style.css" />
@@ -597,6 +604,9 @@
         <option value="$PROJECT_DIR$/scroll-puzzle-lottie-player/index.html" />
         <option value="$PROJECT_DIR$/scroll-puzzle-lottie-player/css/style.css" />
         <option value="$PROJECT_DIR$/../zagotovka/index.html" />
+        <option value="$PROJECT_DIR$/scroll-item/index.html" />
+        <option value="$PROJECT_DIR$/scroll-items/index.html" />
+        <option value="$USER_HOME$/example-site-1/appsidedev.com (JS object)/index.html" />
       </list>
     </option>
   </component>
@@ -843,12 +853,12 @@
       <workItem from="1630056679389" duration="13962000" />
       <workItem from="1630656440481" duration="21965000" />
       <workItem from="1630911906095" duration="22470000" />
-      <workItem from="1631084493131" duration="1418000" />
+      <workItem from="1631084493131" duration="2106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="993128000" />
+    <option name="totallyTimeSpent" value="993816000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -893,22 +903,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/footer.css.scss.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/fx/monolit/frontend/app/assets/stylesheets/responsive/footer.css.scss.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19728">
-          <caret line="822" column="14" lean-forward="false" selection-start-line="822" selection-start-column="14" selection-end-line="822" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/canvas-grid/js/jquery/jquery-1.11.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -1286,14 +1280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scroll-item/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scroll-puzzle-lottie-player/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1304,8 +1290,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../zagotovka/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="31" column="115" lean-forward="false" selection-start-line="31" selection-start-column="115" selection-end-line="31" selection-end-column="115" />
+        <state relative-caret-position="556">
+          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scroll-item/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scroll-items/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="77" column="99" lean-forward="true" selection-start-line="77" selection-start-column="99" selection-end-line="77" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site-1/appsidedev.com (JS object)/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="2170" column="0" lean-forward="false" selection-start-line="2170" selection-start-column="0" selection-end-line="2170" selection-end-column="0" />
           <folding />
         </state>
       </provider>
