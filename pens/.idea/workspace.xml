@@ -355,10 +355,9 @@
       <file leaf-file-name="zulutrade-EN.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/vazhno_project-1/2021.09.06_FX-25067_zulutrade /zulutrade-EN.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13152">
-              <caret line="548" column="5" lean-forward="false" selection-start-line="548" selection-start-column="5" selection-end-line="548" selection-end-column="5" />
+            <state relative-caret-position="219">
+              <caret line="519" column="22" lean-forward="false" selection-start-line="519" selection-start-column="5" selection-end-line="519" selection-end-column="22" />
               <folding>
-                <element signature="n#div#4;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#script#0;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -459,7 +458,7 @@
         <entry file="file://$PROJECT_DIR$/animation-wave-shadow/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -469,7 +468,7 @@
         <entry file="file://$PROJECT_DIR$/animation-wave-shadow/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="51" selection-end-column="1" />
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="51" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -485,15 +484,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flex-items/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="216">
+              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="19" />
               <folding>
-                <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#9219#9224#0" expanded="true" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#4859#4864#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trading-legends-contest-EN.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/landing-pages/2020.05.21_landing_trading-legends-contest/trading-legends-contest-EN.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="94" lean-forward="false" selection-start-line="8" selection-start-column="94" selection-end-line="8" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flex-items/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1072">
+              <caret line="258" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="world_map_blue.8f5697c9.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/world_map_blue.8f5697c9.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="60" lean-forward="false" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/map-shadow/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/map-shadow/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -502,18 +551,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>https:\/\/appsidedev.com\/wp-content\/uploads\/2021\/02\/</find>
-      <find>el-square</find>
-      <find>section#el-feature .el-wrap-column .el-column-title h3</find>
-      <find>section#el-feature .el-wrap-column</find>
-      <find>section#el-feature</find>
-      <find>.el-column-info</find>
-      <find>el-feature</find>
-      <find>activeSection</find>
-      <find>activateScreen</find>
-      <find>st</find>
-      <find>el-column-info</find>
-      <find>el-activate-screen</find>
       <find>el-f-title</find>
       <find>ag-feature_title-item</find>
       <find>el-ic-title</find>
@@ -532,16 +569,20 @@
       <find>Slider-navigation</find>
       <find>h2</find>
       <find>h3</find>
+      <find>.VacanciesPage-item-textCover</find>
+      <find>VacanciesPage-item-description</find>
+      <find>VacanciesPage-content</find>
+      <find>VacanciesPage-item</find>
+      <find>VacanciesPage-item-textCover</find>
+      <find>VacanciesPage-item-requirements</find>
+      <find>VacanciesPage-item-requirements-item</find>
+      <find>ag-maecenas_tagline-item</find>
+      <find>ag-zulutrade-logo</find>
+      <find>VacanciesPage-item-imageCover</find>
+      <find>svg-primary__logo</find>
+      <find>maecenas_descr</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-apps_title-list</replace>
-      <replace>ag-apps_btn</replace>
-      <replace>ag-apps_btn-box</replace>
-      <replace>ag-new-block</replace>
-      <replace>ag-new_title</replace>
-      <replace>ag-new_btn</replace>
-      <replace>ag-apps_box</replace>
-      <replace>.ag-zulu-faq_text-item</replace>
       <replace>&quot;ag-zulu-faq_text-item&quot;</replace>
       <replace>js-puzzle</replace>
       <replace>images/</replace>
@@ -564,6 +605,14 @@
       <replace>ag-feature_bg</replace>
       <replace>35</replace>
       <replace>div</replace>
+      <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_fonts/Heavitas/Heavitas.</replace>
+      <replace>ag-maecenas_box</replace>
+      <replace>ag-maecenas_item</replace>
+      <replace>ag-maecenas_descr</replace>
+      <replace>ag-maecenas_title-item</replace>
+      <replace>ag-maecenas_tagline</replace>
+      <replace>ag-requirement_item</replace>
+      <replace>ag-maecenas_img-box</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -591,10 +640,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/images/string-sprite-svg_prod/svg-f-all.svg" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/simple-snippet_footer-EN.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/images/string-sprite-svg_prod/svg-group.svg" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/images/string-sprite-svg_prod/svg-group-1.svg" />
         <option value="$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/news.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/style.css" />
         <option value="$PROJECT_DIR$/canvas-sphere-bubble/js/main.js" />
@@ -642,6 +687,10 @@
         <option value="$USER_HOME$/format-2.html" />
         <option value="$USER_HOME$/Desktop/3.b026bce6.chunk.js" />
         <option value="$PROJECT_DIR$/flex-items/index.html" />
+        <option value="$PROJECT_DIR$/flex-items/css/style.css" />
+        <option value="$USER_HOME$/Desktop/world_map_blue.8f5697c9.svg" />
+        <option value="$PROJECT_DIR$/map-shadow/index.html" />
+        <option value="$PROJECT_DIR$/map-shadow/css/style.css" />
       </list>
     </option>
   </component>
@@ -676,7 +725,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/format.css" />
+    <property name="last_opened_file_path" value="$USER_HOME$/vazhno_project-1/2021.09.06_FX-25067_zulutrade /zulutrade-EN.html" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
@@ -889,12 +938,12 @@
       <workItem from="1630656440481" duration="21965000" />
       <workItem from="1630911906095" duration="22470000" />
       <workItem from="1631084493131" duration="10640000" />
-      <workItem from="1631172407475" duration="2895000" />
+      <workItem from="1631172407475" duration="8460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1005245000" />
+    <option name="totallyTimeSpent" value="1010810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -939,34 +988,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/fullPage.js-master/src/fullpage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animation-wave-svg/js/lottie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94128">
-          <caret line="3922" column="0" lean-forward="false" selection-start-line="3922" selection-start-column="0" selection-end-line="3922" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wheel-scroll/index.html" />
-    <entry file="file://$USER_HOME$/Desktop/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206712">
-          <caret line="8613" column="0" lean-forward="false" selection-start-line="8613" selection-start-column="0" selection-end-line="8613" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wheel-scroll/backgrounds.html" />
     <entry file="file://$PROJECT_DIR$/vertical-text/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
@@ -1188,17 +1209,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.09.06_FX-25067_zulutrade /zulutrade-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13152">
-          <caret line="548" column="5" lean-forward="false" selection-start-line="548" selection-start-column="5" selection-end-line="548" selection-end-column="5" />
-          <folding>
-            <element signature="n#div#4;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#script#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scroll-puzzle-lottie-player/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -1329,7 +1339,7 @@
     <entry file="file://$PROJECT_DIR$/animation-wave-shadow/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1337,19 +1347,69 @@
     <entry file="file://$PROJECT_DIR$/animation-wave-shadow/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="51" selection-end-column="1" />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="51" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/landing-pages/2020.05.21_landing_trading-legends-contest/trading-legends-contest-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="94" lean-forward="false" selection-start-line="8" selection-start-column="94" selection-end-line="8" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.09.06_FX-25067_zulutrade /zulutrade-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="519" column="22" lean-forward="false" selection-start-line="519" selection-start-column="5" selection-end-line="519" selection-end-column="22" />
+          <folding>
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-items/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1072">
+          <caret line="258" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flex-items/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state relative-caret-position="216">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="19" />
           <folding>
-            <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#9219#9224#0" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#4859#4864#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/world_map_blue.8f5697c9.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="60" lean-forward="false" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map-shadow/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map-shadow/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
