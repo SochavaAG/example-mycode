@@ -90,8 +90,8 @@
       <file leaf-file-name="format-2.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="10" />
+            <state relative-caret-position="418">
+              <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -263,7 +263,7 @@
         <entry file="file://$USER_HOME$/Desktop/eee.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4056">
-              <caret line="169" column="9" lean-forward="true" selection-start-line="169" selection-start-column="9" selection-end-line="169" selection-end-column="9" />
+              <caret line="169" column="9" lean-forward="false" selection-start-line="169" selection-start-column="9" selection-end-line="169" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -305,7 +305,7 @@
         <entry file="file://$PROJECT_DIR$/marquee/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -379,7 +379,7 @@
         <entry file="file://$PROJECT_DIR$/scroll-puzzle-lottie-player/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="840">
-              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="74" />
+              <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -419,7 +419,7 @@
         <entry file="file://$PROJECT_DIR$/scroll-items/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+              <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -439,7 +439,7 @@
         <entry file="file://$PROJECT_DIR$/scroll-items/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1128">
-              <caret line="47" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="11" />
+              <caret line="47" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -449,18 +449,51 @@
         <entry file="file://$PROJECT_DIR$/scroll-items/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="7344">
-              <caret line="306" column="36" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
+              <caret line="306" column="36" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animation-wave-shadow/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animation-wave-shadow/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="51" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.b026bce6.chunk.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/3.b026bce6.chunk.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2637">
+              <caret line="210" column="66" lean-forward="false" selection-start-line="210" selection-start-column="66" selection-end-line="210" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/animation-wave-shadow/index.html">
+        <entry file="file://$PROJECT_DIR$/flex-items/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="144">
+              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding>
+                <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#9219#9224#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -469,12 +502,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.ag-benefits_item</find>
-      <find>.ag-benefits_icon-3</find>
-      <find>el-header</find>
-      <find>https://appsidedev.com/wp-content/themes/elinsTemplate/assets/img/feature/</find>
-      <find>.svg</find>
-      <find>https://appsidedev.com/wp-content/uploads//2021/02/</find>
       <find>https:\/\/appsidedev.com\/wp-content\/uploads\/2021\/02\/</find>
       <find>el-square</find>
       <find>section#el-feature .el-wrap-column .el-column-title h3</find>
@@ -499,9 +526,14 @@
       <find>ag-feature-block</find>
       <find>article-promo__amin-elem</find>
       <find>20</find>
+      <find>Slider</find>
+      <find>CRM for call routing solutions</find>
+      <find>slide</find>
+      <find>Slider-navigation</find>
+      <find>h2</find>
+      <find>h3</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-apps_list</replace>
       <replace>ag-apps_title-list</replace>
       <replace>ag-apps_btn</replace>
       <replace>ag-apps_btn-box</replace>
@@ -531,6 +563,7 @@
       <replace>20</replace>
       <replace>ag-feature_bg</replace>
       <replace>35</replace>
+      <replace>div</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -558,9 +591,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/random-mask-img/index.html" />
-        <option value="$PROJECT_DIR$/animation-head-jester/css/style.css" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/images/new-svg/svg-sprite-all.svg" />
         <option value="$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/images/string-sprite-svg_prod/svg-f-all.svg" />
         <option value="$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/simple-snippet_footer-EN.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.08.19_FX-24560_global-limited/images/string-sprite-svg_prod/svg-group.svg" />
@@ -598,7 +628,6 @@
         <option value="$USER_HOME$/vazhno_project-1/2021.09.06_FX-25064_simple_snippets_47_careers/&quot;Available vacancies&quot; for page CAREERS-EN.html" />
         <option value="$USER_HOME$/format.css" />
         <option value="$USER_HOME$/vazhno_project-1/2021.09.06_FX-25067_zulutrade /zulutrade-EN.html" />
-        <option value="$USER_HOME$/format-2.html" />
         <option value="$PROJECT_DIR$/scroll-puzzle-lottie-player/js/main.js" />
         <option value="$PROJECT_DIR$/scroll-puzzle-lottie-player/index.html" />
         <option value="$PROJECT_DIR$/scroll-puzzle-lottie-player/css/style.css" />
@@ -609,6 +638,10 @@
         <option value="$PROJECT_DIR$/scroll-items/css/style.css" />
         <option value="$PROJECT_DIR$/scroll-items/js/main.js" />
         <option value="$PROJECT_DIR$/animation-wave-shadow/index.html" />
+        <option value="$PROJECT_DIR$/animation-wave-shadow/css/style.css" />
+        <option value="$USER_HOME$/format-2.html" />
+        <option value="$USER_HOME$/Desktop/3.b026bce6.chunk.js" />
+        <option value="$PROJECT_DIR$/flex-items/index.html" />
       </list>
     </option>
   </component>
@@ -856,12 +889,12 @@
       <workItem from="1630656440481" duration="21965000" />
       <workItem from="1630911906095" duration="22470000" />
       <workItem from="1631084493131" duration="10640000" />
-      <workItem from="1631172407475" duration="612000" />
+      <workItem from="1631172407475" duration="2895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1002962000" />
+    <option name="totallyTimeSpent" value="1005245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -906,21 +939,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/fullPage.js-master/examples/examples.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/fullPage.js-master/examples/backgrounds.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="157" column="7" lean-forward="false" selection-start-line="157" selection-start-column="7" selection-end-line="157" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wheel-scroll/js/main.js" />
     <entry file="file://$USER_HOME$/Desktop/fullPage.js-master/src/fullpage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1181,14 +1199,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/format-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scroll-puzzle-lottie-player/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -1216,7 +1226,7 @@
     <entry file="file://$PROJECT_DIR$/scroll-puzzle-lottie-player/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="74" />
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="74" />
           <folding />
         </state>
       </provider>
@@ -1231,7 +1241,7 @@
     <entry file="file://$USER_HOME$/Desktop/eee.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4056">
-          <caret line="169" column="9" lean-forward="true" selection-start-line="169" selection-start-column="9" selection-end-line="169" selection-end-column="9" />
+          <caret line="169" column="9" lean-forward="false" selection-start-line="169" selection-start-column="9" selection-end-line="169" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1255,7 +1265,7 @@
     <entry file="file://$PROJECT_DIR$/marquee/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1279,7 +1289,7 @@
     <entry file="file://$PROJECT_DIR$/scroll-items/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1128">
-          <caret line="47" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="11" />
+          <caret line="47" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1287,7 +1297,7 @@
     <entry file="file://$PROJECT_DIR$/scroll-items/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7344">
-          <caret line="306" column="36" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
+          <caret line="306" column="36" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1295,16 +1305,51 @@
     <entry file="file://$PROJECT_DIR$/scroll-items/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/format-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/3.b026bce6.chunk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2637">
+          <caret line="210" column="66" lean-forward="false" selection-start-line="210" selection-start-column="66" selection-end-line="210" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/animation-wave-shadow/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-wave-shadow/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="51" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-items/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#9219#9224#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
