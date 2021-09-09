@@ -66,9 +66,9 @@
 
               if (argScreens.length > 0) {
                 argScreens.each(function (argKey, argVal) {
-                  var agScreenStart = parseInt($(argVal).offset().top);
-                  var agOffsetStartActivation = parseInt($(window).height());
-                  //var endScreen = parseInt($(b).offset().top) + $(b).outerHeight();
+                  var agScreenStart = parseInt($(argVal).offset().top),
+                    agOffset = 200,
+                    agOffsetStartActivation = parseInt($(window).height() - agOffset);
 
                   if ((agTop + agOffsetStartActivation) >= agScreenStart) {
                     $(argVal).addClass('js-ag-active');
