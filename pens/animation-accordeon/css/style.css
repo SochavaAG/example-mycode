@@ -1,0 +1,130 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+.js-ag-accordeon_item {
+  border-bottom: 1px solid #d3d3d6;
+}
+.js-ag-accordeon_title {
+  padding: 24px 15px;
+
+  cursor: pointer;
+
+  font-weight: bold;
+  font-size: 28px;
+  color: #323a45;
+
+  position: relative;
+}
+.js-ag-accordeon_title:hover {
+  background-color: #f8f8f8;
+}
+.js-ag-accordeon_title:before,
+.js-ag-accordeon_title:after {
+  content: "";
+  background-color: #323a45;
+
+  position: absolute;
+  top: 50%;
+  right: 15px;
+
+  -webkit-transition: .3s cubic-bezier(.45, 1.06, .58, 1.31);
+  -moz-transition: .3s cubic-bezier(.45, 1.06, .58, 1.31);
+  -o-transition: .3s cubic-bezier(.45, 1.06, .58, 1.31);
+  transition: .3s cubic-bezier(.45, 1.06, .58, 1.31);
+}
+.js-ag-accordeon_title:before {
+  height: 4px;
+  width: 14px;
+
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.js-ag-accordeon_title.js-ag-show:before {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.js-ag-accordeon_title:after {
+  height: 4px;
+  width: 14px;
+}
+.js-ag-accordeon_info {
+  max-height: 0;
+
+  overflow: hidden;
+
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+}
+.js-ag-accordeon_info.js-ag-show {
+  max-height: 9999px;
+}
+.ag-accordeon_content {
+  line-height: 1.45;
+  padding: 20px 0;
+
+  opacity: 0;
+
+  font-size: 16px;
+  color: #525c69;
+
+  -webkit-transform: translate(0, 50%);
+  -moz-transform: translate(0, 50%);
+  -ms-transform: translate(0, 50%);
+  -o-transform: translate(0, 50%);
+  transform: translate(0, 50%);
+
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s;
+}
+.js-ag-show .ag-accordeon_content {
+  opacity: 1;
+
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

@@ -1,0 +1,109 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+body {
+  background-color: #f2f2f2;
+}
+
+.ag-num_list {
+  padding: 30px 0;
+}
+.ag-num_item {
+  position: relative;
+}
+.ag-num_item:not(:first-child) {
+  margin: 30px 0 0;
+}
+.ag-num_num-box {
+  height: 100%;
+  width: 1.667em;
+  border-right: 2px solid #ffcf00;
+  background-color: #e6e6e6;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  text-align: center;
+  font-size: 2.25em;
+  color: #231f20;
+}
+.ag-num_num-box:before {
+  content: "";
+  display: block;
+  margin-top: -6px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent transparent transparent #ffcf00;
+
+  position: absolute;
+  top: 50%;
+  left: 100%;
+
+}
+.ag-num_num {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  color: #231f20;
+
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.ag-info_box {
+  margin-left: 3.75em;
+  padding: 1.5em 1.4375em;
+  background-image: -webkit-linear-gradient(left, #f2f2f2 0%, #fff 100%);
+  background-image: -o-linear-gradient(left, #f2f2f2 0%, #fff 100%);
+  background-image: linear-gradient(to right, #f2f2f2 0%, #fff 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2f2f2', endColorstr='#ffffffff', GradientType=1);
+}
+.ag-info_title {
+  padding: 0 0 10px;
+
+  font-weight: bold;
+  font-size: 20px;
+  color: #323a45;
+}
+.ag-info_text {
+  line-height: 1.45;
+
+  color: #525c69;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

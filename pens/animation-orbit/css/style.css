@@ -1,0 +1,262 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+body {
+  overflow: hidden;
+}
+
+.ag-orbit-block {
+  display: table;
+  margin: 20px auto 10px;
+  padding: 25px 30px;
+  border: 1px solid #d1d3d4;
+  background-color: #FFF;
+
+  -webkit-box-shadow: 3px 3px 0 0 #fff, 3px 3px 0 1px #d1d3d4, 7px 7px 0 0 #fff, 7px 7px 0 1px #d1d3d4, 16px 16px 15px 0 rgba(6, 32, 55, .15);
+  -moz-box-shadow: 3px 3px 0 0 #fff, 3px 3px 0 1px #d1d3d4, 7px 7px 0 0 #fff, 7px 7px 0 1px #d1d3d4, 16px 16px 15px 0 rgba(6, 32, 55, .15);
+  -o-box-shadow: 3px 3px 0 0 #fff, 3px 3px 0 1px #d1d3d4, 7px 7px 0 0 #fff, 7px 7px 0 1px #d1d3d4, 16px 16px 15px 0 rgba(6, 32, 55, .15);
+  box-shadow: 3px 3px 0 0 #fff, 3px 3px 0 1px #d1d3d4, 7px 7px 0 0 #fff, 7px 7px 0 1px #d1d3d4, 16px 16px 15px 0 rgba(6, 32, 55, .15);
+
+  z-index: 2;
+  position: relative;
+}
+.ag-orbit_box {
+  height: 566px;
+  width: 566px;
+  margin: 50px auto;
+
+  position: relative;
+}
+.ag-orbit_orbit {
+  border-width: 0 1px;
+  border-style: solid;
+  border-color: #8c8c8e;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+
+  -webkit-animation: an-orbits 15s linear infinite;
+  -moz-animation: an-orbits 15s linear infinite;
+  -o-animation: an-orbits 15s linear infinite;
+  animation: an-orbits 15s linear infinite;
+}
+.ag-orbit_orbit__reverse {
+  -webkit-animation-direction: reverse;
+  -moz-animation-direction: reverse;
+  -o-animation-direction: reverse;
+  animation-direction: reverse;
+}
+.ag-orbit_orbit__outer {
+  height: 566px;
+  width: 566px;
+  margin: -278px auto 0;
+}
+.ag-orbit_orbit__inner {
+  height: 457px;
+  width: 457px;
+  margin: -224px auto 0;
+}
+
+.ag-orbit_planet {
+  height: 58px;
+  width: 58px;
+  border: 2px solid #000;
+  background-color: #FFF;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 40px auto;
+
+  position: absolute;
+  top: 50%;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-animation: an-planets 15s linear infinite;
+  -moz-animation: an-planets 15s linear infinite;
+  -o-animation: an-planets 15s linear infinite;
+  animation: an-planets 15s linear infinite;
+}
+.ag-orbit_planet__reverse {
+  -webkit-animation-direction: reverse;
+  -moz-animation-direction: reverse;
+  -o-animation-direction: reverse;
+  animation-direction: reverse;
+}
+.ag-orbit_planet__left {
+  margin: -29px 0 0 -29px;
+
+  left: 0;
+}
+.ag-orbit_planet__right {
+  margin: -29px -29px 0 0;
+
+  right: 0;
+}
+.ag-orbit_planet-1 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/program-react.svg);
+}
+.ag-orbit_planet-2 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/social-skype.svg);
+}
+.ag-orbit_planet-3 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/social-telegram.svg);
+}
+.ag-orbit_planet-4 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/social-instagram.svg);
+}
+
+@-webkit-keyframes an-orbits {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes an-orbits {
+  0% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes an-orbits {
+  0% {
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes an-orbits {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes an-planets {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+@-moz-keyframes an-planets {
+  0% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+@-o-keyframes an-planets {
+  0% {
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+@keyframes an-planets {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+  .ag-orbit-block {
+    display: block;
+    width: 80%;
+  }
+  .ag-orbit_box {
+    height: 100%;
+    width: 100%;
+    padding: 100% 0 0;
+  }
+
+  .ag-orbit_orbit__outer {
+    height: 80%;
+    width: 80%;
+    margin: -40% auto 0;
+  }
+  .ag-orbit_orbit__inner {
+    height: 60%;
+    width: 60%;
+    margin: -30% auto 0;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

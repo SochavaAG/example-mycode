@@ -1,0 +1,110 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+.ag-nav_box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.ag-nav_list {
+  padding: 15px 0;
+
+  text-align: right;
+  font-size: 0;
+}
+.ag-nav_item {
+  display: inline-block;
+
+  font-weight: bold;
+  font-size: 18px;
+}
+.js-ag-nav_link {
+  margin: 0 0 0 40px;
+
+  color: #FFF;
+
+  position: relative;
+}
+.js-ag-nav_link:hover {
+  text-decoration: none;
+}
+.js-ag-active {
+  cursor: default;
+}
+.js-ag-active:before,
+.js-ag-nav_link:before {
+  content: "";
+  height: 2px;
+  background-color: #FFF;
+
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: -3px;
+
+  -webkit-transition: .3s cubic-bezier(.45,1.06,.58,1.31);
+  -moz-transition: .3s cubic-bezier(.45,1.06,.58,1.31);
+  -o-transition: .3s cubic-bezier(.45,1.06,.58,1.31);
+  transition: .3s cubic-bezier(.45,1.06,.58,1.31);
+}
+.js-ag-active:before,
+.js-ag-nav_link:hover:before {
+  left: 0;
+  right: 0;
+}
+
+.ag-block {
+  height: 100vh;
+}
+.js-ag-primary-block {
+  background-color: #4a2000;
+}
+.js-ag-block-1 {
+  background-color: #917800;
+}
+.js-ag-block-2 {
+  background-color: #3da697;
+}
+.js-ag-block-3 {
+  background-color: #000074;
+}
+.js-ag-block-4 {
+  background-color: #e45f0a;
+}
+.js-ag-block-5 {
+  background-color: #16a014;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

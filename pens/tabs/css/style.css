@@ -1,0 +1,199 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+.ag-tabs-block {
+  padding: 20px 0;
+}
+.ag-tabs_title {
+  display: table;
+  margin: 0 0 20px;
+  padding: 0 10px;
+  background-color: #ffcf00;
+
+  font-weight: bold;
+  font-size: 40px;
+
+  z-index: 2;
+  position: relative;
+}
+.ag-tabs_title:before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 64px;
+  border-right: 2px solid #020202;
+  background-image: -webkit-linear-gradient(right, rgba(0, 0, 0, 0) 5px, #ffcf00 5px);
+  background-image: -o-linear-gradient(right, rgba(0, 0, 0, 0) 5px, #ffcf00 5px);
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 5px, #ffcf00 5px);
+
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: -30px;
+
+  -webkit-transform: skewX(-160deg) skewY(0);
+  -ms-transform: skewX(-160deg) skewY(0);
+  -o-transform: skewX(-160deg) skewY(0);
+  transform: skewX(-160deg) skewY(0);
+}
+.ag-tabs_box {
+  margin: 0 8px 10px 0;
+  border: 1px solid #d1d3d4;
+  background-color: #FFF;
+
+  -webkit-box-shadow: 3px 3px 0 0 #fff, 3px 3px 0 1px #d1d3d4, 7px 7px 0 0 #fff, 7px 7px 0 1px #d1d3d4, 16px 16px 15px 0 rgba(6, 32, 55, .15);
+  -moz-box-shadow: 3px 3px 0 0 #fff, 3px 3px 0 1px #d1d3d4, 7px 7px 0 0 #fff, 7px 7px 0 1px #d1d3d4, 16px 16px 15px 0 rgba(6, 32, 55, .15);
+  -o-box-shadow: 3px 3px 0 0 #fff, 3px 3px 0 1px #d1d3d4, 7px 7px 0 0 #fff, 7px 7px 0 1px #d1d3d4, 16px 16px 15px 0 rgba(6, 32, 55, .15);
+  box-shadow: 3px 3px 0 0 #fff, 3px 3px 0 1px #d1d3d4, 7px 7px 0 0 #fff, 7px 7px 0 1px #d1d3d4, 16px 16px 15px 0 rgba(6, 32, 55, .15);
+
+  overflow: hidden;
+
+  z-index: 2;
+  position: relative;
+}
+.ag-tabs_list {
+  float: left;
+  min-width: 150px;
+  margin: 0 10px 0 0;
+  background-color: #f2f2f2;
+
+  font-size: 16px;
+
+  position: relative;
+}
+.ag-tabs_list:before {
+  content: "";
+  display: block;
+  height: 3000%;
+  width: 100%;
+  background: inherit;
+
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.ag-tabs_item {
+  padding: 0;
+  margin: 0;
+}
+.ag-tabs_link {
+  line-height: 1.1;
+  display: block;
+  padding: 12px 17px 11px 16px;
+
+  color: #23457f;
+
+  position: relative;
+}
+.ag-tabs_link:hover,
+.ag-tabs_link:focus {
+  background-color: #FFF;
+
+  text-decoration: none;
+}
+.ag-tabs_link:active,
+.js-ag-tabs_item__active .ag-tabs_link {
+  background-color: #ffcf00;
+
+  color: #000;
+}
+.ag-tabs_link:active:before,
+.js-ag-tabs_item__active a:before,
+.ag-tabs_link:active:after,
+.js-ag-tabs_item__active a:after {
+  content: "";
+  display: block;
+  height: 50%;
+  width: 10px;
+
+  position: absolute;
+  left: 100%;
+}
+.ag-tabs_link:active:before,
+.js-ag-tabs_item__active a:before,
+.ag-tabs_link:active:after,
+.js-ag-tabs_item__active a:after {
+  content: "";
+  display: block;
+  height: 50%;
+  width: 10px;
+
+  position: absolute;
+  left: 100%;
+}
+.ag-tabs_link:active:before,
+.js-ag-tabs_item__active a:before {
+  background-image: -webkit-linear-gradient(to top right, #ffcf00 50%, rgba(0, 0, 0, 0) 50%);
+  background-image: -o-linear-gradient(to top right, #ffcf00 50%, rgba(0, 0, 0, 0) 50%);
+  background-image: linear-gradient(to top right, #ffcf00 50%, rgba(0, 0, 0, 0) 50%);
+
+  top: 0;
+}
+.ag-tabs_link:active:after,
+.js-ag-tabs_item__active a:after {
+  background-image: -webkit-linear-gradient(to top left, rgba(0, 0, 0, 0) 50%, #ffcf00 50%);
+  background-image: -o-linear-gradient(to top left, rgba(0, 0, 0, 0) 50%, #ffcf00 50%);
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0) 50%, #ffcf00 50%);
+
+  bottom: 0;
+}
+
+.ag-tab_box {
+  padding: 20px;
+
+  overflow: hidden;
+}
+.ag-tab_pane {
+  display: none;
+}
+.js-ag-tab_pane__active {
+  display: block;
+}
+.ag-tab_img-box {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto 20px;
+}
+.ag-tab_name {
+  padding: 0 0 15px;
+
+  text-align: center;
+  font-size: 20px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
