@@ -1,0 +1,104 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+body {
+  background-color: #000;
+}
+
+.ag-scroll-block {
+  overflow-x: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.ag-scroll_box {
+  height: 100%;
+  width: 200%;
+
+  overflow-x: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 7%;
+}
+.ag-scroll_text {
+  font-size: 150px;
+  color: #E9DD0A;
+
+  position: absolute;
+  top: 0;
+  left: 22px;
+
+  -webkit-transform: translate(100vw);
+  -moz-transform: translate(100vw);
+  -o-transform: translate(100vw);
+  transform: translate(100vw);
+}
+
+.ag-offer_list {
+  margin: 17% 0 0;
+
+  text-align: center;
+  font-size: 0;
+
+  z-index: 1000;
+  position: relative;
+}
+.ag-offer_item {
+  display: inline-block;
+  width: 31%;
+  margin: 0 1%;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, .5);
+
+  cursor: pointer;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+  .ag-scroll_text {
+    font-size: 100px;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  .ag-scroll_text {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
