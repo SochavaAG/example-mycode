@@ -5,25 +5,17 @@
 
 body {
   background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/animation-leaf/images/bg.jpeg);
+}
 
+.ag-leaf-block {
   overflow: hidden;
+
+  position: relative;
 }
 
 #js-ag-leaf_box {
-  height: 200vh;
+  height: 100vh;
   width: 100vw;
-
-  pointer-events: none;
-
-  z-index: 1;
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  -webkit-transform: translateZ(0);
-  -moz-transform: translateZ(0);
-  -o-transform: translateZ(0);
-  transform: translateZ(0);
 }
 .js-ag-leaf {
   height: 25px;
