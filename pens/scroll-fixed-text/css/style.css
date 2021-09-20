@@ -43,7 +43,7 @@
   padding: 110px 0 45px;
 }
 .ag-count_title-box {
-  height: calc(100% + 40px); /* fixed text */
+  height: calc(100% + 40px);
   width: 40px;
 
   z-index: 3;
@@ -54,6 +54,7 @@
 .ag-count_title {
   padding-bottom: 85px;
 
+  /* fixed text */
   position: -webkit-sticky;
   position: sticky;
   top: 70px;

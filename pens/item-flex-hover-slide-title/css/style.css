@@ -1,0 +1,303 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+.ag-format-container {
+  position: relative;
+}
+
+.ag-count_title-box {
+  height: calc(100% + 40px); /* fixed text */
+  width: 40px;
+
+  position: absolute;
+  top: -85px;
+  left: -50px;
+}
+.ag-count_title {
+  padding: 0 0 85px;
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+
+  font-weight: bold;
+  font-size: 36px;
+  color: #0d0d0d;
+
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+
+}
+.ag-count_title::first-letter {
+  color: #3FA35D;
+}
+
+.ag-man_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: center;
+
+  margin: 100px 0;
+}
+.ag-man_item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 22%;
+  flex: 0 1 22%;
+
+  margin: 0 3% 60px 0;
+
+  position: relative;
+}
+.ag-man_item:nth-child(4n),
+.ag-man_item:last-child {
+  margin: 0 0 60px 0;
+}
+
+.ag-man_img-box {
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 100%;
+  flex: 0 1 100%;
+}
+.ag-man_img-box:hover {
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
+
+  cursor: pointer;
+}
+.ag-man_img {
+  display: block;
+  height: 360px;
+  background-position: 50% 100%;
+  background-size: cover;
+}
+.ag-man_img-1 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-caveman-11.jpg);
+}
+.ag-man_img-2 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-fury-12.jpg);
+}
+.ag-man_img-3 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-iceman-13.jpg);
+}
+.ag-man_img-4 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-madman-14.jpg);
+}
+.ag-man_img-5 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-strongman-15.jpg);
+}
+.ag-man_img-6 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-voodoo-16.jpg);
+}
+.ag-man_img-7 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-caveman-1.jpg);
+}
+.ag-man_img-8 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-fury-2.jpg);
+}
+.ag-man_img-9 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-iceman-3.jpg);
+}
+.ag-man_img-10 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-madman-4.jpg);
+}
+.ag-man_img-11 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-strongman-5.jpg);
+}
+.ag-man_img-12 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-voodoo-6.jpg);
+}
+.ag-man_img-13 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-caveman-7.jpg);
+}
+.ag-man_img-14 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-fury-8.jpg);
+}
+.ag-man_img-15 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-iceman-9.jpg);
+}
+.ag-man_img-16 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-madman-10.jpg);
+}
+.ag-man_img-17 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-strongman-11.jpg);
+}
+.ag-man_img-18 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-voodoo-12.jpg);
+}
+.ag-man_img-19 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-caveman-13.jpg);
+}
+.ag-man_img-20 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-fury-14.jpg);
+}
+.ag-man_img-21 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-iceman-15.jpg);
+}
+.ag-man_img-22 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-madman-16.jpg);
+}
+.ag-man_img-23 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-strongman-17.jpg);
+}
+.ag-man_img-24 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-voodoo-18.jpg);
+}
+
+.ag-man_title-item {
+  margin: 17px 0 7px 0;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #0d0d0d;
+
+  position: relative;
+}
+.ag-man_title-item:first-letter {
+  color: #3FA35D;
+}
+
+.js-ag-sliding-text {
+  display: inline-block;
+  height: 150px;
+  line-height: .8;
+  /*width: 75vw;*/
+
+  opacity: .7;
+
+  overflow: hidden;
+
+  z-index: 9999;
+  position: absolute;
+  top: 0;
+  left: -200vw;
+
+  font-size: 8vw;
+  color: #3FA35D;
+
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+
+@media only screen and (max-width: 1299px) {
+  .ag-count_title-box {
+    height: auto;
+    width: auto;
+
+    position: static;
+    top: auto;
+    left: auto;
+  }
+  .ag-count_title {
+    padding: 40px 0;
+
+    -webkit-writing-mode: unset;
+    -ms-writing-mode: unset;
+    writing-mode: unset;
+
+    text-align: center;
+
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  .ag-man_list {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 1161px) {
+  .ag-man_item,
+  .ag-man_item:nth-child(4n),
+  .ag-man_item:last-child {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 25%;
+    flex: 0 1 25%;
+
+    margin: 0 5% 60px 0;
+  }
+  .ag-man_item:nth-child(3n),
+  .ag-man_item:last-child {
+    margin: 0 0 60px 0;
+  }
+}
+
+@media only screen and (max-width: 979px) {
+  .ag-man_item,
+  .ag-man_item:nth-child(2n),
+  .ag-man_item:nth-child(3n),
+  .ag-man_item:last-child {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 45%;
+    flex: 0 1 45%;
+
+    margin: 0 5% 60px 0;
+  }
+  .ag-man_item:nth-child(2n),
+  .ag-man_item:last-child {
+    margin: 0 0 60px 0;
+  }
+  .ag-man_img {
+    height: 460px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+  .ag-man_item,
+  .ag-man_item:nth-child(2n),
+  .ag-man_item:nth-child(3n),
+  .ag-man_item:last-child {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+
+    max-width: 300px;
+
+    margin: 0 0 60px 0;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
