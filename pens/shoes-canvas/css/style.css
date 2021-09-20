@@ -4,6 +4,15 @@
 }
 
 
+html,
+body {
+  height: 100%;
+}
+.move-elements {
+  display: block;
+  height: 100%;
+  margin: 0 auto;
+}
 
 
 @media only screen and (max-width: 767px) {

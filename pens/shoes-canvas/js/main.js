@@ -1,16 +1,12 @@
 (function ($) {
   $(function () {
 
-
-(function ($) {
-  $(function () {
-
     window.addEventListener('DOMContentLoaded', function() {
 			var canvas = document.querySelector('canvas');
 			var parallax = { x: 0, y: 0 };
 			var loader = new PIXI.loaders.Loader()
-				.add('mask',  'https://raw.githack.com/SochavaAG/example-mycode/master/pens/shoes-canvas/images/shoes-mask.jpg')
-				.add('picture1', 'https://raw.githack.com/SochavaAG/example-mycode/master/pens/shoes-canvas/images/shoes.png')
+				.add('mask',  'https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/shoes-canvas/images/shoes-mask.jpg')
+				.add('picture1', 'https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/shoes-canvas/images/shoes.png')
 				.load(demo)
 				.on('complete', function() {
 					document.body.classList.add('shoes-loaded');
@@ -93,10 +89,6 @@
 				// window.addEventListener("resize", resizeHandler);
 			}
 		});
-
-  });
-})(jQuery);
-
 
   });
 })(jQuery);
