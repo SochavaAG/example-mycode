@@ -20,62 +20,59 @@
 </head>
 
 <body>
-<style>
-
-</style>
-
   <div class="ag-format-container">
-
-  </div>
-
-  <div  id="scene_slider" class="main_slider">
-    <div class="swiper-container swiper-container-horizontal">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="slide_holder">
-            <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1.jpg" alt=""/>
-            <div class="text"><span>G5 Games</span> <span>is a team</span> <span>of professionals</span></div>
+    <div id="scene_slider" class="js-main_slider ag-main_slider">
+      <div class="swiper-container swiper-container-horizontal">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide_holder">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1.jpg" class="ag-main_img" alt=""/>
+              <div class="ag-main_text">
+                G5 Games is a team of professionals
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide_holder">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-2.jpg" class="ag-main_img" alt=""/>
+              <div class="ag-main_text">
+                Creative projects
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide_holder">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-3.jpg" class="ag-main_img" alt=""/>
+              
+              <div class="ag-main_text">
+                Always growing and moving forward
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide_holder">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-4.jpg" class="ag-main_img" alt=""/>
+              <div class="ag-main_text">
+                Unforgettable experiences
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide_holder">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-5.jpg" class="ag-main_img" alt=""/>
+              <div class="ag-main_text">
+                Join us!
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="swiper-slide">
-          <div class="slide_holder">
-            <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-2.jpg" alt=""/>
-            <div class="text"><span>Creative</span> <span>projects</span></div>
-          </div>
-        </div>
-
-        <div class="swiper-slide">
-          <div class="slide_holder">
-            <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-3.jpg" alt=""/>
-            <div class="text"><span>Always growing</span> <span>and moving</span> <span>forward</span></div>
-          </div>
-        </div>
-
-        <div class="swiper-slide">
-          <div class="slide_holder">
-            <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-4.jpg" alt=""/>
-            <div class="text"><span>Unforgettable</span> <span>experiences</span></div>
-          </div>
-        </div>
-
-        <div class="swiper-slide">
-          <div class="slide_holder">
-            <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-5.jpg" alt=""/>
-            <div class="text"><span>Join us!</span></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
-       <!-- <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
-        <span class="swiper-pagination-bullet"></span>
-        <span class="swiper-pagination-bullet"></span>
-        <span class="swiper-pagination-bullet"></span>
-        <span class="swiper-pagination-bullet"></span>-->
+        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></div>
       </div>
     </div>
   </div>
+
+
 
 <!--[if lt IE 9]>
 <script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/html5shiv/es5-shim.min.js"></script>
@@ -94,8 +91,6 @@
     $(function () {
 
 
-      //if ($('.main_slider').length > 1) {
-
         setTimeout(function () {
           var agJobsSlider = new Swiper('.swiper-container', {
             speed: 500,
@@ -111,34 +106,19 @@
               el: '.swiper-pagination',
               clickable: true
             },
-
             noSwiping: true,
-
             noSwipingClass: 'swiper-container',
-/*
             on: {
               slideChange: function (swiper) {
                 if (typeof(swiper) != 'undefined') {
                   $('.swiper-slide').width($('.main_slider').width());
 
-                  $('.swiper-slide').eq(swiper.activeIndex + 1).width(document.querySelector('.main_slider').getBoundingClientRect().width + 1);
-                }
-              },
-              slideChangeTransitionEnd: function (swiper) {
-                if (typeof(agJobsSlider[0]) != 'undefined') {
-                  agJobsSlider[0].autoplay.start();
-                }
-
-                if (typeof(agJobsSlider[1]) != 'undefined') {
-                  agJobsSlider[1].autoplay.start();
+                  $('.swiper-slide').eq(swiper.activeIndex + 1).width(document.querySelector('.js-main_slider').getBoundingClientRect().width + 1);
                 }
               }
             }
-            */
           });
         }, 500);
-
-      //}
 
 
     });
