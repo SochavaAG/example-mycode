@@ -73,8 +73,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/item-flex-hover-slide-title/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+            <state relative-caret-position="622">
+              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="81" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -123,11 +123,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/item-background-move-hover/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="377" column="6" lean-forward="false" selection-start-line="377" selection-start-column="6" selection-end-line="377" selection-end-column="6" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="475">
+              <caret line="43" column="133" lean-forward="false" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="133" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,18 +147,48 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/item-background-move-hover/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
+            <state relative-caret-position="634">
               <caret line="435" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="435" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/slider-swiper/index.html">
+      <file leaf-file-name="010-default.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/swiper-master/demos/010-default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="63" column="4" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="99" />
+            <state relative-caret-position="504">
+              <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swiper-slide-devices/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/swiper-slide-devices/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="73" column="48" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/swiper-slider-control-progress/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -170,12 +198,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>anim-card__bottom</find>
-      <find>vertical-align-middle</find>
-      <find>cards__item</find>
-      <find>.cards--2-3-row</find>
-      <find>card--animation</find>
-      <find>cards</find>
       <find>ag-card_list</find>
       <find>&lt;a href=&quot;#&quot; class=&quot;card ag-card_link__anim slider__card&quot;&gt;</find>
       <find>slider__card</find>
@@ -198,13 +220,16 @@
       <find>radial-gradient(200% 200% at 100% 0,transparent 0,transparent 5em,#efefef 5.05em,#efefef 7.75em,transparent 7.75em,transparent) 0 36.7em/7.5em 7.5em,radial-gradient(200% 200% at 0 0,transparent 0,transparent 5em,#efefef 5.05em,#efefef 7.75em,transparent 7.75em,transparent) 28.3em 36.7em/7.5em 7.5em,linear-gradient(#efefef 0,#efefef 2.5em) 7.5em 41.7em/20.8em 2.5em,linear-gradient(90deg,#efefef 0,#efefef 2.5em,transparent 2.5em,transparent 33.3em,#efefef 33.3em,#efefef 100%) 0 30.7em/45.8em 6.1em;</find>
       <find>ag-card-anim_crop</find>
       <find>min-width: 1025px</find>
-      <find>max-width: 1024px</find>
       <find>background: radial-gradient(200% 200% at 100% 0, transparent 0, transparent 2.35em, #efefef 2.4em, #efefef 5em, transparent 5em, transparent) 0 28.4em/4.9em 4.9em, radial-gradient(200% 200% at 0 0, transparent 0, transparent 2.35em, #efefef 2.4em, #efefef 5em, transparent 5em, transparent) 24.4em 28.4em/4.9em 4.9em, linear-gradient(#efefef 0, #efefef 2.5em) 4.9em 30.8em/19.5em 2.5em, linear-gradient(90deg, #efefef 0, #efefef 2.5em, transparent 2.5em, transparent 26.8em, #efefef 26.8em, #efefef 100%) 0 22.4em/30.2em 6.1em;</find>
+      <find>max-width: 1024px</find>
+      <find>swiper-container</find>
+      <find>swiper-slide</find>
+      <find>jobsSlider</find>
+      <find>GLOBAL.jobsSlider</find>
+      <find>agSlide</find>
+      <find>swiper-pagination</find>
     </findStrings>
     <replaceStrings>
-      <replace>&amp;#160;$&amp;#160;;</replace>
-      <replace>&amp;#160;$</replace>
-      <replace>$&amp;#160;</replace>
       <replace>agSlidingText</replace>
       <replace>agSlidingTextX</replace>
       <replace>agViewPort</replace>
@@ -230,8 +255,11 @@
       <replace>ag-card-anim_crop-1</replace>
       <replace>ag-card-anim_crop</replace>
       <replace>min-width: 980px</replace>
-      <replace>min-width: 979px</replace>
       <replace>#efefef</replace>
+      <replace>min-width: 979px</replace>
+      <replace>jobsSlider</replace>
+      <replace>swiper</replace>
+      <replace>agJobsSlider</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -259,7 +287,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scroll-menu/css/style.css" />
         <option value="$PROJECT_DIR$/navigation-scroll-to-box/index.html" />
         <option value="$PROJECT_DIR$/navigation-scroll-to-box/js/main.js" />
         <option value="$PROJECT_DIR$/zagotovka/index.html" />
@@ -310,6 +337,7 @@
         <option value="$PROJECT_DIR$/item-background-move-hover/index.html" />
         <option value="$PROJECT_DIR$/item-background-move-hover/css/style.css" />
         <option value="$PROJECT_DIR$/slider-swiper/index.html" />
+        <option value="$PROJECT_DIR$/swiper-slider-control-progress/index.html" />
       </list>
     </option>
   </component>
@@ -567,12 +595,12 @@
       <workItem from="1631777528751" duration="25523000" />
       <workItem from="1631860606143" duration="2133000" />
       <workItem from="1631865552210" duration="13618000" />
-      <workItem from="1632210138188" duration="19266000" />
+      <workItem from="1632210138188" duration="21078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1152163000" />
+    <option name="totallyTimeSpent" value="1153975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -617,35 +645,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.09.16_squro_vacancy/lead-devops.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2020.12.10_popup/pop-up_120-deposit-bonus-2020.12.10_14-45.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="52" column="191" lean-forward="false" selection-start-line="52" selection-start-column="165" selection-end-line="52" selection-end-column="191" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.04.28_wp_theme_finskills/finskills/finskills/single-finskills_courses.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/canvas-sphere-bubble/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-wave-svg/js/lottie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94128">
@@ -926,14 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/item-flex-hover-slide-title/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/animation-leaf/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -962,28 +953,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/item-background-move-hover/index.html">
+    <entry file="file://$PROJECT_DIR$/item-background-move-hover/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="377" column="6" lean-forward="false" selection-start-line="377" selection-start-column="6" selection-end-line="377" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="634">
+          <caret line="435" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="435" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/item-background-move-hover/css/style.css">
+    <entry file="file://$PROJECT_DIR$/item-background-move-hover/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="435" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="435" selection-end-column="1" />
+        <state relative-caret-position="475">
+          <caret line="43" column="133" lean-forward="false" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item-flex-hover-slide-title/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="81" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/swiper-master/demos/010-default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper-slide-devices/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper-slide-devices/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="73" column="48" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/slider-swiper/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="63" column="4" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="99" />
+        <state relative-caret-position="250">
+          <caret line="17" column="132" lean-forward="false" selection-start-line="17" selection-start-column="132" selection-end-line="17" selection-end-column="132" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swiper-slider-control-progress/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding />
         </state>
       </provider>

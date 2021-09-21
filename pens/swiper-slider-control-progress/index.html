@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper Slider Control Progress</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/favicon.png" />
+
+  <link rel="stylesheet" href="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/css/reset.css" />
+  <link rel="stylesheet" href="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_plugins/swiper-4.0.7/swiper-4.0.7.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+
+</style>
+
+  <div class="ag-format-container">
+
+  </div>
+
+  <div  id="scene_slider" class="main_slider">
+    <div class="swiper-container swiper-container-horizontal">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="slide_holder">
+            <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1.jpg" alt=""/>
+            <div class="text"><span>G5 Games</span> <span>is a team</span> <span>of professionals</span></div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slide_holder">
+            <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-2.jpg" alt=""/>
+            <div class="text"><span>Creative</span> <span>projects</span></div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slide_holder">
+            <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-3.jpg" alt=""/>
+            <div class="text"><span>Always growing</span> <span>and moving</span> <span>forward</span></div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slide_holder">
+            <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-4.jpg" alt=""/>
+            <div class="text"><span>Unforgettable</span> <span>experiences</span></div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="slide_holder">
+            <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-5.jpg" alt=""/>
+            <div class="text"><span>Join us!</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+       <!-- <span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span>
+        <span class="swiper-pagination-bullet"></span>
+        <span class="swiper-pagination-bullet"></span>
+        <span class="swiper-pagination-bullet"></span>
+        <span class="swiper-pagination-bullet"></span>-->
+      </div>
+    </div>
+  </div>
+
+<!--[if lt IE 9]>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/jquery/jquery-1.12.4.min.js"></script>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/jquery/jquery-migrate-1.4.1.min.js"></script>
+
+<!--<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_plugins/swiper-4.0.7/swiper-4.0.7.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+  (function ($) {
+    $(function () {
+
+
+      //if ($('.main_slider').length > 1) {
+
+        setTimeout(function () {
+          var agJobsSlider = new Swiper('.swiper-container', {
+            speed: 500,
+            slidesPerView: 1,
+            spaceBetween: 0,
+            loopedSlides: 1,
+            autoplay: {
+              delay: 4500,
+              autoplayDisableOnInteraction: false
+            },
+            loop: true,
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true
+            },
+
+            noSwiping: true,
+
+            noSwipingClass: 'swiper-container',
+/*
+            on: {
+              slideChange: function (swiper) {
+                if (typeof(swiper) != 'undefined') {
+                  $('.swiper-slide').width($('.main_slider').width());
+
+                  $('.swiper-slide').eq(swiper.activeIndex + 1).width(document.querySelector('.main_slider').getBoundingClientRect().width + 1);
+                }
+              },
+              slideChangeTransitionEnd: function (swiper) {
+                if (typeof(agJobsSlider[0]) != 'undefined') {
+                  agJobsSlider[0].autoplay.start();
+                }
+
+                if (typeof(agJobsSlider[1]) != 'undefined') {
+                  agJobsSlider[1].autoplay.start();
+                }
+              }
+            }
+            */
+          });
+        }, 500);
+
+      //}
+
+
+    });
+  })(jQuery);
+</script>
+</body>
+</html>
