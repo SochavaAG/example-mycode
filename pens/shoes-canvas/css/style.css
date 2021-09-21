@@ -8,6 +8,7 @@ html,
 body {
   height: 100%;
   background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/shoes-canvas/images/bg.jpg) no-repeat scroll 50% 0;
+  background-size: cover;
 }
 .move-elements {
   display: block;
