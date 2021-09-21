@@ -3,6 +3,12 @@
   margin: 0 auto;
 }
 
+body {
+  padding: 0 0 100px;
+  background-color: #C8D1FE;
+
+  overflow-x: hidden;
+}
 
 .ag-format-container {
   position: relative;
@@ -39,10 +45,10 @@
 
 }
 .ag-count_title::first-letter {
-  color: #3FA35D;
+  color: #0254A0;
 }
 
-.ag-man_list {
+.ag-bag_list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,114 +60,117 @@
 
   margin: 100px 0;
 }
-.ag-man_item {
+.ag-bag_item {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 22%;
   flex: 0 1 22%;
 
-  margin: 0 3% 60px 0;
+  margin: 0 3% 100px 0;
 
   position: relative;
 }
-.ag-man_item:nth-child(4n),
-.ag-man_item:last-child {
+.ag-bag_item:nth-child(4n),
+.ag-bag_item:last-child {
   margin: 0 0 60px 0;
 }
 
-.ag-man_img-box {
+.ag-bag_img-box {
   -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
   -webkit-box-flex: 0;
   -ms-flex: 0 1 100%;
   flex: 0 1 100%;
 }
-.ag-man_img-box:hover {
+.ag-bag_img-box:hover {
   -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -o-transform: scale(1.02);
   transform: scale(1.02);
 
   cursor: pointer;
 }
-.ag-man_img {
+.ag-bag_img {
   display: block;
-  height: 360px;
+  padding: 115% 0 0;
   background-position: 50% 100%;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
 }
-.ag-man_img-1 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-caveman-11.jpg);
+.ag-bag_img-1 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-1.jpg);
 }
-.ag-man_img-2 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-fury-12.jpg);
+.ag-bag_img-2 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-2.jpg);
 }
-.ag-man_img-3 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-iceman-13.jpg);
+.ag-bag_img-3 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-3.jpg);
 }
-.ag-man_img-4 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-madman-14.jpg);
+.ag-bag_img-4 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-4.jpg);
 }
-.ag-man_img-5 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-strongman-15.jpg);
+.ag-bag_img-5 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-5.jpg);
 }
-.ag-man_img-6 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-voodoo-16.jpg);
+.ag-bag_img-6 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-6.jpg);
 }
-.ag-man_img-7 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-caveman-1.jpg);
+.ag-bag_img-7 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-7.jpg);
 }
-.ag-man_img-8 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-fury-2.jpg);
+.ag-bag_img-8 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-8.jpg);
 }
-.ag-man_img-9 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-iceman-3.jpg);
+.ag-bag_img-9 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-9.jpg);
 }
-.ag-man_img-10 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-madman-4.jpg);
+.ag-bag_img-10 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-10.jpg);
 }
-.ag-man_img-11 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-strongman-5.jpg);
+.ag-bag_img-11 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-11.jpg);
 }
-.ag-man_img-12 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-voodoo-6.jpg);
+.ag-bag_img-12 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-12.jpg);
 }
-.ag-man_img-13 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-caveman-7.jpg);
+.ag-bag_img-13 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-13.jpg);
 }
-.ag-man_img-14 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-fury-8.jpg);
+.ag-bag_img-14 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-14.jpg);
 }
-.ag-man_img-15 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-iceman-9.jpg);
+.ag-bag_img-15 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-15.jpg);
 }
-.ag-man_img-16 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-madman-10.jpg);
+.ag-bag_img-16 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-16.jpg);
 }
-.ag-man_img-17 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-strongman-11.jpg);
+.ag-bag_img-17 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-17.jpg);
 }
-.ag-man_img-18 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-voodoo-12.jpg);
+.ag-bag_img-18 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-18.jpg);
 }
-.ag-man_img-19 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-caveman-13.jpg);
+.ag-bag_img-19 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-19.jpg);
 }
-.ag-man_img-20 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-fury-14.jpg);
+.ag-bag_img-20 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-20.jpg);
 }
-.ag-man_img-21 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-iceman-15.jpg);
+.ag-bag_img-21 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-21.jpg);
 }
-.ag-man_img-22 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-madman-16.jpg);
+.ag-bag_img-22 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-22.jpg);
 }
-.ag-man_img-23 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-strongman-17.jpg);
+.ag-bag_img-23 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-23.jpg);
 }
-.ag-man_img-24 {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bg-voodoo-18.jpg);
+.ag-bag_img-24 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/bag-24.jpg);
 }
 
-.ag-man_title-item {
-  margin: 17px 0 7px 0;
+.ag-bag_title-item {
+  padding: 15px 0 30px;
 
   text-align: center;
   font-weight: bold;
@@ -170,15 +179,17 @@
 
   position: relative;
 }
-.ag-man_title-item:first-letter {
-  color: #3FA35D;
+.ag-bag_title-item:first-letter {
+  color: #0254A0;
 }
 
+.js-ag-sliding-text-wrap {
+  position: absolute;
+}
 .js-ag-sliding-text {
   display: inline-block;
   height: 150px;
   line-height: .8;
-  /*width: 75vw;*/
 
   opacity: .7;
 
@@ -187,12 +198,14 @@
   z-index: 9999;
   position: absolute;
   top: 0;
-  left: -200vw;
+  left: -200%;
 
-  font-size: 8vw;
-  color: #3FA35D;
+  font-size: 7vw;
+  color: #0254A0;
 
   -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
   transition: all .5s ease-out;
 }
 
@@ -221,44 +234,41 @@
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-  .ag-man_list {
+  .ag-bag_list {
     margin: 0;
   }
 }
 
 @media only screen and (max-width: 1161px) {
-  .ag-man_item,
-  .ag-man_item:nth-child(4n),
-  .ag-man_item:last-child {
+  .ag-bag_item,
+  .ag-bag_item:nth-child(4n),
+  .ag-bag_item:last-child {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 25%;
     flex: 0 1 25%;
 
     margin: 0 5% 60px 0;
   }
-  .ag-man_item:nth-child(3n),
-  .ag-man_item:last-child {
+  .ag-bag_item:nth-child(3n),
+  .ag-bag_item:last-child {
     margin: 0 0 60px 0;
   }
 }
 
 @media only screen and (max-width: 979px) {
-  .ag-man_item,
-  .ag-man_item:nth-child(2n),
-  .ag-man_item:nth-child(3n),
-  .ag-man_item:last-child {
+  .ag-bag_item,
+  .ag-bag_item:nth-child(2n),
+  .ag-bag_item:nth-child(3n),
+  .ag-bag_item:last-child {
     -webkit-box-flex: 0;
     -ms-flex: 0 1 45%;
     flex: 0 1 45%;
 
     margin: 0 5% 60px 0;
   }
-  .ag-man_item:nth-child(2n),
-  .ag-man_item:last-child {
+  .ag-bag_item:nth-child(2n),
+  .ag-bag_item:last-child {
     margin: 0 0 60px 0;
-  }
-  .ag-man_img {
-    height: 460px;
   }
 }
 
@@ -270,10 +280,10 @@
 }
 
 @media only screen and (max-width: 639px) {
-  .ag-man_item,
-  .ag-man_item:nth-child(2n),
-  .ag-man_item:nth-child(3n),
-  .ag-man_item:last-child {
+  .ag-bag_item,
+  .ag-bag_item:nth-child(2n),
+  .ag-bag_item:nth-child(3n),
+  .ag-bag_item:last-child {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
