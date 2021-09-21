@@ -20,6 +20,10 @@
 
 <body>
 <style>
+  img {
+    max-width: 100%;
+  }
+
   .ag-card-block {
     padding: 60px 0;
     background-color: #EAEAEA;
@@ -107,11 +111,10 @@
     }
   }
   .ag-card_link {
-    text-decoration: none;
-  }
-
-  .card {
     display: block;
+    
+    text-decoration: none;
+    
     position: relative;
   }
   .ag-card_link__anim .ag-card_img {
@@ -368,21 +371,21 @@
       top: 3.5em;
     }
   }
-  .card:hover .anim-card {
+  .ag-card_link:hover .anim-card {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
   }
-  .card:hover .anim-card__character {
+  .ag-card_link:hover .anim-card__character {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
   }
-  .card:hover .anim-card__bg {
+  .ag-card_link:hover .anim-card__bg {
     -webkit-animation-play-state: running;
     animation-play-state: running;
   }
-  .card:hover .anim-card__tile {
+  .ag-card_link:hover .anim-card__tile {
     -webkit-animation-play-state: running;
     animation-play-state: running;
   }
@@ -432,10 +435,10 @@
   <div class="ag-format-container">
     <ul id="catalog" class="ag-card_list">
       <li class="ag-card_item">
-        <a href="#" class="card ag-card_link ag-card_link__anim">
+        <a href="#" class="ag-card_link ag-card_link__anim">
           <picture>
             <source media="(min-width: 1025px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-            <img class="ag-card_img" src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-1.png" width="444" height="564" alt="" />
+            <img class="ag-card_img" src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/item-background-move-hover/images/card-mobile-banner-444x465-1.jpg" width="444" height="564" alt="" />
           </picture>
 
           <div class="anim-card">
@@ -456,10 +459,10 @@
         </a>
       </li>
       <li class="ag-card_item">
-        <a href="#" class="card ag-card_link ag-card_link__anim">
+        <a href="#" class="ag-card_link ag-card_link__anim">
           <picture>
             <source media="(min-width: 1025px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-            <img class="ag-card_img" src="https://web-static.g5e.com/images/games/140/catalog_small/Card_mobile_banner_444x465_1618834280.jpg" alt="Jewels of Rome™・Building Empire" width="444" height="564">
+            <img class="ag-card_img" src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/item-background-move-hover/images/card-mobile-banner-444x465-2.jpg" width="444" height="564" alt="" />
           </picture>
 
           <div class="anim-card">
@@ -480,10 +483,10 @@
         </a>
       </li>
       <li class="ag-card_item">
-        <a href="#" class="card ag-card_link ag-card_link__anim">
+        <a href="#" class="ag-card_link ag-card_link__anim">
           <picture>
             <source media="(min-width: 1025px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-            <img class="ag-card_img" src="https://web-static.g5e.com/images/games/148/catalog_small/Card_mobile_banner_444x465_1626777344.jpg" alt="Jewels of the Wild West®: Gems puzzles &amp; Diamond quests" width="444" height="564">
+            <img class="ag-card_img" src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/item-background-move-hover/images/card-mobile-banner-444x465-3.jpg" width="444" height="564" alt="" />
           </picture>
 
           <div class="anim-card">
@@ -504,10 +507,10 @@
         </a>
       </li>
       <li class="ag-card_item">
-        <a href="#" class="card ag-card_link ag-card_link__anim">
+        <a href="#" class="ag-card_link ag-card_link__anim">
           <picture>
             <source media="(min-width: 1025px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-            <img class="ag-card_img" src="https://web-static.g5e.com/images/games/155/catalog_small/Card_mobile_banner_444x465_1626774825.jpg" alt="Sherlock・Hidden Object・Match 3" width="444" height="564">
+            <img class="ag-card_img" src="https://web-static.g5e.com/images/games/155/catalog_small/Card_mobile_banner_444x465_1626774825.jpg" width="444" height="564" alt="" />
           </picture>
 
           <div class="anim-card">
@@ -518,11 +521,11 @@
                 <source srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
                 <img class="anim-card__bg" src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1098x549-4.jpg" alt="">
               </picture>
-              <!--<picture>
-                <source media="(min-width: 1025px)" srcset="https://web-static.g5e.com/images/games/155/catalog_large/tiles_1615928863.webp" type="image/webp">
+              <picture>
+                <source media="(min-width: 1025px)" srcset="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/flag-en.svg" type="image/webp">
                 <source media="(max-width: 1024px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                <img class="anim-card__tile align-left vertical-align-bottom" src="https://web-static.g5e.com/images/games/155/catalog_large/tiles_1615928863.png" alt="" />
-              </picture>-->
+                <img class="anim-card__tile align-left vertical-align-bottom" src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/flag-en.svg" alt="" />
+              </picture>
             </div>
             <picture>
               <source media="(min-width: 1025px)" srcset="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-4.webp" type="image/webp">
@@ -533,10 +536,10 @@
         </a>
       </li>
       <li class="ag-card_item">
-        <a href="#" class="card ag-card_link ag-card_link__anim">
+        <a href="#" class="ag-card_link ag-card_link__anim">
           <picture>
             <source media="(min-width: 1025px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-            <img class="ag-card_img" src="https://web-static.g5e.com/images/games/114/catalog_small/Card_mobile_banner_444x465_1615919301.jpg" alt="Mahjong Journey®: Tile Match" width="444" height="564">
+            <img class="ag-card_img" src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/item-background-move-hover/images/card-mobile-banner-444x465-5.jpg" alt="Mahjong Journey®: Tile Match" width="444" height="564">
           </picture>
 
           <div class="anim-card">
@@ -557,10 +560,10 @@
         </a>
       </li>
       <li class="ag-card_item">
-        <a href="#" class="card ag-card_link ag-card_link__anim">
+        <a href="#" class="ag-card_link ag-card_link__anim">
           <picture>
             <source media="(min-width: 1025px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-            <img class="ag-card_img" src="https://web-static.g5e.com/images/games/146/catalog_small/Card_mobile_banner_444x465_1617119207.jpg" alt="Crime Mysteries™ Hidden Murder" width="444" height="564">
+            <img class="ag-card_img" src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/item-background-move-hover/images/card-mobile-banner-444x465-6.jpg" width="444" height="564" alt="" />
           </picture>
 
           <div class="anim-card">
@@ -581,10 +584,10 @@
         </a>
       </li>
       <li class="ag-card_item">
-        <a href="#" class="card ag-card_link ag-card_link__anim">
+        <a href="#" class="ag-card_link ag-card_link__anim">
           <picture>
             <source media="(min-width: 1025px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-            <img class="ag-card_img" src="https://web-static.g5e.com/images/games/147/catalog_small/Card_mobile_banner_444x465_1623144845.jpg" alt="Jewels of Egypt®: Match 3 Games" width="444" height="564">
+            <img class="ag-card_img" src="https://web-static.g5e.com/images/games/147/catalog_small/Card_mobile_banner_444x465_1623144845.jpg" width="444" height="564" alt="" />
           </picture>
 
           <div class="anim-card">
@@ -595,11 +598,11 @@
                 <source srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
                 <img class="anim-card__bg" src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1098x549-7.jpg" alt="">
               </picture>
-              <!--<picture>
-                <source media="(min-width: 1025px)" srcset="https://web-static.g5e.com/images/games/147/catalog_large/tiles_1623144755.webp" type="image/webp">
+              <picture>
+                <source media="(min-width: 1025px)" srcset="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/social-skype.svg" type="image/webp">
                 <source media="(max-width: 1024px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                <img class="anim-card__tile align-left vertical-align-bottom" src="https://web-static.g5e.com/images/games/147/catalog_large/tiles_1623144755.png" alt="" />
-              </picture>-->
+                <img class="anim-card__tile align-left vertical-align-bottom" src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/social-skype.svg" alt="" />
+              </picture>
             </div>
             <picture>
               <source media="(min-width: 1025px)" srcset="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-7.webp" type="image/webp">
@@ -610,10 +613,10 @@
         </a>
       </li>
       <li class="ag-card_item">
-        <a href="#" class="card ag-card_link ag-card_link__anim">
+        <a href="#" class="ag-card_link ag-card_link__anim">
           <picture>
             <source media="(min-width: 1025px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-            <img class="ag-card_img" src="https://web-static.g5e.com/images/games/135/catalog_small/Card_mobile_banner_444x465_1617376759.jpg" alt="Homicide Squad®:&nbsp;Hidden Objects" width="444" height="564">
+            <img class="ag-card_img" src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/item-background-move-hover/images/card-mobile-banner-444x465-8.jpg" width="444" height="564" alt="" />
           </picture>
 
           <div class="anim-card">
@@ -634,10 +637,10 @@
         </a>
       </li>
       <li class="ag-card_item">
-        <a href="#" class="card ag-card_link ag-card_link__anim">
+        <a href="#" class="ag-card_link ag-card_link__anim">
           <picture>
             <source media="(min-width: 1025px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-            <img class="ag-card_img" src="https://web-static.g5e.com/images/games/154/catalog_small/Card_mobile_banner_444x465_1626775170.jpg" alt="Sheriff of Mahjong™: Tile Match" width="444" height="564">
+            <img class="ag-card_img" src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/item-background-move-hover/images/card-mobile-banner-444x465-9.jpg" width="444" height="564" alt="" />
           </picture>
 
           <div class="anim-card">
@@ -658,10 +661,10 @@
         </a>
       </li>
       <li class="ag-card_item">
-        <a href="#" class="card ag-card_link ag-card_link__anim">
+        <a href="#" class="ag-card_link ag-card_link__anim">
           <picture>
             <source media="(min-width: 1025px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-            <img class="ag-card_img" src="https://web-static.g5e.com/images/games/156/catalog_small/Card_mobile_banner_444x465_1626775134.jpg" alt="Pyramid of Mahjong: Master tile matching puzzle" width="444" height="564">
+            <img class="ag-card_img" src="https://web-static.g5e.com/images/games/156/catalog_small/Card_mobile_banner_444x465_1626775134.jpg" width="444" height="564" alt="" />
           </picture>
 
           <div class="anim-card">
@@ -682,10 +685,10 @@
         </a>
       </li>
       <li class="ag-card_item">
-        <a href="#" class="card ag-card_link ag-card_link__anim">
+        <a href="#" class="ag-card_link ag-card_link__anim">
           <picture>
             <source media="(min-width: 1025px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-            <img class="ag-card_img" src="https://web-static.g5e.com/images/games/145/catalog_small/Card_mobile_banner_444x465_1615922850.jpg" alt="Match Town Makeover®: My Design" width="444" height="564">
+            <img class="ag-card_img" src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/item-background-move-hover/images/card-mobile-banner-444x465-11.jpg" width="444" height="564" alt="" />
           </picture>
 
           <div class="anim-card">
@@ -706,10 +709,10 @@
         </a>
       </li>
       <li class="ag-card_item">
-        <a href="#" class="card ag-card_link ag-card_link__anim">
+        <a href="#" class="ag-card_link ag-card_link__anim">
           <picture>
             <source media="(min-width: 1025px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-            <img class="ag-card_img" src="https://web-static.g5e.com/images/games/151/catalog_small/Card_mobile_banner_444x465_1615585224.jpg" alt="Wordplay: Search Word Puzzle" width="444" height="564">
+            <img class="ag-card_img" src="https://web-static.g5e.com/images/games/151/catalog_small/Card_mobile_banner_444x465_1615585224.jpg" width="444" height="564" alt="" />
           </picture>
 
           <div class="anim-card">
@@ -730,10 +733,10 @@
         </a>
       </li>
       <li class="ag-card_item">
-        <a href="#" class="card ag-card_link ag-card_link__anim">
+        <a href="#" class="ag-card_link ag-card_link__anim">
           <picture>
             <source media="(min-width: 1025px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-            <img class="ag-card_img" src="https://web-static.g5e.com/images/games/149/catalog_small/Card_mobile_banner_444x465_1616189846.jpg" alt="Emperor of Mahjong:&nbsp;Pair matching puzzle master" width="444" height="564">
+            <img class="ag-card_img" src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/item-background-move-hover/images/card-mobile-banner-444x465-13.jpg" width="444" height="564" alt="" />
           </picture>
 
           <div class="anim-card">
@@ -754,10 +757,10 @@
         </a>
       </li>
       <li class="ag-card_item">
-        <a href="#" class="card ag-card_link ag-card_link__anim">
+        <a href="#" class="ag-card_link ag-card_link__anim">
           <picture>
             <source media="(min-width: 1025px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-            <img class="ag-card_img" src="https://web-static.g5e.com/images/games/150/catalog_small/Card_mobile_banner_444x465_1626776587.jpg" alt="The Hidden Treasures: Find journey notes &amp; objects" width="444" height="564">
+            <img class="ag-card_img" src="https://web-static.g5e.com/images/games/150/catalog_small/Card_mobile_banner_444x465_1626776587.jpg" width="444" height="564" alt="" />
           </picture>
 
           <div class="anim-card">
@@ -768,10 +771,10 @@
                 <source srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
                 <img class="anim-card__bg" src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1098x549-14.jpg" alt="">
               </picture>
-              <picture>
-                <source media="(min-width: 1025px)" srcset="https://web-static.g5e.com/images/games/150/catalog_large/tiles_1623850490.webp" type="image/webp">
+             <picture>
+                <source media="(min-width: 1025px)" srcset="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/icon-c-1.svg" type="image/webp">
                 <source media="(max-width: 1024px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
-                <img class="anim-card__tile align-left vertical-align-bottom" src="https://web-static.g5e.com/images/games/150/catalog_large/tiles_1623850490.png" alt="" />
+                <img class="anim-card__tile align-left vertical-align-bottom" src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/icon-c-1.svg" alt="" />
               </picture>
             </div>
             <picture>

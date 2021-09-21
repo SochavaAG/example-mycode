@@ -120,13 +120,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/item-background-move-hover/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="648" column="132" lean-forward="false" selection-start-line="648" selection-start-column="132" selection-end-line="648" selection-end-column="132" />
+            <state relative-caret-position="-125">
+              <caret line="761" column="123" lean-forward="false" selection-start-line="761" selection-start-column="123" selection-end-line="761" selection-end-column="123" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zulutrade-EN.html" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/vazhno_project-1/2021.09.21_FX-25331_zulutrade /zulutrade-EN.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="648" selection-end-column="3" />
+              <folding>
+                <element signature="n#div#0;n#!!top" expanded="false" />
+                <element signature="e#23820#23825#0" expanded="true" />
+                <element signature="n#script#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -136,9 +150,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>js-sliding-text</find>
-      <find>app</find>
-      <find>z-index</find>
       <find>wrapperItem</find>
       <find>js-ag-sliding-text</find>
       <find>ag-banner_img</find>
@@ -166,10 +177,11 @@
       <find>slider__card</find>
       <find>card__img</find>
       <find>.png&quot; alt=&quot;&quot;&gt;</find>
+      <find>anim-card__character</find>
+      <find>card</find>
+      <find>&lt;img class=&quot;ag-card_img&quot;</find>
     </findStrings>
     <replaceStrings>
-      <replace>&lt;div class=&quot;ag-man_title-item&quot;&gt;</replace>
-      <replace>э</replace>
       <replace>'</replace>
       <replace>js-man_item</replace>
       <replace>&lt;li&gt;</replace>
@@ -198,6 +210,8 @@
       <replace>ag-card_list</replace>
       <replace>ag-card_img</replace>
       <replace>.png&quot; alt=&quot;&quot; /&gt;</replace>
+      <replace>.ag-card_link</replace>
+      <replace>&lt;a href=&quot;#&quot; class=&quot;ag-card_link ag-card_link__anim&quot;&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -225,7 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/animation-accordeon/index.html" />
         <option value="$PROJECT_DIR$/animation-accordeon/js/main.js" />
         <option value="$PROJECT_DIR$/scroll-menu/index.html" />
         <option value="$PROJECT_DIR$/scroll-menu/css/style.css" />
@@ -276,6 +289,7 @@
         <option value="$USER_HOME$/vazhno_project-1/2021.09.17_news_/de30-index-name-change-ALL.html" />
         <option value="$PROJECT_DIR$/item-flex-hover-slide-title/js/main.js" />
         <option value="$PROJECT_DIR$/item-background-move-hover/index.html" />
+        <option value="$USER_HOME$/vazhno_project-1/2021.09.21_FX-25331_zulutrade /zulutrade-EN.html" />
       </list>
     </option>
   </component>
@@ -533,12 +547,12 @@
       <workItem from="1631777528751" duration="25523000" />
       <workItem from="1631860606143" duration="2133000" />
       <workItem from="1631865552210" duration="13618000" />
-      <workItem from="1632210138188" duration="5735000" />
+      <workItem from="1632210138188" duration="9147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1138632000" />
+    <option name="totallyTimeSpent" value="1142044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -578,18 +592,11 @@
           <line>1313</line>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scroll-fixed-text/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3792">
-          <caret line="158" column="1" lean-forward="false" selection-start-line="158" selection-start-column="1" selection-end-line="178" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/video-bg/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -941,10 +948,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/item-background-move-hover/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="648" column="132" lean-forward="false" selection-start-line="648" selection-start-column="132" selection-end-line="648" selection-end-column="132" />
+        <state relative-caret-position="-125">
+          <caret line="761" column="123" lean-forward="false" selection-start-line="761" selection-start-column="123" selection-end-line="761" selection-end-column="123" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.09.21_FX-25331_zulutrade /zulutrade-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="648" selection-end-column="3" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="e#23820#23825#0" expanded="true" />
+            <element signature="n#script#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
