@@ -127,6 +127,8 @@ body {
     width: 100%;
   }
   .ag-main_text {
+    padding: 30px 0 0;
+
     text-align: center;
   }
 }

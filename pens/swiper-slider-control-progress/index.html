@@ -72,8 +72,6 @@
     </div>
   </div>
 
-
-
 <!--[if lt IE 9]>
 <script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/html5shiv/es5-shim.min.js"></script>
 <script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/html5shiv/html5shiv.min.js"></script>
@@ -83,46 +81,8 @@
 <script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/jquery/jquery-1.12.4.min.js"></script>
 <script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/jquery/jquery-migrate-1.4.1.min.js"></script>
 
-<!--<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_plugins/swiper-4.0.7/swiper-4.0.7.min.js"></script>-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_plugins/swiper-4.0.7/swiper-4.0.7.min.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>-->
 <script src="js/main.js"></script>
-<script>
-  (function ($) {
-    $(function () {
-
-
-        setTimeout(function () {
-          var agJobsSlider = new Swiper('.swiper-container', {
-            speed: 500,
-            slidesPerView: 1,
-            spaceBetween: 0,
-            loopedSlides: 1,
-            autoplay: {
-              delay: 4500,
-              autoplayDisableOnInteraction: false
-            },
-            loop: true,
-            pagination: {
-              el: '.swiper-pagination',
-              clickable: true
-            },
-            noSwiping: true,
-            noSwipingClass: 'swiper-container',
-            on: {
-              slideChange: function (swiper) {
-                if (typeof(swiper) != 'undefined') {
-                  $('.swiper-slide').width($('.main_slider').width());
-
-                  $('.swiper-slide').eq(swiper.activeIndex + 1).width(document.querySelector('.js-main_slider').getBoundingClientRect().width + 1);
-                }
-              }
-            }
-          });
-        }, 500);
-
-
-    });
-  })(jQuery);
-</script>
 </body>
 </html>
