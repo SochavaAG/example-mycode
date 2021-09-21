@@ -41,7 +41,7 @@
       <file leaf-file-name="format-t.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/format-t.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
+            <state relative-caret-position="167784">
               <caret line="6991" column="0" lean-forward="false" selection-start-line="6991" selection-start-column="0" selection-end-line="6991" selection-end-column="0" />
               <folding />
             </state>
@@ -51,8 +51,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/item-flex-hover-slide-title/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="134" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="302" selection-end-column="1" />
+            <state relative-caret-position="264">
+              <caret line="144" column="94" lean-forward="false" selection-start-line="144" selection-start-column="24" selection-end-line="144" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/item-flex-hover-slide-title/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="744">
-              <caret line="233" column="0" lean-forward="true" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+              <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -70,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/item-flex-hover-slide-title/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
@@ -83,8 +83,8 @@
       <file leaf-file-name="single-finskills_courses.php" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/vazhno_project-1/2021.04.28_wp_theme_finskills/finskills/finskills/single-finskills_courses.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+            <state relative-caret-position="864">
+              <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -93,8 +93,8 @@
       <file leaf-file-name="archive-finskills_courses.php" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/vazhno_project-1/2021.04.28_wp_theme_finskills/finskills/finskills/archive-finskills_courses.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="158" column="56" lean-forward="true" selection-start-line="158" selection-start-column="56" selection-end-line="158" selection-end-column="56" />
+            <state relative-caret-position="3792">
+              <caret line="158" column="56" lean-forward="false" selection-start-line="158" selection-start-column="56" selection-end-line="158" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -104,8 +104,30 @@
         <entry file="file://$USER_HOME$/vazhno_project-1/2021.09.17_news_/de30-index-name-change-ALL.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="20" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="6" />
+              <caret line="20" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/animation-leaf/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/item-background-move-hover/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="437" column="122" lean-forward="false" selection-start-line="437" selection-start-column="42" selection-end-line="437" selection-end-column="122" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,21 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#fff;</find>
-      <find>margin-footer</find>
-      <find>our-team</find>
-      <find>our-team__wrapper</find>
-      <find>our-team__item_wrapper</find>
-      <find>no-gutters</find>
-      <find>position-relative</find>
-      <find>our-team__item</find>
-      <find>.ag-count_title</find>
-      <find>&lt;i</find>
-      <find>ag-man_img</find>
-      <find>our-team__img</find>
-      <find>&quot;</find>
-      <find>•</find>
-      <find>$wrapper</find>
       <find>js-sliding-text</find>
       <find>app</find>
       <find>z-index</find>
@@ -138,23 +145,29 @@
       <find>“</find>
       <find>$;</find>
       <find>$</find>
-      <find>$</find>
-      <find>•</find>
       <find>ag-courses-td_item</find>
       <find>lastScrollTop2</find>
       <find>agSlidingText_x</find>
       <find>st2</find>
+      <find>body.hasHover</find>
+      <find>class=&quot;card__logo</find>
+      <find>box-sha</find>
+      <find>card__logo</find>
+      <find>wiggle</find>
+      <find>moveCardBackground</find>
+      <find>anim-card__bottom</find>
+      <find>vertical-align-middle</find>
+      <find>cards__item</find>
+      <find>.cards--2-3-row</find>
+      <find>card--animation</find>
+      <find>cards</find>
+      <find>ag-card_list</find>
+      <find>&lt;a href=&quot;#&quot; class=&quot;card ag-card_link__anim slider__card&quot;&gt;</find>
+      <find>slider__card</find>
+      <find>card__img</find>
+      <find>.png&quot; alt=&quot;&quot;&gt;</find>
     </findStrings>
     <replaceStrings>
-      <replace>agWindowHeight</replace>
-      <replace>agDocumentHeight</replace>
-      <replace>#FFF;</replace>
-      <replace>ag-man-block</replace>
-      <replace>ag-man_list</replace>
-      <replace>ag-man_item</replace>
-      <replace>&lt;/div&gt;</replace>
-      <replace>ag-man_img-box</replace>
-      <replace>ag-man_img</replace>
       <replace>&lt;div class=&quot;ag-man_title-item&quot;&gt;</replace>
       <replace>э</replace>
       <replace>'</replace>
@@ -176,6 +189,15 @@
       <replace>agWindowOffset</replace>
       <replace>agScrollTopLast</replace>
       <replace>agScrollTop</replace>
+      <replace>an-wiggle</replace>
+      <replace>an-card-bg-move</replace>
+      <replace>}</replace>
+      <replace>ag-card_item</replace>
+      <replace>ag-card_link__anim</replace>
+      <replace>&lt;a href=&quot;#&quot; class=&quot;card ag-card_link ag-card_link__anim slider__card&quot;&gt;</replace>
+      <replace>ag-card_list</replace>
+      <replace>ag-card_img</replace>
+      <replace>.png&quot; alt=&quot;&quot; /&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -203,7 +225,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/animation-accordeon/css/style.css" />
         <option value="$PROJECT_DIR$/animation-accordeon/index.html" />
         <option value="$PROJECT_DIR$/animation-accordeon/js/main.js" />
         <option value="$PROJECT_DIR$/scroll-menu/index.html" />
@@ -254,6 +275,7 @@
         <option value="$USER_HOME$/vazhno_project-1/2021.09.17_news_/itez-visa-cards-is-now-available-ALL.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.09.17_news_/de30-index-name-change-ALL.html" />
         <option value="$PROJECT_DIR$/item-flex-hover-slide-title/js/main.js" />
+        <option value="$PROJECT_DIR$/item-background-move-hover/index.html" />
       </list>
     </option>
   </component>
@@ -511,11 +533,12 @@
       <workItem from="1631777528751" duration="25523000" />
       <workItem from="1631860606143" duration="2133000" />
       <workItem from="1631865552210" duration="13618000" />
+      <workItem from="1632210138188" duration="3145000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1132897000" />
+    <option name="totallyTimeSpent" value="1136042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -560,29 +583,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scroll-fixed-text/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scroll-fixed-text/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2712">
-          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="117" selection-end-column="35" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scroll-fixed-text/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3792">
           <caret line="158" column="1" lean-forward="false" selection-start-line="158" selection-start-column="1" selection-end-line="178" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -613,14 +617,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-24">
           <caret line="52" column="191" lean-forward="false" selection-start-line="52" selection-start-column="165" selection-end-line="52" selection-end-column="191" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.04.28_wp_theme_finskills/finskills/finskills/single-finskills_courses.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        <state relative-caret-position="864">
+          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -629,7 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1512">
           <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -637,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94128">
           <caret line="3922" column="0" lean-forward="false" selection-start-line="3922" selection-start-column="0" selection-end-line="3922" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206712">
           <caret line="8613" column="0" lean-forward="false" selection-start-line="8613" selection-start-column="0" selection-end-line="8613" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,68 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="122" selection-end-column="3" />
-          <folding>
-            <element signature="e#48#164#0" expanded="false" />
-            <element signature="e#194#226#0" expanded="false" />
-            <element signature="e#254#304#0" expanded="false" />
-            <element signature="e#329#379#0" expanded="false" />
-            <element signature="e#409#457#0" expanded="false" />
-            <element signature="e#481#579#0" expanded="false" />
-            <element signature="e#603#692#0" expanded="false" />
-            <element signature="e#721#748#0" expanded="false" />
-            <element signature="e#766#1043#0" expanded="false" />
-            <element signature="e#1064#1284#0" expanded="false" />
-            <element signature="e#1320#2551#0" expanded="false" />
-            <element signature="e#2569#2888#0" expanded="false" />
-            <element signature="e#2927#2957#0" expanded="false" />
-            <element signature="e#2981#3018#0" expanded="false" />
-            <element signature="e#3043#3251#0" expanded="false" />
-            <element signature="e#3297#3332#0" expanded="false" />
-            <element signature="e#3360#3588#0" expanded="false" />
-            <element signature="n#article#0;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#0;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#0;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#article#0;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#article#1;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#1;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#1;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#article#1;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#article#2;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#2;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#2;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#article#2;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#article#3;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#3;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#3;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#article#3;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#article#4;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#4;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#4;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#article#4;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#article#5;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#5;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#5;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#article#5;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#article#6;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#6;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#6;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#article#6;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#article#7;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#7;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#7;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#article#7;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#article#8;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#8;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#8;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#article#8;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#article#9;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#9;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#9;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#article#9;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#section#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -746,109 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="182" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="182" selection-end-column="6" />
-          <folding>
-            <element signature="n#article#0;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#0;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#0;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#362#368#0" expanded="false" />
-            <element signature="n#div#1;n#article#0;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#619#625#0" expanded="false" />
-            <element signature="e#798#804#0" expanded="false" />
-            <element signature="e#822#828#0" expanded="false" />
-            <element signature="e#844#850#0" expanded="false" />
-            <element signature="e#901#907#0" expanded="false" />
-            <element signature="n#article#1;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#1;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#1;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#1382#1388#0" expanded="false" />
-            <element signature="n#div#1;n#article#1;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#1715#1721#0" expanded="false" />
-            <element signature="e#1735#1741#0" expanded="false" />
-            <element signature="e#1757#1763#0" expanded="false" />
-            <element signature="e#1786#1792#0" expanded="false" />
-            <element signature="e#1928#1934#0" expanded="false" />
-            <element signature="n#article#2;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#2;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#2;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#2511#2517#0" expanded="false" />
-            <element signature="n#div#1;n#article#2;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#article#3;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#3;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#3;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#3066#3072#0" expanded="false" />
-            <element signature="n#div#1;n#article#3;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#3322#3328#0" expanded="false" />
-            <element signature="e#3368#3374#0" expanded="false" />
-            <element signature="e#3404#3410#0" expanded="false" />
-            <element signature="n#article#4;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#4;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#4;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#3925#3931#0" expanded="false" />
-            <element signature="n#div#1;n#article#4;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#4112#4118#0" expanded="false" />
-            <element signature="e#4155#4161#0" expanded="false" />
-            <element signature="e#4282#4288#0" expanded="false" />
-            <element signature="e#4350#4356#0" expanded="false" />
-            <element signature="e#4363#4369#0" expanded="false" />
-            <element signature="e#4675#4681#0" expanded="false" />
-            <element signature="e#4699#4705#0" expanded="false" />
-            <element signature="e#4721#4727#0" expanded="false" />
-            <element signature="e#4754#4760#0" expanded="false" />
-            <element signature="n#article#5;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#5;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#5;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#5127#5133#0" expanded="false" />
-            <element signature="n#div#1;n#article#5;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#5347#5353#0" expanded="false" />
-            <element signature="e#5445#5451#0" expanded="false" />
-            <element signature="e#5469#5475#0" expanded="false" />
-            <element signature="e#5607#5613#0" expanded="false" />
-            <element signature="e#5650#5656#0" expanded="false" />
-            <element signature="e#5712#5718#0" expanded="false" />
-            <element signature="n#article#6;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#6;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#6;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#6142#6148#0" expanded="false" />
-            <element signature="n#div#1;n#article#6;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#6410#6416#0" expanded="false" />
-            <element signature="e#6434#6440#0" expanded="false" />
-            <element signature="e#6462#6468#0" expanded="false" />
-            <element signature="e#6500#6506#0" expanded="false" />
-            <element signature="e#6553#6559#0" expanded="false" />
-            <element signature="e#6680#6686#0" expanded="false" />
-            <element signature="e#6708#6714#0" expanded="false" />
-            <element signature="n#article#7;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#7;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#7;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#7469#7475#0" expanded="false" />
-            <element signature="n#div#1;n#article#7;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#7823#7829#0" expanded="false" />
-            <element signature="e#7853#7859#0" expanded="false" />
-            <element signature="e#7888#7894#0" expanded="false" />
-            <element signature="e#7995#8001#0" expanded="false" />
-            <element signature="e#8101#8107#0" expanded="false" />
-            <element signature="e#8116#8122#0" expanded="false" />
-            <element signature="n#article#8;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#8;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#8;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#8659#8665#0" expanded="false" />
-            <element signature="n#div#1;n#article#8;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#9039#9045#0" expanded="false" />
-            <element signature="e#9063#9069#0" expanded="false" />
-            <element signature="e#9091#9097#0" expanded="false" />
-            <element signature="e#9134#9140#0" expanded="false" />
-            <element signature="n#article#9;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#article#9;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#article#9;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#9599#9605#0" expanded="false" />
-            <element signature="n#div#1;n#article#9;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="e#9921#9927#0" expanded="false" />
-            <element signature="e#9943#9949#0" expanded="false" />
-            <element signature="e#9982#9988#0" expanded="false" />
-            <element signature="e#10017#10023#0" expanded="false" />
-            <element signature="n#div#0;n#section#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="27" column="88" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50424">
           <caret line="2101" column="47" lean-forward="false" selection-start-line="2101" selection-start-column="34" selection-end-line="2101" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,7 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1912" column="24" lean-forward="false" selection-start-line="1912" selection-start-column="24" selection-end-line="1912" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,9 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16104">
           <caret line="671" column="106" lean-forward="false" selection-start-line="671" selection-start-column="98" selection-end-line="671" selection-end-column="106" />
-          <folding>
-            <element signature="n#script#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -898,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3864">
           <caret line="161" column="77" lean-forward="false" selection-start-line="161" selection-start-column="77" selection-end-line="161" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,11 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1631622198768" expanded="true" signature="5641:5682" ph="..." />
-            <marker date="1631622198768" expanded="true" signature="6226:6233" ph="×" />
-            <marker date="1631622198768" expanded="true" signature="6664:6677" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -918,7 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="3" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -934,7 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,7 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="706">
           <caret line="42" column="6" lean-forward="false" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -950,7 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,7 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
           <caret line="16" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -966,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="33" column="48" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="35" column="113" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,7 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,7 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="34" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,7 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="22" column="69" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
           <caret line="24" column="8" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,7 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="27" column="37" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1022,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="9" column="37" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,7 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,7 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="38" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,7 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="37" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,7 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,7 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="40" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,7 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="12" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,29 +877,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="7" column="6" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="7" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.04.28_wp_theme_finskills/finskills/finskills/archive-finskills_courses.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="158" column="56" lean-forward="true" selection-start-line="158" selection-start-column="56" selection-end-line="158" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/item-flex-hover-slide-title/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="134" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="302" selection-end-column="1" />
+        <state relative-caret-position="3792">
+          <caret line="158" column="56" lean-forward="false" selection-start-line="158" selection-start-column="56" selection-end-line="158" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/format-t.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
+        <state relative-caret-position="167784">
           <caret line="6991" column="0" lean-forward="false" selection-start-line="6991" selection-start-column="0" selection-end-line="6991" selection-end-column="0" />
           <folding />
         </state>
@@ -1109,25 +899,18 @@
     <entry file="file://$PROJECT_DIR$/item-flex-hover-slide-title/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
-          <caret line="233" column="0" lean-forward="true" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+          <caret line="233" column="0" lean-forward="false" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.09.17_news_/itez-visa-cards-is-now-available-ALL.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/vazhno_project-1/2021.09.17_news_/itez-visa-cards-is-now-available-ALL.html" />
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.09.17_news_/de30-index-name-change-ALL.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="6" />
+          <caret line="20" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1137,6 +920,32 @@
         <state relative-caret-position="352">
           <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-leaf/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item-flex-hover-slide-title/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="144" column="94" lean-forward="false" selection-start-line="144" selection-start-column="24" selection-end-line="144" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item-background-move-hover/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="437" column="122" lean-forward="false" selection-start-line="437" selection-start-column="42" selection-end-line="437" selection-end-column="122" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
