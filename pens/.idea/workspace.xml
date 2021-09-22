@@ -120,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/item-background-move-hover/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1032">
-              <caret line="43" column="133" lean-forward="false" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="133" />
+            <state relative-caret-position="406">
+              <caret line="827" column="128" lean-forward="false" selection-start-line="827" selection-start-column="128" selection-end-line="827" selection-end-column="128" />
               <folding />
             </state>
           </provider>
@@ -147,7 +147,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/item-background-move-hover/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7896">
+            <state relative-caret-position="322">
               <caret line="329" column="25" lean-forward="false" selection-start-line="329" selection-start-column="25" selection-end-line="329" selection-end-column="25" />
               <folding />
             </state>
@@ -204,11 +204,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="318">
-              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+              <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -218,7 +218,7 @@
         <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
-              <caret line="19" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9638" selection-end-column="1" />
+              <caret line="19" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9638" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -228,8 +228,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ag-card-anim_crop</find>
-      <find>min-width: 1025px</find>
       <find>max-width: 1024px</find>
       <find>swiper-container</find>
       <find>swiper-slide</find>
@@ -258,25 +256,10 @@
       <find>&amp;#160;cent lot</find>
       <find>&lt;br&gt;</find>
       <find>../fonts/fontawesome/fontawesome-webfont.</find>
+      <find>-14</find>
+      <find>-26</find>
     </findStrings>
     <replaceStrings>
-      <replace>.png&quot; alt=&quot;&quot; /&gt;</replace>
-      <replace>.ag-card_link</replace>
-      <replace>ag-card-anim_item</replace>
-      <replace>ag-card-anim_img-box</replace>
-      <replace>ag-card-anim_img</replace>
-      <replace>ag-card-anim_char</replace>
-      <replace>ag-card-anim_tile</replace>
-      <replace>&lt;a href=&quot;#&quot; class=&quot;ag-card_link ag-card_link__anim&quot;&gt;</replace>
-      <replace>ag-card-anim_crop-1</replace>
-      <replace>ag-card-anim_crop</replace>
-      <replace>min-width: 980px</replace>
-      <replace>min-width: 979px</replace>
-      <replace>jobsSlider</replace>
-      <replace>swiper</replace>
-      <replace>agJobsSlider</replace>
-      <replace>#efefef</replace>
-      <replace>&lt;div class=&quot;ag-main_text&quot;&gt;</replace>
       <replace>div</replace>
       <replace>ag-main_img</replace>
       <replace>an-progress</replace>
@@ -290,6 +273,23 @@
       <replace>21&amp;#160;</replace>
       <replace>сent&amp;#160;lot</replace>
       <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_fonts/fontawesome/fontawesome-webfont.</replace>
+      <replace>-15</replace>
+      <replace>-16</replace>
+      <replace>-17</replace>
+      <replace>-18</replace>
+      <replace>-19</replace>
+      <replace>-20</replace>
+      <replace>-21</replace>
+      <replace>-22</replace>
+      <replace>-23</replace>
+      <replace>-24</replace>
+      <replace>-25</replace>
+      <replace>-26</replace>
+      <replace>-27</replace>
+      <replace>-28</replace>
+      <replace>-29</replace>
+      <replace>-30</replace>
+      <replace>-31</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -320,7 +320,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project-1/2021.09.22_FX-25364/account-types/account-types-JP.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.09.22_FX-25364/account-types/account-types-MS.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.09.22_FX-25364/account-types/account-types-RU.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.09.22_FX-25364/account-types/account-types-ZH.html" />
@@ -371,6 +370,7 @@
         <option value="$USER_HOME$/vazhno_project-1/2021.09.22_FX-25364_futures/simple_snippets_117_MAIN_MT4/MT5 Account Types Details-EN.html" />
         <option value="$PROJECT_DIR$/buttons/index.html" />
         <option value="$PROJECT_DIR$/buttons/css/style.css" />
+        <option value="$PROJECT_DIR$/item-background-move-hover/index.html" />
       </list>
     </option>
   </component>
@@ -629,12 +629,12 @@
       <workItem from="1631860606143" duration="2133000" />
       <workItem from="1631865552210" duration="13618000" />
       <workItem from="1632210138188" duration="23491000" />
-      <workItem from="1632297588528" duration="10263000" />
+      <workItem from="1632297588528" duration="11885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1166651000" />
+    <option name="totallyTimeSpent" value="1168273000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -679,22 +679,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.09.22_FX-25364/account-types/account-types-KO.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="216" column="0" lean-forward="false" selection-start-line="216" selection-start-column="0" selection-end-line="412" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.09.22_FX-25364/account-types/account-types-MS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="444" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.09.22_FX-25364/account-types/account-types-PK.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -6875,7 +6859,7 @@
     <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9638" selection-end-column="1" />
+          <caret line="19" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9638" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -6883,7 +6867,23 @@
     <entry file="file://$PROJECT_DIR$/buttons/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
-          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item-background-move-hover/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="329" column="25" lean-forward="false" selection-start-line="329" selection-start-column="25" selection-end-line="329" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/item-background-move-hover/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="827" column="128" lean-forward="false" selection-start-line="827" selection-start-column="128" selection-end-line="827" selection-end-column="128" />
           <folding />
         </state>
       </provider>
