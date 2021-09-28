@@ -1,0 +1,243 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+.ag-calculat-block {
+  padding: 150px 0;
+  background-color: #000;
+}
+.ag-range_deposit {
+  padding: 0 0 20px;
+
+  font-size: 50px;
+  color: #FFF;
+}
+.ag-locale-site-fr .ag-range_deposit {
+  font-size: 44px;
+}
+.js-ag-range_sum,
+.ag-locale-site-fr .js-ag-range_sum {
+  font-weight: 900;
+  font-size: 50px;
+  color: #FFD200;
+
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+.js-ag-range_sum-100 {
+  color: #ff910c;
+}
+.js-ag-range_sum-500 {
+  color: #22bc2b;
+}
+.js-ag-range-slider {
+  width: 100%;
+
+  position: relative;
+}
+.js-ag-range-slider_fill {
+  height: 11px;
+  background-color: #FFD200;
+  width: 0;
+
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.js-ag-range-slider_fill-100 {
+  background-color: #ff910c;
+}
+.js-ag-range-slider_fill-500 {
+  background-color: #22bc2b;
+}
+.js-ag-range-slider_bg {
+  height: 11px;
+  width: 100%;
+  background-color: #d7dcdf;
+
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.js-ag-range-slider_range {
+  height: 10px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: none;
+
+  outline: none;
+
+  color: #22bc2b;
+
+  -webkit-appearance: none;
+  appearance: none;
+
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.js-ag-range-slider_range::-webkit-slider-thumb {
+  height: 36px;
+  width: 36px;
+  border: 6px solid #b10000;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0%-100%-range/images/range.png) no-repeat scroll 50% 50% #ff3500;
+
+  cursor: pointer;
+
+  -webkit-appearance: none;
+  appearance: none;
+
+  -webkit-border-radius: 50% 50% 50% 50%;
+  -moz-border-radius: 50% 50% 50% 50%;
+  border-radius: 50% 50% 50% 50%;
+}
+.js-ag-range-slider_range::-webkit-slider-thumb:hover {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0%-100%-range/images/range.png) no-repeat scroll 50% 50% #ff3500;
+}
+.js-ag-range-slider_range:active::-webkit-slider-thumb {
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0%-100%-range/images/range.png) no-repeat scroll 50% 50% #ff3500;
+}
+.js-ag-range-slider_range::-moz-range-thumb {
+  height: 24px;
+  width: 24px;
+  border: 6px solid #b10000;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0%-100%-range/images/range.png) no-repeat scroll 50% 50% #ff3500;
+
+  cursor: pointer;
+
+  -webkit-border-radius: 50% 50% 50% 50%;
+  -moz-border-radius: 50% 50% 50% 50%;
+  border-radius: 50% 50% 50% 50%;
+}
+
+.js-ag-range-slider_range[type=range]::-ms-track {
+  height: 10px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border-color: transparent;
+
+  outline: none;
+
+  color: #22bc2b;
+}
+.js-ag-range-slider_range[type=range]::-ms-fill-lower {
+  background: #22bc2b;
+  border: 0;
+
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+.js-ag-range-slider_range[type=range]:focus::-ms-fill-lower {
+  background: #22bc2b;
+}
+.js-ag-range-slider_range[type=range]::-ms-fill-upper {
+  background: #22bc2b;
+  border: 0;
+
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+.js-ag-range-slider_range[type=range]:focus::-ms-fill-upper {
+  background: #22bc2b;
+}
+.js-ag-range-slider_range[type=range]::-ms-thumb {
+  display: none;
+  background: transparent;
+
+  cursor: pointer;
+
+  -webkit-border-radius: 50% 50% 50% 50%;
+  -moz-border-radius: 50% 50% 50% 50%;
+  border-radius: 50% 50% 50% 50%;
+}
+
+.js-ag-range-slider_value {
+  padding: 5px;
+  background-color: rgba(0,0,0,.5);
+
+  text-align: center;
+  font-weight: 900;
+  font-size: 60px;
+  color: #FFD200;
+
+  position: absolute;
+  top: 20px;
+
+  -webkit-transition: top .15s ease-in-out;
+  -moz-transition: top .15s ease-in-out;
+  -o-transition: top .15s ease-in-out;
+  transition: top .15s ease-in-out;
+}
+.js-ag-range-slider_value-100 {
+  color: #ff910c;
+}
+.js-ag-range-slider_value-500 {
+  color: #22bc2b;
+}
+
+.js-ag-range-slider_range::-moz-focus-inner,
+.js-ag-range-slider_range::-moz-focus-outer {
+  border: 0;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+  .ag-range_deposit {
+    font-size: 32px;
+  }
+  .js-ag-range_sum {
+    font-size: 46px;
+  }
+  .js-ag-range-slider_value {
+    font-size: 54px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
