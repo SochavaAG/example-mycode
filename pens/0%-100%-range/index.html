@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>0%-100% Range</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/favicon.png" />
+
+  <link rel="stylesheet" href="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style>
+  .ag-calculat-block {
+    padding: 150px 0;
+    background-color: #000;
+  }
+  .ag-range_deposit {
+    padding: 0 0 20px;
+
+    font-size: 50px;
+    color: #FFF;
+  }
+  .ag-locale-site-fr .ag-range_deposit {
+    font-size: 44px;
+  }
+  .js-ag-range_sum,
+  .ag-locale-site-fr .js-ag-range_sum {
+    font-weight: 900;
+    font-size: 50px;
+    color: #FFD200;
+
+    -webkit-transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+  }
+  .js-ag-range_sum-100 {
+    color: #ff910c;
+  }
+  .js-ag-range_sum-500 {
+    color: #22bc2b;
+  }
+  .js-ag-range-slider {
+    width: 100%;
+
+    position: relative;
+  }
+  .js-ag-range-slider_fill {
+    height: 11px;
+    background-color: #FFD200;
+    width: 0;
+
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .js-ag-range-slider_fill-100 {
+    background-color: #ff910c;
+  }
+  .js-ag-range-slider_fill-500 {
+    background-color: #22bc2b;
+  }
+  .js-ag-range-slider_bg {
+    height: 11px;
+    width: 100%;
+    background-color: #d7dcdf;
+
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .js-ag-range-slider_range {
+    height: 10px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: none;
+
+    outline: none;
+
+    color: #22bc2b;
+
+    -webkit-appearance: none;
+    appearance: none;
+
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .js-ag-range-slider_range::-webkit-slider-thumb {
+    height: 36px;
+    width: 36px;
+    border: 6px solid #b10000;
+    background: url(/uploads/landing/120-deposit-bonus/range.png) no-repeat scroll 50% 50% #ff3500;
+
+    cursor: pointer;
+
+    -webkit-appearance: none;
+    appearance: none;
+
+    -webkit-border-radius: 50% 50% 50% 50%;
+    -moz-border-radius: 50% 50% 50% 50%;
+    border-radius: 50% 50% 50% 50%;
+  }
+  .js-ag-range-slider_range::-webkit-slider-thumb:hover {
+    background: url(/uploads/landing/120-deposit-bonus/range.png) no-repeat scroll 50% 50% #ff3500;
+  }
+  .js-ag-range-slider_range:active::-webkit-slider-thumb {
+    background: url(/uploads/landing/120-deposit-bonus/range.png) no-repeat scroll 50% 50% #ff3500;
+  }
+  .js-ag-range-slider_range::-moz-range-thumb {
+    height: 24px;
+    width: 24px;
+    border: 6px solid #b10000;
+    background: url(/uploads/landing/120-deposit-bonus/range.png) no-repeat scroll 50% 50% #ff3500;
+
+    cursor: pointer;
+
+    -webkit-border-radius: 50% 50% 50% 50%;
+    -moz-border-radius: 50% 50% 50% 50%;
+    border-radius: 50% 50% 50% 50%;
+  }
+  .js-ag-range-slider_range::-moz-range-thumb:hover {
+    /*background: url(/uploads/landing/120-deposit-bonus/range.png) no-repeat scroll 50% 50% #FF4C05;*/
+  }
+  .js-ag-range-slider_range:active::-moz-range-thumb {
+    /*background: url(/uploads/landing/120-deposit-bonus/range.png) no-repeat scroll 50% 50% #ff3500;*/
+  }
+  .js-ag-range-slider_range:focus::-webkit-slider-thumb {
+    /*-webkit-box-shadow: 0 0 0 3px #ff3500, 0 0 0 6px #b10000;
+    -moz-box-shadow: 0 0 0 3px #ff3500, 0 0 0 6px #b10000;
+    -o-box-shadow: 0 0 0 3px #ff3500, 0 0 0 6px #b10000;
+    box-shadow: 0 0 0 3px #ff3500, 0 0 0 6px #b10000;*/
+  }
+
+  .js-ag-range-slider_range[type=range]::-ms-track {
+    height: 10px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border-color: transparent;
+
+    outline: none;
+
+    color: #22bc2b;
+  }
+  .js-ag-range-slider_range[type=range]::-ms-fill-lower {
+    background: #22bc2b;
+    border: 0;
+
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .js-ag-range-slider_range[type=range]:focus::-ms-fill-lower {
+    background: #22bc2b;
+  }
+  .js-ag-range-slider_range[type=range]::-ms-fill-upper {
+    background: #22bc2b;
+    border: 0;
+
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+  }
+  .js-ag-range-slider_range[type=range]:focus::-ms-fill-upper {
+    background: #22bc2b;
+  }
+  .js-ag-range-slider_range[type=range]::-ms-thumb {
+    display: none;
+    background: transparent;
+
+    cursor: pointer;
+
+    -webkit-border-radius: 50% 50% 50% 50%;
+    -moz-border-radius: 50% 50% 50% 50%;
+    border-radius: 50% 50% 50% 50%;
+  }
+
+  .js-ag-range-slider_value {
+    padding: 5px;
+    background-color: rgba(0,0,0,.5);
+
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+    color: #FFD200;
+
+    position: absolute;
+    top: 20px;
+
+    -webkit-transition: top .15s ease-in-out;
+    -moz-transition: top .15s ease-in-out;
+    -o-transition: top .15s ease-in-out;
+    transition: top .15s ease-in-out;
+  }
+  .js-ag-range-slider_value-100 {
+    color: #ff910c;
+  }
+  .js-ag-range-slider_value-500 {
+    color: #22bc2b;
+  }
+
+  ::-moz-range-track {
+    border: 0;
+    background: none;
+  }
+
+  .js-ag-range-slider_range::-moz-focus-inner,
+  .js-ag-range-slider_range::-moz-focus-outer {
+    border: 0;
+  }
+
+</style>
+
+<div class="ag-calculat-block">
+  <div class="ag-format-container">
+    <div class="ag-calculat_box">
+      <div class="ag-range_deposit">
+        From <span class="js-ag-range_sum">1</span> USD
+      </div>
+      <div class="js-ag-range-slider">
+        <div class="js-ag-range-slider_fill"></div>
+        <div class="js-ag-range-slider_bg"></div>
+        <input class="js-ag-range-slider_range" type="range" value="120" min="0" max="120">
+        <span class="js-ag-range-slider_value">0%</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--[if lt IE 9]>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/jquery/jquery-1.12.4.min.js"></script>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/jquery/jquery-migrate-1.4.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
