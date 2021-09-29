@@ -1,0 +1,280 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+.ag-grid_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 19.125rem 19.125rem 19.125rem 19.125rem 19.125rem 19.125rem;
+  grid-gap: .9375rem;
+  display: -ms-grid;
+  -ms-grid-columns: 1fr .9375rem 1fr .9375rem 1fr .9375rem 1fr;
+  -ms-grid-rows: 19.125rem .9375rem 19.125rem .9375rem 19.125rem .9375rem 19.125rem .9375rem 19.125rem .9375rem 19.125rem;
+
+  margin-bottom: 2.8125rem;
+}
+.ag-grid_item {
+  background: rgba(255, 211, 0, .85);
+
+  cursor: pointer;
+
+  overflow: hidden;
+
+  -webkit-border-radius: 1.25rem;
+  -moz-border-radius: 1.25rem;
+  border-radius: 1.25rem;
+
+  -webkit-box-shadow: 0 100px 80px rgba(0, 0, 0, .07), 0 41.7776px 33.4221px rgba(0, 0, 0, .0503198), 0 22.3363px 17.869px rgba(0, 0, 0, .0417275), 0 12.5216px 10.0172px rgba(0, 0, 0, .035), 0 6.6501px 5.32008px rgba(0, 0, 0, .0282725), 0 2.76726px 2.21381px rgba(0, 0, 0, .0196802);
+  -moz-box-shadow: 0 100px 80px rgba(0, 0, 0, .07), 0 41.7776px 33.4221px rgba(0, 0, 0, .0503198), 0 22.3363px 17.869px rgba(0, 0, 0, .0417275), 0 12.5216px 10.0172px rgba(0, 0, 0, .035), 0 6.6501px 5.32008px rgba(0, 0, 0, .0282725), 0 2.76726px 2.21381px rgba(0, 0, 0, .0196802);
+  -o-box-shadow: 0 100px 80px rgba(0, 0, 0, .07), 0 41.7776px 33.4221px rgba(0, 0, 0, .0503198), 0 22.3363px 17.869px rgba(0, 0, 0, .0417275), 0 12.5216px 10.0172px rgba(0, 0, 0, .035), 0 6.6501px 5.32008px rgba(0, 0, 0, .0282725), 0 2.76726px 2.21381px rgba(0, 0, 0, .0196802);
+  box-shadow: 0 100px 80px rgba(0, 0, 0, .07), 0 41.7776px 33.4221px rgba(0, 0, 0, .0503198), 0 22.3363px 17.869px rgba(0, 0, 0, .0417275), 0 12.5216px 10.0172px rgba(0, 0, 0, .035), 0 6.6501px 5.32008px rgba(0, 0, 0, .0282725), 0 2.76726px 2.21381px rgba(0, 0, 0, .0196802);
+
+  position: relative;
+}
+.ag-grid_item:first-child {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  -ms-grid-row: 1;
+}
+.ag-grid_item:nth-child(2) {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+}
+.ag-grid_item:nth-child(3) {
+  -ms-grid-column: 1;
+  -ms-grid-row: 3;
+}
+.ag-grid_item:nth-child(4) {
+  -ms-grid-column: 3;
+  -ms-grid-row: 3;
+}
+.ag-grid_item:nth-child(5) {
+  -ms-grid-column: 1;
+  -ms-grid-row: 5;
+}
+.ag-grid_item:nth-child(6) {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 3;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 3;
+}
+.ag-grid_item:nth-child(7) {
+  -ms-grid-column: 7;
+  -ms-grid-row: 5;
+}
+.ag-grid_item:nth-child(8) {
+  -ms-grid-column: 1;
+  -ms-grid-row: 7;
+}
+.ag-grid_item:nth-child(9) {
+  -ms-grid-column: 7;
+  -ms-grid-row: 7;
+}
+.ag-grid_item:nth-child(10) {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  -ms-grid-row: 9;
+}
+.ag-grid_item:nth-child(11) {
+  -ms-grid-column: 5;
+  -ms-grid-row: 9;
+}
+.ag-grid_item:nth-child(12) {
+  -ms-grid-column: 7;
+  -ms-grid-row: 9;
+}
+.ag-grid_item:nth-child(13) {
+  -ms-grid-column: 1;
+  -ms-grid-row: 11;
+}
+.ag-grid_item:nth-child(14) {
+  -ms-grid-column: 3;
+  -ms-grid-row: 11;
+}
+.ag-grid_item:nth-child(15) {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
+  -ms-grid-row: 11;
+}
+.ag-grid_item__big {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+.ag-grid_item__wide {
+  grid-column-end: span 2;
+}
+.ag-grid_img-box {
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+
+  text-align: center;
+
+  -webkit-border-radius: 1.25rem;
+  -moz-border-radius: 1.25rem;
+  border-radius: 1.25rem;
+}
+.ag-grid_img-box:before {
+  content: "";
+  background: #000074;
+
+  opacity: .85;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.ag-grid_img-box-v1:before {
+  content: "";
+  background: #ffd300;
+
+  opacity: .85;
+
+  bottom: -1px;
+}
+.ag-grid_img-box-v2:before {
+  content: "";
+  background: #16a014;
+
+  opacity: .65;
+
+  bottom: -1px;
+}
+.ag-grid_img {
+  height: 100%;
+  width: 100%;
+
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+}
+.ag-grid_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  line-height: 1.20833;
+  padding: 10%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #00002f;
+}
+.ag-grid_title__small {
+  font-size: 1.25rem;
+}
+.ag-grid_title.ag-grid_title-v2 {
+  color: #FFF;
+}
+.ag-grid_text {
+  margin-top: 1.875rem;
+
+  text-transform: none;
+  font-size: 1rem;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+  .ag-grid_list {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 8.8125rem 8.8125rem 8.8125rem 8.8125rem 8.8125rem 8.8125rem 8.8125rem 8.8125rem 8.8125rem;
+    grid-gap: .5rem;
+  }
+  .ag-grid_item:nth-child(2) {
+    -webkit-box-ordinal-group: 16;
+    -ms-flex-order: 15;
+    order: 15;
+  }
+  .ag-grid_item:nth-child(5) {
+    -webkit-box-ordinal-group: 7;
+    -ms-flex-order: 6;
+    order: 6;
+  }
+  .ag-grid_item:nth-child(9) {
+    -webkit-box-ordinal-group: 15;
+    -ms-flex-order: 14;
+    order: 14;
+  }
+  .ag-grid_title {
+    font-size: 1.4375rem;
+    line-height: 1.21739;
+  }
+  .ag-grid_title__small {
+    font-size: 1.4375rem;
+    line-height: 1;
+  }
+  .ag-grid_text {
+    font-size: 1.125rem;
+    margin-top: .625rem;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
+
+@media (orientation: portrait) and (min-width: 768px) {
+  .ag-grid_list {
+    grid-template-rows: 11.25rem 11.25rem 11.25rem 11.25rem 11.25rem 11.25rem;
+  }
+  .ag-grid_title {
+    font-size: 1.5625rem;
+    line-height: 1.2;
+  }
+  .ag-grid_title__small {
+    font-size: 1.25rem;
+    line-height: 1;
+  }
+  .ag-grid_text {
+    font-size: 1.125rem;
+    margin-top: 1.25rem;
+  }
+}

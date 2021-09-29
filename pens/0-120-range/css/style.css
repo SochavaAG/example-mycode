@@ -3,6 +3,9 @@
   margin: 0 auto;
 }
 
+body {
+  background-color: #000;
+}
 
 .ag-calculat-block {
   padding: 150px 0;
@@ -100,7 +103,7 @@
   height: 36px;
   width: 36px;
   border: 6px solid #b10000;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0%-100%-range/images/range.png) no-repeat scroll 50% 50% #ff3500;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0-120-range/images/range.png) no-repeat scroll 50% 50% #ff3500;
 
   cursor: pointer;
 
@@ -112,16 +115,16 @@
   border-radius: 50% 50% 50% 50%;
 }
 .js-ag-range-slider_range::-webkit-slider-thumb:hover {
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0%-100%-range/images/range.png) no-repeat scroll 50% 50% #ff3500;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0-120-range/images/range.png) no-repeat scroll 50% 50% #ff3500;
 }
 .js-ag-range-slider_range:active::-webkit-slider-thumb {
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0%-100%-range/images/range.png) no-repeat scroll 50% 50% #ff3500;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0-120-range/images/range.png) no-repeat scroll 50% 50% #ff3500;
 }
 .js-ag-range-slider_range::-moz-range-thumb {
   height: 24px;
   width: 24px;
   border: 6px solid #b10000;
-  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0%-100%-range/images/range.png) no-repeat scroll 50% 50% #ff3500;
+  background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/0-120-range/images/range.png) no-repeat scroll 50% 50% #ff3500;
 
   cursor: pointer;
 
