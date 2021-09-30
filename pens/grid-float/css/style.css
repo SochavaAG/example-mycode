@@ -3,14 +3,99 @@
   margin: 0 auto;
 }
 
+.ag-grid-block {
+  padding: 50px 0;
+}
+.ag-grid_item {
+  float: left;
+  height: 215px;
+  width: calc(50% - 15px);
 
+  overflow: hidden;
 
+  position: relative;
+}
+.ag-grid_item:first-of-type {
+  height: 460px;
+  margin: 0 30px 0 0;
+}
+.ag-grid_item:nth-of-type(2) {
+  margin: 0 0 30px;
+}
+.ag-grid_img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ag-grid_img-1 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1098x549-24.jpg);
+}
+.ag-grid_img-2 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1098x549-27.jpg);
+}
+.ag-grid_img-3 {
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1098x549-29.jpg);
+}
+.ag-grid_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,.5);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  text-align: center;
+  font-size: 1.75em;
+  color: #FFF;
+
+  transform: translate(-50%,-50%);
+}
+.ag-grid_title:after {
+  content: "";
+  height: 22px;
+  width: 11px;
+  margin: 5px 0 0;
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/grid-float/images/arrow.svg) no-repeat scroll 50% 50%;
+
+  opacity: 0;
+
+  -webkit-transition: opacity .1s ease-out,margin-left 150ms ease-out;
+  -moz-transition: opacity .1s ease-out,margin-left 150ms ease-out;
+  -o-transition: opacity .1s ease-out,margin-left 150ms ease-out;
+  transition: opacity .1s ease-out,margin-left 150ms ease-out;
+}
+.ag-grid_title:hover:after {
+  margin: 5px 0 0 18px;
+
+  opacity: 1;
+}
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;
   }
 
+  .ag-grid_item,
+  .ag-grid_item:first-of-type,
+  .ag-grid_item:nth-of-type(2) {
+    display: block;
+    float: none;
+    height: 300px;
+    width: 100%;
+    margin: 0 0 30px;
+  }
+  .ag-grid_item:last-child {
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 639px) {
@@ -18,7 +103,11 @@
 }
 
 @media only screen and (max-width: 479px) {
+  .ag-grid_title {
+    padding: 0 5%;
 
+    font-size: 1.25em;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
