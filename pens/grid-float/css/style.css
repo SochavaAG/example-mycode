@@ -41,8 +41,20 @@
   background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-1098x549-29.jpg);
 }
 .ag-grid_title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 
   height: 100%;
@@ -57,6 +69,10 @@
   font-size: 1.75em;
   color: #FFF;
 
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
 }
 .ag-grid_title:after {

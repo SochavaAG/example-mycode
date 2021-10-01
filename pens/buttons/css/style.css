@@ -9607,6 +9607,41 @@ background-image: url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAA
 }
 /* /button 144 */
 
+/* button 145 */
+.ag-base_btn-v145 {
+  background-color: #f8ff13;
+  border: 2px solid #f8ff13;
+
+  color: #000;
+
+  -webkit-border-radius: .63vw;
+  -moz-border-radius: .63vw;
+  border-radius: .63vw;
+
+  -webkit-transform: skewX(-15deg);
+  -moz-transform: skewX(-15deg);
+  -ms-transform: skewX(-15deg);
+  -o-transform: skewX(-15deg);
+  transform: skewX(-15deg);
+
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.ag-base_btn-v145:hover {
+  background-color: #000;
+
+  color: #FFF;
+
+  -webkit-transform: skewX(-15deg) scale(1.05);
+  -moz-transform: skewX(-15deg) scale(1.05);
+  -ms-transform: skewX(-15deg) scale(1.05);
+  -o-transform: skewX(-15deg) scale(1.05);
+  transform: skewX(-15deg) scale(1.05);
+}
+/* /button 145 */
+
 
 
 @media only screen and (max-width: 767px) {
