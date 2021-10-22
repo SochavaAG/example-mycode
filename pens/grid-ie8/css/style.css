@@ -3,8 +3,100 @@
   margin: 0 auto;
 }
 
+body {
+  background-color: #000;
+}
 
 
+.ag-grid-block {
+  margin: 100px 0;
+  padding: 30px 0;
+  background: #dbd039;
+}
+.ag-grid__wrap {
+  float: left;
+  width: 100%;
+}
+.ag-grid__center {
+  margin: 0 270px 0 170px;
+}
+.ag-grid__left {
+  float: left;
+  width: 170px;
+  margin-left: -100%;
+}
+.ag-grid__right {
+  float: right;
+  width: 270px;
+  margin-left: -270px;
+}
+.ag-nav_list {
+  padding: 12px 0 0;
+
+  text-align: justify;
+  font-size: 14px;
+  line-height: 0;
+  font-size: 1px;
+}
+.ag-nav_list:after {
+  content: "";
+  display: inline-block;
+  height: 0;
+  width: 100%;
+  visibility: hidden;
+  overflow: hidden;
+}
+.ag-nav_item {
+  display: inline-block;
+  text-align: center;
+  line-height: normal;
+  vertical-align: top;
+}
+.ag-nav_item a {
+  font-size: 15px;
+  color: #000;
+}
+
+.ag-social_list {
+  height: 40px;
+  white-space: nowrap;
+  text-align: right;
+}
+.ag-social_item {
+  display: inline-block;
+}
+.ag-social_item a {
+  text-decoration: none;
+  color: #000;
+}
+.ag-social_item img {
+  height: 40px;
+  width: 40px;
+  margin: 0 0 0 5px;
+}
+.ag-img {
+  margin: 8px 0 0;
+}
+
+
+@media only screen and (max-width: 979px) {
+  .ag-grid__wrap {
+    float: none;
+  }
+  .ag-grid__center {
+    margin: 0;
+  }
+  .ag-grid__left,
+  .ag-grid__right {
+    margin: 0;
+  }
+
+  .ag-nav_list {
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    border-bottom: 1px solid #000;
+  }
+}
 
 @media only screen and (max-width: 767px) {
   .ag-format-container {
@@ -14,11 +106,37 @@
 }
 
 @media only screen and (max-width: 639px) {
-
+  .ag-nav_item a {
+    font-size: 13px;
+  }
 }
 
 @media only screen and (max-width: 479px) {
+  .ag-grid__left,
+  .ag-grid__right {
+    float: none;
+    width: auto;
+  }
 
+  .ag-nav_item {
+    display: block;
+
+    text-align: left;
+  }
+  .ag-nav_item a {
+    display: block;
+    margin: 0 0 10px;
+
+    font-size: 15px;
+  }
+
+  .ag-img {
+    display: block;
+    margin: 0 auto 20px;
+  }
+  .ag-social_list {
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
