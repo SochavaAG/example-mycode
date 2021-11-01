@@ -32,9 +32,6 @@
 .ag-grid_box {
   height: 600px;
 }
-.ag-grid-subcat_box {
-  height: 300px;
-}
 .ag-svg-profit_icon {
   margin: 0 0 40px;
 }
@@ -50,16 +47,28 @@
   font-size: 18px;
   color: #FFF;
 }
+
+.ag-grid-subcat_box {
+  height: 300px;
+}
+.ag-grid-subcat_box-1 {
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/grid-ie/images/img-2.png) no-repeat scroll 50% 0 #FFF;
+  background-size: cover;
+}
+.ag-grid-subcat_box-2 {
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/grid-ie/images/img-3.png) no-repeat scroll 50% 0 #FFF;
+  background-size: cover;
+}
 .ag-profit_icon {
   display: block;
   height: 300px;
 }
 .ag-profit_icon-1 {
-  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-6.jpg) no-repeat scroll 50% 0;
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/grid-ie/images/img-1.png) no-repeat scroll 50% 0;
   background-size: cover;
 }
 .ag-profit_icon-2 {
-  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-3.jpg) no-repeat scroll 50% 0;
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/grid-ie/images/img-4.png) no-repeat scroll 50% 0;
   background-size: cover;
 }
 .ag-profit-subcat_title {
