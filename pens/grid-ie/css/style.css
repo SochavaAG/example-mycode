@@ -1,0 +1,122 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+.ag-grid_list {
+  text-align: center;
+  font-size: 0;
+}
+.ag-grid_item {
+  display: inline-block;
+  width: 33%;
+  background: #000;
+
+  vertical-align: top;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ag-grid-subcat_box {
+  background: #FFF;
+}
+.ag-grid_box,
+.ag-grid-subcat_box {
+  display: table-cell;
+  padding: 0 50px;
+
+  vertical-align: middle;
+}
+.ag-grid_box {
+  height: 600px;
+}
+.ag-grid-subcat_box {
+  height: 300px;
+}
+.ag-svg-profit_icon {
+  margin: 0 0 40px;
+}
+.ag-profit_title {
+  padding: 0 0 5px;
+
+  font-size: 36px;
+  color: #FFF;
+}
+.ag-profit_text {
+  line-height: 1.45;
+
+  font-size: 18px;
+  color: #FFF;
+}
+.ag-profit_icon {
+  display: block;
+  height: 300px;
+}
+.ag-profit_icon-1 {
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-6.jpg) no-repeat scroll 50% 0;
+  background-size: cover;
+}
+.ag-profit_icon-2 {
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/img-3.jpg) no-repeat scroll 50% 0;
+  background-size: cover;
+}
+.ag-profit-subcat_title {
+  padding: 0 0 5px;
+
+  font-size: 36px;
+  color: #000;
+}
+.ag-profit-subcat_text {
+  line-height: 1.45;
+
+  font-size: 18px;
+  color: #000;
+}
+
+
+@media only screen and (max-width: 979px) {
+  .ag-grid_box,
+  .ag-grid-subcat_box {
+    padding: 0 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+  .ag-grid_list,
+  .ag-grid-subcat_list {
+    display: table;
+    width: 100%;
+  }
+  .ag-grid_item,
+  .ag-grid-subcat_item {
+    display: table-row;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
