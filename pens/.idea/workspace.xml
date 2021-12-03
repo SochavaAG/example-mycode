@@ -18,42 +18,34 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="format-2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/format-2.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scroll-animation-circle/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="59" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="59" />
+            <state relative-caret-position="287">
+              <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grid-calculate/index.html">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scroll-animation-circle/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="716">
-              <caret line="94" column="5" lean-forward="false" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+            <state relative-caret-position="826">
+              <caret line="123" column="16" lean-forward="false" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grid-calculate/css/style.css">
+      <file leaf-file-name="quick-start-EN.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/landing-pages/2021.11.24_landing_quick-start/quick-start-EN.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grid-rhombus/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="264">
+              <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="121" selection-end-column="3" />
+              <folding>
+                <element signature="n#script#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,276 +53,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grid-flex-2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
+            <state relative-caret-position="456">
               <caret line="28" column="92" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="92" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grid-rhombus/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="204" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="snippet.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/snippet.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vacuum-EN.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/landing-pages/2021.07.22_landing_vacuum/vacuum-EN.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="1107" column="2" lean-forward="false" selection-start-line="1107" selection-start-column="2" selection-end-line="1107" selection-end-column="52" />
-              <folding>
-                <element signature="n#div#0;n#!!top" expanded="false" />
-                <element signature="n#script#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main-2021.10.04-15.50.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_css_fix/main-2021.10.04-15.50.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="92" lean-forward="true" selection-start-line="1" selection-start-column="92" selection-end-line="1" selection-end-column="92" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-AR.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-AR.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-BN.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-BN.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-CN.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-CN.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="81" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-ES.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-ES.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="108" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-FA.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-FA.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-FR.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-FR.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-HI.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-HI.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="68" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-ID.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-ID.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="86" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-JP.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-JP.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-KO.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-KO.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-MS.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-MS.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-PK.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-PK.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="74" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-PT.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-PT.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="100" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-RU.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-RU.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="92" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-TH.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-TH.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-TR.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-TR.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-VI.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-VI.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-192">
-              <caret line="13" column="68" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-ZH.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-ZH.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="44" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FORM-Articles-Subscribe-EN.html" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-EN.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="216" column="9" lean-forward="true" selection-start-line="216" selection-start-column="9" selection-end-line="216" selection-end-column="9" />
-              <folding>
-                <element signature="n#style#0;n#!!top" expanded="false" />
-                <element signature="e#49#245#0" expanded="false" />
-                <element signature="e#276#449#0" expanded="false" />
-                <element signature="e#474#503#0" expanded="false" />
-                <element signature="e#527#649#0" expanded="false" />
-                <element signature="e#694#723#0" expanded="false" />
-                <element signature="e#752#798#0" expanded="false" />
-                <element signature="e#824#1256#0" expanded="false" />
-                <element signature="e#1321#1356#0" expanded="false" />
-                <element signature="e#1400#1431#0" expanded="false" />
-                <element signature="e#1461#1537#0" expanded="false" />
-                <element signature="e#1561#2399#0" expanded="false" />
-                <element signature="e#2443#2513#0" expanded="false" />
-                <element signature="e#2577#2605#0" expanded="false" />
-                <element signature="e#2646#2873#0" expanded="false" />
-                <element signature="e#2935#2963#0" expanded="false" />
-                <element signature="e#3000#3092#0" expanded="false" />
-                <element signature="e#3127#3217#0" expanded="false" />
-                <element signature="e#3273#3301#0" expanded="false" />
-                <element signature="n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#script#1;n#!!top" expanded="false" />
-                <element signature="e#5453#5574#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -339,7 +64,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>NewsPreview_itemText__3qWF-</find>
       <find>#fff;</find>
       <find>NewsPreview_previewImgWrapper__3dsuY</find>
       <find>box-sizing: border-box;</find>
@@ -369,6 +93,7 @@
       <find>ag-article-form_form</find>
       <find>#mc_embed_signup div.mce_inline_error</find>
       <find>.ag-article-form_success-response</find>
+      <find>ag-primary_icon</find>
     </findStrings>
     <replaceStrings>
       <replace>ag-grid_item</replace>
@@ -433,8 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project-1/2021.09.22_FX-25364_futures/simple_snippets_117_MAIN_MT4/MT5 Account Types Details-ID.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.09.22_FX-25364_futures/simple_snippets_117_MAIN_MT4/MT5 Account Types Details-KO.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.09.22_FX-25364_futures/simple_snippets_117_MAIN_MT4/MT5 Account Types Details-MS.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.09.22_FX-25364_futures/simple_snippets_117_MAIN_MT4/MT5 Account Types Details-PT.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.09.22_FX-25364_futures/simple_snippets_117_MAIN_MT4/MT5 Account Types Details-RU.html" />
@@ -484,6 +207,8 @@
         <option value="$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-ZH.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-EN.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-VI.html" />
+        <option value="$PROJECT_DIR$/scroll-animation-circle/js/main.js" />
+        <option value="$PROJECT_DIR$/scroll-animation-circle/index.html" />
       </list>
     </option>
   </component>
@@ -518,7 +243,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-EN.html" />
+    <property name="last_opened_file_path" value="$USER_HOME$/landing-pages/2021.11.24_landing_quick-start/quick-start-EN.html" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
@@ -746,11 +471,12 @@
       <workItem from="1632896375483" duration="18074000" />
       <workItem from="1632926912483" duration="1292000" />
       <workItem from="1633332194355" duration="15993000" />
+      <workItem from="1638518856253" duration="699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1203994000" />
+    <option name="totallyTimeSpent" value="1204693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1015" extended-state="6" />
@@ -760,7 +486,6 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -772,6 +497,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -795,27 +521,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.09.22_email_jfGO/Email-JFGO/ON/1/007JF_332JFGO_Successful-Registration/332_Successful_Registration-CN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="386" column="80" lean-forward="false" selection-start-line="386" selection-start-column="80" selection-end-line="386" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.09.22_email_jfGO/Email-JFGO/ON/1/007JF_332JFGO_Successful-Registration/332_Successful_Registration-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="387" column="203" lean-forward="true" selection-start-line="387" selection-start-column="178" selection-end-line="387" selection-end-column="203" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.09.22_email_jfGO/Email-JFGO/ON/1/007JF_332JFGO_Successful-Registration/332_Successful_Registration-BN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="387" column="102" lean-forward="false" selection-start-line="387" selection-start-column="102" selection-end-line="387" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.09.22_email_jfGO/Email-JFGO/ON/1/007JF_332JFGO_Successful-Registration/332_Successful_Registration-AR.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -927,24 +632,16 @@
     <entry file="file://$USER_HOME$/Desktop/d765e4616a06cfa818a1.css" />
     <entry file="file://$USER_HOME$/format-2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="59" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grid-flex-2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="28" column="92" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="92" />
+        <state relative-caret-position="168">
+          <caret line="7" column="59" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="97" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grid-rhombus/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="204" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
+        <state relative-caret-position="4896">
+          <caret line="204" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="231" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -959,7 +656,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grid-calculate/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
+        <state relative-caret-position="2256">
           <caret line="94" column="5" lean-forward="false" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
           <folding />
         </state>
@@ -967,31 +664,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grid-rhombus/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="192">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/FORM-Articles-Subscribe/FORM-Articles-Subscribe-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/FORM-Articles-Subscribe/FORM-Articles-Subscribe-EN.html" />
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_css_fix/main-2021.10.04-15.50.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
-          <caret line="1" column="92" lean-forward="true" selection-start-line="1" selection-start-column="92" selection-end-line="1" selection-end-column="92" />
+          <caret line="1" column="92" lean-forward="false" selection-start-line="1" selection-start-column="92" selection-end-line="1" selection-end-column="92" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/landing-pages/2021.07.22_landing_vacuum/vacuum-EN.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
+        <state relative-caret-position="26568">
           <caret line="1107" column="2" lean-forward="false" selection-start-line="1107" selection-start-column="2" selection-end-line="1107" selection-end-column="52" />
           <folding>
             <element signature="n#div#0;n#!!top" expanded="false" />
@@ -1003,7 +693,7 @@
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/snippet.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1011,7 +701,7 @@
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-AR.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <caret line="7" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1019,7 +709,7 @@
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-BN.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <caret line="7" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1027,7 +717,7 @@
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-CN.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="3" column="81" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <caret line="3" column="81" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1043,7 +733,7 @@
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-FA.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <caret line="4" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1051,7 +741,7 @@
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-FR.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <caret line="7" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1059,7 +749,7 @@
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-HI.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="5" column="68" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <caret line="5" column="68" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1075,7 +765,7 @@
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-JP.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <caret line="7" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1083,7 +773,7 @@
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-KO.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <caret line="4" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1091,7 +781,7 @@
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-MS.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <caret line="4" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1099,7 +789,7 @@
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-PK.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="5" column="74" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <caret line="5" column="74" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1123,7 +813,7 @@
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-TH.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <caret line="4" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1131,14 +821,14 @@
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-TR.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <caret line="4" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-VI.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
+        <state relative-caret-position="312">
           <caret line="13" column="68" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
@@ -1147,7 +837,7 @@
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-ZH.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
-          <caret line="2" column="44" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <caret line="2" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1155,7 +845,7 @@
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-EN.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="216" column="9" lean-forward="true" selection-start-line="216" selection-start-column="9" selection-end-line="216" selection-end-column="9" />
+          <caret line="216" column="9" lean-forward="false" selection-start-line="216" selection-start-column="9" selection-end-line="216" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#!!top" expanded="false" />
             <element signature="e#49#245#0" expanded="false" />
@@ -1191,6 +881,40 @@
             <element signature="n#script#1;n#!!top" expanded="false" />
             <element signature="e#5453#5574#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scroll-animation-circle/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="826">
+          <caret line="123" column="16" lean-forward="false" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/landing-pages/2021.11.24_landing_quick-start/quick-start-EN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="121" selection-end-column="3" />
+          <folding>
+            <element signature="n#script#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grid-flex-2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="28" column="92" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scroll-animation-circle/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>

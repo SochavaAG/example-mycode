@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Scroll Animation Circle</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/favicon.png" />
+
+  <link rel="stylesheet" href="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<style type="text/css">
+  body {
+    height: 2000px;
+  }
+  .ag-primary-block {
+    height: 700px;
+    background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/scroll-animation-circle/images/bg.png) no-repeat scroll 50% 100% #F3F3F3;
+
+    position: relative;
+  }
+  .ag-primary_icon {
+    height: 210px;
+    width: 210px;
+
+    position: absolute;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+  }
+  .ag-primary_icon-1 {
+    background-color: #FFD200;
+
+    left: calc(50% - 570px);
+    bottom: 273px;
+  }
+  .ag-primary_icon-2 {
+    background-color: #74d519;
+
+    left: calc(50% - 273px);
+    bottom: 140px;
+
+    -webkit-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -o-transition: all .25s linear;
+    transition: all .25s linear;
+  }
+  .ag-primary_icon-3 {
+    background-color: #1a2fff;
+
+    left: calc(50% + 57px);
+    bottom: 140px;
+
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+  }
+  .ag-primary_icon-4 {
+    background-color: #ff920b;
+
+    left: calc(50% + 357px);
+    bottom: 273px;
+
+    -webkit-transition: all .35s linear;
+    -moz-transition: all .35s linear;
+    -o-transition: all .35s linear;
+    transition: all .35s linear;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .ag-primary_icon {
+      height: 120px;
+      width: 120px;
+    }
+    .ag-primary_icon-1 {
+      left: 10px;
+    }
+    .ag-primary_icon-2 {
+      left: 27%;
+    }
+    .ag-primary_icon-3 {
+      left: auto;
+      right: 27%;
+    }
+    .ag-primary_icon-4 {
+      left: auto;
+      right: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 639px) {
+    .ag-primary_icon-2 {
+      left: 20%;
+    }
+    .ag-primary_icon-3 {
+      right: 20%;
+    }
+  }
+
+  @media only screen and (max-width: 479px) {
+    .ag-primary_icon {
+      height: 80px;
+      width: 80px;
+    }
+    .ag-primary_icon-1 {
+      left: 10px;
+      bottom: 220px;
+    }
+    .ag-primary_icon-2 {
+      left: 60px;
+      bottom: 100px;
+    }
+    .ag-primary_icon-3 {
+      right: 60px;
+      bottom: 100px;
+    }
+    .ag-primary_icon-4 {
+      bottom: 220px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 979px) {
+    .ag-primary_icon {
+      height: 180px;
+      width: 180px;
+    }
+    .ag-primary_icon-1 {
+      left: calc(50% - 360px);
+    }
+    .ag-primary_icon-2 {
+      left: calc(50% - 200px);
+    }
+    .ag-primary_icon-3 {
+      left: calc(50% + 18px);
+    }
+    .ag-primary_icon-4 {
+      left: calc(50% + 180px);
+    }
+  }
+
+  @media (min-width: 980px) and (max-width: 1161px) {
+    .ag-primary_icon-1 {
+      left: calc(50% - 460px);
+    }
+    .ag-primary_icon-2 {
+      left: calc(50% - 253px);
+    }
+    .ag-primary_icon-3 {
+      left: calc(50% + 40px);
+    }
+    .ag-primary_icon-4 {
+      left: calc(50% + 247px);
+    }
+  }
+</style>
+
+<div class="ag-primary-block">
+  <div class="ag-m-format-container">
+    <div class="js-primary_parallax__icon-1 ag-primary_icon ag-primary_icon-1"></div>
+    <div class="js-primary_parallax__icon-2 ag-primary_icon ag-primary_icon-2"></div>
+    <div class="js-primary_parallax__icon-3 ag-primary_icon ag-primary_icon-3"></div>
+    <div class="js-primary_parallax__icon-4 ag-primary_icon ag-primary_icon-4"></div>
+  </div>
+</div>
+
+<!--[if lt IE 9]>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/jquery/jquery-1.12.4.min.js"></script>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/jquery/jquery-migrate-1.4.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
