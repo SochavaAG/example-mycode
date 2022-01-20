@@ -5,7 +5,7 @@
 .ag-container-block {
   padding: 50px 0;
 }
-.ag-review-user_descr {
+.ag-h-reviews-slides_descr {
   line-height: 1.45;
   margin: 0 0 17px;
   padding: 15px 20px;
@@ -18,7 +18,7 @@
 
   position: relative;
 }
-.ag-review-user_descr:before {
+.ag-h-reviews-slides_descr:before {
   content: "";
   border-color: #dcdcdc transparent transparent;
   border-style: solid;
@@ -28,7 +28,7 @@
   left: 17px;
   bottom: -20px;
 }
-.ag-review-user_descr:after {
+.ag-h-reviews-slides_descr:after {
   content: "";
   border-color: #FFF transparent transparent;
   border-style: solid;
@@ -38,46 +38,16 @@
   left: 17px;
   bottom: -19px;
 }
-
-.ag-review-user_avatar {
+.ag-h-reviews-slides-user_info {
   display: inline-block;
-  height: 50px;
-  width: 50px;
-  background: url(/uploads/root/sprite-review-new.png) no-repeat scroll 0 -100px;
-  background-color: #EEE;
+  padding: 0 0 15px;
+
+  vertical-align: middle;
+}
+.ag-h-reviews-slides-user_avatar {
   margin: 0 10px 0 0;
-
-  vertical-align: middle;
-
-  -webkit-border-radius: 50% 50% 50% 50%;
-  -moz-border-radius: 50% 50% 50% 50%;
-  border-radius: 50% 50% 50% 50%;
 }
-.ag-locale-site__RTL .ag-review-user_avatar {
-  margin: 0 0 0 10px;
-}
-.ag-review-user_avatar-0 {
-  display: none;
-}
-.ag-review-user_avatar-1 {
-  background-position: 0 0;
-}
-.ag-review-user_avatar-2 {
-  background-position: -50px 0;
-}
-.ag-review-user_avatar-3 {
-  background-position: -100px 0;
-}
-.ag-review-user_avatar-4 {
-  background-position: -150px 0;
-}
-.ag-review-user_avatar-5 {
-  background-position: -200px 0;
-}
-.ag-review-user_name {
-  display: inline-block;
-
-  vertical-align: middle;
+.ag-h-reviews-slides-user_name {
   font-weight: bold;
   font-size: 18px;
   color: #1068ad;
@@ -99,7 +69,7 @@
   position: relative;
 }
 .ag-h-reviews-slides_arrow__prev {
-  margin: 0 130px 0 0;
+  margin: 0 110px 0 0;
 }
 .ag-h-reviews-slides_arrow__prev:before,
 .ag-h-reviews-slides_arrow__prev:after,
@@ -182,16 +152,23 @@
     width: 96%;
   }
 
+
   .ag-h-reviews-slides_controls,
-  .ag-locale-site__RTL .ag-h-reviews-slides_controls {
+  .ag-locale-site__RTL .ag-h-reviews-slides_controls,
+  .ag-locale-site-ar .ag-h-reviews-slides_controls,
+  .ag-locale-site-en .ag-h-reviews-slides_controls,
+  .ag-locale-site-es .ag-h-reviews-slides_controls,
+  .ag-locale-site-fr .ag-h-reviews-slides_controls,
+  .ag-locale-site-id .ag-h-reviews-slides_controls,
+  .ag-locale-site-ms .ag-h-reviews-slides_controls {
     display: table;
     float: none;
     margin: -20px auto 0;
-    padding: 0;
+    padding: 0 30px;
   }
 
   .ag-h-reviews-slides_arrow__prev {
-    margin: 0 270px 0 0;
+    margin: 0 230px 0 0;
   }
 
   .ag-h-reviews-slides_dots-box {
