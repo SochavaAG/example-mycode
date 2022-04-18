@@ -79,6 +79,8 @@ body {
 
   font-family: Arial, Verdana, Helvetica, sans-serif;
   font-size: 14px;
+
+  -webkit-text-size-adjust: 100%;
 }
 
 .clearfix:after {
