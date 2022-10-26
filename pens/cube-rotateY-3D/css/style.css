@@ -1,0 +1,259 @@
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+body {
+  background-color: #000;
+}
+.ag-cube_box {
+  width: 184px;
+  margin: 50px auto;
+
+  visibility: visible;
+
+  -webkit-perspective: 1100px;
+  perspective: 1100px;
+
+  -webkit-animation: an-bounceInDown 1s;
+
+  animation: an-bounceInDown 1s;
+}
+.ag-cube {
+  width: 184px;
+  height: 435px;
+
+  -webkit-transform-origin: 50% 50% -92px;
+  -ms-transform-origin: 50% 50% -92px;
+  transform-origin: 50% 50% -92px;
+
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+
+  -webkit-animation-name: an-rotation;
+  animation-name: an-rotation;
+
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+
+  -webkit-animation-duration: 15s;
+  animation-duration: 15s;
+
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+
+  -webkit-transform: rotateY(-45deg);
+  transform: rotateY(-45deg);
+
+  position: relative;
+}
+body.is_safari .ag-cube {
+  -webkit-transform-origin: 50% -92px;
+  -ms-transform-origin: 50% -92px;
+  transform-origin: 50% -92px;
+}
+.ag-cube_side {
+  width: 184px;
+  height: 435px;
+  background-color: rgba(0, 0, 0, .2);
+  position: absolute;
+
+  -webkit-transform-origin: 50% 50% -92px;
+  -ms-transform-origin: 50% 50% -92px;
+  transform-origin: 50% 50% -92px;
+
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.ag-cube_side-1 {
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_images/girl_1.png) no-repeat scroll 50% 0 #FFD115;
+
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+}
+.ag-cube_side-2 {
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_images/girl_4.png) no-repeat scroll 50% 0 #FFD115;
+
+  -webkit-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+}
+.ag-cube_side-3 {
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_images/girl-red.png) no-repeat scroll 50% 0 #FFD115;
+
+  -webkit-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+}
+.ag-cube_side-4 {
+  -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+}
+.ag-cube_side-6 {
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_images/girl-lilac.png) no-repeat scroll 50% 0 #FFD115;
+
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+@-webkit-keyframes an-bounceInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes an-bounceInDown {
+  0% {
+    opacity: 0;
+
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    transform: translateY(30px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes an-rotation {
+  0% {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  10% {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  25% {
+    -webkit-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+  }
+  35% {
+    -webkit-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+  }
+  50% {
+    -webkit-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+  }
+  60% {
+    -webkit-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+  }
+  80% {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+  }
+  90% {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+  }
+  100% {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+}
+@keyframes an-rotation {
+  0% {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  10% {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  25% {
+    -webkit-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+  }
+  35% {
+    -webkit-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+  }
+  50% {
+    -webkit-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+  }
+  60% {
+    -webkit-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+  }
+  80% {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+  }
+  90% {
+    -webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+  }
+  100% {
+    -webkit-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

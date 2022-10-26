@@ -18,8 +18,18 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/item-hover-color-background/js/main.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cube-rotateY-3D/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cube-rotateY-3D/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -28,36 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/item-hover-color-background/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="145" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/item-hover-color-background/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="36" />
-              <folding>
-                <element signature="e#1111#1116#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ag-primary_icon</find>
-      <find>https://raw.githack.com/SochavaAG/example-mycode/master/pens/slick-slider/</find>
-      <find>ag-h-reviews-slides_dot</find>
-      <find>ag-review-user_name</find>
       <find>ag-review-slider_info</find>
       <find>60</find>
       <find>arrow__next</find>
@@ -84,13 +68,12 @@
       <find>ag-courses_link</find>
       <find>ag-courses_bg</find>
       <find>ag-courses-item_title</find>
+      <find>default_rotation</find>
+      <find>bounceInDown</find>
+      <find>side&quot; id=&quot;side</find>
+      <find>ag-active</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-grid_img-box-v2</replace>
-      <replace>font-weight: bold;</replace>
-      <replace>.ag-grid_shadow</replace>
-      <replace>.ag-grid_shadow-v2</replace>
-      <replace>.ag-grid_list</replace>
       <replace>ag-grid_list</replace>
       <replace>.</replace>
       <replace>&lt;div class=&quot;ag-grid_item&quot;&gt;</replace>
@@ -116,6 +99,11 @@
       <replace>ag-courses-item_date</replace>
       <replace>ag-courses-item_link</replace>
       <replace>ag-courses-item_bg</replace>
+      <replace>ag-cube</replace>
+      <replace>.ag-cube</replace>
+      <replace>an-rotation</replace>
+      <replace>ag-cube_side ag-cube_side-</replace>
+      <replace>an-bounceInDown</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -148,9 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Desktop/FORM-Articles-Subscribe/FORM-Articles-Subscribe-EN.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-AR.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-BN.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-CN.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-ES.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-FA.html" />
@@ -199,6 +184,9 @@
         <option value="$USER_HOME$/vazhno_project-2022/format-2.html" />
         <option value="$PROJECT_DIR$/item-hover-color-background/css/style.css" />
         <option value="$PROJECT_DIR$/item-hover-color-background/index.html" />
+        <option value="$PROJECT_DIR$/rotateY-3D/css/style.css" />
+        <option value="$PROJECT_DIR$/rotateY-3D/index.html" />
+        <option value="$PROJECT_DIR$/cube-rotateY-3D/index.html" />
       </list>
     </option>
   </component>
@@ -465,12 +453,12 @@
       <workItem from="1642753957513" duration="2259000" />
       <workItem from="1643788244106" duration="15710000" />
       <workItem from="1643954403337" duration="3973000" />
-      <workItem from="1666812480307" duration="3028000" />
+      <workItem from="1666812480307" duration="5222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1231891000" />
+    <option name="totallyTimeSpent" value="1234085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="985" extended-state="6" />
@@ -515,34 +503,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-FA.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-FR.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-HI.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="68" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-ID.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="86" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-JP.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -881,6 +841,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/item-hover-color-background/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="e#1111#1116#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/item-hover-color-background/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -897,13 +867,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/item-hover-color-background/index.html">
+    <entry file="file://$PROJECT_DIR$/rotateY-3D/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotateY-3D/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cube-rotateY-3D/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cube-rotateY-3D/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <element signature="e#1111#1116#0" expanded="true" />
-          </folding>
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
