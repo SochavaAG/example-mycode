@@ -28,23 +28,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/item-hover-color-background/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="119" column="3" lean-forward="false" selection-start-line="119" selection-start-column="3" selection-end-line="119" selection-end-column="3" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="145" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/item-hover-color-background/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="45" column="7" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="45" selection-end-column="7" />
+            <state relative-caret-position="180">
+              <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="36" />
               <folding>
-                <element signature="e#1660#1665#0" expanded="true" />
+                <element signature="e#1111#1116#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -197,8 +197,8 @@
         <option value="$PROJECT_DIR$/slick-slider-review/index.html" />
         <option value="$USER_HOME$/vazhno_project-2022/format-t.css" />
         <option value="$USER_HOME$/vazhno_project-2022/format-2.html" />
-        <option value="$PROJECT_DIR$/item-hover-color-background/index.html" />
         <option value="$PROJECT_DIR$/item-hover-color-background/css/style.css" />
+        <option value="$PROJECT_DIR$/item-hover-color-background/index.html" />
       </list>
     </option>
   </component>
@@ -465,12 +465,12 @@
       <workItem from="1642753957513" duration="2259000" />
       <workItem from="1643788244106" duration="15710000" />
       <workItem from="1643954403337" duration="3973000" />
-      <workItem from="1666812480307" duration="2815000" />
+      <workItem from="1666812480307" duration="3028000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1231678000" />
+    <option name="totallyTimeSpent" value="1231891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="985" extended-state="6" />
@@ -889,21 +889,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/item-hover-color-background/index.html">
+    <entry file="file://$PROJECT_DIR$/item-hover-color-background/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="45" column="7" lean-forward="true" selection-start-line="32" selection-start-column="6" selection-end-line="45" selection-end-column="7" />
-          <folding>
-            <element signature="e#1660#1665#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="145" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/item-hover-color-background/css/style.css">
+    <entry file="file://$PROJECT_DIR$/item-hover-color-background/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="119" column="3" lean-forward="false" selection-start-line="119" selection-start-column="3" selection-end-line="119" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="e#1111#1116#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
