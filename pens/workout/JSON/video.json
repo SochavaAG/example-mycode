@@ -1,84 +1,84 @@
 [
     {
         "video": "video1",
-        "images": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview1.jpg",
+        "image": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview1.jpg",
         "name": "Treadmill 2",
         "calory": "250 est calories",
         "time": "18:24"
     },
     {
         "video": "video2",
-        "images": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview2.jpg",
+        "image": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview2.jpg",
         "name": "Stretching 2",
         "calory": "250 est calories",
         "time": "28:24"
     },
     {
         "video": "video3",
-        "images": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview3.jpg",
+        "image": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview3.jpg",
         "name": "Yoga 2",
         "calory": "250 est calories",
         "time": "38:24"
     },
     {
         "video": "video4",
-        "images": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview4.jpg",
+        "image": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview4.jpg",
         "name": "Running 2",
         "calory": "250 est calories",
         "time": "48:24"
     },
     {
         "video": "video5",
-        "images": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview5.jpg",
+        "image": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview5.jpg",
         "name": "Lifting 2",
         "calory": "250 est calories",
         "time": "08:24"
     },
     {
         "video": "video6",
-        "images": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview6.jpg",
+        "image": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview6.jpg",
         "name": "PushUp 2",
         "calory": "250 est calories",
         "time": "23:24"
     },
     {
         "video": "video7",
-        "images": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview1.jpg",
+        "image": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview1.jpg",
         "name": "Treadmill 3",
         "calory": "250 est calories",
         "time": "58:04"
     },
     {
         "video": "video8",
-        "images": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview2.jpg",
+        "image": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview2.jpg",
         "name": "Stretching 3",
         "calory": "250 est calories",
         "time": "58:14"
     },
     {
         "video": "video9",
-        "images": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview3.jpg",
+        "image": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview3.jpg",
         "name": "Yoga 3",
         "calory": "250 est calories",
         "time": "08:04"
     },
     {
         "video": "video10",
-        "images": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview4.jpg",
+        "image": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview4.jpg",
         "name": "Running 3",
         "calory": "250 est calories",
         "time": "58:34"
     },
     {
         "video": "video11",
-        "images": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview5.jpg",
+        "image": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview5.jpg",
         "name": "Lifting 3",
         "calory": "250 est calories",
         "time": "58:54"
     },
     {
         "video": "video12",
-        "images": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview6.jpg",
+        "image": "https://raw.githack.com/SochavaAG/portfolio/tree/master/workout/images/videos/preview6.jpg",
         "name": "PushUp 3",
         "calory": "250 est calories",
         "time": "38:34"
