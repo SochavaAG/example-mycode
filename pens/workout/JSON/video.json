@@ -2,84 +2,84 @@
     "video1": {
         "id": "video-1",
         "image": "images/videos/preview-1.jpg",
-        "name": "Treadmill 2",
+        "name": "Treadmill",
         "calory": "250 est calories",
         "time": "18:24"
     },
     "video2": {
         "id": "video-2",
         "image": "images/videos/preview-2.jpg",
-        "name": "Stretching 2",
+        "name": "Stretching",
         "calory": "250 est calories",
         "time": "28:24"
     },
     "video3": {
         "id": "video-3",
         "image": "images/videos/preview-3.jpg",
-        "name": "Yoga 2",
+        "name": "Yoga",
         "calory": "250 est calories",
         "time": "38:24"
     },
     "video4": {
         "id": "video-4",
         "image": "images/videos/preview-4.jpg",
-        "name": "Running 2",
+        "name": "Running",
         "calory": "250 est calories",
         "time": "48:24"
     },
     "video5": {
         "id": "video-5",
         "image": "images/videos/preview-5.jpg",
-        "name": "Lifting 2",
+        "name": "Lifting",
         "calory": "250 est calories",
         "time": "08:24"
     },
     "video6": {
         "id": "video-6",
         "image": "images/videos/preview-6.jpg",
-        "name": "PushUp 2",
+        "name": "PushUp",
         "calory": "250 est calories",
         "time": "23:24"
     },
     "video7": {
         "id": "video-7",
         "image": "images/videos/preview-1.jpg",
-        "name": "Treadmill 3",
+        "name": "Treadmill",
         "calory": "250 est calories",
         "time": "58:04"
     },
     "video8": {
         "id": "video-8",
         "image": "images/videos/preview-2.jpg",
-        "name": "Stretching 3",
+        "name": "Stretching",
         "calory": "250 est calories",
         "time": "58:14"
     },
     "video9": {
         "id": "video-9",
         "image": "images/videos/preview-3.jpg",
-        "name": "Yoga 3",
+        "name": "Yoga",
         "calory": "250 est calories",
         "time": "08:04"
     },
     "video10": {
         "id": "video-10",
         "image": "images/videos/preview-4.jpg",
-        "name": "Running 3",
+        "name": "Running",
         "calory": "250 est calories",
         "time": "58:34"
     },
     "video11": {
         "id": "video-11",
         "image": "images/videos/preview-5.jpg",
-        "name": "Lifting 3",
+        "name": "Lifting",
         "calory": "250 est calories",
         "time": "58:54"
     },
     "video12": {
         "id": "video-12",
         "image": "images/videos/preview-6.jpg",
-        "name": "PushUp 3",
+        "name": "PushUp",
         "calory": "250 est calories",
         "time": "38:34"
     }
