@@ -136,7 +136,7 @@
     height: 17px;
     width: 8px;
     margin: 0 auto;
-    background: url(../images/arrow.png) no-repeat center;
+    background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/slick-slider-vertical/images/arrow.png) no-repeat center;
 
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
