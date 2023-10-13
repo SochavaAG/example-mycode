@@ -21,7 +21,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/portfolio/influence/2023.10.06/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
+            <state relative-caret-position="32740">
               <caret line="1637" column="32" lean-forward="false" selection-start-line="1637" selection-start-column="32" selection-end-line="1637" selection-end-column="32" />
               <folding />
             </state>
@@ -83,7 +83,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slider-portfolio/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
+            <state relative-caret-position="540">
               <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="23" />
               <folding />
             </state>
@@ -105,11 +105,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_app-8b6ed6a16b24d590.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_app-8b6ed6a16b24d590.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/slider-portfolio/js/_app-8b6ed6a16b24d590.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="682" column="8" lean-forward="true" selection-start-line="682" selection-start-column="8" selection-end-line="682" selection-end-column="8" />
+            <state relative-caret-position="0">
+              <caret line="682" column="8" lean-forward="false" selection-start-line="682" selection-start-column="8" selection-end-line="682" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buttons/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="28" column="10" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="28" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="9773" column="17" lean-forward="true" selection-start-line="9644" selection-start-column="0" selection-end-line="9773" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style-1.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slick-slider-vertical/css/style-1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="584">
+              <caret line="224" column="1" lean-forward="true" selection-start-line="178" selection-start-column="0" selection-end-line="224" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -119,9 +149,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ag-courses_link</find>
-      <find>ag-courses_bg</find>
-      <find>ag-courses-item_title</find>
       <find>default_rotation</find>
       <find>bounceInDown</find>
       <find>side&quot; id=&quot;side</find>
@@ -149,9 +176,11 @@
       <find>main-container</find>
       <find>js-scrolled</find>
       <find>data-scrolling</find>
+      <find>main__button</find>
+      <find>order_btn</find>
+      <find>145</find>
     </findStrings>
     <replaceStrings>
-      <replace>#29c5cd</replace>
       <replace>&lt;div class=&quot;ag-grid_btn&quot;&gt;&lt;/div&gt;</replace>
       <replace>ag-article-form-block</replace>
       <replace>ag-base-btn ag-article-form_btn button</replace>
@@ -181,6 +210,7 @@
       <replace>images/</replace>
       <replace>images/img-1.jpg</replace>
       <replace>images/img-3.jpg</replace>
+      <replace>146</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -213,8 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-KO.html" />
-        <option value="$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-MS.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-PK.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-PT.html" />
         <option value="$USER_HOME$/vazhno_project-1/2021.10.04_FX-25554_articles_simple-snippet/FORM-Articles-Subscribe/FORM-Articles-Subscribe-RU.html" />
@@ -264,6 +292,8 @@
         <option value="$PROJECT_DIR$/slider-portfolio/css/308e2368a0f1142e.css" />
         <option value="$PROJECT_DIR$/slider-portfolio/index.html" />
         <option value="$PROJECT_DIR$/slider-portfolio/js/_app-8b6ed6a16b24d590.js" />
+        <option value="$PROJECT_DIR$/buttons/index.html" />
+        <option value="$PROJECT_DIR$/buttons/css/style.css" />
       </list>
     </option>
   </component>
@@ -533,11 +563,12 @@
       <workItem from="1666812480307" duration="5308000" />
       <workItem from="1696622589526" duration="7612000" />
       <workItem from="1697054879349" duration="1770000" />
+      <workItem from="1697221067575" duration="1595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1243553000" />
+    <option name="totallyTimeSpent" value="1245148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="985" extended-state="6" />
@@ -582,27 +613,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/landing-pages/2021.11.24_landing_quick-start/quick-start-EN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="121" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grid-flex-2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="28" column="92" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scroll-animation-circle/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scroll-animation-circle/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -908,8 +918,16 @@
     </entry>
     <entry file="file://$USER_HOME$/portfolio/influence/2023.10.06/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
+        <state relative-caret-position="32740">
           <caret line="1637" column="32" lean-forward="false" selection-start-line="1637" selection-start-column="32" selection-end-line="1637" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slider-portfolio/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -927,18 +945,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slider-portfolio/index.html">
+    <entry file="file://$PROJECT_DIR$/slider-portfolio/js/_app-8b6ed6a16b24d590.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="682" column="8" lean-forward="false" selection-start-line="682" selection-start-column="8" selection-end-line="682" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slider-portfolio/js/_app-8b6ed6a16b24d590.js">
+    <entry file="file://$PROJECT_DIR$/slick-slider-vertical/css/style-1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="682" column="8" lean-forward="true" selection-start-line="682" selection-start-column="8" selection-end-line="682" selection-end-column="8" />
+        <state relative-caret-position="584">
+          <caret line="224" column="1" lean-forward="true" selection-start-line="178" selection-start-column="0" selection-end-line="224" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="10" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="28" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="9773" column="17" lean-forward="true" selection-start-line="9644" selection-start-column="0" selection-end-line="9773" selection-end-column="17" />
           <folding />
         </state>
       </provider>

@@ -2497,53 +2497,7 @@
         width: 275px
     }
 
-    .block3__main__slider {
-        width: 363px
-    }
 
-    .slick-center .first-slider_img {
-        height: 100px;
-        width: 100px
-    }
-
-    .first-sliderblock {
-        width: 113px
-    }
-
-    .first-slider_text {
-        width: 204px
-    }
-
-    .first-slider_img {
-        height: 83px;
-        width: 83px
-    }
-
-    .slick-next, .slick-prev {
-        margin-left: 45px
-    }
-
-    .first-slider:after, .first-slider:before {
-        left: 75px
-    }
-
-    .slick-vertical .slick-slide {
-        max-width: 400px;
-        width: 100% !important
-    }
-
-    .doctor__text2 {
-        font-size: 15px
-    }
-
-    .slick-center .first-slider_img__number {
-        margin-top: 33px
-    }
-
-    .first-slider_img__number {
-        margin-top: 24px;
-        margin-right: -18px
-    }
 
     .block3__main__doctor {
         padding: 26px 11px;
@@ -2917,52 +2871,7 @@
         width: 397px
     }
 
-    .first-slider {
-        width: 100%;
-        height: auto;
-        padding-left: 0;
-        margin-top: 26px
-    }
 
-    .block3__main__slider {
-        width: 90%
-    }
-
-    .slick-next, .slick-prev {
-        margin-left: 45px;
-        position: absolute;
-        -webkit-transform: rotate(270deg);
-        transform: rotate(270deg)
-    }
-
-    .first-sliderblock {
-        width: auto
-    }
-
-    .first-slider:after, .first-slider:before {
-        display: none
-    }
-
-    .first-slider_text, .slick-center .first-slider_text {
-        margin-left: 0;
-        text-align: center;
-        width: 100%;
-        line-height: normal;
-        font-size: 16px
-    }
-
-    .slick-next {
-        right: -25px;
-        left: auto;
-        top: 22%;
-        margin-left: 0
-    }
-
-    .slick-prev {
-        left: -25px;
-        top: 22%;
-        margin-left: 0
-    }
 
     .block4__main {
         -webkit-box-orient: vertical;
@@ -3248,23 +3157,7 @@
         line-height: 23px
     }
 
-    .first-slider {
-        width: 100%;
-        height: auto;
-        margin-bottom: auto
-    }
 
-    .first-slider .slick-prev {
-        left: -22px
-    }
-
-    .first-slider .slick-next {
-        right: -22px
-    }
-
-    .slick-next, .slick-prev {
-        bottom: 0
-    }
 
     .kavichki {
         font-size: 51px;

@@ -17,7 +17,7 @@
             vertical: false,
             verticalSwiping: false,
             centerPadding: '0px',
-            slidesToShow: 3,
+            slidesToShow: 2,
             mobileFirst: true,
             initialSlide: 1,
             slidesToScroll: 1,
