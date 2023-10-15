@@ -56,10 +56,12 @@ img {
   border: 1px solid var(--color);
 
   cursor: pointer;
+
+  position: relative;
 }
 
 .js-ag-filter-cat-toggle_name {
-  display: inline-block;
+  display: block;
   margin-right: 10px;
 
   text-transform: uppercase;
@@ -69,9 +71,9 @@ img {
   color: #3d3d3d;
 }
 .js-ag-filter-cat-toggle_icon {
-  display: inline-block;
-
-  position: relative;
+  position: absolute;
+  top: 13px;
+  right: 8px;
 }
 .js-ag-filter-cat-toggle_icon:before {
   content: "";
@@ -81,14 +83,14 @@ img {
   background-position: 0 0;
 
   position: absolute;
-  top: -9px;
-  right: -5px;
+  top: 0;
+  right: 0;
 }
 .js-ag_down:before {
   background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/filter-category/images/arrow-down.svg);
 }
 .js-ag_up:before {
-  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/filter-category/images/images/arrow-up.svg);
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/filter-category/images/arrow-up.svg);
 }
 
 .ag-filter-cat-tab_list {
