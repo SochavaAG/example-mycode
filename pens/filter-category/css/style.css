@@ -85,10 +85,10 @@ img {
   right: -5px;
 }
 .js-ag_down:before {
-  background-image: url(../images/arrow-down.svg);
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/filter-category/images/arrow-down.svg);
 }
 .js-ag_up:before {
-  background-image: url(../images/arrow-up.svg);
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/filter-category/images/images/arrow-up.svg);
 }
 
 .ag-filter-cat-tab_list {

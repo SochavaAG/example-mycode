@@ -21,11 +21,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/filter-category/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="92" column="73" lean-forward="true" selection-start-line="92" selection-start-column="73" selection-end-line="92" selection-end-column="73" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="604">
+              <caret line="100" column="90" lean-forward="false" selection-start-line="100" selection-start-column="90" selection-end-line="100" selection-end-column="90" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -33,8 +31,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filter-category/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="248" selection-end-column="1" />
+            <state relative-caret-position="180">
+              <caret line="90" column="24" lean-forward="false" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="101" />
               <folding />
             </state>
           </provider>
@@ -130,10 +128,10 @@
       <find>toggle-name</find>
       <find>ag-filter-cat-tab_box</find>
       <find>js-ag-filter-cat-toggle_icon</find>
-      <find>Roboto</find>
       <find>ag-filter-cat_content-bg</find>
       <find>ag-filter-cat-toggle_btn</find>
       <find>js-ag-filter-cat_box</find>
+      <find>Roboto</find>
     </findStrings>
     <replaceStrings>
       <replace>agCatName</replace>
@@ -164,8 +162,8 @@
       <replace>js-filter-cat-toggle_btn</replace>
       <replace>pe-icon</replace>
       <replace>js-ag-filter-cat-toggle_icon</replace>
-      <replace>var(--color)</replace>
       <replace>&lt;div class=&quot;js-ag-filter-cat_item ag-grid_item</replace>
+      <replace>var(--color)</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -519,12 +517,12 @@
       <workItem from="1696622589526" duration="7612000" />
       <workItem from="1697054879349" duration="1770000" />
       <workItem from="1697221067575" duration="7862000" />
-      <workItem from="1697386902125" duration="8389000" />
+      <workItem from="1697386902125" duration="8502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1259804000" />
+    <option name="totallyTimeSpent" value="1259917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="985" extended-state="6" />
@@ -920,14 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filter-category/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="248" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/filter-category/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
@@ -936,13 +926,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/filter-category/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="90" column="24" lean-forward="false" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/filter-category/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="92" column="73" lean-forward="true" selection-start-line="92" selection-start-column="73" selection-end-line="92" selection-end-column="73" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="604">
+          <caret line="100" column="90" lean-forward="false" selection-start-line="100" selection-start-column="90" selection-end-line="100" selection-end-column="90" />
+          <folding />
         </state>
       </provider>
     </entry>
