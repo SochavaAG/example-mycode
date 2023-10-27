@@ -93,10 +93,10 @@ body {
   right: 0;
 }
 .js-ag-carousel-arrow_prev:before {
-  background: url(../images/svg/arrow-left.svg) no-repeat scroll 0 0;
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/carousel-slick-zoom/images/svg/arrow-left.svg) no-repeat scroll 0 0;
 }
 .js-ag-carousel-arrow_next:before {
-  background: url(../images/svg/arrow-right.svg) no-repeat scroll 0 0;
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/carousel-slick-zoom/images/svg/arrow-right.svg) no-repeat scroll 0 0;
 }
 .ag-carousel-arrow:hover {
   border: 1px solid #5E8FE1;
@@ -106,10 +106,10 @@ body {
   border: 1px solid #A3AAB0;
 }
 .ag-carousel-arrow_box .js-ag-carousel-arrow_prev:hover:before {
-  background: url(../images/svg/arrow-left-b.svg) no-repeat scroll 0 0;
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/carousel-slick-zoom/images/svg/arrow-left-b.svg) no-repeat scroll 0 0;
 }
 .ag-carousel-arrow_box .js-ag-carousel-arrow_next:hover:before {
-  background: url(../images/svg/arrow-right-b.svg) no-repeat scroll 0 0;
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/carousel-slick-zoom/images/svg/arrow-right-b.svg) no-repeat scroll 0 0;
 }
 
 .ag-carousel_box .slick-track {
