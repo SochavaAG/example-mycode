@@ -1,0 +1,230 @@
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: #F4F4F4;
+}
+
+.ag-format-container {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.ag-carousel-block {
+  padding: 110px 0 100px;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ag-carousel_title-box {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  padding: 0 0 70px;
+}
+.ag-carousel_title {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+
+  line-height: .91;
+
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.ag-carousel-arrow_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: end;
+
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 40%;
+  flex: 1 0 40%;
+}
+.ag-carousel-arrow {
+  display: inline-block;
+  height: 52px;
+  width: 52px;
+  border: 1px solid #041C2C;
+  background-color: #041C2C;
+
+  cursor: pointer;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-transition: all .2s ease-out 0s;
+  -moz-transition: all .2s ease-out 0s;
+  -o-transition: all .2s ease-out 0s;
+  transition: all .2s ease-out 0s;
+
+  position: relative;
+}
+.js-ag-carousel-arrow_prev {
+  margin: 0 13px 0 0;
+}
+.js-ag-carousel-arrow_prev:before,
+.js-ag-carousel-arrow_next:before {
+  content: "";
+  height: 15px;
+  width: 10px;
+  margin: -7px auto 0;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+.js-ag-carousel-arrow_prev:before {
+  background: url(../images/svg/arrow-left.svg) no-repeat scroll 0 0;
+}
+.js-ag-carousel-arrow_next:before {
+  background: url(../images/svg/arrow-right.svg) no-repeat scroll 0 0;
+}
+.ag-carousel-arrow:hover {
+  border: 1px solid #5E8FE1;
+  background-color: transparent;
+}
+.ag-carousel-arrow_box .ag-carousel-arrow:hover {
+  border: 1px solid #A3AAB0;
+}
+.ag-carousel-arrow_box .js-ag-carousel-arrow_prev:hover:before {
+  background: url(../images/svg/arrow-left-b.svg) no-repeat scroll 0 0;
+}
+.ag-carousel-arrow_box .js-ag-carousel-arrow_next:hover:before {
+  background: url(../images/svg/arrow-right-b.svg) no-repeat scroll 0 0;
+}
+
+.ag-carousel_box .slick-track {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.ag-carousel_box {
+  margin: 0 0 0 -40%;
+}
+.ag-carousel_item {
+  padding: 0 22px;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ag-carousel_figure {
+  display: table;
+  width: 185px;
+  margin: 0 auto;
+
+  -webkit-transition: width .3s ease;
+  -moz-transition: width .3s ease;
+  -o-transition: width .3s ease;
+  transition: width .3s ease;
+}
+.slick-current .ag-carousel_figure {
+  width: 275px;
+
+  -webkit-transition: width .3s ease;
+  -moz-transition: width .3s ease;
+  -o-transition: width .3s ease;
+  transition: width .3s ease;
+}
+.ag-carousel_figcaption {
+  line-height: 1.26;
+  margin: 15px 0 0;
+
+  visibility: hidden;
+
+  font-size: 14px;
+  color: #041C2C;
+}
+.slick-current .ag-carousel_figcaption {
+  visibility: visible;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+  .ag-carousel_title-box {
+    display: block;
+    padding: 0 0 25px;
+  }
+
+  .ag-carousel_title {
+    margin: 0 0 20px;
+
+    font-size: 30px;
+  }
+
+  .ag-carousel-arrow_box {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+  }
+  .ag-carousel-arrow {
+    height: 33px;
+    width: 33px;
+  }
+  .ag-carousel-arrow_prev {
+    margin: 0 5px 0 0;
+  }
+  .ag-carousel-arrow_prev:before,
+  .ag-carousel-arrow_next:before {
+    height: 12px;
+    width: 8px;
+    margin: -5px 0 0 13px;
+  }
+
+  .ag-carousel_box {
+    margin: 0;
+  }
+
+  .ag-carousel_figure {
+    width: 70%;
+  }
+  .slick-current .ag-carousel_figure {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

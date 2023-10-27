@@ -2,6 +2,12 @@
   $(function () {
 
     $(window).resize(function () {
+      if ($(this).width() >= 768) {
+        $('#js-filter-cat-tab_list').css({display: 'flex'});
+      } else {
+        $('#js-filter-cat-tab_list').css({display: 'none'});
+      }
+
       /*var agGrid = $('.js-ag-filter-cat_box');
 
       if ($(this).width() >= 768) {
