@@ -1,0 +1,231 @@
+body {
+  background-color: #195FD4;
+}
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-prof-carousel-block {
+  padding: 105px 0 0;
+}
+.ag-prof-carousel-arrow_box {
+  text-align: right;
+
+  z-index: 1000;
+  position: relative;
+}
+.ag-carousel-arrow {
+  display: inline-block;
+  height: 52px;
+  width: 52px;
+  border: 1px solid #041C2C;
+  background-color: #041C2C;
+
+  cursor: pointer;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-transition: all .2s ease-out 0s;
+  -moz-transition: all .2s ease-out 0s;
+  -o-transition: all .2s ease-out 0s;
+  transition: all .2s ease-out 0s;
+
+  position: relative;
+}
+.js-ag-carousel-arrow_prev {
+  margin: 0 13px 0 0;
+}
+.ag-carousel-arrow:hover {
+  border: 1px solid #5E8FE1;
+  background-color: transparent;
+}
+.svg-arrow-left,
+.svg-arrow-right {
+  height: 12px;
+  width: 7px;
+  margin: -6px auto 0;
+
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+
+.ag-prof-carousel_box {
+  margin: -200px -10% 0 calc(50% - 520px);
+
+  position: relative;
+}
+.ag-prof-carousel_box:before {
+  content: "";
+  height: 150px;
+
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE5NWZkNCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzE5NWZkNCIgc3RvcC1vcGFjaXR5PSIwLjYiLz4KICAgIDxzdG9wIG9mZnNldD0iNzUlIiBzdG9wLWNvbG9yPSIjMTk1ZmQ0IiBzdG9wLW9wYWNpdHk9IjAuOSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5OSUiIHN0b3AtY29sb3I9IiMxOTVmZDQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top,  rgba(25,95,212,0) 0%, rgba(25,95,212,0.6) 50%, rgba(25,95,212,0.9) 75%, rgba(25,95,212,1) 99%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(25,95,212,0)), color-stop(50%,rgba(25,95,212,0.6)), color-stop(75%,rgba(25,95,212,0.9)), color-stop(99%,rgba(25,95,212,1)));
+  background: -webkit-linear-gradient(top,  rgba(25,95,212,0) 0%,rgba(25,95,212,0.6) 50%,rgba(25,95,212,0.9) 75%,rgba(25,95,212,1) 99%);
+  background: -o-linear-gradient(top,  rgba(25,95,212,0) 0%,rgba(25,95,212,0.6) 50%,rgba(25,95,212,0.9) 75%,rgba(25,95,212,1) 99%);
+  background: -ms-linear-gradient(top,  rgba(25,95,212,0) 0%,rgba(25,95,212,0.6) 50%,rgba(25,95,212,0.9) 75%,rgba(25,95,212,1) 99%);
+  background: linear-gradient(to bottom,  rgba(25,95,212,0) 0%,rgba(25,95,212,0.6) 50%,rgba(25,95,212,0.9) 75%,rgba(25,95,212,1) 99%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00195fd4', endColorstr='#195fd4',GradientType=0 );
+
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+}
+
+.ag-prof-carousel_item {
+  height: 600px;
+
+  position: relative;
+}
+.ag-prof-carousel_descr {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+  visibility: hidden;
+
+  opacity: 0;
+}
+.ag-prof-carousel_descr:hover {
+  text-decoration: none;
+}
+.slick-current .ag-prof-carousel_descr {
+  height: 312px;
+  width: 550px;
+  padding: 40px 200px 40px 40px;
+  background-color: rgba(255,255,255,.1);
+
+  visibility: visible;
+
+  opacity: 1;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+
+  z-index: -1;
+  position: absolute;
+  top: 140px;
+  left: 0;
+
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.ag-prof-carousel_name {
+  line-height: 1.22;
+
+  opacity: 0;
+
+  font-weight: 700;
+  font-size: 30px;
+  color: #FFF;
+
+  -webkit-transform: translate(-200px, -50px);
+  -moz-transform: translate(-200px, -50px);
+  -ms-transform: translate(-200px, -50px);
+  -o-transform: translate(-200px, -50px);
+  transform: translate(-200px, -50px);
+
+  -webkit-transition: all .7s ease;
+  -moz-transition: all .7s ease;
+  -o-transition: all .7s ease;
+  transition: all .7s ease;
+}
+.ag-prof-carousel_doctor {
+  line-height: 1.25;
+  margin: 0 50px 0 0;
+
+  opacity: 0;
+
+  font-size: 16px;
+  color: #FFF;
+
+  -webkit-transform: translate(-200px, 50px);
+  -moz-transform: translate(-200px, 50px);
+  -ms-transform: translate(-200px, 50px);
+  -o-transform: translate(-200px, 50px);
+  transform: translate(-200px, 50px);
+
+  -webkit-transition: all .7s ease;
+  -moz-transition: all .7s ease;
+  -o-transition: all .7s ease;
+  transition: all .7s ease;
+}
+.slick-current .ag-prof-carousel_name,
+.slick-current .ag-prof-carousel_doctor {
+  opacity: 1;
+
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.ag-prof-carousel_img {
+  height: 300px;
+  margin: 280px 0 0 250px;
+}
+.slick-current .ag-prof-carousel_img {
+  height: 580px;
+  margin: 0 0 0 310px;
+
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}
