@@ -66,6 +66,12 @@
     width: 96%;
   }
 
+  .ag-photo-gallery_list {
+    grid-gap: 10px;
+
+    -ms-grid-rows: 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem .9375rem 14rem;
+    grid-template-rows: 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem 14rem;
+  }
 }
 
 @media only screen and (max-width: 639px) {

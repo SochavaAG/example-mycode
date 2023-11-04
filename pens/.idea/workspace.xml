@@ -67,8 +67,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/portfolio/eximer.ua/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="6856" column="0" lean-forward="true" selection-start-line="6856" selection-start-column="0" selection-end-line="6911" selection-end-column="1" />
+            <state relative-caret-position="19806">
+              <caret line="9208" column="2" lean-forward="false" selection-start-line="9208" selection-start-column="2" selection-end-line="9213" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -156,21 +156,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gallery-grid/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="92" column="106" lean-forward="false" selection-start-line="92" selection-start-column="106" selection-end-line="92" selection-end-column="106" />
+            <state relative-caret-position="435">
+              <caret line="84" column="107" lean-forward="false" selection-start-line="84" selection-start-column="107" selection-end-line="84" selection-end-column="107" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gallery-grid/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="60" column="1" lean-forward="false" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+            <state relative-caret-position="730">
+              <caret line="73" column="3" lean-forward="false" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -190,7 +190,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Roboto</find>
       <find>js-ag-filter-cat_box</find>
       <find>.js-ag-filter-cat-toggle_name</find>
       <find>ag-client</find>
@@ -217,12 +216,12 @@
       <find>video</find>
       <find>ag-photo-gallery</find>
       <find>gallery</find>
-      <find>.ag-photo-gallery</find>
       <find>&quot;gallery</find>
       <find>lesson-carousel</find>
+      <find>img-</find>
+      <find>.ag-photo-gallery</find>
     </findStrings>
     <replaceStrings>
-      <replace>&lt;div class=&quot;work-item c&quot;&gt;</replace>
       <replace>agGetCurrent</replace>
       <replace>alt=&quot;&quot; /&gt;</replace>
       <replace>js-ag-cat__active</replace>
@@ -252,6 +251,7 @@
       <replace>lesson</replace>
       <replace>000</replace>
       <replace>carousel</replace>
+      <replace>img-1098x549-</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -333,8 +333,8 @@
         <option value="$USER_HOME$/portfolio/example-site-new/kuk.edu.ua/index.html" />
         <option value="$USER_HOME$/portfolio/example-site-new/kuk.edu.ua/css/page_home_new/style.min.css" />
         <option value="$USER_HOME$/portfolio/eximer.ua/css/style.css" />
-        <option value="$PROJECT_DIR$/gallery-grid/css/style.css" />
         <option value="$PROJECT_DIR$/gallery-grid/index.html" />
+        <option value="$PROJECT_DIR$/gallery-grid/css/style.css" />
       </list>
     </option>
   </component>
@@ -607,12 +607,12 @@
       <workItem from="1697221067575" duration="7862000" />
       <workItem from="1697386902125" duration="8623000" />
       <workItem from="1697405150561" duration="792000" />
-      <workItem from="1699098861579" duration="6393000" />
+      <workItem from="1699098861579" duration="6529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1267223000" />
+    <option name="totallyTimeSpent" value="1267359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="985" extended-state="6" />
@@ -960,14 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/portfolio/eximer.ua/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="6856" column="0" lean-forward="true" selection-start-line="6856" selection-start-column="0" selection-end-line="6911" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/portfolio/eximer.ua/photo-gallery__fotogalereya.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-946">
@@ -975,14 +967,6 @@
           <folding>
             <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gallery-grid/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="60" column="1" lean-forward="false" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,8 +998,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gallery-grid/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="92" column="106" lean-forward="false" selection-start-line="92" selection-start-column="106" selection-end-line="92" selection-end-column="106" />
+        <state relative-caret-position="435">
+          <caret line="84" column="107" lean-forward="false" selection-start-line="84" selection-start-column="107" selection-end-line="84" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/portfolio/eximer.ua/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19806">
+          <caret line="9208" column="2" lean-forward="false" selection-start-line="9208" selection-start-column="2" selection-end-line="9213" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery-grid/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="73" column="3" lean-forward="false" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
           <folding />
         </state>
       </provider>
