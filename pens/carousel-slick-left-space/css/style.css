@@ -39,7 +39,7 @@ body {
   font-size: 60px;
   margin: 0 230px 0 0;
 
-  color: #041C2C;
+  color: #000;
 }
 .ag-lesson_text {
   -webkit-box-flex: 0;
@@ -68,8 +68,8 @@ body {
   display: inline-block;
   height: 52px;
   width: 52px;
-  border: 1px solid #041C2C;
-  background-color: #041C2C;
+  border: 1px solid #000;
+  background-color: #000;
 
   cursor: pointer;
 
@@ -87,7 +87,7 @@ body {
   position: relative;
 }
 .ag-carousel-arrow:hover {
-  border: 1px solid #041C2C;
+  border: 1px solid #000;
   background-color: transparent;
 }
 .js-ag-carousel-arrow_prev {
@@ -95,7 +95,7 @@ body {
 }
 .js-ag-carousel-arrow_prev:hover,
 .js-ag-carousel-arrow_next:hover {
-  stroke: #041C2C;
+  stroke: #000;
 }
 .svg-arrow-left,
 .svg-arrow-right {
@@ -161,7 +161,7 @@ body {
   height: 60px;
   width: 60px;
   margin: -30px auto 0;
-  background-color: #041C2C;
+  background-color: #000;
 
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -185,7 +185,7 @@ body {
   left: 50%;
 }
 .ag-video_btn-play:hover {
-  background-color: #1646D0;
+  background-color: #ff2d30;
 }
 
 .ag-carousel_info {
@@ -224,7 +224,7 @@ body {
 .ag-carousel_name {
   font-weight: 700;
   font-size: 25px;
-  color: #041C2C;
+  color: #000;
 }
 .ag-carousel_date {
   line-height: 1.36;
