@@ -21,11 +21,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/carousel-slick-left-space/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="120" lean-forward="true" selection-start-line="17" selection-start-column="120" selection-end-line="17" selection-end-column="120" />
-              <folding>
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="179">
+              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -33,8 +31,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/carousel-slick-left-space/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="177" column="14" lean-forward="false" selection-start-line="177" selection-start-column="14" selection-end-line="177" selection-end-column="14" />
+            <state relative-caret-position="386">
+              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="108" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -67,8 +65,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/portfolio/eximer.ua/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19806">
-              <caret line="9208" column="2" lean-forward="false" selection-start-line="9208" selection-start-column="2" selection-end-line="9213" selection-end-column="3" />
+            <state relative-caret-position="246">
+              <caret line="7209" column="12" lean-forward="false" selection-start-line="7209" selection-start-column="1" selection-end-line="7209" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -77,8 +75,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/portfolio/eximer.ua/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="452" column="5" lean-forward="false" selection-start-line="452" selection-start-column="5" selection-end-line="452" selection-end-column="5" />
+            <state relative-caret-position="197">
+              <caret line="335" column="28" lean-forward="true" selection-start-line="283" selection-start-column="4" selection-end-line="335" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -134,53 +132,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/portfolio/example-site-new/kuk.edu.ua/css/page_home_new/style.min.css">
+      <file leaf-file-name="clinic-history__istoriya-kliniki.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/portfolio/eximer.ua/clinic-history__istoriya-kliniki.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="6165" column="9" lean-forward="false" selection-start-line="6165" selection-start-column="0" selection-end-line="6165" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="photo-gallery__fotogalereya.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/portfolio/eximer.ua/photo-gallery__fotogalereya.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-946">
-              <caret line="348" column="75" lean-forward="false" selection-start-line="348" selection-start-column="67" selection-end-line="348" selection-end-column="75" />
+            <state relative-caret-position="299">
+              <caret line="347" column="4" lean-forward="false" selection-start-line="347" selection-start-column="4" selection-end-line="633" selection-end-column="14" />
               <folding>
                 <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#1;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gallery-grid/index.html">
+        <entry file="file://$PROJECT_DIR$/slick-timeline/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="84" column="107" lean-forward="false" selection-start-line="84" selection-start-column="107" selection-end-line="84" selection-end-column="107" />
+            <state relative-caret-position="720">
+              <caret line="594" column="6" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="594" selection-end-column="6" />
+              <folding>
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/slick-timeline/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gallery-grid/css/style.css">
+        <entry file="file://$PROJECT_DIR$/slick-timeline/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="730">
-              <caret line="73" column="3" lean-forward="false" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carousel-slick-zoom/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="282" column="103" lean-forward="false" selection-start-line="282" selection-start-column="24" selection-end-line="282" selection-end-column="103" />
+            <state relative-caret-position="113">
+              <caret line="236" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -190,11 +181,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>js-ag-filter-cat_box</find>
-      <find>.js-ag-filter-cat-toggle_name</find>
-      <find>ag-client</find>
-      <find>client */</find>
-      <find>.ag-client</find>
       <find>.ag-base_t</find>
       <find>&lt;div class=&quot;ag-video_btn-play&quot;&gt;&lt;/div&gt;</find>
       <find>ag-anim</find>
@@ -204,26 +190,29 @@
       <find>.ag-lesson_text</find>
       <find>ag-lesson-carousel-arrow_box</find>
       <find>client</find>
-      <find>ag-carousel-arrow</find>
       <find>lesson</find>
       <find>041C2C</find>
       <find>-client</find>
       <find>video_defaut_on</find>
       <find>/TM7Ohx9p-3c</find>
-      <find>video-phone_min2.mp4</find>
       <find>video-item-voice</find>
       <find>.btn-stop</find>
       <find>video</find>
       <find>ag-photo-gallery</find>
       <find>gallery</find>
       <find>&quot;gallery</find>
-      <find>lesson-carousel</find>
       <find>img-</find>
       <find>.ag-photo-gallery</find>
+      <find>video-phone_min2.mp4</find>
+      <find>time</find>
+      <find>timel</find>
+      <find>ag-timeline</find>
+      <find>js-ag-carousel-arrow_</find>
+      <find>lesson-carousel</find>
+      <find>ag-timeline-carousel-arrow</find>
+      <find>ag-carousel-arrow</find>
     </findStrings>
     <replaceStrings>
-      <replace>agGetCurrent</replace>
-      <replace>alt=&quot;&quot; /&gt;</replace>
       <replace>js-ag-cat__active</replace>
       <replace>&lt;div class=&quot;work-item js-cat_fur&quot;&gt;</replace>
       <replace>ag-filter-block</replace>
@@ -249,9 +238,11 @@
       <replace>Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus</replace>
       <replace>ag-carousel-arrow_box</replace>
       <replace>lesson</replace>
+      <replace>img-1098x549-</replace>
+      <replace>js-ag-timeline-carousel-arrow_</replace>
       <replace>000</replace>
       <replace>carousel</replace>
-      <replace>img-1098x549-</replace>
+      <replace>ag-carousel-arrow</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -284,10 +275,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-ID.html" />
-        <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-AR.html" />
-        <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-BN.html" />
-        <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-CN.html" />
         <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-ES.html" />
         <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-FA.html" />
         <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-FR.html" />
@@ -335,6 +322,10 @@
         <option value="$USER_HOME$/portfolio/eximer.ua/css/style.css" />
         <option value="$PROJECT_DIR$/gallery-grid/index.html" />
         <option value="$PROJECT_DIR$/gallery-grid/css/style.css" />
+        <option value="$USER_HOME$/portfolio/eximer.ua/js/main.js" />
+        <option value="$PROJECT_DIR$/slick-timeline/js/main.js" />
+        <option value="$PROJECT_DIR$/slick-timeline/index.html" />
+        <option value="$PROJECT_DIR$/slick-timeline/css/style.css" />
       </list>
     </option>
   </component>
@@ -607,12 +598,12 @@
       <workItem from="1697221067575" duration="7862000" />
       <workItem from="1697386902125" duration="8623000" />
       <workItem from="1697405150561" duration="792000" />
-      <workItem from="1699098861579" duration="6529000" />
+      <workItem from="1699098861579" duration="8118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1267359000" />
+    <option name="totallyTimeSpent" value="1268948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="985" extended-state="6" />
@@ -657,22 +648,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/item-hover-color-background/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="145" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rotateY-3D/index.html" />
-    <entry file="file://$PROJECT_DIR$/rotateY-3D/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/cube-rotateY-3D/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="31" column="8" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tags/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -896,22 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carousel-slick-left-space/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="177" column="14" lean-forward="false" selection-start-line="177" selection-start-column="14" selection-end-line="177" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/portfolio/eximer.ua/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="452" column="5" lean-forward="false" selection-start-line="452" selection-start-column="5" selection-end-line="452" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/portfolio/example-site-new/kuk.edu.ua/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -932,14 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
           <caret line="942" column="18" lean-forward="false" selection-start-line="942" selection-start-column="18" selection-end-line="942" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/portfolio/example-site-new/kuk.edu.ua/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="981" column="43" lean-forward="false" selection-start-line="981" selection-start-column="27" selection-end-line="981" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -978,16 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/carousel-slick-left-space/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="120" lean-forward="true" selection-start-line="17" selection-start-column="120" selection-end-line="17" selection-end-column="120" />
-          <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/carousel-slick-zoom/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -996,26 +937,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gallery-grid/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="53" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gallery-grid/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="84" column="107" lean-forward="false" selection-start-line="84" selection-start-column="107" selection-end-line="84" selection-end-column="107" />
+        <state relative-caret-position="340">
+          <caret line="17" column="141" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="141" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/portfolio/example-site-new/kuk.edu.ua/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="981" column="43" lean-forward="false" selection-start-line="981" selection-start-column="27" selection-end-line="981" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/portfolio/eximer.ua/clinic-history__istoriya-kliniki.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="347" column="4" lean-forward="false" selection-start-line="347" selection-start-column="4" selection-end-line="633" selection-end-column="14" />
+          <folding>
+            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#1;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/portfolio/eximer.ua/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="335" column="28" lean-forward="true" selection-start-line="283" selection-start-column="4" selection-end-line="335" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/portfolio/eximer.ua/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19806">
-          <caret line="9208" column="2" lean-forward="false" selection-start-line="9208" selection-start-column="2" selection-end-line="9213" selection-end-column="3" />
+        <state relative-caret-position="246">
+          <caret line="7209" column="12" lean-forward="false" selection-start-line="7209" selection-start-column="1" selection-end-line="7209" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallery-grid/css/style.css">
+    <entry file="file://$PROJECT_DIR$/carousel-slick-left-space/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="73" column="3" lean-forward="false" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
+        <state relative-caret-position="386">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="108" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carousel-slick-left-space/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slick-timeline/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slick-timeline/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="594" column="6" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="594" selection-end-column="6" />
+          <folding>
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slick-timeline/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="236" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
           <folding />
         </state>
       </provider>
