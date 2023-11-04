@@ -1,7 +1,7 @@
 (function ($) {
   $(function () {
 
-    /* professional carousel */
+
     $('.js-carousel').slick({
       infinite: true,
       autoplay: true,
@@ -25,7 +25,7 @@
           }
         }]
     });
-    /* /professional carousel */
+
 
   });
 })(jQuery);

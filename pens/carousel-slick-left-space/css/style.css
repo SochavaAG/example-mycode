@@ -1,0 +1,353 @@
+body {
+  background-color: #F4F4F4;
+}
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+
+.ag-lesson-block {
+  padding: 50px 0;
+
+  overflow-x: hidden;
+}
+.ag-lesson_box {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  padding: 0 0 80px;
+}
+.ag-lesson_title {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+
+  line-height: .91;
+
+  font-weight: 700;
+  font-size: 60px;
+  margin: 0 230px 0 0;
+
+  color: #041C2C;
+}
+.ag-lesson_text {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 440px;
+  flex: 0 0 440px;
+
+  line-height: 1.32;
+  padding: 0 30px 0 0;
+
+  font-size: 18px;
+  color: #6D6D6D;
+}
+
+/* carousel */
+.ag-carousel-arrow_box {
+  white-space: nowrap;
+}
+
+.ag-carousel_box {
+  margin: 0 -6% 0 calc(50% - 571px);
+
+  position: relative;
+}
+
+.ag-carousel-arrow {
+  display: inline-block;
+  height: 52px;
+  width: 52px;
+  border: 1px solid #041C2C;
+  background-color: #041C2C;
+
+  cursor: pointer;
+
+  stroke: #FFF;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-transition: all .2s ease-out 0s;
+  -moz-transition: all .2s ease-out 0s;
+  -o-transition: all .2s ease-out 0s;
+  transition: all .2s ease-out 0s;
+
+  position: relative;
+}
+.ag-carousel-arrow:hover {
+  border: 1px solid #041C2C;
+  background-color: transparent;
+}
+.js-ag-carousel-arrow_prev {
+  margin: 0 12px 0 0;
+}
+.js-ag-carousel-arrow_prev:hover,
+.js-ag-carousel-arrow_next:hover {
+  stroke: #041C2C;
+}
+.svg-arrow-left,
+.svg-arrow-right {
+  height: 18px;
+  width: 10px;
+  margin: -8px 0 0 -5px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.ag-carousel_item {
+  padding: 0 28px 0 0;
+}
+
+.ag-carousel_video {
+  position: relative;
+}
+.ag-video_frame__carousel {
+  -webkit-border-radius: 20px 20px 0 0;
+  -moz-border-radius: 20px 20px 0 0;
+  border-radius: 20px 20px 0 0;
+}
+.ag-video_frame-16x9 {
+  display: block;
+  height: 0;
+  padding: 0 0 56.25%;
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/carousel-slick-left-space/images/youtube-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+
+  cursor: pointer;
+
+  object-fit: cover;
+
+  overflow: hidden;
+
+  position: relative;
+}
+.ag-video_frame-16x9:before {
+  content: "";
+  background-color: rgba(0,0,0,.4);
+
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.ag-video_frame-16x9 iframe {
+  height: 100%;
+  width: 100%;
+  border: 0;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.ag-video_btn-play {
+  height: 60px;
+  width: 60px;
+  margin: -30px auto 0;
+  background-color: #041C2C;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+.svg-play {
+  height: 21px;
+  width: 19px;
+  margin: -10px 0 0 -8px;
+
+  fill: #FFF;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.ag-video_btn-play:hover {
+  background-color: #1646D0;
+}
+
+.ag-carousel_info {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+  min-height: 235px;
+  padding: 30px;
+  border: 1px solid #DADADA;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-border-radius: 0 0 20px 20px;
+  -moz-border-radius: 0 0 20px 20px;
+  border-radius: 0 0 20px 20px;
+}
+.ag-carousel_review {
+  line-height: 1.36;
+  margin: 0 0 10px;
+
+  font-size: 18px;
+  color: #ACB3B8;
+}
+.ag-carousel_name {
+  font-weight: 700;
+  font-size: 25px;
+  color: #041C2C;
+}
+.ag-carousel_date {
+  line-height: 1.36;
+
+  text-align: right;
+  font-size: 18px;
+  color: #7C8890;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 90%;
+  }
+
+  .ag-lesson-block {
+    padding: 80px 0;
+  }
+  .ag-lesson_box {
+    display: block;
+    padding: 0 0 40px;
+  }
+  .ag-lesson_title {
+    margin: 0 0 40px;
+
+    font-size: 40px;
+  }
+  .ag-lesson_text {
+    padding: 0 0 40px;
+  }
+
+  .ag-carousel_box {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .ag-carousel_list {
+    margin: 0;
+  }
+  .ag-carousel_item {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  .ag-lesson_box {
+    padding: 0 0 27px;
+  }
+  .ag-lesson_title {
+    margin: 0 0 30px;
+
+    font-size: 30px;
+  }
+  .ag-lesson_text {
+    font-size: 16px;
+  }
+
+  .ag-carousel_info {
+    padding: 30px 20px;
+  }
+  .ag-carousel_review {
+    font-size: 16px;
+  }
+  .ag-carousel_name {
+    font-size: 25px;
+  }
+  .ag-carousel_date {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .ag-carousel_review {
+    font-size: 14px;
+  }
+  .ag-carousel_name {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+  .ag-lesson_box {
+    display: block;
+    padding: 0 0 40px;
+  }
+  .ag-lesson_title {
+    margin: 0 0 40px;
+  }
+  .ag-lesson_text {
+    padding: 0 0 40px;
+  }
+
+  .ag-carousel_box {
+    width: 750px;
+    margin: 0 auto;
+  }
+  .ag-carousel_list {
+    margin: 0 -26px 0 0;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+  .ag-lesson_title {
+    margin: 0 100px 0 0;
+  }
+  .ag-lesson_text {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 313px;
+    flex: 0 0 313px;
+  }
+
+  .ag-carousel_box {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .ag-carousel_list {
+    margin: 0 -26px 0 0;
+  }
+}
