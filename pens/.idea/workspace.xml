@@ -21,18 +21,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/menu-right-column/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="92" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="92" />
+            <state relative-caret-position="184">
+              <caret line="66" column="43" lean-forward="false" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/menu-right-column/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="333">
+              <caret line="655" column="14" lean-forward="true" selection-start-line="655" selection-start-column="14" selection-end-line="655" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -48,12 +48,77 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="lay.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example-site-2/www.sitemanager.io/plugins/lay/lay.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pagecomps.js" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example-site-2/www.sitemanager.io/plugins/pagecomps/pagecomps.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1580">
+              <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/menu-right-column/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lay.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example-site-2/www.sitemanager.io/plugins/lay/lay.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="888" column="0" lean-forward="true" selection-start-line="888" selection-start-column="0" selection-end-line="918" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="font-awesome.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/example-site-2/www.sitemanager.io/css/font-awesome.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="10" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="360">
+              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sitemanager-icons.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/example-site-2/www.sitemanager.io/css/sitemanager-icons.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="234" column="1" lean-forward="true" selection-start-line="232" selection-start-column="0" selection-end-line="234" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/portfolio/eximer/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="594" column="27" lean-forward="true" selection-start-line="591" selection-start-column="2" selection-end-line="594" selection-end-column="27" />
+              <folding>
+                <element signature="e#195665#209398#0" expanded="false" />
+                <element signature="e#209400#211768#0" expanded="false" />
+                <element signature="e#211770#211952#0" expanded="false" />
+                <element signature="e#217681#221013#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,68 +127,68 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.ag-lesson_text</find>
-      <find>ag-lesson-carousel-arrow_box</find>
-      <find>client</find>
-      <find>lesson</find>
-      <find>041C2C</find>
-      <find>-client</find>
-      <find>video_defaut_on</find>
-      <find>/TM7Ohx9p-3c</find>
-      <find>video-item-voice</find>
-      <find>.btn-stop</find>
-      <find>video</find>
-      <find>ag-photo-gallery</find>
-      <find>gallery</find>
-      <find>&quot;gallery</find>
-      <find>img-</find>
-      <find>.ag-photo-gallery</find>
-      <find>video-phone_min2.mp4</find>
-      <find>time</find>
-      <find>timel</find>
-      <find>ag-timeline</find>
-      <find>js-ag-carousel-arrow_</find>
-      <find>lesson-carousel</find>
-      <find>ag-timeline-carousel-arrow</find>
-      <find>ag-carousel-arrow</find>
-      <find>mini</find>
-      <find>::</find>
-      <find>#s-action-bar92</find>
       <find>is-active</find>
-      <find>font</find>
-      <find>s-</find>
+      <find>align-items-center</find>
+      <find>s-right-panel</find>
+      <find>flex-column</find>
+      <find>#ag-main_nav</find>
+      <find>js-ag-main_nav</find>
+      <find>ag-main_nav</find>
+      <find>.nav</find>
+      <find>.nav</find>
+      <find>nav-item</find>
+      <find>ag-nav_item</find>
+      <find>cd-is-visible</find>
+      <find>s-action-bar92</find>
+      <find>is-visible</find>
+      <find>nav-link</find>
+      <find>ag-sub-nav_list</find>
+      <find>s-main-sub</find>
+      <find>s-icon-tablet2</find>
+      <find>s-icon-web_design</find>
+      <find>s-icon-binary</find>
+      <find>s-main-link</find>
+      <find>s-icon-IoT</find>
+      <find>s-sub-nav</find>
+      <find>s-sub-link</find>
+      <find>#s-main-nav92 .nav .s-sub-link</find>
+      <find>200</find>
+      <find>s-main-link</find>
+      <find>s-sub-title</find>
+      <find>.ag-nav_list</find>
+      <find>s-icon-</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-filter-cat_content-bg</replace>
-      <replace>ag-filter-cat_</replace>
-      <replace>ag-filter-cat_content</replace>
-      <replace>&quot;&gt;</replace>
-      <replace>ag-filter-cat_toggle</replace>
-      <replace>js-ag-filter-cat_content</replace>
-      <replace>ag-filter-cat-tab_list</replace>
-      <replace>js-ag-filter-cat-tab_item</replace>
-      <replace>js-ag-filter-cat_box</replace>
-      <replace>js-ag-filter-cat_item</replace>
-      <replace>ag-filter-cat-block</replace>
-      <replace>ag-filter-cat-toggle_btn</replace>
-      <replace>js-ag-filter-cat-toggle_name</replace>
-      <replace>--blue</replace>
-      <replace>js-filter-cat-toggle_btn</replace>
-      <replace>pe-icon</replace>
-      <replace>js-ag-filter-cat-toggle_icon</replace>
-      <replace>var(--color)</replace>
-      <replace>&lt;div class=&quot;js-ag-filter-cat_item ag-grid_item</replace>
-      <replace>Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus</replace>
-      <replace>ag-carousel-arrow_box</replace>
-      <replace>lesson</replace>
-      <replace>img-1098x549-</replace>
-      <replace>js-ag-timeline-carousel-arrow_</replace>
-      <replace>000</replace>
       <replace>carousel</replace>
       <replace>ag-carousel-arrow</replace>
       <replace>:</replace>
-      <replace>ag-</replace>
       <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_fonts/fontawesome-4.7.0/</replace>
+      <replace>ag-menu_btn</replace>
+      <replace>.js-ag-menu_btn</replace>
+      <replace>ag-menu_bar</replace>
+      <replace>js-ag-active</replace>
+      <replace>ag-content_backdrop</replace>
+      <replace>#ag-main_nav</replace>
+      <replace>js-ag-content_backdrop</replace>
+      <replace>.js-ag-content_backdrop</replace>
+      <replace>js-ag-panel_open</replace>
+      <replace>.ag-content-block</replace>
+      <replace>.js-ag-main_nav</replace>
+      <replace>ag-</replace>
+      <replace>.ag-nav_list</replace>
+      <replace>js-ag-nav_nav</replace>
+      <replace>ag-nav_item</replace>
+      <replace>&lt;a href=&quot;#&quot; class=&quot;ag-nav_link s-main-link&quot; target=&quot;_self&quot;&gt;</replace>
+      <replace>ag-nav_link</replace>
+      <replace>js-ag-nav_item</replace>
+      <replace>ag-sub-nav_list</replace>
+      <replace>js-ag-sub-nav_list</replace>
+      <replace>ag-sub-nav_link</replace>
+      <replace>ag-menu_line</replace>
+      <replace>ag-sub-nav_title</replace>
+      <replace>js-ag-nav_sub-link</replace>
+      <replace>ag-sub-nav_icon-</replace>
+      <replace>ag-icon-</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -156,8 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-HI.html" />
-        <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-KO.html" />
         <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-MS.html" />
         <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-PK.html" />
         <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-PT.html" />
@@ -205,8 +268,10 @@
         <option value="$PROJECT_DIR$/slick-timeline/index.html" />
         <option value="$PROJECT_DIR$/slick-timeline/css/style.css" />
         <option value="$USER_HOME$/example-site-2/rusvpn.com_en_install/index.html" />
+        <option value="$USER_HOME$/example-site-2/www.sitemanager.io/plugins/lay/lay.js" />
         <option value="$PROJECT_DIR$/menu-right-column/index.html" />
         <option value="$PROJECT_DIR$/menu-right-column/css/style.css" />
+        <option value="$PROJECT_DIR$/menu-right-column/js/main.js" />
       </list>
     </option>
   </component>
@@ -480,12 +545,12 @@
       <workItem from="1697386902125" duration="8623000" />
       <workItem from="1697405150561" duration="792000" />
       <workItem from="1699098861579" duration="8779000" />
-      <workItem from="1699211140328" duration="2316000" />
+      <workItem from="1699211140328" duration="14484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1271925000" />
+    <option name="totallyTimeSpent" value="1284093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="985" extended-state="6" />
@@ -530,48 +595,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/slider-portfolio/js/_app-8b6ed6a16b24d590.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13640">
-          <caret line="682" column="8" lean-forward="false" selection-start-line="682" selection-start-column="8" selection-end-line="682" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="10" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="28" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tabs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="51" column="108" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tabs/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2920">
-          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slider-portfolio/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slick-slider-vertical/css/style-1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4280">
-          <caret line="214" column="35" lean-forward="true" selection-start-line="214" selection-start-column="35" selection-end-line="214" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/menu/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
@@ -869,6 +892,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/example-site-2/www.sitemanager.io/plugins/lay/lay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site-2/www.sitemanager.io/plugins/pagecomps/pagecomps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1580">
+          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/example-site-2/www.sitemanager.io/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -877,26 +916,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/example-site-2/www.sitemanager.io/css/sitemanager-icons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="234" column="1" lean-forward="true" selection-start-line="232" selection-start-column="0" selection-end-line="234" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/example-site-2/www.sitemanager.io/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="10" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="360">
+          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site-2/www.sitemanager.io/plugins/lay/lay.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="888" column="0" lean-forward="true" selection-start-line="888" selection-start-column="0" selection-end-line="918" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/portfolio/eximer/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="594" column="27" lean-forward="true" selection-start-line="591" selection-start-column="2" selection-end-line="594" selection-end-column="27" />
+          <folding>
+            <element signature="e#195665#209398#0" expanded="false" />
+            <element signature="e#209400#211768#0" expanded="false" />
+            <element signature="e#211770#211952#0" expanded="false" />
+            <element signature="e#217681#221013#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/menu-right-column/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="92" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="92" />
+        <state relative-caret-position="184">
+          <caret line="66" column="43" lean-forward="false" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/menu-right-column/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="333">
+          <caret line="655" column="14" lean-forward="true" selection-start-line="655" selection-start-column="14" selection-end-line="655" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu-right-column/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
           <folding />
         </state>
       </provider>

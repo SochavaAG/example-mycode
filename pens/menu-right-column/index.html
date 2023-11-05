@@ -34,66 +34,78 @@
     </div>
 
     <div class="ag-action-item">
-      <button class="ag-menu-btn" type="button">
-        <span class="ag-icon-box iag-active">
-          <span class="ag-icon-line"></span>
+      <button class="js-ag-menu_btn" type="button">
+        <span class="ag-menu_bar">
+          <span class="ag-menu_line"></span>
         </span>
       </button>
     </div>
   </header>
 
-  <nav id="s-main-nav92" class="s-right-panel align-items-center is-active">
-    <ul class="nav flex-column">
-      <li class="nav-item">
-        <a class="nav-link s-main-link s-main-sub" href="javascript:void(0)">
+  <nav class="js-ag-nav_nav">
+    <ul class="ag-nav_list">
+      <li class="js-ag-nav_item">
+        <a href="#" class="ag-nav_link" target="_self">
           Product
         </a>
+      </li>
 
-        <ul class="s-sub-nav">
+      <li class="js-ag-nav_item">
+        <a href="#" class="ag-nav_link" target="_self">
+          Pricing
+        </a>
+      </li>
+
+      <li class="js-ag-nav_item">
+        <a href="javascript:void(0)" class="ag-nav_link js-ag-nav_sub-link">
+          Services
+        </a>
+
+        <ul class="js-ag-sub-nav_list">
           <li class="s-sub-item">
-            <a class="s-sub-link" href="#" target="_self">
-              <i class="fa s-icon-tablet2"></i>
-              <div class="s-sub-title">Visual CMS</div>
+            <a href="#" class="ag-sub-nav_link" target="_self">
+              <i class="ag-sub-nav_icon ag-icon-tablet2"></i>
+
+              <div class="ag-sub-nav_title">Visual CMS</div>
             </a>
           </li>
 
           <li class="s-sub-item">
-            <a class="s-sub-link" href="#" target="_self">
-              <i class="fa s-icon-web_design"></i>
-              <div class="s-sub-title">Design Editor</div>
+            <a href="#" class="ag-sub-nav_link" target="_self">
+              <i class="ag-sub-nav_icon ag-icon-web_design"></i>
+
+              <div class="ag-sub-nav_title">Design Editor</div>
             </a>
           </li>
 
           <li class="s-sub-item">
-            <a class="s-sub-link" href="#" target="_self">
-              <i class="fa s-icon-binary"></i>
-              <div class="s-sub-title">Developer</div>
+            <a href="#" class="ag-sub-nav_link" target="_self">
+              <i class="ag-sub-nav_icon ag-icon-binary"></i>
+
+              <div class="ag-sub-nav_title">Developer</div>
             </a>
           </li>
 
           <li class="s-sub-item">
-            <a class="s-sub-link" href="#" target="_self">
-              <i class="fa s-icon-IoT"></i>
-              <div class="s-sub-title">Projects</div>
+            <a href="#" class="ag-sub-nav_link" target="_self">
+              <i class="ag-sub-nav_icon ag-icon-IoT"></i>
+
+              <div class="ag-sub-nav_title">Projects</div>
             </a>
           </li>
         </ul>
       </li>
 
-      <li class="nav-item">
-        <a class="nav-link s-main-link" href="#" target="_self">Pricing</a>
+      <li class="js-ag-nav_item">
+        <a href="#" class="ag-nav_link" target="_self">
+          Showcase
+        </a>
       </li>
 
-      <li class="nav-item">
-        <a class="nav-link s-main-link" href="#" target="_self">Services</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link s-main-link" href="#" target="_self">Showcase</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link s-main-link" href="#" target="_self">Blog</a>
+      <li class="js-ag-nav_item">
+        <a href="#" class="ag-nav_link" target="_self">
+          Blog
+        </a>
       </li>
     </ul>
   </nav>
@@ -118,6 +130,8 @@
     </main>
   </div>
 </div>
+
+<div class="js-ag-content_backdrop"></div>
 
 <!--[if lt IE 9]>
 <script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/html5shiv/es5-shim.min.js"></script>
