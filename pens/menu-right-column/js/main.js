@@ -1,6 +1,6 @@
 (function ($) {
   $(function () {
-    
+
 
     var scrollX,
         scrollY,

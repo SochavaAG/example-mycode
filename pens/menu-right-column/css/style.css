@@ -23,10 +23,10 @@ body {
 
 @font-face {
   font-family: SiteManager-Icons;
-  src:  url(../fonts/SiteManager/SiteManager-Icons.eot);
-  src:  url(../fonts/SiteManager/SiteManager-Icons.eot) format('embedded-opentype'),
-  url(../fonts/SiteManager/SiteManager-Icons.ttf) format('truetype'),
-  url(../fonts/SiteManager/SiteManager-Icons.woff) format('woff');
+  src:  url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/menu-right-column/fonts/SiteManager/SiteManager-Icons.eot);
+  src:  url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/menu-right-column/fonts/SiteManager/SiteManager-Icons.eot) format('embedded-opentype'),
+  url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/menu-right-column/fonts/SiteManager/SiteManager-Icons.ttf) format('truetype'),
+  url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/menu-right-column/fonts/SiteManager/SiteManager-Icons.woff) format('woff');
   font-weight: normal;
   font-style: normal;
 }

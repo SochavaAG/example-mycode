@@ -21,18 +21,20 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/menu-right-column/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="66" column="43" lean-forward="false" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
-              <folding />
+            <state relative-caret-position="77">
+              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="26" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/menu-right-column/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="655" column="14" lean-forward="true" selection-start-line="655" selection-start-column="14" selection-end-line="655" selection-end-column="14" />
+            <state relative-caret-position="440">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="720" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -68,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/menu-right-column/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="220">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="119" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -127,7 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>is-active</find>
       <find>align-items-center</find>
       <find>s-right-panel</find>
       <find>flex-column</find>
@@ -153,13 +154,13 @@
       <find>s-sub-link</find>
       <find>#s-main-nav92 .nav .s-sub-link</find>
       <find>200</find>
-      <find>s-main-link</find>
       <find>s-sub-title</find>
       <find>.ag-nav_list</find>
       <find>s-icon-</find>
+      <find>s-main-link</find>
+      <find>s-sub-item</find>
     </findStrings>
     <replaceStrings>
-      <replace>carousel</replace>
       <replace>ag-carousel-arrow</replace>
       <replace>:</replace>
       <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_fonts/fontawesome-4.7.0/</replace>
@@ -186,9 +187,10 @@
       <replace>ag-sub-nav_link</replace>
       <replace>ag-menu_line</replace>
       <replace>ag-sub-nav_title</replace>
-      <replace>js-ag-nav_sub-link</replace>
       <replace>ag-sub-nav_icon-</replace>
       <replace>ag-icon-</replace>
+      <replace>js-ag-nav_sub-link</replace>
+      <replace>ag-sub-nav_item</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -269,9 +271,9 @@
         <option value="$PROJECT_DIR$/slick-timeline/css/style.css" />
         <option value="$USER_HOME$/example-site-2/rusvpn.com_en_install/index.html" />
         <option value="$USER_HOME$/example-site-2/www.sitemanager.io/plugins/lay/lay.js" />
+        <option value="$PROJECT_DIR$/menu-right-column/js/main.js" />
         <option value="$PROJECT_DIR$/menu-right-column/index.html" />
         <option value="$PROJECT_DIR$/menu-right-column/css/style.css" />
-        <option value="$PROJECT_DIR$/menu-right-column/js/main.js" />
       </list>
     </option>
   </component>
@@ -545,12 +547,12 @@
       <workItem from="1697386902125" duration="8623000" />
       <workItem from="1697405150561" duration="792000" />
       <workItem from="1699098861579" duration="8779000" />
-      <workItem from="1699211140328" duration="14484000" />
+      <workItem from="1699211140328" duration="14854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1284093000" />
+    <option name="totallyTimeSpent" value="1284463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="985" extended-state="6" />
@@ -953,26 +955,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/menu-right-column/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="119" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/menu-right-column/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="66" column="43" lean-forward="false" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="77">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/menu-right-column/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="655" column="14" lean-forward="true" selection-start-line="655" selection-start-column="14" selection-end-line="655" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu-right-column/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="440">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="720" selection-end-column="1" />
           <folding />
         </state>
       </provider>
