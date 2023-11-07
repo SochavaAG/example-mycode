@@ -33,7 +33,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/menu-right-column/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
+            <state relative-caret-position="440">
               <caret line="22" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="720" selection-end-column="1" />
               <folding />
             </state>
@@ -125,21 +125,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/buttons/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="25" column="61" lean-forward="false" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+            <state relative-caret-position="616">
+              <caret line="824" column="103" lean-forward="false" selection-start-line="824" selection-start-column="13" selection-end-line="824" selection-end-column="103" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10225" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buttons/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="844">
-              <caret line="10194" column="30" lean-forward="false" selection-start-line="10194" selection-start-column="30" selection-end-line="10194" selection-end-column="30" />
+            <state relative-caret-position="2500">
+              <caret line="125" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="136" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -149,27 +161,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>s-right-panel</find>
-      <find>flex-column</find>
-      <find>#ag-main_nav</find>
-      <find>js-ag-main_nav</find>
-      <find>ag-main_nav</find>
-      <find>.nav</find>
-      <find>nav-item</find>
-      <find>ag-nav_item</find>
-      <find>cd-is-visible</find>
-      <find>s-action-bar92</find>
-      <find>is-visible</find>
-      <find>nav-link</find>
-      <find>ag-sub-nav_list</find>
-      <find>s-main-sub</find>
-      <find>s-icon-tablet2</find>
-      <find>s-icon-web_design</find>
-      <find>s-icon-binary</find>
-      <find>s-main-link</find>
-      <find>s-icon-IoT</find>
-      <find>s-sub-nav</find>
-      <find>s-sub-link</find>
       <find>#s-main-nav92 .nav .s-sub-link</find>
       <find>200</find>
       <find>s-sub-title</find>
@@ -179,21 +170,29 @@
       <find>tilt</find>
       <find>.btn</find>
       <find>js</find>
+      <find>.citrus-club</find>
+      <find>.club-compare__table--mobile .table__body .item</find>
+      <find>step</find>
+      <find>.club-compare__table--mobile .table__body</find>
+      <find>item__title</find>
+      <find>item__description</find>
+      <find>table__header</find>
+      <find>club-compare__table--mobile</find>
+      <find>item</find>
+      <find>&lt;div class=&quot;item&quot;&gt;</find>
+      <find>mobile</find>
+      <find>&lt;span class=&quot;item&quot;&gt;</find>
+      <find>.ag-table_descr</find>
+      <find>.ag-table-header_item</find>
+      <find>#DDD</find>
+      <find>icon-check-mark</find>
+      <find>p</find>
+      <find>грн</find>
+      <find>font-w</find>
+      <find>.ag-table-body_item</find>
+      <find>дол/год</find>
     </findStrings>
     <replaceStrings>
-      <replace>ag-carousel-arrow</replace>
-      <replace>:</replace>
-      <replace>https://raw.githack.com/SochavaAG/example-mycode/master/pens/0_fonts/fontawesome-4.7.0/</replace>
-      <replace>ag-menu_btn</replace>
-      <replace>.js-ag-menu_btn</replace>
-      <replace>ag-menu_bar</replace>
-      <replace>js-ag-active</replace>
-      <replace>ag-content_backdrop</replace>
-      <replace>#ag-main_nav</replace>
-      <replace>js-ag-content_backdrop</replace>
-      <replace>.js-ag-content_backdrop</replace>
-      <replace>js-ag-panel_open</replace>
-      <replace>.ag-content-block</replace>
       <replace>.js-ag-main_nav</replace>
       <replace>ag-</replace>
       <replace>.ag-nav_list</replace>
@@ -211,6 +210,19 @@
       <replace>ag-icon-</replace>
       <replace>js-ag-nav_sub-link</replace>
       <replace>ag-sub-nav_item</replace>
+      <replace>.ag-table_body</replace>
+      <replace>ag-table_title</replace>
+      <replace>ag-table_descr</replace>
+      <replace>ag-table_header</replace>
+      <replace>ag-table-body_item</replace>
+      <replace>&lt;div class=&quot;ag-table-body_item&quot;&gt;</replace>
+      <replace>&lt;span class=&quot;ag-table-body_info&quot;&gt;</replace>
+      <replace>ag-table_box</replace>
+      <replace>rgba(0,0,0,.11)</replace>
+      <replace>ag-icon_check</replace>
+      <replace>div</replace>
+      <replace>дол</replace>
+      <replace>$/year</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -243,8 +255,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-PK.html" />
-        <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-PT.html" />
         <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-RU.html" />
         <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-TH.html" />
         <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-TR.html" />
@@ -294,6 +304,8 @@
         <option value="$PROJECT_DIR$/buttons/js/main.js" />
         <option value="$PROJECT_DIR$/buttons/index.html" />
         <option value="$PROJECT_DIR$/buttons/css/style.css" />
+        <option value="$PROJECT_DIR$/table-responsive/index.html" />
+        <option value="$PROJECT_DIR$/table-responsive/css/style.css" />
       </list>
     </option>
   </component>
@@ -568,12 +580,13 @@
       <workItem from="1697405150561" duration="792000" />
       <workItem from="1699098861579" duration="8779000" />
       <workItem from="1699211140328" duration="14854000" />
-      <workItem from="1699354918196" duration="5691000" />
+      <workItem from="1699354918196" duration="11017000" />
+      <workItem from="1699372238257" duration="2705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1290154000" />
+    <option name="totallyTimeSpent" value="1298185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="985" extended-state="6" />
@@ -618,14 +631,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/example-site/landingandrey.16mb.com_assets_sites_vpn_index.html/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3680">
-          <caret line="184" column="32564" lean-forward="false" selection-start-line="184" selection-start-column="32560" selection-end-line="184" selection-end-column="32564" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filter-category/css/main.css" />
     <entry file="file://$PROJECT_DIR$/filter-category/images/arrow-down.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -939,7 +944,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/menu-right-column/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
+        <state relative-caret-position="440">
           <caret line="22" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="720" selection-end-column="1" />
           <folding />
         </state>
@@ -949,7 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-843">
           <caret line="3140" column="35" lean-forward="false" selection-start-line="3140" selection-start-column="35" selection-end-line="3140" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -957,15 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="289" column="84" lean-forward="true" selection-start-line="289" selection-start-column="13" selection-end-line="289" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="133" column="18" lean-forward="false" selection-start-line="133" selection-start-column="18" selection-end-line="133" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,23 +968,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="69" column="2" lean-forward="true" selection-start-line="69" selection-start-column="2" selection-end-line="72" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="25" column="61" lean-forward="false" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="844">
-          <caret line="10194" column="30" lean-forward="false" selection-start-line="10194" selection-start-column="30" selection-end-line="10194" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10225" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2500">
+          <caret line="125" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="136" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table-responsive/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="91" column="17" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table-responsive/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="146" selection-end-column="8" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="824" column="103" lean-forward="false" selection-start-line="824" selection-start-column="13" selection-end-line="824" selection-end-column="103" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
