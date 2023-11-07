@@ -125,51 +125,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="806" column="103" lean-forward="false" selection-start-line="806" selection-start-column="103" selection-end-line="806" selection-end-column="103" />
+            <state relative-caret-position="380">
+              <caret line="25" column="61" lean-forward="false" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="10091" column="24" lean-forward="false" selection-start-line="10091" selection-start-column="24" selection-end-line="10091" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/example-site-2/talear.com/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="libs.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/example-site-2/talear.com/js/libs.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-843">
-              <caret line="3140" column="35" lean-forward="false" selection-start-line="3140" selection-start-column="35" selection-end-line="3140" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/carousel-slick-left-space/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="289" column="84" lean-forward="true" selection-start-line="289" selection-start-column="13" selection-end-line="289" selection-end-column="84" />
+            <state relative-caret-position="844">
+              <caret line="10194" column="30" lean-forward="false" selection-start-line="10194" selection-start-column="30" selection-end-line="10194" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -179,7 +149,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>align-items-center</find>
       <find>s-right-panel</find>
       <find>flex-column</find>
       <find>#ag-main_nav</find>
@@ -209,6 +178,7 @@
       <find>s-sub-item</find>
       <find>tilt</find>
       <find>.btn</find>
+      <find>js</find>
     </findStrings>
     <replaceStrings>
       <replace>ag-carousel-arrow</replace>
@@ -273,7 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-MS.html" />
         <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-PK.html" />
         <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-PT.html" />
         <option value="$USER_HOME$/vazhno_project-2022/2022.01.21_pip_point/2022.02.02_30-welcome-bonus/30-welcome-bonus-RU.html" />
@@ -322,8 +291,9 @@
         <option value="$PROJECT_DIR$/menu-right-column/js/main.js" />
         <option value="$PROJECT_DIR$/menu-right-column/index.html" />
         <option value="$PROJECT_DIR$/menu-right-column/css/style.css" />
-        <option value="$PROJECT_DIR$/buttons/css/style.css" />
+        <option value="$PROJECT_DIR$/buttons/js/main.js" />
         <option value="$PROJECT_DIR$/buttons/index.html" />
+        <option value="$PROJECT_DIR$/buttons/css/style.css" />
       </list>
     </option>
   </component>
@@ -598,12 +568,12 @@
       <workItem from="1697405150561" duration="792000" />
       <workItem from="1699098861579" duration="8779000" />
       <workItem from="1699211140328" duration="14854000" />
-      <workItem from="1699354918196" duration="4425000" />
+      <workItem from="1699354918196" duration="5691000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1288888000" />
+    <option name="totallyTimeSpent" value="1290154000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="985" extended-state="6" />
@@ -648,7 +618,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/filter-category/css/pe-icon-7-stroke.css" />
     <entry file="file://$USER_HOME$/example-site/landingandrey.16mb.com_assets_sites_vpn_index.html/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3680">
@@ -984,34 +953,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/example-site-2/talear.com/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="10091" column="24" lean-forward="false" selection-start-line="10091" selection-start-column="24" selection-end-line="10091" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/carousel-slick-left-space/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
+        <state relative-caret-position="616">
           <caret line="289" column="84" lean-forward="true" selection-start-line="289" selection-start-column="13" selection-end-line="289" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="133" column="18" lean-forward="false" selection-start-line="133" selection-start-column="18" selection-end-line="133" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/example-site-2/talear.com/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="69" column="2" lean-forward="true" selection-start-line="69" selection-start-column="2" selection-end-line="72" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buttons/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="806" column="103" lean-forward="false" selection-start-line="806" selection-start-column="103" selection-end-line="806" selection-end-column="103" />
+        <state relative-caret-position="380">
+          <caret line="25" column="61" lean-forward="false" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="844">
+          <caret line="10194" column="30" lean-forward="false" selection-start-line="10194" selection-start-column="30" selection-end-line="10194" selection-end-column="30" />
           <folding />
         </state>
       </provider>

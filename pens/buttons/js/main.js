@@ -126,5 +126,12 @@
     });
     /* /button 142 */
 
+    /* button 153 */
+    var tilt = $('.js-base_btn-v153');
+    tilt.tilt({
+      scale: 1.05
+    });
+    /* /button 153 */
+
   });
 })(jQuery);
