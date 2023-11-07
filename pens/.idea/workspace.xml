@@ -128,8 +128,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/buttons/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="824" column="103" lean-forward="false" selection-start-line="824" selection-start-column="13" selection-end-line="824" selection-end-column="103" />
+            <state relative-caret-position="416">
+              <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="820" selection-end-column="8" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -140,8 +140,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10225" selection-end-column="1" />
+            <state relative-caret-position="516">
+              <caret line="10244" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10277" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -302,10 +302,10 @@
         <option value="$PROJECT_DIR$/menu-right-column/index.html" />
         <option value="$PROJECT_DIR$/menu-right-column/css/style.css" />
         <option value="$PROJECT_DIR$/buttons/js/main.js" />
-        <option value="$PROJECT_DIR$/buttons/index.html" />
-        <option value="$PROJECT_DIR$/buttons/css/style.css" />
         <option value="$PROJECT_DIR$/table-responsive/index.html" />
         <option value="$PROJECT_DIR$/table-responsive/css/style.css" />
+        <option value="$PROJECT_DIR$/buttons/index.html" />
+        <option value="$PROJECT_DIR$/buttons/css/style.css" />
       </list>
     </option>
   </component>
@@ -581,12 +581,12 @@
       <workItem from="1699098861579" duration="8779000" />
       <workItem from="1699211140328" duration="14854000" />
       <workItem from="1699354918196" duration="11017000" />
-      <workItem from="1699372238257" duration="2705000" />
+      <workItem from="1699372238257" duration="3261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1298185000" />
+    <option name="totallyTimeSpent" value="1298741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="985" extended-state="6" />
@@ -971,14 +971,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10225" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/buttons/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2500">
@@ -1005,10 +997,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/buttons/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="10244" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10277" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/buttons/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="824" column="103" lean-forward="false" selection-start-line="824" selection-start-column="13" selection-end-line="824" selection-end-column="103" />
+        <state relative-caret-position="416">
+          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="820" selection-end-column="8" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
