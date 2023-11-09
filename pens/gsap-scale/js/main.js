@@ -6,7 +6,7 @@
 
 
     TweenMax.set(agDesktop, {scale: 2.5, y: 0});
-    TweenMax.set($('#main-scene > div:nth-child(1), #page'), {scale: 1, y: 0});
+    TweenMax.set(agFrame, {scale: 1, y: 0});
 
     var mousewheelevt = (/Firefox/i.test(navigator.userAgent)) ? "DOMMouseScroll" : "mousewheel"; //FF doesn't recognize mousewheel as of FF3.x
 
