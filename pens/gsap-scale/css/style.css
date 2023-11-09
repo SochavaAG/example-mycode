@@ -46,7 +46,7 @@ body {
 .js-ag-main_img {
   height: 100vh;
   width: 100%;
-  background: url(../images/bg.jpg) 50% -150px / 1920px no-repeat scroll;
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/gsap-scale/images/bg.jpg) 50% -150px / 1920px no-repeat scroll;
 }
 
 .ag-frame {
@@ -117,7 +117,7 @@ body {
   content: "";
   height: 160px;
   width: 100%;
-  background: url(../images/cardboard-flat.png) repeat #939393;
+  background: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/gsap-scale/images/cardboard-flat.png) repeat #939393;
 
   -webkit-border-radius: 0 0 50px 50px;
   -moz-border-radius: 0 0 50px 50px;
