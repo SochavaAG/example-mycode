@@ -37,8 +37,6 @@
       }
     });
 
-
-
     $('.js-pdf-tab_link').on('click', function () {
       var thisHref = $(this).attr('href');
       $(this).closest('.js-ag-pdf_box').find('.js-pdf-tab_link').removeClass('js-ag-pdf-tab_link__active');
