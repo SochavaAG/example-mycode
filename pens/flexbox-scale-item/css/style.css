@@ -329,23 +329,24 @@ body {
   }
 }
 
+@media only screen and (max-width: 979px) {
+  .ag-work_item {
+    width: calc(50% - 5px);
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .ag-format-container {
     width: 96%;
   }
 
-  .ag-work_item {
-    width: calc(50% - 5px);
-  }
-  .ag-download_text {
-    width: calc(100% - 40px);
-  }
-  .ag-download_btn {
-    margin: -35px 20px 50px;
-  }
 }
 
 @media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 539px) {
   .ag-work_item {
     width: calc(100% - 5px);
   }
