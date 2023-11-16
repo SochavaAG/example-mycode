@@ -92,7 +92,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-hover-item-scale/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
+            <state relative-caret-position="4280">
               <caret line="214" column="24" lean-forward="false" selection-start-line="214" selection-start-column="24" selection-end-line="214" selection-end-column="24" />
               <folding>
                 <element signature="e#368#1031#2" expanded="true" />
@@ -125,17 +125,37 @@
         <entry file="file://$PROJECT_DIR$/table-responsive/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/table-responsive/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="209" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flexbox-grid-card-hover-item/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/table-responsive/css/style.css">
+        <entry file="file://$PROJECT_DIR$/flexbox-grid-card-hover-item/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="209" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+            <state relative-caret-position="430">
+              <caret line="289" column="35" lean-forward="false" selection-start-line="289" selection-start-column="35" selection-end-line="289" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -145,7 +165,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>icon-check-mark</find>
       <find>p</find>
       <find>грн</find>
       <find>font-w</find>
@@ -175,6 +194,7 @@
       <find>.ag-product_info__hidden</find>
       <find>.our-products__border</find>
       <find>#ef8d53</find>
+      <find>ag-card_info</find>
     </findStrings>
     <replaceStrings>
       <replace>js-ag-faq_title</replace>
@@ -239,8 +259,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cube-rotateY-3D/index.html" />
-        <option value="$USER_HOME$/portfolio/influence/2023.10.06/js/init.js" />
         <option value="$PROJECT_DIR$/tabs/css/style.css" />
         <option value="$USER_HOME$/portfolio/influence/2023.10.06/css/main.css" />
         <option value="$USER_HOME$/portfolio/influence/2023.10.06/index.html" />
@@ -290,6 +308,8 @@
         <option value="$PROJECT_DIR$/animation-hover-item-scale/index.html" />
         <option value="$PROJECT_DIR$/animation-hover-item-scale/css/style.css" />
         <option value="$PROJECT_DIR$/table-responsive/css/style.css" />
+        <option value="$PROJECT_DIR$/flexbox-grid-card-hover-item/index.html" />
+        <option value="$PROJECT_DIR$/flexbox-grid-card-hover-item/css/style.css" />
       </list>
     </option>
   </component>
@@ -567,11 +587,12 @@
       <workItem from="1699354918196" duration="11017000" />
       <workItem from="1699372238257" duration="11387000" />
       <workItem from="1699544101559" duration="118000" />
+      <workItem from="1700162851669" duration="478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1306985000" />
+    <option name="totallyTimeSpent" value="1307463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="985" extended-state="6" />
@@ -616,20 +637,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/portfolio/eximer.ua/photo-gallery__fotogalereya.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-946">
-          <caret line="348" column="75" lean-forward="false" selection-start-line="348" selection-start-column="67" selection-end-line="348" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carousel-slick-zoom-scale/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/carousel-slick-zoom/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -967,7 +974,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/animation-hover-item-scale/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
+        <state relative-caret-position="4280">
           <caret line="214" column="24" lean-forward="false" selection-start-line="214" selection-start-column="24" selection-end-line="214" selection-end-column="24" />
           <folding>
             <element signature="e#368#1031#2" expanded="true" />
@@ -978,7 +985,7 @@
     <entry file="file://$PROJECT_DIR$/table-responsive/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -986,7 +993,23 @@
     <entry file="file://$PROJECT_DIR$/table-responsive/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="209" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+          <caret line="209" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flexbox-grid-card-hover-item/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flexbox-grid-card-hover-item/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="289" column="35" lean-forward="false" selection-start-line="289" selection-start-column="35" selection-end-line="289" selection-end-column="35" />
           <folding />
         </state>
       </provider>
