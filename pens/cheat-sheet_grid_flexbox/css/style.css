@@ -1,0 +1,137 @@
+.ag-content-block {
+  margin: 50px 0;
+}
+.ag-content_title {
+  margin: 0 0 15px;
+
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-grid_title {
+  margin: 0 0 15px;
+
+  font-weight: bold;
+  font-size: 30px;
+}
+.ag-grid_box {
+  line-height: 1.42;
+  border: 1px solid #EAEAEA;
+}
+.ag-grid_row {
+  display: grid;
+  grid-template-columns: minmax(210px, auto) minmax(150px, 1fr) minmax(140px, auto) minmax(30%, 2fr);
+  grid-auto-rows: minmax(50px, auto);
+
+  border-bottom: 1px solid #EAEAEA;
+}
+.ag-grid_row:first-child,
+.ag-grid_row:first-child .ag-grid_col:first-child {
+  font-weight: bold;
+  font-size: inherit;
+}
+.ag-grid_row:last-child {
+  border: 0 none;
+}
+.ag-grid_col {
+  padding: 5px 10px;
+  border-right: 1px solid #EAEAEA;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ag-grid_col:first-child {
+  font-weight: bold;
+  font-size: 16px;
+}
+.ag-grid_col:nth-child(4n) {
+  border: 0 none;
+}
+
+.ag-grid_text,
+.ag-grid_text-v2,
+.ag-grid_text-v3 {
+  display: inline-block;
+  padding: 2px 7px;
+  background-color: #F1F0EF;
+
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.ag-grid_text-v2 {
+  background-color: #D3E5EF;
+}
+.ag-grid_text-v3 {
+  background-color: #DBEDDB;
+}
+
+.ag-grid-note_box {
+  line-height: 1.42;
+  margin: 25px 0 50px;
+  padding: 0 0 0 15px;
+  border-left: 3px solid #37352F;
+}
+.ag-grid-note_text {
+  display: inline-block;
+
+  padding: 3px 5px;
+  background-color: #F1F0EF;
+
+  font-weight: bold;
+  color: #337EA9;
+}
+.ag-grid-note_box p {
+  margin: 0 0 5px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+  .ag-grid_box {
+    border: 0 none;
+  }
+  .ag-grid_row,
+  .ag-grid_row:last-child {
+    display: block;
+    margin: 0 0 20px;
+    border: 1px solid #EAEAEA;
+  }
+  .ag-grid_row:first-child {
+    display: none;
+  }
+  .ag-grid_col:first-child {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .ag-format-container {
+    width: 750px;
+  }
+
+}
+
+@media (min-width: 980px) and (max-width: 1161px) {
+  .ag-format-container {
+    width: 960px;
+  }
+
+}

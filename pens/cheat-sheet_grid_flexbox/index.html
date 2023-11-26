@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <title>Cheat Sheet Grid Flexbox</title>
+  <meta name="description" content="Создание адаптивного сайта" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/favicon.png" />
+
+  <link rel="stylesheet" href="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<div class="ag-content-block">
+  <div class="ag-format-container">
+    <div class="ag-content_title">
+      Cheat Sheet
+    </div>
+    <div class="ag-grid_title">
+      Grid
+    </div>
+    <div class="ag-grid_box">
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          Правило
+        </div>
+        <div class="ag-grid_col">
+          Значение
+        </div>
+        <div class="ag-grid_col">
+          Элемент
+        </div>
+        <div class="ag-grid_col">
+          Описание
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          display
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">grid | inline-grid</span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">Grid контейнер</span>
+        </div>
+        <div class="ag-grid_col">
+          Создает <b>grid</b> элемент
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          размер (fr|px|%|vw|vh)
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">repeat([число | auto-fill | auto-fit] [размер | minmax(min max)]</span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">Grid контейнер</span>
+        </div>
+        <div class="ag-grid_col">
+          Количество и размер колонок в сетке
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          размер (fr|px|%|vw|vh)
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">repeat([число | auto-fill | auto-fit] [размер | minmax(min max)]</span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">Grid контейнер</span>
+        </div>
+        <div class="ag-grid_col">
+          Количество и размер рядов в сетке
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          grid-template
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">rows / columns</span>
+        </div>
+        <div class="ag-grid_col">
+
+        </div>
+        <div class="ag-grid_col">
+          Сокращенная запись количества и размера рядов и колонок в сетке
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          grid-auto-columns
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">размер (fr|px|%|vw|vh)</span>
+        </div>
+        <div class="ag-grid_col">
+
+        </div>
+        <div class="ag-grid_col">
+          Размер колонок неявной секти
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          grid-auto-rows
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">размер (fr|px|%|vw|vh)</span>
+        </div>
+        <div class="ag-grid_col">
+
+        </div>
+        <div class="ag-grid_col">
+          Размер рядов неявной сетки
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          grid-template-areas
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">"area area..." "area area..." ...</span>
+        </div>
+        <div class="ag-grid_col">
+
+        </div>
+        <div class="ag-grid_col">
+          Разметка расположения областей. (""&#160;– ряд. area&#160;– область в ряду)
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          grid-column-gap
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">число (px|%|vw|vh)</span>
+        </div>
+        <div class="ag-grid_col">
+
+        </div>
+        <div class="ag-grid_col">
+          Отступ между колонками
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          grid-row-gap
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">число (px|%|vw|vh)</span>
+        </div>
+        <div class="ag-grid_col">
+
+        </div>
+        <div class="ag-grid_col">
+          Отступ между рядами
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          grid-gap (сокращение)
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">число (px|%|vw|vh)</span>
+          <span class="ag-grid_text">x y&#160;– число (px|%|vw|vh)</span>
+        </div>
+        <div class="ag-grid_col">
+
+        </div>
+        <div class="ag-grid_col">
+          Отступ между рядами и колонками [x&#160;– ряды и колонки | х&#160;– ряды у&#160;– колонки]
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          grid-auto-flow
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text"><strong>row&#160;(default)</strong> | column</span>
+        </div>
+        <div class="ag-grid_col">
+
+        </div>
+        <div class="ag-grid_col">
+          Направление оси следования элементов сетки (по умолчанию по строчно)
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          align-items
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">start | center | end | <strong>stretch&#160;(default)</strong></span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">Grid контейнер</span>
+        </div>
+        <div class="ag-grid_col">
+          Выравнивание по вертикали. Если <b>grid-auto-flow: column</b>, выравнивает по горизонтали.
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          justify-items
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">start | center | end | <strong>stretch&#160;(default)</strong></span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">Grid контейнер</span>
+        </div>
+        <div class="ag-grid_col">
+          Выравнивание по горизонтали. Если <b>grid-auto-flow: column</b>, выравнивает по вертикали.
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          grid-column-start
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">число</span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v2">Grid элемент</span>
+        </div>
+        <div class="ag-grid_col">
+          На какой колонке начинается элемент сетки
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          grid-column-end
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">число</span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v2">Grid элемент</span>
+        </div>
+        <div class="ag-grid_col">
+          На какой колонке заканчивается элемент сетки
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          grid-column
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">число / число</span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v2">Grid элемент</span>
+        </div>
+        <div class="ag-grid_col">
+          На какой колонке начинается и заканчивается элемент сетки
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          grid-row-start
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">число</span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v2">Grid элемент</span>
+        </div>
+        <div class="ag-grid_col">
+          На каком ряду начинается элемент сетки
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          grid-row-end
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">число</span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v2">Grid элемент</span>
+        </div>
+        <div class="ag-grid_col">
+          На каком ряду заканчивается элемент сетки
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          grid-row
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">число</span>
+          <span class="ag-grid_text-v3">число / число</span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v2">Grid элемент</span>
+        </div>
+        <div class="ag-grid_col">
+          На каком ряду начинается и заканчивается элемент сетки
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          align-self
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">start | center | end | <strong>stretch&#160;(default)</strong></span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v2">Grid элемент</span>
+        </div>
+        <div class="ag-grid_col">
+          Выравнивание элемента сетки по вертикали
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          justify-self
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">start | center | end | <strong>stretch&#160;(default)</strong></span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v2">Grid элемент</span>
+        </div>
+        <div class="ag-grid_col">
+          Выравнивание элемента сетки по горизонтали
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          grid-area
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">name</span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v2">Grid элемент</span>
+        </div>
+        <div class="ag-grid_col">
+          Название области элемента для областей сетки (<b>grid-template-areas</b>)
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          align-content
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">start | end | center | space-beetween | space-around | space-evenly</span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">Grid контейнер</span>
+        </div>
+        <div class="ag-grid_col">
+          Выравнивание колонок сетки внутри блока сетки
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          justify-content
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">start | end | center | space-beetween | space-around | space-evenly</span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">Grid контейнер</span>
+        </div>
+        <div class="ag-grid_col">
+          Выравнивание строк сетки внутри блока сетки
+        </div>
+      </div>
+    </div>
+
+    <div class="ag-grid-note_box">
+      <p class="ag-grid-note_text">
+        repeat(количество повторений | auto-fill | auto-fit, minmax(min, max)
+      </p>
+      <p>
+        <strong>auto-fill</strong>&#160;– Автозаполнение сетки. Переносит элементы при недостатке свободного пространства.
+      </p>
+      <p>
+        <strong>auto-fit</strong>&#160;– Автозаполнение сетки c растяжением элементов в свободном пространстве. Переносит элементы при недостатке свободного пространства.
+      </p>
+    </div>
+
+    <div class="ag-grid_title">
+      Flexbox
+    </div>
+    <div class="ag-grid_box">
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          Правило
+        </div>
+        <div class="ag-grid_col">
+          Значение
+        </div>
+        <div class="ag-grid_col">
+          Элемент
+        </div>
+        <div class="ag-grid_col">
+          Описание
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          display
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">flex | inline-flex</span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">Flex контейнер</span>
+        </div>
+        <div class="ag-grid_col">
+          Создает <b>flex</b> элемент
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          flex-direction
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text"><strong>row&#160;(default)</strong> | row-reverse | column | column-reverse</span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">Flex контейнер</span>
+        </div>
+        <div class="ag-grid_col">
+          Определяя главную ось и направление (нормальное или обратное).
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          flex-wrap
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text"><strong>nowrap&#160;(default)</strong> | wrap | wrap-reverse</span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">Flex контейнер</span>
+        </div>
+        <div class="ag-grid_col">
+
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          flex-flow
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text"><'flex-direction'></span> || <span class="ag-grid_text"><'flex-wrap'></span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">Flex контейнер</span>
+        </div>
+        <div class="ag-grid_col">
+          Сокращенное свойство CSS <b>flex-flow</b> определяет направление гибкого контейнера, а также его поведение при переносе
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          align-items
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">flex-start | center | flex-end | <strong>stretch&#160;(default)</strong></span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">Flex контейнер</span>
+        </div>
+        <div class="ag-grid_col">
+          Выравнивает элементы по поперечной оси
+        </div>
+      </div>
+
+      <!--<div class="ag-grid_row">
+        <div class="ag-grid_col">
+          justify-items
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">start | center | end | <strong>stretch&#160;(default)</strong></span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">Flex контейнер</span>
+        </div>
+        <div class="ag-grid_col">
+          Выравнивание по горизонтали. Если grid-auto-flow: column, выравнивает по вертикали.
+        </div>
+      </div>-->
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          align-content
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">start | end | center | space-beetween | space-around | space-evenly</span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">Flex контейнер</span>
+        </div>
+        <div class="ag-grid_col">
+          Выравнивание колонок сетки внутри блока сетки
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          justify-content
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text"><strong>flex-start&#160;(default)</strong> | flex-end | center | space-beetween | space-around | space-evenly</span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">Flex контейнер</span>
+        </div>
+        <div class="ag-grid_col">
+          Используется для выравнивания элементов по главной оси&#160;– направлению, в котором <b>flex-direction</b> задает поток
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          order
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">число</span> <strong>0&#160;(default)</strong>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v2">Flex элемент</span>
+        </div>
+        <div class="ag-grid_col">
+          Устанавливает порядок расположения элемента в <b>flex</b> или <b>grid</b> контейнере
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          flex-grow
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">число</span> <strong>0&#160;(default)</strong>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v2">Flex элемент</span>
+        </div>
+        <div class="ag-grid_col">
+          Устанавливает коэффициент увеличения гибкости, который определяет,
+          какая часть оставшегося пространства гибкого контейнера должна быть назначена основному размеру гибкого элемента
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          flex-shrink
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v3">число</span> <strong>1&#160;(default)</strong>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v2">Flex элемент</span>
+        </div>
+        <div class="ag-grid_col">
+          Устанавливает коэффициент сжатия гибкого элемента.
+          Если размер всех гибких элементов больше гибкого контейнера, элементы сжимаются в соответствии с <b>flex-shrink</b>
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          flex-basis
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">< размер контейнера > | <strong>auto&#160;(default)</strong></span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v2">Flex элемент</span>
+        </div>
+        <div class="ag-grid_col">
+          Устанавливает начальный основной размер гибкого элемента.
+          Он устанавливает размер поля содержимого, если иное не установлено с помощью параметра <b>box-sizing</b>
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          flex
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">none | [<'flex-grow'> <'flex-shrink'>? || <'flex-basis'>]</span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v2">Flex элемент</span>
+        </div>
+        <div class="ag-grid_col">
+          Сокращенное свойство CSS <b>flex</b> определяет, как будет увеличиваться или уменьшаться гибкий элемент,
+          чтобы соответствовать доступному пространству в его гибком контейнере
+        </div>
+      </div>
+
+      <div class="ag-grid_row">
+        <div class="ag-grid_col">
+          align-self
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">start | center | end | <strong>stretch&#160;(default)</strong></span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v2">Flex элемент</span>
+        </div>
+        <div class="ag-grid_col">
+          Выравнивает flex-элементы по текущей flex-линии, переопределяя значение свойства <b>align-items</b>.
+          Если у какого-либо flex-элемента margin в поперечной оси выставлен в auto, то <b>align-self</b> игнорируется
+        </div>
+      </div>
+
+      <!--<div class="ag-grid_row">
+        <div class="ag-grid_col">
+          justify-self
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text">start | center | end | <strong>stretch&#160;(default)</strong></span>
+        </div>
+        <div class="ag-grid_col">
+          <span class="ag-grid_text-v2">Flex элемент</span>
+        </div>
+        <div class="ag-grid_col">
+          Выравнивание элемента сетки по горизонтали
+        </div>
+      </div>-->
+    </div>
+
+    <div class="ag-grid-note_box">
+      <p class="ag-grid-note_text">
+        <strong>(min-width | max-width)</strong> > <strong>flex-basis</strong> > <strong>width</strong>
+      </p>
+      <p>
+        для свойства CSS <strong>flex-direction: row</strong>:
+      </p>
+      <p>
+        приоритет <strong>min-width | max-width</strong> вышем чем у <strong>flex-basis</strong>
+      </p>
+      <p>
+        приоритет <strong>flex-basis</strong> вышем чем у <strong>width</strong>
+      </p>
+      <p class="ag-grid-note_text">
+        <strong>(min-height | max-height)</strong> > <strong>flex-basis</strong> > <strong>height</strong>
+      </p>
+      <p>
+        для свойства CSS <strong>flex-direction: column</strong>:
+      </p>
+      <p>
+        приоритет <strong>min-height | max-height</strong> вышем чем у <strong>flex-basis</strong>
+      </p>
+      <p>
+        приоритет <strong>flex-basis</strong> вышем чем у <strong>height</strong>
+      </p>
+    </div>
+  </div>
+</div>
+
+<!--[if lt IE 9]>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/html5shiv/es5-shim.min.js"></script>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/html5shiv/html5shiv.min.js"></script>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/IE/respond/respond.min.js"></script>
+<![endif]-->
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/jquery/jquery-1.12.4.min.js"></script>
+<script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_common/libs/jquery/jquery-migrate-1.4.1.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
