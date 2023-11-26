@@ -92,8 +92,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/animation-hover-item-scale/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4280">
-              <caret line="214" column="24" lean-forward="false" selection-start-line="214" selection-start-column="24" selection-end-line="214" selection-end-column="24" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#368#1031#2" expanded="true" />
               </folding>
@@ -114,7 +114,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/portfolio/2023.01.15_kuk_tiktok/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7000">
+            <state relative-caret-position="20">
               <caret line="350" column="11" lean-forward="false" selection-start-line="350" selection-start-column="2" selection-end-line="350" selection-end-column="11" />
               <folding />
             </state>
@@ -164,7 +164,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flexbox-grid-v2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="460">
               <caret line="811" column="64" lean-forward="true" selection-start-line="811" selection-start-column="64" selection-end-line="811" selection-end-column="64" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -203,12 +203,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cheat-sheet_grid_flexbox/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="379" column="23" lean-forward="false" selection-start-line="379" selection-start-column="10" selection-end-line="379" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="180">
+              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -216,8 +218,48 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cheat-sheet_grid_flexbox/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="90" column="15" lean-forward="false" selection-start-line="90" selection-start-column="15" selection-end-line="90" selection-end-column="15" />
+            <state relative-caret-position="300">
+              <caret line="27" column="2" lean-forward="false" selection-start-line="27" selection-start-column="2" selection-end-line="28" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grid-margin-auto/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-189">
+              <caret line="144" column="6" lean-forward="false" selection-start-line="144" selection-start-column="6" selection-end-line="144" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grid-margin-auto/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="96" column="2" lean-forward="false" selection-start-line="96" selection-start-column="2" selection-end-line="96" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/portfolio/eximer.ua/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="548">
+              <caret line="2140" column="1" lean-forward="true" selection-start-line="2140" selection-start-column="1" selection-end-line="2140" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="what-we-treat__diagnostika-zoru.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/portfolio/eximer.ua/what-we-treat__diagnostika-zoru.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="680" column="70" lean-forward="false" selection-start-line="680" selection-start-column="41" selection-end-line="680" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -227,10 +269,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>js-ag-collection-popup_boxjs-ag-collection-popup_box</find>
-      <find>argPopupBox</find>
-      <find>&lt;div class=&quot;js-ag-collection-popup_box&quot;&gt;</find>
-      <find>agPopupClose</find>
       <find>\&lt;div class\=\&quot;js\-ag\-collection\-popup_overlay\&quot;\&gt;\n          \&lt;div class\=\&quot;js\-ag\-collection\-popup_box\&quot;\&gt;\n            \&lt;div class\=\&quot;js\-ag\-collection\-popup_btn__close\&quot;\&gt;Close a window\&lt;\/div\&gt;</find>
       <find>\&lt;div class\=\&quot;js\-ag\-collection\-popup_overlay\&quot;\&gt;\n          \&lt;div class\=\&quot;js\-ag\-collection\-popup_btn__close\&quot;\&gt;Close a window\&lt;\/div\&gt;\n          \n          \&lt;div class\=\&quot;js\-ag\-collection\-popup_box\&quot;\&gt;\n\n            \&lt;div class\=\&quot;ag\-collection\-popup_col__left\&quot;\&gt;</find>
       <find>agModal</find>
@@ -253,14 +291,16 @@
       <find>число</find>
       <find>&lt;span class=&quot;ag-grid_text-v2&quot;&gt;Grid контейнер&lt;/span&gt;</find>
       <find>(default)</find>
-      <find>(default)</find>
       <find>-</find>
       <find>сетки (grid-template-areas)</find>
       <find>rgba(135,131,120,.15)</find>
+      <find>align-content</find>
+      <find>&lt;div class=&quot;ag-grid_item&quot;&gt;</find>
+      <find>.ag-service-descr_item__active .ag-service-descr_title:before {</find>
+      <find>ag-service-descr_item__active</find>
+      <find>min-width: 50%;</find>
     </findStrings>
     <replaceStrings>
-      <replace>2 nominations</replace>
-      <replace>#4EBE8A;</replace>
       <replace>ag-collection-popup_overlay</replace>
       <replace>ag-collection-popup_col__left</replace>
       <replace>ag-collection-popup_col__right</replace>
@@ -287,8 +327,10 @@
       <replace>js-ag-collection-popup_box</replace>
       <replace>&lt;span class=&quot;ag-grid_text-v2&quot;&gt;число&lt;/span&gt;</replace>
       <replace>&lt;span class=&quot;ag-grid_text-v3&quot;&gt;Grid контейнер&lt;/span&gt;</replace>
-      <replace>stretch&amp;#160;(default)</replace>
       <replace>#F1F0EF</replace>
+      <replace>stretch&amp;#160;(default)</replace>
+      <replace>&lt;div class=&quot;ag-grid_item ag-counter_item&quot;&gt;</replace>
+      <replace>min-width: 50%;&lt;br&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -322,8 +364,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/slider-portfolio/js/_app-8b6ed6a16b24d590.js" />
-        <option value="$USER_HOME$/example-site/andreikinder.github.io_porfolio_project-3/css/main.css" />
         <option value="$PROJECT_DIR$/filter-category/js/common.js" />
         <option value="$PROJECT_DIR$/filter-category/css/pe-icon-7-stroke.css" />
         <option value="$PROJECT_DIR$/filter-category/css/style.css" />
@@ -371,8 +411,10 @@
         <option value="$PROJECT_DIR$/flexbox-grid-v2/index.html" />
         <option value="$PROJECT_DIR$/flexbox-grid-v2/js/main.js" />
         <option value="$PROJECT_DIR$/flexbox-grid-v2/css/style.css" />
-        <option value="$PROJECT_DIR$/cheat-sheet_grid_flexbox/css/style.css" />
         <option value="$PROJECT_DIR$/cheat-sheet_grid_flexbox/index.html" />
+        <option value="$PROJECT_DIR$/cheat-sheet_grid_flexbox/css/style.css" />
+        <option value="$PROJECT_DIR$/grid-margin-auto/css/style.css" />
+        <option value="$PROJECT_DIR$/grid-margin-auto/index.html" />
       </list>
     </option>
   </component>
@@ -383,8 +425,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="808" />
     <option name="y" value="27" />
-    <option name="width" value="1920" />
+    <option name="width" value="1092" />
     <option name="height" value="985" />
   </component>
   <component name="ProjectView">
@@ -652,15 +695,16 @@
       <workItem from="1699544101559" duration="118000" />
       <workItem from="1700162851669" duration="12913000" />
       <workItem from="1700247238111" duration="7506000" />
-      <workItem from="1700942792463" duration="11251000" />
+      <workItem from="1700942792463" duration="12138000" />
+      <workItem from="1701033433705" duration="5724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1338655000" />
+    <option name="totallyTimeSpent" value="1345266000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="985" extended-state="6" />
+    <frame x="808" y="27" width="1092" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16023579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -702,34 +746,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/slick-timeline/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slick-timeline/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4720">
-          <caret line="236" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/example-site-2/rusvpn.com_en_install/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="209" column="46" lean-forward="false" selection-start-line="209" selection-start-column="46" selection-end-line="209" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/carousel-slick-left-space/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="58" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slick-timeline/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -972,29 +988,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/portfolio/2023.01.15_kuk_tiktok/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7000">
-          <caret line="350" column="11" lean-forward="false" selection-start-line="350" selection-start-column="2" selection-end-line="350" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/example-site-2/amazingwindowfashions.com/css/8ede2873e7f8.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66220">
           <caret line="3311" column="1" lean-forward="false" selection-start-line="3134" selection-start-column="0" selection-end-line="3311" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animation-hover-item-scale/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4280">
-          <caret line="214" column="24" lean-forward="false" selection-start-line="214" selection-start-column="24" selection-end-line="214" selection-end-column="24" />
-          <folding>
-            <element signature="e#368#1031#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1049,11 +1047,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flexbox-grid-v2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="460">
           <caret line="811" column="64" lean-forward="true" selection-start-line="811" selection-start-column="64" selection-end-line="811" selection-end-column="64" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheat-sheet_grid_flexbox/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cheat-sheet_grid_flexbox/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" column="2" lean-forward="false" selection-start-line="27" selection-start-column="2" selection-end-line="28" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animation-hover-item-scale/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#368#1031#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/portfolio/2023.01.15_kuk_tiktok/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="350" column="11" lean-forward="false" selection-start-line="350" selection-start-column="2" selection-end-line="350" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,18 +1099,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cheat-sheet_grid_flexbox/css/style.css">
+    <entry file="file://$USER_HOME$/portfolio/eximer.ua/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="90" column="15" lean-forward="false" selection-start-line="90" selection-start-column="15" selection-end-line="90" selection-end-column="15" />
+        <state relative-caret-position="548">
+          <caret line="2140" column="1" lean-forward="true" selection-start-line="2140" selection-start-column="1" selection-end-line="2140" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cheat-sheet_grid_flexbox/index.html">
+    <entry file="file://$USER_HOME$/portfolio/eximer.ua/what-we-treat__diagnostika-zoru.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="379" column="23" lean-forward="false" selection-start-line="379" selection-start-column="10" selection-end-line="379" selection-end-column="23" />
+        <state relative-caret-position="228">
+          <caret line="680" column="70" lean-forward="false" selection-start-line="680" selection-start-column="41" selection-end-line="680" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grid-margin-auto/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="96" column="2" lean-forward="false" selection-start-line="96" selection-start-column="2" selection-end-line="96" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grid-margin-auto/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="144" column="6" lean-forward="false" selection-start-line="144" selection-start-column="6" selection-end-line="144" selection-end-column="6" />
           <folding />
         </state>
       </provider>

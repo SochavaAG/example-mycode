@@ -30,6 +30,12 @@
 
   border-bottom: 1px solid #EAEAEA;
 }
+.ag-grid_row:hover:not(.ag-grid_row:first-child) {
+ background-color: #F8F8F8;
+}
+.ag-grid_row:first-child {
+  background-color: #e5e5e5;
+}
 .ag-grid_row:first-child,
 .ag-grid_row:first-child .ag-grid_col:first-child {
   font-weight: bold;
