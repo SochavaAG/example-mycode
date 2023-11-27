@@ -43,7 +43,6 @@
   background-color: #e579d7;
 }
 
-
 .ag-grid_item:nth-child(5) .ag-grid_info {
   margin: 10px auto auto 10px;
   background-color: #94e5d6;
@@ -60,7 +59,6 @@
   margin: auto 10px 10px auto;
   background-color: #94e5d6;
 }
-
 
 .ag-grid_item:nth-child(9) .ag-grid_info {
   margin: 0 auto auto;
@@ -79,8 +77,6 @@
   background-color: #ff9500;
 }
 
-
-
 .ag-grid_item:nth-child(13) .ag-grid_info {
   margin: 0;
   background-color: #B6AEEE;
@@ -97,7 +93,6 @@
   margin: 20% 5% 10% 25%;
   background-color: #B6AEEE;
 }
-
 
 .ag-grid_item:nth-last-child(4) .ag-grid_info {
   margin: 0 auto;
