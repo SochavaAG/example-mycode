@@ -214,7 +214,7 @@ body {
   content: "";
   height: 7px;
   width: 14px;
-  background-image: url(../images/arrow-down-b.svg);
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/menu-open-close-v1/images/arrow-down-b.svg);
   background-repeat: no-repeat;
 
   position: absolute;
@@ -222,7 +222,7 @@ body {
   right: 0;
 }
 .js-ag-menu-nav_has-subcat__open:before {
-  background-image: url(../images/arrow-up-b.svg);
+  background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/menu-open-close-v1/images/arrow-up-b.svg);
 }
 .ag-menu-nav_link {
   display: block;
