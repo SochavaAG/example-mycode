@@ -308,8 +308,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/menu-open-close-v1/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="224" column="105" lean-forward="false" selection-start-line="224" selection-start-column="105" selection-end-line="224" selection-end-column="105" />
+            <state relative-caret-position="189">
+              <caret line="645" column="36" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="663" selection-end-column="0" />
               <folding>
                 <element signature="e#1016#1763#2" expanded="true" />
               </folding>
@@ -363,9 +363,6 @@
       <find>block-3</find>
     </findStrings>
     <replaceStrings>
-      <replace>stretch&amp;#160;(default)</replace>
-      <replace>&lt;div class=&quot;ag-grid_item ag-counter_item&quot;&gt;</replace>
-      <replace>min-width: 50%;&lt;br&gt;</replace>
       <replace>ag-grid_text</replace>
       <replace>&lt;div class=&quot;ag-grid_icon&quot;&gt;</replace>
       <replace>ag-grid_area</replace>
@@ -393,6 +390,9 @@
       <replace>block-1</replace>
       <replace>body</replace>
       <replace>block-2</replace>
+      <replace>translateX(200px);</replace>
+      <replace>translateX(-200px);</replace>
+      <replace>250</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/vazhno_project/_production_09.03.2016</dir>
@@ -760,12 +760,12 @@
       <workItem from="1700942792463" duration="12138000" />
       <workItem from="1701033433705" duration="6051000" />
       <workItem from="1701115022792" duration="5957000" />
-      <workItem from="1701293174793" duration="17007000" />
+      <workItem from="1701293174793" duration="17236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1368557000" />
+    <option name="totallyTimeSpent" value="1368786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="985" extended-state="6" />
@@ -1204,8 +1204,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/menu-open-close-v1/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="224" column="105" lean-forward="false" selection-start-line="224" selection-start-column="105" selection-end-line="224" selection-end-column="105" />
+        <state relative-caret-position="189">
+          <caret line="645" column="36" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="663" selection-end-column="0" />
           <folding>
             <element signature="e#1016#1763#2" expanded="true" />
           </folding>
