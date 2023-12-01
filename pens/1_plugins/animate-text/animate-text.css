@@ -670,7 +670,7 @@ xclip
 -------------------------------- */
 .cd-headline.clip span {
   display: inline-block;
-  padding: .2em 0;
+  /*padding: .2em 0;*/
 }
 .cd-headline.clip .cd-words-wrapper {
   overflow: hidden;

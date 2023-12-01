@@ -16,34 +16,8 @@ body {
   font-size: 60px;
   color: #FFF;
 }
-
-.cd-headline.clip div {
-  display: inline-block;
-  padding: .2em 0;
-}
-.cd-headline.clip .cd-words-wrapper {
-  padding: 0;
-
-  overflow: hidden;
-
-  vertical-align: top;
+.cd-words-wrapper {
   color: #e5e128;
-}
-.cd-headline.clip .cd-words-wrapper:after {
-  content: "";
-  height: 100%;
-  width: 2px;
-  background-color: #aebcb9;
-
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.cd-headline.clip div {
-  opacity: 0;
-}
-.cd-headline.clip .is-visible {
-  opacity: 1;
 }
 
 
@@ -55,7 +29,9 @@ body {
 }
 
 @media only screen and (max-width: 639px) {
-
+  .ag-toggle_title {
+    font-size: 30px;
+  }
 }
 
 @media only screen and (max-width: 479px) {
